@@ -9,20 +9,21 @@ export function MyProgrammingProjects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    // Scan for HTML files in the projects directory
-    const loadProjects = async () => {
-      try {
-        // In production, you'll need to manually list projects or use a build-time plugin
-        const projectFiles = [
-          { name: 'Hello World', url: '/projects/HelloWorld.html' }
-        ];
-        setProjects(projectFiles);
-      } catch (error) {
-        console.error('Error loading projects:', error);
-      }
-    };
-
-    loadProjects();
+    // List of all project files
+    const projectFiles = [
+      { name: 'Hello World', url: '/projects/HelloWorld.html' },
+      { name: 'Cat', url: '/projects/cat.html' },
+      { name: 'Cat F', url: '/projects/catf.html' },
+      { name: 'Dog', url: '/projects/dog.html' },
+      { name: 'Follow', url: '/projects/follow.html' },
+      { name: 'Fruits', url: '/projects/fruits.html' },
+      { name: 'Horse', url: '/projects/horse. html.html' },
+      { name: 'Human', url: '/projects/human. html.html' },
+      { name: 'Shark', url: '/projects/shark.html' },
+      { name: 'Snake', url: '/projects/snake. html.html' },
+      { name: 'Test', url: '/projects/test.html' },
+    ];
+    setProjects(projectFiles);
   }, []);
 
   return (
