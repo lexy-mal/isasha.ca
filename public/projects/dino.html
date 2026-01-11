@@ -2,19 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Dino Final</title>
+<title>Dino Pretty (Lower Cactus)</title>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <style>
-  body {
-    margin: 0;
-    background: #333;
-    touch-action: none;
-  }
-  canvas {
-    display: block;
-    margin: 0 auto;
-    background: white;
-  }
+  body { margin: 0; background: #333; touch-action:none; }
+  canvas { display:block; margin:0 auto; background:white; }
 </style>
 </head>
 <body>
@@ -25,16 +17,15 @@
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
-// CONSTANTS
 const groundY = 280;
 const GRAVITY = 2000;
 const JUMP = -850;
 
 // Dino
-let dino = { x: 70, y: 0, w: 40, h: 60, vy: 0, onGround: true };
+let dino = { x: 70, y: 0, w: 60, h: 70, vy: 0, onGround: true };
 
-// Cactus
-let cactus = { x: 600, y: 0, w: 40, h: 70 };
+// LOWER CACTUS (height reduced)
+let cactus = { x: 550, y: 0, w: 50, h: 50 };  // ← was 80, now 50 (smaller cactus)
 
 let gameOver = false;
 let speed = 300;
@@ -44,7 +35,7 @@ function reset() {
   dino.vy = 0;
   dino.onGround = true;
 
-  cactus.x = 600 + Math.random() * 200;
+  cactus.x = 800 + Math.random() * 100;
   cactus.y = groundY - cactus.h;
 
   speed = 300;
@@ -54,10 +45,7 @@ function reset() {
 reset();
 
 function jumpOrRestart() {
-  if (gameOver) {
-    reset();
-    return;
-  }
+  if (gameOver) { reset(); return; }
   if (dino.onGround) {
     dino.vy = JUMP;
     dino.onGround = false;
@@ -66,11 +54,10 @@ function jumpOrRestart() {
 
 window.addEventListener("mousedown", jumpOrRestart);
 window.addEventListener("touchstart", jumpOrRestart);
-window.addEventListener("keydown", (e) => {
+window.addEventListener("keydown", e => {
   if (e.code === "Space" || e.code === "ArrowUp") jumpOrRestart();
 });
 
-// Collision
 function collide(a, b) {
   return !(
     a.x + a.w < b.x ||
@@ -80,24 +67,81 @@ function collide(a, b) {
   );
 }
 
+// Dino drawing
+function drawDino(x, y, w, h) {
+  ctx.save();
+  ctx.translate(x, y);
+
+  ctx.fillStyle = "#4a9c4a";         // body
+  ctx.fillRect(0, h*0.3, w*0.7, h*0.7);
+
+  ctx.fillRect(w*0.5, 0, w*0.55, h*0.45);  // head
+
+  ctx.fillStyle = "#7cd67c";         // belly
+  ctx.fillRect(w*0.05, h*0.45, w*0.45, h*0.4);
+
+  ctx.fillStyle = "white";           // eye
+  ctx.fillRect(w*0.9, h*0.1, 8, 8);
+  ctx.fillStyle = "black";
+  ctx.fillRect(w*0.92, h*0.12, 4, 4);
+
+  ctx.fillStyle = "#4a9c4a";         // tail
+  ctx.beginPath();
+  ctx.moveTo(-w*0.2, h*0.6);
+  ctx.lineTo(0, h*0.4);
+  ctx.lineTo(0, h*0.8);
+  ctx.closePath();
+  ctx.fill();
+
+  ctx.fillStyle = "#2e6a2e";         // legs
+  ctx.fillRect(w*0.1, h*0.95, w*0.2, h*0.25);
+  ctx.fillRect(w*0.45, h*0.95, w*0.2, h*0.25);
+
+  ctx.fillStyle = "#3d7f3d";         // arms
+  ctx.fillRect(w*0.4, h*0.45, w*0.18, h*0.1);
+
+  ctx.restore();
+}
+
+// LOWER cactus drawing
+function drawCactus(x, y, w, h) {
+  ctx.save();
+  ctx.translate(x, y);
+
+  ctx.fillStyle = "#2e8b57";
+
+  // Main shorter trunk
+  const mainW = w * 0.4;
+  ctx.fillRect(mainW, -h, mainW, h);   // trunk is shorter
+
+  // Left arm (adjusted lower)
+  ctx.fillRect(mainW - w*0.25, -h*0.50, w*0.25, h*0.20);
+  ctx.fillRect(mainW - w*0.15, -h*0.50, w*0.10, h*0.35);
+
+  // Right arm (adjusted lower)
+  ctx.fillRect(mainW + mainW, -h*0.30, w*0.25, h*0.20);
+  ctx.fillRect(mainW + mainW, -h*0.30, w*0.10, h*0.35);
+
+  ctx.restore();
+}
+
 let last = 0;
 function loop(t) {
   const dt = (t - last) / 1000;
   last = t;
 
-  // Clear
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0,0,canvas.width,canvas.height);
 
   // Background
   ctx.fillStyle = "#ffffff";
-  ctx.fillRect(0, 0, 800, 350);
+  ctx.fillRect(0,0,800,350);
 
   // Ground
-  ctx.fillStyle = "#d2c39b";
-  ctx.fillRect(0, groundY, 800, 70);
+  ctx.fillStyle = "#deb887";
+  ctx.fillRect(0,groundY,800,70);
 
   if (!gameOver) {
-    // Dino physics
+    // physics
     dino.vy += GRAVITY * dt;
     dino.y += dino.vy * dt;
 
@@ -107,7 +151,6 @@ function loop(t) {
       dino.onGround = true;
     }
 
-    // Move cactus
     cactus.x -= speed * dt;
 
     if (cactus.x + cactus.w < 0) {
@@ -115,37 +158,27 @@ function loop(t) {
       speed += 20;
     }
 
-    // Check collision
     if (collide(dino, cactus)) {
       gameOver = true;
     }
   }
 
-  // Draw cactus
-  ctx.fillStyle = "green";
-  ctx.fillRect(cactus.x, cactus.y, cactus.w, cactus.h);
+  drawCactus(cactus.x, cactus.y, cactus.w, cactus.h);
+  drawDino(dino.x, dino.y, dino.w, dino.h);
 
-  // Draw dino
-  ctx.fillStyle = "black";
-  ctx.fillRect(dino.x, dino.y, dino.w, dino.h);
-
-  // Draw game over
   if (gameOver) {
-    ctx.fillStyle = "rgba(0,0,0,0.5)";
-    ctx.fillRect(0, 0, 800, 350);
-
-    ctx.fillStyle = "white";
-    ctx.font = "40px Arial";
-    ctx.textAlign = "center";
-    ctx.fillText("GAME OVER", 400, 160);
-
-    ctx.font = "20px Arial";
-    ctx.fillText("Tap / Click / Space to restart", 400, 200);
+    ctx.fillStyle="rgba(0,0,0,0.5)";
+    ctx.fillRect(0,0,800,350);
+    ctx.fillStyle="white";
+    ctx.textAlign="center";
+    ctx.font="40px Arial";
+    ctx.fillText("GAME OVER",400,150);
+    ctx.font="20px Arial";
+    ctx.fillText("Tap to restart",400,200);
   }
 
   requestAnimationFrame(loop);
 }
-
 requestAnimationFrame(loop);
 </script>
 
