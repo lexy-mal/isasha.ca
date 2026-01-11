@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Eats Fruit and Grows</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: #c7f9ff; touch-action: none; }
+    canvas { display: block; }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+const canvas = document.getElementById("scene");
+const ctx = canvas.getContext("2d");
+
+function resize() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resize);
+resize();
+
+let targetX = canvas.width / 2;
+let targetY = canvas.height / 2;
+
+// Finger / mouse control
+canvas.addEventListener("mousemove", (e) => {
+  targetX = e.clientX;
+  targetY = e.clientY;
+});
+canvas.addEventListener("touchmove", (e) => {
+  const t = e.touches[0];
+  targetX = t.clientX;
+  targetY = t.clientY;
+  e.preventDefault();
+}, { passive: false });
+
+canvas.addEventListener("touchstart", (e) => {
+  const t = e.touches[0];
+  targetX = t.clientX;
+  targetY = t.clientY;
+}, { passive: false });
+
+// Snake setup
+let snake = [];
+let segmentLength = 14;
+let snakeSpeed = 4;
+let segmentCount = 40;
+
+function initSnake() {
+  snake = [];
+  for (let i = 0; i < segmentCount; i++) {
+    snake.push({ x: canvas.width/2 + i*segmentLength, y: canvas.height/2 });
+  }
+}
+
+initSnake();
+
+// Fruit setup
+const fruits = [];
+const fruitRadius = 16;
+
+function spawnFruit() {
+  fruits.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * (canvas.height - 50) + 25,
+    type: ["apple","orange","banana"][Math.floor(Math.random()*3)]
+  });
+}
+
+for (let i = 0; i < 5; i++) spawnFruit(); // initial fruits
+
+function drawFruit(fruit) {
+  ctx.save();
+  ctx.translate(fruit.x, fruit.y);
+
+  if (fruit.type === "apple") {
+    ctx.fillStyle = "#ff4a4a";
+    ctx.beginPath();
+    ctx.arc(0, 0, fruitRadius, 0, Math.PI*2);
+    ctx.fill();
+  }
+  if (fruit.type === "orange") {
+    ctx.fillStyle = "#ff9c27";
+    ctx.beginPath();
+    ctx.arc(0, 0, fruitRadius, 0, Math.PI*2);
+    ctx.fill();
+  }
+  if (fruit.type === "banana") {
+    ctx.fillStyle = "#ffe56d";
+    ctx.beginPath();
+    ctx.ellipse(0, 0, fruitRadius*1.3, fruitRadius*0.7, 0.4, 0, Math.PI*2);
+    ctx.fill();
+  }
+
+  ctx.restore();
+}
+
+// Update snake movement
+function updateSnake(dt) {
+  const head = snake[0];
+
+  const dx = targetX - head.x;
+  const dy = targetY - head.y;
+  const dist = Math.hypot(dx, dy);
+
+  if (dist > 1) {
+    const nx = dx / dist;
+    const ny = dy / dist;
+    const speed = snakeSpeed * (dt / 16);
+    head.x += nx * speed;
+    head.y += ny * speed;
+  }
+
+  // body segments follow head
+  for (let i = 1; i < snake.length; i++) {
+    const prev = snake[i - 1];
+    const cur = snake[i];
+
+    const dx2 = prev.x - cur.x;
+    const dy2 = prev.y - cur.y;
+    const d2 = Math.hypot(dx2, dy2) || 0.0001;
+
+    const move = (d2 - segmentLength) * 0.4;
+    cur.x += dx2 / d2 * move;
+    cur.y += dy2 / d2 * move;
+  }
+}
+
+function drawSnake() {
+  ctx.lineCap = "round";
+  ctx.lineJoin = "round";
+  ctx.lineWidth = 18;
+
+  // gradient from tail → head
+  const tail = snake[snake.length - 1];
+  const head = snake[0];
+  const grad = ctx.createLinearGradient(tail.x, tail.y, head.x, head.y);
+  grad.addColorStop(0, "#004d22");
+  grad.addColorStop(1, "#44dd88");
+  ctx.strokeStyle = grad;
+
+  ctx.beginPath();
+  snake.forEach((s, i) => {
+    if (i === 0) ctx.moveTo(s.x, s.y);
+    else ctx.lineTo(s.x, s.y);
+  });
+  ctx.stroke();
+
+  // Draw head features
+  const hx = head.x;
+  const hy = head.y;
+  const neck = snake[1];
+  const angle = Math.atan2(hy - neck.y, hx - neck.x);
+
+  ctx.save();
+  ctx.translate(hx, hy);
+  ctx.rotate(angle);
+
+  // head ellipse
+  ctx.fillStyle = "#66ee99";
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 14, 18, 0, 0, Math.PI*2);
+  ctx.fill();
+  ctx.strokeStyle = "#003311";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+
+  // Eyes
+  ctx.fillStyle = "white";
+  ctx.beginPath();
+  ctx.arc(4, -5, 3, 0, Math.PI*2);
+  ctx.arc(4,  5, 3, 0, Math.PI*2);
+  ctx.fill();
+
+  ctx.fillStyle = "black";
+  ctx.beginPath();
+  ctx.arc(5, -5, 1.5, 0, Math.PI*2);
+  ctx.arc(5,  5, 1.5, 0, Math.PI*2);
+  ctx.fill();
+
+  ctx.restore();
+}
+
+// Collision detection — snake head touching fruit
+function checkEatFruit() {
+  const head = snake[0];
+
+  for (let i = fruits.length - 1; i >= 0; i--) {
+    const f = fruits[i];
+    const dx = head.x - f.x;
+    const dy = head.y - f.y;
+    const d = Math.hypot(dx, dy);
+
+    if (d < fruitRadius + 10) {
+      // remove fruit
+      fruits.splice(i, 1);
+
+      // grow snake by 10 segments
+      for (let j = 0; j < 10; j++) {
+        const last = snake[snake.length - 1];
+        snake.push({ x: last.x, y: last.y });
+      }
+
+      // spawn new fruit
+      spawnFruit();
+    }
+  }
+}
+
+let lastTime = 0;
+
+function loop(time) {
+  const dt = time - lastTime || 16;
+  lastTime = time;
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Draw fruits
+  fruits.forEach(drawFruit);
+
+  // Update snake
+  updateSnake(dt);
+
+  // Eat fruits
+  checkEatFruit();
+
+  // Draw snake
+  drawSnake();
+
+  requestAnimationFrame(loop);
+}
+
+requestAnimationFrame(loop);
+</script>
+
+</body>
+</html>
