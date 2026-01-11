@@ -23,9 +23,9 @@ export function Hero() {
             <div>
               <a
                 href="#my-programming-projects"
-                className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full border-2 border-purple-300 hover:border-purple-400 transition-all duration-300 hover:shadow-lg hover:scale-105 font-medium"
+                className="inline-block px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-purple-200"
               >
-                My Programming Projects 💻
+                <span className="text-purple-600">My Programming Projects 💻</span>
               </a>
             </div>
           </div>
