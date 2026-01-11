@@ -55,8 +55,6 @@ export function MyProgrammingProjects() {
               <a
                 key={index}
                 href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-400/10 to-pink-400/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
