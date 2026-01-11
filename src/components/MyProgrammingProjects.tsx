@@ -9,20 +9,25 @@ export function MyProgrammingProjects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
-    // List of all project files
-    const projectFiles = [
-      { name: 'Hello World', url: '/projects/HelloWorld.html' },
-      { name: 'Cat', url: '/projects/cat.html' },
-      { name: 'Cat F', url: '/projects/catf.html' },
-      { name: 'Dog', url: '/projects/dog.html' },
-      { name: 'Follow', url: '/projects/follow.html' },
-      { name: 'Fruits', url: '/projects/fruits.html' },
-      { name: 'Horse', url: '/projects/horse. html.html' },
-      { name: 'Human', url: '/projects/human. html.html' },
-      { name: 'Shark', url: '/projects/shark.html' },
-      { name: 'Snake', url: '/projects/snake. html.html' },
-      { name: 'Test', url: '/projects/test.html' },
-    ];
+    // Dynamically load all HTML files from public/projects/
+    const projectModules = import.meta.glob('/public/projects/*.html', { eager: true });
+    
+    const projectFiles = Object.keys(projectModules).map(path => {
+      // Extract filename from path: /public/projects/HelloWorld.html -> HelloWorld
+      const filename = path.split('/').pop()?.replace('.html', '') || '';
+      // Convert filename to title: HelloWorld -> Hello World, snake. html -> Snake
+      const name = filename
+        .replace(/\. html$/, '') // Remove trailing ". html" if present
+        .replace(/([A-Z])/g, ' $1') // Add space before capital letters
+        .replace(/^./, str => str.toUpperCase()) // Capitalize first letter
+        .trim();
+      
+      return {
+        name: name || filename,
+        url: `/projects/${path.split('/').pop()}`
+      };
+    }).sort((a, b) => a.name.localeCompare(b.name));
+    
     setProjects(projectFiles);
   }, []);
 
