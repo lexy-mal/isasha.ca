@@ -3,6 +3,7 @@ import { StorySection } from "./components/StorySection";
 import { FlyingGymnast } from "./components/FlyingGymnast";
 import { PassionsSection } from "./components/PassionsSection";
 import { LookingAhead } from "./components/LookingAhead";
+import { MyProgrammingProjects } from "./components/MyProgrammingProjects";
 import { Footer } from "./components/Footer";
 
 export default function App() {
@@ -13,6 +14,9 @@ export default function App() {
       <FlyingGymnast />
       <PassionsSection />
       <LookingAhead />
+      <div id="my-programming-projects">
+        <MyProgrammingProjects />
+      </div>
       <Footer />
     </div>
   );

@@ -20,6 +20,14 @@ export function Hero() {
                 I'm 8 years old, and I love trying new things, moving, and learning every single day! ✨
               </p>
             </div>
+            <div>
+              <a
+                href="#my-programming-projects"
+                className="inline-block px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full border-2 border-purple-300 hover:border-purple-400 transition-all duration-300 hover:shadow-lg hover:scale-105 font-medium"
+              >
+                My Programming Projects 💻
+              </a>
+            </div>
           </div>
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative">
