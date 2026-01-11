@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dog Flying and Falling</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#6ecfff, #e5f7ff);
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  const groundHeight = 90;
+  const groundY = () => canvas.height - groundHeight;
+
+  const CYCLE = 6000;        // total ms for one cycle
+  const FLY_TIME = 2800;     // first part: flying
+  const FALL_TIME = 2200;    // next part: falling (rest is bounce/reset)
+
+  function drawBackground(t) {
+    // Ground
+    const gy = groundY();
+    ctx.fillStyle = '#4b9b3c';
+    ctx.fillRect(0, gy, canvas.width, groundHeight);
+
+    // Hills
+    ctx.fillStyle = '#3f8332';
+    ctx.beginPath();
+    ctx.moveTo(0, gy);
+    ctx.quadraticCurveTo(canvas.width * 0.3, gy - 60, canvas.width * 0.6, gy);
+    ctx.quadraticCurveTo(canvas.width * 0.85, gy - 40, canvas.width, gy);
+    ctx.lineTo(canvas.width, canvas.height);
+    ctx.lineTo(0, canvas.height);
+    ctx.closePath();
+    ctx.fill();
+
+    // Sun
+    ctx.fillStyle = '#ffe066';
+    ctx.beginPath();
+    ctx.arc(canvas.width - 80, 80, 40, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Clouds
+    drawCloud(canvas.width * 0.2 + Math.sin(t * 0.0002) * 40, canvas.height * 0.2, 1.1);
+    drawCloud(canvas.width * 0.5 + Math.cos(t * 0.00025) * 60, canvas.height * 0.15, 0.9);
+    drawCloud(canvas.width * 0.8 + Math.sin(t * 0.00018 + 1.5) * 50, canvas.height * 0.3, 1.2);
+  }
+
+  function drawCloud(x, y, s = 1) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(s, s);
+    ctx.fillStyle = 'rgba(255,255,255,0.95)';
+    ctx.beginPath();
+    ctx.arc(0, 0, 18, 0, Math.PI * 2);
+    ctx.arc(22, -6, 24, 0, Math.PI * 2);
+    ctx.arc(44, 0, 18, 0, Math.PI * 2);
+    ctx.arc(22, 12, 20, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function drawDog(x, y, t, mode) {
+    // mode: 'fly' | 'fall' | 'land'
+    ctx.save();
+    ctx.translate(x, y);
+
+    if (mode === 'fly') {
+      ctx.rotate(0.2); // angled up a bit
+    } else if (mode === 'fall') {
+      ctx.rotate(1.2); // nose-down fall
+    }
+
+    const bodyLength = 90;
+    const bodyHeight = 38;
+    const headSize = 32;
+
+    const legWave = Math.sin(t * 0.02) * (mode === 'fly' ? 5 : 2);
+    const tailWave = Math.sin(t * 0.02) * (mode === 'fly' ? 10 : 4);
+    const earWave  = Math.sin(t * 0.02) * 4;
+
+    // Body
+    ctx.fillStyle = '#c28b5b';
+    ctx.strokeStyle = '#5b402a';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.roundRect(-bodyLength / 2, -bodyHeight / 2, bodyLength, bodyHeight, 18);
+    ctx.fill();
+    ctx.stroke();
+
+    // Cape
+    ctx.fillStyle = 'rgba(255, 0, 60, 0.8)';
+    ctx.beginPath();
+    ctx.moveTo(-bodyLength / 2, -bodyHeight / 2);
+    ctx.quadraticCurveTo(-bodyLength / 2 - 40, -bodyHeight / 2 - 30, -bodyLength / 2 - 5, -bodyHeight / 2 + 5);
+    ctx.closePath();
+    ctx.fill();
+
+    // Head
+    const headX = bodyLength / 2 - 20;
+    const headY = -bodyHeight / 2 + 5;
+    ctx.fillStyle = '#d49a65';
+    ctx.beginPath();
+    ctx.ellipse(headX, headY, headSize / 2, headSize * 0.55, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.stroke();
+
+    // Ear
+    ctx.fillStyle = '#8a5a39';
+    ctx.beginPath();
+    ctx.moveTo(headX - 6, headY - headSize * 0.6);
+    ctx.lineTo(headX - 10, headY - headSize * 0.9 - earWave);
+    ctx.lineTo(headX + 2, headY - headSize * 0.6);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+
+    // Snout
+    ctx.fillStyle = '#f1c99a';
+    ctx.beginPath();
+    ctx.ellipse(headX + 18, headY + 4, 16, 10, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.stroke();
+
+    // Nose
+    ctx.fillStyle = '#000';
+    ctx.beginPath();
+    ctx.arc(headX + 26, headY + 2, 3, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Eyes (get a bit "worried" when falling)
+    ctx.fillStyle = '#fff';
+    ctx.beginPath();
+    ctx.arc(headX + 2, headY - 5, 4, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = '#000';
+    ctx.beginPath();
+    const eyeOffset = mode === 'fall' ? -1 : 1;
+    ctx.arc(headX + 2 + eyeOffset, headY - 5, 2, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Mouth
+    ctx.strokeStyle = '#000';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    if (mode === 'fall') {
+      // open mouth
+      ctx.moveTo(headX + 16, headY + 8);
+      ctx.quadraticCurveTo(headX + 20, headY + 18, headX + 24, headY + 8);
+    } else {
+      // smile
+      ctx.moveTo(headX + 16, headY + 8);
+      ctx.quadraticCurveTo(headX + 20, headY + 12, headX + 24, headY + 8);
+    }
+    ctx.stroke();
+
+    // Legs
+    ctx.strokeStyle = '#5b402a';
+    ctx.lineWidth = 4;
+
+    // Front legs
+    ctx.beginPath();
+    ctx.moveTo(bodyLength / 4, bodyHeight / 2 - 2);
+    ctx.lineTo(bodyLength / 4 + 6, bodyHeight / 2 + 18 + legWave);
+    ctx.moveTo(bodyLength / 4 - 12, bodyHeight / 2 - 4);
+    ctx.lineTo(bodyLength / 4 - 6, bodyHeight / 2 + 14 - legWave);
+    ctx.stroke();
+
+    // Back legs
+    ctx.beginPath();
+    ctx.moveTo(-bodyLength / 4, bodyHeight / 2 - 2);
+    ctx.lineTo(-bodyLength / 4 - 8, bodyHeight / 2 + 18 - legWave);
+    ctx.moveTo(-bodyLength / 4 + 10, bodyHeight / 2 - 4);
+    ctx.lineTo(-bodyLength / 4 + 4, bodyHeight / 2 + 14 + legWave);
+    ctx.stroke();
+
+    // Tail
+    ctx.beginPath();
+    ctx.moveTo(-bodyLength / 2 + 8, -bodyHeight / 4);
+    ctx.quadraticCurveTo(
+      -bodyLength / 2 - 10,
+      -bodyHeight / 4 - 10 - tailWave,
+      -bodyLength / 2 - 20,
+      -bodyHeight / 4
+    );
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  function loop(timestamp) {
+    const t = timestamp;
+    const cycleTime = t % CYCLE;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    drawBackground(t);
+
+    let dogX, dogY, mode;
+
+    if (cycleTime < FLY_TIME) {
+      // PHASE 1: dog is FLYING up and across
+      const f = cycleTime / FLY_TIME; // 0 → 1
+      const startX = -120;
+      const endX = canvas.width * 0.7;
+      const startY = groundY();
+      const peakY = canvas.height * 0.2;
+
+      dogX = startX + (endX - startX) * f;
+      // smooth curve up
+      dogY = startY - (startY - peakY) * (1 - Math.cos(f * Math.PI)) / 2;
+
+      mode = 'fly';
+
+    } else if (cycleTime < FLY_TIME + FALL_TIME) {
+      // PHASE 2: dog STOPS and FALLS STRAIGHT DOWN
+      const fallT = cycleTime - FLY_TIME;
+      const fallProgress = fallT / FALL_TIME; // 0 → 1
+
+      const startX = canvas.width * 0.7;
+      const startY = canvas.height * 0.2;
+      const endY = groundY() - 30;
+
+      dogX = startX; // x fixed during fall
+      // ease-in fall (starts slow, ends fast)
+      dogY = startY + (endY - startY) * Math.pow(fallProgress, 2);
+
+      mode = 'fall';
+
+    } else {
+      // PHASE 3: dog on the ground, tiny bounce
+      const restT = cycleTime - (FLY_TIME + FALL_TIME);
+      const baseX = canvas.width * 0.7;
+      const baseY = groundY() - 30;
+
+      // small damping bounce
+      const amp = 6 * Math.exp(-restT * 0.01);
+      dogX = baseX;
+      dogY = baseY + Math.sin(restT * 0.04) * amp;
+
+      mode = 'land';
+    }
+
+    drawDog(dogX, dogY, t, mode === 'fall');
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

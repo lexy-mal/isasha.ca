@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Follows Your Finger</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: radial-gradient(circle at top, #87cefa 0%, #e6f7ff 40%, #d0f0c0 100%);
+      font-family: sans-serif;
+      touch-action: none; /* prevent scroll on touch drag */
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Target (finger/mouse) position
+  let targetX = canvas.width / 2;
+  let targetY = canvas.height / 2;
+
+  // Event handlers: mouse + touch
+  canvas.addEventListener('mousemove', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    targetX = e.clientX - rect.left;
+    targetY = e.clientY - rect.top;
+  });
+
+  canvas.addEventListener('touchmove', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const touch = e.touches[0];
+    targetX = touch.clientX - rect.left;
+    targetY = touch.clientY - rect.top;
+    e.preventDefault();
+  }, { passive: false });
+
+  canvas.addEventListener('touchstart', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const touch = e.touches[0];
+    targetX = touch.clientX - rect.left;
+    targetY = touch.clientY - rect.top;
+    e.preventDefault();
+  }, { passive: false });
+
+  // Snake properties
+  const segmentCount = 40;
+  const segmentLength = 12;
+  const snake = [];
+  const snakeSpeed = 4.0; // base movement speed
+
+  // Initialize snake in the center
+  for (let i = 0; i < segmentCount; i++) {
+    snake.push({
+      x: canvas.width / 2 + i * segmentLength,
+      y: canvas.height / 2,
+    });
+  }
+
+  let lastTime = 0;
+
+  function updateSnake(dt) {
+    const head = snake[0];
+
+    // Move head towards target
+    const dx = targetX - head.x;
+    const dy = targetY - head.y;
+    const dist = Math.hypot(dx, dy);
+
+    const maxStep = snakeSpeed * (dt / 16);
+    if (dist > 0.1) {
+      const step = Math.min(maxStep, dist);
+      const nx = dx / dist;
+      const ny = dy / dist;
+
+      // Slight "crawling" wiggle
+      const time = performance.now() / 200;
+      const wiggleStrength = 4;
+      const wx = -ny * Math.sin(time) * wiggleStrength;
+      const wy =  nx * Math.sin(time) * wiggleStrength;
+
+      head.x += nx * step + wx * (dist > 40 ? 1 : 0); // less wiggle when close
+      head.y += ny * step + wy * (dist > 40 ? 1 : 0);
+    }
+
+    // Each segment follows the previous one
+    for (let i = 1; i < segmentCount; i++) {
+      const prev = snake[i - 1];
+      const seg = snake[i];
+      const dxSeg = prev.x - seg.x;
+      const dySeg = prev.y - seg.y;
+      const d = Math.hypot(dxSeg, dySeg) || 0.0001;
+      const desired = segmentLength;
+      if (d > 0) {
+        const move = (d - desired) * 0.4; // softness of the chain
+        seg.x += (dxSeg / d) * move;
+        seg.y += (dySeg / d) * move;
+      }
+    }
+  }
+
+  function drawBackground() {
+    // Simple ground
+    const groundY = canvas.height * 0.8;
+    ctx.fillStyle = '#7ac66c';
+    ctx.fillRect(0, groundY, canvas.width, canvas.height - groundY);
+
+    // Some bushes
+    ctx.fillStyle = '#4f9a49';
+    for (let i = 0; i < 6; i++) {
+      const bx = (canvas.width / 5) * i + 40;
+      const by = groundY - 10;
+      ctx.beginPath();
+      ctx.arc(bx, by, 35, 0, Math.PI * 2);
+      ctx.arc(bx + 25, by + 5, 30, 0, Math.PI * 2);
+      ctx.arc(bx - 25, by + 5, 30, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+
+  function drawSnake() {
+    // Draw body as thick path with gradient
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    const head = snake[0];
+    const tail = snake[snake.length - 1];
+
+    const grad = ctx.createLinearGradient(tail.x, tail.y, head.x, head.y);
+    grad.addColorStop(0, '#005522');
+    grad.addColorStop(0.5, '#00aa44');
+    grad.addColorStop(1, '#66dd88');
+
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = 16;
+
+    ctx.beginPath();
+    for (let i = 0; i < snake.length; i++) {
+      const s = snake[i];
+      if (i === 0) ctx.moveTo(s.x, s.y);
+      else ctx.lineTo(s.x, s.y);
+    }
+    ctx.stroke();
+
+    // Head with eyes and tongue
+    const hx = head.x;
+    const hy = head.y;
+    const neck = snake[1];
+    const angle = Math.atan2(hy - neck.y, hx - neck.x);
+
+    ctx.save();
+    ctx.translate(hx, hy);
+    ctx.rotate(angle);
+
+    // Head shape
+    ctx.fillStyle = '#66dd88';
+    ctx.beginPath();
+    ctx.ellipse(0, 0, 14, 18, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.strokeStyle = '#003311';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    // Eyes
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath();
+    ctx.arc(4, -5, 3, 0, Math.PI * 2);
+    ctx.arc(4,  5, 3, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#000';
+    ctx.beginPath();
+    ctx.arc(4.8, -5, 1.5, 0, Math.PI * 2);
+    ctx.arc(4.8,  5, 1.5, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Tongue flick
+    const tonguePhase = Math.sin(performance.now() / 150);
+    if (tonguePhase > 0) {
+      ctx.strokeStyle = '#ff3366';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(14, 0);
+      ctx.lineTo(20, -2);
+      ctx.moveTo(14, 0);
+      ctx.lineTo(20,  2);
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function loop(timestamp) {
+    const dt = lastTime ? (timestamp - lastTime) : 16;
+    lastTime = timestamp;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    drawBackground();
+    updateSnake(dt);
+    drawSnake();
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

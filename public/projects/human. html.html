@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Person Walking</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#87ceeb, #ffffff);
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let personX = -50;
+  const walkSpeed = 3;       // horizontal speed
+  const stepSpeed = 0.18;    // how fast legs/arms move
+  const stepAmplitude = 0.9; // how far they swing
+
+  function drawPerson(x, groundY, t) {
+    ctx.save();
+    ctx.translate(x, groundY);
+
+    const bodyHeight = 60;
+    const headRadius = 12;
+    const armLength = 30;
+    const legLength = 35;
+
+    // Step phase – legs & arms swing opposite
+    const step = Math.sin(t * stepSpeed);
+    const legAngle = step * stepAmplitude;
+    const armAngle = -step * stepAmplitude;
+
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = '#222';
+
+    // Head
+    ctx.beginPath();
+    ctx.arc(0, -bodyHeight - headRadius, headRadius, 0, Math.PI * 2);
+    ctx.stroke();
+
+    // Simple face (looking to the right)
+    ctx.beginPath();
+    ctx.arc(4, -bodyHeight - headRadius - 2, 1.7, 0, Math.PI * 2); // eye
+    ctx.stroke();
+
+    // Mouth (small curve)
+    ctx.beginPath();
+    ctx.arc(2, -bodyHeight - headRadius + 3, 4, 0, Math.PI / 3);
+    ctx.stroke();
+
+    // Body
+    ctx.beginPath();
+    ctx.moveTo(0, -bodyHeight);
+    ctx.lineTo(0, 0);
+    ctx.stroke();
+
+    // Arms (shoulder a bit below top of body)
+    const shoulderY = -bodyHeight + 15;
+    ctx.beginPath();
+    // Front arm (towards direction of motion)
+    ctx.moveTo(0, shoulderY);
+    ctx.lineTo(
+      Math.cos(armAngle) * armLength,
+      shoulderY + Math.sin(armAngle) * armLength
+    );
+    // Back arm
+    ctx.moveTo(0, shoulderY);
+    ctx.lineTo(
+      Math.cos(-armAngle) * armLength * 0.9,
+      shoulderY + Math.sin(-armAngle) * armLength
+    );
+    ctx.stroke();
+
+    // Legs (from hip)
+    const hipY = 0;
+    ctx.beginPath();
+    // Front leg
+    ctx.moveTo(0, hipY);
+    ctx.lineTo(
+      Math.sin(legAngle) * legLength,
+      hipY + Math.cos(legAngle) * legLength
+    );
+    // Back leg
+    ctx.moveTo(0, hipY);
+    ctx.lineTo(
+      Math.sin(-legAngle) * legLength,
+      hipY + Math.cos(-legAngle) * legLength
+    );
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  let lastTime = 0;
+
+  function loop(timestamp) {
+    const dt = (timestamp - lastTime) || 16;
+    lastTime = timestamp;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Ground position
+    const groundY = canvas.height - 80;
+
+    // Draw ground
+    ctx.fillStyle = '#3b7a2a';
+    ctx.fillRect(0, groundY + 10, canvas.width, canvas.height - (groundY + 10));
+
+    // Move person left → right
+    personX += walkSpeed * (dt / 16);
+    if (personX > canvas.width + 50) {
+      personX = -50;
+    }
+
+    drawPerson(personX, groundY, timestamp);
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

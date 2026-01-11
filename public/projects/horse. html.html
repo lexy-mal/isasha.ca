@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Horse Running</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#87ceeb, #ffffff);
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let horseX = -150;
+  const groundY = () => canvas.height - 120;
+  const runSpeed = 4;     // horizontal speed
+  const legSpeed = 0.35;  // leg movement speed
+  const bounceAmp = 6;    // up/down body bounce
+
+  function drawHorse(x, baseY, t) {
+    ctx.save();
+    ctx.translate(x, baseY);
+
+    const bodyLength = 110;
+    const bodyHeight = 40;
+    const neckLength = 35;
+    const headSize = 25;
+    const legLength = 45;
+
+    // Time-based motion
+    const phase = t * legSpeed;
+    const frontPhase = Math.sin(phase);
+    const backPhase  = Math.sin(phase + Math.PI);
+    const bodyBounce = Math.sin(phase * 2) * bounceAmp;
+
+    ctx.translate(0, bodyBounce);
+
+    ctx.lineWidth = 4;
+    ctx.strokeStyle = '#4a2a15';
+    ctx.fillStyle = '#7b4b2a';
+
+    // BODY (horizontal oval/rectangle)
+    ctx.beginPath();
+    ctx.roundRect(-bodyLength / 2, -bodyHeight, bodyLength, bodyHeight, 18);
+    ctx.fill();
+    ctx.stroke();
+
+    // NECK
+    ctx.beginPath();
+    const neckBaseX = bodyLength / 2 - 15;
+    const neckBaseY = -bodyHeight;
+    ctx.moveTo(neckBaseX, neckBaseY);
+    ctx.lineTo(neckBaseX + neckLength * 0.4, neckBaseY - neckLength);
+    ctx.stroke();
+
+    // HEAD
+    const headCenterX = neckBaseX + neckLength * 0.4 + headSize * 0.3;
+    const headCenterY = neckBaseY - neckLength - headSize * 0.3;
+    ctx.beginPath();
+    ctx.ellipse(headCenterX, headCenterY, headSize * 0.9, headSize * 0.7, 0, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.stroke();
+
+    // EYE
+    ctx.fillStyle = '#000';
+    ctx.beginPath();
+    ctx.arc(headCenterX + headSize * 0.15, headCenterY - headSize * 0.15, 2.2, 0, Math.PI * 2);
+    ctx.fill();
+
+    // MANE (simple zigzag)
+    ctx.strokeStyle = '#2b170c';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(neckBaseX + 5, neckBaseY - 5);
+    ctx.lineTo(neckBaseX - 10, neckBaseY - 20);
+    ctx.lineTo(neckBaseX + 5, neckBaseY - 35);
+    ctx.lineTo(neckBaseX - 10, neckBaseY - 50);
+    ctx.stroke();
+
+    // TAIL
+    ctx.beginPath();
+    const tailBaseX = -bodyLength / 2;
+    const tailBaseY = -bodyHeight + 5;
+    const tailSwing = Math.sin(phase * 1.5) * 10;
+    ctx.moveTo(tailBaseX, tailBaseY);
+    ctx.quadraticCurveTo(
+      tailBaseX - 20 - tailSwing,
+      tailBaseY + 20,
+      tailBaseX - 8,
+      tailBaseY + 45
+    );
+    ctx.stroke();
+
+    // LEGS
+    ctx.strokeStyle = '#4a2a15';
+    ctx.lineWidth = 4;
+
+    const hipY = 0; // where body meets legs
+    const legSpread = 25;
+
+    // Helper to draw one leg with phase offset
+    function drawLeg(offsetX, phaseValue, isFront) {
+      const hipX = offsetX;
+      const swing = phaseValue * 0.6;
+
+      const kneeX = hipX + swing * (isFront ? 12 : 8);
+      const kneeY = hipY + legLength * 0.55;
+      const hoofX = kneeX + swing * (isFront ? 14 : 10);
+      const hoofY = hipY + legLength;
+
+      ctx.beginPath();
+      ctx.moveTo(hipX, hipY - 3);
+      ctx.lineTo(kneeX, kneeY);
+      ctx.lineTo(hoofX, hoofY);
+      ctx.stroke();
+
+      // small hoof
+      ctx.beginPath();
+      ctx.moveTo(hoofX - 4, hoofY);
+      ctx.lineTo(hoofX + 4, hoofY);
+      ctx.stroke();
+    }
+
+    // Front legs (closer to head)
+    drawLeg(bodyLength / 2 - legSpread, frontPhase, true);    // front-right
+    drawLeg(bodyLength / 2 - legSpread - 12, -frontPhase, true); // front-left
+
+    // Back legs (towards tail)
+    drawLeg(-bodyLength / 2 + legSpread, backPhase, false);     // back-right
+    drawLeg(-bodyLength / 2 + legSpread + 12, -backPhase, false); // back-left
+
+    ctx.restore();
+  }
+
+  let lastTime = 0;
+
+  function loop(timestamp) {
+    const dt = (timestamp - lastTime) || 16;
+    lastTime = timestamp;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const gy = groundY();
+
+    // Ground
+    ctx.fillStyle = '#3b7a2a';
+    ctx.fillRect(0, gy + 5, canvas.width, canvas.height - (gy + 5));
+
+    // Simple distant “hills”
+    ctx.fillStyle = '#4e8b35';
+    ctx.beginPath();
+    ctx.moveTo(0, gy + 5);
+    ctx.quadraticCurveTo(canvas.width * 0.3, gy - 60, canvas.width * 0.6, gy + 5);
+    ctx.quadraticCurveTo(canvas.width * 0.8, gy - 50, canvas.width, gy + 5);
+    ctx.closePath();
+    ctx.fill();
+
+    // Move horse left → right
+    horseX += runSpeed;
+    if (horseX > canvas.width + 200) {
+      horseX = -200;
+    }
+
+    drawHorse(horseX, gy, timestamp);
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

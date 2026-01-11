@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flying Cat</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#5ac8ff, #e0f7ff);
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  let catX = -150;
+  const flySpeed = 3.2;
+  const flapSpeed = 0.2;
+  const pathAmplitude = 60;
+
+  function drawCloud(x, y, scale = 1) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(scale, scale);
+
+    ctx.fillStyle = 'rgba(255,255,255,0.9)';
+    ctx.beginPath();
+    ctx.arc(0, 0, 20, 0, Math.PI * 2);
+    ctx.arc(20, -10, 25, 0, Math.PI * 2);
+    ctx.arc(45, 0, 20, 0, Math.PI * 2);
+    ctx.arc(25, 10, 22, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.restore();
+  }
+
+  function drawCat(x, y, t) {
+    ctx.save();
+    ctx.translate(x, y);
+
+    const bodyWidth = 90;
+    const bodyHeight = 45;
+    const headSize = 32;
+    const tailLength = 45;
+
+    const flap = Math.sin(t * flapSpeed) * 0.5;
+    const tailWave = Math.sin(t * 0.25) * 8;
+
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = '#444';
+    ctx.fillStyle = '#ffcc66';
+
+    // BODY
+    ctx.beginPath();
+    ctx.roundRect(-bodyWidth / 2, -bodyHeight / 2, bodyWidth, bodyHeight, 15);
+    ctx.fill();
+    ctx.stroke();
+
+    // CAPE (triangle behind cat)
+    ctx.fillStyle = 'rgba(255, 0, 80, 0.8)';
+    ctx.beginPath();
+    ctx.moveTo(-bodyWidth / 2, -bodyHeight / 2);
+    ctx.lineTo(-bodyWidth / 2 - 40, -bodyHeight / 2 - 10);
+    ctx.lineTo(-bodyWidth / 2, bodyHeight / 2);
+    ctx.closePath();
+    ctx.fill();
+
+    // HEAD
+    ctx.fillStyle = '#ffcc66';
+    ctx.beginPath();
+    ctx.arc(bodyWidth / 2 - 10, -bodyHeight / 2, headSize / 2, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.stroke();
+
+    // EARS
+    const headCenterX = bodyWidth / 2 - 10;
+    const headCenterY = -bodyHeight / 2;
+    ctx.beginPath();
+    ctx.moveTo(headCenterX - 8, headCenterY - headSize / 2);
+    ctx.lineTo(headCenterX - 16, headCenterY - headSize / 2 - 10);
+    ctx.lineTo(headCenterX - 2, headCenterY - headSize / 2 - 5);
+    ctx.closePath();
+    ctx.moveTo(headCenterX + 8, headCenterY - headSize / 2);
+    ctx.lineTo(headCenterX + 16, headCenterY - headSize / 2 - 10);
+    ctx.lineTo(headCenterX + 2, headCenterY - headSize / 2 - 5);
+    ctx.closePath();
+    ctx.fill();
+    ctx.stroke();
+
+    // FACE
+    // Eyes
+    ctx.fillStyle = '#000';
+    ctx.beginPath();
+    ctx.arc(headCenterX - 5, headCenterY - 3, 2.2, 0, Math.PI * 2);
+    ctx.arc(headCenterX + 5, headCenterY - 3, 2.2, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Nose
+    ctx.beginPath();
+    ctx.arc(headCenterX, headCenterY + 2, 2, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Mouth
+    ctx.beginPath();
+    ctx.moveTo(headCenterX, headCenterY + 4);
+    ctx.lineTo(headCenterX - 4, headCenterY + 7);
+    ctx.moveTo(headCenterX, headCenterY + 4);
+    ctx.lineTo(headCenterX + 4, headCenterY + 7);
+    ctx.stroke();
+
+    // WHISKERS
+    ctx.beginPath();
+    ctx.moveTo(headCenterX - 10, headCenterY + 2);
+    ctx.lineTo(headCenterX - 22, headCenterY + 1);
+    ctx.moveTo(headCenterX - 10, headCenterY + 6);
+    ctx.lineTo(headCenterX - 22, headCenterY + 8);
+    ctx.moveTo(headCenterX + 10, headCenterY + 2);
+    ctx.lineTo(headCenterX + 22, headCenterY + 1);
+    ctx.moveTo(headCenterX + 10, headCenterY + 6);
+    ctx.lineTo(headCenterX + 22, headCenterY + 8);
+    ctx.stroke();
+
+    // WINGS
+    ctx.fillStyle = '#ffffff';
+    ctx.strokeStyle = '#dddddd';
+    ctx.lineWidth = 2;
+
+    function drawWing(offsetY, flip = 1) {
+      ctx.save();
+      ctx.translate(-bodyWidth / 4, offsetY);
+      ctx.scale(1, flip);
+      ctx.rotate(-0.4 + flap * 0.6);
+
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.quadraticCurveTo(-20, -10, -35, -2);
+      ctx.quadraticCurveTo(-20, 8, 0, 0);
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.restore();
+    }
+
+    drawWing(-8, 1);   // top wing
+    drawWing(8, -1);   // bottom wing
+
+    // TAIL
+    ctx.strokeStyle = '#444';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.moveTo(-bodyWidth / 2, 0);
+    ctx.quadraticCurveTo(
+      -bodyWidth / 2 - tailLength / 2,
+      tailWave,
+      -bodyWidth / 2 - tailLength,
+      tailWave + 10
+    );
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  let lastTime = 0;
+
+  function loop(timestamp) {
+    const dt = (timestamp - lastTime) || 16;
+    lastTime = timestamp;
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const baseY = canvas.height * 0.4;
+    const t = timestamp;
+
+    // Draw some clouds
+    drawCloud(canvas.width * 0.2, canvas.height * 0.25, 1.1);
+    drawCloud(canvas.width * 0.5, canvas.height * 0.18, 0.9);
+    drawCloud(canvas.width * 0.8, canvas.height * 0.3, 1.2);
+    drawCloud(canvas.width * 0.65, canvas.height * 0.55, 0.8);
+
+    // Update cat position
+    catX += flySpeed * (dt / 16);
+    if (catX > canvas.width + 200) {
+      catX = -200;
+    }
+
+    const catY = baseY + Math.sin(t * 0.0018) * pathAmplitude;
+
+    // Draw cat
+    drawCat(catX, catY, t);
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Snake Crawling & Climbing</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: linear-gradient(#87ceeb, #ffffff);
+      font-family: sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<canvas id="scene"></canvas>
+
+<script>
+  const canvas = document.getElementById('scene');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Animation state
+  let startTime = null;
+
+  function drawTree(treeX, groundY) {
+    const trunkWidth = 60;
+    const trunkHeight = 200;
+
+    // Trunk
+    ctx.fillStyle = '#8b5a2b';
+    ctx.fillRect(treeX - trunkWidth / 2, groundY - trunkHeight, trunkWidth, trunkHeight);
+
+    // Simple foliage
+    ctx.fillStyle = '#2e8b57';
+    ctx.beginPath();
+    ctx.arc(treeX - 40, groundY - trunkHeight, 60, 0, Math.PI * 2);
+    ctx.arc(treeX + 40, groundY - trunkHeight, 60, 0, Math.PI * 2);
+    ctx.arc(treeX, groundY - trunkHeight - 40, 70, 0, Math.PI * 2);
+    ctx.fill();
+  }
+
+  function drawSnakePath(progress, segments, treeX, groundY, treeHeight) {
+    // progress: 0 → 1, where 0–0.5 is crawling, 0.5–1 is climbing
+    const groundStartX = 80;
+    const groundEndX = treeX - 50;
+    const climbTopY = groundY - treeHeight + 40;
+
+    // Compute snake "head" position
+    let headX, headY;
+    let phase; // for wave motion
+
+    if (progress <= 0.5) {
+      // Crawling along ground
+      const local = progress / 0.5; // 0 → 1
+      headX = groundStartX + (groundEndX - groundStartX) * local;
+      headY = groundY - 20;
+      phase = local * 8 * Math.PI;
+    } else {
+      // Climbing up trunk
+      const local = (progress - 0.5) / 0.5; // 0 → 1
+      headX = treeX - 20;
+      headY = groundY - 20 - (groundY - 20 - climbTopY) * local;
+      phase = (4 * Math.PI) + local * 6 * Math.PI;
+    }
+
+    // Draw snake as series of points behind the head
+    ctx.lineWidth = 10;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+
+    // Snake body gradient
+    const grad = ctx.createLinearGradient(headX - 50, headY - 50, headX + 50, headY + 50);
+    grad.addColorStop(0, '#006400');
+    grad.addColorStop(0.5, '#00aa00');
+    grad.addColorStop(1, '#004d00');
+    ctx.strokeStyle = grad;
+
+    ctx.beginPath();
+    for (let i = 0; i < segments; i++) {
+      const t = i / (segments - 1); // 0 → 1 from tail to head
+      const offset = (1 - t) * 80;  // distance from head
+
+      let x, y;
+
+      if (progress <= 0.5) {
+        // Entire snake on ground while crawling
+        const local = Math.max(progress - (offset / (groundEndX - groundStartX)) * 0.5, 0) / 0.5;
+        const gx = groundStartX + (groundEndX - groundStartX) * local;
+        const gy = groundY - 20;
+
+        const wave = Math.sin(phase - t * 6) * 10;
+        x = gx;
+        y = gy + wave;
+      } else {
+        // Mix of ground & trunk depending on segment
+        const crawlPortion = 0.6; // how much of body can still be on ground
+
+        if (t < crawlPortion) {
+          // Tail still on ground near the tree base
+          const local = Math.min(1, (progress - 0.3) / 0.2);
+          const gx = groundStartX + (groundEndX - groundStartX) * local;
+          const gy = groundY - 20;
+          const wave = Math.sin(phase - t * 7) * 10;
+          x = gx;
+          y = gy + wave;
+        } else {
+          // Body on the trunk
+          const climbLocal = (t - crawlPortion) / (1 - crawlPortion);
+          const cy = groundY - 20 - (groundY - 20 - climbTopY) * climbLocal;
+          const cx = treeX - 20 + Math.sin(phase - t * 7) * 8;
+          x = cx;
+          y = cy;
+        }
+      }
+
+      if (i === 0) {
+        ctx.moveTo(x, y);
+      } else {
+        ctx.lineTo(x, y);
+      }
+    }
+    ctx.stroke();
+
+    // Simple snake head (at last segment, which is the head)
+    ctx.fillStyle = '#008000';
+    ctx.beginPath();
+    ctx.arc(headX, headY, 9, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Eyes
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath();
+    ctx.arc(headX + 3, headY - 2, 2, 0, Math.PI * 2);
+    ctx.arc(headX + 3, headY + 2, 2, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = '#000000';
+    ctx.beginPath();
+    ctx.arc(headX + 3.5, headY - 2, 1, 0, Math.PI * 2);
+    ctx.arc(headX + 3.5, headY + 2, 1, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Tongue
+    ctx.strokeStyle = '#cc0000';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(headX + 8, headY);
+    ctx.lineTo(headX + 16, headY - 3);
+    ctx.moveTo(headX + 8, headY);
+    ctx.lineTo(headX + 16, headY + 3);
+    ctx.stroke();
+  }
+
+  function loop(timestamp) {
+    if (!startTime) startTime = timestamp;
+    const elapsed = (timestamp - startTime) / 1000; // seconds
+
+    const groundY = canvas.height - 80;
+    const treeX = canvas.width * 0.7;
+    const treeHeight = 220;
+
+    // Loop animation every ~10 seconds
+    const cycleDuration = 10; // seconds
+    const cycleProgress = (elapsed % cycleDuration) / cycleDuration; // 0 → 1
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Ground
+    ctx.fillStyle = '#3b7a2a';
+    ctx.fillRect(0, groundY + 10, canvas.width, canvas.height - (groundY + 10));
+
+    // Tree
+    drawTree(treeX, groundY);
+
+    // Snake
+    drawSnakePath(cycleProgress, 40, treeX, groundY, treeHeight);
+
+    requestAnimationFrame(loop);
+  }
+
+  requestAnimationFrame(loop);
+</script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cat on Chair Wiggling Tail</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #87ceeb;
+      font-family: system-ui, sans-serif;
+    }
+    .frame {
+      background: #ffffff;
+      padding: 16px 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+    canvas {
+      display: block;
+      background: #f4f4f4;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <h1>Cat on a Chair Wiggling Tail 🐱</h1>
+    <canvas id="catCanvas" width="480" height="320"></canvas>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('catCanvas');
+    const ctx = canvas.getContext('2d');
+
+    let startTime = null;
+
+    function drawScene(tailAngle) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Floor
+      ctx.fillStyle = '#d8e8c8';
+      ctx.fillRect(0, 240, canvas.width, 80);
+
+      // Chair
+      const chairX = 150;
+      const chairY = 140;
+      const chairWidth = 180;
+      const chairHeight = 90;
+
+      // Chair seat
+      ctx.fillStyle = '#c58f5a';
+      ctx.strokeStyle = '#8b5b30';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.roundRect(chairX, chairY, chairWidth, chairHeight, 8);
+      ctx.fill();
+      ctx.stroke();
+
+      // Chair back
+      ctx.fillStyle = '#c58f5a';
+      ctx.beginPath();
+      ctx.roundRect(chairX + 10, chairY - 70, chairWidth - 20, 60, 8);
+      ctx.fill();
+      ctx.stroke();
+
+      // Chair legs
+      const legWidth = 14;
+      const legHeight = 60;
+      ctx.fillStyle = '#8b5b30';
+      // Front left leg
+      ctx.fillRect(chairX + 15, chairY + chairHeight, legWidth, legHeight);
+      // Front right leg
+      ctx.fillRect(chairX + chairWidth - 15 - legWidth, chairY + chairHeight, legWidth, legHeight);
+      // Back left leg
+      ctx.fillRect(chairX + 40, chairY + chairHeight, legWidth, legHeight);
+      // Back right leg
+      ctx.fillRect(chairX + chairWidth - 40 - legWidth, chairY + chairHeight, legWidth, legHeight);
+
+      // CAT
+      // Cat body on chair
+      const bodyX = chairX + 60;
+      const bodyY = chairY - 20;
+      const bodyWidth = 90;
+      const bodyHeight = 80;
+
+      // Tail pivot slightly behind body, near bottom left
+      const tailPivotX = bodyX - 10;
+      const tailPivotY = bodyY + bodyHeight - 10;
+      const tailLength = 80;
+      const tailThickness = 12;
+
+      // Tail (behind body)
+      ctx.save();
+      ctx.translate(tailPivotX, tailPivotY);
+      ctx.rotate(tailAngle);
+
+      ctx.fillStyle = '#f0c674';
+      ctx.beginPath();
+      ctx.roundRect(
+        0,
+        -tailThickness / 2,
+        tailLength,
+        tailThickness,
+        6
+      );
+      ctx.fill();
+
+      // Tail tip (slightly rounded blob)
+      ctx.beginPath();
+      ctx.arc(tailLength + 4, 0, tailThickness / 1.3, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+
+      // Cat body (in front)
+      ctx.fillStyle = '#f0c674';
+      ctx.strokeStyle = '#b98a44';
+      ctx.lineWidth = 2.5;
+      ctx.beginPath();
+      ctx.roundRect(bodyX, bodyY, bodyWidth, bodyHeight, 25);
+      ctx.fill();
+      ctx.stroke();
+
+      // Cat chest fluff
+      ctx.fillStyle = '#fff7d4';
+      ctx.beginPath();
+      ctx.ellipse(
+        bodyX + bodyWidth / 2,
+        bodyY + bodyHeight / 2 + 8,
+        20,
+        30,
+        0,
+        0,
+        Math.PI * 2
+      );
+      ctx.fill();
+
+      // Head
+      const headX = bodyX + bodyWidth / 2;
+      const headY = bodyY - 40;
+      const headRadius = 30;
+      ctx.fillStyle = '#f0c674';
+      ctx.beginPath();
+      ctx.arc(headX, headY, headRadius, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+
+      // Ears
+      ctx.fillStyle = '#f0c674';
+      ctx.beginPath(); // left ear
+      ctx.moveTo(headX - 18, headY - 10);
+      ctx.lineTo(headX - 30, headY - 35);
+      ctx.lineTo(headX - 6, headY - 25);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      ctx.beginPath(); // right ear
+      ctx.moveTo(headX + 18, headY - 10);
+      ctx.lineTo(headX + 30, headY - 35);
+      ctx.lineTo(headX + 6, headY - 25);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Inner ears
+      ctx.fillStyle = '#f7c0c0';
+      ctx.beginPath();
+      ctx.moveTo(headX - 18, headY - 12);
+      ctx.lineTo(headX - 26, headY - 30);
+      ctx.lineTo(headX - 8, headY - 23);
+      ctx.closePath();
+      ctx.fill();
+
+      ctx.beginPath();
+      ctx.moveTo(headX + 18, headY - 12);
+      ctx.lineTo(headX + 26, headY - 30);
+      ctx.lineTo(headX + 8, headY - 23);
+      ctx.closePath();
+      ctx.fill();
+
+      // Eyes
+      ctx.fillStyle = '#222';
+      ctx.beginPath();
+      ctx.arc(headX - 10, headY - 5, 4, 0, Math.PI * 2);
+      ctx.arc(headX + 10, headY - 5, 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Cute highlight in eyes
+      ctx.fillStyle = '#fff';
+      ctx.beginPath();
+      ctx.arc(headX - 11.5, headY - 6.5, 1.5, 0, Math.PI * 2);
+      ctx.arc(headX + 8.5, headY - 6.5, 1.5, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Nose
+      ctx.fillStyle = '#f7a0a0';
+      ctx.beginPath();
+      ctx.moveTo(headX, headY + 4);
+      ctx.lineTo(headX - 4, headY + 8);
+      ctx.lineTo(headX + 4, headY + 8);
+      ctx.closePath();
+      ctx.fill();
+
+      // Mouth
+      ctx.strokeStyle = '#333';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.moveTo(headX, headY + 8);
+      ctx.lineTo(headX, headY + 12);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.arc(headX - 4, headY + 12, 4, 0, Math.PI / 1.1, false);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(headX + 4, headY + 12, 4, Math.PI / 1.9, Math.PI, true);
+      ctx.stroke();
+
+      // Whiskers
+      ctx.strokeStyle = '#555';
+      ctx.lineWidth = 1;
+      const wy = headY + 4;
+      // left side
+      ctx.beginPath();
+      ctx.moveTo(headX - 4, wy);
+      ctx.lineTo(headX - 20, wy - 3);
+      ctx.moveTo(headX - 4, wy + 4);
+      ctx.lineTo(headX - 22, wy + 4);
+      ctx.moveTo(headX - 4, wy + 8);
+      ctx.lineTo(headX - 20, wy + 11);
+      // right side
+      ctx.moveTo(headX + 4, wy);
+      ctx.lineTo(headX + 20, wy - 3);
+      ctx.moveTo(headX + 4, wy + 4);
+      ctx.lineTo(headX + 22, wy + 4);
+      ctx.moveTo(headX + 4, wy + 8);
+      ctx.lineTo(headX + 20, wy + 11);
+      ctx.stroke();
+
+      // Paws (on the edge of the chair)
+      ctx.fillStyle = '#f0c674';
+      const pawRadius = 8;
+      // Left paw
+      ctx.beginPath();
+      ctx.arc(bodyX + 10, chairY + chairHeight + 2, pawRadius, 0, Math.PI * 2);
+      ctx.fill();
+      // Right paw
+      ctx.beginPath();
+      ctx.arc(bodyX + bodyWidth - 10, chairY + chairHeight + 2, pawRadius, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Little tail motion lines near tail tip
+      const wobble = tailAngle * 12;
+      const tipX = tailPivotX + tailLength * Math.cos(tailAngle);
+      const tipY = tailPivotY + tailLength * Math.sin(tailAngle);
+
+      ctx.strokeStyle = 'rgba(0,0,0,0.25)';
+      ctx.lineWidth = 1.5;
+
+      ctx.beginPath();
+      ctx.moveTo(tipX + 8, tipY - 8 + wobble);
+      ctx.lineTo(tipX + 20, tipY - 14);
+      ctx.stroke();
+
+      ctx.beginPath();
+      ctx.moveTo(tipX + 8, tipY + 8 - wobble);
+      ctx.lineTo(tipX + 20, tipY + 14);
+      ctx.stroke();
+    }
+
+    function animate(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const elapsed = (timestamp - startTime) / 1000;
+
+      // Tail wiggle: sine wave
+      const maxAngle = 0.7; // radians
+      const speed = 3.3;    // wiggles per second
+      const tailAngle = Math.sin(elapsed * speed * Math.PI) * maxAngle;
+
+      drawScene(tailAngle);
+      requestAnimationFrame(animate);
+    }
+
+    requestAnimationFrame(animate);
+  </script>
+</body>
+</html>

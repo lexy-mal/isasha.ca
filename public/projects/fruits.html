@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dancing Fruits on the Moon</title>
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background: radial-gradient(circle at top, #0a0f25 0%, #000 70%);
+    }
+    canvas { display: block; }
+</style>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<script>
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resize);
+resize();
+
+const FRUITS = [
+    "apple", "orange", "banana", "strawberry", "watermelon"
+];
+
+const fruitCharacters = [];
+
+function random(min, max) {
+    return min + Math.random() * (max - min);
+}
+
+// CREATE MOON POSITION
+const moon = {
+    x: () => canvas.width / 2,
+    y: () => canvas.height * 0.98,
+    r: () => Math.min(canvas.width, canvas.height) * 0.45
+};
+
+// SET UP FRUITS
+function initFruits() {
+    fruitCharacters.length = 0;
+
+    const count = 10;
+    for (let i = 0; i < count; i++) {
+        const type = FRUITS[Math.floor(Math.random() * FRUITS.length)];
+        const angle = random(-Math.PI * 0.3, Math.PI * 0.3);
+
+        const radius = moon.r() * random(0.55, 0.8);
+        const x = moon.x() + radius * Math.sin(angle);
+        const y = moon.y() - radius * Math.cos(angle);
+
+        fruitCharacters.push({
+            type,
+            x,
+            y,
+            scale: random(0.7, 1.1),
+            phase: random(0, Math.PI * 2),
+            danceSpeed: random(0.005, 0.009),
+            armSwing: random(0.1, 0.25),
+            legBounce: random(6, 12)
+        });
+    }
+}
+initFruits();
+
+// DRAW REALISTIC MOON
+function drawMoon() {
+    const x = moon.x();
+    const y = moon.y();
+    const r = moon.r();
+
+    const grad = ctx.createRadialGradient(
+        x - r * 0.3, y - r * 0.8, r * 0.1,
+        x, y, r
+    );
+    grad.addColorStop(0, "#f0f0f0");
+    grad.addColorStop(0.4, "#d5d5d5");
+    grad.addColorStop(0.8, "#9c9c9c");
+    grad.addColorStop(1, "#6d6d6d");
+
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.arc(x, y, r, Math.PI, 0);
+    ctx.closePath();
+    ctx.fill();
+
+    // Simple craters
+    const craters = [
+        { ox: -0.28, oy: -0.35, rr: 0.09 },
+        { ox:  0.16, oy: -0.4,  rr: 0.07 },
+        { ox: -0.05, oy: -0.15, rr: 0.05 },
+        { ox:  0.22, oy: -0.25, rr: 0.08 },
+    ];
+
+    craters.forEach(c => {
+        const cx = x + c.ox * r;
+        const cy = y + c.oy * r;
+        const cr = c.rr * r;
+
+        const cgrad = ctx.createRadialGradient(
+            cx - cr*0.2, cy - cr*0.2, cr*0.2,
+            cx, cy, cr
+        );
+        cgrad.addColorStop(0, "#bfbfbf");
+        cgrad.addColorStop(1, "#808080");
+
+        ctx.fillStyle = cgrad;
+        ctx.beginPath();
+        ctx.arc(cx, cy, cr, 0, Math.PI*2);
+        ctx.fill();
+    });
+}
+
+// DRAW A FRUIT WITH FACE, ARMS, LEGS
+function drawFruitCharacter(f, t) {
+    const dance = Math.sin(t * f.danceSpeed + f.phase);
+
+    ctx.save();
+    ctx.translate(f.x, f.y + dance * f.legBounce);
+    ctx.scale(f.scale, f.scale);
+
+    // BODY SHAPE (based on fruit type)
+    switch (f.type) {
+        case "apple":
+            ctx.fillStyle = "#ff4747";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 35, 40, 0, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+
+        case "orange":
+            ctx.fillStyle = "#ff9c28";
+            ctx.beginPath();
+            ctx.arc(0, 0, 32, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+
+        case "banana":
+            ctx.fillStyle = "#ffe86d";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 50, 18, -0.5, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+
+        case "strawberry":
+            ctx.fillStyle = "#ff4a63";
+            ctx.beginPath();
+            ctx.ellipse(0, 5, 30, 40, 0, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+
+        case "watermelon":
+            ctx.fillStyle = "#e64545";
+            ctx.beginPath();
+            ctx.ellipse(0, 0, 50, 30, 0, 0, Math.PI * 2);
+            ctx.fill();
+            break;
+    }
+
+    // FACE
+    ctx.fillStyle = "#fff";
+    ctx.beginPath();
+    ctx.arc(-10, -10, 6, 0, Math.PI * 2);
+    ctx.arc(10, -10, 6, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = "#000";
+    ctx.beginPath();
+    ctx.arc(-10, -10, 3, 0, Math.PI * 2);
+    ctx.arc(10, -10, 3, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Mouth
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+    ctx.arc(0, 5, 12, 0, Math.PI);
+    ctx.stroke();
+
+    // ARMS
+    const arm = dance * f.armSwing * 30;
+    ctx.strokeStyle = "#000";
+    ctx.lineWidth = 5;
+
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(30, arm);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(-30, -arm);
+    ctx.stroke();
+
+    // LEGS
+    ctx.beginPath();
+    ctx.moveTo(-15, 30);
+    ctx.lineTo(-15, 45 + dance*5);
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(15, 30);
+    ctx.lineTo(15, 45 - dance*5);
+    ctx.stroke();
+
+    ctx.restore();
+}
+
+let lastTime = 0;
+
+function loop(timestamp) {
+    lastTime = timestamp;
+
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    drawMoon();
+
+    fruitCharacters.forEach(f => drawFruitCharacter(f, timestamp));
+
+    requestAnimationFrame(loop);
+}
+
+requestAnimationFrame(loop);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dog Wiggling Tail</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;%
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #87ceeb;
+      font-family: system-ui, sans-serif;
+    }
+    .frame {
+      background: #fff;
+      padding: 16px 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+    canvas {
+      display: block;
+      border-radius: 12px;
+      background: #f4f4f4;
+    }
+    h1 {
+      font-size: 18px;
+      margin: 0 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <h1>Dog Wiggling Its Tail 🐶</h1>
+    <canvas id="dogCanvas" width="480" height="300"></canvas>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('dogCanvas');
+    const ctx = canvas.getContext('2d');
+
+    const body = {
+      x: 200,
+      y: 150,
+      width: 180,
+      height: 80
+    };
+
+    const tail = {
+      length: 60,
+      thickness: 14,
+      // Tail pivots at the left-middle of the body
+      pivotX: body.x,
+      pivotY: body.y + body.height / 2 - 10
+    };
+
+    let startTime = null;
+
+    function drawDog(tailAngle) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Ground
+      ctx.fillStyle = '#c9e6b5';
+      ctx.fillRect(0, 220, canvas.width, 80);
+
+      // Body
+      ctx.fillStyle = '#c48f4a';
+      ctx.strokeStyle = '#8a5b28';
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.roundRect(body.x, body.y, body.width, body.height, 20);
+      ctx.fill();
+      ctx.stroke();
+
+      // Tail (behind body)
+      ctx.save();
+      ctx.translate(tail.pivotX, tail.pivotY);
+      ctx.rotate(tailAngle);
+      ctx.fillStyle = '#b67f3f';
+      ctx.beginPath();
+      ctx.roundRect(-tail.length, -tail.thickness / 2, tail.length, tail.thickness, 7);
+      ctx.fill();
+      ctx.restore();
+
+      // Head
+      const headX = body.x + body.width - 10;
+      const headY = body.y - 25;
+      const headRadius = 40;
+      ctx.fillStyle = '#c48f4a';
+      ctx.beginPath();
+      ctx.arc(headX, headY, headRadius, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+
+      // Ears
+      ctx.fillStyle = '#8a5b28';
+      // Left ear
+      ctx.beginPath();
+      ctx.moveTo(headX - 20, headY - 10);
+      ctx.lineTo(headX - 40, headY - 40);
+      ctx.lineTo(headX - 5, headY - 25);
+      ctx.closePath();
+      ctx.fill();
+      // Right ear
+      ctx.beginPath();
+      ctx.moveTo(headX + 20, headY - 10);
+      ctx.lineTo(headX + 40, headY - 40);
+      ctx.lineTo(headX + 5, headY - 25);
+      ctx.closePath();
+      ctx.fill();
+
+      // Eyes
+      ctx.fillStyle = '#000';
+      ctx.beginPath();
+      ctx.arc(headX - 12, headY - 5, 4, 0, Math.PI * 2);
+      ctx.arc(headX + 12, headY - 5, 4, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Nose
+      ctx.beginPath();
+      ctx.arc(headX, headY + 10, 5, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Mouth (little smile)
+      ctx.beginPath();
+      ctx.arc(headX, headY + 18, 10, 0.1 * Math.PI, 0.9 * Math.PI);
+      ctx.stroke();
+
+      // Legs
+      const legWidth = 20;
+      const legHeight = 40;
+      ctx.fillStyle = '#c48f4a';
+      // Front legs
+      ctx.fillRect(body.x + body.width - 60, body.y + body.height, legWidth, legHeight);
+      ctx.fillRect(body.x + body.width - 30, body.y + body.height, legWidth, legHeight);
+      // Back legs
+      ctx.fillRect(body.x + 20, body.y + body.height, legWidth, legHeight);
+      ctx.fillRect(body.x + 50, body.y + body.height, legWidth, legHeight);
+
+      // Little tail motion lines
+      const lineLen = 15;
+      const wobble = tailAngle * 10;
+      ctx.strokeStyle = 'rgba(0,0,0,0.2)';
+      ctx.lineWidth = 2;
+
+      // Upper flick
+      ctx.beginPath();
+      ctx.moveTo(tail.pivotX - 10, tail.pivotY - 20);
+      ctx.lineTo(tail.pivotX - 10 - lineLen, tail.pivotY - 25 + wobble);
+      ctx.stroke();
+
+      // Lower flick
+      ctx.beginPath();
+      ctx.moveTo(tail.pivotX - 10, tail.pivotY + 20);
+      ctx.lineTo(tail.pivotX - 10 - lineLen, tail.pivotY + 25 - wobble);
+      ctx.stroke();
+    }
+
+    function animate(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const elapsed = (timestamp - startTime) / 1000; // seconds
+
+      // Tail wiggles using a sine wave
+      const maxAngle = 0.6; // radians (~34°)
+      const speed = 4;      // wiggles per second
+      const tailAngle = Math.sin(elapsed * speed * Math.PI) * maxAngle;
+
+      drawDog(tailAngle);
+      requestAnimationFrame(animate);
+    }
+
+    // Start animation
+    requestAnimationFrame(animate);
+  </script>
+</body>
+</html>
