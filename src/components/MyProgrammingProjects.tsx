@@ -68,7 +68,11 @@ export function MyProgrammingProjects() {
           </div>
         )}
 
-        <div className="mt-16 text-center">
+        <div className="my-16">
+          <div className="border-t border-purple-200"></div>
+        </div>
+
+        <div className="text-center">
           <div className="inline-block px-6 py-3 bg-purple-100 rounded-full border border-purple-200">
             <p className="text-purple-700">
               💡 <strong>Tip:</strong> Drop any HTML file in <code className="bg-purple-200 px-2 py-1 rounded">public/projects/</code> to add it here!
