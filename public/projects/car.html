@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HTML5 Car Racing - Touch Controls</title>
+  <style>
+    body {
+      margin: 0;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: system-ui, sans-serif;
+      color: #fff;
+      touch-action: none; /* important for swipe */
+    }
+    canvas {
+      background: #2e3b4e; /* base floor */
+      border: 3px solid #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      touch-action: none;
+    }
+    #info {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      font-size: 14px;
+      background: rgba(0,0,0,0.5);
+      padding: 6px 10px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <div><strong>Touch controls:</strong> swipe UP to go, swipe DOWN to brake, tap here to restart</div>
+    <div id="status"></div>
+  </div>
+  <canvas id="game" width="900" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+    const statusEl = document.getElementById('status');
+
+    const TRACK_LEFT = 60;
+    const TRACK_RIGHT = canvas.width - 60;
+    const FINISH_X = TRACK_RIGHT - 40;
+    const START_X = TRACK_LEFT + 10;
+    const LANES = 4;
+    const laneHeight = (canvas.height - 80) / LANES;
+    const cars = [];
+    let playerCar = null;
+
+    let gameOver = false;
+    let winner = null;
+
+    // touch control state
+    let touchActive = false;
+    let lastTouchY = null;
+    let accelPressed = false;
+    let brakePressed = false;
+    const SWIPE_THRESHOLD = 8; // how much finger must move
+
+    class Car {
+      constructor(x, laneIndex, color, isPlayer = false) {
+        this.x = x;
+        this.laneIndex = laneIndex;
+        this.color = color;
+        this.width = 45;
+        this.height = 22;
+        this.baseY = 50 + laneIndex * laneHeight + laneHeight / 2 - this.height / 2;
+        this.y = this.baseY;
+        this.speed = 0;
+        this.maxSpeed = isPlayer ? 6 : 5;
+        this.accel = isPlayer ? 0.2 : 0.05;
+        this.friction = 0.05;
+        this.isPlayer = isPlayer;
+        this.targetSpeed = Math.random() * 3 + 2; // AI target speed
+        this.name = isPlayer ? "YOU" : "CPU " + (laneIndex + 1);
+      }
+
+      update(dt) {
+        if (!gameOver) {
+          if (this.isPlayer) {
+            // Player via touch: accelPressed / brakePressed
+            if (accelPressed) {
+              this.speed += this.accel;
+            }
+            if (brakePressed) {
+              this.speed -= this.accel * 1.5;
+            }
+          } else {
+            // Simple AI
+            if (this.speed < this.targetSpeed) {
+              this.speed += this.accel;
+            } else if (this.speed > this.targetSpeed) {
+              this.speed -= this.accel * 0.5;
+            }
+            if (Math.random() < 0.005) {
+              this.targetSpeed = Math.random() * 3 + 2;
+            }
+          }
+
+          // Friction
+          if (this.speed > 0) {
+            this.speed -= this.friction;
+            if (this.speed < 0) this.speed = 0;
+          } else if (this.speed < 0) {
+            this.speed += this.friction;
+            if (this.speed > 0) this.speed = 0;
+          }
+
+          // Clamp
+          if (this.speed > this.maxSpeed) this.speed = this.maxSpeed;
+          if (this.speed < 0) this.speed = 0;
+
+          // Move
+          this.x += this.speed * dt * 60;
+        }
+
+        // Finish line
+        if (!gameOver && this.x + this.width >= FINISH_X) {
+          gameOver = true;
+          winner = this;
+          if (winner.isPlayer) {
+            statusEl.textContent = "You win! Tap the text above to race again.";
+          } else {
+            statusEl.textContent = winner.name + " wins! Tap the text above to race again.";
+          }
+        }
+      }
+
+      draw(ctx) {
+        // Car body
+        ctx.fillStyle = this.color;
+        ctx.fillRect(this.x, this.baseY, this.width, this.height);
+
+        // Windows / details
+        ctx.fillStyle = "#111";
+        ctx.fillRect(this.x + 5, this.baseY + 4, this.width - 10, this.height / 2 - 2);
+        ctx.fillStyle = "#ddd";
+        ctx.fillRect(this.x + 6, this.baseY + this.height / 2 + 1, this.width - 12, this.height / 2 - 4);
+
+        // Highlight player
+        if (this.isPlayer) {
+          ctx.strokeStyle = "#ffd700";
+          ctx.lineWidth = 2;
+          ctx.strokeRect(this.x - 2, this.baseY - 2, this.width + 4, this.height + 4);
+        }
+      }
+    }
+
+    function setupRace() {
+      cars.length = 0;
+      gameOver = false;
+      winner = null;
+      statusEl.textContent = "Racing in the base… You are the red car.";
+
+      for (let i = 0; i < LANES; i++) {
+        const isPlayer = i === 1; // second lane = you
+        const color = isPlayer ? "#e74c3c" : ["#3498db", "#2ecc71", "#f1c40f", "#9b59b6"][i % 4];
+        const car = new Car(START_X, i, color, isPlayer);
+        cars.push(car);
+        if (isPlayer) playerCar = car;
+      }
+
+      // reset touch control
+      accelPressed = false;
+      brakePressed = false;
+    }
+
+    function drawTrack() {
+      // Base walls
+      ctx.fillStyle = "#1c2533";
+      ctx.fillRect(40, 40, canvas.width - 80, canvas.height - 80);
+
+      // Road area
+      ctx.fillStyle = "#394a59";
+      ctx.fillRect(TRACK_LEFT, 50, TRACK_RIGHT - TRACK_LEFT, canvas.height - 100);
+
+      // Lane lines
+      ctx.strokeStyle = "#aaaaaa";
+      ctx.lineWidth = 2;
+      ctx.setLineDash([12, 10]);
+      for (let i = 1; i < LANES; i++) {
+        const y = 50 + i * laneHeight;
+        ctx.beginPath();
+        ctx.moveTo(TRACK_LEFT, y);
+        ctx.lineTo(TRACK_RIGHT, y);
+        ctx.stroke();
+      }
+      ctx.setLineDash([]);
+
+      // Start line
+      ctx.strokeStyle = "#00ff88";
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.moveTo(START_X - 5, 50);
+      ctx.lineTo(START_X - 5, canvas.height - 50);
+      ctx.stroke();
+
+      // Finish line
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      ctx.moveTo(FINISH_X + 5, 50);
+      ctx.lineTo(FINISH_X + 5, canvas.height - 50);
+      ctx.stroke();
+
+      // Finish banner
+      const bannerY = 30;
+      const bannerHeight = 16;
+      const bannerWidth = 100;
+      const bannerX = FINISH_X - bannerWidth / 2;
+      const squareSize = 8;
+
+      for (let y = 0; y < bannerHeight; y += squareSize) {
+        for (let x = 0; x < bannerWidth; x += squareSize) {
+          const isBlack = (Math.floor(x / squareSize) + Math.floor(y / squareSize)) % 2 === 0;
+          ctx.fillStyle = isBlack ? "#000" : "#fff";
+          ctx.fillRect(bannerX + x, bannerY + y, squareSize, squareSize);
+        }
+      }
+
+      // HUD
+      if (playerCar) {
+        ctx.fillStyle = "#fff";
+        ctx.font = "14px system-ui";
+        ctx.fillText("Speed: " + playerCar.speed.toFixed(1), 20, 20);
+      }
+    }
+
+    let lastTime = 0;
+
+    function loop(timestamp) {
+      const dt = (timestamp - lastTime) / 1000 || 0;
+      lastTime = timestamp;
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawTrack();
+
+      cars.forEach(car => {
+        car.update(dt);
+        car.draw(ctx);
+      });
+
+      requestAnimationFrame(loop);
+    }
+
+    // ---- TOUCH CONTROLS ----
+    canvas.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      const touch = e.touches[0];
+      touchActive = true;
+      lastTouchY = touch.clientY;
+      // when touch starts, don't move yet (wait for swipe direction)
+      accelPressed = false;
+      brakePressed = false;
+    }, { passive: false });
+
+    canvas.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+      if (!touchActive) return;
+      const touch = e.touches[0];
+      const currentY = touch.clientY;
+
+      const dy = currentY - lastTouchY;
+
+      if (Math.abs(dy) > SWIPE_THRESHOLD) {
+        if (dy < 0) {
+          // moving up
+          accelPressed = true;
+          brakePressed = false;
+        } else {
+          // moving down
+          accelPressed = false;
+          brakePressed = true;
+        }
+        lastTouchY = currentY;
+      }
+    }, { passive: false });
+
+    canvas.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      touchActive = false;
+      accelPressed = false;
+      brakePressed = false;
+    }, { passive: false });
+
+    // Tap the text box to restart
+    document.getElementById('info').addEventListener('click', () => {
+      setupRace();
+    });
+
+    // Start game
+    setupRace();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>
