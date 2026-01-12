@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tic-Tac-Toe vs Computer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    background: #0f172a;
+    color: #e5e7eb;
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .game {
+    max-width: 900px;
+    width: 100%;
+    padding: 16px;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0 0 12px;
+  }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  label {
+    font-size: 0.8rem;
+    color: #9ca3af;
+  }
+
+  input {
+    width: 70px;
+    padding: 4px;
+    background: #020617;
+    color: #e5e7eb;
+    border: 1px solid #475569;
+    border-radius: 6px;
+  }
+
+  button {
+    background: #22c55e;
+    border: none;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .status {
+    text-align: center;
+    margin: 8px 0;
+    min-height: 20px;
+  }
+
+  #board {
+    display: grid;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .cell {
+    width: 34px;
+    height: 34px;
+    background: #020617;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .cell.x { color: #38bdf8; }
+  .cell.o { color: #f97316; }
+  .cell.win {
+    background: #22c55e33;
+    border-color: #22c55e;
+  }
+</style>
+</head>
+
+<body>
+<div class="game">
+  <h1>Tic-Tac-Toe vs Computer</h1>
+
+  <div class="controls">
+    <div>
+      <label>Board size</label><br>
+      <input id="size" type="number" min="3" max="20" value="3">
+    </div>
+    <div>
+      <label>To win</label><br>
+      <input id="win" type="number" min="3" max="20" value="3">
+    </div>
+    <div style="align-self:end">
+      <button onclick="startGame()">Start / Reset</button>
+    </div>
+  </div>
+
+  <div class="status" id="status">You are X. Click Start.</div>
+  <div id="board"></div>
+</div>
+
+<script>
+let board = [];
+let size = 3;
+let winLen = 3;
+let gameOn = false;
+
+const boardEl = document.getElementById("board");
+const statusEl = document.getElementById("status");
+
+function startGame() {
+  size = Math.min(20, Math.max(3, +sizeInput.value));
+  winLen = Math.min(size, Math.max(3, +winInput.value));
+
+  board = Array.from({ length: size }, () => Array(size).fill(""));
+  boardEl.style.gridTemplateColumns = `repeat(${size}, 34px)`;
+  boardEl.innerHTML = "";
+
+  for (let r = 0; r < size; r++) {
+    for (let c = 0; c < size; c++) {
+      const cell = document.createElement("div");
+      cell.className = "cell";
+      cell.onclick = () => playerMove(r, c, cell);
+      boardEl.appendChild(cell);
+    }
+  }
+
+  gameOn = true;
+  statusEl.textContent = "Your turn (X)";
+}
+
+const sizeInput = document.getElementById("size");
+const winInput = document.getElementById("win");
+
+function playerMove(r, c, cell) {
+  if (!gameOn || board[r][c]) return;
+
+  makeMove(r, c, "X", cell);
+  if (checkGame(r, c, "X")) return;
+
+  setTimeout(computerMove, 200);
+}
+
+function computerMove() {
+  if (!gameOn) return;
+
+  // 1️⃣ Try to win
+  let move = findBestMove("O") ||
+             findBestMove("X") || // 2️⃣ Block
+             randomMove();        // 3️⃣ Random
+
+  const idx = move.r * size + move.c;
+  makeMove(move.r, move.c, "O", boardEl.children[idx]);
+  checkGame(move.r, move.c, "O");
+}
+
+function makeMove(r, c, p, cell) {
+  board[r][c] = p;
+  cell.textContent = p;
+  cell.classList.add(p.toLowerCase());
+}
+
+function randomMove() {
+  const empty = [];
+  for (let r = 0; r < size; r++)
+    for (let c = 0; c < size; c++)
+      if (!board[r][c]) empty.push({ r, c });
+  return empty[Math.floor(Math.random() * empty.length)];
+}
+
+function findBestMove(player) {
+  for (let r = 0; r < size; r++) {
+    for (let c = 0; c < size; c++) {
+      if (!board[r][c]) {
+        board[r][c] = player;
+        const win = checkWin(r, c, player, true);
+        board[r][c] = "";
+        if (win) return { r, c };
+      }
+    }
+  }
+  return null;
+}
+
+function checkGame(r, c, p) {
+  if (checkWin(r, c, p)) {
+    statusEl.textContent = p === "X" ? "You win! 🎉" : "Computer wins 🤖";
+    gameOn = false;
+    return true;
+  }
+
+  if (board.flat().every(v => v)) {
+    statusEl.textContent = "Draw!";
+    gameOn = false;
+    return true;
+  }
+  return false;
+}
+
+function checkWin(r, c, p, dryRun = false) {
+  const dirs = [[1,0],[0,1],[1,1],[1,-1]];
+
+  for (const [dr,dc] of dirs) {
+    let line = [{ r, c }];
+    for (let s of [1,-1]) {
+      let nr = r + dr*s, nc = c + dc*s;
+      while (nr>=0 && nc>=0 && nr<size && nc<size && board[nr][nc]===p) {
+        line.push({ r:nr, c:nc });
+        nr += dr*s; nc += dc*s;
+      }
+    }
+    if (line.length >= winLen) {
+      if (!dryRun) line.slice(0, winLen).forEach(v => {
+        boardEl.children[v.r*size+v.c].classList.add("win");
+      });
+      return true;
+    }
+  }
+  return false;
+}
+</script>
+</body>
+</html>
