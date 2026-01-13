@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Swipe Car Dodge + Coins + Gacha Skins</title>
+  <style>
+    body {
+      margin: 0;
+      background: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: system-ui, sans-serif;
+      color: #fff;
+      touch-action: none; /* allow custom swipe handling */
+    }
+    #info {
+      position: fixed;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      font-size: 14px;
+      background: rgba(0,0,0,0.6);
+      padding: 6px 10px;
+      border-radius: 6px;
+      z-index: 20;
+    }
+    #status {
+      margin-top: 4px;
+      font-size: 13px;
+    }
+    #gachaButton {
+      position: fixed;
+      top: 8px;
+      right: 8px;
+      background: rgba(0,0,0,0.7);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      cursor: pointer;
+      border: 1px solid #ffd700;
+      z-index: 20;
+      user-select: none;
+    }
+    #gachaButton span.cost {
+      color: #ffd700;
+      font-weight: bold;
+    }
+
+    canvas {
+      background: #2e3b4e;
+      border: 3px solid #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      touch-action: none;
+    }
+
+    /* Shop overlay */
+    #shopOverlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 30;
+    }
+    #shop {
+      background: #1f2933;
+      border-radius: 12px;
+      padding: 16px;
+      width: 320px;
+      max-width: 90%;
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
+    }
+    #shop h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+      text-align: center;
+    }
+    #shopCoins {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    #shopMessage {
+      font-size: 13px;
+      text-align: center;
+      min-height: 18px;
+      margin-bottom: 8px;
+      color: #ffd700;
+    }
+    #skinsList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .skin-card {
+      width: 70px;
+      padding: 6px;
+      border-radius: 8px;
+      border: 1px solid #444;
+      text-align: center;
+      font-size: 11px;
+      background: #111827;
+      box-sizing: border-box;
+    }
+    .skin-car {
+      width: 32px;
+      height: 18px;
+      margin: 0 auto 4px;
+      border-radius: 3px;
+      position: relative;
+    }
+    .skin-car::after {
+      content: "";
+      position: absolute;
+      left: 4px;
+      right: 4px;
+      top: 3px;
+      height: 6px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 2px;
+    }
+    .skin-name {
+      display: block;
+      margin-bottom: 2px;
+    }
+    .skin-status {
+      font-size: 10px;
+      opacity: 0.8;
+    }
+    .skin-locked {
+      opacity: 0.4;
+    }
+    .skin-equipped {
+      border-color: #4ade80;
+      box-shadow: 0 0 6px rgba(74,222,128,0.8);
+    }
+    .skin-unlocked {
+      border-color: #64748b;
+    }
+
+    #shopButtons {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: 4px;
+    }
+    #shopButtons button {
+      flex: 1;
+      padding: 6px;
+      font-size: 13px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+    }
+    #rollButton {
+      background: #fbbf24;
+      color: #111;
+      font-weight: bold;
+    }
+    #closeShopButton {
+      background: #4b5563;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <div><strong>Swipe left / right</strong> to move • Collect coins • Tap here to restart</div>
+    <div id="status"></div>
+  </div>
+
+  <div id="gachaButton">
+    🎰 Gacha <span class="cost">(20)</span>
+  </div>
+
+  <canvas id="game" width="360" height="600"></canvas>
+
+  <!-- Shop overlay -->
+  <div id="shopOverlay">
+    <div id="shop">
+      <h2>🎰 Mystery Skins</h2>
+      <div id="shopCoins"></div>
+      <div id="shopMessage"></div>
+      <div id="skinsList"></div>
+      <div id="shopButtons">
+        <button id="rollButton">Roll (20)</button>
+        <button id="closeShopButton">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+    const statusEl = document.getElementById('status');
+    const gachaButton = document.getElementById('gachaButton');
+    const shopOverlay = document.getElementById('shopOverlay');
+    const shopCoinsEl = document.getElementById('shopCoins');
+    const shopMessageEl = document.getElementById('shopMessage');
+    const skinsListEl = document.getElementById('skinsList');
+    const rollButton = document.getElementById('rollButton');
+    const closeShopButton = document.getElementById('closeShopButton');
+
+    const GACHA_COST = 20;
+
+    const lanes = 3;
+    const laneWidth = canvas.width / lanes;
+
+    // Available skins (just different colors, but can feel like “skins”)
+    const SKINS = [
+      { id: 'red',   name: 'Red Racer',    color: '#e74c3c' },
+      { id: 'blue',  name: 'Blue Bolt',    color: '#3498db' },
+      { id: 'green', name: 'Green Leaf',   color: '#2ecc71' },
+      { id: 'gold',  name: 'Gold Flash',   color: '#f1c40f' },
+      { id: 'purple',name: 'Purple Storm', color: '#9b59b6' },
+      { id: 'pink',  name: 'Pink Comet',   color: '#ff9ff3' }
+    ];
+
+    // Persistent data
+    let totalCoins = 0;
+    let unlockedSkins = new Set();
+    let equippedSkinId = 'red';
+
+    // Game runtime data
+    const car = {
+      lane: 1,           // 0,1,2 (start middle)
+      width: 40,
+      height: 70,
+      y: canvas.height - 110
+    };
+
+    let obstacles = [];
+    let coins = [];
+    let gameOver = false;
+    let lastTime = 0;
+    let spawnTimer = 0;
+    let coinSpawnTimer = 0;
+    let speed = 260; // starting speed
+    let score = 0;
+    let runCoins = 0;
+    let inShop = false;
+
+    // touch swipe state
+    let touchStartX = null;
+    const SWIPE_MIN = 30; // pixels
+
+    // ---- SIMPLE SOUND SYSTEM (beeps) ----
+    let audioCtx = null;
+    function initAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+    }
+
+    function playBeep(freq, duration, type = "sine", volume = 0.2) {
+      if (!audioCtx) return;
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.value = freq;
+      gain.gain.value = volume;
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+      const now = audioCtx.currentTime;
+      osc.start(now);
+      osc.stop(now + duration);
+    }
+
+    // ---- PERSISTENCE ----
+    function loadData() {
+      try {
+        const storedCoins = localStorage.getItem('swipeCar_totalCoins');
+        const storedSkins = localStorage.getItem('swipeCar_unlockedSkins');
+        const storedEquipped = localStorage.getItem('swipeCar_equippedSkin');
+
+        if (storedCoins !== null) {
+          totalCoins = parseInt(storedCoins, 10) || 0;
+        } else {
+          totalCoins = 0;
+        }
+
+        if (storedSkins) {
+          const arr = JSON.parse(storedSkins);
+          unlockedSkins = new Set(arr);
+        } else {
+          unlockedSkins = new Set();
+        }
+
+        if (!unlockedSkins.size) {
+          unlockedSkins.add('red'); // default skin unlocked
+        }
+
+        if (storedEquipped && unlockedSkins.has(storedEquipped)) {
+          equippedSkinId = storedEquipped;
+        } else {
+          equippedSkinId = 'red';
+        }
+      } catch (e) {
+        totalCoins = 0;
+        unlockedSkins = new Set(['red']);
+        equippedSkinId = 'red';
+      }
+    }
+
+    function saveData() {
+      localStorage.setItem('swipeCar_totalCoins', String(totalCoins));
+      localStorage.setItem('swipeCar_unlockedSkins', JSON.stringify(Array.from(unlockedSkins)));
+      localStorage.setItem('swipeCar_equippedSkin', equippedSkinId);
+    }
+
+    function getEquippedColor() {
+      const skin = SKINS.find(s => s.id === equippedSkinId) || SKINS[0];
+      return skin.color;
+    }
+
+    // ---- GAME LOGIC ----
+    function resetGame() {
+      gameOver = false;
+      obstacles = [];
+      coins = [];
+      score = 0;
+      runCoins = 0;
+      speed = 260;
+      car.lane = 1;
+      spawnTimer = 0;
+      coinSpawnTimer = 0;
+      statusEl.textContent = "Swipe to dodge & collect coins!";
+    }
+
+    function laneCenter(lane) {
+      return lane * laneWidth + laneWidth / 2;
+    }
+
+    function spawnObstacle() {
+      const lane = Math.floor(Math.random() * lanes);
+      obstacles.push({
+        lane,
+        y: -80,
+        width: 45,
+        height: 60
+      });
+    }
+
+    function spawnCoin() {
+      const lane = Math.floor(Math.random() * lanes);
+      coins.push({
+        lane,
+        y: -50,
+        radius: 14
+      });
+    }
+
+    function update(dt) {
+      if (gameOver || inShop) return;
+
+      spawnTimer += dt;
+      coinSpawnTimer += dt;
+
+      // obstacles
+      if (spawnTimer > 0.8) {
+        spawnObstacle();
+        spawnTimer = 0;
+        speed += 8;
+      }
+
+      // coins
+      if (coinSpawnTimer > 1.4) {
+        spawnCoin();
+        coinSpawnTimer = 0;
+      }
+
+      // move
+      obstacles.forEach(o => {
+        o.y += speed * dt;
+      });
+      coins.forEach(c => {
+        c.y += (speed * 0.9) * dt;
+      });
+
+      // cleanup
+      obstacles = obstacles.filter(o => o.y < canvas.height + 80);
+      coins = coins.filter(c => c.y < canvas.height + 60);
+
+      // collisions
+      const carX = laneCenter(car.lane) - car.width / 2;
+      const carY = car.y;
+
+      // obstacle collision
+      for (const o of obstacles) {
+        const oX = laneCenter(o.lane) - o.width / 2;
+        const oY = o.y;
+        if (
+          carX < oX + o.width &&
+          carX + car.width > oX &&
+          carY < oY + o.height &&
+          carY + car.height > oY
+        ) {
+          gameOver = true;
+          statusEl.textContent = "Crash! Bank: " + totalCoins + " coins. Tap text to restart.";
+          playBeep(200, 0.3, "square", 0.3);
+          break;
+        }
+      }
+
+      // coin pickups
+      for (let i = coins.length - 1; i >= 0; i--) {
+        const c = coins[i];
+        const cX = laneCenter(c.lane);
+        const cY = c.y;
+        const r = c.radius;
+
+        const inLane = c.lane === car.lane;
+        const verticalHit = cY + r > carY && cY - r < carY + car.height;
+
+        if (inLane && verticalHit) {
+          coins.splice(i, 1);
+          runCoins += 1;
+          totalCoins += 1;
+          saveData();
+          playBeep(880, 0.12, "sine", 0.25);
+        }
+      }
+
+      if (!gameOver) {
+        score += dt * 10;
+      }
+    }
+
+    function drawRoad() {
+      ctx.fillStyle = "#394a59";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // lane lines
+      ctx.strokeStyle = "#cccccc";
+      ctx.lineWidth = 2;
+      ctx.setLineDash([10, 10]);
+      for (let i = 1; i < lanes; i++) {
+        const x = i * laneWidth;
+        ctx.beginPath();
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, canvas.height);
+        ctx.stroke();
+      }
+      ctx.setLineDash([]);
+
+      // HUD
+      ctx.fillStyle = "#fff";
+      ctx.font = "16px system-ui";
+      ctx.textAlign = "left";
+      ctx.fillText("Score: " + Math.floor(score), 10, 24);
+      ctx.fillText("Run coins: " + runCoins, 10, 44);
+      ctx.fillText("Bank: " + totalCoins, 10, 64);
+    }
+
+    function drawCar() {
+      const x = laneCenter(car.lane) - car.width / 2;
+      const y = car.y;
+
+      // shadow
+      ctx.fillStyle = "rgba(0,0,0,0.3)";
+      ctx.fillRect(x + 3, y + 6, car.width, car.height);
+
+      // car body
+      ctx.fillStyle = getEquippedColor();
+      ctx.fillRect(x, y, car.width, car.height);
+
+      // windows
+      ctx.fillStyle = "#111";
+      ctx.fillRect(x + 5, y + 10, car.width - 10, 20);
+
+      // highlight
+      ctx.strokeStyle = "#ffd700";
+      ctx.lineWidth = 2;
+      ctx.strokeRect(x - 2, y - 2, car.width + 4, car.height + 4);
+    }
+
+    function drawObstacles() {
+      ctx.fillStyle = "#888";
+      obstacles.forEach(o => {
+        const x = laneCenter(o.lane) - o.width / 2;
+        ctx.fillRect(x, o.y, o.width, o.height);
+      });
+    }
+
+    function drawCoins() {
+      coins.forEach(c => {
+        const x = laneCenter(c.lane);
+        const y = c.y;
+        const r = c.radius;
+
+        ctx.beginPath();
+        ctx.fillStyle = "rgba(255, 215, 0, 0.4)";
+        ctx.arc(x, y, r + 4, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.fillStyle = "#ffd700";
+        ctx.arc(x, y, r, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.strokeStyle = "#b8860b";
+        ctx.lineWidth = 2;
+        ctx.beginPath();
+        ctx.arc(x, y, r - 4, 0, Math.PI * 2);
+        ctx.stroke();
+      });
+    }
+
+    function loop(timestamp) {
+      const dt = (timestamp - lastTime) / 1000 || 0;
+      lastTime = timestamp;
+
+      update(dt);
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      drawRoad();
+      drawCoins();
+      drawObstacles();
+      drawCar();
+
+      if (gameOver && !inShop) {
+        ctx.fillStyle = "rgba(0,0,0,0.5)";
+        ctx.fillRect(0, canvas.height / 2 - 45, canvas.width, 90);
+        ctx.fillStyle = "#fff";
+        ctx.font = "20px system-ui";
+        ctx.textAlign = "center";
+        ctx.fillText("Game Over!", canvas.width / 2, canvas.height / 2 - 6);
+        ctx.font = "14px system-ui";
+        ctx.fillText("Tap the top text to play again", canvas.width / 2, canvas.height / 2 + 18);
+      }
+
+      requestAnimationFrame(loop);
+    }
+
+    // ---- SWIPE HANDLING ----
+    function handleSwipe(dx) {
+      if (inShop) return;
+      if (Math.abs(dx) < SWIPE_MIN) return;
+      initAudio();
+
+      if (dx < 0) {
+        if (car.lane > 0) {
+          car.lane -= 1;
+          playBeep(600, 0.08, "sine", 0.15);
+        }
+      } else {
+        if (car.lane < lanes - 1) {
+          car.lane += 1;
+          playBeep(600, 0.08, "sine", 0.15);
+        }
+      }
+    }
+
+    // touch
+    canvas.addEventListener('touchstart', (e) => {
+      if (inShop) return;
+      e.preventDefault();
+      const touch = e.touches[0];
+      touchStartX = touch.clientX;
+    }, { passive: false });
+
+    canvas.addEventListener('touchmove', (e) => {
+      if (inShop) return;
+      e.preventDefault();
+    }, { passive: false });
+
+    canvas.addEventListener('touchend', (e) => {
+      if (inShop) return;
+      e.preventDefault();
+      if (touchStartX === null) return;
+      const touch = e.changedTouches[0];
+      const dx = touch.clientX - touchStartX;
+      handleSwipe(dx);
+      touchStartX = null;
+    }, { passive: false });
+
+    // mouse (for testing)
+    let mouseDown = false;
+    let mouseStartX = null;
+
+    canvas.addEventListener('mousedown', (e) => {
+      if (inShop) return;
+      mouseDown = true;
+      mouseStartX = e.clientX;
+    });
+
+    canvas.addEventListener('mouseup', (e) => {
+      if (inShop) return;
+      if (!mouseDown) return;
+      mouseDown = false;
+      const dx = e.clientX - mouseStartX;
+      handleSwipe(dx);
+    });
+
+    // tap top text to restart game
+    document.getElementById('info').addEventListener('click', () => {
+      if (inShop) return;
+      initAudio();
+      resetGame();
+    });
+
+    // ---- SHOP / GACHA ----
+    function openShop(message = "") {
+      inShop = true;
+      shopOverlay.style.display = "flex";
+      shopMessageEl.textContent = message;
+      renderSkinsList();
+      updateShopCoinsText();
+    }
+
+    function closeShop() {
+      inShop = false;
+      shopOverlay.style.display = "none";
+      shopMessageEl.textContent = "";
+    }
+
+    function updateShopCoinsText() {
+      shopCoinsEl.textContent = "Your coins in bank: " + totalCoins;
+    }
+
+    function renderSkinsList() {
+      skinsListEl.innerHTML = "";
+      SKINS.forEach(skin => {
+        const card = document.createElement('div');
+        card.className = "skin-card";
+
+        const unlocked = unlockedSkins.has(skin.id);
+        const equipped = skin.id === equippedSkinId;
+
+        if (unlocked) {
+          card.classList.add('skin-unlocked');
+        } else {
+          card.classList.add('skin-locked');
+        }
+        if (equipped) {
+          card.classList.add('skin-equipped');
+        }
+
+        const carDiv = document.createElement('div');
+        carDiv.className = "skin-car";
+        carDiv.style.background = skin.color;
+
+        const nameSpan = document.createElement('span');
+        nameSpan.className = "skin-name";
+        nameSpan.textContent = skin.name;
+
+        const statusSpan = document.createElement('span');
+        statusSpan.className = "skin-status";
+        if (!unlocked) {
+          statusSpan.textContent = "Locked";
+        } else if (equipped) {
+          statusSpan.textContent = "Equipped";
+        } else {
+          statusSpan.textContent = "Tap to equip";
+        }
+
+        card.appendChild(carDiv);
+        card.appendChild(nameSpan);
+        card.appendChild(statusSpan);
+
+        if (unlocked) {
+          card.addEventListener('click', () => {
+            equippedSkinId = skin.id;
+            saveData();
+            renderSkinsList();
+            shopMessageEl.textContent = "Equipped: " + skin.name;
+          });
+        }
+
+        skinsListEl.appendChild(card);
+      });
+    }
+
+    function rollGacha() {
+      initAudio();
+      if (totalCoins < GACHA_COST) {
+        shopMessageEl.textContent = "Not enough coins! Need " + GACHA_COST + ".";
+        playBeep(220, 0.15, "sawtooth", 0.2);
+        return;
+      }
+
+      totalCoins -= GACHA_COST;
+      saveData();
+      updateShopCoinsText();
+
+      // random skin
+      const skin = SKINS[Math.floor(Math.random() * SKINS.length)];
+      const firstTime = !unlockedSkins.has(skin.id);
+      unlockedSkins.add(skin.id);
+      equippedSkinId = skin.id;
+      saveData();
+      renderSkinsList();
+
+      if (firstTime) {
+        shopMessageEl.textContent = "New skin unlocked: " + skin.name + "!";
+        playBeep(600, 0.15, "sine", 0.25);
+        playBeep(900, 0.15, "sine", 0.25);
+      } else {
+        shopMessageEl.textContent = "You got: " + skin.name + " (already unlocked).";
+        playBeep(500, 0.15, "sine", 0.25);
+      }
+    }
+
+    gachaButton.addEventListener('click', () => {
+      initAudio();
+      openShop();
+    });
+
+    rollButton.addEventListener('click', () => {
+      rollGacha();
+    });
+
+    closeShopButton.addEventListener('click', () => {
+      closeShop();
+    });
+
+    shopOverlay.addEventListener('click', (e) => {
+      // click outside shop closes
+      if (e.target === shopOverlay) {
+        closeShop();
+      }
+    });
+
+    // ---- START ----
+    loadData();
+    resetGame();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>
