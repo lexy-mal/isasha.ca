@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multiplication Cat Game</title>
+  <style>
+    :root {
+      --bg: #ffeef7;
+      --card: #ffffff;
+      --accent: #ff6ec7;
+      --accent2: #6ecbff;
+      --accent3: #ffdd59;
+      --text: #333;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #fff7d6, #ffeef7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: var(--text);
+    }
+
+    .game-wrapper {
+      display: flex;
+      gap: 20px;
+      max-width: 1000px;
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .game-container,
+    .shop-container {
+      background: var(--card);
+      padding: 20px 24px;
+      border-radius: 14px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+      flex: 1;
+      max-height: 90vh;
+      overflow: auto;
+    }
+
+    h1, h2 {
+      margin-top: 0;
+      color: var(--accent);
+    }
+
+    .info {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin: 2px;
+      font-size: 12px;
+      color: #fff;
+    }
+
+    .badge.level { background: var(--accent2); }
+    .badge.score { background: var(--accent); }
+    .badge.correct { background: var(--accent3); }
+
+    .question {
+      font-size: 26px;
+      margin: 18px 0 10px;
+    }
+
+    input[type="number"] {
+      padding: 6px;
+      font-size: 18px;
+      width: 110px;
+      text-align: center;
+      border-radius: 8px;
+      border: 2px solid var(--accent2);
+      outline: none;
+    }
+
+    input[type="number"]:focus {
+      box-shadow: 0 0 0 3px rgba(110,203,255,0.4);
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 999px;
+      border: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.1s ease, box-shadow 0.1s ease, filter 0.1s ease;
+    }
+
+    button:disabled {
+      filter: grayscale(0.6);
+      cursor: default;
+      box-shadow: none;
+    }
+
+    button:hover:not(:disabled) {
+      filter: brightness(1.05);
+    }
+
+    button:active:not(:disabled) {
+      transform: translateY(1px);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .message {
+      margin-top: 10px;
+      min-height: 24px;
+      font-weight: bold;
+    }
+    .correct-msg { color: #1abc9c; }
+    .incorrect-msg { color: #e74c3c; }
+
+    .cat-preview {
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .cat {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 5px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #ffe2f2, #fff1c4);
+      position: relative;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .ear {
+      width: 30px;
+      height: 30px;
+      background: #ffcdde;
+      position: absolute;
+      top: -10px;
+      border-radius: 8px 8px 0 0;
+    }
+    .ear.left { left: 15px; transform: rotate(-8deg); }
+    .ear.right { right: 15px; transform: rotate(8deg); }
+
+    .face {
+      position: absolute;
+      inset: 25px 15px 20px;
+      border-radius: 18px;
+      background: #fff9fb;
+    }
+
+    .eye {
+      width: 14px;
+      height: 14px;
+      background: #333;
+      border-radius: 50%;
+      position: absolute;
+      top: 26px;
+    }
+    .eye.left { left: 28px; }
+    .eye.right { right: 28px; }
+
+    .nose {
+      width: 10px;
+      height: 8px;
+      background: #ff6ec7;
+      border-radius: 50% 50% 60% 60%;
+      position: absolute;
+      top: 42px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .outfit-label {
+      font-size: 13px;
+      margin-top: 4px;
+      color: #555;
+    }
+
+    /* Outfit effects */
+    .outfit-hat::before {
+      content: "";
+      position: absolute;
+      top: -4px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 46px;
+      height: 18px;
+      background: var(--accent2);
+      border-radius: 10px 10px 4px 4px;
+      box-shadow: 0 2px 0 rgba(0,0,0,0.15);
+    }
+
+    .outfit-cape::after {
+      content: "";
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70px;
+      height: 26px;
+      background: linear-gradient(135deg, var(--accent), #ff9ff3);
+      border-radius: 0 0 40px 40px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    }
+
+    .outfit-glasses::before {
+      content: "";
+      position: absolute;
+      top: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 52px;
+      height: 16px;
+      border-radius: 10px;
+      border: 3px solid #333;
+      box-sizing: border-box;
+    }
+
+    /* Wings - added effect */
+    .outfit-wings::before {
+      content: "";
+      position: absolute;
+      top: 40px;
+      left: -25px;
+      width: 35px;
+      height: 45px;
+      background: linear-gradient(135deg, #ffd6f0 0%, #ffa8e8 50%, #ff6ec7 100%);
+      border-radius: 60% 20% 20% 60%;
+      box-shadow: 0 3px 8px rgba(255,110,199,0.4);
+      transform: rotate(-15deg);
+    }
+
+    .outfit-wings::after {
+      content: "";
+      position: absolute;
+      top: 40px;
+      right: -25px;
+      width: 35px;
+      height: 45px;
+      background: linear-gradient(135deg, #ffd6f0 0%, #ffa8e8 50%, #ff6ec7 100%);
+      border-radius: 20% 60% 60% 20%;
+      box-shadow: 0 3px 8px rgba(255,110,199,0.4);
+      transform: rotate(15deg);
+    }
+
+    /* Crown - added effect */
+    .outfit-crown::before {
+      content: "";
+      position: absolute;
+      top: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 16px solid #ffdd59;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    /* Bow - added effect */
+    .outfit-bow::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 30px;
+      height: 15px;
+      background: #ff6ec7;
+      border-radius: 50% 50% 0 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+
+    .outfit-bow::after {
+      content: "";
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 8px;
+      background: #ff6ec7;
+      border-radius: 50%;
+    }
+
+    /* Scarf - added effect */
+    .outfit-scarf::after {
+      content: "";
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 12px;
+      background: linear-gradient(90deg, #6ecbff, #ff6ec7);
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+
+    /* Halo - added effect */
+    .outfit-halo::before {
+      content: "";
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 8px;
+      border: 3px solid #ffdd59;
+      border-radius: 50%;
+      box-sizing: border-box;
+      box-shadow: 0 0 10px rgba(255,221,89,0.6);
+    }
+
+    /* Mask - added effect */
+    .outfit-mask::before {
+      content: "";
+      position: absolute;
+      top: 36px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 65px;
+      height: 22px;
+      background: #333;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    /* Headphones - added effect */
+    .outfit-headphones::before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75px;
+      height: 12px;
+      border: 4px solid #333;
+      border-bottom: none;
+      border-radius: 40px 40px 0 0;
+      box-sizing: border-box;
+    }
+
+    .shop-grid-title {
+      font-size: 13px;
+      margin-top: -4px;
+      margin-bottom: 6px;
+      color: #444;
+    }
+
+    .shop-list {
+      max-height: 65vh;
+      overflow-y: auto;
+      padding-right: 4px;
+    }
+
+    .shop-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #fff7ff;
+      border-radius: 10px;
+      padding: 8px 10px;
+      margin-bottom: 6px;
+      border: 1px solid #ffd3f3;
+      font-size: 13px;
+    }
+
+    .shop-item-info {
+      max-width: 65%;
+    }
+
+    .shop-item-title {
+      font-weight: bold;
+      color: var(--accent);
+    }
+
+    .shop-item-cost {
+      color: #888;
+      font-size: 12px;
+    }
+
+    .shop-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      align-items: flex-end;
+    }
+
+    .small-btn {
+      padding: 3px 10px;
+      font-size: 11px;
+      box-shadow: none;
+    }
+
+    .equipped-tag {
+      font-size: 11px;
+      color: #27ae60;
+      margin-left: 4px;
+    }
+
+    .save-indicator {
+      font-size: 11px;
+      color: #777;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-wrapper">
+    <!-- Game -->
+    <div class="game-container">
+      <h1>Multiplication Cat</h1>
+      <div class="info">
+        <span class="badge level">Level: <span id="level">1</span> / 10</span>
+        <span class="badge score">Points: <span id="score">0</span></span>
+        <span class="badge correct">Correct in level: <span id="levelScore">0</span> / 5</span>
+      </div>
+
+      <div class="question" id="question">Press "Start" to begin</div>
+
+      <input id="answer" type="number" placeholder="Your answer" disabled />
+      <br>
+      <button id="startBtn">Start</button>
+      <button id="submitBtn" disabled>Submit</button>
+
+      <div class="message" id="message"></div>
+
+      <div class="save-indicator" id="saveIndicator">
+        Progress is saved automatically.
+      </div>
+
+      <div class="cat-preview">
+        <div class="cat" id="cat">
+          <div class="ear left"></div>
+          <div class="ear right"></div>
+          <div class="face" id="catFace">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="nose"></div>
+          </div>
+        </div>
+        <div class="outfit-label">
+          Outfit: <span id="outfitLabel">None</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shop -->
+    <div class="shop-container">
+      <h2>Cat Shop</h2>
+      <p class="shop-grid-title">
+        Buy and equip outfits with your **points**. Right answer = +1, wrong = −1.
+      </p>
+      <div class="shop-list" id="shopList"></div>
+    </div>
+  </div>
+
+  <script>
+    const levelSpan = document.getElementById('level');
+    const scoreSpan = document.getElementById('score');
+    const levelScoreSpan = document.getElementById('levelScore');
+    const questionDiv = document.getElementById('question');
+    const answerInput = document.getElementById('answer');
+    const startBtn = document.getElementById('startBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const messageDiv = document.getElementById('message');
+    const cat = document.getElementById('cat');
+    const outfitLabel = document.getElementById('outfitLabel');
+    const shopList = document.getElementById('shopList');
+    const saveIndicator = document.getElementById('saveIndicator');
+
+    let currentLevel = 1;
+    let totalScore = 0;
+    let levelScore = 0;
+    let currentA = 0;
+    let currentB = 0;
+
+    const ownedOutfits = {};
+    let equippedOutfit = null;
+
+    // Diverse shop items with unique names and costs
+    const outfits = [
+      // Wings (5 items) - 8-15 points
+      { id: 'wings1', type: 'wings', name: 'Butterfly Wings', cost: 8 },
+      { id: 'wings2', type: 'wings', name: 'Angel Wings', cost: 10 },
+      { id: 'wings3', type: 'wings', name: 'Fairy Wings', cost: 12 },
+      { id: 'wings4', type: 'wings', name: 'Dragon Wings', cost: 14 },
+      { id: 'wings5', type: 'wings', name: 'Phoenix Wings', cost: 15 },
+      
+      // Hats (9 items) - 3-12 points
+      { id: 'hat1', type: 'hat', name: 'Party Hat', cost: 3 },
+      { id: 'hat2', type: 'hat', name: 'Wizard Hat', cost: 5 },
+      { id: 'hat3', type: 'hat', name: 'Pirate Hat', cost: 6 },
+      { id: 'hat4', type: 'hat', name: 'Chef Hat', cost: 7 },
+      { id: 'hat5', type: 'hat', name: 'Cowboy Hat', cost: 8 },
+      { id: 'hat6', type: 'hat', name: 'Top Hat', cost: 9 },
+      { id: 'hat7', type: 'hat', name: 'Space Helmet', cost: 10 },
+      { id: 'hat8', type: 'hat', name: 'Knight Helmet', cost: 11 },
+      { id: 'hat9', type: 'hat', name: 'Viking Helmet', cost: 12 },
+      
+      // Capes (7 items) - 5-13 points
+      { id: 'cape1', type: 'cape', name: 'Superhero Cape', cost: 5 },
+      { id: 'cape2', type: 'cape', name: 'Wizard Cape', cost: 7 },
+      { id: 'cape3', type: 'cape', name: 'Vampire Cape', cost: 8 },
+      { id: 'cape4', type: 'cape', name: 'Royal Cape', cost: 9 },
+      { id: 'cape5', type: 'cape', name: 'Rainbow Cape', cost: 10 },
+      { id: 'cape6', type: 'cape', name: 'Galaxy Cape', cost: 12 },
+      { id: 'cape7', type: 'cape', name: 'Invisible Cape', cost: 13 },
+      
+      // Glasses (6 items) - 3-9 points
+      { id: 'glasses1', type: 'glasses', name: 'Sunglasses', cost: 3 },
+      { id: 'glasses2', type: 'glasses', name: 'Reading Glasses', cost: 4 },
+      { id: 'glasses3', type: 'glasses', name: 'Star Glasses', cost: 5 },
+      { id: 'glasses4', type: 'glasses', name: '3D Glasses', cost: 6 },
+      { id: 'glasses5', type: 'glasses', name: 'Nerd Glasses', cost: 7 },
+      { id: 'glasses6', type: 'glasses', name: 'Laser Goggles', cost: 9 },
+      
+      // Crowns (5 items) - 10-18 points
+      { id: 'crown1', type: 'crown', name: 'Gold Crown', cost: 10 },
+      { id: 'crown2', type: 'crown', name: 'Diamond Crown', cost: 12 },
+      { id: 'crown3', type: 'crown', name: 'Ruby Crown', cost: 14 },
+      { id: 'crown4', type: 'crown', name: 'Emerald Crown', cost: 16 },
+      { id: 'crown5', type: 'crown', name: 'Royal Crown', cost: 18 },
+      
+      // Bows (4 items) - 4-8 points
+      { id: 'bow1', type: 'bow', name: 'Pink Bow', cost: 4 },
+      { id: 'bow2', type: 'bow', name: 'Sparkle Bow', cost: 5 },
+      { id: 'bow3', type: 'bow', name: 'Rainbow Bow', cost: 6 },
+      { id: 'bow4', type: 'bow', name: 'Fancy Bow', cost: 8 },
+      
+      // Scarves (4 items) - 5-9 points
+      { id: 'scarf1', type: 'scarf', name: 'Striped Scarf', cost: 5 },
+      { id: 'scarf2', type: 'scarf', name: 'Cozy Scarf', cost: 6 },
+      { id: 'scarf3', type: 'scarf', name: 'Silk Scarf', cost: 7 },
+      { id: 'scarf4', type: 'scarf', name: 'Magic Scarf', cost: 9 },
+      
+      // Halos (3 items) - 11-16 points
+      { id: 'halo1', type: 'halo', name: 'Angel Halo', cost: 11 },
+      { id: 'halo2', type: 'halo', name: 'Glow Halo', cost: 13 },
+      { id: 'halo3', type: 'halo', name: 'Divine Halo', cost: 16 },
+      
+      // Masks (3 items) - 6-10 points
+      { id: 'mask1', type: 'mask', name: 'Ninja Mask', cost: 6 },
+      { id: 'mask2', type: 'mask', name: 'Mystery Mask', cost: 8 },
+      { id: 'mask3', type: 'mask', name: 'Masquerade Mask', cost: 10 },
+      
+      // Headphones (3 items) - 7-12 points
+      { id: 'headphones1', type: 'headphones', name: 'Music Headphones', cost: 7 },
+      { id: 'headphones2', type: 'headphones', name: 'Gaming Headset', cost: 9 },
+      { id: 'headphones3', type: 'headphones', name: 'DJ Headphones', cost: 12 }
+    ];
+
+    function saveGame() {
+      const data = {
+        currentLevel,
+        totalScore,
+        levelScore,
+        ownedOutfits,
+        equippedOutfit
+      };
+      localStorage.setItem('multicat_game', JSON.stringify(data));
+      saveIndicator.textContent = 'Progress saved.';
+    }
+
+    function loadGame() {
+      const saved = localStorage.getItem('multicat_game');
+      if (!saved) return;
+      try {
+        const data = JSON.parse(saved);
+        if (typeof data.currentLevel === 'number') currentLevel = data.currentLevel;
+        if (typeof data.totalScore === 'number') totalScore = data.totalScore;
+        if (typeof data.levelScore === 'number') levelScore = data.levelScore;
+        if (data.ownedOutfits && typeof data.ownedOutfits === 'object') {
+          Object.assign(ownedOutfits, data.ownedOutfits);
+        }
+        if (data.equippedOutfit) equippedOutfit = data.equippedOutfit;
+      } catch (e) {
+        console.error('Failed to load saved game', e);
+      }
+    }
+
+    function updateCatOutfit() {
+      cat.classList.remove('outfit-hat', 'outfit-cape', 'outfit-glasses', 'outfit-wings', 
+                           'outfit-crown', 'outfit-bow', 'outfit-scarf', 'outfit-halo', 
+                           'outfit-mask', 'outfit-headphones');
+      if (equippedOutfit) {
+        const outfit = outfits.find(o => o.id === equippedOutfit);
+        if (outfit) {
+          cat.classList.add('outfit-' + outfit.type);
+          outfitLabel.textContent = outfit.name;
+        } else {
+          outfitLabel.textContent = 'None';
+        }
+      } else {
+        outfitLabel.textContent = 'None';
+      }
+    }
+
+    function newQuestion() {
+      currentA = currentLevel;
+      currentB = Math.floor(Math.random() * 10) + 1;
+      questionDiv.textContent = currentA + ' × ' + currentB + ' = ?';
+      answerInput.value = '';
+      answerInput.focus();
+      messageDiv.textContent = '';
+      messageDiv.className = 'message';
+    }
+
+    function refreshUIFromState() {
+      levelSpan.textContent = currentLevel;
+      scoreSpan.textContent = totalScore;
+      levelScoreSpan.textContent = levelScore;
+      updateCatOutfit();
+      updateShopUI();
+    }
+
+    function startGame() {
+      answerInput.disabled = false;
+      submitBtn.disabled = false;
+      startBtn.textContent = 'Restart';
+      newQuestion();
+      saveGame();
+    }
+
+    function checkAnswer() {
+      const userAnswer = parseInt(answerInput.value, 10);
+      if (isNaN(userAnswer)) {
+        messageDiv.textContent = 'Please enter a number.';
+        messageDiv.className = 'message incorrect-msg';
+        return;
+      }
+
+      const correctAnswer = currentA * currentB;
+
+      if (userAnswer === correctAnswer) {
+        totalScore++;
+        levelScore++;
+        messageDiv.textContent = 'Correct! +1 point';
+        messageDiv.className = 'message correct-msg';
+
+        if (levelScore >= 5) {
+          if (currentLevel < 10) {
+            currentLevel++;
+            levelScore = 0;
+            messageDiv.textContent = 'Level up! Now level ' + currentLevel + '.';
+          } else {
+            questionDiv.textContent =
+              'You finished all levels! Final points: ' + totalScore;
+            answerInput.disabled = true;
+            submitBtn.disabled = true;
+          }
+        } else {
+          setTimeout(newQuestion, 600);
+        }
+      } else {
+        totalScore--;
+        messageDiv.textContent = 'Oops! −1 point. Try again.';
+        messageDiv.className = 'message incorrect-msg';
+      }
+
+      levelSpan.textContent = currentLevel;
+      scoreSpan.textContent = totalScore;
+      levelScoreSpan.textContent = levelScore;
+      saveGame();
+    }
+
+    startBtn.addEventListener('click', () => {
+      startGame();
+    });
+
+    submitBtn.addEventListener('click', checkAnswer);
+
+    answerInput.addEventListener('keyup', function (e) {
+      if (e.key === 'Enter' && !submitBtn.disabled) {
+        checkAnswer();
+      }
+    });
+
+    // Shop building
+    function buildShop() {
+      shopList.innerHTML = '';
+      outfits.forEach(outfit => {
+        if (ownedOutfits[outfit.id] === undefined) {
+          ownedOutfits[outfit.id] = false;
+        }
+
+        const item = document.createElement('div');
+        item.className = 'shop-item';
+        item.dataset.outfitId = outfit.id;
+
+        const info = document.createElement('div');
+        info.className = 'shop-item-info';
+
+        const title = document.createElement('div');
+        title.className = 'shop-item-title';
+        title.textContent = outfit.name;
+
+        const cost = document.createElement('div');
+        cost.className = 'shop-item-cost';
+        cost.textContent = 'Cost: ' + outfit.cost + ' points';
+
+        info.appendChild(title);
+        info.appendChild(cost);
+
+        const btns = document.createElement('div');
+        btns.className = 'shop-buttons';
+
+        const buyBtn = document.createElement('button');
+        buyBtn.className = 'small-btn';
+        buyBtn.textContent = 'Buy';
+        buyBtn.addEventListener('click', function () {
+          buyOutfit(outfit.id, outfit.cost);
+        });
+
+        const equipBtn = document.createElement('button');
+        equipBtn.className = 'small-btn';
+        equipBtn.textContent = 'Equip';
+        equipBtn.addEventListener('click', function () {
+          equipOutfit(outfit.id);
+        });
+
+        btns.appendChild(buyBtn);
+        btns.appendChild(equipBtn);
+
+        item.appendChild(info);
+        item.appendChild(btns);
+
+        shopList.appendChild(item);
+      });
+    }
+
+    function updateShopUI() {
+      outfits.forEach(outfit => {
+        const item = shopList.querySelector(
+          '.shop-item[data-outfit-id="' + outfit.id + '"]'
+        );
+        if (!item) return;
+        const buyBtn = item.querySelector('.small-btn:nth-child(1)');
+        const equipBtn = item.querySelector('.small-btn:nth-child(2)');
+        const titleEl = item.querySelector('.shop-item-title');
+
+        if (ownedOutfits[outfit.id]) {
+          buyBtn.textContent = 'Owned';
+          buyBtn.disabled = true;
+        } else {
+          buyBtn.textContent = 'Buy';
+          buyBtn.disabled = false;
+        }
+
+        equipBtn.disabled = !ownedOutfits[outfit.id];
+
+        let tag = titleEl.querySelector('.equipped-tag');
+        if (!tag) {
+          tag = document.createElement('span');
+          tag.className = 'equipped-tag';
+          titleEl.appendChild(tag);
+        }
+        tag.textContent = (equippedOutfit === outfit.id) ? 'Equipped' : '';
+      });
+    }
+
+    function buyOutfit(id, cost) {
+      if (ownedOutfits[id]) {
+        messageDiv.textContent = 'You already own this outfit.';
+        messageDiv.className = 'message correct-msg';
+        return;
+      }
+      if (totalScore < cost) {
+        messageDiv.textContent = 'Not enough points for that outfit.';
+        messageDiv.className = 'message incorrect-msg';
+        return;
+      }
+      totalScore -= cost;
+      scoreSpan.textContent = totalScore;
+      ownedOutfits[id] = true;
+      messageDiv.textContent = 'Outfit bought!';
+      messageDiv.className = 'message correct-msg';
+      updateShopUI();
+      saveGame();
+    }
+
+    function equipOutfit(id) {
+      if (!ownedOutfits[id]) {
+        messageDiv.textContent = 'Buy this outfit first.';
+        messageDiv.className = 'message incorrect-msg';
+        return;
+      }
+      equippedOutfit = id;
+      updateCatOutfit();
+      updateShopUI();
+      messageDiv.textContent = 'Outfit equipped!';
+      messageDiv.className = 'message correct-msg';
+      saveGame();
+    }
+
+    // Load existing state, then build UI
+    loadGame();
+    buildShop();
+    refreshUIFromState();
+
+    // If there was saved progress, allow continuing
+    if (currentA === 0) {
+      questionDiv.textContent = 'Press "Start" to begin or continue.';
+    } else {
+      newQuestion();
+    }
+  </script>
+</body>
+</html>
