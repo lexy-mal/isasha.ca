@@ -840,8 +840,8 @@
                 if (!eventInfo) return;
 
                 const competitors = eventInfo.competitors || [];
-                const isCoupleEvent = info.event.includes('Couple');
                 const partner = info.entries[0]?.partner;
+                const isCoupleEvent = !!partner; // If person has a partner in this event, it's a couple event
                 const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
 
                 html += `<div class="event-item collapsed" id="${eventId}" onclick="toggleEvent(this)">`;
