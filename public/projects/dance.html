@@ -839,6 +839,16 @@
                 '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
         }
 
+        // Close overlay when resizing above mobile breakpoint
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                const overlay = document.querySelector('.detail-overlay');
+                if (overlay) {
+                    overlay.classList.remove('active');
+                }
+            }
+        });
+
         // Load data on page load
         loadData();
     </script>
