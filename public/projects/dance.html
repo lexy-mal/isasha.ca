@@ -673,6 +673,18 @@
         function selectParticipant(name, element) {
             document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
             if (element) element.classList.add('active');
+
+            // Show overlay on mobile
+            const overlay = document.querySelector('.detail-overlay');
+            if (window.innerWidth <= 768) {
+                overlay.classList.add('active');
+            }
+
+            // Update header text
+            const entryCount = participantsData[name].entries.length;
+            document.getElementById('detailPersonName').textContent = name;
+            document.getElementById('detailEventCount').textContent = `${entryCount} event${entryCount !== 1 ? 's' : ''}`;
+
             displayPersonDetails(name);
         }
 
