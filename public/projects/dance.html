@@ -889,19 +889,47 @@
                         </div>
                     `;
 
-                    // Show other competitors (excluding self and partner)
+                    // Show other competitors as couples (excluding self and partner)
                     const otherCompetitors = competitors.filter(c => c !== name && c !== partner);
 
                     if (otherCompetitors.length > 0) {
                         html += `<div class="competitors-title">Other Competitors</div>`;
-                        html += `<div class="competitors-list">`;
+                        html += `<div class="couples-grid">`;
+
+                        // Group competitors into couples by checking their partner info
+                        const processedCompetitors = new Set();
 
                         otherCompetitors.forEach(competitor => {
-                            html += `
-                                <div class="competitor">
-                                    <span class="competitor-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>
-                                </div>
-                            `;
+                            if (processedCompetitors.has(competitor)) return;
+
+                            // Find this competitor's partner in this heat
+                            const competitorData = participantsData[competitor];
+                            let competitorPartner = null;
+
+                            if (competitorData) {
+                                const competitorEntry = competitorData.entries.find(
+                                    e => e.heat === info.heat && e.event === info.event
+                                );
+                                competitorPartner = competitorEntry?.partner;
+                            }
+
+                            // If they have a partner in this heat and that partner is also a competitor
+                            if (competitorPartner && otherCompetitors.includes(competitorPartner)) {
+                                html += `<div class="couple-pair">`;
+                                html += `<span class="couple-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>`;
+                                html += `<span class="couple-separator"> & </span>`;
+                                html += `<span class="couple-name" onclick="searchAndSelect('${competitorPartner}')">${competitorPartner}</span>`;
+                                html += `</div>`;
+
+                                processedCompetitors.add(competitor);
+                                processedCompetitors.add(competitorPartner);
+                            } else {
+                                // Solo in couple event
+                                html += `<div class="couple-pair">`;
+                                html += `<span class="couple-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>`;
+                                html += `</div>`;
+                                processedCompetitors.add(competitor);
+                            }
                         });
 
                         html += `</div>`;
