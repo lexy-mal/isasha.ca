@@ -856,9 +856,14 @@
                 `;
 
                 // Collapsed view (always shown)
+                const coupleCount = isCoupleEvent ? Math.ceil(competitors.length / 2) : null;
+                const countText = isCoupleEvent
+                    ? `${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
+                    : `${competitors.length} competitor${competitors.length !== 1 ? 's' : ''}`;
+
                 html += `
                     <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
-                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${info.time} | ${competitors.length} competitor${competitors.length !== 1 ? 's' : ''}
+                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${info.time} | ${countText}
                     </div>
                 `;
 
