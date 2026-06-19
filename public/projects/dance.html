@@ -258,6 +258,86 @@
             background: var(--bg-tertiary);
         }
 
+        .event-item.collapsed {
+            padding: 16px;
+        }
+
+        .event-item.collapsed .event-meta,
+        .event-item.collapsed .event-details {
+            display: none;
+        }
+
+        .event-item.collapsed .event-title {
+            margin-bottom: 0;
+        }
+
+        .event-toggle {
+            cursor: pointer;
+            font-size: 1.2em;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .event-item.collapsed .event-toggle {
+            transform: rotate(-90deg);
+        }
+
+        .event-details {
+            margin-top: 16px;
+        }
+
+        .partner-section {
+            background: var(--bg-primary);
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 16px;
+            border-left: 3px solid var(--accent);
+        }
+
+        .partner-label {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+        }
+
+        .partner-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .couples-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .couple-pair {
+            background: var(--bg-primary);
+            padding: 10px 12px;
+            border-radius: 4px;
+            border-left: 2px solid var(--accent);
+            flex: 0 1 auto;
+        }
+
+        .couple-separator {
+            color: var(--text-secondary);
+            margin: 0 4px;
+        }
+
+        .couple-name {
+            color: var(--accent);
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .couple-name:hover {
+            color: var(--text-primary);
+        }
+
         .event-title {
             font-size: 1.1em;
             font-weight: 500;
@@ -760,52 +840,115 @@
                 if (!eventInfo) return;
 
                 const competitors = eventInfo.competitors || [];
+                const isCoupleEvent = info.event.includes('Couple');
+                const partner = info.entries[0]?.partner;
+                const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
 
+                html += `<div class="event-item collapsed" id="${eventId}" onclick="toggleEvent(this)">`;
                 html += `
-                    <div class="event-item">
-                        <div class="event-title">
-                            <span>${info.event}</span>
-                            <span class="heat-label">${info.heat}</span>
-                        </div>
-                        <div class="event-meta">
-                            <div class="meta-field">
-                                <div class="meta-label">Time</div>
-                                <div class="meta-value">${info.time}</div>
-                            </div>
-                            <div class="meta-field">
-                                <div class="meta-label">Competitors</div>
-                                <div class="meta-value">${competitors.length} total</div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="competitors-title">👥 ${competitors.length > 1 ? 'Competing with' : 'Solo event'}</div>
-                            <div class="competitors-list">
+                    <div class="event-title">
+                        <span style="flex: 1;">
+                            <span class="event-toggle">▶</span>
+                            ${info.event}
+                        </span>
+                        <span class="heat-label">${info.heat}</span>
+                    </div>
                 `;
+
+                // Collapsed view (always shown)
+                html += `
+                    <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
+                        ${competitors.length} competitor${competitors.length !== 1 ? 's' : ''}
+                    </div>
+                `;
+
+                // Expanded view (hidden by default)
+                html += `<div class="event-meta" style="display: none;">`;
+                html += `
+                    <div class="meta-field">
+                        <div class="meta-label">Time</div>
+                        <div class="meta-value">${info.time}</div>
+                    </div>
+                    <div class="meta-field">
+                        <div class="meta-label">Competitors</div>
+                        <div class="meta-value">${competitors.length} total</div>
+                    </div>
+                `;
+                html += `</div>`;
+
+                html += `<div class="event-details" style="display: none;">`;
 
                 if (competitors.length === 1) {
                     html += `<div class="solo-badge">✓ Solo performance</div>`;
-                } else {
-                    competitors.forEach(competitor => {
-                        if (competitor !== name) {
-                            const isPartner = info.entries.some(e => e.partner === competitor);
-                            const badgeClass = isPartner ? 'badge-partner' : 'badge-opponent';
-                            const roleText = isPartner ? 'Partner' : 'Opponent';
+                } else if (isCoupleEvent && partner) {
+                    // Couple event with partner
+                    html += `
+                        <div class="partner-section">
+                            <div class="partner-label">Dancing with</div>
+                            <div class="partner-name">${partner}</div>
+                        </div>
+                    `;
 
-                            html += `
-                                <div class="competitor">
-                                    <span class="competitor-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>
-                                    <span class="role-badge ${badgeClass}">${roleText}</span>
-                                </div>
-                            `;
+                    // Group competitors into couples
+                    const couples = {};
+                    competitors.forEach(competitor => {
+                        const competitorEntry = info.entries.find(e => e.partner === competitor || e.partner === null);
+                        const competitorPartner = competitorEntry?.partner;
+
+                        if (competitorPartner) {
+                            const coupleKey = [competitor, competitorPartner].sort().join('|');
+                            if (!couples[coupleKey]) {
+                                couples[coupleKey] = [competitor, competitorPartner];
+                            }
+                        } else if (competitor !== name) {
+                            // Solo in couple event
+                            if (!couples[competitor]) {
+                                couples[competitor] = [competitor];
+                            }
                         }
                     });
+
+                    html += `<div class="competitors-title">Other Competitors</div>`;
+                    html += `<div class="couples-grid">`;
+
+                    Object.values(couples).forEach(couple => {
+                        html += `<div class="couple-pair">`;
+                        html += couple.map((person, idx) => {
+                            return `<span class="couple-name" onclick="searchAndSelect('${person}')">${person}</span>`;
+                        }).join(`<span class="couple-separator"> & </span>`);
+                        html += `</div>`;
+                    });
+
+                    html += `</div>`;
+                } else {
+                    // Solo event or non-couple event
+                    html += `<div class="competitors-title">👥 ${competitors.length > 1 ? 'Competing with' : 'Solo event'}</div>`;
+                    html += `<div class="competitors-list">`;
+
+                    if (competitors.length === 1) {
+                        html += `<div class="solo-badge">✓ Solo performance</div>`;
+                    } else {
+                        competitors.forEach(competitor => {
+                            if (competitor !== name) {
+                                const isPartner = info.entries.some(e => e.partner === competitor);
+                                const badgeClass = isPartner ? 'badge-partner' : 'badge-opponent';
+                                const roleText = isPartner ? 'Partner' : 'Opponent';
+
+                                html += `
+                                    <div class="competitor">
+                                        <span class="competitor-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>
+                                        <span class="role-badge ${badgeClass}">${roleText}</span>
+                                    </div>
+                                `;
+                            }
+                        });
+                    }
+
+                    html += `</div>`;
                 }
 
-                html += `
-                            </div>
-                        </div>
-                    </div>
-                `;
+                html += `</div>`;
+                html += `</div>`;
             });
 
             html += '</div>';
@@ -837,6 +980,18 @@
             closeDetailView(); // Close overlay when clearing search
             document.getElementById('contentDisplay').innerHTML =
                 '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
+        }
+
+        // Toggle event details (expand/collapse)
+        function toggleEvent(element) {
+            event.stopPropagation(); // Prevent event bubbling
+            element.classList.toggle('collapsed');
+
+            const metaDiv = element.querySelector('.event-meta');
+            const detailsDiv = element.querySelector('.event-details');
+
+            if (metaDiv) metaDiv.style.display = element.classList.contains('collapsed') ? 'none' : 'grid';
+            if (detailsDiv) detailsDiv.style.display = element.classList.contains('collapsed') ? 'none' : 'block';
         }
 
         // Close overlay when resizing above mobile breakpoint
