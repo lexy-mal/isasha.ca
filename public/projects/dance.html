@@ -889,37 +889,23 @@
                         </div>
                     `;
 
-                    // Group competitors into couples
-                    const couples = {};
-                    competitors.forEach(competitor => {
-                        const competitorEntry = info.entries.find(e => e.partner === competitor || e.partner === null);
-                        const competitorPartner = competitorEntry?.partner;
+                    // Show other competitors (excluding self and partner)
+                    const otherCompetitors = competitors.filter(c => c !== name && c !== partner);
 
-                        if (competitorPartner) {
-                            const coupleKey = [competitor, competitorPartner].sort().join('|');
-                            if (!couples[coupleKey]) {
-                                couples[coupleKey] = [competitor, competitorPartner];
-                            }
-                        } else if (competitor !== name) {
-                            // Solo in couple event
-                            if (!couples[competitor]) {
-                                couples[competitor] = [competitor];
-                            }
-                        }
-                    });
+                    if (otherCompetitors.length > 0) {
+                        html += `<div class="competitors-title">Other Competitors</div>`;
+                        html += `<div class="competitors-list">`;
 
-                    html += `<div class="competitors-title">Other Competitors</div>`;
-                    html += `<div class="couples-grid">`;
+                        otherCompetitors.forEach(competitor => {
+                            html += `
+                                <div class="competitor">
+                                    <span class="competitor-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>
+                                </div>
+                            `;
+                        });
 
-                    Object.values(couples).forEach(couple => {
-                        html += `<div class="couple-pair">`;
-                        html += couple.map((person, idx) => {
-                            return `<span class="couple-name" onclick="searchAndSelect('${person}')">${person}</span>`;
-                        }).join(`<span class="couple-separator"> & </span>`);
                         html += `</div>`;
-                    });
-
-                    html += `</div>`;
+                    }
                 } else {
                     // Solo event or non-couple event
                     html += `<div class="competitors-title">👥 ${competitors.length > 1 ? 'Competing with' : 'Solo event'}</div>`;
