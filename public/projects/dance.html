@@ -690,8 +690,13 @@
 
         function displayPersonDetails(name) {
             const data = participantsData[name];
+            const overlay = document.querySelector('.detail-overlay');
+            const contentElement = (overlay && overlay.classList.contains('active')) ?
+                document.getElementById('detailContentDisplay') :
+                document.getElementById('contentDisplay');
+
             if (!data || data.entries.length === 0) {
-                document.getElementById('contentDisplay').innerHTML = `<div class="no-results"><div>No events</div></div>`;
+                contentElement.innerHTML = `<div class="no-results"><div>No events</div></div>`;
                 return;
             }
 
@@ -804,7 +809,7 @@
             });
 
             html += '</div>';
-            document.getElementById('contentDisplay').innerHTML = html;
+            contentElement.innerHTML = html;
         }
 
         function searchAndSelect(name) {
