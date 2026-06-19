@@ -821,9 +821,15 @@
             displayParticipants(e.target.value);
         });
 
+        function closeDetailView() {
+            const overlay = document.querySelector('.detail-overlay');
+            overlay.classList.remove('active');
+        }
+
         function clearSearch() {
             document.getElementById('searchInput').value = '';
             displayParticipants();
+            closeDetailView(); // Close overlay when clearing search
             document.getElementById('contentDisplay').innerHTML =
                 '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
         }
