@@ -409,6 +409,32 @@
             background: var(--accent);
         }
 
+        /* Detail overlay styles - base (hidden on desktop) */
+        .detail-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: var(--bg-primary);
+            z-index: 1000;
+            flex-direction: column;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .detail-overlay.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .detail-header,
+        .detail-back-btn,
+        .detail-header-info,
+        .detail-person-name,
+        .detail-event-count,
+        .detail-content {
+            display: none; /* Hidden until mobile media query shows them */
+        }
+
         @media (max-width: 1024px) {
             .main-content {
                 grid-template-columns: 1fr;
