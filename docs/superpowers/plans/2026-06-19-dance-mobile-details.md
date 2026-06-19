@@ -22,49 +22,54 @@
 ### Task 1: Add HTML Structure for Detail Overlay
 
 **Files:**
-- Modify: `public/projects/dance.html:476-481` (content-area div)
+- Modify: `public/projects/dance.html:481-482` (after main-content closes)
 
-**Context:** The existing `content-area` div displays details. We'll wrap it in a new `.detail-overlay` container and add a header with back button.
+**Context:** The existing `.main-content` div (lines 469-481) wraps the sidebar and content-area. We'll add a new `.detail-overlay` as a sibling (at the same level) so we can use CSS to hide the sidebar/content when the overlay is active.
 
-- [ ] **Step 1: Read the current content-area structure**
+- [ ] **Step 1: Locate the main-content closing tag**
 
-Open `public/projects/dance.html` and locate the `<div class="content-area">` (around line 476). The structure is:
-```html
-<div class="content-area">
-    <div id="contentDisplay">
-        <div class="loading">Loading data...</div>
-    </div>
-</div>
-```
+Find line 481: `</div>` (this closes `.main-content`). Line 482 closes the `.container` div.
 
-- [ ] **Step 2: Replace with overlay container structure**
+- [ ] **Step 2: Add detail-overlay between lines 481 and 482**
 
-Replace the `content-area` div with:
+Insert these lines right after line 481 (before the `</div>` that closes `.container` on line 482):
 
 ```html
-<div class="detail-overlay">
-    <div class="detail-header">
-        <button class="detail-back-btn" onclick="closeDetailView()">←</button>
-        <div class="detail-header-info">
-            <div class="detail-person-name" id="detailPersonName"></div>
-            <div class="detail-event-count" id="detailEventCount"></div>
+        <div class="detail-overlay">
+            <div class="detail-header">
+                <button class="detail-back-btn" onclick="closeDetailView()">←</button>
+                <div class="detail-header-info">
+                    <div class="detail-person-name" id="detailPersonName"></div>
+                    <div class="detail-event-count" id="detailEventCount"></div>
+                </div>
+            </div>
+            <div class="detail-content" id="detailContentDisplay">
+                <div class="loading">Loading data...</div>
+            </div>
         </div>
-    </div>
-    <div class="detail-content" id="contentDisplay">
-        <div class="loading">Loading data...</div>
-    </div>
-</div>
 ```
 
-**Why:** This structure provides:
-- Header container with back button and person info
-- Separate detail-content scrollable area
-- IDs for JS to update header text
-- Clear separation of concerns
+**Important:** The overlay is a **sibling** to `.main-content` (both inside `.container`), not nested inside it. This allows CSS sibling selectors to hide `.main-content` when overlay is active.
 
 - [ ] **Step 3: Verify HTML structure**
 
-Check that the new `<div class="detail-overlay">` and nested elements are properly placed. The `id="contentDisplay"` moves into `.detail-content` so existing JS continues to work.
+After your edit, the structure should be:
+```html
+<div class="container">
+    <header>...</header>
+    <div class="search-section">...</div>
+    <div class="main-content">
+        <div class="sidebar">...</div>
+        <div class="content-area" id="contentDisplay">...</div>
+    </div>
+    <div class="detail-overlay">  <!-- NEW: Sibling to main-content -->
+        <div class="detail-header">...</div>
+        <div class="detail-content" id="detailContentDisplay">...</div>
+    </div>
+</div>
+```
+
+Note: The original `.content-area` with `id="contentDisplay"` stays in `.main-content` for desktop. The new `detailContentDisplay` is used only when overlay is active on mobile.
 
 - [ ] **Step 4: Commit**
 
@@ -78,30 +83,51 @@ git commit -m "feat: add overlay HTML structure for mobile detail view"
 ### Task 2: Add CSS Styles for Desktop (Default)
 
 **Files:**
-- Modify: `public/projects/dance.html:450` (end of `<style>` section, before media queries)
+- Modify: `public/projects/dance.html:410` (end of base styles, before first media query)
 
 **Context:** Add base CSS for the overlay elements. On desktop, the overlay should be hidden and the layout unchanged.
 
-- [ ] **Step 1: Add base detail-overlay styles**
+- [ ] **Step 1: Locate the end of base styles**
 
-Before the existing `@media (max-width: 1024px)` query, add:
+Find line 410 (after the `::-webkit-scrollbar-thumb:hover` rule and before `@media (max-width: 1024px)`).
+
+- [ ] **Step 2: Add base detail-overlay styles**
+
+Insert before the first media query:
 
 ```css
 /* Detail overlay - hidden by default (desktop view) */
 .detail-overlay {
     display: none;
+    position: fixed;
+    inset: 0;
+    background: var(--bg-primary);
+    z-index: 1000;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.detail-overlay.active {
+    display: flex;
+    opacity: 1;
 }
 
 .detail-header,
 .detail-back-btn,
 .detail-header-info,
 .detail-person-name,
-.detail-event-count {
+.detail-event-count,
+.detail-content {
     display: none;
 }
 ```
 
-**Why:** Desktop keeps the current layout. The overlay elements exist in HTML but are hidden via CSS.
+**Why:** 
+- Base styles define the overlay structure (fixed, full-screen, flex)
+- `.active` class toggles visibility via opacity
+- Transition is defined here so it applies globally
+- Desktop keeps the current layout; overlay is hidden
 
 - [ ] **Step 2: Verify styles don't affect desktop layout**
 
@@ -119,41 +145,20 @@ git commit -m "feat: add base CSS for detail overlay (hidden on desktop)"
 ### Task 3: Add Mobile Media Query Styles
 
 **Files:**
-- Modify: `public/projects/dance.html:430` (update the existing `@media (max-width: 1024px)` block)
+- Modify: `public/projects/dance.html:412` (the existing `@media (max-width: 1024px)` block)
 
-**Context:** Replace the desktop media query with mobile-specific rules that show the overlay as full-screen.
+**Context:** Add mobile-specific rules to show the overlay as full-screen and hide main-content when active.
 
 - [ ] **Step 1: Locate the existing media query**
 
-Find `@media (max-width: 1024px)` around line 412. This is where mobile styles are defined.
+Find `@media (max-width: 1024px)` around line 412. The existing rules hide the sidebar on smaller viewports.
 
-- [ ] **Step 2: Update media query to max-width 768px**
+- [ ] **Step 2: Add detail-overlay mobile styles**
 
-Change the breakpoint from 1024px to 768px to provide more room on tablets for the two-column layout:
-
-```css
-@media (max-width: 768px) {
-```
-
-- [ ] **Step 3: Add detail-overlay styles inside the media query**
-
-After the existing `.main-content` and `.sidebar` rules, add:
+Before the media query's closing brace, add these rules:
 
 ```css
 /* Mobile detail overlay styles */
-.detail-overlay {
-    display: none; /* Hidden by default */
-    position: fixed;
-    inset: 0;
-    background: var(--bg-primary);
-    z-index: 1000;
-    flex-direction: column;
-}
-
-.detail-overlay.active {
-    display: flex;
-}
-
 .detail-header {
     display: flex;
     align-items: center;
@@ -191,7 +196,7 @@ After the existing `.main-content` and `.sidebar` rules, add:
     flex-direction: column;
     gap: 2px;
     flex: 1;
-    min-width: 0; /* Allow text truncation */
+    min-width: 0;
 }
 
 .detail-person-name {
@@ -213,37 +218,74 @@ After the existing `.main-content` and `.sidebar` rules, add:
 }
 
 .detail-content {
+    display: block;
     flex: 1;
     overflow-y: auto;
     padding: 20px;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    -webkit-overflow-scrolling: touch;
 }
 
-/* Hide sidebar and main-content when overlay is active */
-.detail-overlay.active ~ .main-content,
-.detail-overlay.active ~ .sidebar {
+/* Hide main-content when overlay is active */
+.detail-overlay.active ~ .main-content {
     display: none;
 }
 ```
 
 **Why:**
-- `position: fixed; inset: 0;` makes the overlay full-screen
-- `.active` class toggles visibility
 - Header is sticky so back button stays accessible while scrolling
-- Content area is flex and scrollable
-- iOS smooth scrolling enabled
+- Content area is scrollable with iOS smooth scrolling
+- Sibling selector `~` hides main-content when overlay has `.active` class
+- All styles use theme variables
+
+- [ ] **Step 3: Add animation keyframes**
+
+Inside the same media query (before closing brace), add:
+
+```css
+/* Overlay animations */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.detail-overlay.active .detail-header {
+    animation: slideDown 0.3s ease;
+}
+
+.detail-overlay.active .detail-content {
+    animation: fadeIn 0.3s ease 0.1s both;
+}
+```
+
+**Why:** Header slides down, content fades in with a stagger, creating smooth entrance animation.
 
 - [ ] **Step 4: Verify mobile styles**
 
 Save and test on mobile viewport (375px width in browser dev tools):
-- Overlay should not be visible yet (no `.active` class)
-- Layout should show sidebar above content (single column)
+- Sidebar and content shown normally (single column)
+- Add a test by opening browser console and running: `document.querySelector('.detail-overlay').classList.add('active')`
+- Overlay should appear full-screen with back button
 
 - [ ] **Step 5: Commit**
 
 ```bash
 git add public/projects/dance.html
-git commit -m "feat: add mobile media query styles for detail overlay"
+git commit -m "feat: add mobile media query styles and animations for detail overlay"
 ```
 
 ---
@@ -361,81 +403,42 @@ git commit -m "feat: add closeDetailView function and update clearSearch"
 
 ---
 
-### Task 6: Add Smooth Transitions
+### Task 6: Update displayPersonDetails to Use New Detail Content Area
 
 **Files:**
-- Modify: `public/projects/dance.html:430-450` (detail-overlay CSS)
+- Modify: `public/projects/dance.html:539-656` (displayPersonDetails function)
 
-**Context:** Add CSS transitions for smooth fade-in/fade-out of the overlay.
+**Context:** The `displayPersonDetails()` function currently writes to `contentDisplay`. Since we moved the overlay to be a sibling with a new `detailContentDisplay` ID, update the function to use the correct ID on mobile.
 
-- [ ] **Step 1: Update detail-overlay CSS with transition**
+- [ ] **Step 1: Locate displayPersonDetails function**
 
-In the `.detail-overlay` base rule (added in Task 2), update to:
+Find the function around line 539 that generates the HTML for person details.
 
-```css
-.detail-overlay {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+- [ ] **Step 2: Update the final line**
 
-.detail-overlay.active {
-    display: flex;
-    opacity: 1;
-}
+Find this line near the end of the function:
+```javascript
+document.getElementById('contentDisplay').innerHTML = html;
 ```
 
-**Why:** Fade transition (opacity 0 → 1) over 300ms creates smooth appearance.
+Replace with:
 
-- [ ] **Step 2: Add header and content transitions**
-
-In the media query (Task 3), add:
-
-```css
-.detail-header {
-    animation: slideDown 0.3s ease;
-}
-
-@keyframes slideDown {
-    from {
-        opacity: 0;
-        transform: translateY(-10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.detail-content {
-    animation: fadeIn 0.3s ease 0.1s both;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+```javascript
+const contentElement = document.getElementById('detailContentDisplay') || document.getElementById('contentDisplay');
+contentElement.innerHTML = html;
 ```
 
-**Why:** Header slides down slightly, content fades in with a stagger, creating a smooth entrance.
+**Why:** On mobile, the overlay uses `detailContentDisplay`. On desktop, the original `contentDisplay` is still used. This fallback approach allows both to work.
 
-- [ ] **Step 3: Test transitions in mobile view**
+- [ ] **Step 3: Test the function works**
 
-- Open in mobile viewport (375px)
-- Click a participant
-- Observe smooth fade-in and slide animation (should take ~300ms)
-- Click back button
-- Observe smooth fade-out
+Save and verify in browser console (no errors when clicking participants).
 
 - [ ] **Step 4: Commit**
 
 ```bash
 git add public/projects/dance.html
-git commit -m "feat: add smooth fade/slide transitions for overlay"
+git commit -m "feat: update displayPersonDetails to use detail content area"
 ```
 
 ---
@@ -443,31 +446,34 @@ git commit -m "feat: add smooth fade/slide transitions for overlay"
 ### Task 7: Handle Orientation Change and Resize
 
 **Files:**
-- Modify: `public/projects/dance.html:680` (after loadData call)
+- Modify: `public/projects/dance.html:680-682` (end of script, before loadData call)
 
 **Context:** Add a resize listener to close the overlay when switching from mobile to desktop view.
 
 - [ ] **Step 1: Add resize event listener**
 
-Before the `loadData()` call at the end of the script (line 680), add:
+Before the `loadData()` call (near the end of the script, around line 680), add:
 
 ```javascript
 // Close overlay when resizing above mobile breakpoint
 window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
         const overlay = document.querySelector('.detail-overlay');
-        overlay.classList.remove('active');
+        if (overlay) {
+            overlay.classList.remove('active');
+        }
     }
 });
 ```
 
-**Why:** If user rotates device from portrait to landscape (or resizes browser), overlay closes and two-column layout is restored.
+**Why:** If user rotates device from portrait to landscape (or resizes browser), overlay closes and two-column layout is restored. Guard against null with `if (overlay)` check.
 
 - [ ] **Step 2: Test resize behavior**
 
-- Open in mobile view with a detail overlay shown
-- Resize/rotate to desktop width (> 768px)
-- Overlay should disappear and sidebar should reappear
+- Open in mobile view (375px) with a detail overlay shown
+- Resize/rotate to desktop width (> 768px) in browser dev tools
+- Overlay should fade out and sidebar should reappear
+- Click a participant again to verify overlay still works after resize
 
 - [ ] **Step 3: Commit**
 
@@ -632,19 +638,20 @@ Co-Authored-By: Claude Haiku 4.5 <noreply@anthropic.com>"
 
 ## Summary
 
-**9 tasks total:**
-1. HTML structure (overlay wrapper, header, back button)
-2. Base CSS (hide overlay on desktop)
-3. Mobile media query styles (full-screen positioning)
+**8 tasks total:**
+1. HTML structure (add overlay sibling to main-content)
+2. Base CSS (overlay positioning and transitions)
+3. Mobile media query styles (show overlay elements, hide main-content, add animations)
 4. Show overlay JS (selectParticipant update)
-5. Close overlay JS (new closeDetailView function)
-6. Smooth transitions (CSS animations)
+5. Close overlay JS (closeDetailView function)
+6. Update displayPersonDetails function (use correct content area ID)
 7. Resize handler (close overlay > 768px)
 8. Manual testing (all viewports and interactions)
-9. Final review and polish
 
 **Expected duration:** 2-3 hours for full implementation + testing
 
 **Key files modified:** Only `public/projects/dance.html` (single file)
 
 **Rollback safety:** All changes in one file, easy to revert if needed
+
+**Architecture note:** The overlay is placed as a sibling to `.main-content` so CSS sibling selectors can hide the sidebar/content when overlay is active. This avoids complex nested selector logic.
