@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial Cup 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0f0f0f;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #252525;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent: #00d9ff;
+            --accent-dim: #0099cc;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            padding: 60px 0 40px 0;
+            border-bottom: 1px solid var(--bg-tertiary);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: 200;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+            background: linear-gradient(135deg, var(--accent), #00a8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: var(--text-secondary);
+            font-weight: 300;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .stats-mini {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: var(--text-secondary);
+        }
+
+        .stats-mini span {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .stats-mini strong {
+            color: var(--accent);
+        }
+
+        .search-section {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 14px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: var(--bg-tertiary);
+            box-shadow: 0 0 0 2px rgba(0, 217, 255, 0.1);
+        }
+
+        button {
+            padding: 14px 24px;
+            background: var(--accent);
+            border: none;
+            border-radius: 6px;
+            color: var(--bg-primary);
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: var(--accent-dim);
+            transform: translateY(-2px);
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 30px;
+        }
+
+        .sidebar {
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .sidebar-header {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
+        .results-count {
+            font-size: 0.85em;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--bg-tertiary);
+        }
+
+        .participant-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .participant-item {
+            padding: 12px;
+            background: var(--bg-secondary);
+            border-left: 2px solid transparent;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+            font-size: 0.95em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .participant-item:hover {
+            background: var(--bg-tertiary);
+            border-left-color: var(--accent);
+        }
+
+        .participant-item.active {
+            background: var(--bg-tertiary);
+            border-left-color: var(--accent);
+            color: var(--accent);
+        }
+
+        .participant-count {
+            font-size: 0.75em;
+            color: var(--text-secondary);
+        }
+
+        .content-area {
+            min-height: 600px;
+        }
+
+        .person-header {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--bg-tertiary);
+        }
+
+        .person-name {
+            font-size: 2.5em;
+            font-weight: 300;
+            letter-spacing: -0.01em;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--accent), #00a8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .stat-box {
+            background: var(--bg-secondary);
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid var(--bg-tertiary);
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: 300;
+            color: var(--accent);
+            margin-bottom: 8px;
+        }
+
+        .stat-label {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+        }
+
+        .events-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .event-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 6px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .event-item:hover {
+            border-color: var(--accent);
+            background: var(--bg-tertiary);
+        }
+
+        .event-title {
+            font-size: 1.1em;
+            font-weight: 500;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 12px;
+        }
+
+        .heat-label {
+            background: var(--accent);
+            color: var(--bg-primary);
+            padding: 4px 12px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .event-meta {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 16px 0;
+            border-top: 1px solid var(--bg-tertiary);
+            border-bottom: 1px solid var(--bg-tertiary);
+        }
+
+        .meta-field {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .meta-label {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+        }
+
+        .meta-value {
+            font-size: 0.95em;
+            color: var(--text-primary);
+        }
+
+        .competitors-title {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .competitors-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .competitor {
+            padding: 10px 12px;
+            background: var(--bg-primary);
+            border-left: 2px solid var(--accent);
+            border-radius: 3px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.95em;
+        }
+
+        .competitor-name {
+            color: var(--accent);
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .competitor-name:hover {
+            color: var(--text-primary);
+        }
+
+        .role-badge {
+            font-size: 0.7em;
+            padding: 3px 8px;
+            border-radius: 2px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .badge-partner {
+            background: rgba(0, 217, 255, 0.2);
+            color: var(--accent);
+        }
+
+        .badge-opponent {
+            background: rgba(160, 160, 160, 0.2);
+            color: var(--text-secondary);
+        }
+
+        .solo-badge {
+            background: rgba(0, 217, 255, 0.1);
+            border-left-color: transparent;
+            color: var(--text-secondary);
+            padding: 12px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .no-results-icon {
+            font-size: 3em;
+            margin-bottom: 16px;
+            opacity: 0.5;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent);
+        }
+
+        @media (max-width: 1024px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            .sidebar {
+                position: static;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .event-meta {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 16px;
+            }
+            header {
+                padding: 40px 0 30px 0;
+                margin-bottom: 30px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .stats-mini {
+                gap: 20px;
+                font-size: 0.8em;
+            }
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="subtitle">Imperial Cup 2026</div>
+            <h1>Event Competitors</h1>
+            <div class="stats-mini">
+                <span><strong>277</strong> Participants</span>
+                <span><strong>1,259</strong> Events</span>
+                <span><strong>419</strong> Heats</span>
+            </div>
+        </header>
+
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search participants...">
+            <button onclick="clearSearch()">Clear</button>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="sidebar-header">Participants</div>
+                <div class="results-count" id="resultsCount"></div>
+                <ul class="participant-list" id="participantList"></ul>
+            </div>
+
+            <div class="content-area">
+                <div id="contentDisplay">
+                    <div class="loading">Loading data...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let participantsData = {};
+        let heatEventsData = [];
+        let sortedParticipants = [];
+
+        // Load data from JSON files
+        async function loadData() {
+            try {
+                const [participantsRes, heatEventsRes] = await Promise.all([
+                    fetch('dance_assets/participants.json'),
+                    fetch('dance_assets/heat_events.json')
+                ]);
+
+                participantsData = await participantsRes.json();
+                heatEventsData = await heatEventsRes.json();
+                sortedParticipants = Object.keys(participantsData).sort();
+
+                displayParticipants();
+            } catch (error) {
+                document.getElementById('contentDisplay').innerHTML =
+                    `<div class="no-results"><div>Error loading data: ${error.message}</div></div>`;
+                console.error('Data loading error:', error);
+            }
+        }
+
+        function displayParticipants(filter = '') {
+            const list = document.getElementById('participantList');
+            list.innerHTML = '';
+
+            const filtered = sortedParticipants.filter(name =>
+                name.toLowerCase().includes(filter.toLowerCase())
+            );
+
+            document.getElementById('resultsCount').textContent =
+                `${filtered.length} / 277`;
+
+            filtered.forEach(name => {
+                const entryCount = participantsData[name].entries.length;
+                const item = document.createElement('li');
+                item.className = 'participant-item';
+                item.innerHTML = `
+                    <span>${name}</span>
+                    <span class="participant-count">${entryCount}</span>
+                `;
+                item.onclick = () => selectParticipant(name, item);
+                list.appendChild(item);
+            });
+        }
+
+        function selectParticipant(name, element) {
+            document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
+            if (element) element.classList.add('active');
+            displayPersonDetails(name);
+        }
+
+        function displayPersonDetails(name) {
+            const data = participantsData[name];
+            if (!data || data.entries.length === 0) {
+                document.getElementById('contentDisplay').innerHTML = `<div class="no-results"><div>No events</div></div>`;
+                return;
+            }
+
+            const partners = new Set(data.entries.map(e => e.partner).filter(p => p));
+            const soloCount = data.entries.filter(e => !e.partner).length;
+            const allEventCompetitors = new Set();
+
+            data.entries.forEach(entry => {
+                const eventInfo = heatEventsData.find(he => he.heat === entry.heat && he.event === entry.event);
+                if (eventInfo) {
+                    eventInfo.competitors.forEach(c => {
+                        if (c !== name) allEventCompetitors.add(c);
+                    });
+                }
+            });
+
+            let html = `
+                <div class="person-header">
+                    <div class="person-name">${name}</div>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-value">${data.entries.length}</div>
+                            <div class="stat-label">Events</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${partners.size}</div>
+                            <div class="stat-label">Partners</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${soloCount}</div>
+                            <div class="stat-label">Solo</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${allEventCompetitors.size}</div>
+                            <div class="stat-label">Competitors</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="events-list">
+            `;
+
+            const byHeatEvent = {};
+            data.entries.forEach(entry => {
+                const key = entry.heat + '|' + entry.event;
+                if (!byHeatEvent[key]) {
+                    byHeatEvent[key] = {
+                        heat: entry.heat,
+                        event: entry.event,
+                        time: entry.time,
+                        session: entry.session,
+                        entries: []
+                    };
+                }
+                byHeatEvent[key].entries.push(entry);
+            });
+
+            Object.keys(byHeatEvent).sort().forEach(key => {
+                const info = byHeatEvent[key];
+                const eventInfo = heatEventsData.find(he => he.heat === info.heat && he.event === info.event);
+
+                if (!eventInfo) return;
+
+                const competitors = eventInfo.competitors || [];
+
+                html += `
+                    <div class="event-item">
+                        <div class="event-title">
+                            <span>${info.event}</span>
+                            <span class="heat-label">${info.heat}</span>
+                        </div>
+                        <div class="event-meta">
+                            <div class="meta-field">
+                                <div class="meta-label">Time</div>
+                                <div class="meta-value">${info.time}</div>
+                            </div>
+                            <div class="meta-field">
+                                <div class="meta-label">Competitors</div>
+                                <div class="meta-value">${competitors.length} total</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="competitors-title">👥 ${competitors.length > 1 ? 'Competing with' : 'Solo event'}</div>
+                            <div class="competitors-list">
+                `;
+
+                if (competitors.length === 1) {
+                    html += `<div class="solo-badge">✓ Solo performance</div>`;
+                } else {
+                    competitors.forEach(competitor => {
+                        if (competitor !== name) {
+                            const isPartner = info.entries.some(e => e.partner === competitor);
+                            const badgeClass = isPartner ? 'badge-partner' : 'badge-opponent';
+                            const roleText = isPartner ? 'Partner' : 'Opponent';
+
+                            html += `
+                                <div class="competitor">
+                                    <span class="competitor-name" onclick="searchAndSelect('${competitor}')">${competitor}</span>
+                                    <span class="role-badge ${badgeClass}">${roleText}</span>
+                                </div>
+                            `;
+                        }
+                    });
+                }
+
+                html += `
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            document.getElementById('contentDisplay').innerHTML = html;
+        }
+
+        function searchAndSelect(name) {
+            document.getElementById('searchInput').value = name;
+            displayParticipants(name);
+            setTimeout(() => {
+                const item = Array.from(document.querySelectorAll('.participant-item'))
+                    .find(el => el.textContent.includes(name));
+                if (item) selectParticipant(name, item);
+            }, 100);
+        }
+
+        document.getElementById('searchInput').addEventListener('keyup', (e) => {
+            displayParticipants(e.target.value);
+        });
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            displayParticipants();
+            document.getElementById('contentDisplay').innerHTML =
+                '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
