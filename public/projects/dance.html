@@ -880,16 +880,23 @@
             `;
 
             // Build all competitors section FIRST (appears at top)
+            // Separate partners from general competitors
+            const partnerSet = partners; // partners already identified above
             const allCompetitors = {};
+            const partnerCompetitors = {};
+
             data.entries.forEach(entry => {
                 const eventInfo = heatEventsData.find(he => he.heat === entry.heat && he.event === entry.event);
                 if (eventInfo) {
                     eventInfo.competitors.forEach(competitor => {
                         if (competitor !== name) {
-                            if (!allCompetitors[competitor]) {
-                                allCompetitors[competitor] = [];
+                            const isPartner = partnerSet.has(competitor);
+                            const targetObj = isPartner ? partnerCompetitors : allCompetitors;
+
+                            if (!targetObj[competitor]) {
+                                targetObj[competitor] = [];
                             }
-                            allCompetitors[competitor].push({
+                            targetObj[competitor].push({
                                 event: entry.event,
                                 time: entry.time,
                                 heat: entry.heat,
@@ -900,7 +907,9 @@
                 }
             });
 
-            if (Object.keys(allCompetitors).length > 0) {
+            const totalCompetitors = Object.keys(allCompetitors).length + Object.keys(partnerCompetitors).length;
+
+            if (totalCompetitors > 0) {
                 html += `
                     <div class="event-item collapsed" id="all-competitors" onclick="toggleEvent(this)">
                         <div class="event-title">
@@ -908,52 +917,97 @@
                                 <span class="event-toggle">▶</span>
                                 All Competitors
                             </span>
-                            <span class="heat-label">${Object.keys(allCompetitors).length}</span>
+                            <span class="heat-label">${totalCompetitors}</span>
                         </div>
                         <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
-                            ${Object.keys(allCompetitors).length} unique competitor${Object.keys(allCompetitors).length !== 1 ? 's' : ''}
+                            ${Object.keys(partnerCompetitors).length} partner${Object.keys(partnerCompetitors).length !== 1 ? 's' : ''} + ${Object.keys(allCompetitors).length} other competitor${Object.keys(allCompetitors).length !== 1 ? 's' : ''}
                         </div>
                         <div class="event-meta" style="display: none;">
                             <div class="meta-field">
                                 <div class="meta-label">Unique Competitors</div>
-                                <div class="meta-value">${Object.keys(allCompetitors).length} total</div>
+                                <div class="meta-value">${totalCompetitors} total</div>
                             </div>
                         </div>
                         <div class="event-details" style="display: none;">
 `;
 
-                Object.keys(allCompetitors).sort().forEach(competitor => {
-                    const events = allCompetitors[competitor];
+                // Show partners first
+                if (Object.keys(partnerCompetitors).length > 0) {
                     html += `
-                        <div style="margin-bottom: 20px;">
-                            <div class="competitor-name" onclick="searchAndSelect('${competitor}')" style="cursor: pointer; color: var(--accent); margin-bottom: 8px;">
-                                ${competitor}
+                        <div style="margin-bottom: 24px;">
+                            <div style="font-weight: 600; color: var(--accent); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--accent-dim);">
+                                💃 Partners
                             </div>
 `;
-                    // Group events by unique event
-                    const uniqueEvents = {};
-                    events.forEach(evt => {
-                        if (!uniqueEvents[evt.event]) {
-                            uniqueEvents[evt.event] = evt;
-                        }
-                    });
-
-                    Object.values(uniqueEvents).forEach(evt => {
+                    Object.keys(partnerCompetitors).sort().forEach(partner => {
+                        const events = partnerCompetitors[partner];
                         html += `
-                            <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 2px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
-                                <div style="color: var(--text-primary); margin-bottom: 4px;">${evt.event}</div>
-                                <div style="color: var(--text-secondary); font-size: 0.85em; display: flex; gap: 12px;">
-                                    <span>🕐 ${evt.time}</span>
-                                    <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                            <div style="margin-bottom: 16px;">
+                                <div class="competitor-name" onclick="searchAndSelect('${partner}')" style="cursor: pointer; color: var(--accent); margin-bottom: 8px;">
+                                    ${partner}
                                 </div>
+`;
+                        const uniqueEvents = {};
+                        events.forEach(evt => {
+                            if (!uniqueEvents[evt.event]) {
+                                uniqueEvents[evt.event] = evt;
+                            }
+                        });
+
+                        Object.values(uniqueEvents).forEach(evt => {
+                            html += `
+                                <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 3px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
+                                    <div style="color: var(--text-primary); margin-bottom: 4px;">${evt.event}</div>
+                                    <div style="color: var(--text-secondary); font-size: 0.85em; display: flex; gap: 12px;">
+                                        <span>🕐 ${evt.time}</span>
+                                        <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                                    </div>
+                                </div>
+`;
+                        });
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                }
+
+                // Show other competitors
+                if (Object.keys(allCompetitors).length > 0) {
+                    html += `
+                        <div>
+                            <div style="font-weight: 600; color: var(--text-primary); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--bg-tertiary);">
+                                👥 Other Competitors
                             </div>
 `;
-                    });
-
-                    html += `
-                        </div>
+                    Object.keys(allCompetitors).sort().forEach(competitor => {
+                        const events = allCompetitors[competitor];
+                        html += `
+                            <div style="margin-bottom: 16px;">
+                                <div class="competitor-name" onclick="searchAndSelect('${competitor}')" style="cursor: pointer; color: var(--accent); margin-bottom: 8px;">
+                                    ${competitor}
+                                </div>
 `;
-                });
+                        const uniqueEvents = {};
+                        events.forEach(evt => {
+                            if (!uniqueEvents[evt.event]) {
+                                uniqueEvents[evt.event] = evt;
+                            }
+                        });
+
+                        Object.values(uniqueEvents).forEach(evt => {
+                            html += `
+                                <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 2px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
+                                    <div style="color: var(--text-primary); margin-bottom: 4px;">${evt.event}</div>
+                                    <div style="color: var(--text-secondary); font-size: 0.85em; display: flex; gap: 12px;">
+                                        <span>🕐 ${evt.time}</span>
+                                        <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                                    </div>
+                                </div>
+`;
+                        });
+                        html += `</div>`;
+                    });
+                    html += `</div>`;
+                }
 
                 html += `
                         </div>
