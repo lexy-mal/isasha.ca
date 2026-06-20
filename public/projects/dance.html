@@ -719,6 +719,49 @@
         let heatEventsData = [];
         let sortedParticipants = [];
 
+        // Google Analytics Event Tracking
+        function trackEvent(eventName, eventData = {}) {
+          if (typeof gtag !== 'undefined') {
+            gtag('event', eventName, {
+              'page_title': document.title,
+              ...eventData
+            });
+          }
+        }
+
+        function trackSearch(searchTerm, resultsCount) {
+          trackEvent('search', {
+            'search_term': searchTerm,
+            'results_count': resultsCount
+          });
+        }
+
+        function trackCompetitorViewed(competitorName, entryCount) {
+          trackEvent('competitor_viewed', {
+            'competitor_name': competitorName,
+            'entry_count': entryCount,
+            'view_source': 'search_or_click'
+          });
+        }
+
+        function trackSectionExpanded(sectionName) {
+          trackEvent('section_expanded', {
+            'section_name': sectionName
+          });
+        }
+
+        function trackSectionCollapsed(sectionName) {
+          trackEvent('section_collapsed', {
+            'section_name': sectionName
+          });
+        }
+
+        function trackRecentlyViewedClick(competitorName) {
+          trackEvent('recently_viewed_click', {
+            'competitor_name': competitorName
+          });
+        }
+
         // Load data from JSON files
         async function loadData() {
             try {
@@ -753,6 +796,11 @@
             const filtered = sortedParticipants.filter(name =>
                 name.toLowerCase().includes(filter.toLowerCase())
             );
+
+            // Track search events
+            if (filter.trim().length > 0) {
+                trackSearch(filter, filtered.length);
+            }
 
             document.getElementById('resultsCount').textContent =
                 `${filtered.length} / ${sortedParticipants.length}`;
@@ -799,7 +847,7 @@
             recentlyViewed.forEach(name => {
                 const entryCount = participantsData[name]?.entries.length || 0;
                 html += `
-                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="searchAndSelect('${name}')">
+                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="trackRecentlyViewedClick('${name}'); searchAndSelect('${name}')">
                         <span>${name}</span>
                         <span class="participant-count">${entryCount}</span>
                     </li>
@@ -812,6 +860,10 @@
         function selectParticipant(name, element) {
             document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
             if (element) element.classList.add('active');
+
+            // Track competitor view
+            const entryCount = participantsData[name]?.entries.length || 0;
+            trackCompetitorViewed(name, entryCount);
 
             // Add to recently viewed
             addToRecentlyViewed(name);
@@ -1214,8 +1266,17 @@
             const metaDiv = element.querySelector('.event-meta');
             const detailsDiv = element.querySelector('.event-details');
 
-            if (metaDiv) metaDiv.style.display = element.classList.contains('collapsed') ? 'none' : 'grid';
-            if (detailsDiv) detailsDiv.style.display = element.classList.contains('collapsed') ? 'none' : 'block';
+            const isNowCollapsed = element.classList.contains('collapsed');
+            if (metaDiv) metaDiv.style.display = isNowCollapsed ? 'none' : 'grid';
+            if (detailsDiv) detailsDiv.style.display = isNowCollapsed ? 'none' : 'block';
+
+            // Track expand/collapse
+            const eventTitle = element.querySelector('.event-title span span:nth-child(2)')?.textContent || 'Unknown';
+            if (isNowCollapsed) {
+                trackSectionCollapsed(eventTitle.trim());
+            } else {
+                trackSectionExpanded(eventTitle.trim());
+            }
         }
 
         // Close overlay when resizing above mobile breakpoint
