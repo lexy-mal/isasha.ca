@@ -16,6 +16,7 @@ This script:
 import json
 import sys
 import urllib.request
+import re
 from html.parser import HTMLParser
 from collections import defaultdict
 
@@ -132,7 +133,7 @@ def build_heat_events(participants):
         heat_events_dict.values(),
         key=lambda x: (
             # Extract heat number for proper sorting
-            int(x['heat'].replace('Heat ', '').split()[0].split('A')[0]) if 'Heat' in x['heat'] else 0,
+            int(re.match(r'\d+', x['heat'].replace('Heat ', '')).group()) if re.match(r'\d+', x['heat'].replace('Heat ', '')) else 0,
             x['event']
         )
     )

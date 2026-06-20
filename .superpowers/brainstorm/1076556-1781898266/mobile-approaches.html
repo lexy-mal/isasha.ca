@@ -1,0 +1,126 @@
+<h2>Mobile Detail View Approaches</h2>
+<p class="subtitle">Which interaction pattern feels most natural?</p>
+
+<div class="cards">
+  <div class="card" data-choice="modal-overlay" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">Approach A: Modal with Backdrop</div>
+        <div class="mockup-body" style="background: #1a1a1a; padding: 20px; border-radius: 8px; position: relative; height: 400px;">
+          <!-- Dimmed background showing list underneath -->
+          <div style="position: absolute; inset: 0; background: rgba(0,0,0,0.6); border-radius: 8px; z-index: 1;"></div>
+          <!-- Modal box on top -->
+          <div style="position: relative; z-index: 2; background: #0f0f0f; border-radius: 12px; padding: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.8); margin-top: 40px;">
+            <div style="text-align: right; margin-bottom: 16px;">
+              <span style="cursor: pointer; font-size: 24px; color: #00d9ff;">×</span>
+            </div>
+            <div style="color: #00d9ff; font-size: 18px; font-weight: bold; margin-bottom: 8px;">Alex Johnson</div>
+            <div style="color: #a0a0a0; font-size: 12px; margin-bottom: 16px;">4 events • 2 partners</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+              <div style="background: #252525; padding: 12px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 18px; font-weight: bold;">4</div>
+                <div style="color: #a0a0a0; font-size: 11px;">Events</div>
+              </div>
+              <div style="background: #252525; padding: 12px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 18px; font-weight: bold;">2</div>
+                <div style="color: #a0a0a0; font-size: 11px;">Partners</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Modal with Backdrop</h3>
+      <p><strong>Pros:</strong> Clear visual separation, obvious close button, safe interaction zone</p>
+      <p><strong>Cons:</strong> Smaller modal on phone screens, feels intrusive</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="full-screen-overlay" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">Approach B: Full-Screen Slide-Up</div>
+        <div class="mockup-body" style="background: #0f0f0f; padding: 0; height: 400px; display: flex; flex-direction: column; overflow: hidden; border-radius: 8px;">
+          <!-- Top bar with back button -->
+          <div style="background: #1a1a1a; padding: 16px; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #252525;">
+            <span style="cursor: pointer; font-size: 20px; color: #00d9ff;">←</span>
+            <div>
+              <div style="color: #ffffff; font-weight: bold; font-size: 16px;">Alex Johnson</div>
+              <div style="color: #a0a0a0; font-size: 12px;">4 events</div>
+            </div>
+          </div>
+          <!-- Scrollable content area -->
+          <div style="flex: 1; overflow-y: auto; padding: 16px;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 16px;">
+              <div style="background: #252525; padding: 12px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 16px; font-weight: bold;">4</div>
+                <div style="color: #a0a0a0; font-size: 11px;">Events</div>
+              </div>
+              <div style="background: #252525; padding: 12px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 16px; font-weight: bold;">2</div>
+                <div style="color: #a0a0a0; font-size: 11px;">Partners</div>
+              </div>
+            </div>
+            <div style="background: #1a1a1a; padding: 12px; border-radius: 6px; margin-bottom: 12px;">
+              <div style="color: #a0a0a0; font-size: 11px; margin-bottom: 4px;">EVENT 1</div>
+              <div style="color: #ffffff; font-size: 14px;">Standard 10 Dance</div>
+            </div>
+            <div style="background: #1a1a1a; padding: 12px; border-radius: 6px;">
+              <div style="color: #a0a0a0; font-size: 11px; margin-bottom: 4px;">EVENT 2</div>
+              <div style="color: #ffffff; font-size: 14px;">Latin 5 Dance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Full-Screen with Top Bar</h3>
+      <p><strong>Pros:</strong> Maximum space for content, modern feel, natural back button, scrollable</p>
+      <p><strong>Cons:</strong> Content is completely replaced, participant list hidden</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="bottom-sheet" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div class="mockup">
+        <div class="mockup-header">Approach C: Bottom Sheet with Drag</div>
+        <div class="mockup-body" style="background: #0f0f0f; padding: 0; height: 400px; display: flex; flex-direction: column; border-radius: 8px; position: relative;">
+          <!-- Dimmed list underneath (visible but inactive) -->
+          <div style="flex: 1; background: rgba(15,15,15,0.4); padding: 16px; overflow-y: hidden; opacity: 0.6;">
+            <div style="color: #a0a0a0; font-size: 12px; margin-bottom: 8px;">Participants</div>
+            <div style="background: #1a1a1a; padding: 10px; border-radius: 4px; margin-bottom: 6px; color: #a0a0a0;">Alice Smith</div>
+            <div style="background: #1a1a1a; padding: 10px; border-radius: 4px; margin-bottom: 6px; color: #a0a0a0;">Bob Wilson</div>
+            <div style="background: #1a1a1a; padding: 10px; border-radius: 4px; color: #a0a0a0;">Carol Davis</div>
+          </div>
+          <!-- Bottom sheet -->
+          <div style="background: #1a1a1a; border-top: 1px solid #252525; border-radius: 16px 16px 0 0; padding: 16px; height: 55%; display: flex; flex-direction: column; box-shadow: 0 -4px 20px rgba(0,0,0,0.5);">
+            <!-- Drag handle -->
+            <div style="text-align: center; margin-bottom: 12px;">
+              <div style="width: 40px; height: 4px; background: #404040; border-radius: 2px; margin: 0 auto;"></div>
+            </div>
+            <div style="color: #00d9ff; font-size: 18px; font-weight: bold; margin-bottom: 4px;">Alex Johnson</div>
+            <div style="color: #a0a0a0; font-size: 12px; margin-bottom: 12px;">4 events • 2 partners</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; flex: 1; overflow-y: auto;">
+              <div style="background: #252525; padding: 10px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 14px; font-weight: bold;">4</div>
+                <div style="color: #a0a0a0; font-size: 10px;">Events</div>
+              </div>
+              <div style="background: #252525; padding: 10px; border-radius: 6px; text-align: center;">
+                <div style="color: #00d9ff; font-size: 14px; font-weight: bold;">2</div>
+                <div style="color: #a0a0a0; font-size: 10px;">Partners</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>Bottom Sheet</h3>
+      <p><strong>Pros:</strong> List stays partially visible, natural swipe-to-dismiss, less jarring transition</p>
+      <p><strong>Cons:</strong> Details area is cramped, harder to scroll through all content</p>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top: 32px; color: #a0a0a0;">My recommendation: <strong>Approach B (Full-Screen)</strong> — it gives maximum space for the detailed information you want to show, uses natural mobile patterns (back button), and feels modern. Since you want all the details visible, a full-screen view is ideal.</p>
