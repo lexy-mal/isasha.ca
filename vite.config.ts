@@ -3,8 +3,30 @@
   import react from '@vitejs/plugin-react-swc';
   import path from 'path';
 
+  const gaScriptPlugin = {
+    name: 'inject-google-analytics',
+    transformIndexHtml(html) {
+      const gaScript = `    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SV5JFP7RJ"><\/script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9SV5JFP7RJ');
+    <\/script>`;
+
+      // Only inject if not already present
+      if (html.includes('G-9SV5JFP7RJ')) {
+        return html;
+      }
+
+      // Inject after <head> tag
+      return html.replace(/<head>/i, `<head>\n${gaScript}\n`);
+    },
+  };
+
   export default defineConfig({
-    plugins: [react()],
+    plugins: [gaScriptPlugin, react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

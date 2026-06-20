@@ -54,6 +54,7 @@
       },
       "scripts": {
           "dev": "vite",
-          "build": "vite build"
+          "build": "vite build && node scripts/inject-ga.js",
+          "inject-ga": "node scripts/inject-ga.js"
       }
   }
