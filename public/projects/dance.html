@@ -685,6 +685,9 @@
 
         <div class="main-content">
             <div class="sidebar">
+                <div class="sidebar-header">Recently Viewed</div>
+                <div id="recentlyViewedContainer" style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--bg-tertiary);"></div>
+
                 <div class="sidebar-header">Participants</div>
                 <div class="results-count" id="resultsCount"></div>
                 <ul class="participant-list" id="participantList"></ul>
@@ -734,6 +737,7 @@
                 const uniqueHeats = new Set(heatEventsData.map(e => e.heat)).size;
                 document.getElementById('totalHeats').textContent = uniqueHeats;
 
+                displayRecentlyViewed();
                 displayParticipants();
             } catch (error) {
                 document.getElementById('contentDisplay').innerHTML =
@@ -766,9 +770,51 @@
             });
         }
 
+        function addToRecentlyViewed(name) {
+            let recentlyViewed = JSON.parse(localStorage.getItem('danceRecentlyViewed') || '[]');
+
+            // Remove if already exists
+            recentlyViewed = recentlyViewed.filter(n => n !== name);
+
+            // Add to front
+            recentlyViewed.unshift(name);
+
+            // Keep only last 10
+            recentlyViewed = recentlyViewed.slice(0, 10);
+
+            localStorage.setItem('danceRecentlyViewed', JSON.stringify(recentlyViewed));
+            displayRecentlyViewed();
+        }
+
+        function displayRecentlyViewed() {
+            const recentlyViewed = JSON.parse(localStorage.getItem('danceRecentlyViewed') || '[]');
+            const container = document.getElementById('recentlyViewedContainer');
+
+            if (recentlyViewed.length === 0) {
+                container.innerHTML = '<div style="font-size: 0.9em; color: var(--text-secondary); padding: 8px 0;">None yet</div>';
+                return;
+            }
+
+            let html = '<ul style="list-style: none; display: flex; flex-direction: column; gap: 4px;">';
+            recentlyViewed.forEach(name => {
+                const entryCount = participantsData[name]?.entries.length || 0;
+                html += `
+                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="searchAndSelect('${name}')">
+                        <span>${name}</span>
+                        <span class="participant-count">${entryCount}</span>
+                    </li>
+                `;
+            });
+            html += '</ul>';
+            container.innerHTML = html;
+        }
+
         function selectParticipant(name, element) {
             document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
             if (element) element.classList.add('active');
+
+            // Add to recently viewed
+            addToRecentlyViewed(name);
 
             // Show overlay on mobile
             const overlay = document.querySelector('.detail-overlay');
@@ -1078,8 +1124,12 @@
             document.getElementById('searchInput').value = name;
             displayParticipants(name);
             setTimeout(() => {
-                const item = Array.from(document.querySelectorAll('.participant-item'))
-                    .find(el => el.textContent.includes(name));
+                const items = Array.from(document.querySelectorAll('.participant-item'));
+                const item = items.find(el => {
+                    // Get the span text (first child)
+                    const span = el.querySelector('span');
+                    return span && span.textContent.trim() === name;
+                });
                 if (item) selectParticipant(name, item);
             }, 100);
         }
@@ -1097,6 +1147,7 @@
             document.getElementById('searchInput').value = '';
             displayParticipants();
             closeDetailView(); // Close overlay when clearing search
+            displayRecentlyViewed();
             document.getElementById('contentDisplay').innerHTML =
                 '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
         }
