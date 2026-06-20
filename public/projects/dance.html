@@ -976,6 +976,65 @@
                 html += `</div>`;
             });
 
+            // Add all competitors section
+            const allCompetitors = {};
+            data.entries.forEach(entry => {
+                const eventInfo = heatEventsData.find(he => he.heat === entry.heat && he.event === entry.event);
+                if (eventInfo) {
+                    eventInfo.competitors.forEach(competitor => {
+                        if (competitor !== name) {
+                            if (!allCompetitors[competitor]) {
+                                allCompetitors[competitor] = [];
+                            }
+                            allCompetitors[competitor].push(entry.event);
+                        }
+                    });
+                }
+            });
+
+            if (Object.keys(allCompetitors).length > 0) {
+                html += `
+                    <div class="event-item collapsed" id="all-competitors" onclick="toggleEvent(this)">
+                        <div class="event-title">
+                            <span style="flex: 1;">
+                                <span class="event-toggle">▶</span>
+                                All Competitors
+                            </span>
+                            <span class="heat-label">${Object.keys(allCompetitors).length}</span>
+                        </div>
+                        <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
+                            ${Object.keys(allCompetitors).length} unique competitor${Object.keys(allCompetitors).length !== 1 ? 's' : ''}
+                        </div>
+                        <div class="event-meta" style="display: none;">
+                            <div class="meta-field">
+                                <div class="meta-label">Unique Competitors</div>
+                                <div class="meta-value">${Object.keys(allCompetitors).length} total</div>
+                            </div>
+                        </div>
+                        <div class="event-details" style="display: none;">
+                            <div class="competitors-list">
+`;
+
+                Object.keys(allCompetitors).sort().forEach(competitor => {
+                    const events = allCompetitors[competitor];
+                    const uniqueEvents = [...new Set(events)];
+                    html += `
+                        <div class="competitor" style="flex-direction: column; align-items: flex-start;">
+                            <span class="competitor-name" onclick="searchAndSelect('${competitor}')" style="width: 100%; margin-bottom: 4px;">${competitor}</span>
+                            <span style="font-size: 0.8em; color: var(--text-secondary); margin-left: 0;">
+                                ${uniqueEvents.length} event${uniqueEvents.length !== 1 ? 's' : ''}
+                            </span>
+                        </div>
+`;
+                });
+
+                html += `
+                            </div>
+                        </div>
+                    </div>
+`;
+            }
+
             html += '</div>';
             contentElement.innerHTML = html;
         }
