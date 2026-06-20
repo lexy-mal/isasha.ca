@@ -142,19 +142,69 @@ def build_heat_events(participants):
     return heat_events
 
 
-def format_participants(participants):
-    """Format participants for output (matching current format)"""
+def is_couple_event(event_name):
+    """Determine if event is a couple/partner event based on event code"""
+    # Events starting with L- or G- are typically couple/partner events
+    # A- events are solo individual events
+    event_code = event_name.split()[0] if event_name else ''
+    return event_code.startswith(('L-', 'G-'))
+
+
+def find_partners(participants, heat_events):
+    """Find partners for couple events by analyzing heat_events"""
+    # For each participant and couple event, find who else is in that heat
+    partners = {}  # (person, heat, event) -> partner_name
+
+    for heat_event in heat_events:
+        if is_couple_event(heat_event['event']):
+            competitors = heat_event['competitors']
+            # For couple events, people appear as pairs
+            # Simple heuristic: if 2 people appear together in a couple event, they're partners
+            if len(competitors) >= 2:
+                # Just mark as needing a partner for now
+                # The actual partner will be discovered when we see them in another event
+                for competitor in competitors:
+                    key = (competitor, heat_event['heat'], heat_event['event'])
+                    partners[key] = None  # Will be filled in later
+
+    return partners
+
+
+def format_participants(participants, heat_events):
+    """Format participants for output with partner detection"""
+    # First pass: identify couple events and their participants
+    couple_event_participants = {}  # (heat, event) -> set of participants
+
+    for heat_event in heat_events:
+        if is_couple_event(heat_event['event']):
+            couple_event_participants[(heat_event['heat'], heat_event['event'])] = set(heat_event['competitors'])
+
+    # Second pass: assign partners
     formatted = {}
     for person, entries in participants.items():
-        # Create entries with partner field (if available)
         formatted_entries = []
         for entry in entries:
+            partner = None
+
+            # If this is a couple event, try to find the partner
+            if is_couple_event(entry['event']):
+                heat_event_key = (entry['heat'], entry['event'])
+                if heat_event_key in couple_event_participants:
+                    competitors = couple_event_participants[heat_event_key]
+                    # In couple events, typically 2 people per couple
+                    # Find other people in this heat who also appear in couple events with this person
+                    other_competitors = [c for c in competitors if c != person]
+                    if other_competitors:
+                        # Simple heuristic: pick the first other competitor as partner
+                        # This works for standard couple events
+                        partner = other_competitors[0]
+
             formatted_entry = {
                 'heat': entry['heat'],
                 'event': entry['event'],
                 'time': entry['time'],
                 'session': entry['session'],
-                'partner': None  # Partner info not available from heat list
+                'partner': partner
             }
             formatted_entries.append(formatted_entry)
 
@@ -228,7 +278,7 @@ def main():
         print("Data validation passed", file=sys.stderr)
 
     print("Formatting participants...", file=sys.stderr)
-    participants_formatted = format_participants(participants_raw)
+    participants_formatted = format_participants(participants_raw, heat_events)
 
     # Save files
     save_json(participants_formatted, 'participants.json')
