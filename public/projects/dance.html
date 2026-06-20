@@ -662,9 +662,9 @@
             <div class="subtitle">Imperial Cup 2026</div>
             <h1>Event Competitors</h1>
             <div class="stats-mini">
-                <span><strong>277</strong> Participants</span>
-                <span><strong>1,259</strong> Events</span>
-                <span><strong>419</strong> Heats</span>
+                <span><strong id="totalParticipants">-</strong> Participants</span>
+                <span><strong id="totalEvents">-</strong> Events</span>
+                <span><strong id="totalHeats">-</strong> Heats</span>
             </div>
         </header>
 
@@ -718,6 +718,12 @@
                 heatEventsData = await heatEventsRes.json();
                 sortedParticipants = Object.keys(participantsData).sort();
 
+                // Update dynamic stats
+                document.getElementById('totalParticipants').textContent = sortedParticipants.length;
+                document.getElementById('totalEvents').textContent = heatEventsData.length;
+                const uniqueHeats = new Set(heatEventsData.map(e => e.heat)).size;
+                document.getElementById('totalHeats').textContent = uniqueHeats;
+
                 displayParticipants();
             } catch (error) {
                 document.getElementById('contentDisplay').innerHTML =
@@ -735,7 +741,7 @@
             );
 
             document.getElementById('resultsCount').textContent =
-                `${filtered.length} / 277`;
+                `${filtered.length} / ${sortedParticipants.length}`;
 
             filtered.forEach(name => {
                 const entryCount = participantsData[name].entries.length;
