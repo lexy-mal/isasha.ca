@@ -119,14 +119,14 @@
         "event": "A-7-11 Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
         "time": "09:39AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 294",
         "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
         "time": "10:01AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 301",
@@ -154,28 +154,28 @@
         "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "11:39AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 313",
         "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:45AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 315",
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 317",
         "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "11:58AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Koszti, Paul"
+        "partner": null
       }
     ]
   },
@@ -489,14 +489,14 @@
         "event": "A-JV1 Solo Indv. Silver BALLROOM (W/T/Q)",
         "time": "03:37PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 352",
@@ -524,7 +524,7 @@
         "event": "A-JV1 Solo Indv. Silver LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 390",
@@ -538,7 +538,7 @@
         "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:34PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 397",
@@ -2017,35 +2017,35 @@
         "event": "A-JV2 Solo Indv. Silver BALLROOM (W/T/VW/F/Q)",
         "time": "03:21PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Varelas, David"
+        "partner": null
       },
       {
         "heat": "Heat 352",
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Varelas, David"
+        "partner": null
       },
       {
         "heat": "Heat 385",
         "event": "A-JV2 Solo Indv. Silver LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Varelas, David"
+        "partner": null
       },
       {
         "heat": "Heat 388",
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Varelas, David"
+        "partner": null
       },
       {
         "heat": "Heat 396",
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Varelas, David"
+        "partner": null
       }
     ]
   },
@@ -2588,70 +2588,70 @@
         "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
         "time": "03:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 348",
         "event": "A-JV1 Solo Indv. Silver BALLROOM (W/T/VW/F/Q)",
         "time": "03:37PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 351",
         "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
         "time": "03:56PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 353",
         "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
         "time": "04:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 385",
         "event": "A-JV1 Solo Indv. Silver LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 385A",
         "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
         "time": "06:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 388",
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 392",
         "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:34PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       },
       {
         "heat": "Heat 394A",
         "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arthur"
+        "partner": null
       }
     ]
   },
@@ -2669,7 +2669,7 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)",
         "time": "09:34AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 292 [Ballroom B]",
@@ -2697,7 +2697,7 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
         "time": "10:27AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 302 [Ballroom B]",
@@ -2718,21 +2718,21 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:48AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 316",
         "event": "A-12+ Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:55AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 318",
         "event": "A-12+ Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "12:01PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       }
     ]
   },
@@ -4281,14 +4281,14 @@
         "event": "A-JV2 Solo Indv. Bronze LATIN Paso Doble (P)",
         "time": "05:13PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Broudno, Thais"
+        "partner": null
       },
       {
         "heat": "Heat 377",
         "event": "A-JV2 Solo Indv. Silver LATIN Jive (J)",
         "time": "05:15PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Broudno, Thais"
+        "partner": null
       },
       {
         "heat": "Heat 378",
@@ -4302,14 +4302,14 @@
         "event": "A-JV2 Solo Indv. Bronze LATIN (C/R/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Broudno, Thais"
+        "partner": null
       },
       {
         "heat": "Heat 396",
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Broudno, Thais"
+        "partner": null
       }
     ]
   },
@@ -4721,21 +4721,21 @@
         "event": "A-PD Solo Indv. Bronze BALLROOM (W/T/VW/F/Q)",
         "time": "03:37PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-7U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 352",
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 353",
@@ -4763,14 +4763,14 @@
         "event": "A-PD Solo Indv. Bronze LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 388",
         "event": "A-7U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 390",
@@ -4791,7 +4791,7 @@
         "event": "A-7U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:57PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       }
     ]
   },
@@ -5259,49 +5259,49 @@
         "event": "A-YTH Solo Indv. Silver BALLROOM Waltz (W)",
         "time": "03:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 341",
         "event": "A-YTH Solo Indv. Silver BALLROOM Tango (T)",
         "time": "03:11PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 342",
         "event": "A-YTH Solo Indv. Silver BALLROOM Viennese Waltz (VW)",
         "time": "03:13PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 343",
         "event": "A-YTH Solo Indv. Silver BALLROOM Foxtrot (F)",
         "time": "03:14PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 344",
         "event": "A-YTH Solo Indv. Silver BALLROOM Quickstep (Q)",
         "time": "03:16PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 347",
         "event": "A-YTH Solo Indv. Silver BALLROOM (W/T/VW/F/Q)",
         "time": "03:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-12+ Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       }
     ]
   },
@@ -9511,21 +9511,21 @@
         "event": "A-7-11 Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
         "time": "09:39AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       },
       {
         "heat": "Heat 294",
         "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
         "time": "10:01AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       },
       {
         "heat": "Heat 300",
         "event": "A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
         "time": "10:34AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       },
       {
         "heat": "Heat 301",
@@ -9553,21 +9553,21 @@
         "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "11:39AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       },
       {
         "heat": "Heat 313",
         "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:45AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       },
       {
         "heat": "Heat 315",
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Airapetian, Eva"
+        "partner": null
       }
     ]
   },
@@ -11483,35 +11483,35 @@
         "event": "A-U12 Pre-Competitive Solo Indv. BALLROOM Challenge Cup (W/Q)",
         "time": "11:36AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 312",
         "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "11:39AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 313",
         "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:45AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 315",
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 317",
         "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "11:58AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       }
     ]
   },
@@ -12407,28 +12407,28 @@
         "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
         "time": "03:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Prosveer, Leon"
+        "partner": null
       },
       {
         "heat": "Heat 352",
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Prosveer, Leon"
+        "partner": null
       },
       {
         "heat": "Heat 382",
         "event": "A-JV1 Solo Indv. Bronze LATIN (C/S/R/P/J)",
         "time": "05:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Prosveer, Leon"
+        "partner": null
       },
       {
         "heat": "Heat 396",
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Prosveer, Leon"
+        "partner": null
       }
     ]
   },
@@ -12492,7 +12492,7 @@
         "event": "A-JV1 Solo Indv. Bronze LATIN (C/S/R/P/J)",
         "time": "05:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       },
       {
         "heat": "Heat 386",
@@ -12506,7 +12506,7 @@
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       }
     ]
   },
@@ -13712,7 +13712,7 @@
         "event": "A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
         "time": "10:34AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 306",
@@ -13740,21 +13740,21 @@
         "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:45AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 315",
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 317",
         "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "11:58AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       }
     ]
   },
@@ -15262,28 +15262,28 @@
         "event": "A-PD Solo Indv. Pre-Bronze BALLROOM (W/T/Q)",
         "time": "03:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Malashenko, Andre"
+        "partner": null
       },
       {
         "heat": "Heat 353",
         "event": "A-7U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
         "time": "04:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Malashenko, Andre"
+        "partner": null
       },
       {
         "heat": "Heat 385A",
         "event": "A-PD Solo Indv. Bronze LATIN (C/R/S)",
         "time": "06:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Malashenko, Andre"
+        "partner": null
       },
       {
         "heat": "Heat 394A",
         "event": "A-7U Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Malashenko, Andre"
+        "partner": null
       }
     ]
   },
@@ -16628,7 +16628,7 @@
         "event": "A-7-11 Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)",
         "time": "10:18AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Platkov, Oleksandr"
+        "partner": null
       },
       {
         "heat": "Heat 307",
@@ -16656,7 +16656,7 @@
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Platkov, Oleksandr"
+        "partner": null
       }
     ]
   },
@@ -18354,7 +18354,7 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)",
         "time": "09:34AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 291 [Ballroom B]",
@@ -18375,7 +18375,7 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
         "time": "10:27AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 303",
@@ -18389,21 +18389,21 @@
         "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:48AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 316",
         "event": "A-12+ Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:55AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 318",
         "event": "A-12+ Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "12:01PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       }
     ]
   },
@@ -18421,14 +18421,14 @@
         "event": "A-JV2 Solo Indv. Pre-Bronze 1 BALLROOM (W/T/Q)",
         "time": "03:37PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Motyl, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Motyl, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 351",
@@ -18442,7 +18442,7 @@
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Motyl, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 353",
@@ -18463,7 +18463,7 @@
         "event": "A-JV2 Solo Indv. Pre-Bronze 1 LATIN (C/R/S)",
         "time": "05:46PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Motyl, Paul"
+        "partner": null
       },
       {
         "heat": "Heat 390",
@@ -18509,14 +18509,14 @@
         "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
         "time": "03:56PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 353",
         "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
         "time": "04:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 354",
@@ -18537,14 +18537,14 @@
         "event": "A-JV2 Solo Indv. Silver LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 385A",
         "event": "A-JV2 Solo Indv. Silver LATIN (C/R/S)",
         "time": "06:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 386",
@@ -18558,14 +18558,14 @@
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       },
       {
         "heat": "Heat 394A",
         "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Rozdorozhnyi, Mark"
+        "partner": null
       }
     ]
   },
@@ -18671,28 +18671,28 @@
         "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
         "time": "03:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 350",
         "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 351",
         "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
         "time": "03:56PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 352",
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 354",
@@ -18727,7 +18727,7 @@
         "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
         "time": "06:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 386",
@@ -18741,7 +18741,7 @@
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 391",
@@ -18755,7 +18755,7 @@
         "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:34PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 393",
@@ -18769,7 +18769,7 @@
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       }
     ]
   },
@@ -19259,7 +19259,7 @@
         "event": "A-JR1 Solo Indv. Silver LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 387",
@@ -19273,14 +19273,14 @@
         "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:25PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 392A",
         "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 395",
@@ -20140,42 +20140,42 @@
         "event": "A-12+ Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
         "time": "04:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 355",
         "event": "A-12+ Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "04:09PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 373",
         "event": "A-JR1 Solo Indv. Bronze LATIN Cha Cha (C)",
         "time": "05:09PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 374",
         "event": "A-JR1 Solo Indv. Bronze LATIN Samba (S)",
         "time": "05:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 375",
         "event": "A-JR1 Solo Indv. Bronze LATIN Rumba (R)",
         "time": "05:12PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 377",
         "event": "A-JR1 Solo Indv. Bronze LATIN Jive (J)",
         "time": "05:15PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 384",
@@ -20196,14 +20196,14 @@
         "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 394A",
         "event": "A-12+ Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 397",
@@ -21934,7 +21934,7 @@
         "event": "A-JR1 Solo Indv. Gold LATIN (C/S/R/P/J)",
         "time": "05:30PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       },
       {
         "heat": "Heat 383",
@@ -21948,7 +21948,7 @@
         "event": "A-JR1 Solo Indv. Gold LATIN (C/R/S)",
         "time": "06:10PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       }
     ]
   },
@@ -22371,28 +22371,28 @@
         "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
         "time": "03:53PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 351",
         "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
         "time": "03:56PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 352",
         "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
         "time": "04:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 353",
         "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
         "time": "04:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 384",
@@ -22406,28 +22406,28 @@
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 392",
         "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:34PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 394A",
         "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       },
       {
         "heat": "Heat 396",
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Nor-Arevian, Arsene"
+        "partner": null
       }
     ]
   },
@@ -22445,7 +22445,7 @@
         "event": "A-7-11 Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)",
         "time": "10:18AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 305",
@@ -22473,21 +22473,21 @@
         "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
         "time": "11:45AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 315",
         "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
         "time": "11:51AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 317",
         "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
         "time": "11:58AM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       }
     ]
   },
@@ -23083,7 +23083,7 @@
         "event": "A-JV2 Solo Indv. Gold LATIN (C/S/R/P/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 386",
@@ -23097,7 +23097,7 @@
         "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
         "time": "06:22PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 391",
@@ -23111,7 +23111,7 @@
         "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
         "time": "06:34PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 393",
@@ -23125,14 +23125,14 @@
         "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
         "time": "06:47PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 396",
         "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
         "time": "06:54PM Sunday Later rounds: 5@07:06PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Chan, Athyn"
+        "partner": null
       },
       {
         "heat": "Heat 398",
@@ -23748,7 +23748,7 @@
         "event": "A-JV1 Solo Indv. Bronze LATIN Jive (J)",
         "time": "05:15PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Pinchak, Gleb"
+        "partner": null
       },
       {
         "heat": "Heat 383",
@@ -23762,7 +23762,7 @@
         "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/J)",
         "time": "06:02PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Pinchak, Gleb"
+        "partner": null
       }
     ]
   }

@@ -55,9 +55,10 @@ class DanceDataParser(HTMLParser):
                 self.current_partner = None  # Reset partner for new person
                 if self.current_person not in self.participants:
                     self.participants[self.current_person] = []
-            elif text.startswith('With '):
-                # Extract partner name
-                self.current_partner = text.replace('With', '').strip()
+            elif text.startswith('With'):
+                # Extract partner name (or None if empty)
+                partner_text = text.replace('With', '').strip()
+                self.current_partner = partner_text if partner_text else None
         if tag == 'td' and self.in_table:
             self.current_row.append(self.current_cell.strip())
         elif tag == 'tr' and self.in_table and self.current_row:
