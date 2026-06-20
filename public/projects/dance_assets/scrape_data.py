@@ -15,6 +15,7 @@ This script:
 
 import json
 import sys
+import os
 import urllib.request
 import re
 from html.parser import HTMLParser
@@ -165,11 +166,13 @@ def format_participants(participants):
 
 
 def save_json(data, filename):
-    """Save data to JSON file"""
+    """Save data to JSON file in the script's directory"""
     try:
-        with open(filename, 'w') as f:
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        filepath = os.path.join(script_dir, filename)
+        with open(filepath, 'w') as f:
             json.dump(data, f, indent=2)
-        print(f"Saved {filename}")
+        print(f"Saved {filepath}")
     except Exception as e:
         print(f"Error saving {filename}: {e}", file=sys.stderr)
         sys.exit(1)
