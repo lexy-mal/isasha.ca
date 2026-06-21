@@ -971,7 +971,7 @@
                             <span class="heat-label">${totalCompetitors}</span>
                         </div>
                         <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
-                            ${Object.keys(partnerCompetitors).length} partner${Object.keys(partnerCompetitors).length !== 1 ? 's' : ''} + ${Object.keys(allCompetitors).length} other competitor${Object.keys(allCompetitors).length !== 1 ? 's' : ''}
+                            ${[...Object.keys(partnerCompetitors), ...Object.keys(allCompetitors)].sort().join(', ')}
                         </div>
                         <div class="event-meta" style="display: none;">
                             <div class="meta-field">
