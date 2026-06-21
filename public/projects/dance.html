@@ -666,7 +666,6 @@
         }
 
         .detail-next-heat {
-            display: none;
             font-size: 0.9em;
             color: var(--accent);
             text-transform: uppercase;
@@ -675,10 +674,12 @@
             font-weight: 500;
         }
 
-        @media (max-width: 1024px) {
-            .detail-next-heat {
-                display: block;
-            }
+        .event-item.completed {
+            opacity: 0.5;
+        }
+
+        .event-item.completed .event-title {
+            color: var(--text-secondary);
         }
     </style>
 </head>
@@ -1314,8 +1315,10 @@
                 const partner = info.entries[0]?.partner;
                 const isCoupleEvent = !!partner; // If person has a partner in this event, it's a couple event
                 const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
+                const isCompleted = isEventCompleted(info.entries[0]?.time);
+                const completedClass = isCompleted ? ' completed' : '';
 
-                html += `<div class="event-item collapsed" id="${eventId}" onclick="toggleEvent(this)">`;
+                html += `<div class="event-item collapsed${completedClass}" id="${eventId}" onclick="toggleEvent(this)">`;
                 html += `
                     <div class="event-title">
                         <span style="flex: 1;">
