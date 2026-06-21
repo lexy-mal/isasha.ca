@@ -1000,6 +1000,54 @@
             }
         }
 
+        // Update completed status of all visible events
+        function updateEventCompletionStatus() {
+            // Get all event items
+            const eventItems = document.querySelectorAll('.event-item');
+
+            eventItems.forEach(item => {
+                // Get the time from the event summary or meta
+                const eventTitle = item.querySelector('.event-title');
+                if (!eventTitle) return;
+
+                // For "All Competitors" section, skip (no time)
+                if (item.id === 'all-competitors') return;
+
+                // Find the time in this event's data
+                // We need to find which entry/heat this is
+                const heatLabel = item.querySelector('.heat-label');
+                if (!heatLabel) return;
+
+                const heatText = heatLabel.textContent;
+                const eventText = eventTitle.querySelector('span:nth-child(2)')?.textContent?.trim() || '';
+
+                // Find matching entry from current participant
+                const currentName = document.querySelector('.person-name')?.textContent;
+                if (!currentName || !participantsData[currentName]) return;
+
+                const personData = participantsData[currentName];
+                let eventTime = null;
+
+                personData.entries.forEach(entry => {
+                    if (entry.heat === heatText && entry.event === eventText) {
+                        eventTime = entry.time;
+                    }
+                });
+
+                if (!eventTime) return;
+
+                // Check if event is completed
+                const isCompleted = isEventCompleted(eventTime);
+
+                // Update CSS class
+                if (isCompleted) {
+                    item.classList.add('completed');
+                } else {
+                    item.classList.remove('completed');
+                }
+            });
+        }
+
         // Update countdown display in detail header (both desktop and mobile)
         function updateDetailCountdown() {
             // Try to get person name from mobile detail view or desktop view
@@ -1049,6 +1097,9 @@
             if (desktopCountdown) {
                 desktopCountdown.textContent = countdownText;
             }
+
+            // Update completed status of events
+            updateEventCompletionStatus();
         }
 
         // Google Analytics Event Tracking
