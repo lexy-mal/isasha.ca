@@ -516,13 +516,20 @@
             opacity: 1;
         }
 
-        .detail-header,
         .detail-back-btn,
-        .detail-header-info,
-        .detail-person-name,
-        .detail-event-count,
-        .detail-content {
+        .detail-header,
+        .detail-overlay {
             display: none; /* Hidden until mobile media query shows them */
+        }
+
+        /* Show countdown element on desktop */
+        #desktopCountdown {
+            font-size: 0.9em;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 24px;
+            font-weight: 500;
         }
 
         @media (max-width: 1024px) {
@@ -993,9 +1000,14 @@
             }
         }
 
-        // Update countdown display in detail header
+        // Update countdown display in detail header (both desktop and mobile)
         function updateDetailCountdown() {
-            const currentName = document.getElementById('detailPersonName')?.textContent;
+            // Try to get person name from mobile detail view or desktop view
+            let currentName = document.getElementById('detailPersonName')?.textContent;
+            if (!currentName) {
+                currentName = document.querySelector('.person-name')?.textContent;
+            }
+
             if (!currentName || !participantsData[currentName]) {
                 return;
             }
@@ -1017,20 +1029,25 @@
                 countdownText = '✓ All events completed';
             }
 
-            let countdownElement = document.getElementById('detailNextHeat');
-            if (!countdownElement) {
-                // Create element if it doesn't exist
+            // Update mobile countdown (detail overlay)
+            let mobileCountdown = document.getElementById('detailNextHeat');
+            if (!mobileCountdown) {
                 const headerInfo = document.querySelector('.detail-header-info');
                 if (headerInfo) {
-                    countdownElement = document.createElement('div');
-                    countdownElement.id = 'detailNextHeat';
-                    countdownElement.className = 'detail-next-heat';
-                    headerInfo.appendChild(countdownElement);
+                    mobileCountdown = document.createElement('div');
+                    mobileCountdown.id = 'detailNextHeat';
+                    mobileCountdown.className = 'detail-next-heat';
+                    headerInfo.appendChild(mobileCountdown);
                 }
             }
+            if (mobileCountdown) {
+                mobileCountdown.textContent = countdownText;
+            }
 
-            if (countdownElement) {
-                countdownElement.textContent = countdownText;
+            // Update desktop countdown
+            const desktopCountdown = document.getElementById('desktopCountdown');
+            if (desktopCountdown) {
+                desktopCountdown.textContent = countdownText;
             }
         }
 
@@ -1264,6 +1281,7 @@
                             <div class="stat-label">Competitors</div>
                         </div>
                     </div>
+                    <div id="desktopCountdown" style="margin-top: 20px;"></div>
                 </div>
             `;
 
