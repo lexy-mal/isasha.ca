@@ -1006,20 +1006,32 @@
             const eventItems = document.querySelectorAll('.event-item');
 
             eventItems.forEach(item => {
-                // Get the time from the event summary or meta
-                const eventTitle = item.querySelector('.event-title');
-                if (!eventTitle) return;
-
                 // For "All Competitors" section, skip (no time)
                 if (item.id === 'all-competitors') return;
 
-                // Find the time in this event's data
-                // We need to find which entry/heat this is
+                // Get the event title and heat label
+                const eventTitle = item.querySelector('.event-title');
                 const heatLabel = item.querySelector('.heat-label');
-                if (!heatLabel) return;
+                if (!eventTitle || !heatLabel) return;
 
-                const heatText = heatLabel.textContent;
-                const eventText = eventTitle.querySelector('span:nth-child(2)')?.textContent?.trim() || '';
+                // Extract heat text from label
+                const heatText = heatLabel.textContent.trim();
+
+                // Extract event name - it's the text after the toggle icon
+                const eventToggle = eventTitle.querySelector('.event-toggle');
+                const firstSpan = eventTitle.querySelector('span');
+                if (!firstSpan) return;
+
+                // Get the event text (everything in the span except the toggle)
+                let eventText = '';
+                for (let node of firstSpan.childNodes) {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        eventText += node.textContent;
+                    }
+                }
+                eventText = eventText.trim();
+
+                if (!eventText || !heatText) return;
 
                 // Find matching entry from current participant
                 const currentName = document.querySelector('.person-name')?.textContent;
@@ -1028,11 +1040,13 @@
                 const personData = participantsData[currentName];
                 let eventTime = null;
 
-                personData.entries.forEach(entry => {
+                // Find matching entry
+                for (let entry of personData.entries) {
                     if (entry.heat === heatText && entry.event === eventText) {
                         eventTime = entry.time;
+                        break;
                     }
-                });
+                }
 
                 if (!eventTime) return;
 
