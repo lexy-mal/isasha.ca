@@ -847,6 +847,47 @@
             }
         }
 
+        // Check if an event is completed (its heat time has passed)
+        function isEventCompleted(timeString) {
+            if (!timeString) return false;
+
+            const parsed = parseHeatTime(timeString);
+            if (!parsed) return false;
+
+            const now = new Date();
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const targetDayIndex = days.indexOf(parsed.dayName);
+            if (targetDayIndex === -1) return false;
+
+            const todayIndex = now.getDay();
+
+            // Convert to 24-hour format
+            let hour = parsed.hour;
+            if (parsed.meridiem === 'PM' && hour !== 12) {
+                hour += 12;
+            } else if (parsed.meridiem === 'AM' && hour === 12) {
+                hour = 0;
+            }
+
+            // Create date for this occurrence of the target day
+            const eventDate = new Date(now);
+            eventDate.setHours(hour, parsed.minute, 0, 0);
+
+            // If target day is later in the week, adjust to that day
+            // If target day is earlier or same, keep current week (already passed)
+            let daysToAdd = targetDayIndex - todayIndex;
+            if (daysToAdd > 0) {
+                // Event is later in this week, hasn't happened yet
+                return false;
+            } else if (daysToAdd === 0) {
+                // Event is today - check if time has passed
+                return eventDate < now;
+            } else {
+                // Event is earlier in week - it already happened
+                return true;
+            }
+        }
+
         // Update countdown display in detail header
         function updateDetailCountdown() {
             const currentName = document.getElementById('detailPersonName')?.textContent;
@@ -1043,18 +1084,13 @@
             document.getElementById('detailPersonName').textContent = name;
 
             // Calculate completed vs upcoming events
-            const now = new Date();
             let completedCount = 0;
             const data = participantsData[name];
 
             if (data && data.entries) {
                 data.entries.forEach(entry => {
-                    const parsed = parseHeatTime(entry.time);
-                    if (parsed) {
-                        const nextTime = calculateNextOccurrence(parsed);
-                        if (nextTime && nextTime <= now) {
-                            completedCount++;
-                        }
+                    if (isEventCompleted(entry.time)) {
+                        completedCount++;
                     }
                 });
             }
