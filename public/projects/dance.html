@@ -834,21 +834,45 @@
             const now = new Date();
             const nextHeat = getNextHeatForPerson(personData);
 
-            // Find heats that have started but next heat hasn't started yet
+            // Find the most recently started heat
             let currentHeat = null;
             let latestStartTime = null;
 
             personData.entries.forEach(entry => {
                 const parsed = parseHeatTime(entry.time);
                 if (parsed) {
-                    const heatTime = calculateNextOccurrence(parsed);
-                    if (heatTime && heatTime <= now) {
-                        // This heat has started
-                        if (!latestStartTime || heatTime > latestStartTime) {
-                            latestStartTime = heatTime;
+                    // Create a date for this week's occurrence
+                    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                    const targetDayIndex = days.indexOf(parsed.dayName);
+                    const todayIndex = now.getDay();
+
+                    // Convert to 24-hour format
+                    let hour = parsed.hour;
+                    if (parsed.meridiem === 'PM' && hour !== 12) {
+                        hour += 12;
+                    } else if (parsed.meridiem === 'AM' && hour === 12) {
+                        hour = 0;
+                    }
+
+                    const eventDate = new Date(now);
+                    eventDate.setHours(hour, parsed.minute, 0, 0);
+
+                    // Adjust to correct day of week
+                    let daysToAdd = targetDayIndex - todayIndex;
+                    if (daysToAdd < 0) {
+                        daysToAdd += 7; // Event was earlier in week, was last week
+                    } else if (daysToAdd > 0 || (daysToAdd === 0 && eventDate > now)) {
+                        daysToAdd = 0; // Event is today and hasn't started, or later this week
+                    }
+                    eventDate.setDate(eventDate.getDate() + daysToAdd);
+
+                    // Check if this heat has started (heat time <= now) and is the latest one
+                    if (eventDate <= now) {
+                        if (!latestStartTime || eventDate > latestStartTime) {
+                            latestStartTime = eventDate;
                             currentHeat = {
                                 heat: entry.heat,
-                                time: heatTime,
+                                time: eventDate,
                                 originalTime: entry.time
                             };
                         }
