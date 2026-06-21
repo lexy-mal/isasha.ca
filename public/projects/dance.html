@@ -1041,7 +1041,26 @@
 
             // Update header text
             document.getElementById('detailPersonName').textContent = name;
-            document.getElementById('detailEventCount').textContent = `${entryCount} event${entryCount !== 1 ? 's' : ''}`;
+
+            // Calculate completed vs upcoming events
+            const now = new Date();
+            let completedCount = 0;
+            const data = participantsData[name];
+
+            if (data && data.entries) {
+                data.entries.forEach(entry => {
+                    const parsed = parseHeatTime(entry.time);
+                    if (parsed) {
+                        const nextTime = calculateNextOccurrence(parsed);
+                        if (nextTime && nextTime <= now) {
+                            completedCount++;
+                        }
+                    }
+                });
+            }
+
+            const upcomingCount = entryCount - completedCount;
+            document.getElementById('detailEventCount').textContent = `${entryCount} event${entryCount !== 1 ? 's' : ''} (${completedCount} completed, ${upcomingCount} left)`;
 
             displayPersonDetails(name);
         }
