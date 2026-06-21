@@ -880,9 +880,13 @@
                 }
             });
 
-            // Return current heat only if next heat hasn't started yet (or doesn't exist)
-            if (currentHeat && (!nextHeat || nextHeat.time > now)) {
-                return currentHeat;
+            // Return current heat only if it's still within 1 minute of starting
+            if (currentHeat) {
+                const timeSinceStart = now - latestStartTime;
+                const oneMinuteMs = 60000;
+                if (timeSinceStart < oneMinuteMs) {
+                    return currentHeat;
+                }
             }
 
             return null;
