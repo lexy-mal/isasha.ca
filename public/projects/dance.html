@@ -793,7 +793,7 @@
             return result;
         }
 
-        // Get next upcoming heat for a person
+        // Get next upcoming heat for a person (within current competition, not next week)
         function getNextHeatForPerson(personData) {
             if (!personData || !personData.entries || personData.entries.length === 0) {
                 return null;
@@ -801,23 +801,48 @@
 
             const now = new Date();
             const upcomingHeats = [];
+            const seenHeatTimes = new Set(); // Track unique heat times to avoid duplicates
 
             // Calculate next occurrence for each entry
             personData.entries.forEach(entry => {
                 const parsed = parseHeatTime(entry.time);
                 if (parsed) {
-                    const nextTime = calculateNextOccurrence(parsed);
-                    if (nextTime && nextTime > now) {
+                    // Create a date for this week's occurrence
+                    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                    const targetDayIndex = days.indexOf(parsed.dayName);
+                    const todayIndex = now.getDay();
+
+                    let hour = parsed.hour;
+                    if (parsed.meridiem === 'PM' && hour !== 12) {
+                        hour += 12;
+                    } else if (parsed.meridiem === 'AM' && hour === 12) {
+                        hour = 0;
+                    }
+
+                    const eventDate = new Date(now);
+                    eventDate.setHours(hour, parsed.minute, 0, 0);
+
+                    let daysToAdd = targetDayIndex - todayIndex;
+                    if (daysToAdd < 0 || (daysToAdd === 0 && eventDate <= now)) {
+                        // Event was earlier in week or already passed today - don't show (competition is over)
+                        return;
+                    }
+
+                    eventDate.setDate(eventDate.getDate() + daysToAdd);
+
+                    const timeKey = eventDate.getTime();
+                    if (!seenHeatTimes.has(timeKey)) {
                         upcomingHeats.push({
                             heat: entry.heat,
-                            time: nextTime,
+                            time: eventDate,
                             originalTime: entry.time
                         });
+                        seenHeatTimes.add(timeKey);
                     }
                 }
             });
 
-            // Return earliest upcoming heat
+            // Return earliest upcoming heat (don't jump to next week)
             if (upcomingHeats.length === 0) {
                 return null;
             }
