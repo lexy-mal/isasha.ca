@@ -825,7 +825,7 @@
             return upcomingHeats.sort((a, b) => a.time - b.time)[0];
         }
 
-        // Format countdown display text
+        // Format countdown display text (with minutes and seconds)
         function formatCountdownTime(nextHeatTime) {
             if (!nextHeatTime) {
                 return '✓ All events completed';
@@ -833,18 +833,22 @@
 
             const now = new Date();
             const diffMs = nextHeatTime.time - now;
-            const diffMins = Math.ceil(diffMs / 60000);
 
-            if (diffMins < 1) {
-                // Less than 1 minute - heat is starting now
-                const heatNum = nextHeatTime.heat || '';
-                return `🕐 Next: ${heatNum} starting now!`;
-            } else if (diffMins === 1) {
-                const heatNum = nextHeatTime.heat || '';
-                return `🕐 Next: ${heatNum} in <1 min`;
+            if (diffMs < 0) {
+                return '✓ Event started';
+            }
+
+            const totalSeconds = Math.floor(diffMs / 1000);
+            const mins = Math.floor(totalSeconds / 60);
+            const secs = totalSeconds % 60;
+            const heatNum = nextHeatTime.heat || '';
+
+            if (totalSeconds < 60) {
+                // Less than 1 minute - show seconds
+                return `🕐 Next: ${heatNum} in ${secs}s`;
             } else {
-                const heatNum = nextHeatTime.heat || '';
-                return `🕐 Next: ${heatNum} in ${diffMins} mins`;
+                // Show minutes and seconds
+                return `🕐 Next: ${heatNum} in ${mins}m ${secs}s`;
             }
         }
 
@@ -982,8 +986,8 @@
                 displayRecentlyViewed();
                 displayParticipants();
 
-                // Initialize countdown timer - updates every 60 seconds
-                setInterval(updateDetailCountdown, 60000);
+                // Initialize countdown timer - updates every second
+                setInterval(updateDetailCountdown, 1000);
                 // Call immediately on first load
                 updateDetailCountdown();
             } catch (error) {
