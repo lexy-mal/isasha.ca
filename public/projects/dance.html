@@ -1430,12 +1430,17 @@
                         });
 
                         Object.values(uniqueEvents).forEach(evt => {
+                            const isCoupleEvent = evt.event.toLowerCase().includes('couple') || evt.event.toLowerCase().includes('mixed');
+                            const coupleCount = isCoupleEvent ? Math.ceil(evt.competitors / 2) : null;
+                            const countText = isCoupleEvent
+                                ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
+                                : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                             html += `
                                 <div style="margin-left: 0; margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 3px solid var(--accent); border-radius: 2px; font-size: 0.85em;">
                                     <div style="color: var(--text-primary); font-weight: 500;">${evt.event}</div>
                                     <div style="color: var(--text-secondary); font-size: 0.8em; display: flex; gap: 12px; margin-top: 4px;">
                                         <span>🕐 ${evt.time}</span>
-                                        <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                                        <span>${countText}</span>
                                     </div>
                                 </div>
 `;
@@ -1489,12 +1494,17 @@
                             });
 
                             Object.values(uniqueEvents).forEach(evt => {
+                                const isCoupleEvent = evt.event.toLowerCase().includes('couple') || evt.event.toLowerCase().includes('mixed');
+                                const coupleCount = isCoupleEvent ? Math.ceil(evt.competitors / 2) : null;
+                                const countText = isCoupleEvent
+                                    ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
+                                    : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                                 html += `
                                     <div style="margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 2px solid var(--text-secondary); border-radius: 2px; font-size: 0.85em;">
                                         <div style="color: var(--text-primary); font-weight: 500;">${evt.event}</div>
                                         <div style="color: var(--text-secondary); font-size: 0.8em; display: flex; gap: 12px; margin-top: 4px;">
                                             <span>🕐 ${evt.time}</span>
-                                            <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                                            <span>${countText}</span>
                                         </div>
                                     </div>
 `;
@@ -1518,12 +1528,17 @@
                             });
 
                             Object.values(uniqueEvents).forEach(evt => {
+                                const isCoupleEvent = evt.event.toLowerCase().includes('couple') || evt.event.toLowerCase().includes('mixed');
+                                const coupleCount = isCoupleEvent ? Math.ceil(evt.competitors / 2) : null;
+                                const countText = isCoupleEvent
+                                    ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
+                                    : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                                 html += `
                                     <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 2px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
                                         <div style="color: var(--text-primary); margin-bottom: 4px;">${evt.event}</div>
                                         <div style="color: var(--text-secondary); font-size: 0.85em; display: flex; gap: 12px;">
                                             <span>🕐 ${evt.time}</span>
-                                            <span>👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}</span>
+                                            <span>${countText}</span>
                                         </div>
                                     </div>
 `;
