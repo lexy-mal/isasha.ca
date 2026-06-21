@@ -825,6 +825,45 @@
             return upcomingHeats.sort((a, b) => a.time - b.time)[0];
         }
 
+        // Get currently running heat for a person (heat that has started but next one hasn't)
+        function getCurrentlyRunningHeat(personData) {
+            if (!personData || !personData.entries || personData.entries.length === 0) {
+                return null;
+            }
+
+            const now = new Date();
+            const nextHeat = getNextHeatForPerson(personData);
+
+            // Find heats that have started but next heat hasn't started yet
+            let currentHeat = null;
+            let latestStartTime = null;
+
+            personData.entries.forEach(entry => {
+                const parsed = parseHeatTime(entry.time);
+                if (parsed) {
+                    const heatTime = calculateNextOccurrence(parsed);
+                    if (heatTime && heatTime <= now) {
+                        // This heat has started
+                        if (!latestStartTime || heatTime > latestStartTime) {
+                            latestStartTime = heatTime;
+                            currentHeat = {
+                                heat: entry.heat,
+                                time: heatTime,
+                                originalTime: entry.time
+                            };
+                        }
+                    }
+                }
+            });
+
+            // Return current heat only if next heat hasn't started yet (or doesn't exist)
+            if (currentHeat && (!nextHeat || nextHeat.time > now)) {
+                return currentHeat;
+            }
+
+            return null;
+        }
+
         // Format countdown display text (with minutes and seconds)
         function formatCountdownTime(nextHeatTime) {
             if (!nextHeatTime) {
@@ -900,10 +939,22 @@
                 return;
             }
 
-            const nextHeat = getNextHeatForPerson(participantsData[currentName]);
-            const countdownText = nextHeat
-                ? formatCountdownTime(nextHeat)
-                : '✓ All events completed';
+            const personData = participantsData[currentName];
+            const runningHeat = getCurrentlyRunningHeat(personData);
+            const nextHeat = getNextHeatForPerson(personData);
+
+            let countdownText;
+            if (runningHeat) {
+                // Heat is currently running
+                const heatNum = runningHeat.heat || '';
+                countdownText = `🔴 ${heatNum} is running`;
+            } else if (nextHeat) {
+                // Show countdown to next heat
+                countdownText = formatCountdownTime(nextHeat);
+            } else {
+                // No more heats
+                countdownText = '✓ All events completed';
+            }
 
             let countdownElement = document.getElementById('detailNextHeat');
             if (!countdownElement) {
