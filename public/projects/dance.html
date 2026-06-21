@@ -892,7 +892,7 @@
             return null;
         }
 
-        // Format countdown display text (with minutes and seconds)
+        // Format countdown display text (with days, hours, minutes, seconds)
         function formatCountdownTime(nextHeatTime) {
             if (!nextHeatTime) {
                 return '✓ All events completed';
@@ -906,16 +906,24 @@
             }
 
             const totalSeconds = Math.floor(diffMs / 1000);
-            const mins = Math.floor(totalSeconds / 60);
+            const days = Math.floor(totalSeconds / 86400);
+            const hours = Math.floor((totalSeconds % 86400) / 3600);
+            const mins = Math.floor((totalSeconds % 3600) / 60);
             const secs = totalSeconds % 60;
             const heatNum = nextHeatTime.heat || '';
 
             if (totalSeconds < 60) {
-                // Less than 1 minute - show seconds
+                // Less than 1 minute - show seconds only
                 return `🕐 Next: ${heatNum} in ${secs}s`;
-            } else {
-                // Show minutes and seconds
+            } else if (totalSeconds < 3600) {
+                // Less than 1 hour - show minutes and seconds
                 return `🕐 Next: ${heatNum} in ${mins}m ${secs}s`;
+            } else if (totalSeconds < 86400) {
+                // Less than 1 day - show hours, minutes, seconds
+                return `🕐 Next: ${heatNum} in ${hours}h ${mins}m ${secs}s`;
+            } else {
+                // 1 day or more - show days, hours, minutes, seconds
+                return `🕐 Next: ${heatNum} in ${days}d ${hours}h ${mins}m ${secs}s`;
             }
         }
 
