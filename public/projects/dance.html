@@ -719,6 +719,13 @@
         let heatEventsData = [];
         let sortedParticipants = [];
 
+        // Format names from "Last, First" to "First Last"
+        function formatName(name) {
+            if (!name || !name.includes(',')) return name;
+            const [last, first] = name.split(',').map(n => n.trim());
+            return `${first} ${last}`;
+        }
+
         // Google Analytics Event Tracking
         function trackEvent(eventName, eventData = {}) {
           if (typeof gtag !== 'undefined') {
@@ -971,7 +978,7 @@
                             <span class="heat-label">${totalCompetitors}</span>
                         </div>
                         <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
-                            ${[...Object.keys(partnerCompetitors), ...Object.keys(allCompetitors)].sort().join(', ')}
+                            ${[...Object.keys(partnerCompetitors), ...Object.keys(allCompetitors)].sort().map(formatName).join(', ')}
                         </div>
                         <div class="event-meta" style="display: none;">
                             <div class="meta-field">
