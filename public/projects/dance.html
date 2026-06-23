@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SV5JFP7RJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9SV5JFP7RJ');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imperial Cup 2026</title>
@@ -695,6 +704,7 @@
         <header>
             <div class="subtitle">Imperial Cup 2026</div>
             <h1>Event Competitors</h1>
+            <div style="margin-top:8px;"><a href="results.html" style="font-size:0.75em;color:var(--accent);text-decoration:none;opacity:0.8;">🏆 View Results →</a></div>
             <div class="stats-mini">
                 <span><strong id="totalParticipants">-</strong> Participants</span>
                 <span><strong id="totalEvents">-</strong> Events</span>
@@ -742,12 +752,62 @@
         let participantsData = {};
         let heatEventsData = [];
         let sortedParticipants = [];
+        let resultsData = {};
+        let personResultsData = {};
 
         // Format names from "Last, First" to "First Last"
         function formatName(name) {
             if (!name || !name.includes(',')) return name;
             const [last, first] = name.split(',').map(n => n.trim());
             return `${first} ${last}`;
+        }
+
+        // Get placement string for a person in a specific heat
+        function getPersonPlacement(personName, heatKey) {
+            const results = personResultsData[personName] || [];
+            const entry = results.find(r => r.heat === heatKey);
+            return entry ? entry.placement : null;
+        }
+
+        // Format placement as medal emoji + ordinal
+        function formatPlacement(placement) {
+            if (!placement) return '';
+            const n = parseInt(placement);
+            if (isNaN(n)) return placement;
+            const medal = n === 1 ? '🥇' : n === 2 ? '🥈' : n === 3 ? '🥉' : null;
+            const suffix = n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th';
+            return medal ? `${medal} ${n}${suffix}` : `${n}${suffix}`;
+        }
+
+        // Build full heat ranking HTML from results.json
+        function buildHeatRanking(heatKey) {
+            const heat = resultsData[heatKey];
+            if (!heat || !heat.finalSummary || heat.finalSummary.length === 0) return '';
+
+            const sorted = [...heat.finalSummary].sort((a, b) => {
+                const pa = parseInt(a.placement) || 999;
+                const pb = parseInt(b.placement) || 999;
+                return pa - pb;
+            });
+
+            let html = `<div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bg-tertiary);">`;
+            html += `<div style="font-size:0.75em;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Full Ranking</div>`;
+
+            sorted.forEach(row => {
+                const place = parseInt(row.placement) || 0;
+                const medal = place === 1 ? '🥇' : place === 2 ? '🥈' : place === 3 ? '🥉' : `${place}.`;
+                const danceParts = Object.entries(row.dances || {})
+                    .map(([d, p]) => `<span style="opacity:0.6;font-size:0.78em;">${d}:${p}</span>`)
+                    .join(' ');
+                html += `<div style="display:flex;align-items:baseline;gap:6px;padding:3px 0;border-bottom:1px solid rgba(255,255,255,0.05);">
+                    <span style="min-width:26px;font-weight:600;font-size:0.9em;">${medal}</span>
+                    <span style="flex:1;font-size:0.85em;opacity:0.9;">${row.names}</span>
+                    <span style="display:flex;gap:4px;">${danceParts}</span>
+                </div>`;
+            });
+
+            html += `</div>`;
+            return html;
         }
 
         // Parse heat time from format: "03:38PM Sunday" or "06:54PM Sunday Later rounds: 5@07:07PM Sunday"
@@ -1162,13 +1222,17 @@
         // Load data from JSON files
         async function loadData() {
             try {
-                const [participantsRes, heatEventsRes] = await Promise.all([
+                const [participantsRes, heatEventsRes, resultsRes, personResultsRes] = await Promise.all([
                     fetch('dance_assets/participants.json'),
-                    fetch('dance_assets/heat_events.json')
+                    fetch('dance_assets/heat_events.json'),
+                    fetch('dance_assets/results.json').catch(() => ({ json: () => ({}) })),
+                    fetch('dance_assets/person_results.json').catch(() => ({ json: () => ({}) }))
                 ]);
 
                 participantsData = await participantsRes.json();
                 heatEventsData = await heatEventsRes.json();
+                resultsData = await resultsRes.json();
+                personResultsData = await personResultsRes.json();
                 sortedParticipants = Object.keys(participantsData).sort();
 
                 // Update dynamic stats
@@ -1435,9 +1499,13 @@
                             const countText = isCoupleEvent
                                 ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                 : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
+                            const partnerPlace = getPersonPlacement(partner, evt.heat);
+                            const partnerBadge = partnerPlace
+                                ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(partnerPlace)}</span>`
+                                : '';
                             html += `
                                 <div style="margin-left: 0; margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 3px solid var(--accent); border-radius: 2px; font-size: 0.85em;">
-                                    <div style="color: var(--text-primary); font-weight: 500;">${evt.event}</div>
+                                    <div style="color: var(--text-primary); font-weight: 500; display:flex; align-items:center;">${evt.event}${partnerBadge}</div>
                                     <div style="color: var(--text-secondary); font-size: 0.8em; display: flex; gap: 12px; margin-top: 4px;">
                                         <span>🕐 ${evt.time}</span>
                                         <span>${countText}</span>
@@ -1499,9 +1567,13 @@
                                 const countText = isCoupleEvent
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
+                                const couplePlace = getPersonPlacement(competitor, evt.heat);
+                                const coupleBadge = couplePlace
+                                    ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(couplePlace)}</span>`
+                                    : '';
                                 html += `
                                     <div style="margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 2px solid var(--text-secondary); border-radius: 2px; font-size: 0.85em;">
-                                        <div style="color: var(--text-primary); font-weight: 500;">${evt.event}</div>
+                                        <div style="color: var(--text-primary); font-weight: 500; display:flex; align-items:center;">${evt.event}${coupleBadge}</div>
                                         <div style="color: var(--text-secondary); font-size: 0.8em; display: flex; gap: 12px; margin-top: 4px;">
                                             <span>🕐 ${evt.time}</span>
                                             <span>${countText}</span>
@@ -1533,9 +1605,13 @@
                                 const countText = isCoupleEvent
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
+                                const soloPlace = getPersonPlacement(competitor, evt.heat);
+                                const soloBadge = soloPlace
+                                    ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(soloPlace)}</span>`
+                                    : '';
                                 html += `
                                     <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 2px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
-                                        <div style="color: var(--text-primary); margin-bottom: 4px;">${evt.event}</div>
+                                        <div style="color: var(--text-primary); margin-bottom: 4px; display:flex; align-items:center;">${evt.event}${soloBadge}</div>
                                         <div style="color: var(--text-secondary); font-size: 0.85em; display: flex; gap: 12px;">
                                             <span>🕐 ${evt.time}</span>
                                             <span>${countText}</span>
@@ -1588,11 +1664,15 @@
                 const completedClass = isCompleted ? ' completed' : '';
 
                 html += `<div class="event-item collapsed${completedClass}" id="${eventId}" onclick="toggleEvent(this)">`;
+                const myPlacement = getPersonPlacement(name, info.heat);
+                const placementBadge = myPlacement
+                    ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
+                    : '';
                 html += `
                     <div class="event-title">
                         <span style="flex: 1;">
                             <span class="event-toggle">▶</span>
-                            ${info.event}
+                            ${info.event}${placementBadge}
                         </span>
                         <span class="heat-label">${info.heat}</span>
                     </div>
@@ -1622,6 +1702,7 @@
                         <div class="meta-value">${competitors.length} total</div>
                     </div>
                 `;
+                html += buildHeatRanking(info.heat);
                 html += `</div>`;
 
                 html += `<div class="event-details" style="display: none;">`;

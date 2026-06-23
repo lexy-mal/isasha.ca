@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SV5JFP7RJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9SV5JFP7RJ');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial Cup 2026 — Results</title>
+    <style>
+        /* ── Design tokens (match dance.html) ── */
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-tertiary: #1a1a26;
+            --text-primary: #e8e8f0;
+            --text-secondary: #8888aa;
+            --accent: #00d9ff;
+            --accent-dim: rgba(0,217,255,0.2);
+            --gold: #ffd700;
+            --silver: #c0c0c0;
+            --bronze: #cd7f32;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            min-height: 100vh;
+        }
+
+        .page-header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--bg-tertiary);
+            padding: 24px 32px;
+        }
+        .page-header h1 {
+            font-size: 1.8em;
+            color: var(--accent);
+            letter-spacing: 0.05em;
+        }
+        .page-header .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+        .nav-links {
+            margin-top: 12px;
+            display: flex;
+            gap: 16px;
+        }
+        .nav-links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+        .nav-links a:hover { opacity: 1; }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 32px;
+        }
+
+        /* ── Tabs ── */
+        .tabs {
+            display: flex;
+            gap: 0;
+            border-bottom: 2px solid var(--bg-tertiary);
+            margin-bottom: 32px;
+        }
+        .tab-btn {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 1em;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        .tab-btn.active {
+            color: var(--accent);
+            border-bottom-color: var(--accent);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* ── Search / person chips ── */
+        .search-box {
+            position: relative;
+            margin-bottom: 16px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px 16px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 4px;
+            color: var(--text-primary);
+            font-size: 1em;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .search-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0; right: 0;
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 4px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 10;
+            display: none;
+        }
+        .search-dropdown.open { display: block; }
+        .search-result-item {
+            padding: 8px 16px;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        .search-result-item:hover { background: var(--bg-tertiary); }
+
+        .selected-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+        .chip {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            background: var(--accent-dim);
+            border: 1px solid var(--accent);
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: var(--accent);
+        }
+        .chip button {
+            background: none;
+            border: none;
+            color: var(--accent);
+            cursor: pointer;
+            font-size: 1em;
+            line-height: 1;
+            opacity: 0.7;
+        }
+        .chip button:hover { opacity: 1; }
+
+        /* ── Comparison table ── */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        .comparison-table th {
+            background: var(--bg-secondary);
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 2px solid var(--accent-dim);
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            letter-spacing: 0.05em;
+        }
+        .comparison-table td {
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--bg-tertiary);
+            vertical-align: top;
+        }
+        .comparison-table tr:hover td { background: var(--bg-secondary); }
+        .placement-cell {
+            font-weight: 600;
+            text-align: center;
+        }
+        .placement-cell.gold { color: var(--gold); }
+        .placement-cell.silver { color: var(--silver); }
+        .placement-cell.bronze { color: var(--bronze); }
+        .placement-cell.other { color: var(--text-secondary); }
+        .placement-cell.dnc { color: var(--bg-tertiary); font-style: italic; }
+
+        /* ── Leaderboard ── */
+        .leaderboard-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+        .leaderboard-table th {
+            background: var(--bg-secondary);
+            padding: 10px 14px;
+            text-align: left;
+            border-bottom: 2px solid var(--accent-dim);
+            color: var(--text-secondary);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            user-select: none;
+        }
+        .leaderboard-table th:hover { color: var(--accent); }
+        .leaderboard-table th.sorted { color: var(--accent); }
+        .leaderboard-table td {
+            padding: 10px 14px;
+            border-bottom: 1px solid var(--bg-tertiary);
+        }
+        .leaderboard-table tr:hover td { background: var(--bg-secondary); }
+        .leaderboard-table .rank-col {
+            text-align: center;
+            color: var(--text-secondary);
+            width: 40px;
+        }
+        .name-link {
+            cursor: pointer;
+            color: var(--accent);
+        }
+        .name-link:hover { text-decoration: underline; }
+
+        .empty-state {
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 48px;
+        }
+        .loading {
+            text-align: center;
+            color: var(--text-secondary);
+            padding: 48px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-header">
+        <h1>Imperial Cup 2026 — Results</h1>
+        <div class="subtitle">June 19–21, 2026 · Full scoresheet results</div>
+        <div class="nav-links">
+            <a href="dance.html">← Schedule &amp; Participants</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab('leaderboard')">🏆 Leaderboard</button>
+            <button class="tab-btn" onclick="switchTab('headtohead')">⚔️ Head-to-Head</button>
+        </div>
+
+        <div id="tab-leaderboard" class="tab-content active">
+            <div class="loading" id="leaderboardLoading">Loading results…</div>
+        </div>
+
+        <div id="tab-headtohead" class="tab-content">
+            <div class="search-box">
+                <input type="text" id="h2hSearch" placeholder="Search competitor to add…" autocomplete="off"
+                    oninput="onH2HSearch(this.value)" onfocus="onH2HSearch(this.value)">
+                <div class="search-dropdown" id="h2hDropdown"></div>
+            </div>
+            <div class="selected-chips" id="selectedChips"></div>
+            <div id="h2hTable"><div class="empty-state">Add two or more competitors above to compare.</div></div>
+        </div>
+    </div>
+
+    <script>
+        let resultsData = {};
+        let personResultsData = {};
+        let sortedNames = [];
+        let selectedPeople = [];
+        let lbSortCol = 'gold';
+        let lbSortAsc = false;
+
+        async function loadData() {
+            try {
+                const [rRes, prRes] = await Promise.all([
+                    fetch('dance_assets/results.json'),
+                    fetch('dance_assets/person_results.json')
+                ]);
+                resultsData = await rRes.json();
+                personResultsData = await prRes.json();
+                sortedNames = Object.keys(personResultsData).sort();
+                buildLeaderboard();
+            } catch (e) {
+                document.getElementById('leaderboardLoading').textContent = 'Error loading results: ' + e.message;
+            }
+        }
+
+        function switchTab(name) {
+            document.querySelectorAll('.tab-btn').forEach((b, i) => {
+                b.classList.toggle('active', ['leaderboard','headtohead'][i] === name);
+            });
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.getElementById('tab-' + name).classList.add('active');
+        }
+
+        function formatName(name) {
+            if (!name || !name.includes(',')) return name;
+            const [last, first] = name.split(',').map(n => n.trim());
+            return `${first} ${last}`;
+        }
+
+        function placementClass(p) {
+            const n = parseInt(p);
+            if (n === 1) return 'gold';
+            if (n === 2) return 'silver';
+            if (n === 3) return 'bronze';
+            if (!isNaN(n)) return 'other';
+            return 'dnc';
+        }
+
+        function placementDisplay(p) {
+            const n = parseInt(p);
+            if (!p || isNaN(n)) return '–';
+            const medal = n === 1 ? '🥇' : n === 2 ? '🥈' : n === 3 ? '🥉' : null;
+            const sfx = n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th';
+            return medal ? `${medal} ${n}${sfx}` : `${n}${sfx}`;
+        }
+
+        // ── Leaderboard ────────────────────────────────────────────────────
+        function buildLeaderboard() {
+            const rows = [];
+            for (const [name, entries] of Object.entries(personResultsData)) {
+                let gold = 0, silver = 0, bronze = 0, top5 = 0, total = entries.length;
+                for (const e of entries) {
+                    const p = parseInt(e.placement);
+                    if (p === 1) gold++;
+                    else if (p === 2) silver++;
+                    else if (p === 3) bronze++;
+                    if (p <= 5) top5++;
+                }
+                rows.push({ name, gold, silver, bronze, top5, total });
+            }
+
+            sortLeaderboard(rows, lbSortCol, lbSortAsc);
+
+            let html = `
+            <table class="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th class="rank-col">#</th>
+                        <th>Competitor</th>
+                        <th class="${lbSortCol==='gold'?'sorted':''}" onclick="resortLb('gold')">🥇 Gold ${lbSortCol==='gold'?'↓':''}</th>
+                        <th class="${lbSortCol==='silver'?'sorted':''}" onclick="resortLb('silver')">🥈 Silver ${lbSortCol==='silver'?'↓':''}</th>
+                        <th class="${lbSortCol==='bronze'?'sorted':''}" onclick="resortLb('bronze')">🥉 Bronze ${lbSortCol==='bronze'?'↓':''}</th>
+                        <th class="${lbSortCol==='top5'?'sorted':''}" onclick="resortLb('top5')">Top 5 ${lbSortCol==='top5'?'↓':''}</th>
+                        <th class="${lbSortCol==='total'?'sorted':''}" onclick="resortLb('total')">Events ${lbSortCol==='total'?'↓':''}</th>
+                    </tr>
+                </thead>
+                <tbody>
+            `;
+            rows.forEach((r, i) => {
+                html += `<tr>
+                    <td class="rank-col">${i+1}</td>
+                    <td><span class="name-link" onclick="goToDancePage('${r.name}')">${formatName(r.name)}</span></td>
+                    <td style="text-align:center;color:var(--gold);font-weight:600;">${r.gold || '–'}</td>
+                    <td style="text-align:center;color:var(--silver);font-weight:600;">${r.silver || '–'}</td>
+                    <td style="text-align:center;color:var(--bronze);font-weight:600;">${r.bronze || '–'}</td>
+                    <td style="text-align:center;">${r.top5 || '–'}</td>
+                    <td style="text-align:center;color:var(--text-secondary);">${r.total}</td>
+                </tr>`;
+            });
+            html += `</tbody></table>`;
+
+            document.getElementById('tab-leaderboard').innerHTML = html;
+        }
+
+        function sortLeaderboard(rows, col, asc) {
+            rows.sort((a, b) => {
+                if (col === 'gold')   return asc ? a.gold - b.gold : b.gold - a.gold || b.silver - a.silver || b.bronze - a.bronze;
+                if (col === 'silver') return asc ? a.silver - b.silver : b.silver - a.silver || b.gold - a.gold;
+                if (col === 'bronze') return asc ? a.bronze - b.bronze : b.bronze - a.bronze || b.silver - a.silver;
+                if (col === 'top5')   return asc ? a.top5 - b.top5 : b.top5 - a.top5;
+                if (col === 'total')  return asc ? a.total - b.total : b.total - a.total;
+                return 0;
+            });
+        }
+
+        function resortLb(col) {
+            if (lbSortCol === col) lbSortAsc = !lbSortAsc;
+            else { lbSortCol = col; lbSortAsc = false; }
+            buildLeaderboard();
+        }
+
+        function goToDancePage(name) {
+            window.location.href = `dance.html?search=${encodeURIComponent(name)}`;
+        }
+
+        // ── Head-to-head ───────────────────────────────────────────────────
+        function onH2HSearch(query) {
+            const q = query.trim().toLowerCase();
+            const dd = document.getElementById('h2hDropdown');
+            if (!q) { dd.classList.remove('open'); return; }
+
+            const matches = sortedNames
+                .filter(n => n.toLowerCase().includes(q) || formatName(n).toLowerCase().includes(q))
+                .filter(n => !selectedPeople.includes(n))
+                .slice(0, 20);
+
+            if (!matches.length) { dd.classList.remove('open'); return; }
+
+            dd.innerHTML = matches.map(n =>
+                `<div class="search-result-item" onclick="addPerson('${n}')">${formatName(n)}</div>`
+            ).join('');
+            dd.classList.add('open');
+        }
+
+        function addPerson(name) {
+            if (selectedPeople.includes(name)) return;
+            selectedPeople.push(name);
+            document.getElementById('h2hSearch').value = '';
+            document.getElementById('h2hDropdown').classList.remove('open');
+            renderChips();
+            buildH2HTable();
+        }
+
+        function removePerson(name) {
+            selectedPeople = selectedPeople.filter(n => n !== name);
+            renderChips();
+            buildH2HTable();
+        }
+
+        function renderChips() {
+            document.getElementById('selectedChips').innerHTML = selectedPeople.map(n => `
+                <div class="chip">
+                    ${formatName(n)}
+                    <button onclick="removePerson('${n}')">×</button>
+                </div>
+            `).join('');
+        }
+
+        function buildH2HTable() {
+            const el = document.getElementById('h2hTable');
+            if (selectedPeople.length < 2) {
+                el.innerHTML = '<div class="empty-state">Add two or more competitors above to compare.</div>';
+                return;
+            }
+
+            // Collect all heats any selected person competed in; shared first
+            const heatSets = selectedPeople.map(n =>
+                new Set((personResultsData[n] || []).map(e => e.heat))
+            );
+            const sharedHeats = [...heatSets[0]].filter(h => heatSets.every(s => s.has(h)));
+            const allHeats = [...new Set(selectedPeople.flatMap(n =>
+                (personResultsData[n] || []).map(e => e.heat)
+            ))].sort((a, b) => {
+                const na = parseInt(a.replace('Heat ', '')) || 0;
+                const nb = parseInt(b.replace('Heat ', '')) || 0;
+                return na - nb;
+            });
+
+            // Build lookup map
+            const lookup = {};
+            selectedPeople.forEach(name => {
+                (personResultsData[name] || []).forEach(e => {
+                    if (!lookup[e.heat]) lookup[e.heat] = {};
+                    lookup[e.heat][name] = e;
+                });
+            });
+
+            let html = `<table class="comparison-table">
+                <thead><tr>
+                    <th>Heat</th>
+                    <th>Event</th>
+                    ${selectedPeople.map(n => `<th>${formatName(n)}</th>`).join('')}
+                </tr></thead><tbody>`;
+
+            let lastSection = null;
+            allHeats.forEach(heat => {
+                const isShared = sharedHeats.includes(heat);
+                const section = isShared ? 'shared' : 'other';
+                if (section !== lastSection) {
+                    const label = isShared ? '⚔️ Shared Heats' : 'Other Heats';
+                    html += `<tr><td colspan="${2 + selectedPeople.length}" style="padding:12px 14px 4px;font-size:0.75em;font-weight:600;text-transform:uppercase;color:var(--text-secondary);letter-spacing:0.1em;background:var(--bg-secondary);">${label}</td></tr>`;
+                    lastSection = section;
+                }
+
+                const event = resultsData[heat]?.event || (lookup[heat] ? Object.values(lookup[heat])[0]?.event : '');
+                html += `<tr>
+                    <td style="color:var(--text-secondary);white-space:nowrap;">${heat}</td>
+                    <td style="font-size:0.85em;">${event}</td>
+                    ${selectedPeople.map(n => {
+                        const entry = lookup[heat]?.[n];
+                        if (!entry) return `<td class="placement-cell dnc">–</td>`;
+                        const cls = placementClass(entry.placement);
+                        return `<td class="placement-cell ${cls}">${placementDisplay(entry.placement)}</td>`;
+                    }).join('')}
+                </tr>`;
+            });
+
+            html += `</tbody></table>`;
+            el.innerHTML = html;
+        }
+
+        // Close dropdown on outside click
+        document.addEventListener('click', e => {
+            if (!e.target.closest('.search-box')) {
+                document.getElementById('h2hDropdown').classList.remove('open');
+            }
+        });
+
+        loadData();
+    </script>
+</body>
+</html>
