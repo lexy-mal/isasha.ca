@@ -1,0 +1,6830 @@
+{
+  "Bronshtein, Evelin": [
+    {
+      "heat": "Heat 348",
+      "event": "A-JV2 Solo Indv. Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "3",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "3",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 392",
+      "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "2",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 385A",
+      "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
+      "placement": "1",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 306",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "3",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 308",
+      "event": "L-U12 Pre-Competitive Single Assisted Open CANDY Challenge (W/C)",
+      "placement": "3",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 311",
+      "event": "L-U12 Pre-Competitive Single Assisted BALLROOM Challenge Cup (W/Q)",
+      "placement": "2",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "146",
+      "names": "Nor-Arevian/Bronshtein",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 347",
+      "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
+      "placement": "1",
+      "number": "153",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "3"
+      }
+    }
+  ],
+  "Malashenko, Alexandra": [
+    {
+      "heat": "Heat 348",
+      "event": "A-JV2 Solo Indv. Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "238",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 352",
+      "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
+      "placement": "1",
+      "number": "238",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 382",
+      "event": "L-YTH Open Mixed-Am LATIN (C/S/R/P/J)",
+      "placement": "1",
+      "number": "238",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 347",
+      "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
+      "placement": "2",
+      "number": "238",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "F": "1"
+      }
+    }
+  ],
+  "Selivanov, Julianna": [
+    {
+      "heat": "Heat 348",
+      "event": "A-JV2 Solo Indv. Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "249",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "1",
+      "number": "249",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "1",
+      "number": "249",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 392",
+      "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "1",
+      "number": "249",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Veshchikova, Evelin": [
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "2",
+      "number": "150",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "5",
+      "number": "150",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 396",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J) - Semi-final",
+      "placement": "5",
+      "number": "150",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 350",
+      "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "4",
+      "number": "150",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "W": "3.5",
+        "Q": "2"
+      }
+    }
+  ],
+  "Shahbazyan, Mikayla": [
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "6",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "4.5"
+      }
+    },
+    {
+      "heat": "Heat 352",
+      "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
+      "placement": "7",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "W": "7",
+        "Q": "7"
+      }
+    },
+    {
+      "heat": "Heat 396",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J) - Semi-final",
+      "placement": "7",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 350",
+      "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "5",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "5"
+      }
+    },
+    {
+      "heat": "Heat 385A",
+      "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
+      "placement": "3",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 347",
+      "event": "A-JV1 Solo Indv. Bronze BALLROOM (W/T/F)",
+      "placement": "3",
+      "number": "152",
+      "names": "Shahbazyan/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "F": "2"
+      }
+    }
+  ],
+  "Abdullayeva, Safiya": [
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "5",
+      "number": "239",
+      "names": "Abdullayeva/",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "6"
+      }
+    },
+    {
+      "heat": "Heat 352",
+      "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
+      "placement": "5",
+      "number": "239",
+      "names": "Abdullayeva/",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "6"
+      }
+    },
+    {
+      "heat": "Heat 385",
+      "event": "A-JV2 Solo Indv. Silver LATIN (C/S/R/P/J)",
+      "placement": "3",
+      "number": "239",
+      "names": "Abdullayeva/",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "3",
+        "R": "3",
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "8",
+      "number": "239",
+      "names": "Abdullayeva/",
+      "dancePlacements": {
+        "C": "8",
+        "J": "8"
+      }
+    }
+  ],
+  "Belmonte, Alesia": [
+    {
+      "heat": "Heat 351",
+      "event": "A-11U Solo Indv. BALLROOM Challenge Cup (W/Q)",
+      "placement": "4",
+      "number": "240",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "4.5"
+      }
+    },
+    {
+      "heat": "Heat 392",
+      "event": "A-11U Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "5",
+      "number": "240",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 385A",
+      "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
+      "placement": "2",
+      "number": "240",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Do, Chloe": [
+    {
+      "heat": "Heat 352",
+      "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
+      "placement": "6",
+      "number": "184",
+      "names": "Do/",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "4"
+      }
+    }
+  ],
+  "Selivanov, Elizabeth": [
+    {
+      "heat": "Heat 352",
+      "event": "A-11U Solo Indv. Open CANDY Challenge BALLROOM (W/Q)",
+      "placement": "4",
+      "number": "248",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 350",
+      "event": "A-11U Solo Indv. BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "1",
+      "number": "248",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "W": "3.5",
+        "Q": "1"
+      }
+    }
+  ],
+  "Iakovenko, Maya": [
+    {
+      "heat": "Heat 385",
+      "event": "A-JV2 Solo Indv. Silver LATIN (C/S/R/P/J)",
+      "placement": "2",
+      "number": "132",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "1",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "4",
+      "number": "132",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Belmonte, Olivia": [
+    {
+      "heat": "Heat 385",
+      "event": "A-JV2 Solo Indv. Silver LATIN (C/S/R/P/J)",
+      "placement": "1",
+      "number": "241",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 388",
+      "event": "A-11U Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "2",
+      "number": "241",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 396",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J) - Semi-final",
+      "placement": "1",
+      "number": "241",
+      "names": "Belmonte/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 328",
+      "event": "AC-JV1 Amateur Closed Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "216",
+      "names": "Varelas/Belmonte",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    }
+  ],
+  "Dayter Hasanov, Solomon": [
+    {
+      "heat": "Heat 396",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J) - Semi-final",
+      "placement": "4",
+      "number": "127",
+      "names": "Dayter Hasanov/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 378",
+      "event": "L-PD Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "127",
+      "names": "Dayter Hasanov/Broudno",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Maltsman, Libby": [
+    {
+      "heat": "Heat 396",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J) - Semi-final",
+      "placement": "6",
+      "number": "134",
+      "names": "Maltsman/",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 382",
+      "event": "L-YTH Open Mixed-Am LATIN (C/S/R/P/J)",
+      "placement": "2",
+      "number": "134",
+      "names": "Maltsman/",
+      "dancePlacements": {
+        "C": "2",
+        "S": "3",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Lester, Edwin": [
+    {
+      "heat": "Heat 321",
+      "event": "AC-JR1 Amateur Closed Gold BALLROOM (W/T/Q)",
+      "placement": "2",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "5",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "4",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "4",
+        "R": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "2",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "4",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "6",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    }
+  ],
+  "Bender, Gabriella": [
+    {
+      "heat": "Heat 321",
+      "event": "AC-JR1 Amateur Closed Gold BALLROOM (W/T/Q)",
+      "placement": "2",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "5",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "4",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "4",
+        "R": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "2",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "4",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "6",
+      "number": "147",
+      "names": "Lester/Bender",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    }
+  ],
+  "Motyl, Paul": [
+    {
+      "heat": "Heat 321",
+      "event": "AC-JR1 Amateur Closed Gold BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "4",
+      "number": "219",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "C": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "219",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "C": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 353",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "3",
+      "number": "219",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "3",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "5",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "1",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "2",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "2",
+        "J": "3"
+      }
+    }
+  ],
+  "Movsessian, Nyree": [
+    {
+      "heat": "Heat 321",
+      "event": "AC-JR1 Amateur Closed Gold BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "2",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "5",
+      "number": "219",
+      "names": "Motyl/Movsessian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "5"
+      }
+    }
+  ],
+  "Bowman, Logan": [
+    {
+      "heat": "Heat 321",
+      "event": "AC-JR1 Amateur Closed Gold BALLROOM (W/T/Q)",
+      "placement": "3",
+      "number": "244",
+      "names": "Bowman/Bowman",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "3",
+      "number": "244",
+      "names": "Bowman/Bowman",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    }
+  ],
+  "Sydorchuk, Liubomyr": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "3",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "6",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "5",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "5",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "7",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 380",
+      "event": "L-JV1 Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "5",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "4",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "7",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "4",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Czarnecka, Natalia": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "3",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "6",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "5",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "5",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "7",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "4",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "7",
+      "number": "117",
+      "names": "Sydorchuk/Czarnecka",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    }
+  ],
+  "Shpolski, Alex": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "2",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "5",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "W": "5",
+        "T": "5",
+        "Q": "5"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "5",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "C": "6",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "4",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 329",
+      "event": "AC-JR1 Amateur Open Silver LATIN (P/J)",
+      "placement": "1",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Soloviov, Maria": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "2",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "5",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "W": "5",
+        "T": "5",
+        "Q": "5"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "5",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "C": "6",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "4",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 329",
+      "event": "AC-JR1 Amateur Open Silver LATIN (P/J)",
+      "placement": "1",
+      "number": "198",
+      "names": "Shpolski/Soloviov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Korzon, Romeo": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "1",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "1",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "W": "2.5",
+        "T": "2",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 331",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (P/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "C": "1",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "1"
+      }
+    }
+  ],
+  "Agheeva, Maria": [
+    {
+      "heat": "Heat 323",
+      "event": "AC-12+ Amateur Grand Trophy Challenge ST (W/Q)",
+      "placement": "1",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "1",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "W": "2.5",
+        "T": "2",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 331",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (P/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "C": "1",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "2",
+      "number": "203",
+      "names": "Korzon/Agheeva",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "1"
+      }
+    }
+  ],
+  "Pinchak, Gleb": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "4",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "1",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "128",
+      "names": "Purisman/Pinchak",
+      "dancePlacements": {
+        "C": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 383",
+      "event": "L-JV1 Mixed-Am Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "128",
+      "names": "Zubiashvili/Pinchak",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "5",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "5"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "3",
+      "number": "128",
+      "names": "Shkolnik/Pinchak",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Vizgalov, Angelina": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "4",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "1",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "138",
+      "names": "Alcalde/Vizgalov",
+      "dancePlacements": {
+        "C": "1",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "5",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "5"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "128",
+      "names": "Pinchak/Vizgalov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Li, Daniel": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "3",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "W": "2.5",
+        "T": "1",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "1",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "C": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "5",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "C": "5",
+        "R": "4",
+        "J": "6"
+      }
+    }
+  ],
+  "Mao, Fiona": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "3",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "W": "2.5",
+        "T": "1",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "1",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "C": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "5",
+      "number": "231",
+      "names": "Li/Mao",
+      "dancePlacements": {
+        "C": "5",
+        "R": "4",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "228",
+      "names": "Chen/Mao",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "228",
+      "names": "Chen/Mao",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    }
+  ],
+  "Liu, Easton": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "2",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "W": "1",
+        "T": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "7",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "C": "7",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 329",
+      "event": "AC-JR1 Amateur Open Silver LATIN (P/J)",
+      "placement": "2",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Liu, Lillian": [
+    {
+      "heat": "Heat 326",
+      "event": "AC-12+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)",
+      "placement": "2",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "W": "1",
+        "T": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "7",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "C": "7",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 329",
+      "event": "AC-JR1 Amateur Open Silver LATIN (P/J)",
+      "placement": "2",
+      "number": "235",
+      "names": "Liu/Liu",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Nor-Arevian, Arsene": [
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "1",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "1",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 346",
+      "event": "L-JV1 Mixed-Am Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "1",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 353",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "4",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "5",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 306",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 308",
+      "event": "L-U12 Pre-Competitive Single Assisted Open CANDY Challenge (W/C)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 386",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "3",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 354",
+      "event": "L-12+ Mixed-Am BALLROOM Challenge Cup (W/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Hartung, Lea": [
+    {
+      "heat": "Heat 330",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (C/R/S)",
+      "placement": "1",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "4",
+      "number": "145",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "5",
+        "J": "3"
+      }
+    }
+  ],
+  "Azbel, Adam": [
+    {
+      "heat": "Heat 331",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (P/J)",
+      "placement": "1",
+      "number": "226",
+      "names": "Azbel/Lin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "3",
+      "number": "226",
+      "names": "Azbel/Lin",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 380",
+      "event": "L-JV1 Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "226",
+      "names": "Hapier/Azbel",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 397",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "226",
+      "names": "Hapier/Azbel",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "3",
+      "number": "226",
+      "names": "Hapier/Azbel",
+      "dancePlacements": {
+        "C": "2",
+        "J": "4"
+      }
+    }
+  ],
+  "Lin, Clara": [
+    {
+      "heat": "Heat 331",
+      "event": "AC-JR1 Amateur Closed Gold LATIN (P/J)",
+      "placement": "1",
+      "number": "226",
+      "names": "Azbel/Lin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 337",
+      "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "3",
+      "number": "226",
+      "names": "Azbel/Lin",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Finkelshtein, David": [
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "4",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "4",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "6",
+        "R": "6",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "3",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "6"
+      }
+    }
+  ],
+  "Prilepskaia, Vlada": [
+    {
+      "heat": "Heat 335",
+      "event": "AC-12+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "4",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "4",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "C": "6",
+        "R": "6",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "3",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "6",
+      "number": "143",
+      "names": "Finkelshtein/Prilepskaia",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "6"
+      }
+    }
+  ],
+  "Nor-Arevian, Sofia": [
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "1",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 294",
+      "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 346",
+      "event": "L-JV1 Mixed-Am Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "1",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 353",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 306",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 308",
+      "event": "L-U12 Pre-Competitive Single Assisted Open CANDY Challenge (W/C)",
+      "placement": "2",
+      "number": "145",
+      "names": "Muzychka/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 386",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "3",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "144",
+      "names": "Chan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 354",
+      "event": "L-12+ Mixed-Am BALLROOM Challenge Cup (W/Q)",
+      "placement": "2",
+      "number": "145",
+      "names": "Shahbazyan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Chan, Athyn": [
+    {
+      "heat": "Heat 307",
+      "event": "AC-U12 Pre-Competitive Couple Open CANDY Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Veshchikova/Chan",
+      "dancePlacements": {
+        "W": "2",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 309",
+      "event": "AC-U12 Pre-Competitive Couple Open DISNEY Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Veshchikova/Chan",
+      "dancePlacements": {
+        "W": "2",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "144",
+      "names": "Yang/Chan",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 349",
+      "event": "A-JV1 Solo Indv. Silver BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "144",
+      "names": "Bronshtein/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "144",
+      "names": "Do/Chan",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "1",
+      "number": "144",
+      "names": "Yang/Chan",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 306",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Long/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 308",
+      "event": "L-U12 Pre-Competitive Single Assisted Open CANDY Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Long/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 310",
+      "event": "L-U12 Pre-Competitive Single Assisted Open DISNEY Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Long/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 386",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "2",
+      "number": "144",
+      "names": "Yang/Chan",
+      "dancePlacements": {
+        "C": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "144",
+      "names": "Chan/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 305",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "1",
+      "number": "144",
+      "names": "Veshchikova/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 356",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "1",
+      "number": "144",
+      "names": "Do/Chan",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Rozdorozhnyi, Mark": [
+    {
+      "heat": "Heat 307",
+      "event": "AC-U12 Pre-Competitive Couple Open CANDY Challenge (W/C)",
+      "placement": "3",
+      "number": "218",
+      "names": "Prosveer/Rozdorozhnyi",
+      "dancePlacements": {
+        "W": "3",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 309",
+      "event": "AC-U12 Pre-Competitive Couple Open DISNEY Challenge (W/C)",
+      "placement": "3",
+      "number": "218",
+      "names": "Prosveer/Rozdorozhnyi",
+      "dancePlacements": {
+        "W": "3",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "1",
+      "number": "218",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 380",
+      "event": "L-JV1 Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "218",
+      "names": "Aptekar/Rozdorozhnyi",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 397",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "218",
+      "names": "Aptekar/Rozdorozhnyi",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 346",
+      "event": "L-JV1 Mixed-Am Bronze BALLROOM (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "218",
+      "names": "Aptekar/Rozdorozhnyi",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "2",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "1",
+      "number": "218",
+      "names": "Aptekar/Rozdorozhnyi",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 386",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "1",
+      "number": "218",
+      "names": "Selivanov/Rozdorozhnyi",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 305",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "2",
+      "number": "218",
+      "names": "Prosveer/Rozdorozhnyi",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 354",
+      "event": "L-12+ Mixed-Am BALLROOM Challenge Cup (W/Q)",
+      "placement": "1",
+      "number": "218",
+      "names": "Selivanov/Rozdorozhnyi",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Platkov, Oleksandr": [
+    {
+      "heat": "Heat 307",
+      "event": "AC-U12 Pre-Competitive Couple Open CANDY Challenge (W/C)",
+      "placement": "2",
+      "number": "220",
+      "names": "Reabaia/Platkov",
+      "dancePlacements": {
+        "W": "1",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 309",
+      "event": "AC-U12 Pre-Competitive Couple Open DISNEY Challenge (W/C)",
+      "placement": "2",
+      "number": "220",
+      "names": "Reabaia/Platkov",
+      "dancePlacements": {
+        "W": "1",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 311",
+      "event": "L-U12 Pre-Competitive Single Assisted BALLROOM Challenge Cup (W/Q)",
+      "placement": "1",
+      "number": "220",
+      "names": "Reabaia/Platkov",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Petrov, Nathaniel": [
+    {
+      "heat": "Heat 309",
+      "event": "AC-U12 Pre-Competitive Couple Open DISNEY Challenge (W/C)",
+      "placement": "5",
+      "number": "243",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "5",
+        "C": "5"
+      }
+    },
+    {
+      "heat": "Heat 305",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "3",
+      "number": "243",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    }
+  ],
+  "Pavlenko, Maya": [
+    {
+      "heat": "Heat 309",
+      "event": "AC-U12 Pre-Competitive Couple Open DISNEY Challenge (W/C)",
+      "placement": "4",
+      "number": "250",
+      "names": "Gorobets/Pavlenko",
+      "dancePlacements": {
+        "W": "4",
+        "C": "4"
+      }
+    },
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "1",
+      "number": "218",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Long, Alexandra": [
+    {
+      "heat": "Heat 312",
+      "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "1",
+      "number": "149",
+      "names": "Long/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 313",
+      "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "1",
+      "number": "149",
+      "names": "Long/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 315",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "1",
+      "number": "149",
+      "names": "Long/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 317",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "1",
+      "number": "149",
+      "names": "Long/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    }
+  ],
+  "Koszti, Paul": [
+    {
+      "heat": "Heat 312",
+      "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "3",
+      "number": "174",
+      "names": "Koszti/",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 313",
+      "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "6",
+      "number": "174",
+      "names": "Koszti/",
+      "dancePlacements": {
+        "W": "6",
+        "C": "6"
+      }
+    },
+    {
+      "heat": "Heat 315",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "6",
+      "number": "174",
+      "names": "Koszti/",
+      "dancePlacements": {
+        "W": "6",
+        "C": "6"
+      }
+    }
+  ],
+  "Airapetian, Eva": [
+    {
+      "heat": "Heat 312",
+      "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "2",
+      "number": "175",
+      "names": "Airapetian/",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 313",
+      "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "5",
+      "number": "175",
+      "names": "Airapetian/",
+      "dancePlacements": {
+        "W": "5",
+        "C": "5"
+      }
+    },
+    {
+      "heat": "Heat 315",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "5",
+      "number": "175",
+      "names": "Airapetian/",
+      "dancePlacements": {
+        "W": "5",
+        "C": "5"
+      }
+    },
+    {
+      "heat": "Heat 317",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "4",
+      "number": "175",
+      "names": "Airapetian/",
+      "dancePlacements": {
+        "W": "4",
+        "C": "4"
+      }
+    }
+  ],
+  "Mass, Katty": [
+    {
+      "heat": "Heat 312",
+      "event": "A-U12 Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "4",
+      "number": "201",
+      "names": "Mass/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Veshchikova, Nicol": [
+    {
+      "heat": "Heat 313",
+      "event": "A-U12 Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "2",
+      "number": "151",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 317",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "2",
+      "number": "151",
+      "names": "Veshchikova/",
+      "dancePlacements": {
+        "W": "2",
+        "C": "2"
+      }
+    }
+  ],
+  "Muzychka, Jessica": [
+    {
+      "heat": "Heat 315",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "4",
+      "number": "183",
+      "names": "Muzychka/",
+      "dancePlacements": {
+        "W": "4",
+        "C": "4"
+      }
+    },
+    {
+      "heat": "Heat 317",
+      "event": "A-U12 Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "3",
+      "number": "183",
+      "names": "Muzychka/",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    }
+  ],
+  "Zhelasko, Danny": [
+    {
+      "heat": "Heat 298",
+      "event": "A-7-11 Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
+      "placement": "1",
+      "number": "133",
+      "names": "Golovanevski/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 384",
+      "event": "G-PD Mixed-Am Newcomer LATIN (C/J)",
+      "placement": "2",
+      "number": "133",
+      "names": "Gorb/Zhelasko",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 386",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "4",
+      "number": "133",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Brooks, Jonessia": [
+    {
+      "heat": "Heat 316",
+      "event": "A-12+ Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "2",
+      "number": "170",
+      "names": "Brooks/",
+      "dancePlacements": {
+        "W": "4",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 314",
+      "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "1",
+      "number": "170",
+      "names": "Brooks/",
+      "dancePlacements": {
+        "W": "2",
+        "C": "1.5"
+      }
+    }
+  ],
+  "Sheng, Lorianne": [
+    {
+      "heat": "Heat 316",
+      "event": "A-12+ Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)",
+      "placement": "1",
+      "number": "172",
+      "names": "Sheng/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 318",
+      "event": "A-12+ Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "1",
+      "number": "172",
+      "names": "Sheng/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 314",
+      "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "2",
+      "number": "172",
+      "names": "Sheng/",
+      "dancePlacements": {
+        "W": "1",
+        "C": "3"
+      }
+    }
+  ],
+  "Sciberras, Emilia": [
+    {
+      "heat": "Heat 318",
+      "event": "A-12+ Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "5",
+      "number": "171",
+      "names": "Sciberras/",
+      "dancePlacements": {
+        "W": "5",
+        "C": "4.5"
+      }
+    },
+    {
+      "heat": "Heat 314",
+      "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "4",
+      "number": "171",
+      "names": "Sciberras/",
+      "dancePlacements": {
+        "W": "3",
+        "C": "4"
+      }
+    }
+  ],
+  "Airapetian, Victoria": [
+    {
+      "heat": "Heat 318",
+      "event": "A-12+ Pre-Competitive Solo Indv. Open DISNEY Challenge (W/C)",
+      "placement": "4",
+      "number": "173",
+      "names": "Airapetian/",
+      "dancePlacements": {
+        "W": "2",
+        "C": "4.5"
+      }
+    }
+  ],
+  "Varelas, David": [
+    {
+      "heat": "Heat 328",
+      "event": "AC-JV1 Amateur Closed Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "216",
+      "names": "Varelas/Belmonte",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    }
+  ],
+  "Pidvirnyi, Zakhar": [
+    {
+      "heat": "Heat 328",
+      "event": "AC-JV1 Amateur Closed Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "4",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "4",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Kishchuk, Sofiia": [
+    {
+      "heat": "Heat 328",
+      "event": "AC-JV1 Amateur Closed Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "4",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "W": "5",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "4",
+      "number": "217",
+      "names": "Pidvirnyi/Kishchuk",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Rolix, Max": [
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 320",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (F/VW)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "2",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Mostovoy, Sofia": [
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 320",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (F/VW)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "2",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "1",
+      "number": "119",
+      "names": "Rolix/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Yagiyaev, Alec": [
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "2",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 320",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (F/VW)",
+      "placement": "2",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    }
+  ],
+  "Ofengenden, Abigail": [
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "2",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 320",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (F/VW)",
+      "placement": "2",
+      "number": "195",
+      "names": "Yagiyaev/Ofengenden",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    }
+  ],
+  "Gontcharov, Ivan": [
+    {
+      "heat": "Heat 332",
+      "event": "AC-JV1 Amateur Open Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 319",
+      "event": "AC-JV2 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "3",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "1",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "2",
+      "number": "214",
+      "names": "Gontcharov/Motyl",
+      "dancePlacements": {
+        "C": "2",
+        "J": "3"
+      }
+    }
+  ],
+  "Kwietniewski, Filip": [
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "2",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Ocheretko, Oleksandra": [
+    {
+      "heat": "Heat 338",
+      "event": "AC-11U Amateur Open DISNEY Challenge (C/J)",
+      "placement": "2",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 324",
+      "event": "AC-11U Amateur Open CANDY Challenge (W/Q)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 322",
+      "event": "AC-12+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "221",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Young Spice, Jack": [
+    {
+      "heat": "Heat 378",
+      "event": "L-PD Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "113",
+      "names": "Nikolov/Young Spice",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 380",
+      "event": "L-JV1 Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "4",
+      "number": "113",
+      "names": "Barnet/Young Spice",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 397",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "113",
+      "names": "Barnet/Young Spice",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "7",
+      "number": "113",
+      "names": "Nikolov/Young Spice",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 390",
+      "event": "L-11U Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "5",
+      "number": "113",
+      "names": "Barnet/Young Spice",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "6",
+      "number": "113",
+      "names": "Nikolov/Young Spice",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 387",
+      "event": "L-11U Mixed-Am LATIN Challenge Cup (C/J)",
+      "placement": "1",
+      "number": "113",
+      "names": "Barnet/Young Spice",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 274",
+      "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "5",
+      "number": "113",
+      "names": "Nikolov/Young Spice",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "3",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "AC-16+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "1",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Broudno, Thais": [
+    {
+      "heat": "Heat 378",
+      "event": "L-PD Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "1",
+      "number": "127",
+      "names": "Dayter Hasanov/Broudno",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Movshovich Fil, Zachary": [
+    {
+      "heat": "Heat 378",
+      "event": "L-PD Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "130",
+      "names": "Movshovich Fil/Anastasova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "130",
+      "names": "Movshovich Fil/Anastasova",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Anastasova, Sofiia": [
+    {
+      "heat": "Heat 378",
+      "event": "L-PD Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "130",
+      "names": "Movshovich Fil/Anastasova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 397",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "137",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "130",
+      "names": "Movshovich Fil/Anastasova",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Smithson, Jake": [
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "7",
+      "number": "114",
+      "names": "Czarnecka/Smithson",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "5",
+      "number": "114",
+      "names": "Czarnecka/Smithson",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "4",
+      "number": "114",
+      "names": "Czarnecka/Smithson",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 356",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "3",
+      "number": "114",
+      "names": "Czarnecka/Smithson",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "2",
+      "number": "114",
+      "names": "Smithson/Schaaf",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "114",
+      "names": "Smithson/Schaaf",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    }
+  ],
+  "Alcalde, Adrian": [
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "138",
+      "names": "Alcalde/Vizgalov",
+      "dancePlacements": {
+        "C": "1",
+        "J": "3"
+      }
+    }
+  ],
+  "Ilyushenov, Andrey": [
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "251",
+      "names": "Rolix/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 353",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "1",
+      "number": "251",
+      "names": "Rolix/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 356",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "2",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Ilyushenov, Dmitry": [
+    {
+      "heat": "Heat 395",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 398",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "251",
+      "names": "Rolix/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "L-E Open Imperial Cup Pro-Am Five Star SMOOTH Championship (W/T/F/VW)",
+      "placement": "2",
+      "number": "109",
+      "names": "Wang/Ilyushenov",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 282",
+      "event": "G-E Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "109",
+      "names": "Wang/Ilyushenov",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 267",
+      "event": "L-C Open Imperial Cup Pro-Am Five Star SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "109",
+      "names": "Barrow/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 273",
+      "event": "L-D Open Imperial Cup Pro-Am Five Star SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "109",
+      "names": "Barrow/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 278",
+      "event": "L-D Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "109",
+      "names": "Barrow/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "194",
+      "names": "Ilyushenov/Baydala",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 353",
+      "event": "A-11U Solo Indv. Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "1",
+      "number": "251",
+      "names": "Rolix/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 356",
+      "event": "L-7U Mixed-Am Open DISNEY Challenge BALLROOM (W/Q)",
+      "placement": "2",
+      "number": "251",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 64",
+      "event": "L-F Closed Gold Imperial Cup Pro-Am LATIN Closed Dance (C/R/S)",
+      "placement": "1",
+      "number": "109",
+      "names": "Foers/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 66",
+      "event": "L-E Pro-Am Open Scholarship",
+      "placement": "1",
+      "number": "109",
+      "names": "Wang/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Sydorchuk, Daryna": [
+    {
+      "heat": "Heat 380",
+      "event": "L-JV1 Mixed-Am Pre-Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 393",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "5",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 391",
+      "event": "L-16+ Mixed-Am LATIN Grand Trophy Challenge (C/J)",
+      "placement": "4",
+      "number": "115",
+      "names": "Castillo/Sydorchuk",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Alcalde, Roman": [
+    {
+      "heat": "Heat 397",
+      "event": "L-11U Mixed-Am Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "137",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Bielichenko, Vasyl": [
+    {
+      "heat": "Heat 384",
+      "event": "G-PD Mixed-Am Newcomer LATIN (C/J)",
+      "placement": "1",
+      "number": "141",
+      "names": "Kochan/Bielichenko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Timchenko, Andrew": [
+    {
+      "heat": "Heat 349",
+      "event": "A-JV1 Solo Indv. Silver BALLROOM (W/T/Q)",
+      "placement": "2",
+      "number": "140",
+      "names": "Raskin/Timchenko",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Yan, Ria": [
+    {
+      "heat": "Heat 355",
+      "event": "L-11U Mixed-Am BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "1",
+      "number": "154",
+      "names": "Yan/",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 389",
+      "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "4",
+      "number": "154",
+      "names": "Yan/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 396A",
+      "event": "A-7U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
+      "placement": "3",
+      "number": "154",
+      "names": "Yan/",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Lebedev, Lev": [
+    {
+      "heat": "Heat 355",
+      "event": "L-11U Mixed-Am BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "2",
+      "number": "176",
+      "names": "Lebedev/",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 65",
+      "event": "L-E Closed Pro-Am International 10 -Dance  (C/S/R/P/J)",
+      "placement": "1",
+      "number": "163",
+      "names": "Cheuk/Lebedev",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 189",
+      "event": "L-E Closed Pro-Am International 10 -Dance  (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Cheuk/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 181",
+      "event": "G-D Closed Silver Proficiency Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ma/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 180",
+      "event": "L-A Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 184",
+      "event": "L-A Pro-Am BALLROOM Candy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 194",
+      "event": "L-A Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 66",
+      "event": "L-E Pro-Am Open Scholarship",
+      "placement": "2",
+      "number": "163",
+      "names": "Lee/Lebedev",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 62",
+      "event": "L-F Pro-Am LATIN Grand Trophy Challenge (C/R/S)",
+      "placement": "2",
+      "number": "163",
+      "names": "Ma/Lebedev",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 186",
+      "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 191",
+      "event": "L-D Closed Imperial Cup Pro-Am Five Star BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 192",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Weisspapir/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 195",
+      "event": "L-D Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 196",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Lee/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Stane, Melina": [
+    {
+      "heat": "Heat 355",
+      "event": "L-11U Mixed-Am BALLROOM Grand Trophy Challenge (W/Q)",
+      "placement": "3",
+      "number": "181",
+      "names": "Stane/",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 394A",
+      "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
+      "placement": "2",
+      "number": "181",
+      "names": "Stane/",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 392A",
+      "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "6",
+      "number": "181",
+      "names": "Stane/",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    }
+  ],
+  "Dewar, Jason": [
+    {
+      "heat": "Heat 28",
+      "event": "G-C Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "1",
+      "number": "104",
+      "names": "Dewar/Artemenko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 137",
+      "event": "G-C Closed Pro-Am CLUB Grand Trophy Challenge (SAL/BAC)",
+      "placement": "1",
+      "number": "104",
+      "names": "Dewar/Artemenko",
+      "dancePlacements": {
+        "S": "1",
+        "D": "1"
+      }
+    }
+  ],
+  "Artemenko, Kamila": [
+    {
+      "heat": "Heat 28",
+      "event": "G-C Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "1",
+      "number": "104",
+      "names": "Dewar/Artemenko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 31",
+      "event": "L-B Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "1",
+      "number": "103",
+      "names": "Cook/Artemenko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 137",
+      "event": "G-C Closed Pro-Am CLUB Grand Trophy Challenge (SAL/BAC)",
+      "placement": "1",
+      "number": "104",
+      "names": "Dewar/Artemenko",
+      "dancePlacements": {
+        "S": "1",
+        "D": "1"
+      }
+    }
+  ],
+  "Kostov, Stilian": [
+    {
+      "heat": "Heat 253",
+      "event": "G-C Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "126",
+      "names": "Longo/Kostov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 33",
+      "event": "L-D Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "1",
+      "number": "126",
+      "names": "Longo/Kostov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 67",
+      "event": "L-D Pro-Am Open LATIN Scholarship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "126",
+      "names": "Troutanova/Kostov",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-D Open Bronze Pro-Am SMOOTH 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "126",
+      "names": "Longo/Kostov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Bartha, Istvan": [
+    {
+      "heat": "Heat 253",
+      "event": "G-C Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 278",
+      "event": "L-D Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "G-D Closed Silver Pro-Am SMOOTH 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Rotova, Tatiana": [
+    {
+      "heat": "Heat 253",
+      "event": "G-C Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 278",
+      "event": "L-D Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "G-D Closed Silver Pro-Am SMOOTH 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "187",
+      "names": "Bartha/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 132",
+      "event": "L-C Open Bronze Pro-Am CLUB 3-Dance (MER/SAL/BAC)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Rotova",
+      "dancePlacements": {
+        "M": "1",
+        "S": "2",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 29",
+      "event": "G-D Closed Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+      "placement": "1",
+      "number": "166",
+      "names": "Elent/Rotova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 33",
+      "event": "L-D Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "2",
+      "number": "166",
+      "names": "Elent/Rotova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 263",
+      "event": "G-D Closed Bronze Pro-Am SMOOTH 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "204",
+      "names": "Heer/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "AC-AD4 Open Amateur SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "167",
+      "names": "Ma/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 32",
+      "event": "G-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+      "placement": "1",
+      "number": "167",
+      "names": "Ma/Rotova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Kwietniewska, Laura": [
+    {
+      "heat": "Heat 327",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 339",
+      "event": "AC-12+ IMPERIAL CUP Amateur Open LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 336",
+      "event": "AC-12+ Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "220",
+      "names": "Platkov/Kwietniewska",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Aydogan, Emre": [
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "190",
+      "names": "Aydogan/Stefanova",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "3",
+        "R": "3",
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Stefanova, Oleksandra": [
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "190",
+      "names": "Aydogan/Stefanova",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "3",
+        "R": "3",
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Protas, Marcus": [
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "193",
+      "names": "Protas/Liang",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Liang, Olivia": [
+    {
+      "heat": "Heat 333",
+      "event": "AC-JR1 Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "193",
+      "names": "Protas/Liang",
+      "dancePlacements": {
+        "C": "2.5",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Stefanov, Catherine": [
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "225",
+      "names": "Wu/Stefanov",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "225",
+      "names": "Wu/Stefanov",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3"
+      }
+    }
+  ],
+  "Stefanov, Peter": [
+    {
+      "heat": "Heat 394",
+      "event": "L-11U Mixed-Am Open CANDY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "225",
+      "names": "Wu/Stefanov",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 379",
+      "event": "L-PD Mixed-Am Bronze LATIN (C/R)",
+      "placement": "3",
+      "number": "225",
+      "names": "Wu/Stefanov",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 280",
+      "event": "AC-16+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "1",
+      "number": "229",
+      "names": "Stefanov/Stefanov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Barrow, David": [
+    {
+      "heat": "Heat 275",
+      "event": "L-E Open Imperial Cup Pro-Am Five Star SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "207",
+      "names": "Barrow/Stystsenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 282",
+      "event": "G-E Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "207",
+      "names": "Barrow/Stystsenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    }
+  ],
+  "Stystsenko, Kateryna": [
+    {
+      "heat": "Heat 275",
+      "event": "L-E Open Imperial Cup Pro-Am Five Star SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "207",
+      "names": "Barrow/Stystsenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 282",
+      "event": "G-E Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "207",
+      "names": "Barrow/Stystsenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    }
+  ],
+  "Vanexe, Brian": [
+    {
+      "heat": "Heat 282",
+      "event": "G-E Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "107",
+      "names": "Vanexe/Stacey",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "F": "3",
+        "V": "3"
+      }
+    }
+  ],
+  "Stacey, Kelly": [
+    {
+      "heat": "Heat 282",
+      "event": "G-E Pro-Am Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "107",
+      "names": "Vanexe/Stacey",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "F": "3",
+        "V": "3"
+      }
+    }
+  ],
+  "Reznik, Yonatan": [
+    {
+      "heat": "Heat 383",
+      "event": "L-JV1 Mixed-Am Bronze LATIN (C/R)",
+      "placement": "2",
+      "number": "131",
+      "names": "Barshai/Reznik",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2"
+      }
+    }
+  ],
+  "Miller, David": [
+    {
+      "heat": "Heat 274",
+      "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "100",
+      "names": "Miller/Kealey",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Kealey, Lili": [
+    {
+      "heat": "Heat 274",
+      "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "100",
+      "names": "Miller/Kealey",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Schaaf, Kristina": [
+    {
+      "heat": "Heat 274",
+      "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "3",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "2",
+      "number": "114",
+      "names": "Smithson/Schaaf",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "114",
+      "names": "Smithson/Schaaf",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "AC-16+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "1",
+      "number": "113",
+      "names": "Young Spice/Schaaf",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Stroganov, Arnold": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "4",
+        "P": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 254",
+      "event": "AC-16+ Amateur Open CANDY Challenge (W/Q)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 276",
+      "event": "AC-16+ Amateur Open DISNEY Challenge (C/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Kavtaradze, Sophie": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "4",
+        "P": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 254",
+      "event": "AC-16+ Amateur Open CANDY Challenge (W/Q)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "AC-16+ Amateur Challenge Cup ST (W/Q)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "W": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 276",
+      "event": "AC-16+ Amateur Open DISNEY Challenge (C/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "1",
+      "number": "158",
+      "names": "Stroganov/Kavtaradze",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Guberman, Maxim": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "4",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "C": "4",
+        "S": "4",
+        "R": "3",
+        "P": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "2",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "2",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Pogossian, Isabel": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "4",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "C": "4",
+        "S": "4",
+        "R": "3",
+        "P": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "2",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "2",
+      "number": "192",
+      "names": "Guberman/Pogossian",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Baydala, Sophia": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "194",
+      "names": "Ilyushenov/Baydala",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Reunov, Daniel": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "196",
+      "names": "Reunov/Shvaitser",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Shvaitser, Marielle": [
+    {
+      "heat": "Heat 284",
+      "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "196",
+      "names": "Reunov/Shvaitser",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Pinon, Mario": [
+    {
+      "heat": "Heat 127",
+      "event": "L-C Open Bronze Imperial Cup Pro-Am CLUB Championships (MER/SAL/BAC)",
+      "placement": "1",
+      "number": "118",
+      "names": "Beharrylal/Pinon",
+      "dancePlacements": {
+        "M": "1",
+        "S": "1",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 129",
+      "event": "L-D Open Bronze Imperial Cup Pro-Am CLUB Championships (MER/SAL/BAC)",
+      "placement": "1",
+      "number": "118",
+      "names": "Jayasuriya/Pinon",
+      "dancePlacements": {
+        "M": "1",
+        "S": "1",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 135",
+      "event": "L-D Open Bronze Pro-Am CLUB 3-Dance (MER/SAL/BAC)",
+      "placement": "1",
+      "number": "118",
+      "names": "Jayasuriya/Pinon",
+      "dancePlacements": {
+        "M": "1",
+        "S": "1",
+        "D": "1"
+      }
+    }
+  ],
+  "Colangelo, Joe": [
+    {
+      "heat": "Heat 132",
+      "event": "L-C Open Bronze Pro-Am CLUB 3-Dance (MER/SAL/BAC)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Rotova",
+      "dancePlacements": {
+        "M": "1",
+        "S": "2",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 136",
+      "event": "G-F Closed 1 Pro-Am ARGENTINE Grand Trophy Challenge (AT/MIL)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Elent",
+      "dancePlacements": {
+        "A": "1",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "G-F Pro-Am SMOOTH Candy Challenge 1 (W/T/F)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Ma, Tom": [
+    {
+      "heat": "Heat 132",
+      "event": "L-C Open Bronze Pro-Am CLUB 3-Dance (MER/SAL/BAC)",
+      "placement": "2",
+      "number": "167",
+      "names": "Ma/Moraru",
+      "dancePlacements": {
+        "M": "2",
+        "S": "1",
+        "D": "2"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "AC-AD4 Open Amateur SMOOTH Championship (W/T/F/VW)",
+      "placement": "1",
+      "number": "167",
+      "names": "Ma/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 32",
+      "event": "G-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+      "placement": "1",
+      "number": "167",
+      "names": "Ma/Rotova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Moraru, Adriana": [
+    {
+      "heat": "Heat 132",
+      "event": "L-C Open Bronze Pro-Am CLUB 3-Dance (MER/SAL/BAC)",
+      "placement": "2",
+      "number": "167",
+      "names": "Ma/Moraru",
+      "dancePlacements": {
+        "M": "2",
+        "S": "1",
+        "D": "2"
+      }
+    }
+  ],
+  "Movshovich Fil, Isabella": [
+    {
+      "heat": "Heat 385A",
+      "event": "A-JV1 Solo Indv. Bronze LATIN (C/R/S)",
+      "placement": "4",
+      "number": "136",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 382",
+      "event": "L-YTH Open Mixed-Am LATIN (C/S/R/P/J)",
+      "placement": "3",
+      "number": "136",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "C": "3",
+        "S": "2",
+        "R": "3",
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Bushchyk, Alessiah": [
+    {
+      "heat": "Heat 394A",
+      "event": "A-11U Solo Indv. Open CANDY Challenge LATIN (C/J)",
+      "placement": "1",
+      "number": "237",
+      "names": "Bushchyk/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 389",
+      "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "1",
+      "number": "237",
+      "names": "Bushchyk/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Bronshtein, Elly": [
+    {
+      "heat": "Heat 306",
+      "event": "L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)",
+      "placement": "3",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 308",
+      "event": "L-U12 Pre-Competitive Single Assisted Open CANDY Challenge (W/C)",
+      "placement": "3",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "3",
+        "C": "3"
+      }
+    },
+    {
+      "heat": "Heat 311",
+      "event": "L-U12 Pre-Competitive Single Assisted BALLROOM Challenge Cup (W/Q)",
+      "placement": "2",
+      "number": "182",
+      "names": "Pelleriti/Bronshtein",
+      "dancePlacements": {
+        "W": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Samarskyi, Vladyslav": [
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "122",
+      "names": "Samarskyi/Pak",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Pak, Olivia": [
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "3",
+      "number": "122",
+      "names": "Samarskyi/Pak",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Nor-Arevian, Arthur": [
+    {
+      "heat": "Heat 335A",
+      "event": "AC-11U Amateur Challenge Cup LA (C/J)",
+      "placement": "2",
+      "number": "146",
+      "names": "Nor-Arevian/Bronshtein",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Kahraman, Mia": [
+    {
+      "heat": "Heat 314",
+      "event": "A-12+ Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)",
+      "placement": "3",
+      "number": "177",
+      "names": "Kahraman/",
+      "dancePlacements": {
+        "W": "4",
+        "C": "1.5"
+      }
+    }
+  ],
+  "Faynblynm, Naomi": [
+    {
+      "heat": "Heat 381",
+      "event": "A-JR1 Open Solo Indv. LATIN (C/S/R/P/J)",
+      "placement": "3",
+      "number": "156",
+      "names": "Faynblynm/",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "3",
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 389",
+      "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "7",
+      "number": "156",
+      "names": "Faynblynm/",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 392A",
+      "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "5",
+      "number": "156",
+      "names": "Faynblynm/",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Hrasevich, Valeria": [
+    {
+      "heat": "Heat 381",
+      "event": "A-JR1 Open Solo Indv. LATIN (C/S/R/P/J)",
+      "placement": "1",
+      "number": "202",
+      "names": "Hrasevich/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Mykytyn, Solomiia": [
+    {
+      "heat": "Heat 381",
+      "event": "A-JR1 Open Solo Indv. LATIN (C/S/R/P/J)",
+      "placement": "2",
+      "number": "212",
+      "names": "Mykytyn/",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Plekh, Angelina": [
+    {
+      "heat": "Heat 389",
+      "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "6",
+      "number": "111",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 396A",
+      "event": "A-7U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
+      "placement": "4",
+      "number": "111",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 392A",
+      "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "4",
+      "number": "111",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Shtern, Nicole": [
+    {
+      "heat": "Heat 389",
+      "event": "A-12+ Solo Indv. LATIN Challenge Cup (C/J)",
+      "placement": "5",
+      "number": "155",
+      "names": "Shtern/",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 392A",
+      "event": "A-12+ Solo Indv. LATIN Grand Trophy Challenge (C/J)",
+      "placement": "3",
+      "number": "155",
+      "names": "Shtern/",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Tikhostoup, Dmitri": [
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    }
+  ],
+  "Tikhostoup, Elena": [
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 256",
+      "event": "AC-16+ IMPERIAL CUP Amateur Open BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "223",
+      "names": "Tikhostoup/Tikhostoup",
+      "dancePlacements": {}
+    }
+  ],
+  "Lebed, Tymur": [
+    {
+      "heat": "Heat 262",
+      "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "191",
+      "names": "Lebed/Strohush",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Strohush, Andriana": [
+    {
+      "heat": "Heat 262",
+      "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "191",
+      "names": "Lebed/Strohush",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Lebedev, Ivan": [
+    {
+      "heat": "Heat 65",
+      "event": "L-E Closed Pro-Am International 10 -Dance  (C/S/R/P/J)",
+      "placement": "1",
+      "number": "163",
+      "names": "Cheuk/Lebedev",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 189",
+      "event": "L-E Closed Pro-Am International 10 -Dance  (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Cheuk/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 181",
+      "event": "G-D Closed Silver Proficiency Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ma/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 180",
+      "event": "L-A Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 184",
+      "event": "L-A Pro-Am BALLROOM Candy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 194",
+      "event": "L-A Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Falbo/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 66",
+      "event": "L-E Pro-Am Open Scholarship",
+      "placement": "2",
+      "number": "163",
+      "names": "Lee/Lebedev",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 62",
+      "event": "L-F Pro-Am LATIN Grand Trophy Challenge (C/R/S)",
+      "placement": "2",
+      "number": "163",
+      "names": "Ma/Lebedev",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 186",
+      "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 191",
+      "event": "L-D Closed Imperial Cup Pro-Am Five Star BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 192",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Weisspapir/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 195",
+      "event": "L-D Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Ueno/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 196",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "163",
+      "names": "Lee/Lebedev",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Olavide, Carlos": [
+    {
+      "heat": "Heat 126",
+      "event": "L-E Closed Silver Imperial Cup Pro-Am ARGENTINE TANGO Championships (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 130",
+      "event": "L-E Open Silver Imperial Cup Pro-Am ARGENTINE TANGO Championships (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 133",
+      "event": "L-E Open Silver Pro-Am ARGENTINE TANGO 3-Dance (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-E Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-E Pro-Am SMOOTH Candy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 255",
+      "event": "L-B Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "164",
+      "names": "Romanov/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "AC-AD4 Open Amateur SMOOTH Championship (W/T/F/VW)",
+      "placement": "2",
+      "number": "164",
+      "names": "Ma/Olavide",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    }
+  ],
+  "Olavide, Ivan Lebedev & Carlos": [
+    {
+      "heat": "Heat 126",
+      "event": "L-E Closed Silver Imperial Cup Pro-Am ARGENTINE TANGO Championships (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 130",
+      "event": "L-E Open Silver Imperial Cup Pro-Am ARGENTINE TANGO Championships (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 133",
+      "event": "L-E Open Silver Pro-Am ARGENTINE TANGO 3-Dance (Tango/Milonga/Vals)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-E Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-E Pro-Am SMOOTH Candy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "164",
+      "names": "Cheuk/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 255",
+      "event": "L-B Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "164",
+      "names": "Romanov/Olavide",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "AC-AD4 Open Amateur SMOOTH Championship (W/T/F/VW)",
+      "placement": "2",
+      "number": "164",
+      "names": "Ma/Olavide",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    }
+  ],
+  "Gordon, Tyler": [
+    {
+      "heat": "Heat 260",
+      "event": "L-E Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "102",
+      "names": "Goldberger/Gordon",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 30",
+      "event": "L-E Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "1",
+      "number": "102",
+      "names": "Goldberger/Gordon",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 138",
+      "event": "L-E Open Pro-Am CLUB Grand Trophy Challenge (SAL/BAC)",
+      "placement": "1",
+      "number": "102",
+      "names": "Goldberger/Gordon",
+      "dancePlacements": {
+        "S": "1",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 255",
+      "event": "L-B Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "102",
+      "names": "Lin/Gordon",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Tsyfra, Damir": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "5",
+      "number": "189",
+      "names": "Tsyfra/Chevtchenko",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "5"
+      }
+    }
+  ],
+  "Chevtchenko, Evelina": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "5",
+      "number": "189",
+      "names": "Tsyfra/Chevtchenko",
+      "dancePlacements": {
+        "W": "4",
+        "Q": "5"
+      }
+    }
+  ],
+  "Hurtado, Maximiliano": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "3",
+      "number": "215",
+      "names": "Hurtado/Vasiliev",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "3",
+      "number": "215",
+      "names": "Hurtado/Vasiliev",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    }
+  ],
+  "Vasiliev, Elisa": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "3",
+      "number": "215",
+      "names": "Hurtado/Vasiliev",
+      "dancePlacements": {
+        "W": "3",
+        "Q": "4"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "3",
+      "number": "215",
+      "names": "Hurtado/Vasiliev",
+      "dancePlacements": {
+        "C": "4",
+        "J": "2"
+      }
+    }
+  ],
+  "Kuznetsov, Nikolai": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "6",
+      "number": "245",
+      "names": "Kuznetsov/Hartopanu",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "6"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "5",
+      "number": "245",
+      "names": "Kuznetsov/Hartopanu",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Hartopanu, Anastasia": [
+    {
+      "heat": "Heat 325",
+      "event": "AC-11U Amateur Open DISNEY Challenge (W/Q)",
+      "placement": "6",
+      "number": "245",
+      "names": "Kuznetsov/Hartopanu",
+      "dancePlacements": {
+        "W": "6",
+        "Q": "6"
+      }
+    },
+    {
+      "heat": "Heat 334",
+      "event": "AC-12+ Amateur Open CANDY Challenge (C/J)",
+      "placement": "5",
+      "number": "245",
+      "names": "Kuznetsov/Hartopanu",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Chizhik, Viacheslav": [
+    {
+      "heat": "Heat 68",
+      "event": "L-C Imperial Cup Pro-Am Championships",
+      "placement": "1",
+      "number": "110",
+      "names": "Lazareva/Chizhik",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Elent, Maria": [
+    {
+      "heat": "Heat 136",
+      "event": "G-F Closed 1 Pro-Am ARGENTINE Grand Trophy Challenge (AT/MIL)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Elent",
+      "dancePlacements": {
+        "A": "1",
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "G-F Pro-Am SMOOTH Candy Challenge 1 (W/T/F)",
+      "placement": "1",
+      "number": "161",
+      "names": "Colangelo/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 61",
+      "event": "G-D Pro-Am LATIN Grand Trophy Proficiency (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 183",
+      "event": "G-D Pro-Am BALLROOM Grand Trophy Proficiency (W/T/F)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 188",
+      "event": "G-D Pro-Am BALLROOM Candy Challenge Proficiency (W/T/F)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Divakaran, Kapilassan": [
+    {
+      "heat": "Heat 252",
+      "event": "AC-AD1 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "112",
+      "names": "Divakaran/Lapido",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Lapido, Barbara": [
+    {
+      "heat": "Heat 252",
+      "event": "AC-AD1 Amateur Closed Bronze BALLROOM (W/T/Q)",
+      "placement": "1",
+      "number": "112",
+      "names": "Divakaran/Lapido",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Elent, Felix": [
+    {
+      "heat": "Heat 29",
+      "event": "G-D Closed Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+      "placement": "1",
+      "number": "166",
+      "names": "Elent/Rotova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 33",
+      "event": "L-D Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)",
+      "placement": "2",
+      "number": "166",
+      "names": "Elent/Rotova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Sheng, Fang": [
+    {
+      "heat": "Heat 61",
+      "event": "G-D Pro-Am LATIN Grand Trophy Proficiency (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 63",
+      "event": "G-D Closed Silver Proficiency Pro-Am LATIN 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 183",
+      "event": "G-D Pro-Am BALLROOM Grand Trophy Proficiency (W/T/F)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 188",
+      "event": "G-D Pro-Am BALLROOM Candy Challenge Proficiency (W/T/F)",
+      "placement": "1",
+      "number": "162",
+      "names": "Sheng/Elent",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Silagadze, David": [
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "3",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "3",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 276",
+      "event": "AC-16+ Amateur Open DISNEY Challenge (C/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "4",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "AC-16+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 280",
+      "event": "AC-16+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Tsysar, Sofia": [
+    {
+      "heat": "Heat 271",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (C/R/S)",
+      "placement": "3",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "AC-YTH Amateur Pre-Champ LATIN (P/J)",
+      "placement": "3",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 276",
+      "event": "AC-16+ Amateur Open DISNEY Challenge (C/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 279",
+      "event": "AC-16+ Amateur Challenge Cup LA (C/J)",
+      "placement": "4",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "AC-16+ Amateur Grand Trophy Challenge LA (C/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 280",
+      "event": "AC-16+ Amateur Silver/Gold LATIN Challenge (C/R/J)",
+      "placement": "2",
+      "number": "142",
+      "names": "Silagadze/Tsysar",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Heer, Raj": [
+    {
+      "heat": "Heat 263",
+      "event": "G-D Closed Bronze Pro-Am SMOOTH 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "204",
+      "names": "Heer/Rotova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Tolan, Jeffrey": [
+    {
+      "heat": "Heat 182",
+      "event": "G-E Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "2",
+      "number": "101",
+      "names": "Tolan/Shelkovyy",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    }
+  ],
+  "Shelkovyy, Oksana": [
+    {
+      "heat": "Heat 182",
+      "event": "G-E Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "2",
+      "number": "101",
+      "names": "Tolan/Shelkovyy",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    }
+  ],
+  "Komelkov, Vladyslav": [
+    {
+      "heat": "Heat 182",
+      "event": "G-E Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+      "placement": "1",
+      "number": "209",
+      "names": "Skavych/Komelkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 187",
+      "event": "L-E Pro-Am BALLROOM Grand Trophy Challenge (W/T/F)",
+      "placement": "1",
+      "number": "209",
+      "names": "Skavych/Komelkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1"
+      }
+    }
+  ],
+  "Sabir, Mohtar": [
+    {
+      "heat": "Heat 187",
+      "event": "L-E Pro-Am BALLROOM Grand Trophy Challenge (W/T/F)",
+      "placement": "2",
+      "number": "206",
+      "names": "Tam/Sabir",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 62",
+      "event": "L-F Pro-Am LATIN Grand Trophy Challenge (C/R/S)",
+      "placement": "1",
+      "number": "206",
+      "names": "Yeung/Sabir",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    }
+  ],
+  "Spaetzel, Jonathan": [
+    {
+      "heat": "Heat 192",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "208",
+      "names": "Spaetzel/Sevastionova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Sevastionova, Alexandra": [
+    {
+      "heat": "Heat 192",
+      "event": "L-E Pro-Am Open BALLROOM Scholarship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "208",
+      "names": "Spaetzel/Sevastionova",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ]
+}
