@@ -354,7 +354,8 @@ def post_scoresheet(person):
 def merge_heats(all_heats_list):
     """
     Deduplicate heats from multiple scoresheets.
-    For each (heat, dance), keep the row-set with the most rows (most complete).
+    - Per dance: keep version with most rows (most complete).
+    - finalSummary: union by competitor number, keeping the most complete row per person.
     """
     merged = {}
     for heats in all_heats_list:
@@ -369,7 +370,7 @@ def merge_heats(all_heats_list):
                 }
             existing = merged[key]
 
-            # Merge dances — keep the version with most rows per dance name
+            # Merge dances — keep version with most rows per dance name
             existing_dances = {d["dance"]: d for d in existing["dances"]}
             for d in h["dances"]:
                 if d["dance"] not in existing_dances or \
@@ -377,11 +378,90 @@ def merge_heats(all_heats_list):
                     existing_dances[d["dance"]] = d
             existing["dances"] = list(existing_dances.values())
 
-            # Merge finalSummary — keep the largest
-            if len(h.get("finalSummary", [])) > len(existing["finalSummary"]):
-                existing["finalSummary"] = h["finalSummary"]
+            # Merge finalSummary — union by competitor number (never discard a row)
+            existing_summary = {row["number"]: row for row in existing["finalSummary"]}
+            for row in h.get("finalSummary", []):
+                num = row["number"]
+                # Keep row with more dance columns (more complete data)
+                if num not in existing_summary or \
+                   len(row.get("dances", {})) > len(existing_summary[num].get("dances", {})):
+                    existing_summary[num] = row
+            existing["finalSummary"] = list(existing_summary.values())
 
     return merged
+
+
+def fill_missing_from_dances(results):
+    """
+    For heats where finalSummary is incomplete, reconstruct missing competitor
+    entries from per-dance table rows.
+
+    Identifies 'final-round' dances as those with the fewest non-zero rows
+    (semi-final dances have more rows than final-only dances). Assigns available
+    placement slots to missing competitors sorted by their total dance score.
+    """
+    added_total = 0
+    for heat_key, heat in results.items():
+        dances = [d for d in heat.get("dances", []) if d["rows"]]
+        if not dances:
+            continue
+
+        # Final-round dances = those with the fewest rows (semi excluded by larger count)
+        min_rows = min(len(d["rows"]) for d in dances)
+        final_dances = [d for d in dances if len(d["rows"]) == min_rows]
+
+        # Collect all competitors from final-round dance tables
+        all_final = {}  # number -> {names, dances: {dance_name: placement}}
+        for dance in final_dances:
+            for row in dance["rows"]:
+                num = row["number"]
+                if num not in all_final:
+                    all_final[num] = {"names": row["names"], "dances": {}}
+                place = row.get("placement", "")
+                if place and re.match(r"^\d+$", place):
+                    all_final[num]["dances"][dance["dance"]] = place
+
+        in_summary = {row["number"] for row in heat.get("finalSummary", [])}
+        missing = {n: d for n, d in all_final.items()
+                   if n not in in_summary and d["dances"]}
+
+        if not missing:
+            continue
+
+        existing_placements = {
+            int(row["placement"]) for row in heat["finalSummary"]
+            if re.match(r"^\d+$", str(row.get("placement", "")))
+        }
+
+        # Total competitors = highest known placement or summary size + missing count
+        max_place = max(
+            max(existing_placements, default=0),
+            len(in_summary)
+        ) + len(missing)
+        available_slots = sorted(set(range(1, max_place + 1)) - existing_placements)
+
+        def total_score(data):
+            vals = [int(v) for v in data["dances"].values()
+                    if re.match(r"^\d+$", str(v))]
+            return sum(vals) if vals else 9999
+
+        sorted_missing = sorted(missing.items(), key=lambda kv: total_score(kv[1]))
+
+        for (num, data), slot in zip(sorted_missing, available_slots):
+            entry = {
+                "number": num,
+                "names": data["names"],
+                "dances": data["dances"],
+                "total": str(total_score(data)),
+                "placement": str(slot),
+                "reconstructed": True
+            }
+            heat["finalSummary"].append(entry)
+            added_total += 1
+            print(f"  Reconstructed {heat_key}: #{num} {data['names'].strip('/')} "
+                  f"→ place {slot}", file=sys.stderr)
+
+    return results, added_total
 
 
 def build_surname_map(persons):
@@ -485,6 +565,10 @@ def main():
     print("\nMerging heats...", file=sys.stderr)
     results = merge_heats(all_heats_list)
     print(f"Unique heats: {len(results)}", file=sys.stderr)
+
+    print("Filling missing results from dance tables...", file=sys.stderr)
+    results, added = fill_missing_from_dances(results)
+    print(f"Reconstructed {added} missing entries", file=sys.stderr)
 
     print("Building person results...", file=sys.stderr)
     surname_map = build_surname_map(persons)

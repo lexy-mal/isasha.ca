@@ -774,6 +774,28 @@
         },
         "total": "8",
         "placement": "4"
+      },
+      {
+        "number": "150",
+        "names": "Veshchikova/",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "5"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "241",
+        "names": "Belmonte/",
+        "dances": {
+          "Waltz": "4",
+          "Quickstep": "2"
+        },
+        "total": "6",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -1350,6 +1372,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "152",
+        "names": "Shahbazyan/",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "7"
+        },
+        "total": "13",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "224",
+        "names": "Yang/",
+        "dances": {
+          "Cha Cha": "7",
+          "Jive": "6"
+        },
+        "total": "13",
+        "placement": "7",
+        "reconstructed": true
       }
     ]
   },
@@ -1614,6 +1658,26 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "132",
+        "names": "Iakovenko/",
+        "dances": {
+          "Jive": "2"
+        },
+        "total": "2",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "238",
+        "names": "Malashenko/",
+        "dances": {
+          "Jive": "3"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -2151,6 +2215,16 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "122",
+        "names": "Samarskyi/Pak",
+        "dances": {
+          "Heat 329: AC-PD Amateur Pre-Bronze LATIN Jive (J)": "1"
+        },
+        "total": "1",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -2692,6 +2766,18 @@
         },
         "total": "5",
         "placement": "2"
+      },
+      {
+        "number": "122",
+        "names": "Samarskyi/Pak",
+        "dances": {
+          "Heat 332: AC-PD Amateur Pre-Bronze LATIN Cha Cha (C)": "1",
+          "Heat 332: AC-PD Amateur Pre-Bronze LATIN Samba (S)": "1",
+          "Heat 332: AC-PD Amateur Pre-Bronze LATIN Rumba (R)": "1"
+        },
+        "total": "3",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -2821,6 +2907,39 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "145",
+        "names": "Nor-Arevian/Hartung",
+        "dances": {
+          "Paso Doble": "2",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "219",
+        "names": "Motyl/Movsessian",
+        "dances": {
+          "Paso Doble": "1",
+          "Jive": "2"
+        },
+        "total": "3",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "147",
+        "names": "Lester/Bender",
+        "dances": {
+          "Paso Doble": "3",
+          "Jive": "3"
+        },
+        "total": "6",
+        "placement": "5",
+        "reconstructed": true
       }
     ]
   },
@@ -4182,6 +4301,17 @@
         },
         "total": "9",
         "placement": "3"
+      },
+      {
+        "number": "122",
+        "names": "Samarskyi/Pak",
+        "dances": {
+          "Heat 340: AC-PD Amateur Pre-Bronze BALLROOM Waltz (W)": "1",
+          "Heat 344: AC-PD Amateur Pre-Bronze BALLROOM Quickstep (Q)": "1"
+        },
+        "total": "2",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -4310,7 +4440,23 @@
         ]
       }
     ],
-    "finalSummary": []
+    "finalSummary": [
+      {
+        "number": "164",
+        "names": "Brooks/Olavide",
+        "dances": {
+          "Heat 289: L-A Pro-Am Closed Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Waltz (W)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Tango (T)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Foxtrot (F)": "1",
+          "Heat 291: L-A Pro-Am Open Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 291: L-A Pro-Am Open Silver 1 BALLROOM Waltz (W)": "1"
+        },
+        "total": "6",
+        "placement": "1",
+        "reconstructed": true
+      }
+    ]
   },
   "Heat 291": {
     "heat": "Heat 291",
@@ -4473,6 +4619,30 @@
         "dances": {},
         "total": "80",
         "placement": "2"
+      },
+      {
+        "number": "199",
+        "names": "Rudenko/",
+        "dances": {
+          "Heat 314: A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (C)": "1",
+          "Heat 316: A-6U Pre-Competitive Solo Indv. Open CANDY Challenge (C)": "1",
+          "Heat 318: A-6U Pre-Competitive Solo Indv. Open DISNEY Challenge (C)": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "197",
+        "names": "Vilgan/",
+        "dances": {
+          "Heat 314: A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (C)": "2",
+          "Heat 316: A-6U Pre-Competitive Solo Indv. Open CANDY Challenge (C)": "2",
+          "Heat 318: A-6U Pre-Competitive Solo Indv. Open DISNEY Challenge (C)": "2"
+        },
+        "total": "6",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -4666,6 +4836,28 @@
         },
         "total": "4",
         "placement": "2"
+      },
+      {
+        "number": "243",
+        "names": "Lysenko/Petrov",
+        "dances": {
+          "Waltz": "4",
+          "Cha Cha": "5"
+        },
+        "total": "9",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "250",
+        "names": "Gorobets/Pavlenko",
+        "dances": {
+          "Waltz": "5",
+          "Cha Cha": "4"
+        },
+        "total": "9",
+        "placement": "5",
+        "reconstructed": true
       }
     ]
   },
@@ -5048,6 +5240,20 @@
         },
         "total": "8",
         "placement": "4"
+      },
+      {
+        "number": "140",
+        "names": "Raskin/Timchenko",
+        "dances": {
+          "Heat 340: L-YTH Mixed-Am Open BALLROOM Waltz (W)": "2",
+          "Heat 341: L-YTH Mixed-Am Open BALLROOM Tango (T)": "2",
+          "Heat 342: L-YTH Mixed-Am Open BALLROOM Viennese Waltz (VW)": "2",
+          "Heat 343: L-YTH Mixed-Am Open BALLROOM Foxtrot (F)": "2",
+          "Heat 344: L-YTH Mixed-Am Open BALLROOM Quickstep (Q)": "2"
+        },
+        "total": "10",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -5797,6 +6003,28 @@
         },
         "total": "10",
         "placement": "5"
+      },
+      {
+        "number": "173",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "3",
+          "Cha Cha": "4"
+        },
+        "total": "7",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "183",
+        "names": "Muzychka/",
+        "dances": {
+          "Waltz": "4",
+          "Cha Cha": "3"
+        },
+        "total": "7",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -6018,6 +6246,28 @@
         },
         "total": "8",
         "placement": "4"
+      },
+      {
+        "number": "151",
+        "names": "Veshchikova/",
+        "dances": {
+          "Waltz": "3",
+          "Cha Cha": "2"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "247",
+        "names": "Reabaia/",
+        "dances": {
+          "Waltz": "2",
+          "Cha Cha": "3"
+        },
+        "total": "5",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -6560,6 +6810,33 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "164",
+        "names": "Brooks/Olavide",
+        "dances": {
+          "Heat 302: L-A Pro-Am Closed Silver 2 LATIN Cha Cha (C)": "1",
+          "Heat 302: L-A Pro-Am Closed Silver 2 LATIN Rumba (R)": "1",
+          "Heat 303: L-A Pro-Am Open Silver 1 LATIN Rumba (R)": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "114",
+        "names": "Jagielnik/Smithson",
+        "dances": {
+          "Heat 367: L-JR2 Mixed-Am Bronze LATIN Cha Cha (C)": "1",
+          "Heat 363: L-JR2 Mixed-Am Bronze LATIN Samba (S)": "1",
+          "Heat 369: L-JR2 Mixed-Am Bronze LATIN Rumba (R)": "1",
+          "Heat 340: L-PD Mixed-Am Pre-Bronze BALLROOM Waltz (W)": "1",
+          "Heat 341: L-PD Mixed-Am Pre-Bronze BALLROOM Tango (T)": "1",
+          "Heat 344: L-PD Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)": "1"
+        },
+        "total": "6",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -6749,6 +7026,39 @@
         },
         "total": "4",
         "placement": "1"
+      },
+      {
+        "number": "171",
+        "names": "Sciberras/",
+        "dances": {
+          "Waltz": "5",
+          "Cha Cha": "2"
+        },
+        "total": "7",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "173",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "2",
+          "Cha Cha": "5"
+        },
+        "total": "7",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "177",
+        "names": "Kahraman/",
+        "dances": {
+          "Waltz": "3",
+          "Cha Cha": "4"
+        },
+        "total": "7",
+        "placement": "5",
+        "reconstructed": true
       }
     ]
   },
@@ -6931,6 +7241,28 @@
         },
         "total": "6.5",
         "placement": "4"
+      },
+      {
+        "number": "170",
+        "names": "Brooks/",
+        "dances": {
+          "Waltz": "3",
+          "Cha Cha": "3"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "177",
+        "names": "Kahraman/",
+        "dances": {
+          "Waltz": "4",
+          "Cha Cha": "2"
+        },
+        "total": "6",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -7538,6 +7870,28 @@
         },
         "total": "4",
         "placement": "2"
+      },
+      {
+        "number": "145",
+        "names": "Nor-Arevian/Hartung",
+        "dances": {
+          "Cha Cha": "4",
+          "Jive": "3"
+        },
+        "total": "7",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "219",
+        "names": "Motyl/Movsessian",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "4"
+        },
+        "total": "7",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -7968,6 +8322,39 @@
         },
         "total": "5",
         "placement": "3"
+      },
+      {
+        "number": "139",
+        "names": "Barshai/Anastasova",
+        "dances": {
+          "Cha Cha": "5",
+          "Jive": "5"
+        },
+        "total": "10",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "225",
+        "names": "Wu/Stefanov",
+        "dances": {
+          "Cha Cha": "4",
+          "Jive": "6"
+        },
+        "total": "10",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "228",
+        "names": "Chen/Mao",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "4"
+        },
+        "total": "10",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -8837,6 +9224,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "115",
+        "names": "Castillo/Sydorchuk",
+        "dances": {
+          "Cha Cha": "5",
+          "Jive": "6"
+        },
+        "total": "11",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "131",
+        "names": "Barshai/Reznik",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "5"
+        },
+        "total": "11",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -9159,6 +9568,30 @@
         },
         "total": "6",
         "placement": "1"
+      },
+      {
+        "number": "227",
+        "names": "Kolesnik/Stefanov",
+        "dances": {
+          "Heat 367: G-JR2 Mixed-Am Gold LATIN Cha Cha (C)": "1",
+          "Heat 368: G-JR2 Mixed-Am Gold LATIN Samba (S)": "1",
+          "Heat 369: G-JR2 Mixed-Am Gold LATIN Rumba (R)": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "229",
+        "names": "Petrosyan/Stefanov",
+        "dances": {
+          "Heat 367: G-JR2 Mixed-Am Gold LATIN Cha Cha (C)": "2",
+          "Heat 368: G-JR2 Mixed-Am Gold LATIN Samba (S)": "2",
+          "Heat 369: G-JR2 Mixed-Am Gold LATIN Rumba (R)": "2"
+        },
+        "total": "6",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -9774,6 +10207,30 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "227",
+        "names": "Kolesnik/Stefanov",
+        "dances": {
+          "Heat 367: G-JR2 Mixed-Am Gold LATIN Cha Cha (C)": "1",
+          "Heat 368: G-JR2 Mixed-Am Gold LATIN Samba (S)": "1",
+          "Heat 369: G-JR2 Mixed-Am Gold LATIN Rumba (R)": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "229",
+        "names": "Petrosyan/Stefanov",
+        "dances": {
+          "Heat 367: G-JR2 Mixed-Am Gold LATIN Cha Cha (C)": "2",
+          "Heat 368: G-JR2 Mixed-Am Gold LATIN Samba (S)": "2",
+          "Heat 369: G-JR2 Mixed-Am Gold LATIN Rumba (R)": "2"
+        },
+        "total": "6",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -9956,6 +10413,28 @@
         },
         "total": "4.5",
         "placement": "1"
+      },
+      {
+        "number": "153",
+        "names": "Bronshtein/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "3"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "242",
+        "names": "Aptekar/",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "4"
+        },
+        "total": "5",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -10486,6 +10965,17 @@
         },
         "total": "6",
         "placement": "3"
+      },
+      {
+        "number": "251",
+        "names": "Nechadim/Ilyushenov",
+        "dances": {
+          "Heat 369: L-PD Mixed-Am Newcomer LATIN Rumba (R)": "1",
+          "Heat 364: L-PD Mixed-Am Pre-Bronze LATIN Rumba (R)": "1"
+        },
+        "total": "2",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -10923,6 +11413,50 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "150",
+        "names": "Veshchikova/",
+        "dances": {
+          "Cha Cha": "4",
+          "Jive": "3"
+        },
+        "total": "7",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "242",
+        "names": "Aptekar/",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "4"
+        },
+        "total": "7",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "152",
+        "names": "Shahbazyan/",
+        "dances": {
+          "Cha Cha": "7",
+          "Jive": "6"
+        },
+        "total": "13",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "224",
+        "names": "Yang/",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "7"
+        },
+        "total": "13",
+        "placement": "7",
+        "reconstructed": true
       }
     ]
   },
@@ -11958,6 +12492,45 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "102",
+        "names": "Cook/Gordon",
+        "dances": {
+          "Heat 94: L-C Closed Newcomer CLUB Hustle": "1",
+          "Heat 112: L-C Closed Pre-Bronze CLUB Hustle": "1"
+        },
+        "total": "2",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "104",
+        "names": "Dewar/Artemenko",
+        "dances": {
+          "Heat 78: G-C Closed Newcomer CLUB Merengue": "1",
+          "Heat 79: G-C Closed Newcomer CLUB Salsa": "1",
+          "Heat 80: G-C Closed Newcomer CLUB Bachata": "1",
+          "Heat 81: G-C Closed Newcomer Argentine Tango": "1",
+          "Heat 84: G-C Closed Pre-Bronze CLUB Merengue": "1",
+          "Heat 85: G-C Closed Pre-Bronze CLUB Salsa": "1",
+          "Heat 86: G-C Closed Pre-Bronze CLUB Bachata": "1",
+          "Heat 88: G-C Closed Pre-Bronze Argentine Tango": "1",
+          "Heat 91: G-C Closed Bronze 1 CLUB Merengue": "1",
+          "Heat 92: G-C Closed Bronze 1 CLUB Salsa": "1",
+          "Heat 93: G-C Closed Bronze 1 CLUB Bachata": "1",
+          "Heat 95: G-C Closed Bronze 1 Argentine Tango": "1",
+          "Heat 98: G-C Closed Bronze 2 CLUB Merengue": "1",
+          "Heat 99: G-C Closed Bronze 2 CLUB Salsa": "1",
+          "Heat 100: G-C Closed Bronze 2 CLUB Bachata": "1",
+          "Heat 101: G-C Closed Bronze 2 Argentine Tango": "1",
+          "Heat 104: G-C Closed Full Bronze CLUB Merengue": "1",
+          "Heat 105: G-C Closed Full Bronze CLUB Salsa": "1",
+          "Heat 106: G-C Closed Full Bronze CLUB Bachata": "1"
+        },
+        "total": "19",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -12449,6 +13022,24 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "167",
+        "names": "Ma/Rotova",
+        "dances": {
+          "Heat 200: G-F Closed Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 201: G-F Closed Silver 2 SMOOTH Tango (T)": "1",
+          "Heat 203: G-F Closed Silver 1 SMOOTH Waltz (W)": "1",
+          "Heat 217: G-F Closed Silver 1 SMOOTH Foxtrot (F)": "1",
+          "Heat 232: G-F Closed Silver 1 SMOOTH Tango (T)": "1",
+          "Heat 233: G-F Closed Silver 2 SMOOTH Foxtrot (F)": "1",
+          "Heat 222: G-F Open Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 229: G-F Open Silver 2 SMOOTH Tango (T)": "1",
+          "Heat 224: G-F Open Silver 2 SMOOTH Foxtrot (F)": "1"
+        },
+        "total": "9",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -12611,6 +13202,16 @@
         },
         "total": "5",
         "placement": "2"
+      },
+      {
+        "number": "148",
+        "names": "Kwok/Tang",
+        "dances": {
+          "Viennese Waltz": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -12957,6 +13558,28 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "218",
+        "names": "Rozdorozhnyi/Pavlenko",
+        "dances": {
+          "Viennese Waltz": "1",
+          "Foxtrot": "1"
+        },
+        "total": "2",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "190",
+        "names": "Aydogan/Stefanova",
+        "dances": {
+          "Viennese Waltz": "2",
+          "Foxtrot": "2"
+        },
+        "total": "4",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -14072,6 +14695,69 @@
         },
         "total": "15",
         "placement": "5"
+      },
+      {
+        "number": "228",
+        "names": "Chen/Mao",
+        "dances": {
+          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "1"
+        },
+        "total": "1",
+        "placement": "7",
+        "reconstructed": true
+      },
+      {
+        "number": "218",
+        "names": "Rozdorozhnyi/Pavlenko",
+        "dances": {
+          "Samba": "1",
+          "Paso Doble": "1"
+        },
+        "total": "2",
+        "placement": "8",
+        "reconstructed": true
+      },
+      {
+        "number": "225",
+        "names": "Wu/Stefanov",
+        "dances": {
+          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "2"
+        },
+        "total": "2",
+        "placement": "9",
+        "reconstructed": true
+      },
+      {
+        "number": "114",
+        "names": "Czarnecka/Smithson",
+        "dances": {
+          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "3"
+        },
+        "total": "3",
+        "placement": "10",
+        "reconstructed": true
+      },
+      {
+        "number": "190",
+        "names": "Aydogan/Stefanova",
+        "dances": {
+          "Samba": "2",
+          "Paso Doble": "2"
+        },
+        "total": "4",
+        "placement": "11",
+        "reconstructed": true
+      },
+      {
+        "number": "193",
+        "names": "Protas/Liang",
+        "dances": {
+          "Samba": "3",
+          "Paso Doble": "3"
+        },
+        "total": "6",
+        "placement": "12",
+        "reconstructed": true
       }
     ]
   },
@@ -14388,6 +15074,28 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "144",
+        "names": "Yang/Chan",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "2"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "226",
+        "names": "Hapier/Azbel",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "4"
+        },
+        "total": "5",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -14483,6 +15191,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "114",
+        "names": "Czarnecka/Smithson",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "251",
+        "names": "Nechadim/Ilyushenov",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "2"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -15715,6 +16445,25 @@
         },
         "total": "8",
         "placement": "2"
+      },
+      {
+        "number": "164",
+        "names": "Sciberras/Olavide",
+        "dances": {
+          "Heat 288: L-A Pro-Am Open Silver 1 SMOOTH Waltz (W)": "1",
+          "Heat 289: L-A Pro-Am Closed Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 291: L-A Pro-Am Open Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 291: L-A Pro-Am Open Silver 1 BALLROOM Waltz (W)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Waltz (W)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Tango (T)": "1",
+          "Heat 292: L-A Pro-Am Closed Silver 2 BALLROOM Foxtrot (F)": "1",
+          "Heat 302: L-A Pro-Am Closed Silver 2 LATIN Cha Cha (C)": "1",
+          "Heat 302: L-A Pro-Am Closed Silver 2 LATIN Rumba (R)": "1",
+          "Heat 303: L-A Pro-Am Open Silver 1 LATIN Rumba (R)": "1"
+        },
+        "total": "10",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -15887,6 +16636,18 @@
         },
         "total": "4",
         "placement": "2"
+      },
+      {
+        "number": "144",
+        "names": "Shtern/Chan",
+        "dances": {
+          "Samba": "1",
+          "Paso Doble": "1",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -16422,6 +17183,17 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "194",
+        "names": "Ilyushenov/Baydala",
+        "dances": {
+          "Paso Doble": "1",
+          "Jive": "1"
+        },
+        "total": "2",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -17480,6 +18252,34 @@
         },
         "total": "10",
         "placement": "2"
+      },
+      {
+        "number": "251",
+        "names": "Geler/Ilyushenov",
+        "dances": {
+          "Heat 344: L-PD Mixed-Am Newcomer BALLROOM Quickstep (Q)": "1",
+          "Heat 343: L-PD Mixed-Am Newcomer BALLROOM Foxtrot (F)": "1",
+          "Heat 342: L-PD Mixed-Am Newcomer BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 340: L-PD Mixed-Am Newcomer BALLROOM Waltz (W)": "1",
+          "Heat 341: L-PD Mixed-Am Newcomer BALLROOM Tango (T)": "1"
+        },
+        "total": "5",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "113",
+        "names": "Nikolov/Young Spice",
+        "dances": {
+          "Heat 361: L-JV2 Mixed-Am Pre-Bronze LATIN Jive (J)": "1",
+          "Heat 367: L-JV2 Mixed-Am Bronze LATIN Cha Cha (C)": "1",
+          "Heat 363: L-JV2 Mixed-Am Bronze LATIN Samba (S)": "1",
+          "Heat 364: L-JV2 Mixed-Am Bronze LATIN Rumba (R)": "1",
+          "Heat 365: L-JV2 Mixed-Am Pre-Bronze LATIN Paso Doble (P)": "1"
+        },
+        "total": "5",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -17872,6 +18672,50 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "249",
+        "names": "Selivanov/",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "1"
+        },
+        "total": "2",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "150",
+        "names": "Veshchikova/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "3"
+        },
+        "total": "5",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "153",
+        "names": "Bronshtein/",
+        "dances": {
+          "Waltz": "3",
+          "Quickstep": "2"
+        },
+        "total": "5",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "240",
+        "names": "Belmonte/",
+        "dances": {
+          "Waltz": "4",
+          "Quickstep": "4"
+        },
+        "total": "8",
+        "placement": "7",
+        "reconstructed": true
       }
     ]
   },
@@ -18305,6 +19149,72 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "153",
+        "names": "Bronshtein/",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "249",
+        "names": "Selivanov/",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "2"
+        },
+        "total": "3",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "238",
+        "names": "Malashenko/",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "3"
+        },
+        "total": "6",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "150",
+        "names": "Veshchikova/",
+        "dances": {
+          "Cha Cha": "4",
+          "Jive": "6"
+        },
+        "total": "10",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "224",
+        "names": "Yang/",
+        "dances": {
+          "Cha Cha": "5",
+          "Jive": "5"
+        },
+        "total": "10",
+        "placement": "7",
+        "reconstructed": true
+      },
+      {
+        "number": "240",
+        "names": "Belmonte/",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "4"
+        },
+        "total": "10",
+        "placement": "8",
+        "reconstructed": true
       }
     ]
   },
@@ -19917,6 +20827,16 @@
         },
         "total": "6",
         "placement": "3"
+      },
+      {
+        "number": "133",
+        "names": "Golovanevski/Zhelasko",
+        "dances": {
+          "Jive": "1"
+        },
+        "total": "1",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -20435,6 +21355,16 @@
         },
         "total": "6",
         "placement": "3"
+      },
+      {
+        "number": "133",
+        "names": "Golovanevski/Zhelasko",
+        "dances": {
+          "Jive": "1"
+        },
+        "total": "1",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -20554,6 +21484,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "145",
+        "names": "Muzychka/Nor-Arevian",
+        "dances": {
+          "Waltz": "3",
+          "Cha Cha": "2"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "182",
+        "names": "Pelleriti/Bronshtein",
+        "dances": {
+          "Waltz": "2",
+          "Cha Cha": "3"
+        },
+        "total": "5",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -20817,6 +21769,50 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "195",
+        "names": "Yagiyaev/Ofengenden",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "1"
+        },
+        "total": "2",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "217",
+        "names": "Pidvirnyi/Kishchuk",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "2"
+        },
+        "total": "4",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "189",
+        "names": "Tsyfra/Chevtchenko",
+        "dances": {
+          "Cha Cha": "4",
+          "Jive": "3"
+        },
+        "total": "7",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "215",
+        "names": "Hurtado/Vasiliev",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "4"
+        },
+        "total": "7",
+        "placement": "7",
+        "reconstructed": true
       }
     ]
   },
@@ -21050,6 +22046,17 @@
         },
         "total": "6",
         "placement": "2"
+      },
+      {
+        "number": "144",
+        "names": "Stane/Chan",
+        "dances": {
+          "Viennese Waltz": "1",
+          "Quickstep": "1"
+        },
+        "total": "2",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -21760,6 +22767,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "120",
+        "names": "Milkova/",
+        "dances": {
+          "Cha Cha": "3",
+          "Jive": "2"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "212",
+        "names": "Mykytyn/",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "3"
+        },
+        "total": "5",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -21981,6 +23010,28 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "113",
+        "names": "Nikolov/Young Spice",
+        "dances": {
+          "Cha Cha": "6",
+          "Jive": "5"
+        },
+        "total": "11",
+        "placement": "5",
+        "reconstructed": true
+      },
+      {
+        "number": "115",
+        "names": "Castillo/Sydorchuk",
+        "dances": {
+          "Cha Cha": "5",
+          "Jive": "6"
+        },
+        "total": "11",
+        "placement": "6",
+        "reconstructed": true
       }
     ]
   },
@@ -22190,6 +23241,34 @@
         "dances": {},
         "total": "89",
         "placement": "1"
+      },
+      {
+        "number": "144",
+        "names": "Chan/Nor-Arevian",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "1",
+          "Viennese Waltz": "1",
+          "Foxtrot": "1",
+          "Quickstep": "1"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "113",
+        "names": "Young Spice/Schaaf",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Viennese Waltz": "2",
+          "Foxtrot": "2",
+          "Quickstep": "2"
+        },
+        "total": "10",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -22865,6 +23944,34 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "141",
+        "names": "Kochan/Bielichenko",
+        "dances": {
+          "Heat 359: L-YTH Mixed-Am Open LATIN Rumba (R)": "2",
+          "Heat 361: L-YTH Mixed-Am Open LATIN Jive (J)": "2",
+          "Heat 362: L-YTH Mixed-Am Open LATIN Cha Cha (C)": "1",
+          "Heat 368: L-YTH Mixed-Am Open LATIN Samba (S)": "1",
+          "Heat 365: L-YTH Mixed-Am Open LATIN Paso Doble (P)": "1"
+        },
+        "total": "7",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "133",
+        "names": "Bronshtein/Zhelasko",
+        "dances": {
+          "Heat 359: L-YTH Mixed-Am Open LATIN Rumba (R)": "1",
+          "Heat 361: L-YTH Mixed-Am Open LATIN Jive (J)": "1",
+          "Heat 362: L-YTH Mixed-Am Open LATIN Cha Cha (C)": "2",
+          "Heat 368: L-YTH Mixed-Am Open LATIN Samba (S)": "2",
+          "Heat 365: L-YTH Mixed-Am Open LATIN Paso Doble (P)": "2"
+        },
+        "total": "8",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -24027,6 +25134,51 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "164",
+        "names": "Cheuk/Olavide",
+        "dances": {
+          "Heat 83: L-E Open Silver 2 Milonga": "1",
+          "Heat 90: L-E Open Silver 2 Tango Vals": "1",
+          "Heat 101: L-E Open Full Silver Argentine Tango": "1",
+          "Heat 97: L-E Open Full Silver Milonga": "1",
+          "Heat 103: L-E Open Full Silver Tango Vals": "1",
+          "Heat 113: L-E Open Silver 2 Argentine Tango": "1"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "166",
+        "names": "Elent/Elent",
+        "dances": {
+          "Heat 85: G-D Closed Pre-Bronze 1 CLUB Salsa": "1",
+          "Heat 92: G-D Open Newcomer 1 CLUB Salsa": "1",
+          "Heat 99: G-D Open Pre-Bronze 1 CLUB Salsa": "1",
+          "Heat 110: G-D Closed Newcomer 1 CLUB Salsa": "1",
+          "Heat 117: G-D Closed Bronze 1 Pro-Am CLUB Salsa Championship": "1",
+          "Heat 121: G-D Closed Bronze 1 Imperial Cup Pro-Am CLUB Salsa Championships": "1"
+        },
+        "total": "6",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "162",
+        "names": "Sheng/Elent",
+        "dances": {
+          "Heat 164: G-D Closed Silver 2 Proficiency BALLROOM Waltz (W)": "1",
+          "Heat 165: G-D Closed Silver 2 Proficiency BALLROOM Tango (T)": "1",
+          "Heat 167: G-D Closed Silver 2 Proficiency BALLROOM Foxtrot (F)": "1",
+          "Heat 174: G-D Open  Full Silver Proficiency BALLROOM Waltz (W)": "1",
+          "Heat 175: G-D Open  Full Silver Proficiency BALLROOM Tango (T)": "1",
+          "Heat 177: G-D Open  Full Silver Proficiency BALLROOM Foxtrot (F)": "1"
+        },
+        "total": "6",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -27681,6 +28833,93 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "206",
+        "names": "Tam/Sabir",
+        "dances": {
+          "Heat 146: L-E Open Gold 1 BALLROOM Waltz (W)": "1",
+          "Heat 147: L-E Open Gold 1 BALLROOM Tango (T)": "1",
+          "Heat 150: L-E Open Silver 2 BALLROOM Waltz (W)": "1",
+          "Heat 151: L-E Open Silver 2 BALLROOM Tango (T)": "1",
+          "Heat 160: L-E Open BALLROOM Waltz (W)": "1",
+          "Heat 161: L-E Open BALLROOM Tango (T)": "1",
+          "Heat 162: L-E Open BALLROOM Foxtrot (F)": "1",
+          "Heat 163: L-E Open BALLROOM Quickstep (Q)": "1"
+        },
+        "total": "8",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "109",
+        "names": "Foers/Ilyushenov",
+        "dances": {
+          "Heat 152: L-G Open BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 160: L-G Open BALLROOM Waltz (W)": "1",
+          "Heat 161: L-G Open BALLROOM Tango (T)": "1",
+          "Heat 162: L-G Open BALLROOM Foxtrot (F)": "1",
+          "Heat 168: L-G Open BALLROOM Quickstep (Q)": "1",
+          "Heat 155: L-F Open Full Gold BALLROOM Waltz (W)": "1",
+          "Heat 156: L-F Open Full Gold BALLROOM Tango (T)": "1",
+          "Heat 158: L-F Open Full Gold BALLROOM Foxtrot (F)": "1",
+          "Heat 163: L-F Open Full Gold BALLROOM Quickstep (Q)": "1",
+          "Heat 176: L-F Open Full Gold BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 226: L-E Open Full Gold SMOOTH Tango (T)": "1",
+          "Heat 230: L-E Open Full Gold SMOOTH Foxtrot (F)": "1",
+          "Heat 235: L-F Open SMOOTH Waltz (W)": "1",
+          "Heat 227: L-F Open SMOOTH Foxtrot (F)": "1",
+          "Heat 238: L-E Open Full Gold SMOOTH Waltz (W)": "1",
+          "Heat 239: L-F Open SMOOTH Tango (T)": "1",
+          "Heat 244: L-F Open SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 251: L-E Open Full Gold SMOOTH Viennese Waltz (VW)": "1"
+        },
+        "total": "18",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "163",
+        "names": "Ueno/Lebedev",
+        "dances": {
+          "Heat 141: L-D Closed Silver 1 BALLROOM Waltz (W)": "1",
+          "Heat 142: L-D Closed Silver 1 BALLROOM Tango (T)": "1",
+          "Heat 143: L-D Closed Silver 1 BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 144: L-D Closed Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 145: L-D Closed Silver 1 BALLROOM Quickstep (Q)": "1",
+          "Heat 146: L-F Closed Silver 1 BALLROOM Waltz (W)": "1",
+          "Heat 147: L-F Closed Silver 1 BALLROOM Tango (T)": "1",
+          "Heat 148: L-F Closed Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 149: L-F Closed Silver 1 BALLROOM Quickstep (Q)": "1",
+          "Heat 150: L-E Closed Full Gold BALLROOM Waltz (W)": "1",
+          "Heat 151: L-E Closed Full Gold BALLROOM Tango (T)": "1",
+          "Heat 152: L-E Closed Full Gold BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 153: L-E Closed Full Gold BALLROOM Foxtrot (F)": "1",
+          "Heat 154: L-E Closed Full Gold BALLROOM Quickstep (Q)": "1",
+          "Heat 160: L-F Open Silver 2 BALLROOM Waltz (W)": "1",
+          "Heat 161: L-F Open Silver 2 BALLROOM Tango (T)": "1",
+          "Heat 162: L-F Open Silver 2 BALLROOM Foxtrot (F)": "1",
+          "Heat 163: L-F Open Silver 2 BALLROOM Quickstep (Q)": "1",
+          "Heat 155: L-D Open Silver 1 BALLROOM Waltz (W)": "1",
+          "Heat 156: L-D Open Silver 1 BALLROOM Tango (T)": "1",
+          "Heat 157: L-D Open Silver 1 BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 158: L-D Open Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 159: L-D Open Silver 1 BALLROOM Quickstep (Q)": "1",
+          "Heat 164: L-E Open Gold 2 BALLROOM Waltz (W)": "1",
+          "Heat 165: L-E Open Gold 2 BALLROOM Tango (T)": "1",
+          "Heat 166: L-E Open Gold 2 BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 167: L-E Open Gold 2 BALLROOM Foxtrot (F)": "1",
+          "Heat 168: L-E Open Gold 2 BALLROOM Quickstep (Q)": "1",
+          "Heat 169: L-A Closed Silver 1 BALLROOM Waltz (W)": "1",
+          "Heat 170: L-A Closed Silver 1 BALLROOM Tango (T)": "1",
+          "Heat 171: L-A Closed Silver 1 BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 172: L-A Closed Silver 1 BALLROOM Foxtrot (F)": "1",
+          "Heat 173: L-A Closed Silver 1 BALLROOM Quickstep (Q)": "1",
+          "Heat 176: L-E Open Full Gold BALLROOM Viennese Waltz (VW)": "1"
+        },
+        "total": "34",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -27987,6 +29226,21 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "162",
+        "names": "Sheng/Elent",
+        "dances": {
+          "Heat 164: G-D Closed Silver 2 Proficiency BALLROOM Waltz (W)": "1",
+          "Heat 165: G-D Closed Silver 2 Proficiency BALLROOM Tango (T)": "1",
+          "Heat 167: G-D Closed Silver 2 Proficiency BALLROOM Foxtrot (F)": "1",
+          "Heat 174: G-D Open  Full Silver Proficiency BALLROOM Waltz (W)": "1",
+          "Heat 175: G-D Open  Full Silver Proficiency BALLROOM Tango (T)": "1",
+          "Heat 177: G-D Open  Full Silver Proficiency BALLROOM Foxtrot (F)": "1"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -28419,6 +29673,17 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "160",
+        "names": "Fung/Fung",
+        "dances": {
+          "Viennese Waltz": "1",
+          "Foxtrot": "1"
+        },
+        "total": "2",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -28572,6 +29837,28 @@
         },
         "total": "6",
         "placement": "3"
+      },
+      {
+        "number": "211",
+        "names": "Rakityanska/",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "2"
+        },
+        "total": "3",
+        "placement": "1",
+        "reconstructed": true
+      },
+      {
+        "number": "212",
+        "names": "Mykytyn/",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -29429,6 +30716,18 @@
         },
         "total": "6",
         "placement": "2"
+      },
+      {
+        "number": "205",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 44: L-C Closed Newcomer 2 LATIN Cha Cha (C)": "1",
+          "Heat 40: L-C Closed Newcomer 2 LATIN Samba (S)": "1",
+          "Heat 46: L-C Closed Newcomer 2 LATIN Rumba (R)": "1"
+        },
+        "total": "3",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -29621,6 +30920,18 @@
         "dances": {},
         "total": "87",
         "placement": "1"
+      },
+      {
+        "number": "163",
+        "names": "Lee/Lebedev",
+        "dances": {
+          "Cha Cha": "1",
+          "Rumba": "1",
+          "Samba": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -30014,6 +31325,21 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "161",
+        "names": "Colangelo/Elent",
+        "dances": {
+          "Heat 212: G-F Closed Pre-Bronze 3 SMOOTH Waltz (W)": "1",
+          "Heat 236: G-F Closed Pre-Bronze 3 SMOOTH Tango (T)": "1",
+          "Heat 240: G-F Closed Pre-Bronze 3 SMOOTH Foxtrot (F)": "1",
+          "Heat 243: G-F Closed Newcomer 1 SMOOTH Foxtrot (F)": "1",
+          "Heat 246: G-F Closed Newcomer 1 SMOOTH Tango (T)": "1",
+          "Heat 248: G-F Closed Newcomer 1 SMOOTH Waltz (W)": "1"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -30782,6 +32108,45 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "178",
+        "names": "Falbo/",
+        "dances": {
+          "Heat 340: A-YTH Solo Indv. Silver BALLROOM Waltz (W)": "1",
+          "Heat 341: A-YTH Solo Indv. Silver BALLROOM Tango (T)": "1",
+          "Heat 342: A-YTH Solo Indv. Silver BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 343: A-YTH Solo Indv. Silver BALLROOM Foxtrot (F)": "1",
+          "Heat 344: A-YTH Solo Indv. Silver BALLROOM Quickstep (Q)": "1"
+        },
+        "total": "5",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "109",
+        "names": "Barrow/Ilyushenov",
+        "dances": {
+          "Heat 221: L-D Open SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 226: L-E Open Full Gold SMOOTH Tango (T)": "1",
+          "Heat 230: L-E Open Full Gold SMOOTH Foxtrot (F)": "1",
+          "Heat 235: L-F Open SMOOTH Waltz (W)": "1",
+          "Heat 227: L-F Open SMOOTH Foxtrot (F)": "1",
+          "Heat 234: L-D Open Full Gold SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 222: L-D Open SMOOTH Waltz (W)": "1",
+          "Heat 223: L-D Open SMOOTH Tango (T)": "1",
+          "Heat 224: L-D Open SMOOTH Foxtrot (F)": "1",
+          "Heat 238: L-E Open Full Gold SMOOTH Waltz (W)": "1",
+          "Heat 239: L-F Open SMOOTH Tango (T)": "1",
+          "Heat 244: L-F Open SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 241: L-D Open Full Gold SMOOTH Waltz (W)": "1",
+          "Heat 242: L-D Open Full Gold SMOOTH Tango (T)": "1",
+          "Heat 243: L-D Open Full Gold SMOOTH Foxtrot (F)": "1",
+          "Heat 251: L-E Open Full Gold SMOOTH Viennese Waltz (VW)": "1"
+        },
+        "total": "16",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -31003,6 +32368,28 @@
         },
         "total": "12",
         "placement": "6"
+      },
+      {
+        "number": "202",
+        "names": "Hrasevich/",
+        "dances": {
+          "Cha Cha": "2",
+          "Jive": "1"
+        },
+        "total": "3",
+        "placement": "1",
+        "reconstructed": true
+      },
+      {
+        "number": "211",
+        "names": "Rakityanska/",
+        "dances": {
+          "Cha Cha": "1",
+          "Jive": "2"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -31575,6 +32962,33 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "161",
+        "names": "Colangelo/Rotova",
+        "dances": {
+          "Heat 78: G-F Closed Newcomer CLUB Merengue": "1",
+          "Heat 79: G-F Closed Newcomer CLUB Salsa": "1",
+          "Heat 80: G-F Closed Newcomer CLUB Bachata": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "205",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 91: L-C Closed Newcomer 2 CLUB Merengue": "1",
+          "Heat 92: L-C Closed Newcomer 2 CLUB Salsa": "1",
+          "Heat 93: L-C Closed Newcomer 2 CLUB Bachata": "1",
+          "Heat 104: L-C Closed Pre-Bronze 2 CLUB Merengue": "1",
+          "Heat 105: L-C Closed Pre-Bronze 2 CLUB Salsa": "1",
+          "Heat 106: L-C Closed Pre-Bronze 2 CLUB Bachata": "1"
+        },
+        "total": "6",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -32321,6 +33735,21 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "167",
+        "names": "Ma/Moraru",
+        "dances": {
+          "Heat 91: G-F Closed Bronze 1 CLUB Merengue": "1",
+          "Heat 92: G-F Closed Bronze 1 CLUB Salsa": "1",
+          "Heat 93: G-F Closed Bronze 1 CLUB Bachata": "1",
+          "Heat 98: G-F Open Bronze 1 CLUB Merengue": "1",
+          "Heat 99: G-F Open Bronze 1 CLUB Salsa": "1",
+          "Heat 100: G-F Open Bronze 1 CLUB Bachata": "1"
+        },
+        "total": "6",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -33674,6 +35103,16 @@
         },
         "total": "5",
         "placement": "2"
+      },
+      {
+        "number": "148",
+        "names": "Kwok/Tang",
+        "dances": {
+          "Viennese Waltz": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -34654,6 +36093,25 @@
         },
         "total": "10",
         "placement": "2"
+      },
+      {
+        "number": "179",
+        "names": "Miller/Studenny",
+        "dances": {
+          "Heat 141: L-E Closed Silver 2 BALLROOM Waltz (W)": "1",
+          "Heat 142: L-E Closed Silver 2 BALLROOM Tango (T)": "1",
+          "Heat 144: L-E Closed Silver 2 BALLROOM Foxtrot (F)": "1",
+          "Heat 145: L-E Closed Silver 2 BALLROOM Quickstep (Q)": "1",
+          "Heat 143: L-E Closed Full Silver BALLROOM Viennese Waltz (VW)": "1",
+          "Heat 160: L-E Closed Full Silver BALLROOM Waltz (W)": "1",
+          "Heat 161: L-E Closed Full Silver BALLROOM Tango (T)": "1",
+          "Heat 162: L-E Closed Full Silver BALLROOM Foxtrot (F)": "1",
+          "Heat 163: L-E Closed Full Silver BALLROOM Quickstep (Q)": "1",
+          "Heat 171: L-E Closed Silver 2 BALLROOM Viennese Waltz (VW)": "1"
+        },
+        "total": "10",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -35461,6 +36919,73 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "205",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 235: L-C Closed Newcomer 2 SMOOTH Waltz (W)": "1",
+          "Heat 247: L-C Closed Newcomer 2 SMOOTH Foxtrot (F)": "1",
+          "Heat 249: L-C Closed Newcomer 2 SMOOTH Tango (T)": "1"
+        },
+        "total": "3",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "167",
+        "names": "Ma/Rotova",
+        "dances": {
+          "Heat 200: G-F Closed Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 201: G-F Closed Silver 2 SMOOTH Tango (T)": "1",
+          "Heat 203: G-F Closed Silver 1 SMOOTH Waltz (W)": "1",
+          "Heat 217: G-F Closed Silver 1 SMOOTH Foxtrot (F)": "1",
+          "Heat 232: G-F Closed Silver 1 SMOOTH Tango (T)": "1",
+          "Heat 233: G-F Closed Silver 2 SMOOTH Foxtrot (F)": "1",
+          "Heat 222: G-F Open Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 229: G-F Open Silver 2 SMOOTH Tango (T)": "1",
+          "Heat 224: G-F Open Silver 2 SMOOTH Foxtrot (F)": "1"
+        },
+        "total": "9",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "204",
+        "names": "Heer/Rotova",
+        "dances": {
+          "Heat 197: G-D Closed Newcomer SMOOTH Waltz (W)": "1",
+          "Heat 198: G-D Closed Newcomer SMOOTH Tango (T)": "1",
+          "Heat 199: G-D Closed Newcomer SMOOTH Foxtrot (F)": "1",
+          "Heat 206: G-D Closed Pre-Bronze SMOOTH Waltz (W)": "1",
+          "Heat 207: G-D Closed Pre-Bronze SMOOTH Tango (T)": "1",
+          "Heat 208: G-D Closed Pre-Bronze SMOOTH Foxtrot (F)": "1",
+          "Heat 212: G-D Closed Bronze 1 SMOOTH Waltz (W)": "1",
+          "Heat 213: G-D Closed Bronze 1 SMOOTH Tango (T)": "1",
+          "Heat 214: G-D Closed Bronze 1 SMOOTH Foxtrot (F)": "1"
+        },
+        "total": "9",
+        "placement": "4",
+        "reconstructed": true
+      },
+      {
+        "number": "187",
+        "names": "Bartha/Rotova",
+        "dances": {
+          "Heat 205: G-D Open Pre-Bronze SMOOTH Foxtrot (F)": "1",
+          "Heat 210: G-D Open Pre-Bronze SMOOTH Tango (T)": "1",
+          "Heat 221: G-D Open Pre-Bronze SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 215: G-D Closed Full Bronze SMOOTH Waltz (W)": "1",
+          "Heat 231: G-D Open Pre-Bronze SMOOTH Waltz (W)": "1",
+          "Heat 228: G-D Open Bronze 1 SMOOTH Waltz (W)": "1",
+          "Heat 239: G-D Open Bronze 2 SMOOTH Tango (T)": "1",
+          "Heat 240: G-D Open Bronze 2 SMOOTH Foxtrot (F)": "1",
+          "Heat 244: G-D Open Bronze 2 SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 248: G-D Open Bronze 2 SMOOTH Waltz (W)": "1"
+        },
+        "total": "10",
+        "placement": "5",
+        "reconstructed": true
       }
     ]
   },
@@ -35575,6 +37100,17 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "121",
+        "names": "Rogers/",
+        "dances": {
+          "Tango": "1",
+          "Foxtrot": "1"
+        },
+        "total": "2",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -36483,6 +38019,26 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "164",
+        "names": "Ma/Olavide",
+        "dances": {
+          "Heat 202: L-F Closed Full Silver SMOOTH Foxtrot (F)": "1",
+          "Heat 209: L-F Closed Full Silver SMOOTH Waltz (W)": "1",
+          "Heat 221: L-F Open Silver 1 SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 217: L-F Open Silver 2 SMOOTH Foxtrot (F)": "1",
+          "Heat 219: L-F Closed Full Silver SMOOTH Tango (T)": "1",
+          "Heat 236: L-F Open Silver 1 SMOOTH Tango (T)": "1",
+          "Heat 237: L-F Open Silver 1 SMOOTH Foxtrot (F)": "1",
+          "Heat 223: L-F Open Silver 2 SMOOTH Tango (T)": "1",
+          "Heat 234: L-F Open Silver 2 SMOOTH Viennese Waltz (VW)": "1",
+          "Heat 241: L-F Open Silver 2 SMOOTH Waltz (W)": "1",
+          "Heat 248: L-F Open Silver 1 SMOOTH Waltz (W)": "1"
+        },
+        "total": "11",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -37117,6 +38673,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "148",
+        "names": "Kwok/Tang",
+        "dances": {
+          "Viennese Waltz": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -38342,6 +39908,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "114",
+        "names": "Jagielnik/Smithson",
+        "dances": {
+          "Heat 296: L-12+ Pre-Competitive Single Assisted N-1 Cha Cha (C)": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   }
