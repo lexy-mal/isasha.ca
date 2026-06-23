@@ -360,7 +360,7 @@ def merge_heats(all_heats_list):
     merged = {}
     for heats in all_heats_list:
         for h in heats:
-            key = h["heat"]
+            key = f"{h['heat']}|{h['event']}"
             if key not in merged:
                 merged[key] = {
                     "heat": h["heat"],
@@ -498,7 +498,7 @@ def build_person_results(results, number_map, surname_map=None):
             follow_surname = parts[1].strip().lower() if len(parts) > 1 and parts[1].strip() else None
 
             entry = {
-                "heat": heat_key,
+                "heat": heat["heat"],
                 "event": heat["event"],
                 "placement": row["placement"],
                 "number": number,

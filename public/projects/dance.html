@@ -762,10 +762,10 @@
             return `${first} ${last}`;
         }
 
-        // Get placement string for a person in a specific heat
-        function getPersonPlacement(personName, heatKey) {
+        // Get placement string for a person in a specific heat+event
+        function getPersonPlacement(personName, heatNum, eventName) {
             const results = personResultsData[personName] || [];
-            const entry = results.find(r => r.heat === heatKey);
+            const entry = results.find(r => r.heat === heatNum && r.event === eventName);
             return entry ? entry.placement : null;
         }
 
@@ -780,8 +780,8 @@
         }
 
         // Build full heat ranking HTML from results.json
-        function buildHeatRanking(heatKey) {
-            const heat = resultsData[heatKey];
+        function buildHeatRanking(heatNum, eventName) {
+            const heat = resultsData[heatNum + '|' + eventName];
             if (!heat || !heat.finalSummary || heat.finalSummary.length === 0) return '';
 
             const sorted = [...heat.finalSummary].sort((a, b) => {
@@ -1499,7 +1499,7 @@
                             const countText = isCoupleEvent
                                 ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                 : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
-                            const partnerPlace = getPersonPlacement(partner, evt.heat);
+                            const partnerPlace = getPersonPlacement(partner, evt.heat, evt.event);
                             const partnerBadge = partnerPlace
                                 ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(partnerPlace)}</span>`
                                 : '';
@@ -1567,7 +1567,7 @@
                                 const countText = isCoupleEvent
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
-                                const couplePlace = getPersonPlacement(competitor, evt.heat);
+                                const couplePlace = getPersonPlacement(competitor, evt.heat, evt.event);
                                 const coupleBadge = couplePlace
                                     ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(couplePlace)}</span>`
                                     : '';
@@ -1605,7 +1605,7 @@
                                 const countText = isCoupleEvent
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
-                                const soloPlace = getPersonPlacement(competitor, evt.heat);
+                                const soloPlace = getPersonPlacement(competitor, evt.heat, evt.event);
                                 const soloBadge = soloPlace
                                     ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(soloPlace)}</span>`
                                     : '';
@@ -1664,7 +1664,7 @@
                 const completedClass = isCompleted ? ' completed' : '';
 
                 html += `<div class="event-item collapsed${completedClass}" id="${eventId}" onclick="toggleEvent(this)">`;
-                const myPlacement = getPersonPlacement(name, info.heat);
+                const myPlacement = getPersonPlacement(name, info.heat, info.event);
                 const placementBadge = myPlacement
                     ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
                     : '';
@@ -1702,7 +1702,7 @@
                         <div class="meta-value">${competitors.length} total</div>
                     </div>
                 `;
-                html += buildHeatRanking(info.heat);
+                html += buildHeatRanking(info.heat, info.event);
                 html += `</div>`;
 
                 html += `<div class="event-details" style="display: none;">`;

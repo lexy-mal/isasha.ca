@@ -452,13 +452,14 @@
                 return;
             }
 
-            // Collect all heats any selected person competed in; shared first
+            // Collect all heat|event keys any selected person competed in; shared first
+            const heatEventKey = e => `${e.heat}|${e.event}`;
             const heatSets = selectedPeople.map(n =>
-                new Set((personResultsData[n] || []).map(e => e.heat))
+                new Set((personResultsData[n] || []).map(heatEventKey))
             );
             const sharedHeats = [...heatSets[0]].filter(h => heatSets.every(s => s.has(h)));
             const allHeats = [...new Set(selectedPeople.flatMap(n =>
-                (personResultsData[n] || []).map(e => e.heat)
+                (personResultsData[n] || []).map(heatEventKey)
             ))].sort((a, b) => {
                 const na = parseInt(a.replace('Heat ', '')) || 0;
                 const nb = parseInt(b.replace('Heat ', '')) || 0;
@@ -469,8 +470,9 @@
             const lookup = {};
             selectedPeople.forEach(name => {
                 (personResultsData[name] || []).forEach(e => {
-                    if (!lookup[e.heat]) lookup[e.heat] = {};
-                    lookup[e.heat][name] = e;
+                    const k = heatEventKey(e);
+                    if (!lookup[k]) lookup[k] = {};
+                    lookup[k][name] = e;
                 });
             });
 
@@ -491,9 +493,10 @@
                     lastSection = section;
                 }
 
-                const event = resultsData[heat]?.event || (lookup[heat] ? Object.values(lookup[heat])[0]?.event : '');
+                const [heatNum, ...evtParts] = heat.split('|');
+                const event = evtParts.join('|') || resultsData[heat]?.event || (lookup[heat] ? Object.values(lookup[heat])[0]?.event : '');
                 html += `<tr>
-                    <td style="color:var(--text-secondary);white-space:nowrap;">${heat}</td>
+                    <td style="color:var(--text-secondary);white-space:nowrap;">${heatNum}</td>
                     <td style="font-size:0.85em;">${event}</td>
                     ${selectedPeople.map(n => {
                         const entry = lookup[heat]?.[n];
