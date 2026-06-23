@@ -225,17 +225,38 @@ class ScoresheetParser(HTMLParser):
         if not cells or all(c in ("", "\xa0", "&nbsp") for c in cells):
             return
 
-        # First substantive row after a new table = header
+        # Single-cell row = dance name in numeric-score format
+        # (all dances share one <table>; dance name precedes its header+data rows)
+        if len(cells) == 1:
+            dance_name = cells[0].strip()
+            if dance_name and self._cur_heat is not None and not self._in_summary:
+                self._cur_dance = {
+                    "dance": dance_name,
+                    "judges": [],
+                    "rows": []
+                }
+                self._cur_heat["dances"].append(self._cur_dance)
+                self._header_row = None  # next row is this dance's header
+            return
+
+        # "Names" as first cell = numeric-score column header
+        if cells[0].strip() == "Names":
+            self._header_row = cells
+            return
+
+        # First substantive row after table start = header (recall format)
         if self._header_row is None:
             self._header_row = cells
             return
 
-        # Skip header-like rows
-        if cells[0] in ("No.", "", "\xa0", "&nbsp"):
+        # Skip recall-format "No." header rows
+        if cells[0].strip() in ("No.", "", "\xa0", "&nbsp"):
             return
 
         if self._in_summary:
             self._parse_summary_row(cells)
+        elif self._header_row and self._header_row[0].strip() == "Names":
+            self._parse_numeric_row(cells)
         else:
             self._parse_score_row(cells)
 
@@ -284,6 +305,76 @@ class ScoresheetParser(HTMLParser):
             "marks": marks,
             "placement": placement
         })
+
+    def _parse_numeric_row(self, cells):
+        """Parse a data row in the numeric-score (Pre-Competitive) format.
+
+        Header: Names | judge# | ... | Avg. | Place [| Overall | Place]
+        The last dance in a heat has an 'Overall' column and two 'Place' columns;
+        the second Place gives the overall heat placement, which populates finalSummary.
+        """
+        if not self._cur_dance or not self._header_row:
+            return
+        no_cell = cells[0].strip()
+        m = re.match(r"(\d+)\s+(.+)", no_cell)
+        if m:
+            number, names = m.group(1), m.group(2).strip()
+        else:
+            # Own-scoresheet rows omit the couple number — use names as dedup key
+            number, names = "", no_cell
+        if not names:
+            return
+
+        place_indices = []
+        overall_idx = None
+        avg_idx = None
+        for i, h in enumerate(self._header_row):
+            h_lower = h.strip().lower()
+            if h_lower == "avg.":
+                avg_idx = i
+            elif h_lower == "place":
+                place_indices.append(i)
+            elif h_lower == "overall":
+                overall_idx = i
+
+        dance_place = cells[place_indices[0]].strip() if place_indices and place_indices[0] < len(cells) else ""
+        avg = cells[avg_idx].strip() if avg_idx is not None and avg_idx < len(cells) else ""
+
+        if dance_place and re.match(r"^\d+$", dance_place):
+            self._cur_dance["rows"].append({
+                "number": number,
+                "names": names,
+                "marks": {},
+                "placement": dance_place,
+                "avg": avg
+            })
+
+        # Last dance: has Overall column + two Place columns → overall placement
+        has_overall = overall_idx is not None and len(place_indices) >= 2
+        if not has_overall:
+            return
+        overall_place = cells[place_indices[1]].strip() if place_indices[1] < len(cells) else ""
+        if not re.match(r"^\d+$", overall_place):
+            return
+
+        # Gather per-dance placements already collected across all dances
+        dance_placements = {}
+        for d in self._cur_heat["dances"]:
+            for row in d["rows"]:
+                if row["number"] == number:
+                    dance_placements[d["dance"]] = row["placement"]
+                    break
+
+        overall_score = cells[overall_idx].strip() if overall_idx < len(cells) else ""
+        existing_keys = {(r["number"] or r["names"]) for r in self._cur_heat["finalSummary"]}
+        if (number or names) not in existing_keys:
+            self._cur_heat["finalSummary"].append({
+                "number": number,
+                "names": names,
+                "dances": dance_placements,
+                "total": overall_score,
+                "placement": overall_place
+            })
 
     def _parse_summary_row(self, cells):
         if not self._cur_heat or not self._header_row:
@@ -378,14 +469,14 @@ def merge_heats(all_heats_list):
                     existing_dances[d["dance"]] = d
             existing["dances"] = list(existing_dances.values())
 
-            # Merge finalSummary — union by competitor number (never discard a row)
-            existing_summary = {row["number"]: row for row in existing["finalSummary"]}
+            # Merge finalSummary — union by number (or names for no-number rows)
+            existing_summary = {(r["number"] or r["names"]): r for r in existing["finalSummary"]}
             for row in h.get("finalSummary", []):
-                num = row["number"]
+                key = row["number"] or row["names"]
                 # Keep row with more dance columns (more complete data)
-                if num not in existing_summary or \
-                   len(row.get("dances", {})) > len(existing_summary[num].get("dances", {})):
-                    existing_summary[num] = row
+                if key not in existing_summary or \
+                   len(row.get("dances", {})) > len(existing_summary[key].get("dances", {})):
+                    existing_summary[key] = row
             existing["finalSummary"] = list(existing_summary.values())
 
     return merged
@@ -411,17 +502,17 @@ def fill_missing_from_dances(results):
         final_dances = [d for d in dances if len(d["rows"]) == min_rows]
 
         # Collect all competitors from final-round dance tables
-        all_final = {}  # number -> {names, dances: {dance_name: placement}}
+        all_final = {}  # (number or names) -> {names, dances: {dance_name: placement}}
         for dance in final_dances:
             for row in dance["rows"]:
-                num = row["number"]
+                num = row["number"] or row["names"]
                 if num not in all_final:
                     all_final[num] = {"names": row["names"], "dances": {}}
                 place = row.get("placement", "")
                 if place and re.match(r"^\d+$", place):
                     all_final[num]["dances"][dance["dance"]] = place
 
-        in_summary = {row["number"] for row in heat.get("finalSummary", [])}
+        in_summary = {(r["number"] or r["names"]) for r in heat.get("finalSummary", [])}
         missing = {n: d for n, d in all_final.items()
                    if n not in in_summary and d["dances"]}
 

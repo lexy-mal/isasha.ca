@@ -2879,12 +2879,28 @@
       {
         "dance": "Heat 347A: AC-JR SOLO SHOWDANCE - \"Chin Chin\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Azbel/Lin",
+            "marks": {},
+            "placement": "1",
+            "avg": "96.2"
+          }
+        ]
       },
       {
         "dance": "Heat 349A: \"Americano\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "DanceMania",
+            "marks": {},
+            "placement": "1",
+            "avg": "96"
+          }
+        ]
       },
       {
         "dance": "Heat 368: L-JV1 Mixed-Am Bronze LATIN Samba (S)",
@@ -3691,32 +3707,313 @@
         },
         "total": "9",
         "placement": "3"
+      },
+      {
+        "number": "Azbel/Lin",
+        "names": "Azbel/Lin",
+        "dances": {
+          "Heat 347A: AC-JR SOLO SHOWDANCE - \"Chin Chin\"": "1"
+        },
+        "total": "1",
+        "placement": "6",
+        "reconstructed": true
+      },
+      {
+        "number": "DanceMania",
+        "names": "DanceMania",
+        "dances": {
+          "Heat 349A: \"Americano\"": "1"
+        },
+        "total": "1",
+        "placement": "7",
+        "reconstructed": true
       }
     ]
   },
   "Heat 290|AC-7-11 Pre-Competitive Couple N-2 ST (W/T)": {
     "heat": "Heat 290",
     "event": "AC-7-11 Pre-Competitive Couple N-2 ST (W/T)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/Airapetian",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/Airapetian",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Koszti/Airapetian",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2"
+        },
+        "total": "88.2",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 291|A-7-11 Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)": {
     "heat": "Heat 291",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "85.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "175",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "1",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.3",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Koszti/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.3",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 294|A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)": {
     "heat": "Heat 294",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "175",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "175",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.8",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Koszti/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.9",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 301|AC-7-11 Pre-Competitive Couple N-6A (W/T/C)": {
     "heat": "Heat 301",
     "event": "AC-7-11 Pre-Competitive Couple N-6A (W/T/C)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/Airapetian",
+            "marks": {},
+            "placement": "2",
+            "avg": "87"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/Airapetian",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/Airapetian",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Koszti/Airapetian",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "ChaCha": "2"
+        },
+        "total": "87.6",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 307|AC-U12 Pre-Competitive Couple Open CANDY Challenge (W/C)": {
     "heat": "Heat 307",
@@ -4849,38 +5146,301 @@
   "Heat 290|A-7-11 Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)": {
     "heat": "Heat 290",
     "event": "A-7-11 Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "1",
+          "Quickstep": "1"
+        },
+        "total": "90.3",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 292|A-7-11 Pre-Competitive Solo Indv. Novice 2 BALLROOM (VW/F)": {
     "heat": "Heat 292",
     "event": "A-7-11 Pre-Competitive Solo Indv. Novice 2 BALLROOM (VW/F)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "VienneseWaltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Airapetian/",
+        "dances": {
+          "VienneseWaltz": "2",
+          "Foxtrot": "2"
+        },
+        "total": "88.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 294|A-7-11 Pre-Competitive Solo Indv. N-3 ST (W/T/Q)": {
     "heat": "Heat 294",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-3 ST (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Airapetian/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2"
+        },
+        "total": "88.4",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 298|A-7-11 Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)": {
     "heat": "Heat 298",
     "event": "A-7-11 Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Airapetian/",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Samba": "1"
+        },
+        "total": "89.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 302|A-7-11 Pre-Competitive Solo Indv. N-3 LA (C/R/J)": {
     "heat": "Heat 302",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-3 LA (C/R/J)",
     "dances": [
       {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Airapetian/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
         "dance": "Heat 304: SOLO - Antifragile",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "ShallWeDance-Amateurs",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.7"
+          }
+        ]
       }
     ],
-    "finalSummary": []
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Airapetian/",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "2"
+        },
+        "total": "87.9",
+        "placement": "2"
+      },
+      {
+        "number": "ShallWeDance-Amateurs",
+        "names": "ShallWeDance-Amateurs",
+        "dances": {
+          "Heat 304: SOLO - Antifragile": "1"
+        },
+        "total": "1",
+        "placement": "1",
+        "reconstructed": true
+      }
+    ]
   },
   "Heat 316|A-12+ Pre-Competitive Solo Indv. Open CANDY Challenge (W/C)": {
     "heat": "Heat 316",
@@ -9508,38 +10068,308 @@
   "Heat 294|AC-7-11 Pre-Competitive Couple Novice 1 LATIN (S/C/J)": {
     "heat": "Heat 294",
     "event": "AC-7-11 Pre-Competitive Couple Novice 1 LATIN (S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "Samba": "1",
+          "ChaCha": "1",
+          "Jive": "1"
+        },
+        "total": "90.7",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 295|AC-7-11 Pre-Competitive Couple Novice 2 LATIN (R/P)": {
     "heat": "Heat 295",
     "event": "AC-7-11 Pre-Competitive Couple Novice 2 LATIN (R/P)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "Rumba": "1",
+          "PasoDoble": "1"
+        },
+        "total": "90.3",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 298|AC-7-11 Pre-Competitive Couple Novice 1 LATIN (C/R/S)": {
     "heat": "Heat 298",
     "event": "AC-7-11 Pre-Competitive Couple Novice 1 LATIN (C/R/S)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "ChaCha": "1",
+          "Rumba": "2",
+          "Samba": "2"
+        },
+        "total": "89.9",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 299|AC-7-11 Pre-Competitive Couple Novice 2 LATIN (P/J)": {
     "heat": "Heat 299",
     "event": "AC-7-11 Pre-Competitive Couple Novice 2 LATIN (P/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "PasoDoble": "2",
+          "Jive": "1"
+        },
+        "total": "89.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 302|AC-7-11 Pre-Competitive Couple Novice 1 LATIN (C/R/J)": {
     "heat": "Heat 302",
     "event": "AC-7-11 Pre-Competitive Couple Novice 1 LATIN (C/R/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "2"
+        },
+        "total": "89.6",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 303|AC-7-11 Pre-Competitive Couple Novice 2 LATIN (S/P)": {
     "heat": "Heat 303",
     "event": "AC-7-11 Pre-Competitive Couple Novice 2 LATIN (S/P)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Artamonov/Artanonova",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Artamonov/Artanonova",
+        "dances": {
+          "Samba": "2",
+          "PasoDoble": "2"
+        },
+        "total": "89.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 28|G-C Pro-Am RHYTHM Grand Trophy Challenge (C/R/SW)": {
     "heat": "Heat 28",
@@ -9620,7 +10450,15 @@
       {
         "dance": "Heat 71: G- SOLO - Bronze Argentine Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Dewar/Artemenko",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.6"
+          }
+        ]
       },
       {
         "dance": "Heat 78: G-C Closed Newcomer CLUB Merengue",
@@ -10014,6 +10852,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Dewar/Artemenko",
+        "names": "Dewar/Artemenko",
+        "dances": {
+          "Heat 71: G- SOLO - Bronze Argentine Tango": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -10096,12 +10944,28 @@
       {
         "dance": "Heat 71: G- SOLO - Bronze Argentine Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Dewar/Artemenko",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.6"
+          }
+        ]
       },
       {
         "dance": "Heat 73: G- SOLO - Bronze Bolero",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Namazi/Artemenko",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.8"
+          }
+        ]
       },
       {
         "dance": "Heat 78: G-C Closed Newcomer CLUB Merengue",
@@ -10557,6 +11421,26 @@
         "placement": "1"
       },
       {
+        "number": "Dewar/Artemenko",
+        "names": "Dewar/Artemenko",
+        "dances": {
+          "Heat 71: G- SOLO - Bronze Argentine Tango": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "Namazi/Artemenko",
+        "names": "Namazi/Artemenko",
+        "dances": {
+          "Heat 73: G- SOLO - Bronze Bolero": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
         "number": "102",
         "names": "Cook/Gordon",
         "dances": {
@@ -10564,7 +11448,7 @@
           "Heat 112: L-C Closed Pre-Bronze CLUB Hustle": "1"
         },
         "total": "2",
-        "placement": "2",
+        "placement": "4",
         "reconstructed": true
       },
       {
@@ -10592,7 +11476,7 @@
           "Heat 106: G-C Closed Full Bronze CLUB Bachata": "1"
         },
         "total": "19",
-        "placement": "3",
+        "placement": "5",
         "reconstructed": true
       }
     ]
@@ -13851,7 +14735,15 @@
       {
         "dance": "Heat 282A: L- SOLO - \"Little Party Never Killed Nobody\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Kerbel/Rotova",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.8"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -13878,6 +14770,16 @@
         },
         "total": "8",
         "placement": "2"
+      },
+      {
+        "number": "Kerbel/Rotova",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 282A: L- SOLO - \"Little Party Never Killed Nobody\"": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -19343,17 +20245,41 @@
       {
         "dance": "Heat 345: AC-JR SOLO - Showdance",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Lester/Bender",
+            "marks": {},
+            "placement": "1",
+            "avg": "96"
+          }
+        ]
       },
       {
         "dance": "Heat 347B: AC-JR SOLO SHOWDANCE - \"Senorita\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Li/Mao",
+            "marks": {},
+            "placement": "1",
+            "avg": "95.2"
+          }
+        ]
       },
       {
         "dance": "Heat 349A: \"Americano\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "DanceMania",
+            "marks": {},
+            "placement": "1",
+            "avg": "96"
+          }
+        ]
       },
       {
         "dance": "Heat 357: L-PD Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
@@ -19717,32 +20643,32 @@
         "placement": "5"
       },
       {
-        "number": "228",
-        "names": "Chen/Mao",
+        "number": "Lester/Bender",
+        "names": "Lester/Bender",
         "dances": {
-          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "1"
+          "Heat 345: AC-JR SOLO - Showdance": "1"
         },
         "total": "1",
         "placement": "7",
         "reconstructed": true
       },
       {
-        "number": "225",
-        "names": "Wu/Stefanov",
+        "number": "Li/Mao",
+        "names": "Li/Mao",
         "dances": {
-          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "2"
+          "Heat 347B: AC-JR SOLO SHOWDANCE - \"Senorita\"": "1"
         },
-        "total": "2",
+        "total": "1",
         "placement": "8",
         "reconstructed": true
       },
       {
-        "number": "114",
-        "names": "Czarnecka/Smithson",
+        "number": "DanceMania",
+        "names": "DanceMania",
         "dances": {
-          "Heat 358: L-PD Mixed-Am Pre-Bronze LATIN Samba (S)": "3"
+          "Heat 349A: \"Americano\"": "1"
         },
-        "total": "3",
+        "total": "1",
         "placement": "9",
         "reconstructed": true
       }
@@ -20782,14 +21708,200 @@
   "Heat 291|L-7-11 Pre-Competitive Single Assisted N-5A (W/Q/S/C/J)": {
     "heat": "Heat 291",
     "event": "L-7-11 Pre-Competitive Single Assisted N-5A (W/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Pelleriti/Bronshtein",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "1",
+          "Jive": "2"
+        },
+        "total": "90.1",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 293|L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)": {
     "heat": "Heat 293",
     "event": "L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Pelleriti/Bronshtein",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Pelleriti/Bronshtein",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "1",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "89.5",
+        "placement": "2"
+      },
+      {
+        "number": "243",
+        "names": "Lysenko/Petrov",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "86.7",
+        "placement": "2"
+      },
+      {
+        "number": "220",
+        "names": "Reabaia/Platkov",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "1",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.4",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 306|L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)": {
     "heat": "Heat 306",
@@ -23231,6 +24343,45 @@
     "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)",
     "dances": [
       {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
         "dance": "Heat 289: L-A Pro-Am Closed Silver 2 SMOOTH Waltz (W)",
         "judges": [
           "07",
@@ -23353,6 +24504,28 @@
     ],
     "finalSummary": [
       {
+        "number": "",
+        "names": "Brooks/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2"
+        },
+        "total": "88.8",
+        "placement": "2"
+      },
+      {
+        "number": "171",
+        "names": "Sciberras/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2"
+        },
+        "total": "88.7",
+        "placement": "2"
+      },
+      {
         "number": "164",
         "names": "Brooks/Olavide",
         "dances": {
@@ -23373,6 +24546,45 @@
     "heat": "Heat 298",
     "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
     "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "170",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "170",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "170",
+            "names": "Brooks/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
       {
         "dance": "Heat 302: L-A Pro-Am Closed Silver 2 LATIN Cha Cha (C)",
         "judges": [
@@ -23435,6 +24647,28 @@
       }
     ],
     "finalSummary": [
+      {
+        "number": "170",
+        "names": "Brooks/",
+        "dances": {
+          "ChaCha": "1",
+          "Rumba": "2",
+          "Samba": "2"
+        },
+        "total": "89.7",
+        "placement": "2"
+      },
+      {
+        "number": "171",
+        "names": "Sciberras/",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Samba": "2"
+        },
+        "total": "87.8",
+        "placement": "2"
+      },
       {
         "number": "164",
         "names": "Brooks/Olavide",
@@ -25460,25 +26694,257 @@
   "Heat 292|L-7-11 Pre-Competitive Single Assisted N-2 ST (T/VW)": {
     "heat": "Heat 292",
     "event": "L-7-11 Pre-Competitive Single Assisted N-2 ST (T/VW)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
+          }
+        ]
+      },
+      {
+        "dance": "VienneseWaltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Long/Chan",
+        "dances": {
+          "Tango": "1",
+          "VienneseWaltz": "2"
+        },
+        "total": "90.7",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 297|L-7-11 Pre-Competitive Single Assisted N-6B (W/F/Q/C/R/J)": {
     "heat": "Heat 297",
     "event": "L-7-11 Pre-Competitive Single Assisted N-6B (W/F/Q/C/R/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Long/Chan",
+        "dances": {
+          "Waltz": "1",
+          "Foxtrot": "1",
+          "Quickstep": "1",
+          "ChaCha": "1",
+          "Rumba": "1",
+          "Jive": "1"
+        },
+        "total": "90.7",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 294|L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 294",
     "event": "L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)",
-    "dances": [],
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "145",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
     "finalSummary": [
       {
         "number": "145",
         "names": "Muzychka/Nor-Arevian",
-        "dances": {},
-        "total": "85",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.8",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Veshchikova/Chan",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "1",
+          "ChaCha": "1",
+          "Jive": "1"
+        },
+        "total": "90",
         "placement": "1"
       }
     ]
@@ -25486,8 +26952,46 @@
   "Heat 303|L-7-11 Pre-Competitive Single Assisted N-2 LA (S/P)": {
     "heat": "Heat 303",
     "event": "L-7-11 Pre-Competitive Single Assisted N-2 LA (S/P)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Long/Chan",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Long/Chan",
+        "dances": {
+          "Samba": "2",
+          "PasoDoble": "2"
+        },
+        "total": "89.5",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 305|L-U12 Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)": {
     "heat": "Heat 305",
@@ -29249,12 +30753,28 @@
       {
         "dance": "Heat 69: L- SOLO - Showdance",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Cheuk/Olavide",
+            "marks": {},
+            "placement": "1",
+            "avg": "95.2"
+          }
+        ]
       },
       {
         "dance": "Heat 76: L- SOLO - Mixed-Am Showdance",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Cheuk/Zhelasko",
+            "marks": {},
+            "placement": "1",
+            "avg": "94"
+          }
+        ]
       },
       {
         "dance": "Heat 83: L-E Open Silver 2 Milonga",
@@ -29392,6 +30912,26 @@
         "placement": "1"
       },
       {
+        "number": "Cheuk/Olavide",
+        "names": "Cheuk/Olavide",
+        "dances": {
+          "Heat 69: L- SOLO - Showdance": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "Cheuk/Zhelasko",
+        "names": "Cheuk/Zhelasko",
+        "dances": {
+          "Heat 76: L- SOLO - Mixed-Am Showdance": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
         "number": "164",
         "names": "Cheuk/Olavide",
         "dances": {
@@ -29403,7 +30943,7 @@
           "Heat 113: L-E Open Silver 2 Argentine Tango": "1"
         },
         "total": "6",
-        "placement": "2",
+        "placement": "4",
         "reconstructed": true
       }
     ]
@@ -29665,12 +31205,28 @@
       {
         "dance": "Heat 140: L- SOLO - Silver Argentine Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miraftab/Olavide",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.6"
+          }
+        ]
       },
       {
         "dance": "Heat 185: L- SOLO - Bronze 1 Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Averbakh/Olavide",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.8"
+          }
+        ]
       },
       {
         "dance": "Heat 197: L-B Closed Newcomer SMOOTH Waltz (W)",
@@ -30545,7 +32101,15 @@
       {
         "dance": "Heat 251A: L- SOLO - Silver Argentine Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miraftab/Olavide",
+            "marks": {},
+            "placement": "1",
+            "avg": "94.7"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -30557,6 +32121,27 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Averbakh/Olavide",
+        "names": "Averbakh/Olavide",
+        "dances": {
+          "Heat 185: L- SOLO - Bronze 1 Tango": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "Miraftab/Olavide",
+        "names": "Miraftab/Olavide",
+        "dances": {
+          "Heat 140: L- SOLO - Silver Argentine Tango": "1",
+          "Heat 251A: L- SOLO - Silver Argentine Tango": "1"
+        },
+        "total": "2",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -32818,121 +34403,79 @@
       },
       {
         "dance": "Heat 164: G-D Closed Silver 2 Proficiency BALLROOM Waltz (W)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "93",
-              "07": "95",
-              "09": "95"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94.3"
           }
         ]
       },
       {
         "dance": "Heat 165: G-D Closed Silver 2 Proficiency BALLROOM Tango (T)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "94",
-              "07": "95",
-              "09": "96"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "95"
           }
         ]
       },
       {
         "dance": "Heat 167: G-D Closed Silver 2 Proficiency BALLROOM Foxtrot (F)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "94",
-              "07": "95",
-              "09": "97"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "95.3"
           }
         ]
       },
       {
         "dance": "Heat 174: G-D Open  Full Silver Proficiency BALLROOM Waltz (W)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "92",
-              "07": "95",
-              "09": "95"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94"
           }
         ]
       },
       {
         "dance": "Heat 175: G-D Open  Full Silver Proficiency BALLROOM Tango (T)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "93",
-              "07": "95",
-              "09": "89"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
           }
         ]
       },
       {
         "dance": "Heat 177: G-D Open  Full Silver Proficiency BALLROOM Foxtrot (F)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "91",
-              "07": "96",
-              "09": "96"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94.3"
           }
         ]
       }
@@ -34812,14 +36355,104 @@
   "Heat 382|AC-30+ Amateur Closed Silver Proficiency LATIN (C/R/S)": {
     "heat": "Heat 382",
     "event": "AC-30+ Amateur Closed Silver Proficiency LATIN (C/R/S)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "222",
+            "names": "Dang/Leong",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.8"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "222",
+            "names": "Dang/Leong",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.4"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "222",
+            "names": "Dang/Leong",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.2"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "222",
+        "names": "Dang/Leong",
+        "dances": {
+          "ChaCha": "1",
+          "Rumba": "1",
+          "Samba": "1"
+        },
+        "total": "91.1",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 382|AC-30+ Amateur Closed Silver Proficiency LATIN (P/J)": {
     "heat": "Heat 382",
     "event": "AC-30+ Amateur Closed Silver Proficiency LATIN (P/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "222",
+            "names": "Dang/Leong",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.6"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "222",
+            "names": "Dang/Leong",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.2"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "222",
+        "names": "Dang/Leong",
+        "dances": {
+          "PasoDoble": "1",
+          "Jive": "1"
+        },
+        "total": "90.9",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 384|AC-30+ Amateur Silver/Gold LATIN Challenge (C/R/J)": {
     "heat": "Heat 384",
@@ -36922,8 +38555,17 @@
       {
         "number": "162",
         "names": "Sheng/Elent",
-        "dances": {},
-        "total": "88",
+        "dances": {
+          "02": "87",
+          "03": "91",
+          "07": "89",
+          "09": "97",
+          "12": "98",
+          "Avg.": "92.4",
+          "Place": "1",
+          "Overall": "92.4"
+        },
+        "total": "",
         "placement": "1"
       }
     ]
@@ -37134,121 +38776,79 @@
       },
       {
         "dance": "Heat 164: G-D Closed Silver 2 Proficiency BALLROOM Waltz (W)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "93",
-              "07": "95",
-              "09": "95"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94.3"
           }
         ]
       },
       {
         "dance": "Heat 165: G-D Closed Silver 2 Proficiency BALLROOM Tango (T)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "94",
-              "07": "95",
-              "09": "96"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "95"
           }
         ]
       },
       {
         "dance": "Heat 167: G-D Closed Silver 2 Proficiency BALLROOM Foxtrot (F)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "94",
-              "07": "95",
-              "09": "97"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "95.3"
           }
         ]
       },
       {
         "dance": "Heat 174: G-D Open  Full Silver Proficiency BALLROOM Waltz (W)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "92",
-              "07": "95",
-              "09": "95"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94"
           }
         ]
       },
       {
         "dance": "Heat 175: G-D Open  Full Silver Proficiency BALLROOM Tango (T)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "93",
-              "07": "95",
-              "09": "89"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
           }
         ]
       },
       {
         "dance": "Heat 177: G-D Open  Full Silver Proficiency BALLROOM Foxtrot (F)",
-        "judges": [
-          "03",
-          "07",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "162",
             "names": "Sheng/Elent",
-            "marks": {
-              "03": "91",
-              "07": "96",
-              "09": "96"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "94.3"
           }
         ]
       }
@@ -37285,8 +38885,60 @@
   "Heat 181|G-D Closed Silver Proficiency Pro-Am BALLROOM 3-Dance (W/T/F)": {
     "heat": "Heat 181",
     "event": "G-D Closed Silver Proficiency Pro-Am BALLROOM 3-Dance (W/T/F)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "162",
+            "names": "Sheng/Elent",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.8"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "162",
+            "names": "Sheng/Elent",
+            "marks": {},
+            "placement": "1",
+            "avg": "94.2"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "162",
+            "names": "Sheng/Elent",
+            "marks": {},
+            "placement": "1",
+            "avg": "95"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "162",
+        "names": "Sheng/Elent",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "1",
+          "Foxtrot": "1"
+        },
+        "total": "94.3",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 183|G-D Pro-Am BALLROOM Grand Trophy Proficiency (W/T/F)": {
     "heat": "Heat 183",
@@ -38802,26 +40454,317 @@
   "Heat 291|AC-7-11 Pre-Competitive Couple N-5A (W/Q/S/C/J)": {
     "heat": "Heat 291",
     "event": "AC-7-11 Pre-Competitive Couple N-5A (W/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sharipov/Fedortsov",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.8",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 293|AC-7-11 Pre-Competitive Couple N-5B (W/Q/R/C/J)": {
     "heat": "Heat 293",
     "event": "AC-7-11 Pre-Competitive Couple N-5B (W/Q/R/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sharipov/Fedortsov",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.6",
+        "placement": "2"
+      },
+      {
+        "number": "234",
+        "names": "Prosveer/Malashenko",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "2",
+          "ChaCha": "2",
+          "Jive": "1"
+        },
+        "total": "88",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 296|AC-7-11 Pre-Competitive Couple N-3 (W/C/J)": {
     "heat": "Heat 296",
     "event": "AC-7-11 Pre-Competitive Couple N-3 (W/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sharipov/Fedortsov",
+        "dances": {
+          "Waltz": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "89.3",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 301|AC-7-11 Pre-Competitive Couple N-4 (W/Q/C/J)": {
     "heat": "Heat 301",
     "event": "AC-7-11 Pre-Competitive Couple N-4 (W/Q/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sharipov/Fedortsov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sharipov/Fedortsov",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.8",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 305|AC-U12 Pre-Competitive Couple Grand Trophy Challenge (W/C)": {
     "heat": "Heat 305",
@@ -40647,7 +42590,15 @@
       {
         "dance": "Heat 72: L- SOLO - Medley",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Goldberger/Gordon",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.2"
+          }
+        ]
       },
       {
         "dance": "Heat 81: L-E Open Newcomer Argentine Tango",
@@ -41101,6 +43052,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Goldberger/Gordon",
+        "names": "Goldberger/Gordon",
+        "dances": {
+          "Heat 72: L- SOLO - Medley": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -41609,7 +43570,15 @@
       {
         "dance": "Heat 193: L- SOLO - Bronze Waltz",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Lin/Gordon",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.6"
+          }
+        ]
       },
       {
         "dance": "Heat 197: L-B Closed Newcomer SMOOTH Waltz (W)",
@@ -42292,6 +44261,16 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "Lin/Gordon",
+        "names": "Lin/Gordon",
+        "dances": {
+          "Heat 193: L- SOLO - Bronze Waltz": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -44359,14 +46338,202 @@
   "Heat 294|A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 294",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "246",
+            "names": "Gorobets/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "246",
+        "names": "Gorobets/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.5",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 300|L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 300",
     "event": "L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "250",
+            "names": "Gorobets/Pavlenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "250",
+        "names": "Gorobets/Pavlenko",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 271|AC-YTH Amateur Pre-Champ LATIN (C/R/S)": {
     "heat": "Heat 271",
@@ -47231,12 +49398,28 @@
       {
         "dance": "Heat 74: L- SOLO - \"Bodyguard\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miller/Zapata",
+            "marks": {},
+            "placement": "1",
+            "avg": "95.8"
+          }
+        ]
       },
       {
         "dance": "Heat 115: L- SOLO - \"We Found Love\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miller/Zapata",
+            "marks": {},
+            "placement": "1",
+            "avg": "98"
+          }
+        ]
       },
       {
         "dance": "Heat 141: L-E Closed Silver 2 BALLROOM Waltz (W)",
@@ -47478,6 +49661,17 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "Miller/Zapata",
+        "names": "Miller/Zapata",
+        "dances": {
+          "Heat 74: L- SOLO - \"Bodyguard\"": "1",
+          "Heat 115: L- SOLO - \"We Found Love\"": "1"
+        },
+        "total": "2",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -47987,6 +50181,45 @@
     "event": "L-12+ Pre-Competitive Single Assisted Novice 1 LATIN (C/R/S)",
     "dances": [
       {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "114",
+            "names": "Jagielnik/Smithson",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "114",
+            "names": "Jagielnik/Smithson",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "114",
+            "names": "Jagielnik/Smithson",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
         "dance": "Heat 367: L-JR2 Mixed-Am Bronze LATIN Cha Cha (C)",
         "judges": [
           "02",
@@ -48136,16 +50369,23 @@
         "number": "114",
         "names": "Jagielnik/Smithson",
         "dances": {
-          "Heat 367: L-JR2 Mixed-Am Bronze LATIN Cha Cha (C)": "1",
-          "Heat 363: L-JR2 Mixed-Am Bronze LATIN Samba (S)": "1",
-          "Heat 369: L-JR2 Mixed-Am Bronze LATIN Rumba (R)": "1",
-          "Heat 340: L-PD Mixed-Am Pre-Bronze BALLROOM Waltz (W)": "1",
-          "Heat 341: L-PD Mixed-Am Pre-Bronze BALLROOM Tango (T)": "1",
-          "Heat 344: L-PD Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)": "1"
+          "ChaCha": "2",
+          "Rumba": "1",
+          "Samba": "2"
         },
-        "total": "6",
-        "placement": "1",
-        "reconstructed": true
+        "total": "89.6",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Mass/Shvaitser",
+        "dances": {
+          "ChaCha": "1",
+          "Rumba": "1",
+          "Samba": "1"
+        },
+        "total": "90.9",
+        "placement": "1"
       }
     ]
   },
@@ -48582,26 +50822,266 @@
   "Heat 291|A-12+ Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)": {
     "heat": "Heat 291",
     "event": "A-12+ Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Kahraman/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 293|A-12+ Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)": {
     "heat": "Heat 293",
     "event": "A-12+ Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Kahraman/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.9",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 302|A-12+ Pre-Competitive Solo Indv. N-3 LA (C/R/J)": {
     "heat": "Heat 302",
     "event": "A-12+ Pre-Competitive Solo Indv. N-3 LA (C/R/J)",
     "dances": [
       {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "177",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "177",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "177",
+            "names": "Kahraman/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
         "dance": "Heat 304: SOLO - Antifragile",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "ShallWeDance-Amateurs",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.7"
+          }
+        ]
       }
     ],
-    "finalSummary": []
+    "finalSummary": [
+      {
+        "number": "177",
+        "names": "Kahraman/",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "2"
+        },
+        "total": "87.8",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Sheng/",
+        "dances": {
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "2"
+        },
+        "total": "88.2",
+        "placement": "2"
+      },
+      {
+        "number": "ShallWeDance-Amateurs",
+        "names": "ShallWeDance-Amateurs",
+        "dances": {
+          "Heat 304: SOLO - Antifragile": "1"
+        },
+        "total": "1",
+        "placement": "1",
+        "reconstructed": true
+      }
+    ]
   },
   "Heat 312|A-12+ Pre-Competitive Solo Indv. LATIN Challenge Cup (C/J)": {
     "heat": "Heat 312",
@@ -49864,7 +52344,15 @@
       {
         "dance": "Heat 75: L- SOLO - \"Better When I'm Dancing\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Kerbel/Rotova",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.6"
+          }
+        ]
       },
       {
         "dance": "Heat 91: L-C Closed Newcomer 2 CLUB Merengue",
@@ -50150,6 +52638,16 @@
         "placement": "1"
       },
       {
+        "number": "Kerbel/Rotova",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 75: L- SOLO - \"Better When I'm Dancing\"": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
         "number": "161",
         "names": "Colangelo/Rotova",
         "dances": {
@@ -50158,7 +52656,7 @@
           "Heat 80: G-F Closed Newcomer CLUB Bachata": "1"
         },
         "total": "3",
-        "placement": "2",
+        "placement": "3",
         "reconstructed": true
       }
     ]
@@ -50284,7 +52782,15 @@
       {
         "dance": "Heat 196A: L- SOLO - \"Dance The Night Away\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Kerbel/Rotova",
+            "marks": {},
+            "placement": "1",
+            "avg": "94.7"
+          }
+        ]
       },
       {
         "dance": "Heat 235: L-C Closed Newcomer 2 SMOOTH Waltz (W)",
@@ -50919,6 +53425,16 @@
         "placement": "1"
       },
       {
+        "number": "Kerbel/Rotova",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 196A: L- SOLO - \"Dance The Night Away\"": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
         "number": "167",
         "names": "Ma/Rotova",
         "dances": {
@@ -50933,7 +53449,7 @@
           "Heat 224: G-F Open Silver 2 SMOOTH Foxtrot (F)": "1"
         },
         "total": "9",
-        "placement": "2",
+        "placement": "3",
         "reconstructed": true
       },
       {
@@ -50951,7 +53467,7 @@
           "Heat 214: G-D Closed Bronze 1 SMOOTH Foxtrot (F)": "1"
         },
         "total": "9",
-        "placement": "3",
+        "placement": "4",
         "reconstructed": true
       },
       {
@@ -50970,7 +53486,7 @@
           "Heat 248: G-D Open Bronze 2 SMOOTH Waltz (W)": "1"
         },
         "total": "10",
-        "placement": "4",
+        "placement": "5",
         "reconstructed": true
       }
     ]
@@ -51054,7 +53570,15 @@
       {
         "dance": "Heat 282A: L- SOLO - \"Little Party Never Killed Nobody\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Kerbel/Rotova",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.8"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -51068,6 +53592,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Kerbel/Rotova",
+        "names": "Kerbel/Rotova",
+        "dances": {
+          "Heat 282A: L- SOLO - \"Little Party Never Killed Nobody\"": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -52454,12 +54988,28 @@
       {
         "dance": "Heat 259: L- SOLO - Open Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Sun/Sabir",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.6"
+          }
+        ]
       },
       {
         "dance": "Heat 265: L- SOLO - Open Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Tam/Sabir",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.8"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -52484,6 +55034,26 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Sun/Sabir",
+        "names": "Sun/Sabir",
+        "dances": {
+          "Heat 259: L- SOLO - Open Tango": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
+      },
+      {
+        "number": "Tam/Sabir",
+        "names": "Tam/Sabir",
+        "dances": {
+          "Heat 265: L- SOLO - Open Tango": "1"
+        },
+        "total": "1",
+        "placement": "4",
+        "reconstructed": true
       }
     ]
   },
@@ -53053,8 +55623,116 @@
   "Heat 300|A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 300",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Koszti/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Koszti/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87",
+        "placement": "2"
+      },
+      {
+        "number": "183",
+        "names": "Muzychka/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.9",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 379|L-JR2 Open Mixed-Am LATIN (C/R/S)": {
     "heat": "Heat 379",
@@ -54810,7 +57488,15 @@
       {
         "dance": "Heat 77: L- SOLO - Silver Foxtrot",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Ma/Lebedev",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.2"
+          }
+        ]
       },
       {
         "dance": "Heat 141: L-D Closed Silver 1 BALLROOM Waltz (W)",
@@ -55615,7 +58301,15 @@
       {
         "dance": "Heat 70: L- SOLO - Mixed-Am Silver Open Cha Cha",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Ma/Zhelasko",
+            "marks": {},
+            "placement": "1",
+            "avg": "94.6"
+          }
+        ]
       },
       {
         "dance": "Heat 141: L-E Open Silver 1 BALLROOM Waltz (W)",
@@ -56044,6 +58738,26 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "Ma/Lebedev",
+        "names": "Ma/Lebedev",
+        "dances": {
+          "Heat 77: L- SOLO - Silver Foxtrot": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
+      },
+      {
+        "number": "Ma/Zhelasko",
+        "names": "Ma/Zhelasko",
+        "dances": {
+          "Heat 70: L- SOLO - Mixed-Am Silver Open Cha Cha": "1"
+        },
+        "total": "1",
+        "placement": "3",
+        "reconstructed": true
       }
     ]
   },
@@ -58490,8 +61204,60 @@
   "Heat 300|L-7-11 Pre-Competitive Single Assisted N-3 ST (W/T/Q)": {
     "heat": "Heat 300",
     "event": "L-7-11 Pre-Competitive Single Assisted N-3 ST (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "243",
+            "names": "Lysenko/Petrov",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "243",
+            "names": "Lysenko/Petrov",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "243",
+            "names": "Lysenko/Petrov",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "243",
+        "names": "Lysenko/Petrov",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2"
+        },
+        "total": "88.6",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 257|L-F Pro-Am SMOOTH Grand Trophy Challenge (W/T/F)": {
     "heat": "Heat 257",
@@ -59032,7 +61798,15 @@
       {
         "dance": "Heat 283: L- SOLO - Ballroom",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Ma/Olavide",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.2"
+          }
+        ]
       },
       {
         "dance": "Heat 288: L-A Pro-Am Open Silver 1 SMOOTH Waltz (W)",
@@ -59247,6 +62021,16 @@
         },
         "total": "4",
         "placement": "1"
+      },
+      {
+        "number": "Ma/Olavide",
+        "names": "Ma/Olavide",
+        "dances": {
+          "Heat 283: L- SOLO - Ballroom": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -60125,7 +62909,15 @@
       {
         "dance": "Heat 140B: Professional Cabaret - \"Dancing On My Own\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Soychuk/Moraru",
+            "marks": {},
+            "placement": "1",
+            "avg": "94.8"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -60138,6 +62930,16 @@
         },
         "total": "2",
         "placement": "1"
+      },
+      {
+        "number": "Soychuk/Moraru",
+        "names": "Soychuk/Moraru",
+        "dances": {
+          "Heat 140B: Professional Cabaret - \"Dancing On My Own\"": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -60326,8 +63128,102 @@
   "Heat 300|AC-7-11 Pre-Competitive Couple N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 300",
     "event": "AC-7-11 Pre-Competitive Couple N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "234",
+            "names": "Prosveer/Malashenko",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "234",
+        "names": "Prosveer/Malashenko",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "89.1",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 311|AC-U12 Pre-Competitive Couple BALLROOM Challenge Cup (W/Q)": {
     "heat": "Heat 311",
@@ -61040,26 +63936,234 @@
   "Heat 294|A-7-11 Pre-Competitive Solo Indv. N-2 LA (C/S/J)": {
     "heat": "Heat 294",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-2 LA (C/S/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "201",
+            "names": "Mass/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "201",
+            "names": "Mass/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "201",
+            "names": "Mass/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "201",
+        "names": "Mass/",
+        "dances": {
+          "ChaCha": "2",
+          "Samba": "2",
+          "Jive": "2"
+        },
+        "total": "88.3",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 290|L-12+ Pre-Competitive Single Assisted Novice 1 BALLROOM (W/T/Q)": {
     "heat": "Heat 290",
     "event": "L-12+ Pre-Competitive Single Assisted Novice 1 BALLROOM (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "92.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Mass/Shvaitser",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "1",
+          "Quickstep": "1"
+        },
+        "total": "92.3",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 294|L-12+ Pre-Competitive Single Assisted N-3 ST (W/T/Q)": {
     "heat": "Heat 294",
     "event": "L-12+ Pre-Competitive Single Assisted N-3 ST (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Mass/Shvaitser",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "1",
+          "Quickstep": "1"
+        },
+        "total": "90.4",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 302|L-12+ Pre-Competitive Single Assisted N-3 LA (C/R/J)": {
     "heat": "Heat 302",
     "event": "L-12+ Pre-Competitive Single Assisted N-3 LA (C/R/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Mass/Shvaitser",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Mass/Shvaitser",
+        "dances": {
+          "ChaCha": "1",
+          "Rumba": "1",
+          "Jive": "1"
+        },
+        "total": "91.1",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 305|L-12+ Pre-Competitive Single Assisted Grand Trophy Challenge (W/C)": {
     "heat": "Heat 305",
@@ -61750,12 +64854,28 @@
       {
         "dance": "Heat 251B: L- SOLO - \"Skyfall\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miller/Zapata",
+            "marks": {},
+            "placement": "1",
+            "avg": "97"
+          }
+        ]
       },
       {
         "dance": "Heat 260A: L- SOLO - \"We Found Love\"",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Miller/Zapata",
+            "marks": {},
+            "placement": "1",
+            "avg": "97.4"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -61771,32 +64891,370 @@
         },
         "total": "5",
         "placement": "1"
+      },
+      {
+        "number": "Miller/Zapata",
+        "names": "Miller/Zapata",
+        "dances": {
+          "Heat 251B: L- SOLO - \"Skyfall\"": "1",
+          "Heat 260A: L- SOLO - \"We Found Love\"": "1"
+        },
+        "total": "2",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
   "Heat 291|A-6U Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)": {
     "heat": "Heat 291",
     "event": "A-6U Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "124",
+        "names": "Mirchevsky/",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "1"
+        },
+        "total": "90.2",
+        "placement": "1"
+      },
+      {
+        "number": "",
+        "names": "Sychov/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "1"
+        },
+        "total": "89.1",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 293|A-6U Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)": {
     "heat": "Heat 293",
     "event": "A-6U Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "124",
+        "names": "Mirchevsky/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "1",
+          "ChaCha": "1",
+          "Jive": "1"
+        },
+        "total": "90.3",
+        "placement": "1"
+      },
+      {
+        "number": "",
+        "names": "Sychov/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "Rumba": "1",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.6",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 296|A-6U Pre-Competitive Solo Indv. N-3 (W/C/J)": {
     "heat": "Heat 296",
     "event": "A-6U Pre-Competitive Solo Indv. N-3 (W/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "124",
+        "names": "Mirchevsky/",
+        "dances": {
+          "Waltz": "1",
+          "ChaCha": "1",
+          "Jive": "2"
+        },
+        "total": "89.9",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Sychov/",
+        "dances": {
+          "Waltz": "2",
+          "ChaCha": "1",
+          "Jive": "2"
+        },
+        "total": "89.8",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 301|A-6U Pre-Competitive Solo Indv. N-4 (W/Q/C/J)": {
     "heat": "Heat 301",
     "event": "A-6U Pre-Competitive Solo Indv. N-4 (W/Q/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "124",
+            "names": "Mirchevsky/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "124",
+        "names": "Mirchevsky/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "ChaCha": "1",
+          "Jive": "1"
+        },
+        "total": "89.2",
+        "placement": "2"
+      },
+      {
+        "number": "",
+        "names": "Sychov/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.2",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 313|A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (W/C)": {
     "heat": "Heat 313",
@@ -62786,8 +66244,46 @@
   "Heat 295|L-7-11 Pre-Competitive Single Assisted N-2 LA (R/P)": {
     "heat": "Heat 295",
     "event": "L-7-11 Pre-Competitive Single Assisted N-2 LA (R/P)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "PasoDoble",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Muzychka/Nor-Arevian",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Muzychka/Nor-Arevian",
+        "dances": {
+          "Rumba": "1",
+          "PasoDoble": "1"
+        },
+        "total": "90.3",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 349|A-JR2 Open Solo Indv. BALLROOM (W/T/VW/F/Q)": {
     "heat": "Heat 349",
@@ -64989,8 +68485,74 @@
   "Heat 301|L-7-11 Pre-Competitive Single Assisted N-4 (W/Q/C/J)": {
     "heat": "Heat 301",
     "event": "L-7-11 Pre-Competitive Single Assisted N-4 (W/Q/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "218",
+            "names": "Prosveer/Rozdorozhnyi",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "218",
+            "names": "Prosveer/Rozdorozhnyi",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "218",
+            "names": "Prosveer/Rozdorozhnyi",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "218",
+            "names": "Prosveer/Rozdorozhnyi",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "218",
+        "names": "Prosveer/Rozdorozhnyi",
+        "dances": {
+          "Waltz": "1",
+          "Quickstep": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "89.6",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 382|A-YTH Open Solo Indv. LATIN (C/S/R/P/J)": {
     "heat": "Heat 382",
@@ -65293,8 +68855,88 @@
   "Heat 297|A-7-11 Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)": {
     "heat": "Heat 297",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "247",
+            "names": "Reabaia/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "247",
+            "names": "Reabaia/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "247",
+            "names": "Reabaia/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "247",
+            "names": "Reabaia/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "247",
+            "names": "Reabaia/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "247",
+        "names": "Reabaia/",
+        "dances": {
+          "Waltz": "2",
+          "Quickstep": "1",
+          "Rumba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "88.9",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 252|A-C Open Solo Indv. BALLROOM (W/T/VW/F/Q)": {
     "heat": "Heat 252",
@@ -65972,6 +69614,45 @@
     "event": "A-6U Pre-Competitive Solo Indv. N-2 LA (C/S/J)",
     "dances": [
       {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "199",
+            "names": "Rudenko/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "199",
+            "names": "Rudenko/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "199",
+            "names": "Rudenko/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
         "dance": "Heat 314: A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (C)",
         "judges": [
           "01",
@@ -66085,25 +69766,23 @@
         "number": "199",
         "names": "Rudenko/",
         "dances": {
-          "Heat 314: A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (C)": "1",
-          "Heat 316: A-6U Pre-Competitive Solo Indv. Open CANDY Challenge (C)": "1",
-          "Heat 318: A-6U Pre-Competitive Solo Indv. Open DISNEY Challenge (C)": "1"
+          "ChaCha": "2",
+          "Samba": "2",
+          "Jive": "2"
         },
-        "total": "3",
-        "placement": "1",
-        "reconstructed": true
+        "total": "88.6",
+        "placement": "2"
       },
       {
         "number": "197",
         "names": "Vilgan/",
         "dances": {
-          "Heat 314: A-6U Pre-Competitive Solo Indv. Grand Trophy Challenge (C)": "2",
-          "Heat 316: A-6U Pre-Competitive Solo Indv. Open CANDY Challenge (C)": "2",
-          "Heat 318: A-6U Pre-Competitive Solo Indv. Open DISNEY Challenge (C)": "2"
+          "ChaCha": "2",
+          "Samba": "2",
+          "Jive": "2"
         },
-        "total": "6",
-        "placement": "2",
-        "reconstructed": true
+        "total": "88.2",
+        "placement": "2"
       }
     ]
   },
@@ -66406,7 +70085,15 @@
       {
         "dance": "Heat 259: L- SOLO - Open Tango",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Sun/Sabir",
+            "marks": {},
+            "placement": "1",
+            "avg": "91.6"
+          }
+        ]
       }
     ],
     "finalSummary": [
@@ -66420,6 +70107,16 @@
         },
         "total": "3",
         "placement": "1"
+      },
+      {
+        "number": "Sun/Sabir",
+        "names": "Sun/Sabir",
+        "dances": {
+          "Heat 259: L- SOLO - Open Tango": "1"
+        },
+        "total": "1",
+        "placement": "2",
+        "reconstructed": true
       }
     ]
   },
@@ -68409,21 +72106,14 @@
       },
       {
         "dance": "Heat 296: L-12+ Pre-Competitive Single Assisted N-1 Cha Cha (C)",
-        "judges": [
-          "02",
-          "05",
-          "09"
-        ],
+        "judges": [],
         "rows": [
           {
             "number": "114",
             "names": "Jagielnik/Smithson",
-            "marks": {
-              "02": "84",
-              "05": "95",
-              "09": "92"
-            },
-            "placement": "1"
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
           }
         ]
       }
@@ -69041,20 +72731,260 @@
   "Heat 294|A-12+ Pre-Competitive Solo Indv. N-3 ST (W/T/Q)": {
     "heat": "Heat 294",
     "event": "A-12+ Pre-Competitive Solo Indv. N-3 ST (W/T/Q)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sheng/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2"
+        },
+        "total": "88.7",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 297|A-12+ Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)": {
     "heat": "Heat 297",
     "event": "A-12+ Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sheng/",
+        "dances": {
+          "Waltz": "2",
+          "Foxtrot": "2",
+          "Quickstep": "2",
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "2"
+        },
+        "total": "88.1",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 300|A-12+ Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 300",
     "event": "A-12+ Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "87.7"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Sheng/",
+            "marks": {},
+            "placement": "2",
+            "avg": "86.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Sheng/",
+        "dances": {
+          "Waltz": "2",
+          "Tango": "2",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "87.8",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 319|AC-JR1 Amateur Closed Bronze BALLROOM (W/T/Q)": {
     "heat": "Heat 319",
@@ -69793,31 +73723,272 @@
   "Heat 292|A-6U Pre-Competitive Solo Indv. N-2 ST (VW/F)": {
     "heat": "Heat 292",
     "event": "A-6U Pre-Competitive Solo Indv. N-2 ST (VW/F)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "VienneseWaltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Stroganova/",
+        "dances": {
+          "VienneseWaltz": "1",
+          "Foxtrot": "2"
+        },
+        "total": "89.3",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 297|A-6U Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)": {
     "heat": "Heat 297",
     "event": "A-6U Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)",
     "dances": [
       {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      },
+      {
         "dance": "Heat 295: A-6U Pre-Competitive Solo Indv. N-2 LA (P)",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
       },
       {
         "dance": "Heat 299: A-6U Pre-Competitive Solo Indv. N-2 LA (P)",
         "judges": [],
-        "rows": []
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90"
+          }
+        ]
       }
     ],
-    "finalSummary": []
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Stroganova/",
+        "dances": {
+          "Waltz": "2",
+          "Foxtrot": "2",
+          "Quickstep": "1",
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "1"
+        },
+        "total": "89.5",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 300|A-6U Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)": {
     "heat": "Heat 300",
     "event": "A-6U Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.7"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "91"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Samba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Stroganova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.7"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Stroganova/",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "1",
+          "Quickstep": "2",
+          "Samba": "2",
+          "ChaCha": "2",
+          "Jive": "2"
+        },
+        "total": "89.5",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 311|A-6U Pre-Competitive Solo Indv. BALLROOM Challenge Cup (W/Q)": {
     "heat": "Heat 311",
@@ -69954,8 +74125,60 @@
   "Heat 252|AC-AD2 Amateur Closed Silver Proficiency BALLROOM (W/T/F)": {
     "heat": "Heat 252",
     "event": "AC-AD2 Amateur Closed Silver Proficiency BALLROOM (W/T/F)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "223",
+            "names": "Tikhostoup/Tikhostoup",
+            "marks": {},
+            "placement": "1",
+            "avg": "94"
+          }
+        ]
+      },
+      {
+        "dance": "Tango",
+        "judges": [],
+        "rows": [
+          {
+            "number": "223",
+            "names": "Tikhostoup/Tikhostoup",
+            "marks": {},
+            "placement": "1",
+            "avg": "93.4"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "223",
+            "names": "Tikhostoup/Tikhostoup",
+            "marks": {},
+            "placement": "1",
+            "avg": "94"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "223",
+        "names": "Tikhostoup/Tikhostoup",
+        "dances": {
+          "Waltz": "1",
+          "Tango": "1",
+          "Foxtrot": "1"
+        },
+        "total": "93.8",
+        "placement": "1"
+      }
+    ]
   },
   "Heat 254|AC-40+ Amateur Silver/Gold BALLROOM Challenge (W/T/Q)": {
     "heat": "Heat 254",
@@ -70056,8 +74279,17 @@
       {
         "number": "223",
         "names": "Tikhostoup/Tikhostoup",
-        "dances": {},
-        "total": "92",
+        "dances": {
+          "03": "89",
+          "04": "95",
+          "08": "90",
+          "10": "96",
+          "12": "90",
+          "Avg.": "92",
+          "Place": "1",
+          "Overall": "93.1"
+        },
+        "total": "",
         "placement": "1"
       }
     ]
@@ -70668,8 +74900,102 @@
   "Heat 297|A-7-11 Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)": {
     "heat": "Heat 297",
     "event": "A-7-11 Pre-Competitive Solo Indv. N-6B (W/F/Q/C/R/J)",
-    "dances": [],
-    "finalSummary": []
+    "dances": [
+      {
+        "dance": "Waltz",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.7"
+          }
+        ]
+      },
+      {
+        "dance": "Foxtrot",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Quickstep",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "ChaCha",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "88.3"
+          }
+        ]
+      },
+      {
+        "dance": "Rumba",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "2",
+            "avg": "89.3"
+          }
+        ]
+      },
+      {
+        "dance": "Jive",
+        "judges": [],
+        "rows": [
+          {
+            "number": "",
+            "names": "Veshchikova/",
+            "marks": {},
+            "placement": "1",
+            "avg": "90.3"
+          }
+        ]
+      }
+    ],
+    "finalSummary": [
+      {
+        "number": "",
+        "names": "Veshchikova/",
+        "dances": {
+          "Waltz": "2",
+          "Foxtrot": "2",
+          "Quickstep": "2",
+          "ChaCha": "2",
+          "Rumba": "2",
+          "Jive": "1"
+        },
+        "total": "89.2",
+        "placement": "2"
+      }
+    ]
   },
   "Heat 349|A-JR1 Solo Indv. Gold BALLROOM (W/T/VW/F/Q)": {
     "heat": "Heat 349",
