@@ -754,6 +754,7 @@
         let sortedParticipants = [];
         let resultsData = {};
         let personResultsData = {};
+        let judgesData = {};
 
         // Format names from "Last, First" to "First Last"
         function formatName(name) {
@@ -784,6 +785,18 @@
             const heat = resultsData[heatNum + '|' + eventName];
             if (!heat || !heat.finalSummary || heat.finalSummary.length === 0) return '';
 
+            // Collect judge IDs from dances
+            const judgeIds = [];
+            (heat.dances || []).forEach(d => {
+                (d.judges || []).forEach(id => {
+                    if (!judgeIds.includes(id)) judgeIds.push(id);
+                });
+            });
+            judgeIds.sort();
+            const judgeNames = judgeIds
+                .map(id => judgesData[id] || id)
+                .filter(n => n);
+
             const sorted = [...heat.finalSummary].sort((a, b) => {
                 const pa = parseInt(a.placement) || 999;
                 const pb = parseInt(b.placement) || 999;
@@ -791,6 +804,12 @@
             });
 
             let html = `<div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--bg-tertiary);">`;
+
+            if (judgeNames.length > 0) {
+                html += `<div style="font-size:0.75em;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px;">Judges</div>`;
+                html += `<div style="font-size:0.78em;color:var(--text-secondary);margin-bottom:8px;line-height:1.5;">${judgeNames.join(' · ')}</div>`;
+            }
+
             html += `<div style="font-size:0.75em;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:6px;">Full Ranking</div>`;
 
             sorted.forEach(row => {
@@ -1222,17 +1241,19 @@
         // Load data from JSON files
         async function loadData() {
             try {
-                const [participantsRes, heatEventsRes, resultsRes, personResultsRes] = await Promise.all([
+                const [participantsRes, heatEventsRes, resultsRes, personResultsRes, judgesRes] = await Promise.all([
                     fetch('dance_assets/participants.json'),
                     fetch('dance_assets/heat_events.json'),
                     fetch('dance_assets/results.json').catch(() => ({ json: () => ({}) })),
-                    fetch('dance_assets/person_results.json').catch(() => ({ json: () => ({}) }))
+                    fetch('dance_assets/person_results.json').catch(() => ({ json: () => ({}) })),
+                    fetch('dance_assets/judges.json').catch(() => ({ json: () => ({}) }))
                 ]);
 
                 participantsData = await participantsRes.json();
                 heatEventsData = await heatEventsRes.json();
                 resultsData = await resultsRes.json();
                 personResultsData = await personResultsRes.json();
+                judgesData = await judgesRes.json();
                 sortedParticipants = Object.keys(participantsData).sort();
 
                 // Update dynamic stats

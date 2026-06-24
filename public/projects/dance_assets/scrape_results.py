@@ -80,6 +80,20 @@ def parse_index(html):
     return p.persons, p.number_map
 
 
+def parse_judges(html):
+    """Extract judge ID → name map from the 'List of Judges' section of the index page."""
+    judges = {}
+    # Match lines like: "01 Annie Lebedeva" (inside the List of Judges block)
+    block = re.search(r'List of Judges(.+?)(?:</td>|</p>)', html, re.S | re.I)
+    if not block:
+        return judges
+    for m in re.finditer(r'\b(\d{2})\s+([A-Z][^\n<]{2,50})', block.group(1)):
+        jid, name = m.group(1), m.group(2).strip()
+        if name.lower() != "scrutineer":
+            judges[jid] = name
+    return judges
+
+
 class ScoresheetParser(HTMLParser):
     """
     Parses one person's scoresheet HTML into a list of heat dicts.
@@ -627,8 +641,9 @@ def main():
     print("Fetching competitor index...", file=sys.stderr)
     html = fetch(INDEX_URL)
     persons, number_map = parse_index(html)
-    print(f"Found {len(persons)} competitors, {len(number_map)} with numbers",
-          file=sys.stderr)
+    judges = parse_judges(html)
+    print(f"Found {len(persons)} competitors, {len(number_map)} with numbers, "
+          f"{len(judges)} judges", file=sys.stderr)
 
     if not persons:
         print("ERROR: No persons found in index. Check INDEX_URL.", file=sys.stderr)
@@ -668,6 +683,7 @@ def main():
 
     save_json(results, "results.json")
     save_json(person_results, "person_results.json")
+    save_json(judges, "judges.json")
 
     print("\nDone.", file=sys.stderr)
     return 0
