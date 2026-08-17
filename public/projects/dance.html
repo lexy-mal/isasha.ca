@@ -515,6 +515,36 @@
             border: none;
             box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
+
+        input[type="range"].event-opponents-filter-min,
+        input[type="range"].event-opponents-filter-max {
+            -webkit-appearance: none;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        input[type="range"].event-opponents-filter-min::-webkit-slider-thumb,
+        input[type="range"].event-opponents-filter-max::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        input[type="range"].event-opponents-filter-min::-moz-range-thumb,
+        input[type="range"].event-opponents-filter-max::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
             color: var(--text-secondary);
         }
 
@@ -1886,12 +1916,13 @@
             html += `
                 <div style="margin: 24px 0 16px 0;">
                     <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents()" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
-                    <div style="display:flex;align-items:center;gap:12px;">
-                        <label style="font-size:0.9em;color:var(--text-secondary);min-width:100px;">Opponent count:</label>
-                        <input type="range" class="event-opponents-filter" min="0" max="50" value="0" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
-                        <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);min-width:50px;text-align:right;">all</span>
+                    <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
+                        <label style="font-size:0.9em;color:var(--text-secondary);min-width:140px;">Participant count:</label>
+                        <input type="range" class="event-opponents-filter-min" min="1" max="50" value="1" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                        <input type="range" class="event-opponents-filter-max" min="1" max="50" value="50" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                        <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);min-width:70px;text-align:right;">1-50</span>
                     </div>
-                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:8px;"></div>
+                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);"></div>
                 </div>
 
                 <div class="events-list">
@@ -2150,9 +2181,18 @@
             if (!container) return;
 
             const nameInput = container.querySelector('.event-filter-input');
-            const opponentsSlider = container.querySelector('.event-opponents-filter');
+            const minSlider = container.querySelector('.event-opponents-filter-min');
+            const maxSlider = container.querySelector('.event-opponents-filter-max');
             const nameValue = (nameInput?.value || '').trim().toLowerCase();
-            const opponentsValue = parseInt(opponentsSlider?.value || 0);
+            let minValue = parseInt(minSlider?.value || 1);
+            let maxValue = parseInt(maxSlider?.value || 50);
+
+            // Ensure min doesn't exceed max and vice versa
+            if (minValue > maxValue) {
+                [minValue, maxValue] = [maxValue, minValue];
+                minSlider.value = minValue;
+                maxSlider.value = maxValue;
+            }
 
             const eventItems = container.querySelectorAll('.events-list > .event-item');
             let visibleCount = 0;
@@ -2163,31 +2203,28 @@
                 const eventName = eventTitle ? eventTitle.textContent.toLowerCase() : '';
                 const nameMatch = !nameValue || eventName.includes(nameValue);
 
-                // Check opponents filter (0 = no filter, >0 = minimum opponent count)
-                let opponentsMatch = true;
-                if (opponentsValue > 0) {
-                    const competitors = item.dataset.competitors || '';
-                    const competitorCount = competitors ? competitors.split('|').filter(Boolean).length : 0;
-                    opponentsMatch = competitorCount >= opponentsValue;
-                }
+                // Check participant count range
+                const competitors = item.dataset.competitors || '';
+                const competitorCount = competitors ? competitors.split('|').filter(Boolean).length : 0;
+                const countMatch = competitorCount >= minValue && competitorCount <= maxValue;
 
-                const match = nameMatch && opponentsMatch;
+                const match = nameMatch && countMatch;
                 item.style.display = match ? '' : 'none';
                 if (match) visibleCount++;
             });
 
-            // Update slider value display
+            // Update range display
             const valueEl = container.querySelector('.opponents-filter-value');
             if (valueEl) {
-                valueEl.textContent = opponentsValue > 0 ? `≥ ${opponentsValue}` : 'all';
+                valueEl.textContent = `${minValue}-${maxValue}`;
             }
 
             const countEl = container.querySelector('.event-filter-count');
             if (countEl) {
                 const filters = [];
                 if (nameValue) filters.push(`name: "${nameValue}"`);
-                if (opponentsValue > 0) filters.push(`opponents: ≥ ${opponentsValue}`);
-                countEl.textContent = filters.length ? `${visibleCount} of ${eventItems.length} events shown (${filters.join(', ')})` : '';
+                filters.push(`participants: ${minValue}-${maxValue}`);
+                countEl.textContent = `${visibleCount} of ${eventItems.length} events shown (${filters.join(', ')})`;
             }
         }
 
