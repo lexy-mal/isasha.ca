@@ -834,6 +834,16 @@
                 gap: 0;
             }
 
+            /* The tile list's own height:100vh/overflow:hidden and internal
+               overflow-y:auto scrollbar exist so the desktop 5-column card grid
+               fits one screen. On mobile's single-column layout that just creates
+               a second, nested scroll region inside the page — drop both so the
+               whole tab scrolls as one normal page. */
+            .home-heats-wrapper {
+                height: auto !important;
+                overflow: visible !important;
+            }
+
             #home-heats-list {
                 grid-template-columns: 1fr !important;
                 /* Default grid-auto-rows:auto collapses a row to less than its
@@ -844,7 +854,8 @@
                    content instead, so the bottom of each tile stops getting cut off. */
                 grid-auto-rows: min-content !important;
                 gap: 6px !important;
-                max-height: 600px !important;
+                max-height: none !important;
+                overflow-y: visible !important;
             }
 
             #home-heats-list > div {
@@ -2415,7 +2426,7 @@
             const currentPage = parseInt(sessionStorage.getItem('homeHeatsPage') || '0');
 
             let html = `
-                <div style="padding:12px 8px;display:flex;flex-direction:column;height:100vh;overflow:hidden;">
+                <div class="home-heats-wrapper" style="padding:12px 8px;display:flex;flex-direction:column;height:100vh;overflow:hidden;">
                     <div style="margin-bottom:10px;flex-shrink:0;">
                         <div style="margin-bottom:6px;">
                             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
@@ -2435,6 +2446,9 @@
                     </div>
 
                     <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);gap:10px;overflow-y:auto;max-height:500px;padding-right:4px;">
+                    </div>
+
+                    <div id="home-pagination-bottom" style="display:flex;justify-content:center;gap:4px;align-items:center;flex-wrap:wrap;flex-shrink:0;margin-top:8px;">
                     </div>
                 </div>
             `;
@@ -2492,25 +2506,28 @@
                 }).join('');
             }
 
-            const paginationDiv = document.getElementById('home-pagination');
-            if (paginationDiv) {
-                let paginationHtml = '';
-                if (currentPage > 0) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage - 1})" style="padding:5px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.85em;">← Prev</button>`;
+            let paginationHtml = '';
+            if (currentPage > 0) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage - 1})" style="padding:5px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.85em;">← Prev</button>`;
 
-                for (let i = 0; i < totalPages; i++) {
-                    if (i === currentPage) {
-                        paginationHtml += `<button style="padding:5px 8px;background:var(--accent);color:var(--bg-primary);border:none;border-radius:3px;font-weight:600;font-size:0.8em;">${i + 1}</button>`;
-                    } else if (i < 3 || i > totalPages - 3 || (i >= currentPage - 1 && i <= currentPage + 1)) {
-                        paginationHtml += `<button onclick="homeHeatsGoToPage(${i})" style="padding:5px 8px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.8em;">${i + 1}</button>`;
-                    } else if (i === 3 || i === totalPages - 3) {
-                        paginationHtml += `<span style="color:var(--text-secondary);font-size:0.8em;">...</span>`;
-                    }
+            for (let i = 0; i < totalPages; i++) {
+                if (i === currentPage) {
+                    paginationHtml += `<button style="padding:5px 8px;background:var(--accent);color:var(--bg-primary);border:none;border-radius:3px;font-weight:600;font-size:0.8em;">${i + 1}</button>`;
+                } else if (i < 3 || i > totalPages - 3 || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                    paginationHtml += `<button onclick="homeHeatsGoToPage(${i})" style="padding:5px 8px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.8em;">${i + 1}</button>`;
+                } else if (i === 3 || i === totalPages - 3) {
+                    paginationHtml += `<span style="color:var(--text-secondary);font-size:0.8em;">...</span>`;
                 }
-
-                if (currentPage < totalPages - 1) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage + 1})" style="padding:5px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.85em;">Next →</button>`;
-
-                paginationDiv.innerHTML = paginationHtml || `<div style="color:var(--text-secondary);font-size:0.85em;">No heats found</div>`;
             }
+
+            if (currentPage < totalPages - 1) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage + 1})" style="padding:5px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:0.85em;">Next →</button>`;
+
+            paginationHtml = paginationHtml || `<div style="color:var(--text-secondary);font-size:0.85em;">No heats found</div>`;
+
+            const paginationDiv = document.getElementById('home-pagination');
+            if (paginationDiv) paginationDiv.innerHTML = paginationHtml;
+
+            const paginationDivBottom = document.getElementById('home-pagination-bottom');
+            if (paginationDivBottom) paginationDivBottom.innerHTML = paginationHtml;
         }
 
         function homeHeatsGoToPage(page) {
