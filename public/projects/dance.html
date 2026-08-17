@@ -2115,7 +2115,7 @@
 
         function filterHeatsByOpponent(value, inputEl) {
             const query = value.trim().toLowerCase();
-            const container = inputEl.closest('#contentDisplay, #detailContentDisplay');
+            const container = inputEl.closest('[id]') && (document.getElementById('contentDisplay') || document.getElementById('detailContentDisplay'));
             if (!container) return;
 
             const items = container.querySelectorAll('.events-list > .event-item');
@@ -2177,15 +2177,18 @@
         }
 
         function filterEventsByNameAndOpponents() {
-            const container = document.querySelector('#contentDisplay, #detailContentDisplay');
+            const container = document.getElementById('contentDisplay') || document.getElementById('detailContentDisplay');
             if (!container) return;
 
             const nameInput = container.querySelector('.event-filter-input');
             const minSlider = container.querySelector('.event-opponents-filter-min');
             const maxSlider = container.querySelector('.event-opponents-filter-max');
-            const nameValue = (nameInput?.value || '').trim().toLowerCase();
-            let minValue = parseInt(minSlider?.value || 1);
-            let maxValue = parseInt(maxSlider?.value || 50);
+
+            if (!nameInput || !minSlider || !maxSlider) return;
+
+            const nameValue = (nameInput.value || '').trim().toLowerCase();
+            let minValue = parseInt(minSlider.value || 1);
+            let maxValue = parseInt(maxSlider.value || 50);
 
             // Ensure min doesn't exceed max and vice versa
             if (minValue > maxValue) {
