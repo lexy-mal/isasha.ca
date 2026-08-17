@@ -817,6 +817,31 @@
                 grid-template-columns: 1fr;
                 gap: 0;
             }
+
+            #home-heats-list {
+                grid-template-columns: 1fr !important;
+                gap: 6px !important;
+                max-height: 600px !important;
+            }
+
+            #home-heats-list > div {
+                padding: 6px !important;
+            }
+
+            #home-heats-list > div > div:nth-child(3),
+            #home-heats-list > div > div:nth-child(4) {
+                display: none;
+            }
+
+            #home-heats-list > div > div:nth-child(1) {
+                font-size: 0.75em !important;
+                margin-bottom: 4px !important;
+            }
+
+            #home-heats-list > div > div:nth-child(2) {
+                font-size: 1.2em !important;
+                margin-bottom: 0 !important;
+            }
         }
     </style>
 </head>
@@ -2382,10 +2407,10 @@
                         <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:0;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
                     </div>
 
-                    <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);gap:10px;margin-bottom:8px;overflow-y:auto;max-height:320px;padding-right:4px;">
+                    <div id="home-pagination" style="display:flex;justify-content:center;gap:4px;align-items:center;flex-wrap:wrap;flex-shrink:0;margin-bottom:8px;">
                     </div>
 
-                    <div id="home-pagination" style="display:flex;justify-content:center;gap:4px;align-items:center;flex-wrap:wrap;flex-shrink:0;">
+                    <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);gap:10px;overflow-y:auto;max-height:500px;padding-right:4px;">
                     </div>
                 </div>
             `;
