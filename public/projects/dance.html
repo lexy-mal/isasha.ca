@@ -2199,6 +2199,9 @@
                         `;
                         heatsForCount.forEach((h, idx) => {
                             const heatDetailId = `${countId}-heat-${idx}`;
+                            const heatEvent = heatEventsData.find(he => he.heat === h.heat || he.event === h.name);
+                            const competitors = heatEvent?.competitors || [];
+                            const competitorNames = competitors.join(', ');
                             html += `
                                 <div style="padding: 8px; margin-bottom: 6px; background: var(--bg-tertiary); border-radius: 3px; cursor: pointer;" onclick="toggleHeatDetail(this, '${heatDetailId}')">
                                     <div style="display: flex; align-items: center; gap: 6px;">
@@ -2207,7 +2210,8 @@
                                         <div style="font-size: 0.7em; color: var(--text-secondary);">${count} comp.</div>
                                     </div>
                                     <div id="${heatDetailId}" style="display: none; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--bg-secondary); font-size: 0.75em; color: var(--text-secondary);">
-                                        ${count} competitor${count !== 1 ? 's' : ''}
+                                        <div style="font-weight: 600; margin-bottom: 4px;">Competitors:</div>
+                                        ${competitorNames}
                                     </div>
                                 </div>
                             `;
