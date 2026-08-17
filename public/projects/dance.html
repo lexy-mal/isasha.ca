@@ -2439,7 +2439,14 @@
 
                         <input type="text" class="home-heats-participant-filter" placeholder="Participant..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="showParticipantSuggestions();filterHomeHeats()" onchange="filterHomeHeats()">
 
-                        <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:0;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
+                        <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
+
+                        <select class="home-heats-sort" style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;" onchange="homeHeatsGoToPage(0)">
+                            <option value="name_asc">Sort: Event Name (A-Z)</option>
+                            <option value="name_desc">Sort: Event Name (Z-A)</option>
+                            <option value="count_desc">Sort: Most Participants</option>
+                            <option value="count_asc">Sort: Fewest Participants</option>
+                        </select>
                     </div>
 
                     <div id="home-pagination" style="display:flex;justify-content:center;gap:4px;align-items:center;flex-wrap:wrap;flex-shrink:0;margin-bottom:8px;">
@@ -2474,6 +2481,17 @@
                 const eventMatch = !eventFilter || heat.name.toLowerCase().includes(eventFilter);
                 const participantMatch = !participantFilter || heat.competitorList.some(p => p.toLowerCase().includes(participantFilter));
                 return competitorMatch && eventMatch && participantMatch;
+            });
+
+            const sortBy = document.querySelector('.home-heats-sort')?.value || 'name_asc';
+            filtered.sort((a, b) => {
+                switch (sortBy) {
+                    case 'name_desc': return b.name.localeCompare(a.name);
+                    case 'count_desc': return b.competitors - a.competitors;
+                    case 'count_asc': return a.competitors - b.competitors;
+                    case 'name_asc':
+                    default: return a.name.localeCompare(b.name);
+                }
             });
 
             const itemsPerPage = 10;
