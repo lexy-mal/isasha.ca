@@ -1444,11 +1444,27 @@
           });
         }
 
-        function trackCompetitorViewed(competitorName, entryCount) {
+        function trackCompetitorViewed(competitorName, entryCount, viewSource) {
           trackEvent('competitor_viewed', {
             'competitor_name': competitorName,
             'entry_count': entryCount,
-            'view_source': 'search_or_click'
+            'view_source': viewSource || 'sidebar_list'
+          });
+        }
+
+        function trackEventViewed(eventName, heat, participantCount, isCouple, viewSource) {
+          trackEvent('event_viewed', {
+            'event_name': eventName,
+            'heat': heat || '',
+            'participant_count': participantCount,
+            'event_type': isCouple ? 'couple' : 'solo',
+            'view_source': viewSource || 'events_tab'
+          });
+        }
+
+        function trackTabSwitch(tabName) {
+          trackEvent('tab_switch', {
+            'tab_name': tabName
           });
         }
 
@@ -1624,7 +1640,7 @@
             recentlyViewed.forEach(name => {
                 const entryCount = participantsData[name]?.entries.length || 0;
                 html += `
-                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="trackRecentlyViewedClick('${onclickArg(name)}'); searchAndSelect('${onclickArg(name)}')">
+                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="trackRecentlyViewedClick('${onclickArg(name)}'); searchAndSelect('${onclickArg(name)}', 'recently_viewed')">
                         <span>${name}</span>
                         <span class="participant-count">${entryCount}</span>
                     </li>
@@ -1634,13 +1650,13 @@
             container.innerHTML = html;
         }
 
-        function selectParticipant(name, element) {
+        function selectParticipant(name, element, source) {
             document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
             if (element) element.classList.add('active');
 
             // Track competitor view
             const entryCount = participantsData[name]?.entries.length || 0;
-            trackCompetitorViewed(name, entryCount);
+            trackCompetitorViewed(name, entryCount, source);
 
             // Add to recently viewed
             addToRecentlyViewed(name);
@@ -2351,7 +2367,7 @@
             }
         }
 
-        function searchAndSelect(name) {
+        function searchAndSelect(name, source) {
             document.getElementById('searchInput').value = name;
             displayParticipants(name);
             setTimeout(() => {
@@ -2361,7 +2377,7 @@
                     const span = el.querySelector('span');
                     return span && span.textContent.trim() === name;
                 });
-                if (item) selectParticipant(name, item);
+                if (item) selectParticipant(name, item, source || 'opponent_link');
             }, 100);
         }
 
@@ -2561,6 +2577,8 @@
             const soloCount = units.filter(u => u.members.length === 1).length;
             const isSoloEvent = coupleCount === 0;
 
+            trackEventViewed(eventInfo.event, eventInfo.heat, competitors.length, !isSoloEvent);
+
             document.getElementById('detailPersonName').textContent = eventInfo.event;
             // The countdown belongs to a person; clear whatever the last person left
             // behind, since updateDetailCountdown() bails out on a non-person name.
@@ -2632,7 +2650,7 @@
                     <div class="event-roster-entry" data-names="${searchKey}" style="padding:12px;background:${isCouple ? 'rgba(0, 217, 255, 0.05)' : 'var(--bg-secondary)'};border:1px solid ${isCouple ? 'var(--accent-dim)' : 'var(--bg-tertiary)'};border-radius:4px;">
                         <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
                             ${unit.members
-                                .map(m => `<span class="competitor-name" onclick="selectParticipant('${onclickArg(m)}')" style="cursor:pointer;color:var(--accent);text-decoration:underline;">${formatName(m)}</span>`)
+                                .map(m => `<span class="competitor-name" onclick="selectParticipant('${onclickArg(m)}', null, 'event_roster')" style="cursor:pointer;color:var(--accent);text-decoration:underline;">${formatName(m)}</span>`)
                                 .join('<span style="color:var(--text-secondary);">&</span>')}
                             ${placementBadge}
                         </div>
@@ -2671,6 +2689,7 @@
         }
 
         function switchView(view) {
+            trackTabSwitch(view);
             const sidebar = document.querySelector('.sidebar');
             const contentArea = document.querySelector('.content-area');
             const tabParticipants = document.getElementById('tab-participants');
