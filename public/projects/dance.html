@@ -2087,6 +2087,20 @@
             }
         }
 
+        function toggleHeatsDetail(el, detailId) {
+            event.stopPropagation();
+            const detail = document.getElementById(detailId);
+            const toggle = el.querySelector('span');
+
+            if (detail.style.display === 'none') {
+                detail.style.display = 'block';
+                toggle.style.transform = 'rotate(0deg)';
+            } else {
+                detail.style.display = 'none';
+                toggle.style.transform = 'rotate(-90deg)';
+            }
+        }
+
         function searchAndSelect(name) {
             document.getElementById('searchInput').value = name;
             displayParticipants(name);
@@ -2149,13 +2163,27 @@
             if (smallHeats.length === 0) {
                 html += `<div style="font-size: 0.9em; color: var(--text-secondary); padding: 12px; background: var(--bg-secondary); border-radius: 4px;">None</div>`;
             } else {
-                // Show breakdown by competitor count
+                // Show breakdown by competitor count, with hidden details
                 [1, 2, 3].forEach(count => {
                     if (smallBySizes[count]) {
+                        const heatsForCount = smallHeats.filter(h => h.competitors === count);
+                        const countId = `small-heats-${count}`;
                         html += `
-                            <div style="padding: 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent-dim); margin-bottom: 8px;">
-                                <div style="font-weight: 600; color: var(--text-primary);">${smallBySizes[count]} event${smallBySizes[count] !== 1 ? 's' : ''}</div>
-                                <div style="font-size: 0.8em; color: var(--text-secondary);">${count} competitor${count !== 1 ? 's' : ''}</div>
+                            <div style="padding: 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent-dim); margin-bottom: 8px; cursor: pointer;" onclick="toggleHeatsDetail(this, '${countId}')">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
+                                    <div>
+                                        <div style="font-weight: 600; color: var(--text-primary);">${smallBySizes[count]} event${smallBySizes[count] !== 1 ? 's' : ''}</div>
+                                        <div style="font-size: 0.8em; color: var(--text-secondary);">${count} competitor${count !== 1 ? 's' : ''}</div>
+                                    </div>
+                                </div>
+                                <div id="${countId}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary); max-height: 300px; overflow-y: auto;">
+                        `;
+                        heatsForCount.forEach(h => {
+                            html += `<div style="font-size: 0.85em; color: var(--text-primary); padding: 6px 0; border-bottom: 1px solid var(--bg-tertiary);">${h.name}</div>`;
+                        });
+                        html += `
+                                </div>
                             </div>
                         `;
                     }
@@ -2175,13 +2203,27 @@
             `;
 
             topHeats.forEach((h, idx) => {
+                const heatsId = `top-heat-${idx}`;
+                const heatCompetitors = h.competitors;
                 html += `
-                    <div style="padding: 10px 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent);">
+                    <div style="padding: 10px 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent); cursor: pointer;" onclick="toggleHeatsDetail(this, '${heatsId}')">
                         <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;">
-                            <div style="font-weight: 500; color: var(--text-primary); font-size: 0.95em; flex: 1;">${h.name}</div>
+                            <div style="flex: 1;">
+                                <div style="display: flex; align-items: center; gap: 6px;">
+                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
+                                    <div>
+                                        <div style="font-weight: 500; color: var(--text-primary); font-size: 0.95em;">${h.name}</div>
+                                        <div style="font-size: 0.75em; color: var(--text-secondary); margin-top: 2px;">${heatCompetitors} competitor${heatCompetitors !== 1 ? 's' : ''}</div>
+                                    </div>
+                                </div>
+                            </div>
                             <div style="font-size: 0.8em; font-weight: 600; color: var(--accent); white-space: nowrap;">#${idx + 1}</div>
                         </div>
-                        <div style="font-size: 0.75em; color: var(--text-secondary); margin-top: 4px;">${h.competitors} competitor${h.competitors !== 1 ? 's' : ''}</div>
+                        <div id="${heatsId}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary); max-height: 300px; overflow-y: auto;">
+                            <div style="font-size: 0.75em; color: var(--text-secondary); margin-bottom: 8px;">
+                                Showing ${heatCompetitors} competitor${heatCompetitors !== 1 ? 's' : ''}
+                            </div>
+                        </div>
                     </div>
                 `;
             });
