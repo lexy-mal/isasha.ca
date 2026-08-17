@@ -814,6 +814,12 @@
                 display: flex !important;
             }
 
+            /* The top search box filters the Participants sidebar list, which is
+               hidden while the Events tab is active — showing it there does nothing. */
+            .search-section.hidden-for-events {
+                display: none;
+            }
+
             .main-content {
                 grid-template-columns: 1fr;
                 gap: 0;
@@ -2695,6 +2701,7 @@
             const tabParticipants = document.getElementById('tab-participants');
             const tabEvents = document.getElementById('tab-events');
             const partFilter = document.querySelector('.home-heats-participant-filter');
+            const searchSection = document.querySelector('.search-section');
 
             if (view === 'participants') {
                 sidebar.classList.remove('hidden');
@@ -2703,6 +2710,7 @@
                 tabParticipants.style.color = 'var(--bg-primary)';
                 tabEvents.style.background = 'transparent';
                 tabEvents.style.color = 'var(--text-secondary)';
+                if (searchSection) searchSection.classList.remove('hidden-for-events');
             } else {
                 sidebar.classList.add('hidden');
                 contentArea.classList.remove('hidden');
@@ -2710,6 +2718,7 @@
                 tabEvents.style.color = 'var(--bg-primary)';
                 tabParticipants.style.background = 'transparent';
                 tabParticipants.style.color = 'var(--text-secondary)';
+                if (searchSection) searchSection.classList.add('hidden-for-events');
                 // Clear participant search when switching to Events
                 if (partFilter) {
                     partFilter.value = '';
