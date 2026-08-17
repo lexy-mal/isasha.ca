@@ -1657,7 +1657,7 @@
                             </div>
                         </div>
                         <div class="event-details" style="display: none;">
-                            <!-- Level 1: Names only -->
+                            <!-- All Opponent Names Block -->
                             <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-secondary); border-radius: 4px; cursor: pointer;" onclick="toggleOpponentDetail(this, 'opp-names-${name}')">
                                 <div style="display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-primary);">
                                     <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
@@ -1668,17 +1668,13 @@
                                 </div>
                             </div>
 
-                            <!-- Level 2: Breakdown by type -->
-                            <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-secondary); border-radius: 4px; cursor: pointer;" onclick="toggleOpponentDetail(this, 'opp-breakdown-${name}')">
+                            <!-- All Opponent Details Block -->
+                            <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-secondary); border-radius: 4px; cursor: pointer;" onclick="toggleOpponentDetail(this, 'opp-details-${name}')">
                                 <div style="display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-primary);">
                                     <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
-                                    Opponent Breakdown
+                                    All Opponent Details
                                 </div>
-                                <div id="opp-breakdown-${name}" style="display: none; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--bg-tertiary); font-size: 0.85em;">
-                                    ${Object.keys(partnerCompetitors).length > 0 ? `<div style="margin-bottom: 8px; padding: 6px; background: var(--bg-tertiary); border-radius: 3px;"><strong style="color: var(--accent);">💃 Partners:</strong> ${Object.keys(partnerCompetitors).length}</div>` : ''}
-                                    ${Object.keys(allCompetitors).length > 0 ? `<div style="padding: 6px; background: var(--bg-tertiary); border-radius: 3px;"><strong style="color: var(--accent);">👥 Others:</strong> ${Object.keys(allCompetitors).length}</div>` : ''}
-                                </div>
-                            </div>
+                                <div id="opp-details-${name}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary);">
 `;
 
                 // Show partners first (as couples)
@@ -1842,6 +1838,8 @@
                 }
 
                 html += `
+                                </div>
+                            </div>
                         </div>
                     </div>
                 `;
