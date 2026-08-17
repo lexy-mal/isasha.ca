@@ -2452,22 +2452,17 @@
             if (listDiv) {
                 listDiv.innerHTML = pageHeats.map((heat, idx) => {
                     const isSolo = heat.name.toLowerCase().includes('solo');
-                    const detailsId = `heat-details-${currentPage}-${idx}`;
                     const typeLabel = isSolo ? 'SOLO' : 'COUPLE';
                     const typeBg = isSolo ? 'var(--accent-dim)' : 'var(--accent)';
                     return `
-                        <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;overflow:hidden;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'">
-                            <div style="padding:8px;cursor:pointer;transition:all 0.2s;" onclick="toggleHeatDetails('${detailsId}')">
+                        <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;overflow:hidden;cursor:pointer;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'" onclick="displayEventDetails('${jsQuote(heat.name)}')">
+                            <div style="padding:8px;">
                                 <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:6px;">
                                     <div style="font-size:0.8em;font-weight:500;color:var(--accent);line-height:1.1;overflow:hidden;text-overflow:ellipsis;flex:1;" title="${heat.name}">${heat.name}</div>
                                     <span style="font-size:0.65em;padding:2px 6px;background:${typeBg};color:var(--bg-primary);border-radius:2px;white-space:nowrap;font-weight:600;">${typeLabel}</span>
                                 </div>
                                 <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${heat.competitors}</div>
                                 <div style="font-size:0.65em;color:var(--text-secondary);">comp.</div>
-                            </div>
-                            <div id="${detailsId}" style="display:none;background:var(--bg-primary);border-top:1px solid var(--bg-tertiary);padding:8px;font-size:0.75em;line-height:1.4;max-height:200px;overflow-y:auto;">
-                                <div style="font-weight:600;color:var(--accent);margin-bottom:6px;">▼ ${heat.competitors} Participant${heat.competitors !== 1 ? 's' : ''}:</div>
-                                ${heat.competitorList.map(p => `<div style="color:var(--text-secondary);margin-bottom:4px;">• <span style="color:var(--accent);cursor:pointer;text-decoration:underline;" onclick="selectParticipant('${p}', null)">${p}</span></div>`).join('')}
                             </div>
                         </div>
                     `;
@@ -2500,6 +2495,176 @@
             filterHomeHeats();
         }
 
+        // Names come from scraped data and can contain apostrophes (O'Brien), which
+        // would break an inline onclick="fn('...')" attribute.
+        function jsQuote(value) {
+            return String(value).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+        }
+
+        // Event detail view. Uses the same roster grouping as the individual page:
+        // pair on mutual partner claims first, then one-sided ones, so nobody renders
+        // solo before another competitor claims them. Leftovers are genuine solos.
+        function displayEventDetails(eventKey) {
+            const eventInfo = heatEventsData.find(he => (he.heat || he.event) === eventKey);
+            if (!eventInfo) return;
+
+            const overlay = document.querySelector('.detail-overlay');
+            if (window.innerWidth <= 768) overlay.classList.add('active');
+
+            const contentElement = overlay.classList.contains('active')
+                ? document.getElementById('detailContentDisplay')
+                : document.getElementById('contentDisplay');
+
+            const competitors = eventInfo.competitors || [];
+
+            const partnerInEvent = competitor => {
+                const entry = participantsData[competitor]?.entries.find(
+                    e => e.heat === eventInfo.heat && e.event === eventInfo.event
+                );
+                const claimed = entry?.partner;
+                return claimed && competitors.includes(claimed) ? claimed : null;
+            };
+
+            const processed = new Set();
+            const units = [];
+
+            const pairUp = mutualOnly => {
+                competitors.forEach(competitor => {
+                    if (processed.has(competitor)) return;
+                    const partner = partnerInEvent(competitor);
+                    if (!partner || processed.has(partner)) return;
+                    if (mutualOnly && partnerInEvent(partner) !== competitor) return;
+
+                    units.push({ sortKey: competitor, members: [competitor, partner] });
+                    processed.add(competitor);
+                    processed.add(partner);
+                });
+            };
+
+            pairUp(true);
+            pairUp(false);
+
+            competitors.forEach(competitor => {
+                if (processed.has(competitor)) return;
+                units.push({ sortKey: competitor, members: [competitor] });
+                processed.add(competitor);
+            });
+
+            units.sort((a, b) => a.sortKey.localeCompare(b.sortKey));
+
+            const coupleCount = units.filter(u => u.members.length > 1).length;
+            const soloCount = units.filter(u => u.members.length === 1).length;
+            const isSoloEvent = coupleCount === 0;
+
+            document.getElementById('detailPersonName').textContent = eventInfo.event;
+            // The countdown belongs to a person; clear whatever the last person left
+            // behind, since updateDetailCountdown() bails out on a non-person name.
+            const staleCountdown = document.getElementById('detailNextHeat');
+            if (staleCountdown) staleCountdown.textContent = '';
+            document.getElementById('detailEventCount').textContent =
+                `${competitors.length} participant${competitors.length !== 1 ? 's' : ''}` +
+                (coupleCount ? ` · ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}` : '') +
+                (coupleCount && soloCount ? ` · ${soloCount} solo` : '');
+
+            let html = `
+                <div class="person-header">
+                    <div class="person-name" style="font-size:1.35em;line-height:1.3;">${eventInfo.event}</div>
+                    <div style="margin: 8px 0 16px 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                        <span style="font-size:0.7em;padding:3px 8px;background:${isSoloEvent ? 'var(--accent-dim)' : 'var(--accent)'};color:var(--bg-primary);border-radius:3px;font-weight:600;letter-spacing:0.05em;">${isSoloEvent ? 'SOLO' : 'COUPLE'}</span>
+                        ${eventInfo.heat ? `<span style="font-size:0.8em;color:var(--text-secondary);">Heat ${eventInfo.heat}</span>` : ''}
+                        ${eventInfo.time ? `<span style="font-size:0.8em;color:var(--text-secondary);">🕐 ${eventInfo.time}</span>` : ''}
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <div class="stat-value">${competitors.length}</div>
+                            <div class="stat-label">Participants</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${coupleCount}</div>
+                            <div class="stat-label">Couples</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${soloCount}</div>
+                            <div class="stat-label">Solo</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${units.length}</div>
+                            <div class="stat-label">Entries</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            if (window.innerWidth > 768) {
+                html += `
+                    <button onclick="backToEventList()" style="margin-bottom:16px;padding:8px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--accent);cursor:pointer;font-size:0.85em;">← Back to events</button>
+                `;
+            }
+
+            const ranking = buildHeatRanking(eventInfo.heat, eventInfo.event);
+            if (ranking) {
+                html += `<div class="event-item" style="margin-bottom:16px;">${ranking}</div>`;
+            }
+
+            html += `
+                <div style="margin: 0 0 16px 0;">
+                    <input type="text" class="event-participant-filter" placeholder="Filter participants by name..." autocomplete="off" oninput="filterEventParticipants(this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
+                    <div class="event-participant-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:6px;"></div>
+                </div>
+
+                <div class="event-roster" style="display:flex;flex-direction:column;gap:10px;">
+            `;
+
+            units.forEach(unit => {
+                const searchKey = unit.members.join(' ').toLowerCase().replace(/"/g, '&quot;');
+                const isCouple = unit.members.length > 1;
+                const placement = getPersonPlacement(unit.members[0], eventInfo.heat, eventInfo.event);
+                const placementBadge = placement
+                    ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;white-space:nowrap;">${formatPlacement(placement)}</span>`
+                    : '';
+
+                html += `
+                    <div class="event-roster-entry" data-names="${searchKey}" style="padding:12px;background:${isCouple ? 'rgba(0, 217, 255, 0.05)' : 'var(--bg-secondary)'};border:1px solid ${isCouple ? 'var(--accent-dim)' : 'var(--bg-tertiary)'};border-radius:4px;">
+                        <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                            ${unit.members
+                                .map(m => `<span class="competitor-name" onclick="selectParticipant('${jsQuote(m)}')" style="cursor:pointer;color:var(--accent);text-decoration:underline;">${formatName(m)}</span>`)
+                                .join('<span style="color:var(--text-secondary);">&</span>')}
+                            ${placementBadge}
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += `</div>`;
+
+            contentElement.innerHTML = html;
+            contentElement.scrollTop = 0;
+        }
+
+        function filterEventParticipants(inputEl) {
+            const query = inputEl.value.trim().toLowerCase();
+            const container = inputEl.closest('#contentDisplay, #detailContentDisplay');
+            if (!container) return;
+
+            const entries = container.querySelectorAll('.event-roster-entry');
+            let visible = 0;
+
+            entries.forEach(entry => {
+                const match = !query || (entry.dataset.names || '').includes(query);
+                entry.style.display = match ? '' : 'none';
+                if (match) visible++;
+            });
+
+            const countEl = container.querySelector('.event-participant-count');
+            if (countEl) {
+                countEl.textContent = query ? `${visible} of ${entries.length} shown` : '';
+            }
+        }
+
+        function backToEventList() {
+            document.getElementById('contentDisplay').innerHTML = getHomeStats();
+        }
+
         function switchView(view) {
             const sidebar = document.querySelector('.sidebar');
             const contentArea = document.querySelector('.content-area');
@@ -2528,13 +2693,6 @@
                     if (suggestions) suggestions.innerHTML = '';
                     filterHomeHeats();
                 }
-            }
-        }
-
-        function toggleHeatDetails(detailsId) {
-            const detailsDiv = document.getElementById(detailsId);
-            if (detailsDiv) {
-                detailsDiv.style.display = detailsDiv.style.display === 'none' ? 'block' : 'none';
             }
         }
 
