@@ -2321,132 +2321,113 @@
         }
 
         function getHomeStats() {
-            // Organize by heat (or event name if heat is empty, as in National 2026)
+            return getHomeHeatsList();
+        }
+
+        function getHomeHeatsList() {
             const heatStats = {};
             heatEventsData.forEach(he => {
-                const key = he.heat || he.event; // Use event name if heat is empty
+                const key = he.heat || he.event;
                 if (!heatStats[key]) {
-                    heatStats[key] = { name: key, competitors: he.competitors.length };
+                    heatStats[key] = { name: key, competitors: he.competitors.length, competitorList: he.competitors };
                 }
             });
 
-            const heats = Object.values(heatStats);
-            const smallHeats = heats.filter(h => h.competitors <= 3).sort((a, b) => a.competitors - b.competitors);
-            const topHeats = [...heats].sort((a, b) => b.competitors - a.competitors).slice(0, 5);
-
-            // Count by competitor size for summary
-            const smallBySizes = {};
-            smallHeats.forEach(h => {
-                smallBySizes[h.competitors] = (smallBySizes[h.competitors] || 0) + 1;
-            });
+            const allHeats = Object.values(heatStats);
+            const itemsPerPage = 12;
+            const currentPage = parseInt(sessionStorage.getItem('homeHeatsPage') || '0');
 
             let html = `
-                <div style="padding: 40px 20px;">
-                    <div style="text-align: center; margin-bottom: 50px;">
-                        <div style="font-size: 2em; color: var(--accent); margin-bottom: 12px;">👥</div>
-                        <div style="font-size: 1.2em; color: var(--text-secondary);">Select a participant</div>
-                    </div>
+                <div style="padding: 20px;">
+                    <div style="margin-bottom: 24px;">
+                        <input type="text" class="home-heats-participant-filter" placeholder="Filter by participant..." style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
 
-                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto;">
-                        <!-- Small Heats -->
-                        <div>
-                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600; cursor: pointer; user-select: none;" onclick="toggleStatsSection(this, 'small-heats')">
-                                <span style="display: inline-block; margin-right: 8px; transition: transform 0.2s;">▼</span>🤏 Heats with 3 or Fewer
-                            </div>
-                            <div id="small-heats-content" style="display: flex; flex-direction: column; gap: 8px;">
-            `;
+                        <input type="text" class="home-heats-event-filter" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
 
-            if (smallHeats.length === 0) {
-                html += `<div style="font-size: 0.9em; color: var(--text-secondary); padding: 12px; background: var(--bg-secondary); border-radius: 4px;">None</div>`;
-            } else {
-                // Show breakdown by competitor count, with hidden details
-                [1, 2, 3].forEach(count => {
-                    if (smallBySizes[count]) {
-                        const heatsForCount = smallHeats.filter(h => h.competitors === count);
-                        const countId = `small-heats-${count}`;
-                        html += `
-                            <div style="padding: 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent-dim); margin-bottom: 8px; cursor: pointer;" onclick="toggleHeatsDetail(this, '${countId}')">
-                                <div style="display: flex; align-items: center; gap: 8px;">
-                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
-                                    <div>
-                                        <div style="font-weight: 600; color: var(--text-primary);">${smallBySizes[count]} event${smallBySizes[count] !== 1 ? 's' : ''}</div>
-                                        <div style="font-size: 0.8em; color: var(--text-secondary);">${count} competitor${count !== 1 ? 's' : ''}</div>
-                                    </div>
-                                </div>
-                                <div id="${countId}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary); max-height: 300px; overflow-y: auto;">
-                        `;
-                        heatsForCount.forEach((h, idx) => {
-                            const heatDetailId = `${countId}-heat-${idx}`;
-                            const heatEvent = heatEventsData.find(he => he.heat === h.heat || he.event === h.name);
-                            const competitors = heatEvent?.competitors || [];
-                            const competitorNames = competitors.join(', ');
-                            html += `
-                                <div style="padding: 8px; margin-bottom: 6px; background: var(--bg-tertiary); border-radius: 3px; cursor: pointer;" onclick="toggleHeatDetail(this, '${heatDetailId}')">
-                                    <div style="display: flex; align-items: center; gap: 6px;">
-                                        <span style="display: inline-block; font-size: 0.75em; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
-                                        <div style="flex: 1; font-size: 0.85em; color: var(--text-primary);">${h.name}</div>
-                                        <div style="font-size: 0.7em; color: var(--text-secondary);">${count} comp.</div>
-                                    </div>
-                                    <div id="${heatDetailId}" style="display: none; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--bg-secondary); font-size: 0.75em; color: var(--text-secondary);">
-                                        <div style="font-weight: 600; margin-bottom: 4px;">Competitors:</div>
-                                        ${competitorNames}
-                                    </div>
-                                </div>
-                            `;
-                        });
-                        html += `
-                                </div>
+                        <div style="margin-bottom:12px;">
+                            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+                                <label style="font-size:0.9em;color:var(--text-secondary);">Competitors:</label>
+                                <span class="home-heats-range-value" style="font-size:0.9em;color:var(--text-secondary);font-weight:600;">1-${Math.max(...allHeats.map(h => h.competitors))}</span>
                             </div>
-                        `;
-                    }
-                });
-            }
-
-            html += `
-                            </div>
-                        </div>
-
-                        <!-- Top 5 Largest Heats -->
-                        <div>
-                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600; cursor: pointer; user-select: none;" onclick="toggleStatsSection(this, 'top-heats')">
-                                <span style="display: inline-block; margin-right: 8px; transition: transform 0.2s;">▼</span>🏆 Top 5 Largest Heats
-                            </div>
-                            <div id="top-heats-content" style="display: flex; flex-direction: column; gap: 8px;">
-            `;
-
-            topHeats.forEach((h, idx) => {
-                const heatsId = `top-heat-${idx}`;
-                const heatCompetitors = h.competitors;
-                html += `
-                    <div style="padding: 10px 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent); cursor: pointer;" onclick="toggleHeatsDetail(this, '${heatsId}')">
-                        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;">
-                            <div style="flex: 1;">
-                                <div style="display: flex; align-items: center; gap: 6px;">
-                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
-                                    <div>
-                                        <div style="font-weight: 500; color: var(--text-primary); font-size: 0.95em;">${h.name}</div>
-                                        <div style="font-size: 0.75em; color: var(--text-secondary); margin-top: 2px;">${heatCompetitors} competitor${heatCompetitors !== 1 ? 's' : ''}</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div style="font-size: 0.8em; font-weight: 600; color: var(--accent); white-space: nowrap;">#${idx + 1}</div>
-                        </div>
-                        <div id="${heatsId}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary); max-height: 300px; overflow-y: auto;">
-                            <div style="font-size: 0.75em; color: var(--text-secondary); margin-bottom: 8px;">
-                                Showing ${heatCompetitors} competitor${heatCompetitors !== 1 ? 's' : ''}
-                            </div>
+                            <input type="range" class="home-heats-competitors-min" min="1" max="${Math.max(...allHeats.map(h => h.competitors))}" value="1" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;margin-bottom:8px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
+                            <input type="range" class="home-heats-competitors-max" min="1" max="${Math.max(...allHeats.map(h => h.competitors))}" value="${Math.max(...allHeats.map(h => h.competitors))}" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
                         </div>
                     </div>
-                `;
-            });
 
-            html += `
-                            </div>
-                        </div>
+                    <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));gap:16px;margin-bottom:24px;">
+                    </div>
+
+                    <div id="home-pagination" style="display:flex;justify-content:center;gap:8px;align-items:center;">
                     </div>
                 </div>
             `;
+
+            sessionStorage.setItem('allHomeHeats', JSON.stringify(allHeats));
+            setTimeout(() => filterHomeHeats(), 0);
+
             return html;
+        }
+
+        function filterHomeHeats() {
+            const allHeats = JSON.parse(sessionStorage.getItem('allHomeHeats') || '[]');
+            const participantFilter = document.querySelector('.home-heats-participant-filter')?.value.toLowerCase() || '';
+            const eventFilter = document.querySelector('.home-heats-event-filter')?.value.toLowerCase() || '';
+            const minCompetitors = parseInt(document.querySelector('.home-heats-competitors-min')?.value || '1');
+            const maxCompetitors = parseInt(document.querySelector('.home-heats-competitors-max')?.value || '999');
+
+            const rangeValue = document.querySelector('.home-heats-range-value');
+            if (rangeValue) rangeValue.textContent = minCompetitors + '-' + maxCompetitors;
+
+            let filtered = allHeats.filter(heat => {
+                const competitorMatch = heat.competitors >= minCompetitors && heat.competitors <= maxCompetitors;
+                const eventMatch = !eventFilter || heat.name.toLowerCase().includes(eventFilter);
+                const participantMatch = !participantFilter || heat.competitorList.some(p => p.toLowerCase().includes(participantFilter));
+                return competitorMatch && eventMatch && participantMatch;
+            });
+
+            const itemsPerPage = 12;
+            const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
+            let currentPage = parseInt(sessionStorage.getItem('homeHeatsPage') || '0');
+            if (currentPage >= totalPages) currentPage = 0;
+            sessionStorage.setItem('homeHeatsPage', currentPage);
+
+            const start = currentPage * itemsPerPage;
+            const pageHeats = filtered.slice(start, start + itemsPerPage);
+
+            const listDiv = document.getElementById('home-heats-list');
+            if (listDiv) {
+                listDiv.innerHTML = pageHeats.map((heat, idx) => `
+                    <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;padding:20px;cursor:pointer;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'">
+                        <div style="font-size:1.1em;font-weight:500;margin-bottom:12px;color:var(--accent);">${heat.name}</div>
+                        <div style="font-size:2em;font-weight:300;margin-bottom:12px;color:var(--text-primary);">${heat.competitors}</div>
+                        <div style="font-size:0.85em;color:var(--text-secondary);margin-bottom:16px;">competitor${heat.competitors !== 1 ? 's' : ''}</div>
+                        <div style="font-size:0.8em;color:var(--text-secondary);line-height:1.4;">${heat.competitorList.slice(0, 3).join(', ')}${heat.competitorList.length > 3 ? '...' : ''}</div>
+                    </div>
+                `).join('');
+            }
+
+            const paginationDiv = document.getElementById('home-pagination');
+            if (paginationDiv) {
+                let paginationHtml = '';
+                if (currentPage > 0) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage - 1})" style="padding:8px 12px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:4px;color:var(--text-primary);cursor:pointer;">← Previous</button>`;
+
+                for (let i = 0; i < totalPages; i++) {
+                    if (i === currentPage) {
+                        paginationHtml += `<button style="padding:8px 12px;background:var(--accent);color:var(--bg-primary);border:none;border-radius:4px;font-weight:600;">${i + 1}</button>`;
+                    } else {
+                        paginationHtml += `<button onclick="homeHeatsGoToPage(${i})" style="padding:8px 12px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:4px;color:var(--text-primary);cursor:pointer;">${i + 1}</button>`;
+                    }
+                }
+
+                if (currentPage < totalPages - 1) paginationHtml += `<button onclick="homeHeatsGoToPage(${currentPage + 1})" style="padding:8px 12px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:4px;color:var(--text-primary);cursor:pointer;">Next →</button>`;
+
+                paginationDiv.innerHTML = paginationHtml || `<div style="color:var(--text-secondary);">No heats found</div>`;
+            }
+        }
+
+        function homeHeatsGoToPage(page) {
+            sessionStorage.setItem('homeHeatsPage', page);
+            filterHomeHeats();
         }
 
         function clearSearch() {
