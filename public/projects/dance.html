@@ -515,36 +515,6 @@
             border: none;
             box-shadow: 0 2px 4px rgba(0,0,0,0.3);
         }
-
-        input[type="range"].heatsize-range-min,
-        input[type="range"].heatsize-range-max {
-            -webkit-appearance: none;
-            appearance: none;
-            cursor: pointer;
-        }
-
-        input[type="range"].heatsize-range-min::-webkit-slider-thumb,
-        input[type="range"].heatsize-range-max::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            background: var(--accent);
-            cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
-
-        input[type="range"].heatsize-range-min::-moz-range-thumb,
-        input[type="range"].heatsize-range-max::-moz-range-thumb {
-            width: 16px;
-            height: 16px;
-            border-radius: 50%;
-            background: var(--accent);
-            cursor: pointer;
-            border: none;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        }
             color: var(--text-secondary);
         }
 
@@ -2221,38 +2191,6 @@
             }
         }
 
-        function filterHeatsBySize() {
-            const minSlider = document.querySelector('.heatsize-range-min');
-            const maxSlider = document.querySelector('.heatsize-range-max');
-            const displayEl = document.querySelector('.heatsize-range-display');
-
-            if (!minSlider || !maxSlider) return;
-
-            let min = parseInt(minSlider.value);
-            let max = parseInt(maxSlider.value);
-
-            // Ensure min doesn't exceed max and vice versa
-            if (min > max) {
-                [min, max] = [max, min];
-                minSlider.value = min;
-                maxSlider.value = max;
-            }
-
-            // Update display
-            if (displayEl) {
-                displayEl.textContent = `${min}-${max}`;
-            }
-
-            // Show/hide heat size sections
-            for (let size = 1; size <= 3; size++) {
-                const sectionId = `small-heats-${size}`;
-                const section = document.getElementById(sectionId);
-                if (section) {
-                    section.parentElement.style.display = (size >= min && size <= max) ? '' : 'none';
-                }
-            }
-        }
-
         function toggleStatsSection(headerEl, sectionId) {
             const contentId = sectionId + '-content';
             const content = document.getElementById(contentId);
@@ -2362,14 +2300,6 @@
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto;">
                         <!-- Small Heats -->
                         <div>
-                            <div style="margin-bottom: 24px; padding: 16px; background: var(--bg-secondary); border-radius: 6px;">
-                                <div style="font-size: 0.85em; color: var(--text-secondary); margin-bottom: 12px; font-weight: 500;">Filter by competitor count:</div>
-                                <div style="display: flex; align-items: center; gap: 12px;">
-                                    <input type="range" class="heatsize-range-min" min="1" max="3" value="1" oninput="filterHeatsBySize()" style="flex: 1; height: 6px; border-radius: 3px; background: var(--bg-tertiary); outline: none; -webkit-appearance: none; appearance: none;">
-                                    <input type="range" class="heatsize-range-max" min="1" max="3" value="3" oninput="filterHeatsBySize()" style="flex: 1; height: 6px; border-radius: 3px; background: var(--bg-tertiary); outline: none; -webkit-appearance: none; appearance: none;">
-                                    <span class="heatsize-range-display" style="min-width: 50px; text-align: center; font-size: 0.9em; font-weight: 600; color: var(--accent);">1-3</span>
-                                </div>
-                            </div>
                             <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600; cursor: pointer; user-select: none;" onclick="toggleStatsSection(this, 'small-heats')">
                                 <span style="display: inline-block; margin-right: 8px; transition: transform 0.2s;">▼</span>🤏 Heats with 3 or Fewer
                             </div>
