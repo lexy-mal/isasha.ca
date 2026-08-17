@@ -820,6 +820,15 @@
                 display: none;
             }
 
+            /* iOS Safari auto-zooms the viewport when focusing any text input/select
+               under 16px, and doesn't reliably zoom back out on blur. Several filters
+               use smaller inline font-sizes for compact layout; force them back to the
+               zoom-safe minimum here rather than on desktop, where it's not an issue. */
+            input[type="text"],
+            select {
+                font-size: 16px !important;
+            }
+
             .main-content {
                 grid-template-columns: 1fr;
                 gap: 0;
