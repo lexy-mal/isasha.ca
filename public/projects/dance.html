@@ -2073,6 +2073,20 @@
             }, 150);
         }
 
+        function toggleStatsSection(headerEl, sectionId) {
+            const contentId = sectionId + '-content';
+            const content = document.getElementById(contentId);
+            const toggle = headerEl.querySelector('span');
+
+            if (content.style.display === 'none') {
+                content.style.display = 'flex';
+                toggle.style.transform = 'rotate(0deg)';
+            } else {
+                content.style.display = 'none';
+                toggle.style.transform = 'rotate(-90deg)';
+            }
+        }
+
         function searchAndSelect(name) {
             document.getElementById('searchInput').value = name;
             displayParticipants(name);
@@ -2126,8 +2140,10 @@
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto;">
                         <!-- Small Heats -->
                         <div>
-                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600;">🤏 Heats with 3 or Fewer</div>
-                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600; cursor: pointer; user-select: none;" onclick="toggleStatsSection(this, 'small-heats')">
+                                <span style="display: inline-block; margin-right: 8px; transition: transform 0.2s;">▼</span>🤏 Heats with 3 or Fewer
+                            </div>
+                            <div id="small-heats-content" style="display: flex; flex-direction: column; gap: 8px;">
             `;
 
             if (smallHeats.length === 0) {
@@ -2152,8 +2168,10 @@
 
                         <!-- Top 5 Largest Heats -->
                         <div>
-                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600;">🏆 Top 5 Largest Heats</div>
-                            <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600; cursor: pointer; user-select: none;" onclick="toggleStatsSection(this, 'top-heats')">
+                                <span style="display: inline-block; margin-right: 8px; transition: transform 0.2s;">▼</span>🏆 Top 5 Largest Heats
+                            </div>
+                            <div id="top-heats-content" style="display: flex; flex-direction: column; gap: 8px;">
             `;
 
             topHeats.forEach((h, idx) => {
