@@ -608,7 +608,6 @@
 
         /* Detail overlay styles - base (hidden on desktop) */
         .detail-overlay {
-            display: none;
             position: fixed;
             inset: 0;
             background: var(--bg-primary);
@@ -616,16 +615,18 @@
             flex-direction: column;
             opacity: 0;
             transition: opacity 0.3s ease;
+            display: none;
+            pointer-events: none;
         }
 
         .detail-overlay.active {
-            display: flex;
+            display: flex !important;
             opacity: 1;
+            pointer-events: auto;
         }
 
         .detail-back-btn,
-        .detail-header,
-        .detail-overlay {
+        .detail-header {
             display: none; /* Hidden until mobile media query shows them */
         }
 
