@@ -2340,11 +2340,7 @@
             let html = `
                 <div style="padding:12px 8px;display:flex;flex-direction:column;height:100vh;overflow:hidden;">
                     <div style="margin-bottom:10px;flex-shrink:0;">
-                        <input type="text" class="home-heats-participant-filter" placeholder="Participant..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
-
-                        <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
-
-                        <div style="margin-bottom:0;">
+                        <div style="margin-bottom:6px;">
                             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
                                 <label style="font-size:0.75em;color:var(--text-secondary);">Size:</label>
                                 <span class="home-heats-range-value" style="font-size:0.75em;color:var(--text-secondary);font-weight:600;">1-${Math.max(...allHeats.map(h => h.competitors))}</span>
@@ -2352,6 +2348,10 @@
                             <input type="range" class="home-heats-competitors-min" min="1" max="${Math.max(...allHeats.map(h => h.competitors))}" value="1" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:4px;border-radius:2px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;margin-bottom:4px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
                             <input type="range" class="home-heats-competitors-max" min="1" max="${Math.max(...allHeats.map(h => h.competitors))}" value="${Math.max(...allHeats.map(h => h.competitors))}" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:4px;border-radius:2px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
                         </div>
+
+                        <input type="text" class="home-heats-participant-filter" placeholder="Participant..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
+
+                        <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:0;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
                     </div>
 
                     <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);gap:10px;margin-bottom:8px;overflow-y:auto;max-height:320px;padding-right:4px;">
