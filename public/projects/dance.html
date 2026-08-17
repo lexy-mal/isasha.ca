@@ -2557,7 +2557,7 @@
 
             let html = '';
             if (suggestions.length > 0) {
-                html = suggestions.map(name => `<div class="suggestion-item" onclick="selectParticipant('${name}')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg-tertiary);font-size:0.85em;">${name}</div>`).join('');
+                html = suggestions.map(name => `<div class="suggestion-item" onclick="selectParticipantFromSuggestion('${name}')" style="padding:8px 12px;cursor:pointer;border-bottom:1px solid var(--bg-tertiary);font-size:0.85em;">${name}</div>`).join('');
             } else if (value.length > 0) {
                 html = `<div style="padding:8px 12px;color:var(--text-secondary);font-size:0.85em;">No matches</div>`;
             }
@@ -2573,7 +2573,7 @@
             if (box) box.innerHTML = html || '';
         }
 
-        function selectParticipant(name) {
+        function selectParticipantFromSuggestion(name) {
             const input = document.querySelector('.home-heats-participant-filter');
             input.value = name;
             document.getElementById('participant-suggestions').innerHTML = '';
