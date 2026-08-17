@@ -35,3 +35,4 @@ out/
 
 # Git worktrees
 .worktrees/
+.playwright-mcp/

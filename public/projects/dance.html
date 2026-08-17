@@ -1791,6 +1791,13 @@
                 `;
             }
 
+            html += `
+                <div class="opponent-filter-section" style="margin: 24px 0 16px 0;">
+                    <input type="text" class="opponent-filter-input" placeholder="Filter heats by opponent name..." oninput="filterHeatsByOpponent(this.value, this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
+                    <div class="opponent-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:6px;"></div>
+                </div>
+            `;
+
             html += `<div class="events-list">
             `;
 
@@ -1821,8 +1828,13 @@
                 const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
                 const isCompleted = isEventCompleted(info.entries[0]?.time);
                 const completedClass = isCompleted ? ' completed' : '';
+                const opponentNamesAttr = competitors
+                    .filter(c => c !== name)
+                    .join(' | ')
+                    .toLowerCase()
+                    .replace(/"/g, '&quot;');
 
-                html += `<div class="event-item collapsed${completedClass}" id="${eventId}" onclick="toggleEvent(this)">`;
+                html += `<div class="event-item collapsed${completedClass}" id="${eventId}" data-competitors="${opponentNamesAttr}" onclick="toggleEvent(this)">`;
                 const myPlacement = getPersonPlacement(name, info.heat, info.event);
                 const placementBadge = myPlacement
                     ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
@@ -1956,6 +1968,27 @@
 
             html += '</div>';
             contentElement.innerHTML = html;
+        }
+
+        function filterHeatsByOpponent(value, inputEl) {
+            const query = value.trim().toLowerCase();
+            const container = inputEl.closest('#contentDisplay, #detailContentDisplay');
+            if (!container) return;
+
+            const items = container.querySelectorAll('.events-list > .event-item');
+            let visibleCount = 0;
+
+            items.forEach(item => {
+                const competitors = item.dataset.competitors || '';
+                const match = !query || competitors.includes(query);
+                item.style.display = match ? '' : 'none';
+                if (match) visibleCount++;
+            });
+
+            const countEl = container.querySelector('.opponent-filter-count');
+            if (countEl) {
+                countEl.textContent = query ? `${visibleCount} of ${items.length} heats shown` : '';
+            }
         }
 
         function searchAndSelect(name) {
