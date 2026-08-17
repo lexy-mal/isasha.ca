@@ -1657,11 +1657,26 @@
                             </div>
                         </div>
                         <div class="event-details" style="display: none;">
-                            <div style="margin-bottom: 24px;">
-                                <div style="font-size: 0.85em; color: var(--text-secondary); margin-bottom: 12px; padding: 8px; background: var(--bg-secondary); border-radius: 4px;">
-                                    <div style="font-weight: 600; color: var(--text-primary); margin-bottom: 8px;">All Opponent Names</div>
-                                    ${Object.keys(partnerCompetitors).length > 0 ? `<div style="margin-bottom: 8px;"><strong style="color: var(--accent);">💃 Partners:</strong><br>${Object.keys(partnerCompetitors).sort().map(formatName).join(', ')}</div>` : ''}
-                                    ${Object.keys(allCompetitors).length > 0 ? `<div><strong style="color: var(--accent);">👥 Others:</strong><br>${Object.keys(allCompetitors).sort().map(formatName).join(', ')}</div>` : ''}
+                            <!-- Level 1: Names only -->
+                            <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-secondary); border-radius: 4px; cursor: pointer;" onclick="toggleOpponentDetail(this, 'opp-names-${name}')">
+                                <div style="display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-primary);">
+                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
+                                    All Opponent Names
+                                </div>
+                                <div id="opp-names-${name}" style="display: none; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--bg-tertiary); font-size: 0.85em; color: var(--text-secondary);">
+                                    ${Object.keys(partnerCompetitors).length > 0 ? Object.keys(partnerCompetitors).sort().map(formatName).join(', ') + (Object.keys(allCompetitors).length > 0 ? ', ' : '') : ''}${Object.keys(allCompetitors).length > 0 ? Object.keys(allCompetitors).sort().map(formatName).join(', ') : ''}
+                                </div>
+                            </div>
+
+                            <!-- Level 2: Breakdown by type -->
+                            <div style="margin-bottom: 16px; padding: 12px; background: var(--bg-secondary); border-radius: 4px; cursor: pointer;" onclick="toggleOpponentDetail(this, 'opp-breakdown-${name}')">
+                                <div style="display: flex; align-items: center; gap: 6px; font-weight: 600; color: var(--text-primary);">
+                                    <span style="display: inline-block; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
+                                    Opponent Breakdown
+                                </div>
+                                <div id="opp-breakdown-${name}" style="display: none; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--bg-tertiary); font-size: 0.85em;">
+                                    ${Object.keys(partnerCompetitors).length > 0 ? `<div style="margin-bottom: 8px; padding: 6px; background: var(--bg-tertiary); border-radius: 3px;"><strong style="color: var(--accent);">💃 Partners:</strong> ${Object.keys(partnerCompetitors).length}</div>` : ''}
+                                    ${Object.keys(allCompetitors).length > 0 ? `<div style="padding: 6px; background: var(--bg-tertiary); border-radius: 3px;"><strong style="color: var(--accent);">👥 Others:</strong> ${Object.keys(allCompetitors).length}</div>` : ''}
                                 </div>
                             </div>
 `;
@@ -2106,6 +2121,20 @@
         }
 
         function toggleHeatDetail(el, detailId) {
+            event.stopPropagation();
+            const detail = document.getElementById(detailId);
+            const toggle = el.querySelector('span');
+
+            if (detail.style.display === 'none') {
+                detail.style.display = 'block';
+                toggle.style.transform = 'rotate(0deg)';
+            } else {
+                detail.style.display = 'none';
+                toggle.style.transform = 'rotate(-90deg)';
+            }
+        }
+
+        function toggleOpponentDetail(el, detailId) {
             event.stopPropagation();
             const detail = document.getElementById(detailId);
             const toggle = el.querySelector('span');
