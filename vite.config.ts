@@ -27,6 +27,7 @@
 
   export default defineConfig({
     plugins: [gaScriptPlugin, react()],
+    publicDir: 'public',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
