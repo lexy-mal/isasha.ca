@@ -396,6 +396,42 @@
             color: var(--text-primary);
         }
 
+        .opponent-filter-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 6px;
+            margin-top: 4px;
+            max-height: 240px;
+            overflow-y: auto;
+            z-index: 10;
+        }
+
+        .opponent-suggestion-item {
+            padding: 10px 14px;
+            cursor: pointer;
+            border-bottom: 1px solid var(--bg-tertiary);
+            font-size: 0.9em;
+        }
+
+        .opponent-suggestion-item:last-child {
+            border-bottom: none;
+        }
+
+        .opponent-suggestion-item:hover {
+            background: var(--bg-tertiary);
+            color: var(--accent);
+        }
+
+        .opponent-suggestion-empty {
+            padding: 10px 14px;
+            color: var(--text-secondary);
+            font-size: 0.85em;
+        }
+
         .competitors-title {
             font-size: 0.9em;
             text-transform: uppercase;
@@ -1791,9 +1827,12 @@
                 `;
             }
 
+            const opponentsAttr = [...allEventCompetitors].sort().join('|').replace(/"/g, '&quot;');
+
             html += `
-                <div class="opponent-filter-section" style="margin: 24px 0 16px 0;">
-                    <input type="text" class="opponent-filter-input" placeholder="Filter heats by opponent name..." oninput="filterHeatsByOpponent(this.value, this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
+                <div class="opponent-filter-section" style="margin: 24px 0 16px 0; position: relative;">
+                    <input type="text" class="opponent-filter-input" placeholder="Filter heats by opponent name..." autocomplete="off" data-all-opponents="${opponentsAttr}" oninput="filterHeatsByOpponent(this.value, this)" onfocus="filterHeatsByOpponent(this.value, this)" onblur="hideOpponentSuggestions(this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
+                    <div class="opponent-filter-suggestions" style="display:none;"></div>
                     <div class="opponent-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:6px;"></div>
                 </div>
             `;
@@ -1989,6 +2028,48 @@
             if (countEl) {
                 countEl.textContent = query ? `${visibleCount} of ${items.length} heats shown` : '';
             }
+
+            renderOpponentSuggestions(query, inputEl);
+        }
+
+        function renderOpponentSuggestions(query, inputEl) {
+            const suggestionsEl = inputEl.parentElement.querySelector('.opponent-filter-suggestions');
+            if (!suggestionsEl) return;
+
+            if (!query) {
+                suggestionsEl.style.display = 'none';
+                suggestionsEl.innerHTML = '';
+                return;
+            }
+
+            const allOpponents = (inputEl.dataset.allOpponents || '').split('|').filter(Boolean);
+            const matches = allOpponents.filter(o => o.toLowerCase().includes(query)).sort();
+
+            if (matches.length === 0) {
+                suggestionsEl.innerHTML = `<div class="opponent-suggestion-empty">No opponents match "${query}"</div>`;
+                suggestionsEl.style.display = 'block';
+                return;
+            }
+
+            suggestionsEl.innerHTML = matches.map(o =>
+                `<div class="opponent-suggestion-item" onmousedown="selectOpponentSuggestion('${o.replace(/'/g, "\\'")}', this)">${o}</div>`
+            ).join('');
+            suggestionsEl.style.display = 'block';
+        }
+
+        function selectOpponentSuggestion(name, el) {
+            const suggestionsEl = el.closest('.opponent-filter-suggestions');
+            const inputEl = suggestionsEl.parentElement.querySelector('.opponent-filter-input');
+            inputEl.value = name;
+            filterHeatsByOpponent(name, inputEl);
+            suggestionsEl.style.display = 'none';
+        }
+
+        function hideOpponentSuggestions(inputEl) {
+            setTimeout(() => {
+                const suggestionsEl = inputEl.parentElement.querySelector('.opponent-filter-suggestions');
+                if (suggestionsEl) suggestionsEl.style.display = 'none';
+            }, 150);
         }
 
         function searchAndSelect(name) {
