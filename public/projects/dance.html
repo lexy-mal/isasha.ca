@@ -795,6 +795,29 @@
         .event-item.completed .event-title {
             color: var(--text-secondary);
         }
+
+        #view-tabs {
+            display: none;
+        }
+
+        .sidebar.hidden {
+            display: none;
+        }
+
+        .content-area.hidden {
+            display: none;
+        }
+
+        @media (max-width: 600px) {
+            #view-tabs {
+                display: flex !important;
+            }
+
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -818,7 +841,12 @@
             <button onclick="clearSearch()">Clear</button>
         </div>
 
-        <div class="main-content">
+        <div id="view-tabs" style="display:none;margin-bottom:12px;gap:0;border-bottom:1px solid var(--bg-tertiary);">
+            <button onclick="switchView('participants')" id="tab-participants" style="flex:1;padding:12px;background:var(--accent);border:none;color:var(--bg-primary);font-weight:600;cursor:pointer;border-radius:0;">Participants</button>
+            <button onclick="switchView('events')" id="tab-events" style="flex:1;padding:12px;background:transparent;border:none;color:var(--text-secondary);cursor:pointer;border-radius:0;border-bottom:2px solid transparent;">Events</button>
+        </div>
+
+        <div class="main-content" id="main-content">
             <div class="sidebar">
                 <div class="sidebar-header">Recently Viewed</div>
                 <div id="recentlyViewedContainer" style="margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--bg-tertiary);"></div>
@@ -2430,6 +2458,29 @@
         function homeHeatsGoToPage(page) {
             sessionStorage.setItem('homeHeatsPage', page);
             filterHomeHeats();
+        }
+
+        function switchView(view) {
+            const sidebar = document.querySelector('.sidebar');
+            const contentArea = document.querySelector('.content-area');
+            const tabParticipants = document.getElementById('tab-participants');
+            const tabEvents = document.getElementById('tab-events');
+
+            if (view === 'participants') {
+                sidebar.classList.remove('hidden');
+                contentArea.classList.add('hidden');
+                tabParticipants.style.background = 'var(--accent)';
+                tabParticipants.style.color = 'var(--bg-primary)';
+                tabEvents.style.background = 'transparent';
+                tabEvents.style.color = 'var(--text-secondary)';
+            } else {
+                sidebar.classList.add('hidden');
+                contentArea.classList.remove('hidden');
+                tabEvents.style.background = 'var(--accent)';
+                tabEvents.style.color = 'var(--bg-primary)';
+                tabParticipants.style.background = 'transparent';
+                tabParticipants.style.color = 'var(--text-secondary)';
+            }
         }
 
         function clearSearch() {
