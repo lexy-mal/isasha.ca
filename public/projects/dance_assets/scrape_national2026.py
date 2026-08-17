@@ -42,31 +42,51 @@ def extract_table_divs(html):
 
 
 def parse_entry_div(table_id, content):
-    """Parse a single entry div to extract person and events"""
-    # Extract person name from "Entries for X"
+    """Parse a single entry div to extract person and their events.
+
+    A person's div holds one "With <partner>" heading per partner, each followed
+    by a table of the events they dance together; an empty heading ("With ")
+    introduces their solo events. Dancers commonly have several partners, so each
+    event must keep the partner from its own section - reading a single partner
+    for the whole div attributes every event to whoever happens to come first.
+
+    The source HTML closes most of these tables with a malformed "</table"
+    (no closing bracket), so sections are split on the headings themselves
+    rather than on table boundaries.
+    """
     person_match = re.search(r'<strong>Entries for\s+(.+?)</strong>', content)
     if not person_match:
         return None
 
     person = person_match.group(1).strip()
 
-    # Extract partner from "With Y"
-    partner_match = re.search(r'<strong>With\s+(.+?)</strong>', content)
-    partner = partner_match.group(1).strip() if partner_match else None
+    # Note "\s*(.*?)" not "\s+(.+?)": the solo heading has an empty name.
+    headings = list(re.finditer(r'<strong>With\s*(.*?)</strong>', content, re.DOTALL))
 
-    # Extract events from table rows
+    sections = []
+    if headings:
+        # Anything between "Entries for" and the first heading has no partner.
+        sections.append((None, content[person_match.end():headings[0].start()]))
+        for index, heading in enumerate(headings):
+            end = headings[index + 1].start() if index + 1 < len(headings) else len(content)
+            sections.append((heading.group(1).strip() or None, content[heading.end():end]))
+    else:
+        sections.append((None, content[person_match.end():]))
+
     event_pattern = r'<tr><td>(.+?)</td></tr>'
-    events = re.findall(event_pattern, content)
-
-    # Remove "Event" header (appears as first row in each person's section)
-    events = [e for e in events if e.strip() != 'Event']
+    events = []
+    for partner, section in sections:
+        for event in re.findall(event_pattern, section, re.DOTALL):
+            event = event.strip()
+            # "Event" is the header row repeated at the top of every table.
+            if event and event != 'Event':
+                events.append({'event': event, 'partner': partner})
 
     if not events:
         return None
 
     return {
         'person': person,
-        'partner': partner,  # Partner info - will be filtered per event
         'events': events
     }
 
@@ -80,24 +100,18 @@ def build_participants(entries):
             continue
 
         person = entry['person']
-        partner = entry['partner']
 
         if person not in participants:
             participants[person] = {'entries': []}
 
-        # Add entry for each event
-        for event in entry['events']:
-            # Determine if solo or couple event
-            is_solo = 'solo' in event.lower()
-            # Include partner info only if it's NOT a solo event
-            event_partner = partner if not is_solo else None
-
+        # Each event carries the partner from its own "With" section.
+        for item in entry['events']:
             participants[person]['entries'].append({
                 'heat': '',  # Not available in National 2026 format
-                'event': event,
+                'event': item['event'],
                 'time': '',  # Not available
                 'session': '',  # Not available
-                'partner': event_partner
+                'partner': item['partner']
             })
 
     return participants
@@ -112,9 +126,9 @@ def build_heat_events(entries):
             continue
 
         person = entry['person']
-        partner = entry['partner']
 
-        for event in entry['events']:
+        for item in entry['events']:
+            event = item['event']
             # Use event as key since we don't have heat numbers
             key = event
 

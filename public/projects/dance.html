@@ -1880,8 +1880,11 @@
                 if (!eventInfo) return;
 
                 const competitors = eventInfo.competitors || [];
-                const partner = info.entries[0]?.partner;
-                const isCoupleEvent = !!partner; // If person has a partner in this event, it's a couple event
+                // In pro-am "MIXED" events a teacher dances the same event with several
+                // students, so one event can carry more than one partner.
+                const eventPartners = [...new Set(info.entries.map(e => e.partner).filter(p => p))];
+                const partner = eventPartners[0];
+                const isCoupleEvent = eventPartners.length > 0;
                 const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
                 const isCompleted = isEventCompleted(info.entries[0]?.time);
                 const completedClass = isCompleted ? ' completed' : '';
@@ -1943,12 +1946,12 @@
                     html += `
                         <div class="partner-section">
                             <div class="partner-label">Dancing with</div>
-                            <div class="partner-name">${partner}</div>
+                            <div class="partner-name">${eventPartners.join(' & ')}</div>
                         </div>
                     `;
 
-                    // Show other competitors as couples (excluding self and partner)
-                    const otherCompetitors = competitors.filter(c => c !== name && c !== partner);
+                    // Show other competitors as couples (excluding self and own partners)
+                    const otherCompetitors = competitors.filter(c => c !== name && !eventPartners.includes(c));
 
                     if (otherCompetitors.length > 0) {
                         html += `<div class="competitors-title">Other Competitors</div>`;
