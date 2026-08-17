@@ -2105,6 +2105,20 @@
             }
         }
 
+        function toggleHeatDetail(el, detailId) {
+            event.stopPropagation();
+            const detail = document.getElementById(detailId);
+            const toggle = el.querySelector('span');
+
+            if (detail.style.display === 'none') {
+                detail.style.display = 'block';
+                toggle.style.transform = 'rotate(0deg)';
+            } else {
+                detail.style.display = 'none';
+                toggle.style.transform = 'rotate(-90deg)';
+            }
+        }
+
         function searchAndSelect(name) {
             document.getElementById('searchInput').value = name;
             displayParticipants(name);
@@ -2183,8 +2197,20 @@
                                 </div>
                                 <div id="${countId}" style="display: none; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bg-tertiary); max-height: 300px; overflow-y: auto;">
                         `;
-                        heatsForCount.forEach(h => {
-                            html += `<div style="font-size: 0.85em; color: var(--text-primary); padding: 6px 0; border-bottom: 1px solid var(--bg-tertiary);">${h.name}</div>`;
+                        heatsForCount.forEach((h, idx) => {
+                            const heatDetailId = `${countId}-heat-${idx}`;
+                            html += `
+                                <div style="padding: 8px; margin-bottom: 6px; background: var(--bg-tertiary); border-radius: 3px; cursor: pointer;" onclick="toggleHeatDetail(this, '${heatDetailId}')">
+                                    <div style="display: flex; align-items: center; gap: 6px;">
+                                        <span style="display: inline-block; font-size: 0.75em; transform: rotate(-90deg); transition: transform 0.2s;">▼</span>
+                                        <div style="flex: 1; font-size: 0.85em; color: var(--text-primary);">${h.name}</div>
+                                        <div style="font-size: 0.7em; color: var(--text-secondary);">${count} comp.</div>
+                                    </div>
+                                    <div id="${heatDetailId}" style="display: none; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--bg-secondary); font-size: 0.75em; color: var(--text-secondary);">
+                                        ${count} competitor${count !== 1 ? 's' : ''}
+                                    </div>
+                                </div>
+                            `;
                         });
                         html += `
                                 </div>
