@@ -1855,7 +1855,13 @@
                 </div>
             `;
 
-            html += `<div class="events-list">
+            html += `
+                <div style="margin: 24px 0 16px 0;">
+                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByName(this.value)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
+                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:6px;"></div>
+                </div>
+
+                <div class="events-list">
             `;
 
             const byHeatEvent = {};
@@ -2104,6 +2110,28 @@
                 const suggestionsEl = inputEl.parentElement.querySelector('.opponent-filter-suggestions');
                 if (suggestionsEl) suggestionsEl.style.display = 'none';
             }, 150);
+        }
+
+        function filterEventsByName(query) {
+            const value = query.trim().toLowerCase();
+            const container = document.querySelector('#contentDisplay, #detailContentDisplay');
+            if (!container) return;
+
+            const eventItems = container.querySelectorAll('.events-list > .event-item');
+            let visibleCount = 0;
+
+            eventItems.forEach(item => {
+                const eventTitle = item.querySelector('.event-title');
+                const eventName = eventTitle ? eventTitle.textContent.toLowerCase() : '';
+                const match = !value || eventName.includes(value);
+                item.style.display = match ? '' : 'none';
+                if (match) visibleCount++;
+            });
+
+            const countEl = container.querySelector('.event-filter-count');
+            if (countEl) {
+                countEl.textContent = value ? `${visibleCount} of ${eventItems.length} events shown` : '';
+            }
         }
 
         function toggleStatsSection(headerEl, sectionId) {
