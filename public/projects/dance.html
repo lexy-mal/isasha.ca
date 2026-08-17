@@ -2467,7 +2467,7 @@
                             </div>
                             <div id="${detailsId}" style="display:none;background:var(--bg-primary);border-top:1px solid var(--bg-tertiary);padding:8px;font-size:0.75em;line-height:1.4;max-height:200px;overflow-y:auto;">
                                 <div style="font-weight:600;color:var(--accent);margin-bottom:6px;">▼ ${heat.competitors} Participant${heat.competitors !== 1 ? 's' : ''}:</div>
-                                ${heat.competitorList.map(p => `<div style="color:var(--text-secondary);margin-bottom:4px;">• ${p}</div>`).join('')}
+                                ${heat.competitorList.map(p => `<div style="color:var(--text-secondary);margin-bottom:4px;">• <span style="color:var(--accent);cursor:pointer;text-decoration:underline;" onclick="selectParticipant('${p}', null)">${p}</span></div>`).join('')}
                             </div>
                         </div>
                     `;
