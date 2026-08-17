@@ -1915,11 +1915,11 @@
 
             html += `
                 <div style="margin: 24px 0 16px 0;">
-                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents()" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
+                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents()" onchange="filterEventsByNameAndOpponents()" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
                     <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
                         <label style="font-size:0.9em;color:var(--text-secondary);min-width:140px;">Participant count:</label>
-                        <input type="range" class="event-opponents-filter-min" min="1" max="50" value="1" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
-                        <input type="range" class="event-opponents-filter-max" min="1" max="50" value="50" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                        <input type="range" class="event-opponents-filter-min" min="1" max="50" value="1" oninput="filterEventsByNameAndOpponents()" onchange="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                        <input type="range" class="event-opponents-filter-max" min="1" max="50" value="50" oninput="filterEventsByNameAndOpponents()" onchange="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
                         <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);min-width:70px;text-align:right;">1-50</span>
                     </div>
                     <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);"></div>
