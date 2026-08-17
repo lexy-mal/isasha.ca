@@ -836,27 +836,19 @@
 
             #home-heats-list {
                 grid-template-columns: 1fr !important;
+                /* Default grid-auto-rows:auto collapses a row to less than its
+                   item's content height when that item has overflow:hidden (used
+                   here to clip the card's rounded corners) — a well-known Grid
+                   quirk where overflow resets the item's content-based automatic
+                   minimum size. min-content sizes the row off the item's actual
+                   content instead, so the bottom of each tile stops getting cut off. */
+                grid-auto-rows: min-content !important;
                 gap: 6px !important;
                 max-height: 600px !important;
             }
 
             #home-heats-list > div {
                 padding: 6px !important;
-            }
-
-            #home-heats-list > div > div:nth-child(3),
-            #home-heats-list > div > div:nth-child(4) {
-                display: none;
-            }
-
-            #home-heats-list > div > div:nth-child(1) {
-                font-size: 0.75em !important;
-                margin-bottom: 4px !important;
-            }
-
-            #home-heats-list > div > div:nth-child(2) {
-                font-size: 1.2em !important;
-                margin-bottom: 0 !important;
             }
         }
     </style>
