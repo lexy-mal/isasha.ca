@@ -1430,6 +1430,7 @@
 
                 displayRecentlyViewed();
                 displayParticipants();
+                document.getElementById('contentDisplay').innerHTML = getHomeStats();
 
                 // Initialize countdown timer - updates every second
                 setInterval(updateDetailCountdown, 1000);
@@ -2095,13 +2096,93 @@
             overlay.classList.remove('active');
         }
 
+        function getHomeStats() {
+            // Organize by heat (or event name if heat is empty, as in National 2026)
+            const heatStats = {};
+            heatEventsData.forEach(he => {
+                const key = he.heat || he.event; // Use event name if heat is empty
+                if (!heatStats[key]) {
+                    heatStats[key] = { name: key, competitors: he.competitors.length };
+                }
+            });
+
+            const heats = Object.values(heatStats);
+            const smallHeats = heats.filter(h => h.competitors <= 3).sort((a, b) => a.competitors - b.competitors);
+            const topHeats = [...heats].sort((a, b) => b.competitors - a.competitors).slice(0, 5);
+
+            // Count by competitor size for summary
+            const smallBySizes = {};
+            smallHeats.forEach(h => {
+                smallBySizes[h.competitors] = (smallBySizes[h.competitors] || 0) + 1;
+            });
+
+            let html = `
+                <div style="padding: 40px 20px;">
+                    <div style="text-align: center; margin-bottom: 50px;">
+                        <div style="font-size: 2em; color: var(--accent); margin-bottom: 12px;">👥</div>
+                        <div style="font-size: 1.2em; color: var(--text-secondary);">Select a participant</div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; max-width: 1000px; margin: 0 auto;">
+                        <!-- Small Heats -->
+                        <div>
+                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600;">🤏 Heats with 3 or Fewer</div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+            `;
+
+            if (smallHeats.length === 0) {
+                html += `<div style="font-size: 0.9em; color: var(--text-secondary); padding: 12px; background: var(--bg-secondary); border-radius: 4px;">None</div>`;
+            } else {
+                // Show breakdown by competitor count
+                [1, 2, 3].forEach(count => {
+                    if (smallBySizes[count]) {
+                        html += `
+                            <div style="padding: 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent-dim); margin-bottom: 8px;">
+                                <div style="font-weight: 600; color: var(--text-primary);">${smallBySizes[count]} event${smallBySizes[count] !== 1 ? 's' : ''}</div>
+                                <div style="font-size: 0.8em; color: var(--text-secondary);">${count} competitor${count !== 1 ? 's' : ''}</div>
+                            </div>
+                        `;
+                    }
+                });
+            }
+
+            html += `
+                            </div>
+                        </div>
+
+                        <!-- Top 5 Largest Heats -->
+                        <div>
+                            <div style="font-size: 0.9em; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-secondary); margin-bottom: 16px; font-weight: 600;">🏆 Top 5 Largest Heats</div>
+                            <div style="display: flex; flex-direction: column; gap: 8px;">
+            `;
+
+            topHeats.forEach((h, idx) => {
+                html += `
+                    <div style="padding: 10px 12px; background: var(--bg-secondary); border-radius: 4px; border-left: 3px solid var(--accent);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px;">
+                            <div style="font-weight: 500; color: var(--text-primary); font-size: 0.95em; flex: 1;">${h.name}</div>
+                            <div style="font-size: 0.8em; font-weight: 600; color: var(--accent); white-space: nowrap;">#${idx + 1}</div>
+                        </div>
+                        <div style="font-size: 0.75em; color: var(--text-secondary); margin-top: 4px;">${h.competitors} competitor${h.competitors !== 1 ? 's' : ''}</div>
+                    </div>
+                `;
+            });
+
+            html += `
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            return html;
+        }
+
         function clearSearch() {
             document.getElementById('searchInput').value = '';
             displayParticipants();
             closeDetailView(); // Close overlay when clearing search
             displayRecentlyViewed();
-            document.getElementById('contentDisplay').innerHTML =
-                '<div class="no-results"><div class="no-results-icon">→</div><div>Select a participant</div></div>';
+            document.getElementById('contentDisplay').innerHTML = getHomeStats();
         }
 
         // Toggle event details (expand/collapse)
