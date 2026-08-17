@@ -816,14 +816,14 @@
         "event": "G- SOLO - Bronze Argentine Tango",
         "time": "04:08PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Dewar, Jason"
+        "partner": null
       },
       {
         "heat": "Heat 73",
         "event": "G- SOLO - Bronze Bolero",
         "time": "04:32PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Namazi, Mehdi"
+        "partner": null
       },
       {
         "heat": "Heat 78",
@@ -1083,7 +1083,7 @@
         "event": "L- SOLO - Bronze 1 Tango",
         "time": "11:23AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 206",
@@ -1252,7 +1252,7 @@
         "event": "AC-JR SOLO SHOWDANCE - \"Chin Chin\"",
         "time": "03:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lin, Belle"
+        "partner": null
       },
       {
         "heat": "Heat 349A",
@@ -2175,7 +2175,7 @@
         "event": "AC-JR SOLO - Showdance",
         "time": "03:18PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Lester, Edwin"
+        "partner": null
       }
     ]
   },
@@ -2186,14 +2186,14 @@
         "event": "AC- SOLO -",
         "time": "05:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Smodleva, Barabara"
+        "partner": null
       },
       {
         "heat": "Heat 286",
         "event": "AC- SOLO - 2",
         "time": "06:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Smodleva, Barabara"
+        "partner": null
       },
       {
         "heat": "Heat 358",
@@ -3355,14 +3355,14 @@
         "event": "L- SOLO - Showdance",
         "time": "04:00PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 76",
         "event": "L- SOLO - Mixed-Am Showdance",
         "time": "04:24PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       },
       {
         "heat": "Heat 83",
@@ -4464,7 +4464,7 @@
         "event": "G- SOLO - Bronze Argentine Tango",
         "time": "04:08PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Artemenko, Kamila"
+        "partner": null
       },
       {
         "heat": "Heat 78",
@@ -6034,7 +6034,7 @@
         "event": "L- SOLO - Medley",
         "time": "04:12PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Gordon, Tyler"
+        "partner": null
       },
       {
         "heat": "Heat 78",
@@ -6666,7 +6666,7 @@
         "event": "L- SOLO - Medley",
         "time": "04:12PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Goldberger, Andrea"
+        "partner": null
       },
       {
         "heat": "Heat 78",
@@ -6834,7 +6834,7 @@
         "event": "L- SOLO - Bronze Waltz",
         "time": "12:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Lin, Clara"
+        "partner": null
       },
       {
         "heat": "Heat 197",
@@ -8804,7 +8804,7 @@
         "event": "L- SOLO - \"Better When I'm Dancing\"",
         "time": "04:20PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Rotova, Tatiana"
+        "partner": null
       },
       {
         "heat": "Heat 91",
@@ -8888,7 +8888,7 @@
         "event": "L- SOLO - \"Dance The Night Away\"",
         "time": "02:46PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Rotova, Tatiana"
+        "partner": null
       },
       {
         "heat": "Heat 260",
@@ -8902,7 +8902,7 @@
         "event": "L- SOLO - \"Little Party Never Killed Nobody\"",
         "time": "06:01PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Rotova, Tatiana"
+        "partner": null
       }
     ]
   },
@@ -10216,7 +10216,7 @@
         "event": "L- SOLO - Silver Foxtrot",
         "time": "04:28PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Ma, Amelia"
+        "partner": null
       },
       {
         "heat": "Heat 141",
@@ -10904,7 +10904,7 @@
         "event": "AC-JR SOLO - Showdance",
         "time": "03:18PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Bender, Gabriella"
+        "partner": null
       }
     ]
   },
@@ -11021,7 +11021,7 @@
         "event": "AC-JR SOLO SHOWDANCE - \"Senorita\"",
         "time": "03:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Mao, Fiona"
+        "partner": null
       },
       {
         "heat": "Heat 349A",
@@ -11131,7 +11131,7 @@
         "event": "AC-JR SOLO SHOWDANCE - \"Chin Chin\"",
         "time": "03:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Azbel, Adam"
+        "partner": null
       },
       {
         "heat": "Heat 349A",
@@ -11149,7 +11149,7 @@
         "event": "L- SOLO - Bronze Waltz",
         "time": "12:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Gordon, Tyler"
+        "partner": null
       },
       {
         "heat": "Heat 197",
@@ -11944,14 +11944,14 @@
         "event": "L- SOLO - Mixed-Am Silver Open Cha Cha",
         "time": "04:04PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Zhelasko, Danny"
+        "partner": null
       },
       {
         "heat": "Heat 77",
         "event": "L- SOLO - Silver Foxtrot",
         "time": "04:28PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Lebedev, Ivan"
+        "partner": null
       },
       {
         "heat": "Heat 146",
@@ -12147,7 +12147,7 @@
         "event": "L- SOLO - Ballroom",
         "time": "06:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Olavide, Ivan Lebedev & Carlos"
+        "partner": null
       }
     ]
   },
@@ -12636,7 +12636,7 @@
         "event": "AC-JR SOLO SHOWDANCE - \"Senorita\"",
         "time": "03:38PM Sunday",
         "session": "Session 5 - Sunday Daytime",
-        "partner": "Li, Daniel"
+        "partner": null
       },
       {
         "heat": "Heat 349A",
@@ -13077,14 +13077,14 @@
         "event": "L- SOLO - \"Bodyguard\"",
         "time": "04:16PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Zapata, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 115",
         "event": "L- SOLO - \"We Found Love\"",
         "time": "07:21PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Zapata, Kamil Studenny & Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 141",
@@ -13168,14 +13168,14 @@
         "event": "L- SOLO - \"Skyfall\"",
         "time": "02:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Zapata, Kamil Studenny & Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 260A",
         "event": "L- SOLO - \"We Found Love\"",
         "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Zapata, Kamil Studenny & Carlos"
+        "partner": null
       }
     ]
   },
@@ -13186,14 +13186,14 @@
         "event": "L- SOLO - Silver Argentine Tango",
         "time": "08:35PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Olavide, Carlos"
+        "partner": null
       },
       {
         "heat": "Heat 251A",
         "event": "L- SOLO - Silver Argentine Tango",
         "time": "02:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Olavide, Carlos"
+        "partner": null
       }
     ]
   },
@@ -13888,7 +13888,7 @@
         "event": "G- SOLO - Bronze Bolero",
         "time": "04:32PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Artemenko, Kamila"
+        "partner": null
       }
     ]
   },
@@ -14548,7 +14548,7 @@
         "event": "L- SOLO - Showdance",
         "time": "04:00PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Cheuk, Maria"
+        "partner": null
       },
       {
         "heat": "Heat 81",
@@ -14688,14 +14688,14 @@
         "event": "L- SOLO - Silver Argentine Tango",
         "time": "08:35PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Miraftab, Bahar"
+        "partner": null
       },
       {
         "heat": "Heat 185",
         "event": "L- SOLO - Bronze 1 Tango",
         "time": "11:23AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Averbakh, Amy"
+        "partner": null
       },
       {
         "heat": "Heat 197",
@@ -14961,7 +14961,7 @@
         "event": "L- SOLO - Silver Argentine Tango",
         "time": "02:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Miraftab, Bahar"
+        "partner": null
       },
       {
         "heat": "Heat 253",
@@ -15119,7 +15119,7 @@
         "event": "L- SOLO - Ballroom",
         "time": "06:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Ma, Amelia"
+        "partner": null
       }
     ]
   },
@@ -17325,7 +17325,7 @@
         "event": "L- SOLO - \"Better When I'm Dancing\"",
         "time": "04:20PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Kerbel, Jordana"
+        "partner": null
       },
       {
         "heat": "Heat 78",
@@ -17661,7 +17661,7 @@
         "event": "L- SOLO - \"Dance The Night Away\"",
         "time": "02:46PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Kerbel, Jordana"
+        "partner": null
       },
       {
         "heat": "Heat 253",
@@ -17738,7 +17738,7 @@
         "event": "L- SOLO - \"Little Party Never Killed Nobody\"",
         "time": "06:01PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Kerbel, Jordana"
+        "partner": null
       }
     ]
   },
@@ -18163,14 +18163,14 @@
         "event": "L- SOLO - Open Tango",
         "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Sun, Josephen"
+        "partner": null
       },
       {
         "heat": "Heat 265",
         "event": "L- SOLO - Open Tango",
         "time": "04:39PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Tam, Christine"
+        "partner": null
       }
     ]
   },
@@ -19896,14 +19896,14 @@
         "event": "AC- SOLO -",
         "time": "05:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Bielichenko, Vasyl"
+        "partner": null
       },
       {
         "heat": "Heat 286",
         "event": "AC- SOLO - 2",
         "time": "06:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Bielichenko, Vasyl"
+        "partner": null
       }
     ]
   },
@@ -20291,7 +20291,7 @@
         "event": "AC-YTH SOLO - \"Malaguena\"",
         "time": "04:30PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Stefanov, Peter"
+        "partner": null
       },
       {
         "heat": "Heat 347",
@@ -20400,7 +20400,7 @@
         "event": "AC-AD SOLO - \"Mon Meca' Moi\"",
         "time": "04:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Stefanov, Peter"
+        "partner": null
       },
       {
         "heat": "Heat 280",
@@ -20425,14 +20425,14 @@
         "event": "AC-YTH SOLO - \"Malaguena\"",
         "time": "04:30PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Stefanov, Catherine"
+        "partner": null
       },
       {
         "heat": "Heat 269A",
         "event": "AC-AD SOLO - \"Mon Meca' Moi\"",
         "time": "04:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Stefanov, Nina"
+        "partner": null
       },
       {
         "heat": "Heat 280",
@@ -21083,7 +21083,7 @@
         "event": "L- SOLO - Open Tango",
         "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Sabir, Mohtar"
+        "partner": null
       }
     ]
   },
@@ -21407,7 +21407,7 @@
         "event": "L- SOLO - Open Tango",
         "time": "04:39PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Sabir, Mohtar"
+        "partner": null
       }
     ]
   },
@@ -23557,7 +23557,7 @@
         "event": "L- SOLO - \"Bodyguard\"",
         "time": "04:16PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Miller, Linda"
+        "partner": null
       }
     ]
   },
@@ -23568,21 +23568,21 @@
         "event": "L- SOLO - \"We Found Love\"",
         "time": "07:21PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Miller, Linda"
+        "partner": null
       },
       {
         "heat": "Heat 251B",
         "event": "L- SOLO - \"Skyfall\"",
         "time": "02:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Miller, Linda"
+        "partner": null
       },
       {
         "heat": "Heat 260A",
         "event": "L- SOLO - \"We Found Love\"",
         "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Miller, Linda"
+        "partner": null
       }
     ]
   },
@@ -23593,14 +23593,14 @@
         "event": "L- SOLO - Mixed-Am Silver Open Cha Cha",
         "time": "04:04PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Ma, Amelia"
+        "partner": null
       },
       {
         "heat": "Heat 76",
         "event": "L- SOLO - Mixed-Am Showdance",
         "time": "04:24PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Cheuk, Maria"
+        "partner": null
       },
       {
         "heat": "Heat 298",

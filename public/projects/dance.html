@@ -12,7 +12,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imperial Cup 2026</title>
+    <title>Dance Competition</title>
+    <script src="dance_assets/competition-manager.js"></script>
     <style>
         * {
             margin: 0;
@@ -702,9 +703,12 @@
 <body>
     <div class="container">
         <header>
-            <div class="subtitle">Imperial Cup 2026</div>
+            <div class="subtitle" id="competitionTitle">Dance Competition</div>
             <h1>Event Competitors</h1>
-            <div style="margin-top:8px;"><a href="results.html" style="font-size:0.75em;color:var(--accent);text-decoration:none;opacity:0.8;">🏆 View Results →</a></div>
+            <div style="margin-top:8px;display:flex;gap:12px;align-items:center;justify-content:center;">
+                <div id="competitionSelector"></div>
+                <a href="results.html" style="font-size:0.75em;color:var(--accent);text-decoration:none;opacity:0.8;">🏆 View Results →</a>
+            </div>
             <div class="stats-mini">
                 <span><strong id="totalParticipants">-</strong> Participants</span>
                 <span><strong id="totalEvents">-</strong> Events</span>
@@ -1318,19 +1322,57 @@
         // Load data from JSON files
         async function loadData() {
             try {
+                // Clear previous data and search
+                document.getElementById('searchInput').value = '';
+                document.getElementById('contentDisplay').innerHTML = '<div class="loading">Loading data...</div>';
+                document.getElementById('participantList').innerHTML = '';
+                document.getElementById('resultsCount').textContent = '0 / 0';
+                document.getElementById('recentlyViewedContainer').innerHTML = '<div style="font-size: 0.9em; color: var(--text-secondary); padding: 8px 0;">None yet</div>';
+
+                // Initialize and load competition metadata
+                if (!window.competitionManager.competitions || window.competitionManager.competitions.length === 0) {
+                    await window.competitionManager.load();
+                }
+
+                // Update UI with current competition name
+                document.getElementById('competitionTitle').textContent = window.competitionManager.getCompetitionName();
+                window.competitionManager.renderSelector('competitionSelector');
+
+                const participantsPath = window.competitionManager.getDataPath('participants.json');
+                const heatEventsPath = window.competitionManager.getDataPath('heat_events.json');
+                const resultsPath = window.competitionManager.getDataPath('results.json');
+                const personResultsPath = window.competitionManager.getDataPath('person_results.json');
+                const judgesPath = window.competitionManager.getDataPath('judges.json');
+
+                console.log('Loading from paths:', { participantsPath, heatEventsPath, resultsPath });
+
                 const [participantsRes, heatEventsRes, resultsRes, personResultsRes, judgesRes] = await Promise.all([
-                    fetch('dance_assets/participants.json'),
-                    fetch('dance_assets/heat_events.json'),
-                    fetch('dance_assets/results.json').catch(() => ({ json: () => ({}) })),
-                    fetch('dance_assets/person_results.json').catch(() => ({ json: () => ({}) })),
-                    fetch('dance_assets/judges.json').catch(() => ({ json: () => ({}) }))
+                    fetch(participantsPath),
+                    fetch(heatEventsPath),
+                    fetch(resultsPath),
+                    fetch(personResultsPath),
+                    fetch(judgesPath)
                 ]);
+
+                console.log('Fetch responses:', {
+                    participants: participantsRes.status,
+                    heatEvents: heatEventsRes.status,
+                    results: resultsRes.status
+                });
+
+                if (!participantsRes.ok) throw new Error(`Failed to load participants: ${participantsRes.status}`);
+                if (!heatEventsRes.ok) throw new Error(`Failed to load heat events: ${heatEventsRes.status}`);
 
                 participantsData = await participantsRes.json();
                 heatEventsData = await heatEventsRes.json();
-                resultsData = await resultsRes.json();
-                personResultsData = await personResultsRes.json();
-                judgesData = await judgesRes.json();
+                resultsData = resultsRes.ok ? await resultsRes.json() : {};
+                personResultsData = personResultsRes.ok ? await personResultsRes.json() : {};
+                judgesData = judgesRes.ok ? await judgesRes.json() : {};
+
+                console.log('Data loaded successfully:', {
+                    participants: Object.keys(participantsData).length,
+                    heats: heatEventsData.length
+                });
                 sortedParticipants = Object.keys(participantsData).sort();
 
                 // Update dynamic stats
@@ -1347,9 +1389,10 @@
                 // Call immediately on first load
                 updateDetailCountdown();
             } catch (error) {
-                document.getElementById('contentDisplay').innerHTML =
-                    `<div class="no-results"><div>Error loading data: ${error.message}</div></div>`;
                 console.error('Data loading error:', error);
+                const errorMsg = error.message || 'Unknown error';
+                document.getElementById('contentDisplay').innerHTML =
+                    `<div class="no-results"><div style="color:red;">Error loading data: ${errorMsg}</div><div style="font-size:0.8em;margin-top:12px;color:#999;">Check browser console for details</div></div>`;
             }
         }
 
@@ -1382,8 +1425,14 @@
             });
         }
 
+        function getRecentlyViewedKey() {
+            const compId = window.competitionManager.getActive()?.id || 'default';
+            return `danceRecentlyViewed_${compId}`;
+        }
+
         function addToRecentlyViewed(name) {
-            let recentlyViewed = JSON.parse(localStorage.getItem('danceRecentlyViewed') || '[]');
+            const key = getRecentlyViewedKey();
+            let recentlyViewed = JSON.parse(localStorage.getItem(key) || '[]');
 
             // Remove if already exists
             recentlyViewed = recentlyViewed.filter(n => n !== name);
@@ -1394,12 +1443,13 @@
             // Keep only last 10
             recentlyViewed = recentlyViewed.slice(0, 10);
 
-            localStorage.setItem('danceRecentlyViewed', JSON.stringify(recentlyViewed));
+            localStorage.setItem(key, JSON.stringify(recentlyViewed));
             displayRecentlyViewed();
         }
 
         function displayRecentlyViewed() {
-            const recentlyViewed = JSON.parse(localStorage.getItem('danceRecentlyViewed') || '[]');
+            const key = getRecentlyViewedKey();
+            const recentlyViewed = JSON.parse(localStorage.getItem(key) || '[]');
             const container = document.getElementById('recentlyViewedContainer');
 
             if (recentlyViewed.length === 0) {

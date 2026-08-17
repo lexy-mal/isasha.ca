@@ -1,0 +1,20 @@
+{
+  "competitions": [
+    {
+      "id": "national2026",
+      "name": "National 2026",
+      "description": "National Dance Championship 2026",
+      "entryListUrl": "http://www.comp-mngr.com/national2026/national2026_EntryLists.htm",
+      "hasResults": false,
+      "archived": false
+    },
+    {
+      "id": "impercup2026",
+      "name": "Imperial Cup 2026",
+      "description": "Imperial Cup Dancesport Championships 2026",
+      "entryListUrl": "https://www.comp-mngr.com/impercup2026/ImperCup2026_HeatLists.htm",
+      "hasResults": true,
+      "archived": true
+    }
+  ]
+}
