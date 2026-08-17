@@ -1580,16 +1580,7 @@
                 const eventInfo = heatEventsData.find(he => he.heat === entry.heat && he.event === entry.event);
                 if (eventInfo) {
                     eventInfo.competitors.forEach(c => {
-                        if (c !== name) {
-                            // Skip if competitor is dancing with someone in this event
-                            let competitorPartner = null;
-                            if (participantsData[c]) {
-                                const competitorEntry = participantsData[c].entries.find(e => e.event === entry.event);
-                                competitorPartner = competitorEntry ? competitorEntry.partner : null;
-                            }
-                            // Only add if they're not part of a couple
-                            if (!competitorPartner) allEventCompetitors.add(c);
-                        }
+                        if (c !== name) allEventCompetitors.add(c);
                     });
                 }
             });
@@ -1631,18 +1622,6 @@
                     eventInfo.competitors.forEach(competitor => {
                         if (competitor !== name) {
                             const isPartner = partnerSet.has(competitor);
-
-                            // Skip if competitor is dancing with someone else in this event
-                            // (check if competitor has a partner listed for this event)
-                            let competitorPartner = null;
-                            if (participantsData[competitor]) {
-                                const competitorEntry = participantsData[competitor].entries.find(e => e.event === entry.event);
-                                competitorPartner = competitorEntry ? competitorEntry.partner : null;
-                            }
-
-                            // If competitor has a partner in the same event, skip them (they're part of a couple)
-                            if (competitorPartner) return;
-
                             const targetObj = isPartner ? partnerCompetitors : allCompetitors;
 
                             if (!targetObj[competitor]) {
