@@ -795,6 +795,28 @@
         .event-item.completed .event-title {
             color: var(--text-secondary);
         }
+
+        #home-filter-toggle {
+            display: none !important;
+        }
+
+        #home-filters.filters-open {
+            display: block !important;
+        }
+
+        @media (max-width: 600px) {
+            #home-filter-toggle {
+                display: inline-block !important;
+            }
+
+            #home-filters {
+                display: none !important;
+            }
+
+            #home-filters.filters-open {
+                display: block !important;
+            }
+        }
     </style>
 </head>
 <body>
@@ -2339,7 +2361,14 @@
 
             let html = `
                 <div style="padding:12px 8px;display:flex;flex-direction:column;height:100vh;overflow:hidden;">
-                    <div style="margin-bottom:10px;flex-shrink:0;">
+                    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-shrink:0;gap:8px;">
+                        <button onclick="toggleHomeFilters()" style="display:none;" id="home-filter-toggle" class="mobile-only" style="padding:6px 8px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);cursor:pointer;font-size:1.2em;flex-shrink:0;">☰</button>
+                        <div style="flex:1;">
+                            <div style="font-size:0.8em;color:var(--text-secondary);text-align:center;">Heats</div>
+                        </div>
+                    </div>
+
+                    <div id="home-filters" style="margin-bottom:10px;flex-shrink:0;display:block;">
                         <div style="margin-bottom:6px;">
                             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
                                 <label style="font-size:0.75em;color:var(--text-secondary);">Size:</label>
@@ -2430,6 +2459,13 @@
         function homeHeatsGoToPage(page) {
             sessionStorage.setItem('homeHeatsPage', page);
             filterHomeHeats();
+        }
+
+        function toggleHomeFilters() {
+            const filters = document.getElementById('home-filters');
+            const toggle = document.getElementById('home-filter-toggle');
+            filters.classList.toggle('filters-open');
+            toggle.textContent = filters.classList.contains('filters-open') ? '✕' : '☰';
         }
 
         function clearSearch() {
