@@ -1320,6 +1320,14 @@
         }
 
         // Load data from JSON files
+        // Static hosts serve the SPA fallback page (200 + HTML) for missing files,
+        // so a JSON content-type is the only reliable signal that the file exists.
+        async function readJson(res, fallback) {
+            if (!res.ok) return fallback;
+            if (!(res.headers.get('content-type') || '').includes('json')) return fallback;
+            return res.json();
+        }
+
         async function loadData() {
             try {
                 // Clear previous data and search
@@ -1363,11 +1371,14 @@
                 if (!participantsRes.ok) throw new Error(`Failed to load participants: ${participantsRes.status}`);
                 if (!heatEventsRes.ok) throw new Error(`Failed to load heat events: ${heatEventsRes.status}`);
 
-                participantsData = await participantsRes.json();
-                heatEventsData = await heatEventsRes.json();
-                resultsData = resultsRes.ok ? await resultsRes.json() : {};
-                personResultsData = personResultsRes.ok ? await personResultsRes.json() : {};
-                judgesData = judgesRes.ok ? await judgesRes.json() : {};
+                participantsData = await readJson(participantsRes, null);
+                heatEventsData = await readJson(heatEventsRes, null);
+                if (!participantsData) throw new Error(`participants.json is missing or not JSON at ${participantsPath}`);
+                if (!heatEventsData) throw new Error(`heat_events.json is missing or not JSON at ${heatEventsPath}`);
+
+                resultsData = await readJson(resultsRes, {});
+                personResultsData = await readJson(personResultsRes, {});
+                judgesData = await readJson(judgesRes, {});
 
                 console.log('Data loaded successfully:', {
                     participants: Object.keys(participantsData).length,
