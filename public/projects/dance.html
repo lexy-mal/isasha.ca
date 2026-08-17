@@ -2451,19 +2451,23 @@
             if (listDiv) {
                 listDiv.innerHTML = pageHeats.map((heat, idx) => {
                     const isSolo = heat.name.toLowerCase().includes('solo');
-                    const expandId = `heat-expand-${currentPage}-${idx}`;
-                    const showFirst = 2;
-                    const hasMore = heat.competitorList.length > showFirst;
+                    const detailsId = `heat-details-${currentPage}-${idx}`;
+                    const typeLabel = isSolo ? 'SOLO' : 'COUPLE';
+                    const typeBg = isSolo ? 'var(--accent-dim)' : 'var(--accent)';
                     return `
-                        <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;padding:8px;cursor:pointer;transition:all 0.2s;overflow:hidden;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'">
-                            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:6px;">
-                                <div style="font-size:0.8em;font-weight:500;color:var(--accent);line-height:1.1;overflow:hidden;text-overflow:ellipsis;flex:1;" title="${heat.name}">${heat.name}</div>
-                                <span style="font-size:0.65em;padding:2px 6px;background:${isSolo ? 'var(--accent-dim)' : 'var(--accent)'};color:var(--bg-primary);border-radius:2px;white-space:nowrap;font-weight:600;">${isSolo ? 'SOLO' : 'COUPLE'}</span>
+                        <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;overflow:hidden;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'">
+                            <div style="padding:8px;cursor:pointer;transition:all 0.2s;" onclick="toggleHeatDetails('${detailsId}')">
+                                <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:6px;">
+                                    <div style="font-size:0.8em;font-weight:500;color:var(--accent);line-height:1.1;overflow:hidden;text-overflow:ellipsis;flex:1;" title="${heat.name}">${heat.name}</div>
+                                    <span style="font-size:0.65em;padding:2px 6px;background:${typeBg};color:var(--bg-primary);border-radius:2px;white-space:nowrap;font-weight:600;">${typeLabel}</span>
+                                </div>
+                                <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${heat.competitors}</div>
+                                <div style="font-size:0.65em;color:var(--text-secondary);">comp.</div>
                             </div>
-                            <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${heat.competitors}</div>
-                            <div style="font-size:0.65em;color:var(--text-secondary);margin-bottom:6px;">comp.</div>
-                            <div style="font-size:0.65em;color:var(--text-secondary);line-height:1.2;">${heat.competitorList.slice(0, showFirst).join(', ')}${hasMore ? '<button onclick="toggleHeatExpand(this, \''+expandId+'\')" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.65em;padding:0;margin-left:2px;">+' + (heat.competitorList.length - showFirst) + ' more</button>' : ''}</div>
-                            ${hasMore ? '<div id="'+expandId+'" style="display:none;font-size:0.65em;color:var(--text-secondary);line-height:1.2;margin-top:6px;padding-top:6px;border-top:1px solid var(--bg-tertiary);max-height:100px;overflow-y:auto;">' + heat.competitorList.join('<br>') + '</div>' : ''}
+                            <div id="${detailsId}" style="display:none;background:var(--bg-primary);border-top:1px solid var(--bg-tertiary);padding:8px;font-size:0.75em;line-height:1.4;max-height:200px;overflow-y:auto;">
+                                <div style="font-weight:600;color:var(--accent);margin-bottom:6px;">▼ ${heat.competitors} Participant${heat.competitors !== 1 ? 's' : ''}:</div>
+                                ${heat.competitorList.map(p => `<div style="color:var(--text-secondary);margin-bottom:4px;">• ${p}</div>`).join('')}
+                            </div>
                         </div>
                     `;
                 }).join('');
@@ -2500,6 +2504,7 @@
             const contentArea = document.querySelector('.content-area');
             const tabParticipants = document.getElementById('tab-participants');
             const tabEvents = document.getElementById('tab-events');
+            const partFilter = document.querySelector('.home-heats-participant-filter');
 
             if (view === 'participants') {
                 sidebar.classList.remove('hidden');
@@ -2515,18 +2520,20 @@
                 tabEvents.style.color = 'var(--bg-primary)';
                 tabParticipants.style.background = 'transparent';
                 tabParticipants.style.color = 'var(--text-secondary)';
+                // Clear participant search when switching to Events
+                if (partFilter) {
+                    partFilter.value = '';
+                    const suggestions = document.getElementById('participant-suggestions');
+                    if (suggestions) suggestions.innerHTML = '';
+                    filterHomeHeats();
+                }
             }
         }
 
-        function toggleHeatExpand(btn, expandId) {
-            event.stopPropagation();
-            const expandDiv = document.getElementById(expandId);
-            if (expandDiv.style.display === 'none') {
-                expandDiv.style.display = 'block';
-                btn.textContent = btn.textContent.replace(/\+/, '−');
-            } else {
-                expandDiv.style.display = 'none';
-                btn.textContent = btn.textContent.replace(/−/, '+');
+        function toggleHeatDetails(detailsId) {
+            const detailsDiv = document.getElementById(detailsId);
+            if (detailsDiv) {
+                detailsDiv.style.display = detailsDiv.style.display === 'none' ? 'block' : 'none';
             }
         }
 
