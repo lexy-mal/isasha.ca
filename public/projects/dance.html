@@ -487,6 +487,34 @@
 
         .badge-opponent {
             background: rgba(160, 160, 160, 0.2);
+        }
+
+        input[type="range"].event-opponents-filter {
+            -webkit-appearance: none;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        input[type="range"].event-opponents-filter::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
+
+        input[type="range"].event-opponents-filter::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent);
+            cursor: pointer;
+            border: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        }
             color: var(--text-secondary);
         }
 
@@ -1857,8 +1885,13 @@
 
             html += `
                 <div style="margin: 24px 0 16px 0;">
-                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByName(this.value)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;">
-                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:6px;"></div>
+                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents()" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
+                    <div style="display:flex;align-items:center;gap:12px;">
+                        <label style="font-size:0.9em;color:var(--text-secondary);min-width:100px;">Opponent count:</label>
+                        <input type="range" class="event-opponents-filter" min="0" max="50" value="0" oninput="filterEventsByNameAndOpponents()" style="flex:1;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                        <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);min-width:50px;text-align:right;">all</span>
+                    </div>
+                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);margin-top:8px;"></div>
                 </div>
 
                 <div class="events-list">
@@ -2112,25 +2145,49 @@
             }, 150);
         }
 
-        function filterEventsByName(query) {
-            const value = query.trim().toLowerCase();
+        function filterEventsByNameAndOpponents() {
             const container = document.querySelector('#contentDisplay, #detailContentDisplay');
             if (!container) return;
+
+            const nameInput = container.querySelector('.event-filter-input');
+            const opponentsSlider = container.querySelector('.event-opponents-filter');
+            const nameValue = (nameInput?.value || '').trim().toLowerCase();
+            const opponentsValue = parseInt(opponentsSlider?.value || 0);
 
             const eventItems = container.querySelectorAll('.events-list > .event-item');
             let visibleCount = 0;
 
             eventItems.forEach(item => {
+                // Check name filter
                 const eventTitle = item.querySelector('.event-title');
                 const eventName = eventTitle ? eventTitle.textContent.toLowerCase() : '';
-                const match = !value || eventName.includes(value);
+                const nameMatch = !nameValue || eventName.includes(nameValue);
+
+                // Check opponents filter (0 = no filter, >0 = minimum opponent count)
+                let opponentsMatch = true;
+                if (opponentsValue > 0) {
+                    const competitors = item.dataset.competitors || '';
+                    const competitorCount = competitors ? competitors.split('|').filter(Boolean).length : 0;
+                    opponentsMatch = competitorCount >= opponentsValue;
+                }
+
+                const match = nameMatch && opponentsMatch;
                 item.style.display = match ? '' : 'none';
                 if (match) visibleCount++;
             });
 
+            // Update slider value display
+            const valueEl = container.querySelector('.opponents-filter-value');
+            if (valueEl) {
+                valueEl.textContent = opponentsValue > 0 ? `≥ ${opponentsValue}` : 'all';
+            }
+
             const countEl = container.querySelector('.event-filter-count');
             if (countEl) {
-                countEl.textContent = value ? `${visibleCount} of ${eventItems.length} events shown` : '';
+                const filters = [];
+                if (nameValue) filters.push(`name: "${nameValue}"`);
+                if (opponentsValue > 0) filters.push(`opponents: ≥ ${opponentsValue}`);
+                countEl.textContent = filters.length ? `${visibleCount} of ${eventItems.length} events shown (${filters.join(', ')})` : '';
             }
         }
 
