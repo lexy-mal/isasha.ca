@@ -1896,7 +1896,23 @@
                 </div>
             `;
 
-            // Build all competitors section FIRST (appears at top)
+            // Filter controls (sliders appear before all opponents)
+            html += `
+                <div style="margin: 24px 0 16px 0;">
+                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
+                    <div style="margin-bottom:12px;">
+                        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+                            <label style="font-size:0.9em;color:var(--text-secondary);">Participant count:</label>
+                            <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);font-weight:600;">1-50</span>
+                        </div>
+                        <input type="range" class="event-opponents-filter-min" min="1" max="50" value="1" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;margin-bottom:8px;">
+                        <input type="range" class="event-opponents-filter-max" min="1" max="50" value="50" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
+                    </div>
+                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);"></div>
+                </div>
+            `;
+
+            // Build all competitors section
             // Separate partners from general competitors
             const partnerSet = partners; // partners already identified above
             const allCompetitors = {};
@@ -2142,19 +2158,6 @@
             `;
 
             html += `
-                <div style="margin: 24px 0 16px 0;">
-                    <input type="text" class="event-filter-input" placeholder="Filter events by name (e.g., SOLO, BALLROOM, LATIN)..." autocomplete="off" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="width:100%;padding:10px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--text-primary);font-size:0.9em;margin-bottom:12px;">
-                    <div style="margin-bottom:12px;">
-                        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
-                            <label style="font-size:0.9em;color:var(--text-secondary);">Participant count:</label>
-                            <span class="opponents-filter-value" style="font-size:0.9em;color:var(--text-secondary);font-weight:600;">1-50</span>
-                        </div>
-                        <input type="range" class="event-opponents-filter-min" min="1" max="50" value="1" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;margin-bottom:8px;">
-                        <input type="range" class="event-opponents-filter-max" min="1" max="50" value="50" oninput="filterEventsByNameAndOpponents(this)" onchange="filterEventsByNameAndOpponents(this)" style="display:block;width:100%;min-width:0;box-sizing:border-box;height:6px;border-radius:3px;background:var(--bg-tertiary);outline:none;-webkit-appearance:none;appearance:none;">
-                    </div>
-                    <div class="event-filter-count" style="font-size:0.8em;color:var(--text-secondary);"></div>
-                </div>
-
                 <div class="events-list">
             `;
 
