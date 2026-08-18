@@ -1067,6 +1067,19 @@
             return SKILL_LEVEL_CODES.has(code) ? code : null;
         }
 
+        function getEventDivision(eventName) {
+            // Classify events into divisions: Standard, NATIONAL, Championship, Five Star,
+            // CLUB, PRO, Rising Star, Prechamp
+            if (eventName.startsWith('PRO ')) return 'PRO';
+            if (/Championship|Championnat/.test(eventName)) return 'Championship';
+            if (/Five Star/.test(eventName)) return 'Five Star';
+            if (/\bCLUB\b/.test(eventName)) return 'CLUB';
+            if (/NATIONAL/.test(eventName)) return 'NATIONAL';
+            if (/Rising Star/.test(eventName)) return 'Rising Star';
+            if (/Prechamp|Pre-Champ/.test(eventName)) return 'Prechamp';
+            return 'Standard';
+        }
+
         // Several codes share one label (e.g. Y and YTH are both "Youth"); the filter
         // should offer that label once, not once per code.
         function buildAgeFilterOptionsHtml() {
@@ -2600,8 +2613,9 @@
                             <option value="count_asc">Sort: Fewest Participants</option>
                             <option value="age_asc">Sort: Age (Youngest First)</option>
                             <option value="age_desc">Sort: Age (Oldest First)</option>
-                            <option value="level_asc">Sort: Level (Bronze→Gold)</option>
-                            <option value="level_desc">Sort: Level (Gold→Bronze)</option>
+                            <option value="level_asc">Sort: Level (Beginner→Gold)</option>
+                            <option value="level_desc">Sort: Level (Gold→Beginner)</option>
+                            <option value="division_asc">Sort: Division (Standard→Pro)</option>
                         </select>
                     </div>
 
@@ -2689,6 +2703,17 @@
                         const va = levelA ? levelOrder[levelA] ?? 10 : 10;
                         const vb = levelB ? levelOrder[levelB] ?? 10 : 10;
                         return vb - va;
+                    }
+                    case 'division_asc': {
+                        // Standard → Pro (by prestige/category)
+                        const divisionOrder = { Standard: 0, 'Rising Star': 1, Prechamp: 2, CLUB: 3, NATIONAL: 4, Championship: 5, 'Five Star': 6, PRO: 7 };
+                        const divA = getEventDivision(a.name);
+                        const divB = getEventDivision(b.name);
+                        const va = divisionOrder[divA] ?? 8;
+                        const vb = divisionOrder[divB] ?? 8;
+                        if (va !== vb) return va - vb;
+                        // Secondary sort by name within same division
+                        return a.name.localeCompare(b.name);
                     }
                     case 'name_asc':
                     default: return a.name.localeCompare(b.name);
