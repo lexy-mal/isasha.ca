@@ -2642,16 +2642,22 @@
                     case 'count_asc': return a.competitors - b.competitors;
                     case 'age_asc': {
                         // Youngest first: sort by minAge ascending, with special handling for
-                        // "X & Under" categories — when tied on minAge, lower X comes first
+                        // upper-bound categories (e.g., "X & Under", "Under X") — when tied
+                        // on minAge, lower X comes first (more restrictive age bracket)
                         const catA = getEventAgeCategory(a.name);
                         const catB = getEventAgeCategory(b.name);
                         const va = catA?.minAge ?? Infinity;
                         const vb = catB?.minAge ?? Infinity;
                         if (va !== vb) return va - vb;
-                        // When minAge is equal, check if these are "X & Under" categories
-                        const underMatchA = a.name.match(/(\d+)\s*&\s*Under/) || catA?.label.match(/(\d+)\s*&\s*Under/);
-                        const underMatchB = b.name.match(/(\d+)\s*&\s*Under/) || catB?.label.match(/(\d+)\s*&\s*Under/);
-                        if (underMatchA && underMatchB) return parseInt(underMatchA[1]) - parseInt(underMatchB[1]);
+                        // When minAge is equal, extract upper-bound number from labels
+                        // Match patterns: "X & Under", "Under X", "Ages X–Y", etc.
+                        const getUpperBound = (label) => {
+                            const match = label?.match(/(?:Under\s*|&\s*Under\s+)(\d+)/) || label?.match(/Ages\s+(\d+)/);
+                            return match ? parseInt(match[1]) : Infinity;
+                        };
+                        const boundA = getUpperBound(catA?.label);
+                        const boundB = getUpperBound(catB?.label);
+                        if (boundA !== boundB) return boundA - boundB;
                         return 0;
                     }
                     case 'age_desc': {
@@ -2660,10 +2666,14 @@
                         const va = catA?.minAge ?? -Infinity;
                         const vb = catB?.minAge ?? -Infinity;
                         if (va !== vb) return vb - va;
-                        // When minAge is equal, check if these are "X & Under" categories
-                        const underMatchA = a.name.match(/(\d+)\s*&\s*Under/) || catA?.label.match(/(\d+)\s*&\s*Under/);
-                        const underMatchB = b.name.match(/(\d+)\s*&\s*Under/) || catB?.label.match(/(\d+)\s*&\s*Under/);
-                        if (underMatchA && underMatchB) return parseInt(underMatchB[1]) - parseInt(underMatchA[1]);
+                        // When minAge is equal, extract upper-bound number and reverse sort
+                        const getUpperBound = (label) => {
+                            const match = label?.match(/(?:Under\s*|&\s*Under\s+)(\d+)/) || label?.match(/Ages\s+(\d+)/);
+                            return match ? parseInt(match[1]) : -Infinity;
+                        };
+                        const boundA = getUpperBound(catA?.label);
+                        const boundB = getUpperBound(catB?.label);
+                        if (boundA !== boundB) return boundB - boundA;
                         return 0;
                     }
                     case 'name_asc':
