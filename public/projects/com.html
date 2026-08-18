@@ -1024,25 +1024,25 @@
         // minAge sorts/filters by each bracket's lower bound; open-ended brackets like
         // "16 & Over" sort by that same floor, not by an (unknown) upper limit.
         const AGE_CATEGORY_MAP = {
-            JV1: { label: 'Juvenile I — Under 10', minAge: 0 },
-            JV2: { label: 'Juvenile II — Ages 10–11', minAge: 10 },
-            JV:  { label: 'Juvenile — Under 12', minAge: 0 },
-            JR1: { label: 'Junior I — Ages 12–13', minAge: 12 },
-            JR:  { label: 'Junior — Ages 12–15', minAge: 12 },
-            JR2: { label: 'Junior II — Ages 14–15', minAge: 14 },
-            '10': { label: '10 & Under', minAge: 0 },
-            '15': { label: '15 & Under', minAge: 0 },
-            YTH: { label: 'Youth — Ages 16–18', minAge: 16 },
-            Y:   { label: 'Youth — Ages 16–18', minAge: 16 },
+            JV1: { label: 'Juvenile I — Under 10', minAge: 0, maxAge: 10 },
+            JV2: { label: 'Juvenile II — Ages 10–11', minAge: 10, maxAge: 11 },
+            JV:  { label: 'Juvenile — Under 12', minAge: 0, maxAge: 12 },
+            JR1: { label: 'Junior I — Ages 12–13', minAge: 12, maxAge: 13 },
+            JR:  { label: 'Junior — Ages 12–15', minAge: 12, maxAge: 15 },
+            JR2: { label: 'Junior II — Ages 14–15', minAge: 14, maxAge: 15 },
+            '10': { label: '10 & Under', minAge: 0, maxAge: 10 },
+            '15': { label: '15 & Under', minAge: 0, maxAge: 15 },
+            YTH: { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
+            Y:   { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
             '16': { label: '16 & Over', minAge: 16 },
-            U21: { label: 'Under 21 — Ages 19–20', minAge: 19 },
-            YO:  { label: 'Young Adult (approx.)', minAge: 19, approx: true },
+            U21: { label: 'Under 21 — Ages 19–20', minAge: 19, maxAge: 20 },
+            YO:  { label: 'Young Adult (approx.)', minAge: 19, maxAge: 25, approx: true },
             '19': { label: '19 & Over', minAge: 19 },
             AD:  { label: 'Adult (19+)', minAge: 19 },
-            AD1: { label: 'Adult I (approx.)', minAge: 19, approx: true },
-            AD2: { label: 'Adult II (approx.)', minAge: 26, approx: true },
-            AD3: { label: 'Adult III (approx.)', minAge: 36, approx: true },
-            AD4: { label: 'Adult IV (approx.)', minAge: 46, approx: true },
+            AD1: { label: 'Adult I (approx.)', minAge: 19, maxAge: 25, approx: true },
+            AD2: { label: 'Adult II (approx.)', minAge: 26, maxAge: 35, approx: true },
+            AD3: { label: 'Adult III (approx.)', minAge: 36, maxAge: 45, approx: true },
+            AD4: { label: 'Adult IV (approx.)', minAge: 46, maxAge: 55, approx: true },
             AD5: { label: 'Adult V (approx.)', minAge: 56, approx: true },
             '36': { label: '36 & Over', minAge: 36 },
             '50': { label: '50 & Over', minAge: 50 }
@@ -2641,40 +2641,28 @@
                     case 'count_desc': return b.competitors - a.competitors;
                     case 'count_asc': return a.competitors - b.competitors;
                     case 'age_asc': {
-                        // Youngest first: sort by minAge ascending, with special handling for
-                        // upper-bound categories (e.g., "X & Under", "Under X") — when tied
-                        // on minAge, lower X comes first (more restrictive age bracket)
+                        // Youngest first: sort by minAge, then by maxAge for same minAge
                         const catA = getEventAgeCategory(a.name);
                         const catB = getEventAgeCategory(b.name);
                         const va = catA?.minAge ?? Infinity;
                         const vb = catB?.minAge ?? Infinity;
                         if (va !== vb) return va - vb;
-                        // When minAge is equal, extract upper-bound number from labels
-                        // Match patterns: "X & Under", "Under X", "Ages X–Y", etc.
-                        const getUpperBound = (label) => {
-                            const match = label?.match(/(?:Under\s*|&\s*Under\s+)(\d+)/) || label?.match(/Ages\s+(\d+)/);
-                            return match ? parseInt(match[1]) : Infinity;
-                        };
-                        const boundA = getUpperBound(catA?.label);
-                        const boundB = getUpperBound(catB?.label);
-                        if (boundA !== boundB) return boundA - boundB;
-                        return 0;
+                        // When minAge is equal, sort by maxAge (lower max = more restrictive/younger)
+                        const maxA = catA?.maxAge ?? -Infinity;
+                        const maxB = catB?.maxAge ?? -Infinity;
+                        return maxA - maxB;
                     }
                     case 'age_desc': {
+                        // Oldest first: sort by minAge descending, then by maxAge descending
                         const catA = getEventAgeCategory(a.name);
                         const catB = getEventAgeCategory(b.name);
                         const va = catA?.minAge ?? -Infinity;
                         const vb = catB?.minAge ?? -Infinity;
                         if (va !== vb) return vb - va;
-                        // When minAge is equal, extract upper-bound number and reverse sort
-                        const getUpperBound = (label) => {
-                            const match = label?.match(/(?:Under\s*|&\s*Under\s+)(\d+)/) || label?.match(/Ages\s+(\d+)/);
-                            return match ? parseInt(match[1]) : -Infinity;
-                        };
-                        const boundA = getUpperBound(catA?.label);
-                        const boundB = getUpperBound(catB?.label);
-                        if (boundA !== boundB) return boundB - boundA;
-                        return 0;
+                        // When minAge is equal, sort by maxAge (higher max = older)
+                        const maxA = catA?.maxAge ?? Infinity;
+                        const maxB = catB?.maxAge ?? Infinity;
+                        return maxB - maxA;
                     }
                     case 'name_asc':
                     default: return a.name.localeCompare(b.name);
