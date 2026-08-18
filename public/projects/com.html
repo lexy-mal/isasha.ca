@@ -1055,6 +1055,63 @@
             return cat ? { ...cat, code } : null;
         }
 
+        // Discipline the event is danced in. The four main words are mutually exclusive
+        // across all 3879 events in both competitions (verified — no event contains more
+        // than one), so first-match order doesn't matter for them. CLUB and TANGO STYLE are
+        // a second, separate vocabulary (Hustle/Samba/West Coast Swing under CLUB; Milonga/
+        // Argentine Tango/Tango Vals under TANGO STYLE) that never co-occurs with the first
+        // four either. About 8% of events (round-robin combos, freestyle-titled solos) use
+        // neither and fall through to null, shown in the UI as "Other".
+        const DANCE_STYLES = [
+            { code: 'BALLROOM', label: 'Ballroom', re: /\bBALLROOM\b/i },
+            { code: 'LATIN', label: 'Latin', re: /\bLATIN\b/i },
+            { code: 'SMOOTH', label: 'Smooth', re: /\bSMOOTH\b/i },
+            { code: 'RHYTHM', label: 'Rhythm', re: /\bRHYTHM\b/i },
+            { code: 'CLUB', label: 'Club', re: /\bCLUB\b/i },
+            { code: 'TANGO_STYLE', label: 'Tango Style', re: /\bTANGO STYLE\b/i }
+        ];
+
+        function getEventDanceStyle(eventName) {
+            const style = DANCE_STYLES.find(s => s.re.test(eventName));
+            return style ? { code: style.code, label: style.label } : null;
+        }
+
+        // The specific dance named in the event (as opposed to the discipline above). Order
+        // matters: more specific phrases must be checked before the shorter dance name they
+        // contain (Viennese Waltz before Waltz, Argentine Tango and Tango Vals before Tango),
+        // same precedence pattern as SKILL_LEVELS. "Chacha"/"Cha Cha" are both spellings used
+        // in the source data for the same dance and are merged under one canonical label.
+        // About 22% of events name a multi-dance round ("(W/T/Q)") or a themed freestyle solo
+        // instead of one dance and fall through to null, shown in the UI as "Multi-Dance".
+        const DANCES = [
+            { code: 'VIENNESE_WALTZ', label: 'Viennese Waltz', re: /\bViennese Waltz\b/i },
+            { code: 'ARGENTINE_TANGO', label: 'Argentine Tango', re: /\bArgentine Tango\b/i },
+            { code: 'TANGO_VALS', label: 'Tango Vals', re: /\bTango Vals\b/i },
+            { code: 'TANGO', label: 'Tango', re: /\bTango\b/i },
+            { code: 'WALTZ', label: 'Waltz', re: /\bWaltz\b/i },
+            { code: 'FOXTROT', label: 'Foxtrot', re: /\bFoxtrot\b/i },
+            { code: 'QUICKSTEP', label: 'Quickstep', re: /\bQuickstep\b/i },
+            { code: 'CHA_CHA', label: 'Cha Cha', re: /\bCha[- ]?Cha\b/i },
+            { code: 'RUMBA', label: 'Rumba', re: /\bRumba\b/i },
+            { code: 'SAMBA', label: 'Samba', re: /\bSamba\b/i },
+            { code: 'JIVE', label: 'Jive', re: /\bJive\b/i },
+            { code: 'PASO_DOBLE', label: 'Paso Doble', re: /\bPaso Doble\b/i },
+            { code: 'MAMBO', label: 'Mambo', re: /\bMambo\b/i },
+            { code: 'BOLERO', label: 'Bolero', re: /\bBolero\b/i },
+            { code: 'SALSA', label: 'Salsa', re: /\bSalsa\b/i },
+            { code: 'BACHATA', label: 'Bachata', re: /\bBachata\b/i },
+            { code: 'MILONGA', label: 'Milonga', re: /\bMilonga\b/i },
+            { code: 'MERENGUE', label: 'Merengue', re: /\bMerengue\b/i },
+            { code: 'WEST_COAST_SWING', label: 'West Coast Swing', re: /\bWest Coast Swing\b/i },
+            { code: 'HUSTLE', label: 'Hustle', re: /\bHustle\b/i },
+            { code: 'TWO_STEP', label: '2 Step', re: /\b2 Step\b/i }
+        ];
+
+        function getEventDanceName(eventName) {
+            const dance = DANCES.find(d => d.re.test(eventName));
+            return dance ? { code: dance.code, label: dance.label } : null;
+        }
+
         // Proficiency ladder. The letter code after the first dash (A–H, JB, JU) is NOT a
         // proficiency — checked against all 3885 events, every letter co-occurs with every
         // metal, so it is a scheduling/section code. The real level is the word in the event
@@ -1247,48 +1304,130 @@
             }
         }
 
-        // Codes with identical interpreted labels (e.g. YTH and Y both read "Youth — Ages
-        // 16–18") are listed as separate checkboxes, not deduped — they're different codes
-        // in the source data, and showing the code alongside the interpretation is the
-        // whole point of this filter (see AGE_CATEGORIES.md for why the interpretation
-        // alone isn't authoritative).
-        //
-        // Only codes actually present in `heats` are offered — AGE_CATEGORY_MAP covers
-        // every code seen across both competitions this app has ever scraped, but any one
-        // competition's event list only uses a subset, so listing the full map would offer
-        // dozens of checkboxes that can never match anything.
-        function buildAgeFilterPanelHtml(heats) {
+        // Four near-identical multiselect filters (age, dance style, dance name, level) all
+        // share one generic implementation, registered here. Each facet's getMatch/allOptions
+        // is the only facet-specific logic; everything else (present-only filtering, panel
+        // markup, toggle/clear/label wiring) is shared — see buildFacetPanelHtml and the
+        // onFacetFilterChange/toggleFacetPanel/clearFacetFilter functions below.
+        const HOME_HEATS_FACETS = {
+            age: {
+                checkboxClass: 'home-heats-age-checkbox',
+                btnId: 'home-heats-age-filter-btn',
+                labelId: 'home-heats-age-filter-label',
+                panelId: 'home-heats-age-filter-panel',
+                allLabel: 'All Ages',
+                pluralNoun: 'age categories',
+                getMatch: getEventAgeCategory,
+                // Codes with identical interpreted labels (e.g. YTH and Y both read "Youth —
+                // Ages 16–18") are listed separately, not deduped — they're different codes
+                // in the source data, and showing the code alongside the interpretation is
+                // the whole point of this filter (see AGE_CATEGORIES.md).
+                allOptions: () => Object.entries(AGE_CATEGORY_MAP)
+                    .sort((a, b) => (a[1].minAge ?? 0) - (b[1].minAge ?? 0))
+                    .map(([code, v]) => ({ code, label: v.label })),
+                renderOption: (code, label) => `<strong>${code}</strong> — ${label}`,
+                singleSelectText: (code, label) => code,
+                noneLabel: 'No Age Category (Pro-Am / Pro)',
+                noneShortLabel: 'No Age Category'
+            },
+            style: {
+                checkboxClass: 'home-heats-style-checkbox',
+                btnId: 'home-heats-style-filter-btn',
+                labelId: 'home-heats-style-filter-label',
+                panelId: 'home-heats-style-filter-panel',
+                allLabel: 'All Styles',
+                pluralNoun: 'styles',
+                getMatch: getEventDanceStyle,
+                allOptions: () => DANCE_STYLES.map(s => ({ code: s.code, label: s.label })),
+                renderOption: (code, label) => label,
+                singleSelectText: (code, label) => label,
+                noneLabel: 'Other',
+                noneShortLabel: 'Other'
+            },
+            dance: {
+                checkboxClass: 'home-heats-dance-checkbox',
+                btnId: 'home-heats-dance-filter-btn',
+                labelId: 'home-heats-dance-filter-label',
+                panelId: 'home-heats-dance-filter-panel',
+                allLabel: 'All Dances',
+                pluralNoun: 'dances',
+                getMatch: getEventDanceName,
+                allOptions: () => DANCES.map(d => ({ code: d.code, label: d.label })),
+                renderOption: (code, label) => label,
+                singleSelectText: (code, label) => label,
+                noneLabel: 'Multi-Dance / Other',
+                noneShortLabel: 'Multi-Dance / Other'
+            },
+            level: {
+                checkboxClass: 'home-heats-level-checkbox',
+                btnId: 'home-heats-level-filter-btn',
+                labelId: 'home-heats-level-filter-label',
+                panelId: 'home-heats-level-filter-panel',
+                allLabel: 'All Levels',
+                pluralNoun: 'levels',
+                getMatch: eventName => {
+                    const level = getEventSkillLevel(eventName);
+                    return level ? { code: String(level.rank), label: level.label } : null;
+                },
+                allOptions: () => SKILL_LEVELS.map(l => ({ code: String(l.rank), label: l.label })),
+                renderOption: (code, label) => label,
+                singleSelectText: (code, label) => label,
+                noneLabel: 'Unranked',
+                noneShortLabel: 'Unranked'
+            }
+        };
+
+        // Only options actually present in `heats` are offered — e.g. AGE_CATEGORY_MAP
+        // covers every code seen across both competitions this app has ever scraped, but any
+        // one competition's event list only uses a subset, so listing the full map would
+        // offer dozens of checkboxes that can never match anything.
+        function buildFacetPanelHtml(facetKey, heats) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
             const presentCodes = new Set();
-            let hasUncategorized = false;
+            let hasUnmatched = false;
             heats.forEach(heat => {
-                const cat = getEventAgeCategory(heat.name);
-                if (cat) presentCodes.add(cat.code);
-                else hasUncategorized = true;
+                const match = cfg.getMatch(heat.name);
+                if (match) presentCodes.add(match.code);
+                else hasUnmatched = true;
             });
 
-            const sortedCodes = Object.entries(AGE_CATEGORY_MAP)
-                .filter(([code]) => presentCodes.has(code))
-                .sort((a, b) => (a[1].minAge ?? 0) - (b[1].minAge ?? 0))
-                .map(([code]) => code);
+            const options = cfg.allOptions().filter(o => presentCodes.has(o.code));
 
             const checkboxHtml = (code, label) => `
                 <label style="display:flex;align-items:center;gap:6px;padding:5px 8px;cursor:pointer;font-size:0.8em;color:var(--text-primary);border-radius:2px;" onmouseover="this.style.background='var(--bg-tertiary)'" onmouseout="this.style.background=''">
-                    <input type="checkbox" class="home-heats-age-checkbox" value="${code}" onchange="onAgeFilterChange()" style="margin:0;flex-shrink:0;">
-                    <span><strong>${code}</strong> — ${label}</span>
+                    <input type="checkbox" class="${cfg.checkboxClass}" value="${code}" data-label="${label.replace(/"/g, '&quot;')}" onchange="onFacetFilterChange('${facetKey}')" style="margin:0;flex-shrink:0;">
+                    <span>${cfg.renderOption(code, label)}</span>
                 </label>
             `;
 
-            const uncategorizedHtml = hasUncategorized
-                ? '<div style="border-top:1px solid var(--bg-tertiary);margin-top:4px;">' + checkboxHtml('__none__', 'No Age Category (Pro-Am / Pro)') + '</div>'
+            const unmatchedHtml = hasUnmatched
+                ? '<div style="border-top:1px solid var(--bg-tertiary);margin-top:4px;">' + checkboxHtml('__none__', cfg.noneLabel) + '</div>'
                 : '';
 
             return `
                 <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px 8px;border-bottom:1px solid var(--bg-tertiary);margin-bottom:4px;">
                     <span style="font-size:0.75em;color:var(--text-secondary);">Select one or more</span>
-                    <button type="button" onclick="clearAgeFilter()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.75em;padding:0;">Clear</button>
+                    <button type="button" onclick="clearFacetFilter('${facetKey}')" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.75em;padding:0;">Clear</button>
                 </div>
-                ${sortedCodes.map(code => checkboxHtml(code, AGE_CATEGORY_MAP[code].label)).join('')}
-                ${uncategorizedHtml}
+                ${options.map(o => checkboxHtml(o.code, o.label)).join('')}
+                ${unmatchedHtml}
+            `;
+        }
+
+        // The button + dropdown panel wrapper shared by all four facet filters.
+        function buildFacetControlHtml(facetKey, heats, title) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
+            const titleAttr = title ? ` title="${title.replace(/"/g, '&quot;')}"` : '';
+            return `
+                <div style="position:relative;margin-bottom:6px;">
+                    <button type="button" id="${cfg.btnId}"${titleAttr} style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="toggleFacetPanel('${facetKey}', event)">
+                        <span id="${cfg.labelId}">${cfg.allLabel}</span>
+                        <span style="color:var(--text-secondary);">▾</span>
+                    </button>
+                    <div id="${cfg.panelId}" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;margin-top:2px;max-height:280px;overflow-y:auto;z-index:20;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+                        ${buildFacetPanelHtml(facetKey, heats)}
+                    </div>
+                </div>
             `;
         }
 
@@ -2806,15 +2945,10 @@
 
                         <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
 
-                        <div style="position:relative;margin-bottom:6px;">
-                            <button type="button" id="home-heats-age-filter-btn" title="Age category parsed from the event code — see com_assets/AGE_CATEGORIES.md for how codes like AD1-AD5 were estimated." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="toggleAgeFilterPanel(event)">
-                                <span id="home-heats-age-filter-label">All Ages</span>
-                                <span style="color:var(--text-secondary);">▾</span>
-                            </button>
-                            <div id="home-heats-age-filter-panel" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;margin-top:2px;max-height:280px;overflow-y:auto;z-index:20;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
-                                ${buildAgeFilterPanelHtml(allHeats)}
-                            </div>
-                        </div>
+                        ${buildFacetControlHtml('age', allHeats, 'Age category parsed from the event code — see com_assets/AGE_CATEGORIES.md for how codes like AD1-AD5 were estimated.')}
+                        ${buildFacetControlHtml('style', allHeats, 'Dance discipline (Ballroom, Latin, Smooth, Rhythm...)')}
+                        ${buildFacetControlHtml('dance', allHeats, 'The specific dance named in the event')}
+                        ${buildFacetControlHtml('level', allHeats, 'Proficiency level — see com_assets/SKILL_LEVELS.md')}
 
                         <select class="home-heats-sort" style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;" onchange="filterHomeHeats()">
                             <option value="name_asc">Sort: Event Name (A-Z)</option>
@@ -2890,22 +3024,24 @@
             `;
         }
 
-        function toggleAgeFilterPanel(evt) {
+        function toggleFacetPanel(facetKey, evt) {
             evt.stopPropagation();
-            const panel = document.getElementById('home-heats-age-filter-panel');
+            const cfg = HOME_HEATS_FACETS[facetKey];
+            const panel = document.getElementById(cfg.panelId);
             if (!panel) return;
             const opening = panel.style.display === 'none';
             panel.style.display = opening ? 'block' : 'none';
-            if (opening) setupAgeFilterOutsideClickListener();
+            if (opening) setupFacetOutsideClickListener(facetKey);
         }
 
         // Bound lazily (only while the panel is actually open) rather than once globally,
         // so a click anywhere on the page doesn't pay for a listener + querySelector on
         // every click for the entire life of the page.
-        function setupAgeFilterOutsideClickListener() {
+        function setupFacetOutsideClickListener(facetKey) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
             const handler = (evt) => {
-                const panel = document.getElementById('home-heats-age-filter-panel');
-                const btn = document.getElementById('home-heats-age-filter-btn');
+                const panel = document.getElementById(cfg.panelId);
+                const btn = document.getElementById(cfg.btnId);
                 if (!panel || panel.style.display === 'none') {
                     document.removeEventListener('click', handler);
                     return;
@@ -2918,27 +3054,36 @@
             document.addEventListener('click', handler);
         }
 
-        function onAgeFilterChange() {
-            updateAgeFilterButtonLabel();
+        function getSelectedFacetCodes(facetKey) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
+            return Array.from(document.querySelectorAll('.' + cfg.checkboxClass + ':checked')).map(cb => cb.value);
+        }
+
+        function onFacetFilterChange(facetKey) {
+            updateFacetFilterLabel(facetKey);
             filterHomeHeats();
         }
 
-        function updateAgeFilterButtonLabel() {
-            const label = document.getElementById('home-heats-age-filter-label');
+        function updateFacetFilterLabel(facetKey) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
+            const label = document.getElementById(cfg.labelId);
             if (!label) return;
-            const checked = Array.from(document.querySelectorAll('.home-heats-age-checkbox:checked'));
+            const checked = Array.from(document.querySelectorAll('.' + cfg.checkboxClass + ':checked'));
             if (checked.length === 0) {
-                label.textContent = 'All Ages';
+                label.textContent = cfg.allLabel;
             } else if (checked.length === 1) {
-                label.textContent = checked[0].value === '__none__' ? 'No Age Category' : checked[0].value;
+                label.textContent = checked[0].value === '__none__'
+                    ? cfg.noneShortLabel
+                    : cfg.singleSelectText(checked[0].value, checked[0].dataset.label);
             } else {
-                label.textContent = `${checked.length} age categories selected`;
+                label.textContent = `${checked.length} ${cfg.pluralNoun} selected`;
             }
         }
 
-        function clearAgeFilter() {
-            document.querySelectorAll('.home-heats-age-checkbox:checked').forEach(cb => cb.checked = false);
-            onAgeFilterChange();
+        function clearFacetFilter(facetKey) {
+            const cfg = HOME_HEATS_FACETS[facetKey];
+            document.querySelectorAll('.' + cfg.checkboxClass + ':checked').forEach(cb => cb.checked = false);
+            onFacetFilterChange(facetKey);
         }
 
         function updateHomeHeatsStatus() {
@@ -2958,22 +3103,30 @@
             const allHeats = JSON.parse(sessionStorage.getItem('allHomeHeats') || '[]');
             const participantFilter = document.querySelector('.home-heats-participant-filter')?.value.toLowerCase() || '';
             const eventFilter = document.querySelector('.home-heats-event-filter')?.value.toLowerCase() || '';
-            const selectedAgeCodes = Array.from(document.querySelectorAll('.home-heats-age-checkbox:checked')).map(cb => cb.value);
             const minCompetitors = parseInt(document.querySelector('.home-heats-competitors-min')?.value || '1');
             const maxCompetitors = parseInt(document.querySelector('.home-heats-competitors-max')?.value || '999');
 
             const rangeValue = document.querySelector('.home-heats-range-value');
             if (rangeValue) rangeValue.textContent = minCompetitors + '-' + maxCompetitors;
 
+            // Each facet's own selections are OR'd together (e.g. Bronze OR Silver); the
+            // facets themselves are AND'd (e.g. age AND dance style), so "15 & Under" +
+            // "Latin" narrows to events matching both, not either.
+            const selectedByFacet = Object.keys(HOME_HEATS_FACETS).map(facetKey => ({
+                cfg: HOME_HEATS_FACETS[facetKey],
+                codes: getSelectedFacetCodes(facetKey)
+            }));
+
             let filtered = allHeats.filter(heat => {
                 const competitorMatch = heat.competitors >= minCompetitors && heat.competitors <= maxCompetitors;
                 const eventMatch = !eventFilter || heat.name.toLowerCase().includes(eventFilter);
                 const participantMatch = !participantFilter || heat.competitorList.some(p => p.toLowerCase().includes(participantFilter));
-                const ageCat = getEventAgeCategory(heat.name);
-                const ageMatch = selectedAgeCodes.length === 0 || selectedAgeCodes.some(code =>
-                    code === '__none__' ? !ageCat : ageCat?.code === code
-                );
-                return competitorMatch && eventMatch && participantMatch && ageMatch;
+                const facetsMatch = selectedByFacet.every(({ cfg, codes }) => {
+                    if (codes.length === 0) return true;
+                    const match = cfg.getMatch(heat.name);
+                    return codes.some(code => code === '__none__' ? !match : match?.code === code);
+                });
+                return competitorMatch && eventMatch && participantMatch && facetsMatch;
             });
 
             const sortBy = document.querySelector('.home-heats-sort')?.value || 'name_asc';
