@@ -1,0 +1,21 @@
+[
+  {
+    "timestamp": "2026-08-18T02:18:53.078109+00:00",
+    "participants": {
+      "oldCount": 931,
+      "newCount": 931,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2655,
+      "newCount": 2655,
+      "oldUniqueCount": 2655,
+      "newUniqueCount": 2655,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  }
+]

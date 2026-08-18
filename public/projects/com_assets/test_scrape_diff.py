@@ -1,0 +1,178 @@
+"""Tests for scrape_diff.py — the participant/event diff used to log what changed
+between scrapes, rendered on the (password-gated) scrape-log.html page."""
+
+import json
+import pytest
+
+from scrape_diff import compute_diff, has_changes, log_scrape_diff
+
+
+def participant(entries):
+    return {'entries': entries}
+
+
+def entry(heat='', event='', partner=None):
+    e = {'heat': heat, 'event': event}
+    if partner:
+        e['partner'] = partner
+    return e
+
+
+def heat_event(event, competitors):
+    return {'event': event, 'competitors': competitors}
+
+
+class TestComputeDiffParticipants:
+    def test_no_change_is_no_change(self):
+        old = {'A, Alice': participant([entry(event='E1')])}
+        new = {'A, Alice': participant([entry(event='E1')])}
+        diff = compute_diff(old, new, [], [])
+        assert diff['participants']['added'] == []
+        assert diff['participants']['removed'] == []
+        assert diff['participants']['changed'] == []
+        assert not has_changes(diff)
+
+    def test_added_and_removed_participants(self):
+        old = {'A, Alice': participant([]), 'B, Bob': participant([])}
+        new = {'A, Alice': participant([]), 'C, Carl': participant([])}
+        diff = compute_diff(old, new, [], [])
+        assert diff['participants']['added'] == ['C, Carl']
+        assert diff['participants']['removed'] == ['B, Bob']
+        assert has_changes(diff)
+
+    def test_changed_entry_list_detected_even_with_same_count(self):
+        old = {'A, Alice': participant([entry(event='E1')])}
+        new = {'A, Alice': participant([entry(event='E2')])}  # same count, different event
+        diff = compute_diff(old, new, [], [])
+        changed = diff['participants']['changed']
+        assert len(changed) == 1
+        assert changed[0] == {'name': 'A, Alice', 'oldEntryCount': 1, 'newEntryCount': 1}
+
+    def test_reordered_entries_are_not_a_change(self):
+        old = {'A, Alice': participant([entry(event='E1'), entry(event='E2')])}
+        new = {'A, Alice': participant([entry(event='E2'), entry(event='E1')])}
+        diff = compute_diff(old, new, [], [])
+        assert diff['participants']['changed'] == []
+
+    def test_partner_change_counts_as_changed(self):
+        old = {'A, Alice': participant([entry(event='E1', partner='B, Bob')])}
+        new = {'A, Alice': participant([entry(event='E1', partner='C, Carl')])}
+        diff = compute_diff(old, new, [], [])
+        assert len(diff['participants']['changed']) == 1
+
+    def test_counts_reflect_totals(self):
+        old = {'A, Alice': participant([])}
+        new = {'A, Alice': participant([]), 'B, Bob': participant([])}
+        diff = compute_diff(old, new, [], [])
+        assert diff['participants']['oldCount'] == 1
+        assert diff['participants']['newCount'] == 2
+
+
+class TestComputeDiffEvents:
+    def test_added_and_removed_events(self):
+        old = [heat_event('E1', ['A, Alice'])]
+        new = [heat_event('E2', ['A, Alice'])]
+        diff = compute_diff({}, {}, old, new)
+        assert diff['events']['added'] == ['E2']
+        assert diff['events']['removed'] == ['E1']
+
+    def test_roster_added_and_removed_for_same_event(self):
+        old = [heat_event('E1', ['A, Alice', 'B, Bob'])]
+        new = [heat_event('E1', ['A, Alice', 'C, Carl'])]
+        diff = compute_diff({}, {}, old, new)
+        rc = diff['events']['rosterChanged']
+        assert len(rc) == 1
+        assert rc[0]['event'] == 'E1'
+        assert rc[0]['added'] == ['C, Carl']
+        assert rc[0]['removed'] == ['B, Bob']
+
+    def test_unchanged_roster_not_reported(self):
+        old = [heat_event('E1', ['A, Alice', 'B, Bob'])]
+        new = [heat_event('E1', ['B, Bob', 'A, Alice'])]  # different order, same set
+        diff = compute_diff({}, {}, old, new)
+        assert diff['events']['rosterChanged'] == []
+
+    def test_event_count_vs_unique_count(self):
+        # heat_events.json can (in principle) have the same event name appear more than
+        # once across different heats; oldCount/newCount is raw list length, the
+        # *UniqueCount fields are what added/removed/rosterChanged are computed over.
+        old = [heat_event('E1', ['A, Alice']), heat_event('E1', ['B, Bob'])]
+        new = [heat_event('E1', ['A, Alice'])]
+        diff = compute_diff({}, {}, old, new)
+        assert diff['events']['oldCount'] == 2
+        assert diff['events']['newCount'] == 1
+        assert diff['events']['oldUniqueCount'] == 1
+        assert diff['events']['newUniqueCount'] == 1
+
+
+class TestComputeDiffEdgeCases:
+    def test_none_inputs_treated_as_empty(self):
+        diff = compute_diff(None, {'A, Alice': participant([])}, None, [heat_event('E1', [])])
+        assert diff['participants']['added'] == ['A, Alice']
+        assert diff['events']['added'] == ['E1']
+
+    def test_first_ever_scrape_everything_is_added(self):
+        new_p = {'A, Alice': participant([entry(event='E1')])}
+        new_h = [heat_event('E1', ['A, Alice'])]
+        diff = compute_diff({}, new_p, [], new_h)
+        assert diff['participants']['added'] == ['A, Alice']
+        assert diff['events']['added'] == ['E1']
+        assert has_changes(diff)
+
+    def test_timestamp_is_present_and_iso_format(self):
+        diff = compute_diff({}, {}, [], [])
+        # Just check it round-trips through fromisoformat without raising
+        from datetime import datetime
+        datetime.fromisoformat(diff['timestamp'])
+
+
+class TestLogScrapeDiff:
+    def test_creates_new_log_file(self, tmp_path):
+        diff = compute_diff({}, {'A, Alice': participant([])}, [], [])
+        log_path = log_scrape_diff(tmp_path, diff)
+        assert log_path.exists()
+        with open(log_path) as f:
+            log = json.load(f)
+        assert len(log) == 1
+        assert log[0]['participants']['added'] == ['A, Alice']
+
+    def test_appends_to_existing_log(self, tmp_path):
+        diff1 = compute_diff({}, {'A, Alice': participant([])}, [], [])
+        log_scrape_diff(tmp_path, diff1)
+        diff2 = compute_diff({}, {'B, Bob': participant([])}, [], [])
+        log_path = log_scrape_diff(tmp_path, diff2)
+        with open(log_path) as f:
+            log = json.load(f)
+        assert len(log) == 2
+        assert log[-1]['participants']['added'] == ['B, Bob']
+
+    def test_caps_log_length_dropping_oldest(self, tmp_path):
+        for i in range(5):
+            diff = compute_diff({}, {f'P{i}, Name': participant([])}, [], [])
+            log_scrape_diff(tmp_path, diff, max_entries=3)
+        with open(tmp_path / 'scrape_log.json') as f:
+            log = json.load(f)
+        assert len(log) == 3
+        # newest-last, oldest three dropped
+        assert log[-1]['participants']['added'] == ['P4, Name']
+        assert log[0]['participants']['added'] == ['P2, Name']
+
+    def test_corrupt_existing_log_is_replaced_not_fatal(self, tmp_path):
+        (tmp_path / 'scrape_log.json').write_text('not valid json{{{')
+        diff = compute_diff({}, {'A, Alice': participant([])}, [], [])
+        log_path = log_scrape_diff(tmp_path, diff)
+        with open(log_path) as f:
+            log = json.load(f)
+        assert len(log) == 1
+
+
+class TestHasChanges:
+    def test_true_when_participant_added(self):
+        diff = compute_diff({}, {'A, Alice': participant([])}, [], [])
+        assert has_changes(diff)
+
+    def test_false_when_nothing_changed(self):
+        p = {'A, Alice': participant([entry(event='E1')])}
+        h = [heat_event('E1', ['A, Alice'])]
+        diff = compute_diff(p, p, h, h)
+        assert not has_changes(diff)

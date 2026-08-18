@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9SV5JFP7RJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9SV5JFP7RJ');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Scrape Log</title>
+    <script src="com_assets/competition-manager.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0f0f0f;
+            --bg-secondary: #1a1a1a;
+            --bg-tertiary: #252525;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent: #00d9ff;
+            --accent-dim: #0099cc;
+            --added: #4ade80;
+            --removed: #ff6b6b;
+            --changed: #ffd166;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 32px 20px 60px; }
+        header { text-align: center; margin-bottom: 32px; }
+        h1 {
+            font-size: 2em;
+            font-weight: 200;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, var(--accent), #00a8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+        }
+        .subtitle { color: var(--text-secondary); font-size: 0.9em; }
+        .nav-links { margin-top: 14px; }
+        .nav-links a { color: var(--accent); text-decoration: none; font-size: 0.85em; opacity: 0.8; }
+        .nav-links a:hover { opacity: 1; }
+        #competitionSelector { margin-top: 14px; }
+
+        .log-entry {
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary);
+            border-radius: 6px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+        .log-entry-header {
+            padding: 14px 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+            transition: background 0.15s;
+        }
+        .log-entry-header:hover { background: var(--bg-tertiary); }
+        .log-entry-date {
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+        .log-entry-summary {
+            color: var(--text-secondary);
+            font-size: 0.9em;
+            flex: 1;
+        }
+        .log-entry-summary.no-change { opacity: 0.6; font-style: italic; }
+        .log-entry-toggle {
+            color: var(--accent);
+            font-size: 0.8em;
+            transition: transform 0.15s;
+        }
+        .log-entry.open .log-entry-toggle { transform: rotate(90deg); }
+        .log-entry-detail {
+            display: none;
+            padding: 0 16px 18px;
+            border-top: 1px solid var(--bg-tertiary);
+        }
+        .log-entry.open .log-entry-detail { display: block; }
+
+        .detail-section { margin-top: 16px; }
+        .detail-section h3 {
+            font-size: 0.75em;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+        .count-line { font-size: 0.95em; margin-bottom: 8px; }
+        .count-line strong { color: var(--accent); }
+        .diff-list { font-size: 0.85em; margin: 4px 0 4px 0; color: var(--text-secondary); }
+        .name-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+        .name-pill {
+            padding: 2px 8px;
+            border-radius: 3px;
+            background: var(--bg-tertiary);
+            border: 1px solid rgba(255,255,255,0.06);
+            white-space: nowrap;
+        }
+        .name-pill.added-name { color: var(--added); border-color: rgba(74,222,128,0.25); }
+        .name-pill.removed-name { color: var(--removed); border-color: rgba(255,107,107,0.25); }
+        .changed-row { font-size: 0.85em; color: var(--changed); margin: 2px 0; }
+        .roster-row { font-size: 0.82em; margin: 4px 0; color: var(--text-secondary); }
+        .roster-row .event-name { color: var(--text-primary); }
+        .empty-state { text-align: center; color: var(--text-secondary); padding: 48px; }
+        .loading { text-align: center; color: var(--text-secondary); padding: 48px; }
+
+        /* Password gate — same as com.html: client-side only, a soft deterrent. */
+        .container.gate-hidden { display: none; }
+        .password-gate {
+            position: fixed; inset: 0; background: var(--bg-primary); z-index: 2000;
+            display: flex; align-items: center; justify-content: center; padding: 20px;
+        }
+        .password-gate.gate-hidden { display: none; }
+        .password-gate-card { width: 100%; max-width: 320px; text-align: center; }
+        .password-gate-card h2 { color: var(--accent); font-size: 1.4em; margin-bottom: 8px; }
+        .password-gate-card p { color: var(--text-secondary); font-size: 0.9em; margin-bottom: 20px; }
+        .password-gate-card input {
+            width: 100%; padding: 12px 14px; background: var(--bg-secondary);
+            border: 1px solid var(--bg-tertiary); border-radius: 6px; color: var(--text-primary);
+            font-size: 1em; margin-bottom: 12px; text-align: center;
+        }
+        .password-gate-card button {
+            width: 100%; padding: 12px 14px; background: var(--accent); border: none;
+            border-radius: 6px; color: var(--bg-primary); font-weight: 600; font-size: 1em; cursor: pointer;
+        }
+        .password-gate-error { color: #ff6b6b; font-size: 0.85em; margin-top: 10px; min-height: 1.2em; }
+    </style>
+</head>
+<body>
+    <div class="password-gate" id="passwordGate">
+        <div class="password-gate-card">
+            <h2>🔒 Private</h2>
+            <p>Enter the password to view this page.</p>
+            <input type="password" id="passwordGateInput" placeholder="Password" autocomplete="off" autofocus>
+            <button onclick="submitPasswordGate()">Unlock</button>
+            <div class="password-gate-error" id="passwordGateError"></div>
+        </div>
+    </div>
+
+    <div class="container gate-hidden" id="mainContainer">
+        <header>
+            <h1>📋 Scrape Log</h1>
+            <div class="subtitle">History of what changed on the source site between scrapes</div>
+            <div id="competitionSelector"></div>
+            <div class="nav-links"><a href="com.html">← Back to Event Competitors</a></div>
+        </header>
+
+        <div id="logList">
+            <div class="loading" id="logLoading">Loading…</div>
+        </div>
+    </div>
+
+    <script>
+        async function readJson(res, fallback) {
+            if (!res.ok) return fallback;
+            if (!(res.headers.get('content-type') || '').includes('json')) return fallback;
+            return res.json();
+        }
+
+        function esc(s) {
+            return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+        }
+
+        function formatDate(iso) {
+            try {
+                const d = new Date(iso);
+                return d.toLocaleString(undefined, {
+                    year: 'numeric', month: 'short', day: 'numeric',
+                    hour: '2-digit', minute: '2-digit', timeZoneName: 'short'
+                });
+            } catch (e) {
+                return iso;
+            }
+        }
+
+        function summaryLine(entry) {
+            const p = entry.participants, e = entry.events;
+            const anyChange = p.added.length || p.removed.length || p.changed.length ||
+                e.added.length || e.removed.length || e.rosterChanged.length;
+            if (!anyChange) return { text: 'No changes since previous scrape', noChange: true };
+            const parts = [];
+            parts.push(`Participants ${p.oldCount}→${p.newCount}` +
+                (p.added.length || p.removed.length ? ` (+${p.added.length}/-${p.removed.length})` : ''));
+            parts.push(`Events ${p.oldCount === e.oldUniqueCount ? '' : ''}${e.oldUniqueCount}→${e.newUniqueCount}` +
+                (e.added.length || e.removed.length ? ` (+${e.added.length}/-${e.removed.length})` : ''));
+            if (p.changed.length) parts.push(`${p.changed.length} entry list${p.changed.length !== 1 ? 's' : ''} changed`);
+            if (e.rosterChanged.length) parts.push(`${e.rosterChanged.length} roster${e.rosterChanged.length !== 1 ? 's' : ''} changed`);
+            return { text: parts.join(' · '), noChange: false };
+        }
+
+        function nameListHtml(names, cls) {
+            // Names are "Last, First" — joining a list of them with ", " reads as twice as
+            // many people (e.g. "Banner, Sandra, Lam, Eldon" looks like 4 names, not 2), so
+            // each name gets its own pill instead of relying on a separator.
+            if (!names.length) return '';
+            return `<div class="diff-list name-pills">${names.map(n => `<span class="name-pill ${cls}">${esc(n)}</span>`).join('')}</div>`;
+        }
+
+        function detailHtml(entry) {
+            const p = entry.participants, e = entry.events;
+            let html = '';
+
+            html += `<div class="detail-section"><h3>Participants</h3>`;
+            html += `<div class="count-line"><strong>${p.oldCount} → ${p.newCount}</strong></div>`;
+            if (p.added.length) {
+                html += `<div class="count-line">Added (${p.added.length}):</div>`;
+                html += nameListHtml(p.added, 'added-name');
+            }
+            if (p.removed.length) {
+                html += `<div class="count-line">Removed (${p.removed.length}):</div>`;
+                html += nameListHtml(p.removed, 'removed-name');
+            }
+            if (p.changed.length) {
+                html += `<div class="count-line">Changed entry counts (${p.changed.length}):</div>`;
+                p.changed.forEach(c => {
+                    html += `<div class="changed-row">${esc(c.name)}: ${c.oldEntryCount} → ${c.newEntryCount} entries</div>`;
+                });
+            }
+            if (!p.added.length && !p.removed.length && !p.changed.length) {
+                html += `<div class="count-line" style="opacity:0.6;">No participant changes</div>`;
+            }
+            html += `</div>`;
+
+            html += `<div class="detail-section"><h3>Events</h3>`;
+            html += `<div class="count-line"><strong>${e.oldUniqueCount} → ${e.newUniqueCount}</strong> unique event names` +
+                (e.oldCount !== e.oldUniqueCount || e.newCount !== e.newUniqueCount
+                    ? ` (${e.oldCount} → ${e.newCount} total heat entries)` : '') + `</div>`;
+            if (e.added.length) {
+                html += `<div class="count-line">Added (${e.added.length}):</div>`;
+                html += nameListHtml(e.added, 'added-name');
+            }
+            if (e.removed.length) {
+                html += `<div class="count-line">Removed (${e.removed.length}):</div>`;
+                html += nameListHtml(e.removed, 'removed-name');
+            }
+            if (e.rosterChanged.length) {
+                html += `<div class="count-line">Competitor roster changed (${e.rosterChanged.length}):</div>`;
+                e.rosterChanged.forEach(rc => {
+                    const bits = [];
+                    // Semicolons, not commas — names are "Last, First" and a comma-joined
+                    // list of them is ambiguous about where one name ends and the next begins.
+                    if (rc.added.length) bits.push(`<span class="added-name">+${rc.added.map(esc).join('; ')}</span>`);
+                    if (rc.removed.length) bits.push(`<span class="removed-name">-${rc.removed.map(esc).join('; ')}</span>`);
+                    html += `<div class="roster-row"><span class="event-name">${esc(rc.event)}</span>: ${bits.join(' ')}</div>`;
+                });
+            }
+            if (!e.added.length && !e.removed.length && !e.rosterChanged.length) {
+                html += `<div class="count-line" style="opacity:0.6;">No event changes</div>`;
+            }
+            html += `</div>`;
+
+            return html;
+        }
+
+        function toggleEntry(el) {
+            el.classList.toggle('open');
+        }
+
+        async function loadData() {
+            const compName = window.competitionManager.getCompetitionName();
+            document.title = `Scrape Log — ${compName}`;
+            window.competitionManager.renderSelector('competitionSelector');
+
+            document.getElementById('logList').innerHTML = '<div class="loading" id="logLoading">Loading…</div>';
+
+            const res = await fetch(window.competitionManager.getDataPath('scrape_log.json'));
+            const log = await readJson(res, []);
+
+            if (!log.length) {
+                document.getElementById('logList').innerHTML =
+                    `<div class="empty-state">No scrape history recorded yet for ${esc(compName)}.</div>`;
+                return;
+            }
+
+            // Newest first
+            const ordered = [...log].reverse();
+            const html = ordered.map((entry, i) => {
+                const s = summaryLine(entry);
+                return `
+                    <div class="log-entry" id="log-entry-${i}">
+                        <div class="log-entry-header" onclick="toggleEntry(document.getElementById('log-entry-${i}'))">
+                            <span class="log-entry-date">${esc(formatDate(entry.timestamp))}</span>
+                            <span class="log-entry-summary${s.noChange ? ' no-change' : ''}">${esc(s.text)}</span>
+                            <span class="log-entry-toggle">▶</span>
+                        </div>
+                        <div class="log-entry-detail">${detailHtml(entry)}</div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('logList').innerHTML = html;
+        }
+
+        window.loadData = loadData;
+
+        async function init() {
+            if (!window.competitionManager.competitions || window.competitionManager.competitions.length === 0) {
+                await window.competitionManager.load();
+            }
+            await loadData();
+        }
+
+        const PASSWORD_GATE_KEY = 'comPageUnlocked';
+        const PASSWORD_GATE_VALUE = '12345';
+
+        function unlockPasswordGate() {
+            document.getElementById('passwordGate').classList.add('gate-hidden');
+            document.getElementById('mainContainer').classList.remove('gate-hidden');
+            init();
+        }
+
+        function submitPasswordGate() {
+            const input = document.getElementById('passwordGateInput');
+            const errorEl = document.getElementById('passwordGateError');
+            if (input.value === PASSWORD_GATE_VALUE) {
+                sessionStorage.setItem(PASSWORD_GATE_KEY, '1');
+                unlockPasswordGate();
+            } else {
+                errorEl.textContent = 'Incorrect password.';
+                input.value = '';
+                input.focus();
+            }
+        }
+
+        document.getElementById('passwordGateInput').addEventListener('keyup', (e) => {
+            if (e.key === 'Enter') submitPasswordGate();
+        });
+
+        if (sessionStorage.getItem(PASSWORD_GATE_KEY) === '1') {
+            unlockPasswordGate();
+        } else {
+            document.getElementById('passwordGateInput').focus();
+        }
+    </script>
+</body>
+</html>

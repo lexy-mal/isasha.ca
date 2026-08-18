@@ -10,6 +10,7 @@ import urllib.request
 import re
 from pathlib import Path
 from config import get_config, get_output_dir
+from scrape_diff import compute_diff, has_changes, log_scrape_diff
 
 def fetch_html(url):
     """Fetch HTML from URL"""
@@ -195,6 +196,42 @@ def main():
     print("Building heat events...", file=sys.stderr)
     heat_events = build_heat_events(entries)
     print(f"Built {len(heat_events)} events", file=sys.stderr)
+
+    # Diff against whatever was previously committed, BEFORE overwriting it, and log the
+    # result so the website can show a history of what changed on the source site between
+    # scrapes. Missing/corrupt prior files just diff as "everything added" (empty old side).
+    print("Diffing against previous scrape...", file=sys.stderr)
+    old_participants = {}
+    old_participants_path = output_dir / 'participants.json'
+    if old_participants_path.exists():
+        try:
+            with open(old_participants_path) as f:
+                old_participants = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+    old_heat_events = []
+    old_heat_events_path = output_dir / 'heat_events.json'
+    if old_heat_events_path.exists():
+        try:
+            with open(old_heat_events_path) as f:
+                old_heat_events = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            pass
+
+    diff = compute_diff(old_participants, participants, old_heat_events, heat_events)
+    log_path = log_scrape_diff(output_dir, diff)
+    if has_changes(diff):
+        p, e = diff['participants'], diff['events']
+        print(
+            f"  Changes: participants {p['oldCount']}->{p['newCount']} "
+            f"(+{len(p['added'])}/-{len(p['removed'])}/~{len(p['changed'])}), "
+            f"events {e['oldUniqueCount']}->{e['newUniqueCount']} "
+            f"(+{len(e['added'])}/-{len(e['removed'])}/~{len(e['rosterChanged'])} roster)",
+            file=sys.stderr
+        )
+    else:
+        print("  No changes since last scrape", file=sys.stderr)
+    print(f"  Logged to {log_path}", file=sys.stderr)
 
     # Save files
     if not save_json(participants, output_dir, 'participants.json'):
