@@ -5,15 +5,15 @@ This system now supports managing data for multiple dance competitions. You can 
 ## Quick Start
 
 ### View a Competition
-1. Open `dance.html`
+1. Open `com.html`
 2. Use the competition dropdown at the top to switch between competitions
 3. The data will automatically load from the selected competition's directory
 
 ### Add a New Competition
 
-1. **Create a new directory** in `dance_assets/`:
+1. **Create a new directory** in `com_assets/`:
    ```bash
-   mkdir dance_assets/mycompetition2026
+   mkdir com_assets/mycompetition2026
    ```
 
 2. **Update `.env`** file to configure scraping:
@@ -44,7 +44,7 @@ This system now supports managing data for multiple dance competitions. You can 
 
 4. **Scrape the entry lists**:
    ```bash
-   cd dance_assets
+   cd com_assets
    python3 scrape_data_flexible.py mycompetition2026
    ```
 
@@ -56,7 +56,7 @@ This system now supports managing data for multiple dance competitions. You can 
 ## File Structure
 
 ```
-dance_assets/
+com_assets/
 ├── .env                                # Configuration file (add to .gitignore)
 ├── .env.sample                         # Configuration template
 ├── competitions.json                   # List of all competitions
@@ -89,7 +89,7 @@ The `.env` file controls which competition is scraped and used:
 # Which competition directory to use
 COMPETITION_ID=national2026
 
-# Which competition to show by default when dance.html loads
+# Which competition to show by default when com.html loads
 ACTIVE_COMPETITION=national2026
 
 # Entry lists URL for scraping participants/heats
@@ -148,7 +148,7 @@ Each competition directory should contain:
 ### Using the Flexible Scraper
 
 ```bash
-cd dance_assets
+cd com_assets
 python3 scrape_data_flexible.py national2026
 ```
 
@@ -169,7 +169,7 @@ python3 scrape_data_flexible.py
 ### Using the Flexible Scraper
 
 ```bash
-cd dance_assets
+cd com_assets
 python3 scrape_results_flexible.py national2026
 ```
 
@@ -190,7 +190,7 @@ These are kept for backward compatibility but **should not be used** for new com
 
 ## Frontend Integration
 
-The frontend (`dance.html`) automatically:
+The frontend (`com.html`) automatically:
 
 1. Loads `competitions.json` on page load
 2. Shows a dropdown to select which competition to view
@@ -210,7 +210,7 @@ window.competitionManager.setActive('impercup2026');
 
 // Get the data path for a file
 const path = window.competitionManager.getDataPath('participants.json');
-// Returns: 'dance_assets/impercup2026/participants.json'
+// Returns: 'com_assets/impercup2026/participants.json'
 ```
 
 ## Troubleshooting
@@ -251,7 +251,7 @@ Set `"archived": true` in `competitions.json` to move a competition to the botto
 You can delete old competition directories if you no longer need them, but keep the entry in `competitions.json` for records. Or remove completely:
 
 ```bash
-rm -rf dance_assets/oldcompetition/
+rm -rf com_assets/oldcompetition/
 ```
 
 And remove from `competitions.json`.

@@ -12,7 +12,7 @@ class CompetitionManager {
 
   async load() {
     try {
-      const res = await fetch('/projects/dance_assets/competitions.json');
+      const res = await fetch('/projects/com_assets/competitions.json');
       const data = await res.json();
       this.competitions = data.competitions || [];
 
@@ -50,8 +50,8 @@ class CompetitionManager {
   }
 
   getDataPath(filename) {
-    if (!this.activeCompetition) return `/projects/dance_assets/${filename}`;
-    return `/projects/dance_assets/${this.activeCompetition.id}/${filename}`;
+    if (!this.activeCompetition) return `/projects/com_assets/${filename}`;
+    return `/projects/com_assets/${this.activeCompetition.id}/${filename}`;
   }
 
   getCompetitionName() {

@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imperial Cup 2026 — Results</title>
     <style>
-        /* ── Design tokens (match dance.html) ── */
+        /* ── Design tokens (match com.html) ── */
         :root {
             --bg-primary: #0a0a0f;
             --bg-secondary: #12121a;
@@ -254,7 +254,7 @@
         <h1>Imperial Cup 2026 — Results</h1>
         <div class="subtitle">June 19–21, 2026 · Full scoresheet results</div>
         <div class="nav-links">
-            <a href="dance.html">← Schedule &amp; Participants</a>
+            <a href="com.html">← Schedule &amp; Participants</a>
         </div>
     </div>
 
@@ -290,8 +290,8 @@
         async function loadData() {
             try {
                 const [rRes, prRes] = await Promise.all([
-                    fetch('dance_assets/results.json'),
-                    fetch('dance_assets/person_results.json')
+                    fetch('com_assets/results.json'),
+                    fetch('com_assets/person_results.json')
                 ]);
                 resultsData = await rRes.json();
                 personResultsData = await prRes.json();
@@ -399,7 +399,7 @@
         }
 
         function goToDancePage(name) {
-            window.location.href = `dance.html?search=${encodeURIComponent(name)}`;
+            window.location.href = `com.html?search=${encodeURIComponent(name)}`;
         }
 
         // ── Head-to-head ───────────────────────────────────────────────────

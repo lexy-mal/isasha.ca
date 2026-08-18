@@ -10,7 +10,7 @@ Checks:
 5. Data completeness
 6. Age category codes — every event's leading code (e.g. "AC-JV1") must be a
    known age code or a known Pro-Am skill code; anything else is reported so
-   AGE_CATEGORY_MAP/SKILL_LEVEL_CODES in dance.html can be updated
+   AGE_CATEGORY_MAP/SKILL_LEVEL_CODES in com.html can be updated
 7. Couple pairing integrity — every claimed partner must actually be on the
    competitor roster for that exact heat+event, or the couple silently
    renders broken/solo in the UI
@@ -23,7 +23,7 @@ from pathlib import Path
 from config import get_output_dir
 
 # Kept in sync by hand with AGE_CATEGORY_MAP / SKILL_LEVEL_CODES in
-# public/projects/dance.html — see dance_assets/AGE_CATEGORIES.md for how
+# public/projects/com.html — see com_assets/AGE_CATEGORIES.md for how
 # these were derived. If you touch one, touch the other; validate_age_
 # categories() below exists specifically to catch the two drifting apart
 # (a code the UI can't classify shows up as a validation error here).
@@ -37,7 +37,7 @@ CODE_RE = re.compile(r'^[A-Z]+-([A-Za-z0-9]*)')
 
 
 def classify_event_code(event_name):
-    """Mirror of getEventAgeCategory()'s classification in dance.html, minus
+    """Mirror of getEventAgeCategory()'s classification in com.html, minus
     the actual label lookup — returns 'age', 'skill', 'no-code', or
     ('unrecognized', code) for anything neither table above accounts for."""
     m = CODE_RE.match(event_name)
@@ -210,7 +210,7 @@ class DataValidator:
             self.errors.append(
                 f"Unrecognized event code '{code}' ({len(examples)} event(s)) — "
                 f"not in AGE_CATEGORY_CODES or SKILL_LEVEL_CODES. e.g. '{sample}'{more}. "
-                f"Add it to AGE_CATEGORY_MAP/SKILL_LEVEL_CODES in dance.html "
+                f"Add it to AGE_CATEGORY_MAP/SKILL_LEVEL_CODES in com.html "
                 f"(and this script, and AGE_CATEGORIES.md) once you know what it means."
             )
 

@@ -23,7 +23,7 @@ This directory contains data for the Imperial Cup 2026 dance competition.
 When the source website is updated with new participants or heats:
 
 ```bash
-cd public/projects/dance_assets
+cd public/projects/com_assets
 python3 scrape_data.py
 ```
 
