@@ -78,14 +78,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kosztak, Csilla"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kosztak, Csilla"
@@ -313,66 +313,10 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Banner, Sandra"
+        "partner": "Bookhardt, Elizabeth"
       },
       {
         "heat": "",
@@ -390,13 +334,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Bookhardt, Elizabeth"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -404,10 +341,17 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bookhardt, Elizabeth"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Morse, Linda"
       },
       {
         "heat": "",
@@ -419,34 +363,6 @@
       {
         "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Morse, Linda"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Morse, Linda"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Morse, Linda"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Morse, Linda"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Morse, Linda"
@@ -474,10 +390,24 @@
       },
       {
         "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
-        "partner": "Zhou, Jun"
+        "partner": "Morse, Linda"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Morse, Linda"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Morse, Linda"
       },
       {
         "heat": "",
@@ -502,20 +432,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Zhou, Jun"
-      },
-      {
-        "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Zhou, Jun"
-      },
-      {
-        "heat": "",
         "event": "L-C Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -531,6 +447,27 @@
       {
         "heat": "",
         "event": "L-C Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Zhou, Jun"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Zhou, Jun"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Zhou, Jun"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Zhou, Jun"
@@ -1514,14 +1451,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Midzic, Ines"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Midzic, Ines"
@@ -1539,14 +1476,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ding, Shayna"
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Ding, Shayna"
@@ -2336,14 +2273,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Laroche, Justin"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Laroche, Justin"
@@ -2542,7 +2479,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Guenis, Tamir"
@@ -2556,7 +2493,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Guenis, Tamir"
@@ -3384,42 +3321,42 @@
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
@@ -3447,28 +3384,21 @@
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Marc"
-      },
-      {
-        "heat": "",
-        "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
@@ -3489,21 +3419,21 @@
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
@@ -3546,6 +3476,13 @@
       {
         "heat": "",
         "event": "G-C Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Marc"
+      },
+      {
+        "heat": "",
+        "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
@@ -3989,73 +3926,6 @@
         "time": "",
         "session": "",
         "partner": null
-      }
-    ]
-  },
-  "Banner, Sandra": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
       }
     ]
   },
@@ -4597,14 +4467,14 @@
       },
       {
         "heat": "",
-        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Stytsenko, Kateryna"
       },
       {
         "heat": "",
-        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Stytsenko, Kateryna"
@@ -5061,14 +4931,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -5354,14 +5224,14 @@
       },
       {
         "heat": "",
-        "event": "G-E PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+        "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Bolduc, Marie"
       },
       {
         "heat": "",
-        "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+        "event": "G-E PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Bolduc, Marie"
@@ -5566,7 +5436,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Benson, Cassandra"
@@ -5580,7 +5450,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Benson, Cassandra"
@@ -5965,7 +5835,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Belharbi, Zakary"
@@ -5979,7 +5849,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Belharbi, Zakary"
@@ -6431,7 +6301,7 @@
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze CLUB Hustle",
+        "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -6473,21 +6343,7 @@
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Safonova, Alina"
-      },
-      {
-        "heat": "",
         "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Safonova, Alina"
-      },
-      {
-        "heat": "",
-        "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -6530,6 +6386,20 @@
       {
         "heat": "",
         "event": "G-D Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Safonova, Alina"
+      },
+      {
+        "heat": "",
+        "event": "G-C Bronze Ouvert / Open Bronze CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Safonova, Alina"
+      },
+      {
+        "heat": "",
+        "event": "G-C Bronze Ouvert / Open Bronze CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -6960,13 +6830,6 @@
       },
       {
         "heat": "",
-        "event": "L- Or / Gold Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Safonov, Vadim"
-      },
-      {
-        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 CLUB Samba",
         "time": "",
         "session": "",
@@ -6982,6 +6845,13 @@
       {
         "heat": "",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Safonov, Vadim"
+      },
+      {
+        "heat": "",
+        "event": "L- Or / Gold Paso Doble",
         "time": "",
         "session": "",
         "partner": "Safonov, Vadim"
@@ -7898,7 +7768,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Chen, Nicole"
@@ -7912,7 +7782,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Nicole"
@@ -8141,14 +8011,14 @@
       },
       {
         "heat": "",
-        "event": "G-E PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+        "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Beaudet, Jean"
       },
       {
         "heat": "",
-        "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+        "event": "G-E PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Beaudet, Jean"
@@ -8335,6 +8205,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -8349,13 +8226,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -8363,7 +8233,7 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Aleksandrov, Ivan"
@@ -8692,6 +8562,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Pichette, Cory"
+      },
+      {
+        "heat": "",
         "event": "L-D Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -8798,13 +8675,6 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Bachata",
-        "time": "",
-        "session": "",
-        "partner": "Pichette, Cory"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Pichette, Cory"
@@ -9641,14 +9511,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Stephen"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Stephen"
@@ -9659,14 +9529,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Gilda"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Gilda"
@@ -10621,6 +10491,38 @@
       }
     ]
   },
+  "Brosseau, Karine": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Chaput, Tomy"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Chaput, Tomy"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Chaput, Tomy"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Chaput, Tomy"
+      }
+    ]
+  },
   "Broudno, Thais": {
     "entries": [
       {
@@ -11340,14 +11242,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Phippen, Max"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Phippen, Max"
@@ -11481,6 +11383,94 @@
         "time": "",
         "session": "",
         "partner": "Viau, Marie-Josee"
+      }
+    ]
+  },
+  "Carunas, Elina": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Lopaiev, Nikita"
       }
     ]
   },
@@ -12779,13 +12769,6 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Nor-Arevian, Sofia"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
@@ -12793,7 +12776,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
@@ -12801,6 +12784,13 @@
       {
         "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Nor-Arevian, Sofia"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
@@ -12958,6 +12948,38 @@
       }
     ]
   },
+  "Chaput, Tomy": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Brosseau, Karine"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Brosseau, Karine"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Brosseau, Karine"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Brosseau, Karine"
+      }
+    ]
+  },
   "Chase, Joshua": {
     "entries": [
       {
@@ -12998,14 +13020,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Fonya, Karolina"
       },
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Fonya, Karolina"
@@ -13288,14 +13310,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Wong, Ed"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Wong, Ed"
@@ -13320,7 +13342,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Jin, Toby"
@@ -13341,7 +13363,7 @@
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Jin, Toby"
@@ -13462,7 +13484,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Bogodelny, Kris"
@@ -13476,7 +13498,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Bogodelny, Kris"
@@ -13617,7 +13639,7 @@
       },
       {
         "heat": "",
-        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Olavide, Carlos"
@@ -13638,7 +13660,7 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
         "time": "",
         "session": "",
         "partner": "Olavide, Carlos"
@@ -14144,14 +14166,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Paquette, Emmanuelle"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Paquette, Emmanuelle"
@@ -14339,14 +14361,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
@@ -14360,7 +14382,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
@@ -14374,7 +14396,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
@@ -14435,14 +14457,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Trudeau, Caroline"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Trudeau, Caroline"
@@ -14653,14 +14675,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-16+ Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Robichaud, Delb\u00e9"
       },
       {
         "heat": "",
-        "event": "AC-16+ Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-AD3 Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Robichaud, Delb\u00e9"
@@ -15352,14 +15374,14 @@
       },
       {
         "heat": "",
-        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Trutneva, Anastasia"
       },
       {
         "heat": "",
-        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Trutneva, Anastasia"
@@ -16379,13 +16401,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Tsydinskyi, Mykyta"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -16411,14 +16426,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "St-Jacques, Sandrine"
       },
       {
         "heat": "",
-        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "St-Jacques, Sandrine"
@@ -16443,13 +16458,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Locke, Richard"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -16458,6 +16466,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Locke, Richard"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Locke, Richard"
@@ -16478,14 +16493,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Locke, Richard"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Locke, Richard"
@@ -17074,14 +17089,14 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Reininger, Pegi"
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Reininger, Pegi"
@@ -17701,14 +17716,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ankhbayar, Tulga"
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Ankhbayar, Tulga"
@@ -19036,6 +19051,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Tudorovsky, Veycheslav"
+      },
+      {
+        "heat": "",
         "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Samba",
         "time": "",
         "session": "",
@@ -19086,13 +19108,6 @@
       {
         "heat": "",
         "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB Bachata",
-        "time": "",
-        "session": "",
-        "partner": "Tudorovsky, Veycheslav"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"
@@ -19159,14 +19174,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Webber, Thomas"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Webber, Thomas"
@@ -19191,14 +19206,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Znack, Ginette"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Znack, Ginette"
@@ -19605,6 +19620,13 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
         "event": "L-D Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -19633,6 +19655,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent Ouvert / Open Silver RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
         "event": "L-C Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -19655,6 +19684,13 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Lewis, Magali"
@@ -19696,27 +19732,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Lewis, Magali"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Lewis, Magali"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Lewis, Magali"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -19745,6 +19760,27 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
@@ -19753,6 +19789,13 @@
       {
         "heat": "",
         "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Lewis, Magali"
@@ -20044,14 +20087,14 @@
       },
       {
         "heat": "",
-        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "event": "G-C Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
         "partner": "Elent, Maria"
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
         "partner": "Elent, Maria"
@@ -20174,14 +20217,14 @@
       },
       {
         "heat": "",
-        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "event": "G-C Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
         "partner": "Elent, Felix"
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
         "partner": "Elent, Felix"
@@ -20416,14 +20459,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Todea, Alin"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Todea, Alin"
@@ -21037,14 +21080,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Santua, Samuel"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Santua, Samuel"
@@ -21812,14 +21855,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chaves, Arielle"
       },
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chaves, Arielle"
@@ -21921,7 +21964,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "G\u00e9lin, Nicolas"
@@ -21935,14 +21978,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "G\u00e9lin, Nicolas"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "G\u00e9lin, Nicolas"
@@ -23557,14 +23600,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Legault, Stephane"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Legault, Stephane"
@@ -24010,7 +24053,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Motyl, Nataliia"
@@ -24031,7 +24074,7 @@
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Motyl, Nataliia"
@@ -25027,7 +25070,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Askinadze, Victoria"
@@ -25041,7 +25084,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Askinadze, Victoria"
@@ -25467,7 +25510,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Forcier, St\u00e9phanie"
@@ -25481,14 +25524,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Forcier, St\u00e9phanie"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (P/J)",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Forcier, St\u00e9phanie"
@@ -26800,14 +26843,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Kovaliuk, Oleksandr"
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Kovaliuk, Oleksandr"
@@ -27215,14 +27258,7 @@
       },
       {
         "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -27230,13 +27266,6 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -27271,7 +27300,7 @@
       },
       {
         "heat": "",
-        "event": "G-F Argent Ouvert / Open Silver CLUB Hustle",
+        "event": "G-E Argent Ouvert / Open Silver CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -27292,6 +27321,27 @@
       },
       {
         "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
+        "event": "G-E Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
@@ -27306,6 +27356,13 @@
       },
       {
         "heat": "",
+        "event": "G-F Argent Ouvert / Open Silver CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -27313,28 +27370,14 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent Ouvert / Open Silver CLUB Hustle",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
       },
       {
         "heat": "",
-        "event": "G-E Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -28456,14 +28499,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Baydala, Sophia"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Baydala, Sophia"
@@ -28540,14 +28583,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
@@ -28569,6 +28612,13 @@
       {
         "heat": "",
         "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Rolik, Alexa"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
@@ -29305,14 +29355,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO LATIN Championnat National Canadien / Canada's National Championship (C/S/R/P/J)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Mitieva, Maryna"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO LATIN Championnat National Canadien / Canada's National Championship (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Mitieva, Maryna"
@@ -29623,13 +29673,6 @@
       },
       {
         "heat": "",
-        "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-15- Ouvert / Open BALLROOM SOLO (W/T/Q)",
         "time": "",
         "session": "",
@@ -29652,6 +29695,13 @@
       {
         "heat": "",
         "event": "A-JR Or / Gold LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
         "time": "",
         "session": "",
         "partner": null
@@ -30216,7 +30266,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Chen, Jiaxin"
@@ -30237,7 +30287,7 @@
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Jiaxin"
@@ -30414,14 +30464,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Li, Kareena"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Li, Kareena"
@@ -30432,14 +30482,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lortie, Sylvie"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lortie, Sylvie"
@@ -30559,13 +30609,6 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Kouznetsov, Dmitriy"
-      },
-      {
-        "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -30573,7 +30616,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Kouznetsov, Dmitriy"
@@ -30588,6 +30631,13 @@
       {
         "heat": "",
         "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kouznetsov, Dmitriy"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kouznetsov, Dmitriy"
@@ -31031,14 +31081,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
@@ -31052,7 +31102,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
@@ -31066,7 +31116,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
@@ -31091,7 +31141,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kravtsov, Mark"
@@ -31105,7 +31155,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kravtsov, Mark"
@@ -32163,6 +32213,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Yue, Shirley"
+      },
+      {
+        "heat": "",
         "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -32171,13 +32228,6 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Yue, Shirley"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Yue, Shirley"
@@ -33688,14 +33738,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Achinfiev, Alexei"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Achinfiev, Alexei"
@@ -33854,13 +33904,6 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Kachurovska, Olena"
-      },
-      {
-        "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -33868,7 +33911,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Kachurovska, Olena"
@@ -33883,6 +33926,13 @@
       {
         "heat": "",
         "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kachurovska, Olena"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kachurovska, Olena"
@@ -34116,14 +34166,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Higginson, Kendell"
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Higginson, Kendell"
@@ -34314,7 +34364,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kazantseva, Polina"
@@ -34328,7 +34378,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kazantseva, Polina"
@@ -34926,13 +34976,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Tang, Sue"
-      },
-      {
-        "heat": "",
         "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -34940,7 +34983,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
@@ -34948,6 +34991,13 @@
       {
         "heat": "",
         "event": "AC-AD4 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Tang, Sue"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD5 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
@@ -34983,6 +35033,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Mc Brearty, Fran\u00e7ois"
+      },
+      {
+        "heat": "",
         "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
@@ -34991,13 +35048,6 @@
       {
         "heat": "",
         "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Mc Brearty, Fran\u00e7ois"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Mc Brearty, Fran\u00e7ois"
@@ -35201,6 +35251,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD3 Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Picard, C\u00e9line"
+      },
+      {
+        "heat": "",
         "event": "AC-AD3 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -35215,7 +35272,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Or/Gold AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Picard, C\u00e9line"
@@ -35223,13 +35280,6 @@
       {
         "heat": "",
         "event": "AC-AD4 Or/Gold AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Picard, C\u00e9line"
-      },
-      {
-        "heat": "",
-        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Picard, C\u00e9line"
@@ -36005,6 +36055,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Naud, Jocelyne"
+      },
+      {
+        "heat": "",
         "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -36013,13 +36070,6 @@
       {
         "heat": "",
         "event": "L-D Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Naud, Jocelyne"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Naud, Jocelyne"
@@ -36266,17 +36316,6 @@
         "time": "",
         "session": "",
         "partner": "Thokoly, Emese"
-      }
-    ]
-  },
-  "Lam, Eldon": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Yee, Kwa Lam"
       }
     ]
   },
@@ -37442,14 +37481,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lavery, Elise"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lavery, Elise"
@@ -37467,14 +37506,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Arbour, Maxim"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Arbour, Maxim"
@@ -37769,14 +37808,14 @@
       },
       {
         "heat": "",
-        "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Saini, Neeraj"
       },
       {
         "heat": "",
-        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Saini, Neeraj"
@@ -37917,14 +37956,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lapierre, Denis"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lapierre, Denis"
@@ -38597,6 +38636,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -38611,7 +38657,28 @@
       },
       {
         "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Wang, Huiying"
@@ -38647,34 +38714,6 @@
       {
         "heat": "",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Wang, Huiying"
@@ -39105,14 +39144,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Ueno, Linda"
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Ueno, Linda"
@@ -39358,6 +39397,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Edwyn"
+      },
+      {
+        "heat": "",
         "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -39380,13 +39426,6 @@
       {
         "heat": "",
         "event": "AC-JV Or/Gold AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Edwyn"
-      },
-      {
-        "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Wang, Edwyn"
@@ -39640,14 +39679,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Gauthier, Rachel"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Gauthier, Rachel"
@@ -40644,6 +40683,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
         "event": "L-D Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -40672,6 +40718,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent Ouvert / Open Silver RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
         "event": "L-C Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -40694,6 +40747,13 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Edouard, Volvick"
@@ -40735,27 +40795,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Edouard, Volvick"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Edouard, Volvick"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Edouard, Volvick"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -40784,6 +40823,27 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
@@ -40792,6 +40852,13 @@
       {
         "heat": "",
         "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Edouard, Volvick"
@@ -41287,14 +41354,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joung, Min"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joung, Min"
@@ -43140,7 +43207,7 @@
       },
       {
         "heat": "",
-        "event": "L-B Argent Ferm\u00e9 / Closed Silver CLUB Samba",
+        "event": "L-B Argent 1 Ouvert / Open Silver 1 CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Nicholls, Catherine"
@@ -43161,14 +43228,7 @@
       },
       {
         "heat": "",
-        "event": "L-A Argent Ferm\u00e9 / Closed Silver CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Nicholls, Catherine"
-      },
-      {
-        "heat": "",
-        "event": "L-B Argent 1 Ouvert / Open Silver 1 CLUB Samba",
+        "event": "L-A Argent 1 Ouvert / Open Silver 1 CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Nicholls, Catherine"
@@ -43182,7 +43242,14 @@
       },
       {
         "heat": "",
-        "event": "L-A Argent 1 Ouvert / Open Silver 1 CLUB Samba",
+        "event": "L-A Argent Ferm\u00e9 / Closed Silver CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Nicholls, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "L-B Argent Ferm\u00e9 / Closed Silver CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Nicholls, Catherine"
@@ -44128,13 +44195,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Dempster, Abigail"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -44143,6 +44203,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Dempster, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Dempster, Abigail"
@@ -44163,14 +44230,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Dempster, Abigail"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Dempster, Abigail"
@@ -44884,6 +44951,94 @@
       }
     ]
   },
+  "Lopaiev, Nikita": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Carunas, Elina"
+      }
+    ]
+  },
   "Lord, Diane": {
     "entries": [
       {
@@ -45165,14 +45320,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joyal, Guy"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joyal, Guy"
@@ -45229,14 +45384,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Sun, Qian (Kiana)"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Sun, Qian (Kiana)"
@@ -45402,13 +45557,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Solomakha, Roman"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -45417,6 +45565,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Solomakha, Roman"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Solomakha, Roman"
@@ -46142,14 +46297,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Richer, Luc"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Richer, Luc"
@@ -47307,6 +47462,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "L'Heureux, Aryanne"
+      },
+      {
+        "heat": "",
         "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
@@ -47315,13 +47477,6 @@
       {
         "heat": "",
         "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "L'Heureux, Aryanne"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "L'Heureux, Aryanne"
@@ -49018,14 +49173,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Anikin, Vladimir"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Anikin, Vladimir"
@@ -49071,20 +49226,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Toner-Miernicki, Collenn"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD1 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Toner-Miernicki, Collenn"
-      },
-      {
-        "heat": "",
         "event": "AC-AD2 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -49093,6 +49234,20 @@
       {
         "heat": "",
         "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Toner-Miernicki, Collenn"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Toner-Miernicki, Collenn"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD1 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Toner-Miernicki, Collenn"
@@ -49205,14 +49360,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Studenny, Kamil"
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Studenny, Kamil"
@@ -49591,14 +49746,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Valvasori, Jesse"
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Valvasori, Jesse"
@@ -49841,13 +49996,6 @@
       },
       {
         "heat": "",
-        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "",
-        "session": "",
-        "partner": "Vasiliu, Irene"
-      },
-      {
-        "heat": "",
         "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
@@ -49859,6 +50007,13 @@
         "time": "",
         "session": "",
         "partner": "Vasiliu, Irene"
+      },
+      {
+        "heat": "",
+        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Vasiliu, Irene"
       }
     ]
   },
@@ -49866,14 +50021,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO LATIN Championnat National Canadien / Canada's National Championship (C/S/R/P/J)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Iorhov, Oleksandr"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO LATIN Championnat National Canadien / Canada's National Championship (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Iorhov, Oleksandr"
@@ -50005,6 +50160,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -50013,34 +50175,6 @@
       {
         "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Aleksandrov, Ivan"
@@ -50065,6 +50199,27 @@
         "time": "",
         "session": "",
         "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
       }
     ]
   },
@@ -50079,14 +50234,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
@@ -50100,7 +50255,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
@@ -50114,7 +50269,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
@@ -50192,7 +50347,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Gontcharov, Ivan"
@@ -50213,7 +50368,7 @@
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Gontcharov, Ivan"
@@ -51042,14 +51197,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Plourde, Marie-Andree"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Plourde, Marie-Andree"
@@ -51359,6 +51514,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Lafreni\u00e8re, Francis"
+      },
+      {
+        "heat": "",
         "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -51367,13 +51529,6 @@
       {
         "heat": "",
         "event": "L-D Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Lafreni\u00e8re, Francis"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lafreni\u00e8re, Francis"
@@ -51816,7 +51971,7 @@
       },
       {
         "heat": "",
-        "event": "L-B Argent Ferm\u00e9 / Closed Silver CLUB Samba",
+        "event": "L-B Argent 1 Ouvert / Open Silver 1 CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -51837,14 +51992,7 @@
       },
       {
         "heat": "",
-        "event": "L-A Argent Ferm\u00e9 / Closed Silver CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Lisovolenko, Stanislav"
-      },
-      {
-        "heat": "",
-        "event": "L-B Argent 1 Ouvert / Open Silver 1 CLUB Samba",
+        "event": "L-A Argent 1 Ouvert / Open Silver 1 CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -51858,7 +52006,14 @@
       },
       {
         "heat": "",
-        "event": "L-A Argent 1 Ouvert / Open Silver 1 CLUB Samba",
+        "event": "L-A Argent Ferm\u00e9 / Closed Silver CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
+        "heat": "",
+        "event": "L-B Argent Ferm\u00e9 / Closed Silver CLUB Samba",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -52380,13 +52535,6 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Chan, Athyn"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
@@ -52394,7 +52542,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
@@ -52402,6 +52550,13 @@
       {
         "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Chan, Athyn"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
@@ -52492,7 +52647,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Cheuk, Maria"
@@ -52513,7 +52668,7 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
         "time": "",
         "session": "",
         "partner": "Cheuk, Maria"
@@ -53620,6 +53775,41 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
         "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -53670,41 +53860,6 @@
       {
         "heat": "",
         "event": "L-D* Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -53883,14 +54038,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Xiao, Ivan"
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Xiao, Ivan"
@@ -54200,14 +54355,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Chouinard, Marc-Andr\u00e9"
       },
       {
         "heat": "",
-        "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Chouinard, Marc-Andr\u00e9"
@@ -54349,6 +54504,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "White, James"
+      },
+      {
+        "heat": "",
         "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
@@ -54357,13 +54519,6 @@
       {
         "heat": "",
         "event": "AC-AD4 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "White, James"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "White, James"
@@ -54696,14 +54851,7 @@
       },
       {
         "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -54711,13 +54859,6 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -54752,7 +54893,7 @@
       },
       {
         "heat": "",
-        "event": "G-F Argent Ouvert / Open Silver CLUB Hustle",
+        "event": "G-E Argent Ouvert / Open Silver CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -54773,6 +54914,27 @@
       },
       {
         "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
+        "event": "G-E Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
@@ -54787,6 +54949,13 @@
       },
       {
         "heat": "",
+        "event": "G-F Argent Ouvert / Open Silver CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -54794,28 +54963,14 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent Ouvert / Open Silver CLUB Hustle",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
       },
       {
         "heat": "",
-        "event": "G-E Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -56043,6 +56198,56 @@
       }
     ]
   },
+  "Perrun, Alexandre": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Anastasia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Anastasia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Anastasia"
+      }
+    ]
+  },
+  "Perrun, Anastasia": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Alexandre"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Alexandre"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Perrun, Alexandre"
+      }
+    ]
+  },
   "Petrov, Nathaniel": {
     "entries": [
       {
@@ -56987,14 +57192,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Call, Devri"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Call, Devri"
@@ -57033,6 +57238,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD3 Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Labelle, Sylvain"
+      },
+      {
+        "heat": "",
         "event": "AC-AD3 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -57047,7 +57259,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Or/Gold AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Labelle, Sylvain"
@@ -57055,13 +57267,6 @@
       {
         "heat": "",
         "event": "AC-AD4 Or/Gold AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Labelle, Sylvain"
-      },
-      {
-        "heat": "",
-        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Labelle, Sylvain"
@@ -57303,6 +57508,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Bookhardt, Elizabeth"
+      },
+      {
+        "heat": "",
         "event": "L-D Argent Ouvert / Open Silver TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -57409,13 +57621,6 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Bachata",
-        "time": "",
-        "session": "",
-        "partner": "Bookhardt, Elizabeth"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Bookhardt, Elizabeth"
@@ -57964,14 +58169,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nadeau, Mario"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nadeau, Mario"
@@ -58666,6 +58871,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -58680,21 +58892,14 @@
       },
       {
         "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -58722,7 +58927,42 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -58750,27 +58990,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
         "event": "L-E Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -58792,42 +59011,28 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
       },
       {
         "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -59255,42 +59460,42 @@
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
@@ -59318,28 +59523,21 @@
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Bailey, Celeste"
-      },
-      {
-        "heat": "",
-        "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
@@ -59360,21 +59558,21 @@
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
       },
       {
         "heat": "",
-        "event": "G-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
@@ -59417,6 +59615,13 @@
       {
         "heat": "",
         "event": "G-C Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Bailey, Celeste"
+      },
+      {
+        "heat": "",
+        "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
@@ -60490,14 +60695,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gitana"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gitana"
@@ -60508,14 +60713,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gene"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gene"
@@ -61018,14 +61223,14 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Derry, Patrick"
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Derry, Patrick"
@@ -61176,14 +61381,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Shum-lok, Mitch"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Shum-lok, Mitch"
@@ -61197,7 +61395,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Shum-lok, Mitch"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Shum-lok, Mitch"
@@ -61576,14 +61781,14 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Taylor, Tom"
       },
       {
         "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Taylor, Tom"
@@ -62061,14 +62266,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Maill\u00e9, Suzie"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Maill\u00e9, Suzie"
@@ -62460,14 +62665,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-16+ Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Comeau, Jeannine"
       },
       {
         "heat": "",
-        "event": "AC-16+ Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-AD3 Argent Ferm\u00e9 / Closed Silver AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Comeau, Jeannine"
@@ -63474,14 +63679,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -63503,6 +63708,13 @@
       {
         "heat": "",
         "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Ilyushenov, Andrey"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -63796,14 +64008,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Sears, Adam"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Sears, Adam"
@@ -63986,13 +64198,6 @@
       },
       {
         "heat": "",
-        "event": "L- Or / Gold Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Bent, Allison"
-      },
-      {
-        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 CLUB Samba",
         "time": "",
         "session": "",
@@ -64008,6 +64213,13 @@
       {
         "heat": "",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Bent, Allison"
+      },
+      {
+        "heat": "",
+        "event": "L- Or / Gold Paso Doble",
         "time": "",
         "session": "",
         "partner": "Bent, Allison"
@@ -64690,7 +64902,7 @@
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze CLUB Hustle",
+        "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -64732,21 +64944,7 @@
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Benson, Marty"
-      },
-      {
-        "heat": "",
         "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Samba",
-        "time": "",
-        "session": "",
-        "partner": "Benson, Marty"
-      },
-      {
-        "heat": "",
-        "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -64789,6 +64987,20 @@
       {
         "heat": "",
         "event": "G-D Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Benson, Marty"
+      },
+      {
+        "heat": "",
+        "event": "G-C Bronze Ouvert / Open Bronze CLUB Samba",
+        "time": "",
+        "session": "",
+        "partner": "Benson, Marty"
+      },
+      {
+        "heat": "",
+        "event": "G-C Bronze Ouvert / Open Bronze CLUB Hustle",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -65328,14 +65540,14 @@
       },
       {
         "heat": "",
-        "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Lau, Grace"
       },
       {
         "heat": "",
-        "event": "G-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Lau, Grace"
@@ -65899,14 +66111,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Feyzulaev, Camilla"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Feyzulaev, Camilla"
@@ -66076,13 +66288,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Young Spice, Jack"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -66091,6 +66296,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Young Spice, Jack"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
@@ -66118,14 +66330,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
@@ -66157,13 +66369,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Smithson, Jake"
-      },
-      {
-        "heat": "",
         "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -66171,7 +66376,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Smithson, Jake"
@@ -66179,6 +66384,13 @@
       {
         "heat": "",
         "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Smithson, Jake"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Smithson, Jake"
@@ -67066,14 +67278,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Rzad, Natalia"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Rzad, Natalia"
@@ -67986,14 +68198,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-16+ Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Shawera, Robin"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-AD3 Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Shawera, Robin"
@@ -68074,14 +68286,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-16+ Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Shawera, Jude"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
+        "event": "AC-AD3 Pr\u00e9-Bronze Ferm\u00e9 / Closed Pre-Bronze AMATEUR SMOOTH (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Shawera, Jude"
@@ -68796,14 +69008,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Remtoula, Nitasha"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Remtoula, Nitasha"
@@ -68817,7 +69022,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Remtoula, Nitasha"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Remtoula, Nitasha"
@@ -68912,7 +69124,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Tsysar, Sofia"
@@ -68926,7 +69138,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Tsysar, Sofia"
@@ -69307,13 +69519,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Schaaf, Kristina"
-      },
-      {
-        "heat": "",
         "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -69321,7 +69526,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Schaaf, Kristina"
@@ -69329,6 +69534,13 @@
       {
         "heat": "",
         "event": "AC-AD Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Schaaf, Kristina"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Schaaf, Kristina"
@@ -69919,13 +70131,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Lukianova, Yuliia"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -69934,6 +70139,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lukianova, Yuliia"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Lukianova, Yuliia"
@@ -70318,14 +70530,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Davis, Tristen"
       },
       {
         "heat": "",
-        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-AD Or/Gold AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Davis, Tristen"
@@ -71824,6 +72036,41 @@
       },
       {
         "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
         "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -71874,41 +72121,6 @@
       {
         "heat": "",
         "event": "L-D* Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Palakodeti, Sunita"
@@ -72083,6 +72295,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -72097,21 +72316,14 @@
       },
       {
         "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -72139,7 +72351,42 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -72167,27 +72414,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
         "event": "L-E Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -72209,42 +72435,28 @@
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
       },
       {
         "heat": "",
-        "event": "L-D Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
       },
       {
         "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold TANGO STYLE Milonga",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -72553,14 +72765,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
@@ -72574,7 +72786,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
@@ -72588,7 +72800,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
@@ -72722,14 +72934,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Miller, Linda"
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Miller, Linda"
@@ -73188,14 +73400,14 @@
       },
       {
         "heat": "",
-        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Barrow, David"
       },
       {
         "heat": "",
-        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Barrow, David"
@@ -73340,14 +73552,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lou, Wan Ian (Kal)"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Lou, Wan Ian (Kal)"
@@ -73545,14 +73757,14 @@
       },
       {
         "heat": "",
-        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
       },
       {
         "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
@@ -73810,13 +74022,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Kwok, Peter"
-      },
-      {
-        "heat": "",
         "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -73824,7 +74029,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
@@ -73832,6 +74037,13 @@
       {
         "heat": "",
         "event": "AC-AD4 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Kwok, Peter"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD5 AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
@@ -73885,14 +74097,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Renaud, Karen"
       },
       {
         "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Renaud, Karen"
@@ -74206,21 +74418,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Zhao, Xinyuan"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Zhao, Xinyuan"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Zhao, Xinyuan"
@@ -74234,6 +74432,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Zhao, Xinyuan"
+      },
+      {
+        "heat": "",
         "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -74241,7 +74446,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Zhao, Xinyuan"
@@ -74249,6 +74454,13 @@
       {
         "heat": "",
         "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Zhao, Xinyuan"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Zhao, Xinyuan"
@@ -75248,14 +75460,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Elliott, Rowyn"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Elliott, Rowyn"
@@ -75403,20 +75615,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Miernicki, Peter"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD1 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Miernicki, Peter"
-      },
-      {
-        "heat": "",
         "event": "AC-AD2 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -75425,6 +75623,20 @@
       {
         "heat": "",
         "event": "AC-AD1 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Miernicki, Peter"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Miernicki, Peter"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD1 Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Miernicki, Peter"
@@ -75834,14 +76046,14 @@
       },
       {
         "heat": "",
-        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Sydiuk, Hanna"
       },
       {
         "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Sydiuk, Hanna"
@@ -76300,14 +76512,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Collette, Sylvain"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Collette, Sylvain"
@@ -76518,14 +76730,14 @@
       },
       {
         "heat": "",
-        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Cornacchia, Carmen"
       },
       {
         "heat": "",
-        "event": "G-D Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "event": "G-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Cornacchia, Carmen"
@@ -76691,13 +76903,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Davidov, Elizabeth"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -76758,7 +76963,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Silagadze, David"
@@ -76772,7 +76977,7 @@
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Silagadze, David"
@@ -77291,6 +77496,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB West Coast Swing",
+        "time": "",
+        "session": "",
+        "partner": "Dubue, Christine"
+      },
+      {
+        "heat": "",
         "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Samba",
         "time": "",
         "session": "",
@@ -77341,13 +77553,6 @@
       {
         "heat": "",
         "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB Bachata",
-        "time": "",
-        "session": "",
-        "partner": "Dubue, Christine"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent Ferm\u00e9 / Closed Silver CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Dubue, Christine"
@@ -78586,13 +78791,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB West Coast Swing",
-        "time": "",
-        "session": "",
-        "partner": "Zwiers, Mariette"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Merengue",
         "time": "",
         "session": "",
@@ -78608,6 +78806,13 @@
       {
         "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Bachata",
+        "time": "",
+        "session": "",
+        "partner": "Zwiers, Mariette"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Zwiers, Mariette"
@@ -79018,14 +79223,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Lebedev, Ivan"
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Lebedev, Ivan"
@@ -79517,14 +79722,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Milne, Laurie"
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Milne, Laurie"
@@ -79683,13 +79888,6 @@
       },
       {
         "heat": "",
-        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "",
-        "session": "",
-        "partner": "Mitchell, Brenton"
-      },
-      {
-        "heat": "",
         "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
@@ -79698,6 +79896,13 @@
       {
         "heat": "",
         "event": "L-C Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Mitchell, Brenton"
+      },
+      {
+        "heat": "",
+        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
         "time": "",
         "session": "",
         "partner": "Mitchell, Brenton"
@@ -80977,6 +81182,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Lee, Amber"
+      },
+      {
+        "heat": "",
         "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -80999,13 +81211,6 @@
       {
         "heat": "",
         "event": "AC-JV Or/Gold AMATEUR LATIN (P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Lee, Amber"
-      },
-      {
-        "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lee, Amber"
@@ -81265,6 +81470,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Lebedev, Anton"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -81279,7 +81491,28 @@
       },
       {
         "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Lebedev, Anton"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Lebedev, Anton"
+      },
+      {
+        "heat": "",
+        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Lebedev, Anton"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Lebedev, Anton"
@@ -81315,34 +81548,6 @@
       {
         "heat": "",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Lebedev, Anton"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Lebedev, Anton"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Lebedev, Anton"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or Ouvert / Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Lebedev, Anton"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Lebedev, Anton"
@@ -81586,14 +81791,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Duruisseau, Diane"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Duruisseau, Diane"
@@ -81787,6 +81992,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Parry, Sheila"
+      },
+      {
+        "heat": "",
         "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
@@ -81795,13 +82007,6 @@
       {
         "heat": "",
         "event": "AC-AD4 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Parry, Sheila"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD3 Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Parry, Sheila"
@@ -82210,14 +82415,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Jenny Erbei"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Jenny Erbei"
@@ -82486,14 +82691,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Pan, Olivia"
       },
       {
         "heat": "",
-        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Pan, Olivia"
@@ -83394,13 +83599,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Lam, Eldon"
-      },
-      {
-        "heat": "",
         "event": "L-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -83792,13 +83990,6 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
-        "time": "",
-        "session": "",
-        "partner": "Schaaf, Kassandra"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
@@ -83807,6 +83998,13 @@
       {
         "heat": "",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Schaaf, Kassandra"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "",
         "session": "",
         "partner": "Schaaf, Kassandra"
@@ -83834,14 +84032,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Schaaf, Kassandra"
       },
       {
         "heat": "",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Schaaf, Kassandra"
@@ -83944,6 +84142,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kim, Djun"
+      },
+      {
+        "heat": "",
         "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -83952,13 +84157,6 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Kim, Djun"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kim, Djun"
@@ -84576,21 +84774,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Theberge, Lauren"
-      },
-      {
-        "heat": "",
         "event": "AC-AD Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Theberge, Lauren"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Theberge, Lauren"
@@ -84604,6 +84788,13 @@
       },
       {
         "heat": "",
+        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Theberge, Lauren"
+      },
+      {
+        "heat": "",
         "event": "AC-AD1 Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
@@ -84611,7 +84802,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-AD Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Theberge, Lauren"
@@ -84619,6 +84810,13 @@
       {
         "heat": "",
         "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Theberge, Lauren"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Theberge, Lauren"
@@ -84980,13 +85178,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
         "event": "L-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -85008,20 +85199,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
-        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Aleksandrov, Ivan"
-      },
-      {
-        "heat": "",
         "event": "L-C Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
@@ -85037,6 +85214,27 @@
       {
         "heat": "",
         "event": "L-C Or Ouvert / Open Gold TANGO STYLE Milonga",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
+        "time": "",
+        "session": "",
+        "partner": "Aleksandrov, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
         "time": "",
         "session": "",
         "partner": "Aleksandrov, Ivan"
@@ -85237,14 +85435,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "D\u00e9saulniers, Sylvain"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "D\u00e9saulniers, Sylvain"
@@ -85579,13 +85777,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB West Coast Swing",
-        "time": "",
-        "session": "",
-        "partner": "Tudorovsky, Veycheslav"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Merengue",
         "time": "",
         "session": "",
@@ -85601,6 +85792,13 @@
       {
         "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Bachata",
+        "time": "",
+        "session": "",
+        "partner": "Tudorovsky, Veycheslav"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB West Coast Swing",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"

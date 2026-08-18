@@ -12,7 +12,6 @@
       "Brodziak, Halle",
       "Bronshtein, Evelyn",
       "Fogl, Anne",
-      "Jamaleddin, Norah",
       "Janicek, Nikola",
       "Liaskovska-Janicek, Sophie",
       "Malashenko, Alexandra",
@@ -45,6 +44,7 @@
       "Hartwell, Estela",
       "Huang, Charlotte",
       "Iakovenko, Maya",
+      "Jamaleddin, Norah",
       "Janicek, Nikola",
       "Lee, Amber",
       "Li, Nina",
@@ -2361,6 +2361,7 @@
       "Beaudry, Annabelle",
       "Bronshtein, Evelyn",
       "B\u00e9rub\u00e9, Tatiana",
+      "Carunas, Elina",
       "Desroches, Michael",
       "Gregoire, Isaac",
       "Guarasio, Alexandr-Samuel",
@@ -2372,6 +2373,7 @@
       "Lakutsevich, Anton",
       "Li, Oscar",
       "Liu, Nickolas",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Messier, Philippe",
       "Morin-Diotte, Logan",
@@ -2400,6 +2402,7 @@
       "Barbac, Sophie",
       "Beaudry, Annabelle",
       "Bronshtein, Evelyn",
+      "Carunas, Elina",
       "Couet, Samuel",
       "Desroches, Michael",
       "Filatov, Maxim",
@@ -2420,6 +2423,7 @@
       "Li, Oscar",
       "Liu, Nickolas",
       "Loginov, Nickolas",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Marcinkoski, Solomiya",
       "Messier, Philippe",
@@ -2443,6 +2447,16 @@
       "Yen, Elsa",
       "Yen, Ethan",
       "Zhou, Vilma"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "AC-15- Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Perrun, Alexandre",
+      "Perrun, Anastasia"
     ]
   },
   {
@@ -2995,6 +3009,8 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Brosseau, Karine",
+      "Chaput, Tomy",
       "Forcier, St\u00e9phanie",
       "G\u00e9lin, Nicolas",
       "L'Heureux, Aryanne",
@@ -3011,6 +3027,8 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Brosseau, Karine",
+      "Chaput, Tomy",
       "Forcier, St\u00e9phanie",
       "G\u00e9lin, Nicolas",
       "L'Heureux, Aryanne",
@@ -3275,6 +3293,8 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Brosseau, Karine",
+      "Chaput, Tomy",
       "Forcier, St\u00e9phanie",
       "G\u00e9lin, Nicolas",
       "Remtoula, Nitasha",
@@ -3287,6 +3307,8 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Brosseau, Karine",
+      "Chaput, Tomy",
       "Forcier, St\u00e9phanie",
       "G\u00e9lin, Nicolas"
     ]
@@ -3962,14 +3984,12 @@
       "Blais, Ren\u00e9e",
       "Guay, Claude",
       "Kwok, Peter",
-      "Lam, Eldon",
       "Lemelin, Pierre",
       "Parry, Sheila",
       "Provost, Francine",
       "Saulnier, Roland",
       "Tang, Sue",
-      "White, James",
-      "Yee, Kwa Lam"
+      "White, James"
     ]
   },
   {
@@ -4624,15 +4644,27 @@
   },
   {
     "heat": "",
+    "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Carunas, Elina",
+      "Lopaiev, Nikita"
+    ]
+  },
+  {
+    "heat": "",
     "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
     "session": "",
     "time": "",
     "competitors": [
+      "Carunas, Elina",
       "Desroches, Michael",
       "Fonya, Karolina",
       "Giduk, Myka",
       "Lakra, Kiara",
       "Li, Oscar",
+      "Lopaiev, Nikita",
       "Williamson, Oc\u00e9anne"
     ]
   },
@@ -4643,6 +4675,7 @@
     "time": "",
     "competitors": [
       "Barbac, Sophie",
+      "Carunas, Elina",
       "Desroches, Michael",
       "Filatov, Maxim",
       "Fonya, Karolina",
@@ -4650,6 +4683,7 @@
       "Guzun, Amina",
       "Lakra, Kiara",
       "Li, Oscar",
+      "Lopaiev, Nikita",
       "Romodin, Sebastian",
       "Thokoly, Ilona",
       "Thokoly, Imre",
@@ -4665,10 +4699,12 @@
     "time": "",
     "competitors": [
       "Barbac, Sophie",
+      "Carunas, Elina",
       "Filatov, Maxim",
       "Guzun, Amina",
       "Lakra, Kiara",
       "Li, Oscar",
+      "Lopaiev, Nikita",
       "Romodin, Sebastian",
       "Thokoly, Ilona",
       "Thokoly, Imre",
@@ -5072,9 +5108,11 @@
     "competitors": [
       "Ahunov, Eva",
       "Bronshtein, Evelyn",
+      "Carunas, Elina",
       "Guarasio, Alexandr-Samuel",
       "Hurtado, Maximiliano",
       "Kishchuk, Sofiia",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Nor-Arevian, Arthur",
       "Pidvirnyi, Zakhar",
@@ -5091,6 +5129,7 @@
       "Ahunov, Eva",
       "Beaudry, Annabelle",
       "Bronshtein, Evelyn",
+      "Carunas, Elina",
       "Guarasio, Alexandr-Samuel",
       "Hurtado, Maximiliano",
       "Jamaleddin, Eva",
@@ -5098,6 +5137,7 @@
       "Koval, Mykhailo",
       "Lakutsevich, Anton",
       "Liu, Nickolas",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Messier, Philippe",
       "Nor-Arevian, Arthur",
@@ -5120,6 +5160,7 @@
       "Artamonova, Anastasia",
       "Beaudry, Annabelle",
       "Bronshtein, Evelyn",
+      "Carunas, Elina",
       "Gagliardi, Christopher",
       "Guarasio, Alexandr-Samuel",
       "Hurtado, Maximiliano",
@@ -5129,10 +5170,13 @@
       "Lakutsevich, Anton",
       "Liu, Nickolas",
       "Loginov, Nickolas",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Messier, Philippe",
       "Nor-Arevian, Arthur",
       "Peng, Noreen",
+      "Perrun, Alexandre",
+      "Perrun, Anastasia",
       "Pidvirnyi, Zakhar",
       "Regillo, Aviana",
       "Reider, Emmanuella",
@@ -5155,6 +5199,7 @@
       "Artamonova, Anastasia",
       "Beaudry, Annabelle",
       "Bronshtein, Evelyn",
+      "Carunas, Elina",
       "Hurtado, Maximiliano",
       "Kishchuk, Sofiia",
       "Koval, Mykhailo",
@@ -5162,10 +5207,13 @@
       "Langlois, Anabelle",
       "Liu, Nickolas",
       "Loginov, Nickolas",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Messier, Philippe",
       "Nor-Arevian, Arthur",
       "Peng, Noreen",
+      "Perrun, Alexandre",
+      "Perrun, Anastasia",
       "Pidvirnyi, Zakhar",
       "Reider, Emmanuella",
       "Wong, Victoria",
@@ -5403,12 +5451,14 @@
     "time": "",
     "competitors": [
       "Brovchin, Arsenii",
+      "Carunas, Elina",
       "Gontcharov, Ivan",
       "Hurtado, Maximiliano",
       "Janicek, Nikola",
       "Kishchuk, Sofiia",
       "Koval, Mykhailo",
       "Kovalenko, Stefaniia",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Mogylevska, Alona",
       "Mostovoy, Sofia",
@@ -5429,6 +5479,7 @@
     "time": "",
     "competitors": [
       "Brovchin, Arsenii",
+      "Carunas, Elina",
       "Chen, Jiaxin",
       "Ciobanu, Gabriel",
       "Gontcharov, Ivan",
@@ -5440,6 +5491,7 @@
       "Koval, Mykhailo",
       "Kovalenko, Stefaniia",
       "Lee, Amber",
+      "Lopaiev, Nikita",
       "Malashenko, Alexandra",
       "Mogylevska, Alona",
       "Mostovoy, Sofia",
@@ -5622,7 +5674,6 @@
       "Call, Devri",
       "Chan, Athyn",
       "Cismas, Lisandru",
-      "Davidov, Elizabeth",
       "Elliott, Rowyn",
       "Ilyushenov, Andrey",
       "Kachurovska, Olena",
@@ -5632,8 +5683,7 @@
       "Nor-Arevian, Sofia",
       "Phippen, Max",
       "Stroganov, Arnold",
-      "Todea, Alin",
-      "Tsydinskyi, Mykyta"
+      "Todea, Alin"
     ]
   },
   {
@@ -13019,7 +13069,6 @@
       "Lin, Vanessa",
       "Lin, Witsanee",
       "Petrov, Nathaniel",
-      "Rolik, Alexa",
       "Yan, Ria"
     ]
   },
@@ -17619,6 +17668,16 @@
   },
   {
     "heat": "",
+    "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Mambo",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Edouard, Volvick",
+      "Lewis, Magali"
+    ]
+  },
+  {
+    "heat": "",
     "event": "L-C Bronze Ouvert / Open Bronze RHYTHM Rumba",
     "session": "",
     "time": "",
@@ -18963,6 +19022,7 @@
       "Collins, Patti",
       "Daneman, Suzanne",
       "Derry, Patrick",
+      "Edouard, Volvick",
       "Goodman, Andrea",
       "Hanwella, Shani",
       "Ilyushenov, Dmitry",
@@ -18970,6 +19030,7 @@
       "Labelle, Sophie",
       "Lam, Jone",
       "Levit, Sharon",
+      "Lewis, Magali",
       "Lewis, Trina",
       "Longo, Andrea",
       "Palakodeti, Sunita",
@@ -20635,9 +20696,11 @@
     "competitors": [
       "Celino, Valerie",
       "Choque, Omar",
+      "Edouard, Volvick",
       "Goodman, Andrea",
       "Lam, Jone",
       "Levit, Sharon",
+      "Lewis, Magali",
       "Lewis, Trina",
       "Lord, Diane",
       "Palakodeti, Sunita",
@@ -21434,8 +21497,10 @@
     "time": "",
     "competitors": [
       "Bookhardt, Elizabeth",
+      "Edouard, Volvick",
       "Goodman, Andrea",
       "Kostov, Stilian",
+      "Lewis, Magali",
       "Longo, Andrea",
       "Pichette, Cory",
       "Tudorovsky, Veycheslav"
@@ -28965,36 +29030,6 @@
   },
   {
     "heat": "",
-    "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Milonga",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or 1 Ouvert / Open Gold 1 TANGO STYLE Tango Vals",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
     "event": "L-F Or Ferm\u00e9 / Closed Gold LATIN Jive",
     "session": "",
     "time": "",
@@ -29161,36 +29196,6 @@
   },
   {
     "heat": "",
-    "event": "L-F Or Ouvert / Open Gold TANGO STYLE Argentine Tango",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or Ouvert / Open Gold TANGO STYLE Milonga",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or Ouvert / Open Gold TANGO STYLE Tango Vals",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
     "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
     "session": "",
     "time": "",
@@ -29347,36 +29352,6 @@
     "competitors": [
       "Ilyushenov, Dmitry",
       "Wang, Huiying"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Argentine Tango",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Milonga",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold TANGO STYLE Tango Vals",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Aleksandrov, Ivan",
-      "Banner, Sandra"
     ]
   },
   {
@@ -31841,8 +31816,10 @@
     "time": "",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
+      "Ilyushenov, Andrey",
       "Motyl, Paul",
       "Petrov, Nathaniel",
+      "Rolik, Alexa",
       "Rozdorozhnyi, Mark",
       "Selivanov, Elizabeth",
       "Zalessky, Veronica"
@@ -31873,11 +31850,13 @@
       "Aptekar, Eliana Ann-Marie",
       "Ciobanu, Gabriel",
       "Iakovenko, Maya",
+      "Ilyushenov, Andrey",
       "Ivanov, Pavel",
       "Lama, Sean",
       "Maltsman, Libby",
       "Motyl, Paul",
       "Qi, Qiutong",
+      "Rolik, Alexa",
       "Rozdorozhnyi, Mark",
       "Selivanov, Elizabeth",
       "Velev, Adriana",
