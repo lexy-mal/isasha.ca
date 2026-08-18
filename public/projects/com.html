@@ -1030,10 +1030,18 @@
             JR1: { label: 'Junior I — Ages 12–13', minAge: 12, maxAge: 13 },
             JR:  { label: 'Junior — Ages 12–15', minAge: 12, maxAge: 15 },
             JR2: { label: 'Junior II — Ages 14–15', minAge: 14, maxAge: 15 },
-            '10': { label: '10 & Under', minAge: 0, maxAge: 10 },
+            // Numeric brackets. The trailing +/- in the event name ("A-15-", "A-16+")
+            // carries the direction but is dropped by the parse, so direction is fixed
+            // per number here. Verified no number is used both ways in current data.
+            '6U':  { label: '6 & Under', minAge: 0, maxAge: 6 },
+            '7U':  { label: '7 & Under', minAge: 0, maxAge: 7 },
+            '7':   { label: 'Ages 7–11', minAge: 7, maxAge: 11 },
+            '11U': { label: '11 & Under', minAge: 0, maxAge: 11 },
+            U12:   { label: 'Under 12', minAge: 0, maxAge: 12 },
             '15': { label: '15 & Under', minAge: 0, maxAge: 15 },
             YTH: { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
             Y:   { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
+            '12': { label: '12 & Over', minAge: 12 },
             '16': { label: '16 & Over', minAge: 16 },
             U21: { label: 'Under 21 — Ages 19–20', minAge: 19, maxAge: 20 },
             YO:  { label: 'Young Adult (approx.)', minAge: 19, maxAge: 25, approx: true },
@@ -1044,15 +1052,18 @@
             AD3: { label: 'Adult III (approx.)', minAge: 36, maxAge: 45, approx: true },
             AD4: { label: 'Adult IV (approx.)', minAge: 46, maxAge: 55, approx: true },
             AD5: { label: 'Adult V (approx.)', minAge: 56, approx: true },
+            '30': { label: '30 & Over', minAge: 30 },
             '36': { label: '36 & Over', minAge: 36 },
+            '40': { label: '40 & Over', minAge: 40 },
             '50': { label: '50 & Over', minAge: 50 }
         };
 
-        // Codes that occupy the same slot as an age code but are actually Pro-Am skill
-        // levels (Bronze/Silver/Gold progression) — every event using them says
-        // "PRO-AM" or a skill word (Fermé/Closed, Ouvert/Open) with no age mentioned.
-        // Explicitly excluded so they never get misread as an age bracket.
-        const SKILL_LEVEL_CODES = new Set(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU']);
+        // Codes that occupy the age slot but are NOT ages, so they must never be read as
+        // one. A–H/JB/JU are section/scheduling codes: checked across all 3885 events,
+        // every letter co-occurs with every proficiency (Bronze, Silver, Gold alike), so
+        // they encode neither age nor skill. PD ("AC-PD Amateur Pre-Bronze ...") sits in
+        // the same slot with no published meaning. See AGE_CATEGORIES.md.
+        const SKILL_LEVEL_CODES = new Set(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD']);
 
         function getEventAgeCategory(eventName) {
             const match = eventName.match(/^[A-Z]+-([A-Za-z0-9]*)/);
@@ -1109,13 +1120,17 @@
         function getEventDivision(eventName) {
             // Classify events into divisions: Standard, NATIONAL, Championship, Five Star,
             // CLUB, PRO, Rising Star, Prechamp
+            // Order matters: "Championship" is frequently just title decoration on an
+            // event whose real division is Five Star or CLUB ("...Pro-Am Five Star LATIN
+            // Championship"). Checking it first mislabelled 28 of 50 matches, so the
+            // specific markers are tested first and the generic word is the last resort.
             if (eventName.startsWith('PRO ')) return 'PRO';
-            if (/Championship|Championnat/.test(eventName)) return 'Championship';
             if (/Five Star/.test(eventName)) return 'Five Star';
             if (/\bCLUB\b/.test(eventName)) return 'CLUB';
             if (/NATIONAL/.test(eventName)) return 'NATIONAL';
             if (/Rising Star/.test(eventName)) return 'Rising Star';
             if (/Prechamp|Pre-Champ/.test(eventName)) return 'Prechamp';
+            if (/Championship|Championnat/.test(eventName)) return 'Championship';
             return 'Standard';
         }
 

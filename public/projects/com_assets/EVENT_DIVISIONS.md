@@ -2,6 +2,33 @@
 
 This document describes the different competition divisions and categories found in ballroom dance events.
 
+Division is one of **three independent axes** on an event:
+[AGE_CATEGORIES.md](AGE_CATEGORIES.md) (who may enter),
+[SKILL_LEVELS.md](SKILL_LEVELS.md) (proficiency), and division (this file).
+
+Implemented as `getEventDivision()` in `com.html`.
+
+> ⚠️ **Classification order matters.** `Championship` is very often just title
+> decoration on an event whose real division is something else — e.g.
+> `L-E Closed Imperial Cup Pro-Am Five Star LATIN Championship` is a Five Star
+> event, and `G-D Closed Bronze 1 Pro-Am CLUB Salsa Championship` is a CLUB
+> event. Testing the generic word first mislabelled **28 of 50** matches, so the
+> specific markers (Five Star, CLUB, NATIONAL, Rising Star, Prechamp) are checked
+> first and `Championship` is the last resort before `Standard`.
+
+## Verified counts (both competitions, 3885 unique events)
+
+| Division | Events |
+|---|---|
+| Standard | 3450 |
+| CLUB | 288 |
+| Prechamp | 55 |
+| NATIONAL | 51 |
+| Championship | 22 |
+| Five Star | 15 |
+| PRO | 4 |
+| Rising Star | 0 (not present in current data) |
+
 ## Division Types
 
 ### 1. **Standard** (Regular Competition Events)

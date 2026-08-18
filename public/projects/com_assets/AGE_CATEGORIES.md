@@ -2,18 +2,19 @@
 
 Every event name in `heat_events.json` starts with a code like `A-15-`, `AC-JV1`,
 `G-F`, or `L-JU`. The prefix (`A`, `AC`, `G`, `L`) is a style/division grouping
-(solo vs. couple, dance style track); the part after the hyphen is what this
-file is about — it's either an **age category** or a **Pro-Am skill level**,
-and the two are easy to confuse because they're both short letter/number codes
-sitting in the same position.
+(solo vs. couple, dance style track); the part after the first hyphen is what this
+file is about — it's either an **age category** or a **non-age code** that happens
+to sit in the same position.
 
-Neither `national2026`'s own entry-list page nor its site has a published
-legend for these — this mapping was built by (a) fetching the standard WDSF
-age-division definitions and (b) inspecting every event name in the actual
-scraped data to separate genuine age codes from skill-level codes. See
-Sources at the bottom.
+Neither competition publishes a legend for these. This mapping was built by
+(a) fetching the standard WDSF age-division definitions and (b) inspecting every
+unique event name across **both** competitions (3885 events total). See Sources.
 
-## Age category codes (used for the age filter/sort/tooltip)
+Implemented as `AGE_CATEGORY_MAP` in `com.html`. Companion doc:
+[SKILL_LEVELS.md](SKILL_LEVELS.md) covers proficiency (Bronze/Silver/Gold), which
+is a **separate axis** parsed from the event *text*, not from this code.
+
+## Named age brackets
 
 | Code | Plain-English label | Approx. ages | Confidence |
 |---|---|---|---|
@@ -26,58 +27,93 @@ Sources at the bottom.
 | `YTH` | Youth | 16–18 | Standard WDSF definition |
 | `Y` | Youth (shorthand) | 16–18 | Same as YTH — solo/mixed events under `A-`/`G-` use the single-letter form |
 | `U21` | Under 21 | 19–20 | Standard WDSF definition |
-| `YO` | Young Adult | ~19–20 | **Approximate** — appears alongside U21 in this data; no public definition distinguishes them, treated as the same tier |
+| `U12` | Under 12 | 0–12 | Explicit in the code |
+| `YO` | Young Adult | ~19–25 | **Approximate** — appears alongside U21; no public definition distinguishes them |
 | `AD` | Adult (combined) | 19+ | Not further subdivided for this event |
-| `AD1`–`AD5` | Adult I–V | 19+, increasing | **Estimated only.** This competition splits its adult bracket into 5 sub-groups but never publishes the boundaries. Ordered AD1 < AD2 < ... < AD5 (youngest to oldest) based on common Pro-Am convention (e.g. NDCA-style ~10-year bands: 19–25 / 26–35 / 36–45 / 46–55 / 56+), but treat the exact cutoffs as a guess |
-| `15` (shown as `A-15-`) | 15 & Under | 0–15 | Explicit in the code itself (trailing `-`) |
-| `16` (shown as `A-16+`) | 16 & Over | 16+ | Explicit in the code itself (trailing `+`) |
-| `19` | 19 & Over | 19+ | Explicit |
-| `36` | 36 & Over | 36+ | Explicit |
-| `50` | 50 & Over | 50+ | Explicit |
+| `AD1`–`AD5` | Adult I–V | 19+, increasing | **Estimated only.** Split into 5 sub-groups with boundaries never published. Ordered AD1 < ... < AD5 on common Pro-Am convention (~10-year bands: 19–25 / 26–35 / 36–45 / 46–55 / 56+). Treat cutoffs as a guess |
 
-**Important:** the numeric codes (`15`, `16`, `19`, `36`, `50`) and the named
-brackets (`JV1`...`AD5`) are two *different, parallel* systems used for
-different event families in this same competition — they don't nest inside
-each other. A `16+` event is open-ended (any age 16 and up, including
-adults); it is **not** the same thing as `JV1`/`JR`/`YTH` combined. Don't
-merge them in the UI as if one supersedes the other.
+## Numeric brackets
 
-## Skill-level codes (NOT age — do not sort/filter these as age)
+The trailing `+` / `-` in the event name carries the direction (`A-15-` = 15 and
+under, `A-16+` = 16 and over).
 
-`A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `JB`, `JU` all appear in the exact same
-position as the age codes above, but every event using them is a **Pro-Am**
-event (student dancing with a professional partner), and none of them mention
-an age anywhere in the name — e.g. `AC-A Bronze Fermé / Closed Bronze PRO-AM
-SMOOTH...`, `G-F Argent 1 Fermé / Closed Silver 1 BALLROOM...`. These are
-skill-level tiers (Bronze → Silver → Gold progression), not age brackets.
-Pro-Am students can be any age, so these events have no meaningful age
-category — they're excluded from the age filter/sort as "No age category."
+> ⚠️ **Known fragility.** The parse regex `^[A-Za-z0-9]+-([A-Za-z0-9]*)` captures
+> only the number and **discards the sign**, so direction is hardcoded per number
+> in the map. Verified across both competitions that no number is currently used
+> in both directions, so this is safe today — but a future competition adding e.g.
+> `12-` (12 & under) alongside Imperial Cup's `12+` would be silently
+> mis-classified. If that happens, capture the sign in the regex instead.
+
+| Code | Source form | Label | Ages |
+|---|---|---|---|
+| `6U` | `A-6U` | 6 & Under | 0–6 |
+| `7U` | `A-7U` | 7 & Under | 0–7 |
+| `7` | `A-7-11` | Ages 7–11 | 7–11 |
+| `11U` | `AC-11U` | 11 & Under | 0–11 |
+| `12` | `A-12+` | 12 & Over | 12+ |
+| `15` | `A-15-` | 15 & Under | 0–15 |
+| `16` | `A-16+` | 16 & Over | 16+ |
+| `19` | `A-19+` | 19 & Over | 19+ |
+| `30` | `AC-30+` | 30 & Over | 30+ |
+| `36` | `A-36+` | 36 & Over | 36+ |
+| `40` | `AC-40+` | 40 & Over | 40+ |
+| `50` | `A-50+` | 50 & Over | 50+ |
+
+**Important:** the numeric codes and the named brackets (`JV1`...`AD5`) are two
+*different, parallel* systems used for different event families — they don't nest
+inside each other. A `16+` event is open-ended (any age 16 and up, including
+adults); it is **not** `JV1`/`JR`/`YTH` combined. Don't merge them in the UI as if
+one supersedes the other.
+
+Sorting uses `minAge` as the primary key and `maxAge` as the tiebreak, so
+brackets sharing a floor order correctly (Under 10 < Under 12 < 15 & Under, all
+`minAge: 0`). Open-ended "& Over" brackets have no `maxAge`.
+
+## Codes in the age slot that are NOT ages
+
+`A`, `B`, `C`, `D`, `E`, `F`, `G`, `H`, `JB`, `JU`, `PD` occupy the same position
+but are excluded from the age filter/sort (`SKILL_LEVEL_CODES` in `com.html`).
+
+> 🔴 **Correction (2026-08-18).** An earlier version of this file described
+> `A`–`H` as "Pro-Am skill-level tiers (Bronze → Silver → Gold progression)".
+> **That is wrong.** Cross-tabulating all 3885 events against the proficiency
+> words in the event text shows every letter co-occurs with every proficiency —
+> e.g. `E` appears with Open (130), Closed (81), Silver (77), Bronze (72) and
+> Gold (33). They are **not** a proficiency ladder. Their real meaning is
+> unknown; the evidence is consistent with a section/heat-grouping or
+> style-track code. They were still correctly *excluded* from age, so no age
+> output was ever wrong — but do not sort by them as if they were skill.
+> Real proficiency lives in the event text: see [SKILL_LEVELS.md](SKILL_LEVELS.md).
+
+`PD` (e.g. `AC-PD Amateur Pre-Bronze LATIN Jive`) has no published meaning either
+— possibly Para Dance. Excluded rather than guessed.
 
 ## Events with no code at all
 
-13 events have no leading age/level code:
-- 6 are Professional/Open events (`PRO BALLROOM`, `PRO LATIN`, `PRO RHYTHM`,
-  `PRO SMOOTH`, `WDC WORLD PROFESSIONAL BALLROOM`, `WDC WORLD PROFESSIONAL
-  LATIN`) — professional dancers, adults by definition, but not assigned a
-  numeric/named age bracket in the data.
-- 7 are `G-`/`L-` prefixed solo events with a blank code (e.g. `G- Or / Gold
-  Milonga`) — the age slot in the name is simply empty for these.
+Professional/Open events (`PRO BALLROOM`, `WDC WORLD PROFESSIONAL LATIN`, …) and
+some `G-`/`L-` solo events with a blank slot (e.g. `G- Or / Gold Milonga`) carry
+no code. Treated as "No age category" in the UI.
 
-Both groups are treated as "No age category" in the UI.
+## Coverage
+
+Measured in-browser against the live parser:
+
+| Competition | Events | With an age category |
+|---|---|---|
+| `national2026` | 2661 | 671 (25%) |
+| `impercup2026` | 1224 | 459 (38%) |
+
+The remainder are Pro-Am/section-coded or uncoded events that genuinely carry no
+age bracket. Low coverage here is expected, not a parsing failure.
 
 ## Sources
 
 - [Youth Division of DanceSport – WikiDanceSport](https://www.wikidancesport.com/wiki/youth-division-of-dancesport/)
 - [Junior Division of DanceSport – WikiDanceSport](https://www.wikidancesport.com/wiki/junior-division-of-dancesport/)
-- NDCA Pro/Am age division structure (age-threshold letters A/B/C/S1-S4, with
-  organizers free to subdivide further) — general web search summary, no
-  single canonical NDCA PDF page confirmed the exact table.
-- Manual inspection of every unique event-name prefix in
-  `national2026/heat_events.json` (31 distinct codes total) to classify each
-  as age vs. skill-level vs. uncoded, cross-checked against the dance style
-  wording already present in each event name (Bronze/Silver/Gold, Fermé/
-  Closed, Ouvert/Open, PRO-AM, etc.).
+- NDCA Pro/Am age division structure — general web search summary; no single
+  canonical NDCA PDF confirmed the exact table.
+- Exhaustive inspection of every unique event-name prefix across
+  `national2026/heat_events.json` and `impercup2026/heat_events.json`.
 
-If the organizer ever publishes an official legend (rules PDF, entry-list
-key), replace the estimates above — `YO` and `AD1`–`AD5` in particular are
-the weakest-confidence entries here.
+If an organizer ever publishes an official legend, replace the estimates — `YO`,
+`AD1`–`AD5` and `PD` are the weakest-confidence entries here.
