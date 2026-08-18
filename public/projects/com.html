@@ -1051,7 +1051,8 @@
             const match = eventName.match(/^[A-Z]+-([A-Za-z0-9]*)/);
             const code = match ? match[1] : '';
             if (!code || SKILL_LEVEL_CODES.has(code)) return null;
-            return AGE_CATEGORY_MAP[code] || null;
+            const cat = AGE_CATEGORY_MAP[code];
+            return cat ? { ...cat, code } : null;
         }
 
         // Proficiency ladder. The letter code after the first dash (A–H, JB, JU) is NOT a
@@ -1248,15 +1249,33 @@
 
         // Several codes share one label (e.g. Y and YTH are both "Youth"); the filter
         // should offer that label once, not once per code.
-        function buildAgeFilterOptionsHtml() {
-            const seen = new Map();
-            Object.values(AGE_CATEGORY_MAP).forEach(cat => {
-                if (!seen.has(cat.label)) seen.set(cat.label, cat.minAge);
-            });
-            const sorted = [...seen.entries()].sort((a, b) => a[1] - b[1]);
-            return '<option value="">All Ages</option>' +
-                sorted.map(([label]) => `<option value="${label.replace(/"/g, '&quot;')}">${label}</option>`).join('') +
-                '<option value="__none__">No Age Category (Pro-Am / Pro)</option>';
+        // Codes with identical interpreted labels (e.g. YTH and Y both read "Youth — Ages
+        // 16–18") are listed as separate checkboxes, not deduped — they're different codes
+        // in the source data, and showing the code alongside the interpretation is the
+        // whole point of this filter (see AGE_CATEGORIES.md for why the interpretation
+        // alone isn't authoritative).
+        function buildAgeFilterPanelHtml() {
+            const sortedCodes = Object.entries(AGE_CATEGORY_MAP)
+                .sort((a, b) => (a[1].minAge ?? 0) - (b[1].minAge ?? 0))
+                .map(([code]) => code);
+
+            const checkboxHtml = (code, label) => `
+                <label style="display:flex;align-items:center;gap:6px;padding:5px 8px;cursor:pointer;font-size:0.8em;color:var(--text-primary);border-radius:2px;" onmouseover="this.style.background='var(--bg-tertiary)'" onmouseout="this.style.background=''">
+                    <input type="checkbox" class="home-heats-age-checkbox" value="${code}" onchange="onAgeFilterChange()" style="margin:0;flex-shrink:0;">
+                    <span><strong>${code}</strong> — ${label}</span>
+                </label>
+            `;
+
+            return `
+                <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px 8px;border-bottom:1px solid var(--bg-tertiary);margin-bottom:4px;">
+                    <span style="font-size:0.75em;color:var(--text-secondary);">Select one or more</span>
+                    <button type="button" onclick="clearAgeFilter()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.75em;padding:0;">Clear</button>
+                </div>
+                ${sortedCodes.map(code => checkboxHtml(code, AGE_CATEGORY_MAP[code].label)).join('')}
+                <div style="border-top:1px solid var(--bg-tertiary);margin-top:4px;">
+                    ${checkboxHtml('__none__', 'No Age Category (Pro-Am / Pro)')}
+                </div>
+            `;
         }
 
         // Get placement string for a person in a specific heat+event
@@ -2773,9 +2792,15 @@
 
                         <input type="text" class="home-heats-event-filter" placeholder="Event (SOLO, BALLROOM...)..." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" oninput="filterHomeHeats()" onchange="filterHomeHeats()">
 
-                        <select class="home-heats-age-filter" title="Age category parsed from the event code — see com_assets/AGE_CATEGORIES.md for how codes like AD1-AD5 were estimated." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;margin-bottom:6px;" onchange="filterHomeHeats()">
-                            ${buildAgeFilterOptionsHtml()}
-                        </select>
+                        <div style="position:relative;margin-bottom:6px;">
+                            <button type="button" id="home-heats-age-filter-btn" title="Age category parsed from the event code — see com_assets/AGE_CATEGORIES.md for how codes like AD1-AD5 were estimated." style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="toggleAgeFilterPanel(event)">
+                                <span id="home-heats-age-filter-label">All Ages</span>
+                                <span style="color:var(--text-secondary);">▾</span>
+                            </button>
+                            <div id="home-heats-age-filter-panel" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;margin-top:2px;max-height:280px;overflow-y:auto;z-index:20;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
+                                ${buildAgeFilterPanelHtml()}
+                            </div>
+                        </div>
 
                         <select class="home-heats-sort" style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;" onchange="filterHomeHeats()">
                             <option value="name_asc">Sort: Event Name (A-Z)</option>
@@ -2851,6 +2876,57 @@
             `;
         }
 
+        function toggleAgeFilterPanel(evt) {
+            evt.stopPropagation();
+            const panel = document.getElementById('home-heats-age-filter-panel');
+            if (!panel) return;
+            const opening = panel.style.display === 'none';
+            panel.style.display = opening ? 'block' : 'none';
+            if (opening) setupAgeFilterOutsideClickListener();
+        }
+
+        // Bound lazily (only while the panel is actually open) rather than once globally,
+        // so a click anywhere on the page doesn't pay for a listener + querySelector on
+        // every click for the entire life of the page.
+        function setupAgeFilterOutsideClickListener() {
+            const handler = (evt) => {
+                const panel = document.getElementById('home-heats-age-filter-panel');
+                const btn = document.getElementById('home-heats-age-filter-btn');
+                if (!panel || panel.style.display === 'none') {
+                    document.removeEventListener('click', handler);
+                    return;
+                }
+                if (!panel.contains(evt.target) && evt.target !== btn) {
+                    panel.style.display = 'none';
+                    document.removeEventListener('click', handler);
+                }
+            };
+            document.addEventListener('click', handler);
+        }
+
+        function onAgeFilterChange() {
+            updateAgeFilterButtonLabel();
+            filterHomeHeats();
+        }
+
+        function updateAgeFilterButtonLabel() {
+            const label = document.getElementById('home-heats-age-filter-label');
+            if (!label) return;
+            const checked = Array.from(document.querySelectorAll('.home-heats-age-checkbox:checked'));
+            if (checked.length === 0) {
+                label.textContent = 'All Ages';
+            } else if (checked.length === 1) {
+                label.textContent = checked[0].value === '__none__' ? 'No Age Category' : checked[0].value;
+            } else {
+                label.textContent = `${checked.length} age categories selected`;
+            }
+        }
+
+        function clearAgeFilter() {
+            document.querySelectorAll('.home-heats-age-checkbox:checked').forEach(cb => cb.checked = false);
+            onAgeFilterChange();
+        }
+
         function updateHomeHeatsStatus() {
             const statusDiv = document.getElementById('home-heats-status');
             if (!statusDiv) return;
@@ -2868,7 +2944,7 @@
             const allHeats = JSON.parse(sessionStorage.getItem('allHomeHeats') || '[]');
             const participantFilter = document.querySelector('.home-heats-participant-filter')?.value.toLowerCase() || '';
             const eventFilter = document.querySelector('.home-heats-event-filter')?.value.toLowerCase() || '';
-            const ageFilter = document.querySelector('.home-heats-age-filter')?.value || '';
+            const selectedAgeCodes = Array.from(document.querySelectorAll('.home-heats-age-checkbox:checked')).map(cb => cb.value);
             const minCompetitors = parseInt(document.querySelector('.home-heats-competitors-min')?.value || '1');
             const maxCompetitors = parseInt(document.querySelector('.home-heats-competitors-max')?.value || '999');
 
@@ -2880,7 +2956,9 @@
                 const eventMatch = !eventFilter || heat.name.toLowerCase().includes(eventFilter);
                 const participantMatch = !participantFilter || heat.competitorList.some(p => p.toLowerCase().includes(participantFilter));
                 const ageCat = getEventAgeCategory(heat.name);
-                const ageMatch = !ageFilter || (ageFilter === '__none__' ? !ageCat : ageCat?.label === ageFilter);
+                const ageMatch = selectedAgeCodes.length === 0 || selectedAgeCodes.some(code =>
+                    code === '__none__' ? !ageCat : ageCat?.code === code
+                );
                 return competitorMatch && eventMatch && participantMatch && ageMatch;
             });
 

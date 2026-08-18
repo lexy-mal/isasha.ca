@@ -171,7 +171,7 @@ const ALL_SYMBOLS = [
   'getAgeChipHtml',
   'getEventDivision',
   'compareHeatsBySort',
-  'buildAgeFilterOptionsHtml',
+  'buildAgeFilterPanelHtml',
   'formatName',
   'formatPlacement',
   'jsQuote',
