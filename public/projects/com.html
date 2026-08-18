@@ -1061,10 +1061,49 @@
             return AGE_CATEGORY_MAP[code] || null;
         }
 
+        // Proficiency ladder. The letter code after the first dash (A–H, JB, JU) is NOT a
+        // proficiency — checked against all 3885 events, every letter co-occurs with every
+        // metal, so it is a scheduling/section code. The real level is the word in the event
+        // text. Matching is done on the English half of the bilingual pairs ("Or / Gold",
+        // "Argent / Silver", "Ouvert / Open"), verified to always be present; Débutant is the
+        // one French token that can stand alone, so it is matched directly.
+        const SKILL_LEVELS = [
+            { rank: 0, label: 'Newcomer / Beginner', re: /\b(?:Newcomer|Beginner|D[ée]butant)\b/i },
+            { rank: 1, label: 'Bronze',              re: /\bBronze\b/i },
+            { rank: 2, label: 'Silver',              re: /\b(?:Silver|Argent)\b/i },
+            { rank: 3, label: 'Gold',                re: /\bGold\b/i },
+            { rank: 4, label: 'Novice',              re: /\bNovice\b/i },
+            { rank: 5, label: 'Pre-Championship',    re: /\bPre-?Champ/i },
+            { rank: 6, label: 'Open',                re: /\b(?:Open|Ouvert)\b/i },
+            { rank: 7, label: 'Five Star',           re: /\bFive Star\b/i }
+        ];
+
+        // Evaluation order ≠ rank order. A syllabus metal wins over the Open/Closed modifier,
+        // so "Open Bronze" ranks as Bronze; bare rank 6 "Open" is only reached when no metal
+        // is named, which is the graduated post-syllabus tier.
+        const SKILL_LEVEL_LOOKUP_ORDER = [7, 5, 4, 0, 1, 2, 3, 6];
+
         function getEventSkillLevel(eventName) {
-            const match = eventName.match(/^([A-Z]+)(?:-|$)/);
-            const code = match ? match[1] : '';
-            return SKILL_LEVEL_CODES.has(code) ? code : null;
+            for (const idx of SKILL_LEVEL_LOOKUP_ORDER) {
+                const level = SKILL_LEVELS[idx];
+                if (!level.re.test(eventName)) continue;
+                // Sub-levels like "Bronze 1" / "Bronze 2" step within the same metal.
+                const subMatch = eventName.match(new RegExp(level.re.source + '\\s*(\\d)', 'i'));
+                // Closed sits below Open at the same metal (Bronze, Open Bronze, Silver…).
+                const isOpen = /\b(?:Open|Ouvert)\b/i.test(eventName);
+                // At rank 6 "Open" *is* the level, so reporting it again as a modifier
+                // would just read "Open (Open)".
+                const isOpenTheLevel = level.rank === 6;
+                return {
+                    rank: level.rank,
+                    label: level.label,
+                    sublevel: subMatch ? parseInt(subMatch[1], 10) : 0,
+                    openRank: isOpen ? 1 : 0,
+                    modifier: isOpenTheLevel ? null
+                        : (isOpen ? 'Open' : (/\b(?:Closed|Ferm[ée])\b/i.test(eventName) ? 'Closed' : null))
+                };
+            }
+            return null;
         }
 
         function getEventDivision(eventName) {
@@ -2613,8 +2652,8 @@
                             <option value="count_asc">Sort: Fewest Participants</option>
                             <option value="age_asc">Sort: Age (Youngest First)</option>
                             <option value="age_desc">Sort: Age (Oldest First)</option>
-                            <option value="level_asc">Sort: Level (Beginner→Gold)</option>
-                            <option value="level_desc">Sort: Level (Gold→Beginner)</option>
+                            <option value="level_asc">Sort: Level (Newcomer→Five Star)</option>
+                            <option value="level_desc">Sort: Level (Five Star→Newcomer)</option>
                             <option value="division_asc">Sort: Division (Standard→Pro)</option>
                         </select>
                     </div>
@@ -2686,23 +2725,20 @@
                         const maxB = catB?.maxAge ?? Infinity;
                         return maxB - maxA;
                     }
-                    case 'level_asc': {
-                        // Bronze → Gold: A(0) < B(1) < C(2) < D(3) < E-H < JB/JU
-                        const levelOrder = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5, G: 6, H: 7, JB: 8, JU: 9 };
-                        const levelA = getEventSkillLevel(a.name);
-                        const levelB = getEventSkillLevel(b.name);
-                        const va = levelA ? levelOrder[levelA] ?? 10 : 10;
-                        const vb = levelB ? levelOrder[levelB] ?? 10 : 10;
-                        return va - vb;
-                    }
+                    case 'level_asc':
                     case 'level_desc': {
-                        // Gold → Bronze: reverse order
-                        const levelOrder = { A: 0, B: 1, C: 2, D: 3, E: 4, F: 5, G: 6, H: 7, JB: 8, JU: 9 };
-                        const levelA = getEventSkillLevel(a.name);
-                        const levelB = getEventSkillLevel(b.name);
-                        const va = levelA ? levelOrder[levelA] ?? 10 : 10;
-                        const vb = levelB ? levelOrder[levelB] ?? 10 : 10;
-                        return vb - va;
+                        // Events with no named level (showcases, "Challenge Cup") always sort
+                        // last, in both directions — there is no proficiency to place them by.
+                        const la = getEventSkillLevel(a.name);
+                        const lb = getEventSkillLevel(b.name);
+                        if (!la && !lb) return a.name.localeCompare(b.name);
+                        if (!la) return 1;
+                        if (!lb) return -1;
+                        const dir = sortBy === 'level_asc' ? 1 : -1;
+                        if (la.rank !== lb.rank) return (la.rank - lb.rank) * dir;
+                        if (la.sublevel !== lb.sublevel) return (la.sublevel - lb.sublevel) * dir;
+                        if (la.openRank !== lb.openRank) return (la.openRank - lb.openRank) * dir;
+                        return a.name.localeCompare(b.name);
                     }
                     case 'division_asc': {
                         // Standard → Pro (by prestige/category)
