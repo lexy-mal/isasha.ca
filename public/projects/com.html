@@ -1247,15 +1247,27 @@
             }
         }
 
-        // Several codes share one label (e.g. Y and YTH are both "Youth"); the filter
-        // should offer that label once, not once per code.
         // Codes with identical interpreted labels (e.g. YTH and Y both read "Youth — Ages
         // 16–18") are listed as separate checkboxes, not deduped — they're different codes
         // in the source data, and showing the code alongside the interpretation is the
         // whole point of this filter (see AGE_CATEGORIES.md for why the interpretation
         // alone isn't authoritative).
-        function buildAgeFilterPanelHtml() {
+        //
+        // Only codes actually present in `heats` are offered — AGE_CATEGORY_MAP covers
+        // every code seen across both competitions this app has ever scraped, but any one
+        // competition's event list only uses a subset, so listing the full map would offer
+        // dozens of checkboxes that can never match anything.
+        function buildAgeFilterPanelHtml(heats) {
+            const presentCodes = new Set();
+            let hasUncategorized = false;
+            heats.forEach(heat => {
+                const cat = getEventAgeCategory(heat.name);
+                if (cat) presentCodes.add(cat.code);
+                else hasUncategorized = true;
+            });
+
             const sortedCodes = Object.entries(AGE_CATEGORY_MAP)
+                .filter(([code]) => presentCodes.has(code))
                 .sort((a, b) => (a[1].minAge ?? 0) - (b[1].minAge ?? 0))
                 .map(([code]) => code);
 
@@ -1266,15 +1278,17 @@
                 </label>
             `;
 
+            const uncategorizedHtml = hasUncategorized
+                ? '<div style="border-top:1px solid var(--bg-tertiary);margin-top:4px;">' + checkboxHtml('__none__', 'No Age Category (Pro-Am / Pro)') + '</div>'
+                : '';
+
             return `
                 <div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px 8px;border-bottom:1px solid var(--bg-tertiary);margin-bottom:4px;">
                     <span style="font-size:0.75em;color:var(--text-secondary);">Select one or more</span>
                     <button type="button" onclick="clearAgeFilter()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.75em;padding:0;">Clear</button>
                 </div>
                 ${sortedCodes.map(code => checkboxHtml(code, AGE_CATEGORY_MAP[code].label)).join('')}
-                <div style="border-top:1px solid var(--bg-tertiary);margin-top:4px;">
-                    ${checkboxHtml('__none__', 'No Age Category (Pro-Am / Pro)')}
-                </div>
+                ${uncategorizedHtml}
             `;
         }
 
@@ -2798,7 +2812,7 @@
                                 <span style="color:var(--text-secondary);">▾</span>
                             </button>
                             <div id="home-heats-age-filter-panel" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;margin-top:2px;max-height:280px;overflow-y:auto;z-index:20;box-shadow:0 4px 12px rgba(0,0,0,0.3);">
-                                ${buildAgeFilterPanelHtml()}
+                                ${buildAgeFilterPanelHtml(allHeats)}
                             </div>
                         </div>
 
