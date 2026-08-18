@@ -41,3 +41,6 @@ out/
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Cron job runtime log (not source)
+public/projects/com_assets/daily_scrape.log
