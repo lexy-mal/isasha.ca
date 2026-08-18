@@ -12,7 +12,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imperial Cup 2026 — Results</title>
+    <title>Results</title>
+    <script src="com_assets/competition-manager.js"></script>
     <style>
         /* ── Design tokens (match com.html) ── */
         :root {
@@ -251,8 +252,11 @@
 </head>
 <body>
     <div class="page-header">
-        <h1>Imperial Cup 2026 — Results</h1>
-        <div class="subtitle">June 19–21, 2026 · Full scoresheet results</div>
+        <h1><span id="competitionTitle">Dance Competition</span> — Results</h1>
+        <div class="subtitle">Full scoresheet results</div>
+        <div style="margin-top:12px;">
+            <div id="competitionSelector"></div>
+        </div>
         <div class="nav-links">
             <a href="com.html">← Schedule &amp; Participants</a>
         </div>
@@ -287,18 +291,58 @@
         let lbSortCol = 'gold';
         let lbSortAsc = false;
 
+        // Mirrors com.html's readJson(): static hosts serve a 200 + HTML SPA
+        // fallback for missing files, so content-type is the only reliable
+        // signal a results file actually exists for this competition.
+        async function readJson(res, fallback) {
+            if (!res.ok) return fallback;
+            if (!(res.headers.get('content-type') || '').includes('json')) return fallback;
+            return res.json();
+        }
+
         async function loadData() {
+            // Reset first, unconditionally — switching competitions (or a
+            // competition with no results at all) must never leave the
+            // previous competition's data on screen while the next fetch
+            // is in flight or if it fails.
+            resultsData = {};
+            personResultsData = {};
+            sortedNames = [];
+            selectedPeople = [];
+            document.getElementById('h2hSearch').value = '';
+            document.getElementById('h2hDropdown').classList.remove('open');
+            renderChips();
+            document.getElementById('tab-leaderboard').innerHTML = '<div class="loading" id="leaderboardLoading">Loading results…</div>';
+            document.getElementById('h2hTable').innerHTML = '<div class="empty-state">Add two or more competitors above to compare.</div>';
+
             try {
+                if (!window.competitionManager.competitions || window.competitionManager.competitions.length === 0) {
+                    await window.competitionManager.load();
+                }
+
+                const compName = window.competitionManager.getCompetitionName();
+                document.getElementById('competitionTitle').textContent = compName;
+                document.title = `${compName} — Results`;
+                window.competitionManager.renderSelector('competitionSelector');
+
                 const [rRes, prRes] = await Promise.all([
-                    fetch('com_assets/results.json'),
-                    fetch('com_assets/person_results.json')
+                    fetch(window.competitionManager.getDataPath('results.json')),
+                    fetch(window.competitionManager.getDataPath('person_results.json'))
                 ]);
-                resultsData = await rRes.json();
-                personResultsData = await prRes.json();
+                resultsData = await readJson(rRes, {});
+                personResultsData = await readJson(prRes, {});
                 sortedNames = Object.keys(personResultsData).sort();
+
+                if (sortedNames.length === 0) {
+                    const msg = `<div class="empty-state">No results available yet for ${compName}.</div>`;
+                    document.getElementById('tab-leaderboard').innerHTML = msg;
+                    return;
+                }
+
                 buildLeaderboard();
             } catch (e) {
-                document.getElementById('leaderboardLoading').textContent = 'Error loading results: ' + e.message;
+                document.getElementById('tab-leaderboard').innerHTML =
+                    `<div class="empty-state">Error loading results: ${e.message}</div>`;
             }
         }
 
