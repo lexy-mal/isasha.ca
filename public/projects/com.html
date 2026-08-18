@@ -1178,6 +1178,73 @@
             return 'Standard';
         }
 
+        // Pure comparator for the home-page event sort dropdown. Extracted out of
+        // filterHomeHeats() (which just does `filtered.sort((a,b) => compareHeatsBySort(a,
+        // b, sortBy))`) so it can be unit tested directly — this exact logic has had three
+        // real regressions in one session (age tie-break, level ladder, division precedence),
+        // making it the highest-value target for a regression suite. `a`/`b` are heat objects
+        // with at least a `.name` and `.competitors` count; behavior is unchanged from before
+        // the extraction, verified in-browser.
+        function compareHeatsBySort(a, b, sortBy) {
+            switch (sortBy) {
+                case 'name_desc': return b.name.localeCompare(a.name);
+                case 'count_desc': return b.competitors - a.competitors;
+                case 'count_asc': return a.competitors - b.competitors;
+                case 'age_asc': {
+                    // Youngest first: sort by minAge, then by maxAge for same minAge
+                    const catA = getEventAgeCategory(a.name);
+                    const catB = getEventAgeCategory(b.name);
+                    const va = catA?.minAge ?? Infinity;
+                    const vb = catB?.minAge ?? Infinity;
+                    if (va !== vb) return va - vb;
+                    // When minAge is equal, sort by maxAge (lower max = more restrictive/younger)
+                    const maxA = catA?.maxAge ?? -Infinity;
+                    const maxB = catB?.maxAge ?? -Infinity;
+                    return maxA - maxB;
+                }
+                case 'age_desc': {
+                    // Oldest first: sort by minAge descending, then by maxAge descending
+                    const catA = getEventAgeCategory(a.name);
+                    const catB = getEventAgeCategory(b.name);
+                    const va = catA?.minAge ?? -Infinity;
+                    const vb = catB?.minAge ?? -Infinity;
+                    if (va !== vb) return vb - va;
+                    // When minAge is equal, sort by maxAge (higher max = older)
+                    const maxA = catA?.maxAge ?? Infinity;
+                    const maxB = catB?.maxAge ?? Infinity;
+                    return maxB - maxA;
+                }
+                case 'level_asc':
+                case 'level_desc': {
+                    // Events with no named level (showcases, "Challenge Cup") always sort
+                    // last, in both directions — there is no proficiency to place them by.
+                    const la = getEventSkillLevel(a.name);
+                    const lb = getEventSkillLevel(b.name);
+                    if (!la && !lb) return a.name.localeCompare(b.name);
+                    if (!la) return 1;
+                    if (!lb) return -1;
+                    const dir = sortBy === 'level_asc' ? 1 : -1;
+                    if (la.rank !== lb.rank) return (la.rank - lb.rank) * dir;
+                    if (la.sublevel !== lb.sublevel) return (la.sublevel - lb.sublevel) * dir;
+                    if (la.openRank !== lb.openRank) return (la.openRank - lb.openRank) * dir;
+                    return a.name.localeCompare(b.name);
+                }
+                case 'division_asc': {
+                    // Standard → Pro (by prestige/category)
+                    const divisionOrder = { Standard: 0, 'Rising Star': 1, Prechamp: 2, CLUB: 3, NATIONAL: 4, Championship: 5, 'Five Star': 6, PRO: 7 };
+                    const divA = getEventDivision(a.name);
+                    const divB = getEventDivision(b.name);
+                    const va = divisionOrder[divA] ?? 8;
+                    const vb = divisionOrder[divB] ?? 8;
+                    if (va !== vb) return va - vb;
+                    // Secondary sort by name within same division
+                    return a.name.localeCompare(b.name);
+                }
+                case 'name_asc':
+                default: return a.name.localeCompare(b.name);
+            }
+        }
+
         // Several codes share one label (e.g. Y and YTH are both "Youth"); the filter
         // should offer that label once, not once per code.
         function buildAgeFilterOptionsHtml() {
@@ -2762,65 +2829,7 @@
             });
 
             const sortBy = document.querySelector('.home-heats-sort')?.value || 'name_asc';
-            filtered.sort((a, b) => {
-                switch (sortBy) {
-                    case 'name_desc': return b.name.localeCompare(a.name);
-                    case 'count_desc': return b.competitors - a.competitors;
-                    case 'count_asc': return a.competitors - b.competitors;
-                    case 'age_asc': {
-                        // Youngest first: sort by minAge, then by maxAge for same minAge
-                        const catA = getEventAgeCategory(a.name);
-                        const catB = getEventAgeCategory(b.name);
-                        const va = catA?.minAge ?? Infinity;
-                        const vb = catB?.minAge ?? Infinity;
-                        if (va !== vb) return va - vb;
-                        // When minAge is equal, sort by maxAge (lower max = more restrictive/younger)
-                        const maxA = catA?.maxAge ?? -Infinity;
-                        const maxB = catB?.maxAge ?? -Infinity;
-                        return maxA - maxB;
-                    }
-                    case 'age_desc': {
-                        // Oldest first: sort by minAge descending, then by maxAge descending
-                        const catA = getEventAgeCategory(a.name);
-                        const catB = getEventAgeCategory(b.name);
-                        const va = catA?.minAge ?? -Infinity;
-                        const vb = catB?.minAge ?? -Infinity;
-                        if (va !== vb) return vb - va;
-                        // When minAge is equal, sort by maxAge (higher max = older)
-                        const maxA = catA?.maxAge ?? Infinity;
-                        const maxB = catB?.maxAge ?? Infinity;
-                        return maxB - maxA;
-                    }
-                    case 'level_asc':
-                    case 'level_desc': {
-                        // Events with no named level (showcases, "Challenge Cup") always sort
-                        // last, in both directions — there is no proficiency to place them by.
-                        const la = getEventSkillLevel(a.name);
-                        const lb = getEventSkillLevel(b.name);
-                        if (!la && !lb) return a.name.localeCompare(b.name);
-                        if (!la) return 1;
-                        if (!lb) return -1;
-                        const dir = sortBy === 'level_asc' ? 1 : -1;
-                        if (la.rank !== lb.rank) return (la.rank - lb.rank) * dir;
-                        if (la.sublevel !== lb.sublevel) return (la.sublevel - lb.sublevel) * dir;
-                        if (la.openRank !== lb.openRank) return (la.openRank - lb.openRank) * dir;
-                        return a.name.localeCompare(b.name);
-                    }
-                    case 'division_asc': {
-                        // Standard → Pro (by prestige/category)
-                        const divisionOrder = { Standard: 0, 'Rising Star': 1, Prechamp: 2, CLUB: 3, NATIONAL: 4, Championship: 5, 'Five Star': 6, PRO: 7 };
-                        const divA = getEventDivision(a.name);
-                        const divB = getEventDivision(b.name);
-                        const va = divisionOrder[divA] ?? 8;
-                        const vb = divisionOrder[divB] ?? 8;
-                        if (va !== vb) return va - vb;
-                        // Secondary sort by name within same division
-                        return a.name.localeCompare(b.name);
-                    }
-                    case 'name_asc':
-                    default: return a.name.localeCompare(b.name);
-                }
-            });
+            filtered.sort((a, b) => compareHeatsBySort(a, b, sortBy));
 
             const itemsPerPage = 10;
             const totalPages = Math.max(1, Math.ceil(filtered.length / itemsPerPage));
