@@ -116,7 +116,10 @@
         }
         .name-pill.added-name { color: var(--added); border-color: rgba(74,222,128,0.25); }
         .name-pill.removed-name { color: var(--removed); border-color: rgba(255,107,107,0.25); }
-        .changed-row { font-size: 0.85em; color: var(--changed); margin: 2px 0; }
+        .changed-block { margin: 8px 0 12px; padding-left: 10px; border-left: 2px solid var(--bg-tertiary); }
+        .changed-row { font-size: 0.85em; color: var(--changed); margin: 2px 0 6px; }
+        .changed-block .name-pills { margin-bottom: 4px; }
+        .changed-block .name-pill { font-size: 0.85em; }
         .roster-row { font-size: 0.82em; margin: 4px 0; color: var(--text-secondary); }
         .roster-row .event-name { color: var(--text-primary); }
         .empty-state { text-align: center; color: var(--text-secondary); padding: 48px; }
@@ -206,6 +209,13 @@
             return { text: parts.join(' · '), noChange: false };
         }
 
+        function entryLabel(e) {
+            let label = e.event || '(unknown event)';
+            if (e.heat) label += ` (Heat ${e.heat})`;
+            if (e.partner) label += ` w/ ${e.partner}`;
+            return label;
+        }
+
         function nameListHtml(names, cls) {
             // Names are "Last, First" — joining a list of them with ", " reads as twice as
             // many people (e.g. "Banner, Sandra, Lam, Eldon" looks like 4 names, not 2), so
@@ -229,9 +239,19 @@
                 html += nameListHtml(p.removed, 'removed-name');
             }
             if (p.changed.length) {
-                html += `<div class="count-line">Changed entry counts (${p.changed.length}):</div>`;
+                html += `<div class="count-line">Changed heats (${p.changed.length} participant${p.changed.length !== 1 ? 's' : ''}):</div>`;
                 p.changed.forEach(c => {
+                    html += `<div class="changed-block">`;
                     html += `<div class="changed-row">${esc(c.name)}: ${c.oldEntryCount} → ${c.newEntryCount} entries</div>`;
+                    if (c.addedEntries && c.addedEntries.length) {
+                        html += `<div class="diff-list name-pills">${c.addedEntries.map(e =>
+                            `<span class="name-pill added-name">+ ${esc(entryLabel(e))}</span>`).join('')}</div>`;
+                    }
+                    if (c.removedEntries && c.removedEntries.length) {
+                        html += `<div class="diff-list name-pills">${c.removedEntries.map(e =>
+                            `<span class="name-pill removed-name">− ${esc(entryLabel(e))}</span>`).join('')}</div>`;
+                    }
+                    html += `</div>`;
                 });
             }
             if (!p.added.length && !p.removed.length && !p.changed.length) {

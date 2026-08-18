@@ -46,7 +46,44 @@ class TestComputeDiffParticipants:
         diff = compute_diff(old, new, [], [])
         changed = diff['participants']['changed']
         assert len(changed) == 1
-        assert changed[0] == {'name': 'A, Alice', 'oldEntryCount': 1, 'newEntryCount': 1}
+        c = changed[0]
+        assert c['name'] == 'A, Alice'
+        assert c['oldEntryCount'] == 1
+        assert c['newEntryCount'] == 1
+        assert c['addedEntries'] == [{'heat': '', 'event': 'E2', 'partner': None}]
+        assert c['removedEntries'] == [{'heat': '', 'event': 'E1', 'partner': None}]
+
+    def test_added_and_removed_entries_for_a_gain_and_a_drop(self):
+        # "removed from heat 1, added to heats 2, 3, 4" — a participant can both drop and
+        # pick up entries in the same scrape; both lists must be populated independently.
+        old = {'A, Alice': participant([
+            entry(heat='1', event='E1'),
+            entry(heat='2', event='E2'),
+        ])}
+        new = {'A, Alice': participant([
+            entry(heat='2', event='E2'),  # unchanged, must NOT appear in either list
+            entry(heat='3', event='E3'),
+            entry(heat='4', event='E4'),
+        ])}
+        diff = compute_diff(old, new, [], [])
+        c = diff['participants']['changed'][0]
+        assert c['removedEntries'] == [{'heat': '1', 'event': 'E1', 'partner': None}]
+        added_events = sorted(e['event'] for e in c['addedEntries'])
+        assert added_events == ['E3', 'E4']
+
+    def test_partner_change_reflected_in_added_removed_entries(self):
+        old = {'A, Alice': participant([entry(event='E1', partner='B, Bob')])}
+        new = {'A, Alice': participant([entry(event='E1', partner='C, Carl')])}
+        diff = compute_diff(old, new, [], [])
+        c = diff['participants']['changed'][0]
+        assert c['removedEntries'] == [{'heat': '', 'event': 'E1', 'partner': 'B, Bob'}]
+        assert c['addedEntries'] == [{'heat': '', 'event': 'E1', 'partner': 'C, Carl'}]
+
+    def test_added_removed_entries_empty_lists_when_unchanged(self):
+        old = {'A, Alice': participant([entry(event='E1')])}
+        new = {'A, Alice': participant([entry(event='E1')])}
+        diff = compute_diff(old, new, [], [])
+        assert diff['participants']['changed'] == []
 
     def test_reordered_entries_are_not_a_change(self):
         old = {'A, Alice': participant([entry(event='E1'), entry(event='E2')])}

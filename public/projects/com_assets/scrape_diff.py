@@ -36,11 +36,24 @@ def compute_diff(old_participants, new_participants, old_heat_events, new_heat_e
     for name in sorted(old_names & new_names):
         old_entries = old_participants[name].get('entries', [])
         new_entries = new_participants[name].get('entries', [])
-        if sorted(_entry_key(e) for e in old_entries) != sorted(_entry_key(e) for e in new_entries):
+        old_keys = {_entry_key(e) for e in old_entries}
+        new_keys = {_entry_key(e) for e in new_entries}
+        if old_keys != new_keys:
+            # Which specific heats were added/removed, not just the count — a participant
+            # can gain and drop the same number of entries and that'd otherwise look like
+            # no real change. Keyed by (heat, event, partner); heat is blank for this
+            # scraper's source format, so event (+ partner if any) is the meaningful part.
+            def entries_for(keys):
+                return sorted(
+                    (dict(heat=k[0], event=k[1], partner=(k[2] or None)) for k in keys),
+                    key=lambda d: (d['event'], d['partner'] or '')
+                )
             changed_participants.append({
                 'name': name,
                 'oldEntryCount': len(old_entries),
                 'newEntryCount': len(new_entries),
+                'addedEntries': entries_for(new_keys - old_keys),
+                'removedEntries': entries_for(old_keys - new_keys),
             })
 
     old_event_names = {he.get('event') for he in old_heat_events}
