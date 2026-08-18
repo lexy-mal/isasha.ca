@@ -2670,6 +2670,8 @@
                     const isSolo = heat.name.toLowerCase().includes('solo');
                     const typeLabel = isSolo ? 'SOLO' : 'COUPLE';
                     const typeBg = isSolo ? 'var(--accent-dim)' : 'var(--accent)';
+                    const displayCount = isSolo ? heat.competitors : Math.ceil(heat.competitors / 2);
+                    const displayLabel = isSolo ? 'comp.' : 'couples';
                     const ageCat = getEventAgeCategory(heat.name);
                     const ageChip = ageCat
                         ? `<div style="font-size:0.65em;color:var(--text-secondary);margin-bottom:4px;" title="${ageCat.approx ? 'Estimated — exact age range not published by the organizer. See com_assets/AGE_CATEGORIES.md.' : 'Parsed from the event code. See com_assets/AGE_CATEGORIES.md.'}">🎂 ${ageCat.label}${ageCat.approx ? ' *' : ''}</div>`
@@ -2682,8 +2684,8 @@
                                     <span style="font-size:0.65em;padding:2px 6px;background:${typeBg};color:var(--bg-primary);border-radius:2px;white-space:nowrap;font-weight:600;">${typeLabel}</span>
                                 </div>
                                 ${ageChip}
-                                <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${heat.competitors}</div>
-                                <div style="font-size:0.65em;color:var(--text-secondary);">${isSolo ? 'comp.' : 'couples'}</div>
+                                <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${displayCount}</div>
+                                <div style="font-size:0.65em;color:var(--text-secondary);">${displayLabel}</div>
                             </div>
                         </div>
                     `;
