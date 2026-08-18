@@ -53,29 +53,56 @@ instead), so it is matched directly.
 | Rank | Level | Notes |
 |---|---|---|
 | 0 | Newcomer / Beginner | `Newcomer`, `Beginner`, `Débutant` |
-| 1 | Bronze | |
-| 2 | Silver | `Silver`, `Argent` |
-| 3 | Gold | `Gold` (`Or` always paired) |
-| 4 | Novice | Amateur ladder |
-| 5 | Pre-Championship | `Pre-Champ` |
-| 6 | Open | **Only when no metal is named** — see below |
-| 7 | Five Star | Multi-dance championship tier |
+| 1 | Pre-Bronze | `Pre-Bronze`, `Pré-Bronze`, `Pré-Br.` — **must** precede Bronze, see below |
+| 2 | Bronze | |
+| 3 | Silver | `Silver`, `Argent` |
+| 4 | Gold | `Gold` (`Or` always paired) |
+| 5 | Novice | Amateur ladder |
+| 6 | Pre-Championship | `Pre-Champ` |
+| 7 | Open | **Only when no metal is named** — see below |
+| 8 | Championship | `Championship(s)`, `Championnat`, `NATIONAL CHAMP`. **Only when no metal is named** — see below |
+| 9 | Five Star | Multi-dance championship tier |
 | — | *unranked* | Showcases, `Challenge Cup`, `Grand Trophy`. Sort **last in both directions** |
 
-### Why "Open" is both a modifier and a level
+### Why Pre-Bronze needs its own tier
+
+`"Pre-Bronze"` contains a word-boundary `"Bronze"`, so a plain `/\bBronze\b/i`
+matches it. Before this tier existed, **158 events at a level below Bronze
+ranked identically to Bronze**. Pre-Bronze is therefore tested *before* Bronze
+in the lookup order, and matched with `/\bPr[ée]-?\s*Br(?:onze|\.)/i` to cover
+`Pré-Bronze/Pre-Bronze`, `Pre-Bronze 1`, and the abbreviated `Pré-Br.` form.
+
+Combined events (`AC-15- Pré-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM`)
+rank at the **lower bound** (Pre-Bronze), since that's the entry floor — the
+same convention as `15 & Under` sorting by its floor.
+
+### Why "Open" and "Championship" are both modifiers and levels
 
 Per USA Dance, the progression is *Pre-Bronze, Bronze, Open Bronze, Silver, Open
 Silver, Gold, Open Gold* — so **`Open` is normally a modifier, not a rank**:
 "Open Gold is still Gold level skill, it simply is not restricted to syllabus
-steps." Dancers then graduate past the syllabus into standalone Open events.
+steps." Dancers then graduate past the syllabus into standalone Open events, and
+the same source lists *Open Gold **& Open Championship*** as the final tiers.
 
-So the parser resolves it by precedence: **a named metal always wins**.
-`Open Bronze` ranks as Bronze (1), with Open recorded as a modifier. Rank 6 is
-reached only when the event names no metal at all (`A-15- Ouvert / Open BALLROOM
-SOLO`) — the graduated post-syllabus tier.
+`Championship` behaves the same way: it is very often just title decoration on
+an event whose real level is a metal (`G-D Closed Bronze 1 Pro-Am CLUB Salsa
+Championship` is a **Bronze** event).
+
+So the parser resolves both by precedence: **a named metal always wins**.
+`Open Bronze` and `…Salsa Championship` both rank as Bronze (2), with Open
+recorded as a modifier. Ranks 7 and 8 are reached only when the event names no
+metal at all — `A-15- Ouvert / Open BALLROOM SOLO` (graduated post-syllabus) and
+`AC-JV2 AMATEUR BALLROOM "NATIONAL CHAMP"` (top competitive tier) respectively.
+
+Championship outranks bare Open, so `AC-AD Open Amateur BALLROOM Championship`
+ranks as Championship (8), not Open — an Open Championship is the pinnacle
+event, not a plain Open.
 
 This is why evaluation order ≠ rank order. `SKILL_LEVEL_LOOKUP_ORDER` checks
-`[7, 5, 4, 0, 1, 2, 3, 6]`, testing bare Open last.
+`[9, 6, 5, 0, 1, 2, 3, 4, 8, 7]`, encoding three rules: metals beat both Open and
+Championship; Pre-Bronze precedes Bronze and Pre-Championship precedes
+Championship (each is a substring of the other); and Championship precedes bare
+Open, which is tested last of all.
 
 ### Tiebreaks within a rank
 
@@ -88,24 +115,30 @@ Sorted by `(rank, sublevel, openRank)`:
 ## Verified output
 
 Ascending sort is monotonic by rank across **all** events in both competitions
-(2661 national2026, 1224 impercup2026), checked in-browser. The distinct ladder
-Imperial Cup actually produces:
+(2655 national2026, 1224 impercup2026), verified against the live parser.
 
-```
-Newcomer (Closed) → Newcomer (Open) → Newcomer 1 → Newcomer 2
-Bronze (Closed) → Bronze (Open) → Bronze 1 → Bronze 2 → Bronze 3
-Silver (Closed) → Silver (Open) → Silver 1 → Silver 2
-Gold (Closed) → Gold (Open) → Gold 1 → Gold 2
-Novice 1 → Novice 2 → Pre-Championship → Open → Five Star → unranked
-```
+Coverage: **3652 / 3879 events (94%)** carry a recognisable level, distributed:
 
-Coverage: **3622 / 3885 events (93%)** carry a recognisable level. The 263
-unranked are genuinely levelless — showcase titles (`"Americano"`,
+| Rank | Level | Events |
+|---|---|---|
+| 0 | Newcomer / Beginner | 182 |
+| 1 | Pre-Bronze | 158 |
+| 2 | Bronze | 959 |
+| 3 | Silver | 1163 |
+| 4 | Gold | 782 |
+| 5 | Novice | 13 |
+| 6 | Pre-Championship | 55 |
+| 7 | Open | 270 |
+| 8 | Championship | 55 |
+| 9 | Five Star | 15 |
+| — | unranked | 227 |
+
+The 227 unranked are genuinely levelless — showcase titles (`"Americano"`,
 `"Caribbean Blue" - Ballet`) and `Challenge Cup` / `Grand Trophy` events.
 
 ## Caveat on merging two ladders
 
-Ranks 0–3 (Newcomer→Gold) are the **Pro-Am syllabus** ladder; ranks 4–5
+Ranks 0–4 (Newcomer→Gold) are the **Pro-Am syllabus** ladder; ranks 5–6
 (Novice, Pre-Champ) are the **amateur** ladder. They are not strictly
 comparable — an amateur Novice is not "better than" a Pro-Am Gold, they are
 different tracks. They are merged into one monotonic scale so a single sort

@@ -1080,19 +1080,37 @@
         // one French token that can stand alone, so it is matched directly.
         const SKILL_LEVELS = [
             { rank: 0, label: 'Newcomer / Beginner', re: /\b(?:Newcomer|Beginner|D[ée]butant)\b/i },
-            { rank: 1, label: 'Bronze',              re: /\bBronze\b/i },
-            { rank: 2, label: 'Silver',              re: /\b(?:Silver|Argent)\b/i },
-            { rank: 3, label: 'Gold',                re: /\bGold\b/i },
-            { rank: 4, label: 'Novice',              re: /\bNovice\b/i },
-            { rank: 5, label: 'Pre-Championship',    re: /\bPre-?Champ/i },
-            { rank: 6, label: 'Open',                re: /\b(?:Open|Ouvert)\b/i },
-            { rank: 7, label: 'Five Star',           re: /\bFive Star\b/i }
+            // Must be its own tier below Bronze: "Pre-Bronze" contains a word-boundary
+            // "Bronze", so without this it silently ranked identical to Bronze (158 events).
+            { rank: 1, label: 'Pre-Bronze',          re: /\bPr[ée]-?\s*Br(?:onze|\.)/i },
+            { rank: 2, label: 'Bronze',              re: /\bBronze\b/i },
+            { rank: 3, label: 'Silver',              re: /\b(?:Silver|Argent)\b/i },
+            { rank: 4, label: 'Gold',                re: /\bGold\b/i },
+            { rank: 5, label: 'Novice',              re: /\bNovice\b/i },
+            { rank: 6, label: 'Pre-Championship',    re: /\bPre-?Champ/i },
+            // openIsTheLevel: at this tier "Open" is the level itself, not a modifier, so
+            // it must not also be reported as one (that read "Open (Open)"). Flagged on the
+            // entry rather than compared against a hardcoded rank number, which silently
+            // broke once already when inserting a tier renumbered the ladder underneath it.
+            { rank: 7, label: 'Open',                re: /\b(?:Open|Ouvert)\b/i, openIsTheLevel: true },
+            // Top competitive tier. Only reached when no metal is named — a metal always
+            // wins, so "...Pro-Am CLUB Salsa Championship" stays Bronze (the word is just
+            // title decoration there), while a bare 'AMATEUR BALLROOM "NATIONAL CHAMP"'
+            // lands here instead of falling through to unranked.
+            { rank: 8, label: 'Championship',        re: /\b(?:Championships?|Championnat|NATIONAL CHAMP)\b/i },
+            { rank: 9, label: 'Five Star',           re: /\bFive Star\b/i }
         ];
 
-        // Evaluation order ≠ rank order. A syllabus metal wins over the Open/Closed modifier,
-        // so "Open Bronze" ranks as Bronze; bare rank 6 "Open" is only reached when no metal
-        // is named, which is the graduated post-syllabus tier.
-        const SKILL_LEVEL_LOOKUP_ORDER = [7, 5, 4, 0, 1, 2, 3, 6];
+        // Evaluation order ≠ rank order, and the order encodes three precedence rules:
+        //   1. A syllabus metal beats the Open/Closed modifier AND beats a "Championship"
+        //      in the title, so "Open Bronze" and "…Salsa Championship" both rank as Bronze.
+        //   2. Pre-Bronze before Bronze, and Pre-Championship before Championship, since
+        //      each of those pairs is a substring of the other.
+        //   3. Championship before bare Open, so "Open Amateur … Championship" ranks as
+        //      Championship (an Open Championship is the pinnacle, not a plain Open).
+        // Bare Open is tested last: it's the graduated post-syllabus tier, only reached
+        // when nothing more specific is named.
+        const SKILL_LEVEL_LOOKUP_ORDER = [9, 6, 5, 0, 1, 2, 3, 4, 8, 7];
 
         function getEventSkillLevel(eventName) {
             for (const idx of SKILL_LEVEL_LOOKUP_ORDER) {
@@ -1102,9 +1120,8 @@
                 const subMatch = eventName.match(new RegExp(level.re.source + '\\s*(\\d)', 'i'));
                 // Closed sits below Open at the same metal (Bronze, Open Bronze, Silver…).
                 const isOpen = /\b(?:Open|Ouvert)\b/i.test(eventName);
-                // At rank 6 "Open" *is* the level, so reporting it again as a modifier
-                // would just read "Open (Open)".
-                const isOpenTheLevel = level.rank === 6;
+                // See openIsTheLevel in SKILL_LEVELS above.
+                const isOpenTheLevel = level.openIsTheLevel === true;
                 return {
                     rank: level.rank,
                     label: level.label,
@@ -1122,13 +1139,15 @@
         // the site accent so they still visibly step up. Index = SKILL_LEVELS[].rank.
         const LEVEL_RANK_COLORS = [
             '#a0785a', // 0 Newcomer/Beginner — dull bronze-ish (not yet Bronze)
-            '#cd7f32', // 1 Bronze
-            '#c0c0c0', // 2 Silver
-            '#ffd700', // 3 Gold
-            '#4dd2ff', // 4 Novice (separate amateur ladder — accent-family, not a metal)
-            '#00d9ff', // 5 Pre-Championship
-            '#7fffd4', // 6 Open
-            '#ff6ec7'  // 7 Five Star — highest, deliberately the most distinct color
+            '#b8916b', // 1 Pre-Bronze — lighter than Bronze, reads as "approaching it"
+            '#cd7f32', // 2 Bronze
+            '#c0c0c0', // 3 Silver
+            '#ffd700', // 4 Gold
+            '#4dd2ff', // 5 Novice (separate amateur ladder — accent-family, not a metal)
+            '#00d9ff', // 6 Pre-Championship
+            '#7fffd4', // 7 Open
+            '#c8a2ff', // 8 Championship
+            '#ff6ec7'  // 9 Five Star — highest, deliberately the most distinct color
         ];
         const LEVEL_RANK_COUNT = SKILL_LEVELS.length;
 

@@ -257,7 +257,27 @@ test('sorting: level_asc (ascending by proficiency)', async (t) => {
       return level ? level.rank : null;
     });
 
-    assert.deepEqual(ranks, [1, 2, 3, 6], 'Should be Bronze(1) < Silver(2) < Gold(3) < Open(6)');
+    assert.deepEqual(ranks, [2, 3, 4, 7], 'Should be Bronze(2) < Silver(3) < Gold(4) < Open(7)');
+  });
+
+  await t.test('Regression: full tier ordering including Pre-Bronze and Championship in level_asc', () => {
+    const heats = [
+      { name: 'AC-C Open Salsa', competitors: 5 },          // Open rank 7
+      { name: 'L-E Closed Imperial Cup Pro-Am Five Star LATIN Championship (C/S/R/P/J)', competitors: 5 }, // Five Star rank 9
+      { name: 'AC-JV Pré-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)', competitors: 5 },     // Pre-Bronze rank 1
+      { name: 'AC-C Closed Bronze CLUB Salsa', competitors: 5 },  // Bronze rank 2
+      { name: 'AC-JV2 AMATEUR BALLROOM "NATIONAL CHAMP" (W/T/VW/F/Q)', competitors: 5 },   // Championship rank 8
+      { name: 'AC-C Closed Silver CLUB Salsa', competitors: 5 },  // Silver rank 3
+      { name: 'AC-C Closed Gold CLUB Salsa', competitors: 5 }     // Gold rank 4
+    ];
+    const sorted = heats.slice().sort((a, b) => fns.compareHeatsBySort(a, b, 'level_asc'));
+
+    const ranks = sorted.map(h => {
+      const level = fns.getEventSkillLevel(h.name);
+      return level ? level.rank : null;
+    });
+
+    assert.deepEqual(ranks, [1, 2, 3, 4, 7, 8, 9], 'Should be Pre-Bronze(1) < Bronze(2) < Silver(3) < Gold(4) < Open(7) < Championship(8) < Five Star(9)');
   });
 });
 
