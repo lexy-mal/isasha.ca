@@ -823,9 +823,14 @@
             /* iOS Safari auto-zooms the viewport when focusing any text input/select
                under 16px, and doesn't reliably zoom back out on blur. Several filters
                use smaller inline font-sizes for compact layout; force them back to the
-               zoom-safe minimum here rather than on desktop, where it's not an issue. */
+               zoom-safe minimum here rather than on desktop, where it's not an issue.
+               The facet filter buttons (.home-heats-filter-btn) aren't a focus-triggers-
+               zoom risk since they're <button>, not a text input, but they sit directly
+               next to these fields and need to match — a 16px button beside a 12.8px
+               input reads as a layout bug even though neither one actually is. */
             input[type="text"],
-            select {
+            select,
+            .home-heats-filter-btn {
                 font-size: 16px !important;
             }
 
@@ -1420,7 +1425,7 @@
             const titleAttr = title ? ` title="${title.replace(/"/g, '&quot;')}"` : '';
             return `
                 <div style="position:relative;margin-bottom:6px;">
-                    <button type="button" id="${cfg.btnId}"${titleAttr} style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="toggleFacetPanel('${facetKey}', event)">
+                    <button type="button" id="${cfg.btnId}" class="home-heats-filter-btn"${titleAttr} style="width:100%;padding:6px 10px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;color:var(--text-primary);font-size:0.8em;text-align:left;cursor:pointer;display:flex;justify-content:space-between;align-items:center;" onclick="toggleFacetPanel('${facetKey}', event)">
                         <span id="${cfg.labelId}">${cfg.allLabel}</span>
                         <span style="color:var(--text-secondary);">▾</span>
                     </button>
