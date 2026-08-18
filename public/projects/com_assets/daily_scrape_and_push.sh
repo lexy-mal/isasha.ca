@@ -6,13 +6,20 @@
 # Installed by: crontab -l entry added 2026-08-17, runs daily at 6:00 AM local.
 # Expires: 2026-08-24 (7 days) — after that this script removes its own cron line.
 
-set -euo pipefail
+set -uo pipefail
 
 STOP_DATE="2026-08-24"
 REPO_DIR="/home/andrey/projects/isasha"
 SCRAPER_DIR="$REPO_DIR/public/projects/com_assets"
 LOG_FILE="$SCRAPER_DIR/daily_scrape.log"
 DATA_DIR="$SCRAPER_DIR/national2026"
+
+# cron runs with a bare environment, so the GNOME keyring SSH agent that holds the
+# passphrase for the GitHub deploy key isn't wired up automatically the way it is in an
+# interactive login shell. Point at the same per-user agent socket explicitly; this only
+# works if the desktop session has been unlocked at least once since boot (which unlocks
+# the keyring) — if the machine gets rebooted and nobody logs in, push will fail here.
+export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
 
 log() { echo "[$(date -Iseconds)] $*" >> "$LOG_FILE"; }
 
@@ -41,9 +48,16 @@ if git diff --quiet -- "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json
 fi
 
 git add "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json" "$DATA_DIR/scrape_log.json"
-git commit -m "chore: daily scrape update ($(date +%F))
+if ! git commit -m "chore: daily scrape update ($(date +%F))
 
-Automated daily scrape via cron. See scrape-log.html for the diff."
-git push git@github.com:lexy-mal/isasha.ca.git main
+Automated daily scrape via cron. See scrape-log.html for the diff." >> "$LOG_FILE" 2>&1; then
+    log "git commit FAILED — leaving working tree as-is for manual inspection."
+    exit 1
+fi
+
+if ! git push git@github.com:lexy-mal/isasha.ca.git main >> "$LOG_FILE" 2>&1; then
+    log "git push FAILED (commit succeeded locally, not yet on origin/main — likely an SSH auth issue, check SSH_AUTH_SOCK/keyring). Will retry next run."
+    exit 1
+fi
 
 log "Committed and pushed daily scrape update."
