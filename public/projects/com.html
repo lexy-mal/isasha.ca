@@ -1030,6 +1030,7 @@
             JR1: { label: 'Junior I — Ages 12–13', minAge: 12 },
             JR:  { label: 'Junior — Ages 12–15', minAge: 12 },
             JR2: { label: 'Junior II — Ages 14–15', minAge: 14 },
+            '10': { label: '10 & Under', minAge: 0 },
             '15': { label: '15 & Under', minAge: 0 },
             YTH: { label: 'Youth — Ages 16–18', minAge: 16 },
             Y:   { label: 'Youth — Ages 16–18', minAge: 16 },
@@ -2640,16 +2641,30 @@
                     case 'count_desc': return b.competitors - a.competitors;
                     case 'count_asc': return a.competitors - b.competitors;
                     case 'age_asc': {
-                        // No-category events (Pro-Am/Pro) sort last regardless of direction —
-                        // there's no age to place them by.
-                        const va = getEventAgeCategory(a.name)?.minAge ?? Infinity;
-                        const vb = getEventAgeCategory(b.name)?.minAge ?? Infinity;
-                        return va - vb;
+                        // Youngest first: sort by minAge ascending, with special handling for
+                        // "X & Under" categories — when tied on minAge, lower X comes first
+                        const catA = getEventAgeCategory(a.name);
+                        const catB = getEventAgeCategory(b.name);
+                        const va = catA?.minAge ?? Infinity;
+                        const vb = catB?.minAge ?? Infinity;
+                        if (va !== vb) return va - vb;
+                        // When minAge is equal, check if these are "X & Under" categories
+                        const underMatchA = a.name.match(/(\d+)\s*&\s*Under/) || catA?.label.match(/(\d+)\s*&\s*Under/);
+                        const underMatchB = b.name.match(/(\d+)\s*&\s*Under/) || catB?.label.match(/(\d+)\s*&\s*Under/);
+                        if (underMatchA && underMatchB) return parseInt(underMatchA[1]) - parseInt(underMatchB[1]);
+                        return 0;
                     }
                     case 'age_desc': {
-                        const va = getEventAgeCategory(a.name)?.minAge ?? -Infinity;
-                        const vb = getEventAgeCategory(b.name)?.minAge ?? -Infinity;
-                        return vb - va;
+                        const catA = getEventAgeCategory(a.name);
+                        const catB = getEventAgeCategory(b.name);
+                        const va = catA?.minAge ?? -Infinity;
+                        const vb = catB?.minAge ?? -Infinity;
+                        if (va !== vb) return vb - va;
+                        // When minAge is equal, check if these are "X & Under" categories
+                        const underMatchA = a.name.match(/(\d+)\s*&\s*Under/) || catA?.label.match(/(\d+)\s*&\s*Under/);
+                        const underMatchB = b.name.match(/(\d+)\s*&\s*Under/) || catB?.label.match(/(\d+)\s*&\s*Under/);
+                        if (underMatchA && underMatchB) return parseInt(underMatchB[1]) - parseInt(underMatchA[1]);
+                        return 0;
                     }
                     case 'name_asc':
                     default: return a.name.localeCompare(b.name);
