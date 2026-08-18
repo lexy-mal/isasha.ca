@@ -834,28 +834,9 @@
                 gap: 0;
             }
 
-            /* The tile list's own height:100vh/overflow:hidden and internal
-               overflow-y:auto scrollbar exist so the desktop 5-column card grid
-               fits one screen. On mobile's single-column layout that just creates
-               a second, nested scroll region inside the page — drop both so the
-               whole tab scrolls as one normal page. */
-            .home-heats-wrapper {
-                height: auto !important;
-                overflow: visible !important;
-            }
-
             #home-heats-list {
                 grid-template-columns: 1fr !important;
-                /* Default grid-auto-rows:auto collapses a row to less than its
-                   item's content height when that item has overflow:hidden (used
-                   here to clip the card's rounded corners) — a well-known Grid
-                   quirk where overflow resets the item's content-based automatic
-                   minimum size. min-content sizes the row off the item's actual
-                   content instead, so the bottom of each tile stops getting cut off. */
-                grid-auto-rows: min-content !important;
                 gap: 6px !important;
-                max-height: none !important;
-                overflow-y: visible !important;
             }
 
             #home-heats-list > div {
@@ -2777,7 +2758,7 @@
             const allHeats = Object.values(heatStats);
 
             let html = `
-                <div class="home-heats-wrapper" style="padding:12px 8px;display:flex;flex-direction:column;height:100vh;overflow:hidden;position:relative;">
+                <div class="home-heats-wrapper" style="padding:12px 8px;display:flex;flex-direction:column;">
                     <div style="margin-bottom:10px;flex-shrink:0;">
                         <div style="margin-bottom:6px;">
                             <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
@@ -2812,23 +2793,30 @@
                     <div id="home-heats-status" style="text-align:center;font-size:0.75em;color:var(--text-secondary);flex-shrink:0;margin-bottom:6px;">
                     </div>
 
-                    <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);grid-auto-rows:min-content;align-items:start;gap:10px;overflow-y:auto;max-height:500px;flex-shrink:0;padding-right:4px;align-content:start;" onscroll="handleHomeHeatsScroll(event)">
+                    <div id="home-heats-list" style="display:grid;grid-template-columns:repeat(5, 1fr);grid-auto-rows:min-content;align-items:start;gap:10px;">
                     </div>
 
-                    <button id="home-heats-top-btn" onclick="scrollHomeHeatsToTop()" title="Back to top" style="display:none;position:absolute;bottom:16px;right:16px;width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--bg-primary);border:none;cursor:pointer;font-size:1em;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:5;">↑</button>
+                    <div id="home-heats-sentinel" style="height:1px;"></div>
+
+                    <button id="home-heats-top-btn" onclick="scrollHomeHeatsToTop()" title="Back to top" style="display:none;position:fixed;bottom:16px;right:16px;width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--bg-primary);border:none;cursor:pointer;font-size:1em;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:50;">↑</button>
                 </div>
             `;
 
             sessionStorage.setItem('allHomeHeats', JSON.stringify(allHeats));
-            setTimeout(() => filterHomeHeats(), 0);
+            setTimeout(() => {
+                filterHomeHeats();
+                setupHomeHeatsObserver();
+                setupHomeHeatsTopButton();
+            }, 0);
 
             return html;
         }
 
         // Infinite scroll state for the home heats grid: filterHomeHeats() recomputes the
-        // filtered/sorted list from scratch and resets to the first batch; scrolling
-        // #home-heats-list near its bottom calls renderMoreHomeHeats() to append the next
-        // batch from the same cached list, so re-filtering doesn't happen on every scroll tick.
+        // filtered/sorted list from scratch and resets to the first batch; an
+        // IntersectionObserver (see setupHomeHeatsObserver below) calls renderMoreHomeHeats()
+        // to append the next batch from the same cached list as the sentinel below the grid
+        // scrolls into view, so re-filtering doesn't happen on every scroll tick.
         let homeHeatsFilteredCache = [];
         let homeHeatsRenderedCount = 0;
         const HOME_HEATS_BATCH_SIZE = 30;
@@ -2903,12 +2891,7 @@
             homeHeatsRenderedCount = 0;
 
             const listDiv = document.getElementById('home-heats-list');
-            if (listDiv) {
-                listDiv.innerHTML = '';
-                listDiv.scrollTop = 0;
-            }
-            const topBtn = document.getElementById('home-heats-top-btn');
-            if (topBtn) topBtn.style.display = 'none';
+            if (listDiv) listDiv.innerHTML = '';
 
             if (filtered.length === 0) {
                 if (listDiv) listDiv.innerHTML = `<div style="grid-column:1/-1;text-align:center;color:var(--text-secondary);font-size:0.85em;padding:16px 0;">No heats found</div>`;
@@ -2929,17 +2912,37 @@
             updateHomeHeatsStatus();
         }
 
-        function handleHomeHeatsScroll(event) {
-            const el = event.target;
-            if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200) {
-                renderMoreHomeHeats();
-            }
-            const topBtn = document.getElementById('home-heats-top-btn');
-            if (topBtn) topBtn.style.display = el.scrollTop > 300 ? 'block' : 'none';
+        // The grid has no scroll container of its own (it just grows and the whole page
+        // scrolls — a nested overflow-y:auto pane here was unreliable on iOS Safari, which
+        // frequently won't hand touch-scroll gestures to a small scrollable box nested
+        // inside a much taller page). A sentinel below the grid + IntersectionObserver
+        // triggers loading the next batch regardless of what's actually doing the
+        // scrolling, so this works the same on desktop and mobile.
+        let homeHeatsObserver = null;
+
+        function setupHomeHeatsObserver() {
+            if (homeHeatsObserver) homeHeatsObserver.disconnect();
+            const sentinel = document.getElementById('home-heats-sentinel');
+            if (!sentinel) return;
+            homeHeatsObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting) renderMoreHomeHeats();
+            }, { rootMargin: '400px' });
+            homeHeatsObserver.observe(sentinel);
+        }
+
+        let homeHeatsTopBtnListenerAdded = false;
+
+        function setupHomeHeatsTopButton() {
+            if (homeHeatsTopBtnListenerAdded) return;
+            window.addEventListener('scroll', () => {
+                const btn = document.getElementById('home-heats-top-btn');
+                if (btn) btn.style.display = window.scrollY > 400 ? 'block' : 'none';
+            });
+            homeHeatsTopBtnListenerAdded = true;
         }
 
         function scrollHomeHeatsToTop() {
-            document.getElementById('home-heats-list')?.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         // Names/events come from scraped data and can contain apostrophes (O'Connor)
