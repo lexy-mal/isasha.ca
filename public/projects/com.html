@@ -2798,7 +2798,7 @@
 
                     <div id="home-heats-sentinel" style="height:1px;"></div>
 
-                    <button id="home-heats-top-btn" onclick="scrollHomeHeatsToTop()" title="Back to top" style="display:none;position:fixed;bottom:16px;right:16px;width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--bg-primary);border:none;cursor:pointer;font-size:1em;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:50;">↑</button>
+                    <button id="home-heats-top-btn" onclick="scrollHomeHeatsToTop()" title="Back to top" style="display:none;position:fixed;bottom:16px;right:16px;width:36px;height:36px;padding:0;margin:0;line-height:1;border-radius:50%;background:var(--accent);color:var(--bg-primary);border:none;cursor:pointer;font-size:1.1em;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:50;align-items:center;justify-content:center;">↑</button>
                 </div>
             `;
 
@@ -2936,7 +2936,7 @@
             if (homeHeatsTopBtnListenerAdded) return;
             window.addEventListener('scroll', () => {
                 const btn = document.getElementById('home-heats-top-btn');
-                if (btn) btn.style.display = window.scrollY > 400 ? 'block' : 'none';
+                if (btn) btn.style.display = window.scrollY > 400 ? 'flex' : 'none';
             });
             homeHeatsTopBtnListenerAdded = true;
         }
