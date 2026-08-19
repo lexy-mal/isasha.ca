@@ -19,6 +19,21 @@ def _entry_key(entry):
     return (entry.get('heat', ''), entry.get('event', ''), entry.get('partner') or '')
 
 
+def _entries_for_keys(keys):
+    return sorted(
+        (dict(heat=k[0], event=k[1], partner=(k[2] or None)) for k in keys),
+        key=lambda d: (d['event'], d['partner'] or '')
+    )
+
+
+def _participant_entries(participants, name):
+    """All of a participant's current heats, formatted like addedEntries/removedEntries —
+    used for participants who are wholly new or wholly gone, so "added"/"removed" in the
+    log shows which heats they were in, not just the name."""
+    entries = participants.get(name, {}).get('entries', [])
+    return _entries_for_keys({_entry_key(e) for e in entries})
+
+
 def compute_diff(old_participants, new_participants, old_heat_events, new_heat_events):
     """Both *_participants args are the participants.json shape: {name: {entries: [...]}}.
     Both *_heat_events args are the heat_events.json shape: [{event, competitors, ...}, ...].
@@ -43,17 +58,12 @@ def compute_diff(old_participants, new_participants, old_heat_events, new_heat_e
             # can gain and drop the same number of entries and that'd otherwise look like
             # no real change. Keyed by (heat, event, partner); heat is blank for this
             # scraper's source format, so event (+ partner if any) is the meaningful part.
-            def entries_for(keys):
-                return sorted(
-                    (dict(heat=k[0], event=k[1], partner=(k[2] or None)) for k in keys),
-                    key=lambda d: (d['event'], d['partner'] or '')
-                )
             changed_participants.append({
                 'name': name,
                 'oldEntryCount': len(old_entries),
                 'newEntryCount': len(new_entries),
-                'addedEntries': entries_for(new_keys - old_keys),
-                'removedEntries': entries_for(old_keys - new_keys),
+                'addedEntries': _entries_for_keys(new_keys - old_keys),
+                'removedEntries': _entries_for_keys(old_keys - new_keys),
             })
 
     old_event_names = {he.get('event') for he in old_heat_events}
@@ -72,13 +82,19 @@ def compute_diff(old_participants, new_participants, old_heat_events, new_heat_e
                 'removed': sorted(old_c - new_c),
             })
 
+    # Wholly-new/wholly-gone participants carry their heats too, same shape as
+    # addedEntries/removedEntries on a changed participant — so "added" doesn't mean just
+    # a name showed up, it shows what they're actually entered in.
+    added_names = sorted(new_names - old_names)
+    removed_names = sorted(old_names - new_names)
+
     return {
         'timestamp': datetime.now(timezone.utc).isoformat(),
         'participants': {
             'oldCount': len(old_names),
             'newCount': len(new_names),
-            'added': sorted(new_names - old_names),
-            'removed': sorted(old_names - new_names),
+            'added': [{'name': n, 'entries': _participant_entries(new_participants, n)} for n in added_names],
+            'removed': [{'name': n, 'entries': _participant_entries(old_participants, n)} for n in removed_names],
             'changed': changed_participants,
         },
         'events': {

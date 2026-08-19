@@ -33,12 +33,45 @@ class TestComputeDiffParticipants:
         assert not has_changes(diff)
 
     def test_added_and_removed_participants(self):
-        old = {'A, Alice': participant([]), 'B, Bob': participant([])}
-        new = {'A, Alice': participant([]), 'C, Carl': participant([])}
+        old = {'A, Alice': participant([]), 'B, Bob': participant([entry(event='E1')])}
+        new = {'A, Alice': participant([]), 'C, Carl': participant([entry(event='E2')])}
         diff = compute_diff(old, new, [], [])
-        assert diff['participants']['added'] == ['C, Carl']
-        assert diff['participants']['removed'] == ['B, Bob']
+        assert diff['participants']['added'] == [
+            {'name': 'C, Carl', 'entries': [{'heat': '', 'event': 'E2', 'partner': None}]}
+        ]
+        assert diff['participants']['removed'] == [
+            {'name': 'B, Bob', 'entries': [{'heat': '', 'event': 'E1', 'partner': None}]}
+        ]
         assert has_changes(diff)
+
+    def test_added_and_removed_participants_list_all_their_heats(self):
+        # A wholly new/gone participant's "entries" should be every heat they're in, not
+        # just their name — sorted by event, and including partner where present.
+        old = {'B, Bob': participant([
+            entry(event='E1', partner='D, Dan'),
+            entry(event='E2'),
+        ])}
+        new = {'C, Carl': participant([
+            entry(event='E3'),
+            entry(event='E4', partner='D, Dan'),
+        ])}
+        diff = compute_diff(old, new, [], [])
+
+        added = diff['participants']['added']
+        assert len(added) == 1
+        assert added[0]['name'] == 'C, Carl'
+        assert added[0]['entries'] == [
+            {'heat': '', 'event': 'E3', 'partner': None},
+            {'heat': '', 'event': 'E4', 'partner': 'D, Dan'},
+        ]
+
+        removed = diff['participants']['removed']
+        assert len(removed) == 1
+        assert removed[0]['name'] == 'B, Bob'
+        assert removed[0]['entries'] == [
+            {'heat': '', 'event': 'E1', 'partner': 'D, Dan'},
+            {'heat': '', 'event': 'E2', 'partner': None},
+        ]
 
     def test_changed_entry_list_detected_even_with_same_count(self):
         old = {'A, Alice': participant([entry(event='E1')])}
@@ -145,14 +178,16 @@ class TestComputeDiffEvents:
 class TestComputeDiffEdgeCases:
     def test_none_inputs_treated_as_empty(self):
         diff = compute_diff(None, {'A, Alice': participant([])}, None, [heat_event('E1', [])])
-        assert diff['participants']['added'] == ['A, Alice']
+        assert diff['participants']['added'] == [{'name': 'A, Alice', 'entries': []}]
         assert diff['events']['added'] == ['E1']
 
     def test_first_ever_scrape_everything_is_added(self):
         new_p = {'A, Alice': participant([entry(event='E1')])}
         new_h = [heat_event('E1', ['A, Alice'])]
         diff = compute_diff({}, new_p, [], new_h)
-        assert diff['participants']['added'] == ['A, Alice']
+        assert diff['participants']['added'] == [
+            {'name': 'A, Alice', 'entries': [{'heat': '', 'event': 'E1', 'partner': None}]}
+        ]
         assert diff['events']['added'] == ['E1']
         assert has_changes(diff)
 
@@ -171,7 +206,7 @@ class TestLogScrapeDiff:
         with open(log_path) as f:
             log = json.load(f)
         assert len(log) == 1
-        assert log[0]['participants']['added'] == ['A, Alice']
+        assert log[0]['participants']['added'] == [{'name': 'A, Alice', 'entries': []}]
 
     def test_appends_to_existing_log(self, tmp_path):
         diff1 = compute_diff({}, {'A, Alice': participant([])}, [], [])
@@ -181,7 +216,7 @@ class TestLogScrapeDiff:
         with open(log_path) as f:
             log = json.load(f)
         assert len(log) == 2
-        assert log[-1]['participants']['added'] == ['B, Bob']
+        assert log[-1]['participants']['added'] == [{'name': 'B, Bob', 'entries': []}]
 
     def test_caps_log_length_dropping_oldest(self, tmp_path):
         for i in range(5):
@@ -191,8 +226,8 @@ class TestLogScrapeDiff:
             log = json.load(f)
         assert len(log) == 3
         # newest-last, oldest three dropped
-        assert log[-1]['participants']['added'] == ['P4, Name']
-        assert log[0]['participants']['added'] == ['P2, Name']
+        assert log[-1]['participants']['added'] == [{'name': 'P4, Name', 'entries': []}]
+        assert log[0]['participants']['added'] == [{'name': 'P2, Name', 'entries': []}]
 
     def test_corrupt_existing_log_is_replaced_not_fatal(self, tmp_path):
         (tmp_path / 'scrape_log.json').write_text('not valid json{{{')
