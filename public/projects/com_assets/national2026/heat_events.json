@@ -36,7 +36,6 @@
       "Brodziak, Halle",
       "Bronshtein, Evelyn",
       "Cavaliere, Raffaela",
-      "Chen, Emilia",
       "Fonya, Karolina",
       "Fu, Kaitlin",
       "Giduk, Myka",
@@ -204,7 +203,6 @@
       "Belmonte, Olivia",
       "Brodziak, Halle",
       "Broudno, Thais",
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Gao, Ruiwan",
       "Giduk, Myka",
@@ -1393,7 +1391,6 @@
       "Allaire, Lea",
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
       "Lu, Yiting",
@@ -1417,7 +1414,6 @@
       "Arkin, Diyanat",
       "Belmonte, Olivia",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
       "Iakovenko, Maya",
@@ -1437,7 +1433,6 @@
     "competitors": [
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
       "Iakovenko, Maya",
@@ -1456,7 +1451,6 @@
       "Allaire, Lea",
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
       "Lu, Yiting",
@@ -1477,7 +1471,6 @@
     "competitors": [
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
       "Lu, Yiting",
@@ -1867,7 +1860,6 @@
     "session": "",
     "time": "",
     "competitors": [
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
       "Iakovenko, Maya",
@@ -1884,7 +1876,6 @@
     "session": "",
     "time": "",
     "competitors": [
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
       "Liu, Claire",
@@ -1900,7 +1891,6 @@
     "session": "",
     "time": "",
     "competitors": [
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
       "Liu, Claire",
@@ -1914,7 +1904,6 @@
     "session": "",
     "time": "",
     "competitors": [
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
       "Iakovenko, Maya",
@@ -1931,7 +1920,6 @@
     "session": "",
     "time": "",
     "competitors": [
-      "Chen, Emilia",
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
       "Liu, Claire",
@@ -2047,7 +2035,6 @@
       "Belmonte, Alesia",
       "Belmonte, Olivia",
       "Bronshtein, Evelyn",
-      "Chen, Emilia",
       "Chen, Janelle",
       "Chen, Mia Baiqiao",
       "Do, Chloe",
@@ -9016,8 +9003,10 @@
     "competitors": [
       "Beaudet, Jean",
       "Bolduc, Marie",
+      "Marasigan, Clara",
       "Sevastianova, Alexandra",
-      "Spaetzel, Jonathan"
+      "Spaetzel, Jonathan",
+      "Williamson, Stephen"
     ]
   },
   {
@@ -9178,10 +9167,12 @@
     "competitors": [
       "Beaudet, Jean",
       "Bolduc, Marie",
+      "Marasigan, Clara",
       "Sevastianova, Alexandra",
       "Shelkovyy, Oksana",
       "Spaetzel, Jonathan",
-      "Tolan, Jeffrey"
+      "Tolan, Jeffrey",
+      "Williamson, Stephen"
     ]
   },
   {
@@ -11139,7 +11130,9 @@
     "time": "",
     "competitors": [
       "Beaudet, Jean",
-      "Bolduc, Marie"
+      "Bolduc, Marie",
+      "Marasigan, Clara",
+      "Williamson, Stephen"
     ]
   },
   {
@@ -12472,6 +12465,106 @@
     "competitors": [
       "Elent, Maria",
       "Ma, Tom"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert / Open Gold BALLROOM Foxtrot",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert / Open Gold BALLROOM Quickstep",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert / Open Gold BALLROOM Tango",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert / Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert / Open Gold BALLROOM Valse/Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Quickstep",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse/Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
     ]
   },
   {
@@ -15127,10 +15220,12 @@
     "time": "",
     "competitors": [
       "Aouad, Celina",
+      "Denicola, Melinda",
       "Gurkov, Dmytro",
       "Lisovolenko, Stanislav",
       "Nicholls, Catherine",
       "Pavlichenko, Mila",
+      "Shpuntov, Mark Igor",
       "Tudorovsky, Veycheslav"
     ]
   },
@@ -16828,10 +16923,12 @@
       "Bourell, Easton",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "McCloskey, Fiona",
       "Perras, Isabelle",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -16844,10 +16941,12 @@
       "Bourell, Easton",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "McCloskey, Fiona",
       "Perras, Isabelle",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -16876,10 +16975,12 @@
       "Bourell, Easton",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "McCloskey, Fiona",
       "Perras, Isabelle",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -17238,20 +17339,20 @@
     "competitors": [
       "Celino, Valerie",
       "Choque, Omar",
-      "Daneman, Suzanne",
       "Edouard, Volvick",
       "Goodman, Andrea",
       "Hanwella, Shani",
-      "Lam, Jone",
       "Levit, Sharon",
       "Lewis, Magali",
       "Lewis, Trina",
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
       "Topalov, Stefan",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -17263,13 +17364,15 @@
       "Bourquin, R\u00e9my",
       "Cheuk, Maria",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Levit, Sharon",
       "Lewis, Magali",
       "Lewis, Trina",
       "McNeil, Leana",
       "Olavide, Carlos",
       "Palakodeti, Sunita",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -17308,6 +17411,8 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Edouard, Volvick",
+      "Lewis, Magali",
       "McCloskey, Fiona",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
@@ -17425,6 +17530,26 @@
     "time": "",
     "competitors": [
       "Sydiuk, Hanna",
+      "Topalov, Stefan"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Golestani, Nicole",
+      "Topalov, Stefan"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Golestani, Nicole",
       "Topalov, Stefan"
     ]
   },
@@ -17705,9 +17830,11 @@
       "Arbour, Danny",
       "BEaulieu, Marie-Claire",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lewis, Magali",
       "Perras, Isabelle",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -17719,9 +17846,11 @@
       "Arbour, Danny",
       "BEaulieu, Marie-Claire",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lewis, Magali",
       "Perras, Isabelle",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -17747,9 +17876,11 @@
       "Arbour, Danny",
       "BEaulieu, Marie-Claire",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lewis, Magali",
       "Perras, Isabelle",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -18598,7 +18729,9 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Denicola, Melinda",
       "McCloskey, Fiona",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav"
     ]
   },
@@ -18609,7 +18742,9 @@
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
       "McCloskey, Fiona",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
       "Tudorovsky, Veycheslav"
     ]
@@ -18620,7 +18755,9 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Denicola, Melinda",
       "McCloskey, Fiona",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav"
     ]
   },
@@ -18631,7 +18768,9 @@
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
       "McCloskey, Fiona",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
       "Tudorovsky, Veycheslav"
     ]
@@ -18643,7 +18782,9 @@
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
       "McCloskey, Fiona",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
       "Tudorovsky, Veycheslav"
     ]
@@ -18856,12 +18997,34 @@
   },
   {
     "heat": "",
+    "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Denicola, Melinda",
+      "Shpuntov, Mark Igor"
+    ]
+  },
+  {
+    "heat": "",
     "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Chacha",
     "session": "",
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
+      "Shpuntov, Mark Igor",
       "Tudorovsky, Veycheslav"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Mambo",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Denicola, Melinda",
+      "Shpuntov, Mark Igor"
     ]
   },
   {
@@ -18871,6 +19034,8 @@
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
+      "Shpuntov, Mark Igor",
       "Tudorovsky, Veycheslav"
     ]
   },
@@ -18881,6 +19046,8 @@
     "time": "",
     "competitors": [
       "Bergeron, Amanda",
+      "Denicola, Melinda",
+      "Shpuntov, Mark Igor",
       "Tudorovsky, Veycheslav"
     ]
   },
@@ -19932,6 +20099,7 @@
     "competitors": [
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lam, Jone",
       "Lewis, Magali",
       "Lord, Diane",
@@ -19939,7 +20107,8 @@
       "Perras, Isabelle",
       "Pichette, Cory",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -19950,6 +20119,7 @@
     "competitors": [
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lam, Jone",
       "Lewis, Magali",
       "Lord, Diane",
@@ -19957,7 +20127,8 @@
       "Perras, Isabelle",
       "Pichette, Cory",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -19988,6 +20159,7 @@
     "competitors": [
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
+      "Golestani, Nicole",
       "Lam, Jone",
       "Lewis, Magali",
       "Lord, Diane",
@@ -19995,7 +20167,8 @@
       "Perras, Isabelle",
       "Pichette, Cory",
       "Rogotskyy, Konstantin",
-      "Storozhuk, Vladyslav"
+      "Storozhuk, Vladyslav",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -20664,8 +20837,10 @@
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -21456,6 +21631,8 @@
     "competitors": [
       "Backx, Michelle",
       "Derry, Patrick",
+      "Golestani, Nicole",
+      "Topalov, Stefan",
       "Tudorovsky, Veycheslav",
       "Zwiers, Mariette"
     ]
@@ -21543,11 +21720,13 @@
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "Kostov, Stilian",
       "Longo, Andrea",
       "Perras, Isabelle",
       "Pichette, Cory",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -21569,11 +21748,13 @@
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "Kostov, Stilian",
       "Longo, Andrea",
       "Perras, Isabelle",
       "Pichette, Cory",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -21601,11 +21782,13 @@
       "Bookhardt, Elizabeth",
       "Edouard, Volvick",
       "Feldman, Rachel",
+      "Golestani, Nicole",
       "Kostov, Stilian",
       "Longo, Andrea",
       "Perras, Isabelle",
       "Pichette, Cory",
-      "Rogotskyy, Konstantin"
+      "Rogotskyy, Konstantin",
+      "Topalov, Stefan"
     ]
   },
   {
@@ -24344,8 +24527,10 @@
     "competitors": [
       "Flipsen, Myra",
       "Palakodeti, Sunita",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -24789,7 +24974,9 @@
     "time": "",
     "competitors": [
       "Derry, Patrick",
+      "Golestani, Nicole",
       "Reininger, Pegi",
+      "Topalov, Stefan",
       "Tudorovsky, Veycheslav",
       "Zwiers, Mariette"
     ]
@@ -32863,16 +33050,14 @@
       "Abel, Madis",
       "Bakhtiarova, Liana",
       "Bohachova, Anna",
-      "Bond, Ekaterina",
       "Boyce, Glenn Richard",
-      "Cletova, Xenia",
       "Cockram, David",
       "Dmytriieva, Sofia",
       "Druzhynin, Nikita",
+      "Dubovyk, Alex",
       "End, Liis",
       "Fukuda, Yuichi",
       "Gray, Elizabeth",
-      "Gunnarsson, Alex",
       "Hachiya, Kazuki",
       "Inoguchi, Kaori",
       "Jablonska, Sandra",
@@ -32898,7 +33083,7 @@
       "Ross, Darci",
       "Schmidt, Volker",
       "Sevastianova, Alexandra",
-      "Sterban, Radu",
+      "Taylor-Dubovyk, Rickie",
       "Triebe-Mader, Franziska",
       "Ursache, Valeriu",
       "Vandenhove, Melissa",

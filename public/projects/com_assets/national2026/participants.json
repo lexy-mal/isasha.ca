@@ -3328,6 +3328,13 @@
       },
       {
         "heat": "",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Marc"
+      },
+      {
+        "heat": "",
         "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -3413,13 +3420,6 @@
       {
         "heat": "",
         "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Marc"
-      },
-      {
-        "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pope, Marc"
@@ -8078,17 +8078,6 @@
         "time": "",
         "session": "",
         "partner": "Labrosse, Jean-Yves"
-      }
-    ]
-  },
-  "Bond, Ekaterina": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Gunnarsson, Alex"
       }
     ]
   },
@@ -13112,101 +13101,6 @@
       }
     ]
   },
-  "Chen, Emilia": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Chacha",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Jive",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": null
-      }
-    ]
-  },
   "Chen, Isabella": {
     "entries": [
       {
@@ -14407,17 +14301,6 @@
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
-      }
-    ]
-  },
-  "Cletova, Xenia": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Sterban, Radu"
       }
     ]
   },
@@ -16274,13 +16157,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
-        "time": "",
-        "session": "",
-        "partner": "Lam, Jone"
-      },
-      {
-        "heat": "",
         "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
@@ -16504,6 +16380,87 @@
         "time": "",
         "session": "",
         "partner": "Locke, Richard"
+      }
+    ]
+  },
+  "Denicola, Melinda": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-A PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
       }
     ]
   },
@@ -18903,6 +18860,17 @@
       }
     ]
   },
+  "Dubovyk, Alex": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Taylor-Dubovyk, Rickie"
+      }
+    ]
+  },
   "Dubuc-Ventura, Alexane": {
     "entries": [
       {
@@ -19719,6 +19687,13 @@
       {
         "heat": "",
         "event": "L-C Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Lewis, Magali"
@@ -23883,6 +23858,129 @@
       }
     ]
   },
+  "Golestani, Nicole": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      }
+    ]
+  },
   "Golovanevski, Alexandra": {
     "entries": [
       {
@@ -25095,17 +25193,6 @@
         "time": "",
         "session": "",
         "partner": "Askinadze, Victoria"
-      }
-    ]
-  },
-  "Gunnarsson, Alex": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Bond, Ekaterina"
       }
     ]
   },
@@ -27272,6 +27359,13 @@
       },
       {
         "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
         "time": "",
         "session": "",
@@ -27328,7 +27422,7 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -27370,21 +27464,14 @@
       },
       {
         "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
         "event": "G-F* Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -36393,13 +36480,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
-        "time": "",
-        "session": "",
-        "partner": "Daneman, Suzanne"
-      },
-      {
-        "heat": "",
         "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
         "time": "",
         "session": "",
@@ -40782,6 +40862,13 @@
       {
         "heat": "",
         "event": "L-C Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Edouard, Volvick"
@@ -46931,6 +47018,101 @@
       }
     ]
   },
+  "Marasigan, Clara": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-D Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-D PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      },
+      {
+        "heat": "",
+        "event": "G-E PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Williamson, Stephen"
+      }
+    ]
+  },
   "Marcinkoski, Solomiya": {
     "entries": [
       {
@@ -48930,14 +49112,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "G-A Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-A Bronze Ouvert / Open Bronze TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Renaud, Karen"
       },
       {
         "heat": "",
-        "event": "G-A Bronze Ouvert / Open Bronze TANGO STYLE Argentine Tango",
+        "event": "G-A Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Renaud, Karen"
@@ -54865,6 +55047,13 @@
       },
       {
         "heat": "",
+        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
         "event": "G-F Argent Ferm\u00e9 / Closed Silver CLUB Hustle",
         "time": "",
         "session": "",
@@ -54921,7 +55110,7 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent Ferm\u00e9 / Closed Silver TANGO STYLE Argentine Tango",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -54963,21 +55152,14 @@
       },
       {
         "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
-        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
         "event": "G-F* Argent 1 Ouvert / Open Silver 1 CLUB Hustle",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
+        "event": "G-F* Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -59467,6 +59649,13 @@
       },
       {
         "heat": "",
+        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
+        "time": "",
+        "session": "",
+        "partner": "Bailey, Celeste"
+      },
+      {
+        "heat": "",
         "event": "G-D Or Ouvert / Open Gold TANGO STYLE Tango Vals",
         "time": "",
         "session": "",
@@ -59552,13 +59741,6 @@
       {
         "heat": "",
         "event": "G-D Or 1 Ferm\u00e9 / Closed Gold 1 TANGO STYLE Milonga",
-        "time": "",
-        "session": "",
-        "partner": "Bailey, Celeste"
-      },
-      {
-        "heat": "",
-        "event": "G-C Or 1 Ouvert / Open Gold 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Bailey, Celeste"
@@ -61697,14 +61879,14 @@
       },
       {
         "heat": "",
-        "event": "G-A Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
+        "event": "G-A Bronze Ouvert / Open Bronze TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Mendoza-Saud, Jose"
       },
       {
         "heat": "",
-        "event": "G-A Bronze Ouvert / Open Bronze TANGO STYLE Argentine Tango",
+        "event": "G-A Argent 1 Ouvert / Open Silver 1 TANGO STYLE Argentine Tango",
         "time": "",
         "session": "",
         "partner": "Mendoza-Saud, Jose"
@@ -68933,6 +69115,108 @@
       }
     ]
   },
+  "Shpuntov, Mark Igor": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert / Open Gold RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-A PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+        "time": "",
+        "session": "",
+        "partner": "Denicola, Melinda"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent Ouvert / Open Silver RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Tyndale, Yana"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Tyndale, Yana"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "time": "",
+        "session": "",
+        "partner": "Tyndale, Yana"
+      }
+    ]
+  },
   "Shtark, Emma": {
     "entries": [
       {
@@ -71209,17 +71493,6 @@
         "time": "",
         "session": "",
         "partner": "Aydogan, Emre"
-      }
-    ]
-  },
-  "Sterban, Radu": {
-    "entries": [
-      {
-        "heat": "",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Cletova, Xenia"
       }
     ]
   },
@@ -74209,6 +74482,17 @@
       }
     ]
   },
+  "Taylor-Dubovyk, Rickie": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Dubovyk, Alex"
+      }
+    ]
+  },
   "Teleshova, Polina": {
     "entries": [
       {
@@ -75645,6 +75929,125 @@
   },
   "Topalov, Stefan": {
     "entries": [
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Golestani, Nicole"
+      },
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze RHYTHM Mambo",
@@ -79205,6 +79608,31 @@
       }
     ]
   },
+  "Tyndale, Yana": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-D Argent Ouvert / Open Silver RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+        "time": "",
+        "session": "",
+        "partner": "Shpuntov, Mark Igor"
+      }
+    ]
+  },
   "Ueno, Linda": {
     "entries": [
       {
@@ -82127,6 +82555,101 @@
         "time": "",
         "session": "",
         "partner": "Desroches, Michael"
+      }
+    ]
+  },
+  "Williamson, Stephen": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert / Open Gold BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-D Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-D PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
+      },
+      {
+        "heat": "",
+        "event": "G-E PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Marasigan, Clara"
       }
     ]
   },

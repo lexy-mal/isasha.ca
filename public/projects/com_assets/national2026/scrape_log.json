@@ -17,5 +17,575 @@
       "removed": [],
       "rosterChanged": []
     }
+  },
+  {
+    "timestamp": "2026-08-18T10:00:02.682129+00:00",
+    "participants": {
+      "oldCount": 931,
+      "newCount": 931,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2655,
+      "newCount": 2655,
+      "oldUniqueCount": 2655,
+      "newUniqueCount": 2655,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-08-19T10:00:02.479420+00:00",
+    "participants": {
+      "oldCount": 931,
+      "newCount": 934,
+      "added": [
+        "Denicola, Melinda",
+        "Dubovyk, Alex",
+        "Golestani, Nicole",
+        "Marasigan, Clara",
+        "Shpuntov, Mark Igor",
+        "Taylor-Dubovyk, Rickie",
+        "Tyndale, Yana",
+        "Williamson, Stephen"
+      ],
+      "removed": [
+        "Bond, Ekaterina",
+        "Chen, Emilia",
+        "Cletova, Xenia",
+        "Gunnarsson, Alex",
+        "Sterban, Radu"
+      ],
+      "changed": [
+        {
+          "name": "Daneman, Suzanne",
+          "oldEntryCount": 13,
+          "newEntryCount": 12,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Lam, Jone"
+            }
+          ]
+        },
+        {
+          "name": "Edouard, Volvick",
+          "oldEntryCount": 99,
+          "newEntryCount": 100,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-C Argent Ouvert / Open Silver RHYTHM Mambo",
+              "partner": "Lewis, Magali"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Lam, Jone",
+          "oldEntryCount": 88,
+          "newEntryCount": 87,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Daneman, Suzanne"
+            }
+          ]
+        },
+        {
+          "name": "Lewis, Magali",
+          "oldEntryCount": 44,
+          "newEntryCount": 45,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-C Argent Ouvert / Open Silver RHYTHM Mambo",
+              "partner": "Edouard, Volvick"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Topalov, Stefan",
+          "oldEntryCount": 59,
+          "newEntryCount": 76,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "Golestani, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "L-E Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+              "partner": "Golestani, Nicole"
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2655,
+      "newCount": 2669,
+      "oldUniqueCount": 2655,
+      "newUniqueCount": 2669,
+      "added": [
+        "G-G Or Ouvert / Open Gold BALLROOM Foxtrot",
+        "G-G Or Ouvert / Open Gold BALLROOM Quickstep",
+        "G-G Or Ouvert / Open Gold BALLROOM Tango",
+        "G-G Or Ouvert / Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "G-G Or Ouvert / Open Gold BALLROOM Valse/Waltz",
+        "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
+        "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Quickstep",
+        "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
+        "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "G-G Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Valse/Waltz",
+        "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+        "L-C Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+        "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+        "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Mambo"
+      ],
+      "removed": [],
+      "rosterChanged": [
+        {
+          "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Jive",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Samba",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Chacha",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Jive",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Rumba",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Samba",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Chen, Emilia"
+          ]
+        },
+        {
+          "event": "G-D Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Marasigan, Clara",
+            "Williamson, Stephen"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-D PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/VW/F/Q)",
+          "added": [
+            "Marasigan, Clara",
+            "Williamson, Stephen"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E PRO-AM BALLROOM Schol. Champ. Canadien / Canadian Champ. (W/T/F/Q)",
+          "added": [
+            "Marasigan, Clara",
+            "Williamson, Stephen"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": [
+            "Daneman, Suzanne",
+            "Lam, Jone"
+          ]
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver RHYTHM Mambo",
+          "added": [
+            "Edouard, Volvick",
+            "Lewis, Magali"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold RHYTHM Bolero",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold RHYTHM Chacha",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold RHYTHM Mambo",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold RHYTHM Rumba",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold RHYTHM Swing",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Chacha",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver RHYTHM Bolero",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Tango",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver RHYTHM Mambo",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+          "added": [
+            "Golestani, Nicole",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+          "added": [
+            "Dubovyk, Alex",
+            "Taylor-Dubovyk, Rickie"
+          ],
+          "removed": [
+            "Bond, Ekaterina",
+            "Cletova, Xenia",
+            "Gunnarsson, Alex",
+            "Sterban, Radu"
+          ]
+        }
+      ]
+    }
   }
 ]
