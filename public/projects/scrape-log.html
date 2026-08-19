@@ -226,8 +226,13 @@
 
         // Like nameListHtml, but for a wholly-added/-removed participant: shows which
         // heats they're in underneath their name, not just that they showed up or vanished.
+        // Log entries from before this feature shipped stored `added`/`removed` as plain
+        // name strings (no heats) — scrape_log.json is an append-only history, so older
+        // entries keep that shape forever; fall back to a bare name pill for those instead
+        // of rendering "undefined".
         function participantWithHeatsHtml(participants, cls) {
             if (!participants.length) return '';
+            if (typeof participants[0] === 'string') return nameListHtml(participants, cls);
             return participants.map(p => `
                 <div class="changed-block">
                     <div class="changed-row"><span class="name-pill ${cls}">${esc(p.name)}</span></div>
