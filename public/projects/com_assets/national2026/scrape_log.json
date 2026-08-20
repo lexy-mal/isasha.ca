@@ -587,5 +587,433 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-20T10:00:12.853772+00:00",
+    "participants": {
+      "oldCount": 934,
+      "newCount": 939,
+      "added": [
+        {
+          "name": "Allard, Lukas",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Boutin, Lea-Rose"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Boutin, Lea-Rose"
+            }
+          ]
+        },
+        {
+          "name": "Boutin, Lea-Rose",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Allard, Lukas"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Allard, Lukas"
+            }
+          ]
+        },
+        {
+          "name": "Hiukwan Lee, Eugene",
+          "entries": [
+            {
+              "heat": "",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Condescu, Anthony"
+            }
+          ]
+        },
+        {
+          "name": "Lacasse, Luc",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Lo, Karen"
+            }
+          ]
+        },
+        {
+          "name": "Lo, Karen",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Lacasse, Luc"
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Broudno, Thais",
+          "oldEntryCount": 11,
+          "newEntryCount": 10,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-JR Ouvert / Open LATIN MIXED Samba",
+              "partner": "Ivanov, Pavel"
+            }
+          ]
+        },
+        {
+          "name": "Condescu, Anthony",
+          "oldEntryCount": 1,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Hiukwan Lee, Eugene"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Denicola, Melinda",
+          "oldEntryCount": 11,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-B PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Shpuntov, Mark Igor"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Ivanov, Pavel",
+          "oldEntryCount": 31,
+          "newEntryCount": 30,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-JR Ouvert / Open LATIN MIXED Samba",
+              "partner": "Broudno, Thais"
+            }
+          ]
+        },
+        {
+          "name": "Marasigan, Clara",
+          "oldEntryCount": 13,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Williamson, Stephen"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Shpuntov, Mark Igor",
+          "oldEntryCount": 14,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-B PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Denicola, Melinda"
+            },
+            {
+              "heat": "",
+              "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Chacha",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Mambo",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Rumba",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Swing",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-D PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Bolero",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Rumba",
+              "partner": "Tyndale, Yana"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Swing",
+              "partner": "Tyndale, Yana"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Tyndale, Yana",
+          "oldEntryCount": 3,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Chacha",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Mambo",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Rumba",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D Argent Ouvert / Open Silver RHYTHM Swing",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-D PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Bolero",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Rumba",
+              "partner": "Shpuntov, Mark Igor"
+            },
+            {
+              "heat": "",
+              "event": "L-E Argent Ouvert / Open Silver RHYTHM Swing",
+              "partner": "Shpuntov, Mark Igor"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Williamson, Stephen",
+          "oldEntryCount": 13,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Marasigan, Clara"
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2669,
+      "newCount": 2670,
+      "oldUniqueCount": 2669,
+      "newUniqueCount": 2670,
+      "added": [
+        "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)"
+      ],
+      "removed": [],
+      "rosterChanged": [
+        {
+          "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Allard, Lukas",
+            "Boutin, Lea-Rose"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Allard, Lukas",
+            "Boutin, Lea-Rose"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Lacasse, Luc",
+            "Lo, Karen"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Condescu, Anthony",
+            "Hiukwan Lee, Eugene"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+          "added": [
+            "Denicola, Melinda",
+            "Shpuntov, Mark Igor"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver RHYTHM Chacha",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver RHYTHM Mambo",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver RHYTHM Rumba",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver RHYTHM Swing",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver RHYTHM Bolero",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver RHYTHM Rumba",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver RHYTHM Swing",
+          "added": [
+            "Shpuntov, Mark Igor",
+            "Tyndale, Yana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Ouvert / Open LATIN MIXED Samba",
+          "added": [],
+          "removed": [
+            "Broudno, Thais"
+          ]
+        }
+      ]
+    }
   }
 ]

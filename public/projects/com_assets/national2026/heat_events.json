@@ -2758,11 +2758,13 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Allard, Lukas",
       "Arbour, Maxim",
       "Balan, Vivienne",
       "Belharbi, Zakary",
       "Benson, Cassandra",
       "Bogodelny, Kris",
+      "Boutin, Lea-Rose",
       "Campeau, Mathias",
       "Chen, Nicole",
       "Cismas, Lisandru",
@@ -3078,8 +3080,10 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Allard, Lukas",
       "Arbour, Maxim",
       "Askinadze, Victoria",
+      "Boutin, Lea-Rose",
       "Campeau, Mathias",
       "Dempster, Abigail",
       "Feyzulaev, Camilla",
@@ -3803,10 +3807,12 @@
       "Joyal, Guy",
       "Kim, Djun",
       "Kwok, Peter",
+      "Lacasse, Luc",
       "Lapierre, Denis",
       "Lavery, Elise",
       "Lemelin, Pierre",
       "Li, Kareena",
+      "Lo, Karen",
       "Lortie, Sylvie",
       "Maill\u00e9, Suzie",
       "Nadeau, Mario",
@@ -11115,6 +11121,16 @@
   },
   {
     "heat": "",
+    "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "",
     "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
     "session": "",
     "time": "",
@@ -13449,6 +13465,8 @@
       "Bohuslavska, Maryna",
       "Borovinskaya, Mariya",
       "Bronshtein, Elly",
+      "Condescu, Anthony",
+      "Hiukwan Lee, Eugene",
       "Lama, Sean",
       "Lennox, Sebastian",
       "Ling Guzman, Julia",
@@ -16576,10 +16594,12 @@
     "time": "",
     "competitors": [
       "Backx, Michelle",
+      "Denicola, Melinda",
       "Derry, Patrick",
       "McCloskey, Fiona",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav"
     ]
   },
@@ -19204,9 +19224,11 @@
       "Pichette, Cory",
       "Rogotskyy, Konstantin",
       "Safonov, Vadim",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
       "Topalov, Stefan",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -20859,8 +20881,10 @@
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -20881,8 +20905,10 @@
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -20901,8 +20927,10 @@
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -20921,8 +20949,10 @@
       "Palakodeti, Sunita",
       "Rios, Silvia",
       "Rogotskyy, Konstantin",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -22888,7 +22918,9 @@
       "Collins, Patti",
       "Derry, Patrick",
       "Ilyushenov, Dmitry",
-      "Safonov, Vadim"
+      "Safonov, Vadim",
+      "Shpuntov, Mark Igor",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -23409,8 +23441,10 @@
       "Greco, Lori",
       "Hanwella, Shani",
       "Safonov, Vadim",
+      "Shpuntov, Mark Igor",
       "Topalov, Stefan",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -24503,8 +24537,10 @@
     "competitors": [
       "Flipsen, Myra",
       "Palakodeti, Sunita",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -24515,8 +24551,10 @@
     "competitors": [
       "Flipsen, Myra",
       "Palakodeti, Sunita",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -24541,8 +24579,10 @@
     "competitors": [
       "Flipsen, Myra",
       "Palakodeti, Sunita",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -24553,8 +24593,10 @@
     "competitors": [
       "Flipsen, Myra",
       "Palakodeti, Sunita",
+      "Shpuntov, Mark Igor",
       "Storozhuk, Vladyslav",
-      "Tudorovsky, Veycheslav"
+      "Tudorovsky, Veycheslav",
+      "Tyndale, Yana"
     ]
   },
   {
@@ -31180,7 +31222,6 @@
     "time": "",
     "competitors": [
       "Anastasova, Sofiia",
-      "Broudno, Thais",
       "Ivanov, Pavel",
       "Kotenov, Sasha",
       "Kovalenko, Karolina",
