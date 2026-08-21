@@ -64,14 +64,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Kosztak, Csilla"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Kosztak, Csilla"
@@ -252,14 +252,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -914,14 +914,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Amiri, Mila"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Amiri, Mila"
@@ -967,14 +967,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Amiri, Alia"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Amiri, Alia"
@@ -992,6 +992,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Ivanov, Pavel"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Ivanov, Pavel"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -1007,20 +1021,6 @@
       {
         "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Ivanov, Pavel"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Ivanov, Pavel"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -1677,14 +1677,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -2344,14 +2344,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -2365,7 +2365,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -2787,20 +2787,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Flores Wintle, Liliana"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Flores Wintle, Liliana"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -2815,17 +2801,24 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Rumba",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Flores Wintle, Liliana"
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
-        "partner": "Hartwell, Estela"
+        "partner": "Flores Wintle, Liliana"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Flores Wintle, Liliana"
       },
       {
         "heat": "",
@@ -2844,6 +2837,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Hartwell, Estela"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Hartwell, Estela"
@@ -2871,20 +2871,6 @@
       },
       {
         "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Marcotte, M\u00e9lissa"
-      },
-      {
-        "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Marcotte, M\u00e9lissa"
-      },
-      {
-        "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -2900,6 +2886,20 @@
       {
         "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Marcotte, M\u00e9lissa"
+      },
+      {
+        "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Marcotte, M\u00e9lissa"
+      },
+      {
+        "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Marcotte, M\u00e9lissa"
@@ -3104,13 +3104,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Kiorescu, Oleksiy"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -3132,6 +3125,13 @@
       },
       {
         "heat": "",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Kiorescu, Oleksiy"
+      },
+      {
+        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -3139,14 +3139,14 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
@@ -3813,14 +3813,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -3873,14 +3873,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -3969,14 +3969,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Teplitskiy, Sophie"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Teplitskiy, Sophie"
@@ -4935,13 +4935,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Ilyushenov, Andrey"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -4949,7 +4942,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -4957,6 +4950,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Ilyushenov, Andrey"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -5320,14 +5320,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Guay, Claude"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Guay, Claude"
@@ -5722,14 +5722,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -7210,14 +7210,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Regillo, Aviana"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Regillo, Aviana"
@@ -7264,20 +7264,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Bronshtein, Elly"
-      },
-      {
-        "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Bronshtein, Elly"
-      },
-      {
-        "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -7286,6 +7272,20 @@
       {
         "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Bronshtein, Elly"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Bronshtein, Elly"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Bronshtein, Elly"
@@ -7521,14 +7521,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lemelin, Pierre"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lemelin, Pierre"
@@ -7624,14 +7624,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Oliynyk, Sofiya"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Oliynyk, Sofiya"
@@ -8924,14 +8924,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Thameur, Samira"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Thameur, Samira"
@@ -8970,14 +8970,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -9536,14 +9536,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Stephen"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Stephen"
@@ -9554,14 +9554,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Gilda"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Bowdridge, Gilda"
@@ -10116,13 +10116,6 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
@@ -10130,7 +10123,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -10138,6 +10131,13 @@
       {
         "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -10162,20 +10162,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Bielichenko, Vasyl"
-      },
-      {
-        "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Bielichenko, Vasyl"
-      },
-      {
-        "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -10184,6 +10170,20 @@
       {
         "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Bielichenko, Vasyl"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Bielichenko, Vasyl"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Bielichenko, Vasyl"
@@ -10467,14 +10467,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -10488,7 +10488,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -10574,6 +10574,13 @@
       {
         "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Ivanov, Pavel"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -10728,14 +10735,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -10774,7 +10781,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -10788,7 +10795,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -10820,14 +10827,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
@@ -10855,14 +10862,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tao, Claire"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tao, Claire"
@@ -11246,13 +11253,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Phippen, Max"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -11260,7 +11260,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Phippen, Max"
@@ -11268,6 +11268,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Phippen, Max"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Phippen, Max"
@@ -11355,6 +11362,13 @@
       },
       {
         "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Viau, Marie-Josee"
+      },
+      {
+        "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -11384,13 +11398,6 @@
       {
         "heat": "",
         "event": "L-50+ Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Viau, Marie-Josee"
-      },
-      {
-        "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Viau, Marie-Josee"
@@ -12415,20 +12422,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Zaharia, Daniel"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zaharia, Daniel"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -12444,6 +12437,20 @@
       {
         "heat": "",
         "event": "L-U21 Or / Gold LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Zaharia, Daniel"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Zaharia, Daniel"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zaharia, Daniel"
@@ -12773,14 +12780,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
@@ -12801,14 +12808,14 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Sofia"
@@ -12850,13 +12857,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Sanchez, Karol"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -12872,6 +12872,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Sanchez, Karol"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Sanchez, Karol"
@@ -13134,20 +13141,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lennox, Sebastian"
-      },
-      {
-        "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lennox, Sebastian"
-      },
-      {
-        "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -13156,6 +13149,20 @@
       {
         "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lennox, Sebastian"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lennox, Sebastian"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Lennox, Sebastian"
@@ -13233,13 +13240,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Wong, Ed"
-      },
-      {
-        "heat": "",
         "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -13247,7 +13247,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Wong, Ed"
@@ -13255,6 +13255,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Wong, Ed"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Wong, Ed"
@@ -13354,6 +13361,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -13362,13 +13376,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -13583,7 +13590,7 @@
       },
       {
         "heat": "",
-        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+        "event": "L- Pr\u00e9 Argent / Pre Silver Solo Exhibition Tango Vals",
         "time": "",
         "session": "",
         "partner": "Olavide, Carlos"
@@ -13843,20 +13850,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Savignac, Gabriella"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Savignac, Gabriella"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -13865,6 +13858,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Savignac, Gabriella"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Savignac, Gabriella"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Savignac, Gabriella"
@@ -14114,14 +14121,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chu, Wayne"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chu, Wayne"
@@ -14132,14 +14139,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chow, Joanna"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chow, Joanna"
@@ -14238,14 +14245,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Velev, Adriana"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Velev, Adriana"
@@ -14348,14 +14355,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Trudeau, Caroline"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Trudeau, Caroline"
@@ -15635,7 +15642,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -15649,7 +15656,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -16211,6 +16218,41 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Lachance, Delphine"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lachance, Delphine"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lachance, Delphine"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Lachance, Delphine"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Lachance, Delphine"
+      },
+      {
+        "heat": "",
         "event": "L-U21 Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
@@ -16246,41 +16288,6 @@
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Lachance, Delphine"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Lachance, Delphine"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Lachance, Delphine"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lachance, Delphine"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lachance, Delphine"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -16288,14 +16295,14 @@
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
@@ -16511,14 +16518,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Roberge, Alexandre"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Roberge, Alexandre"
@@ -17952,14 +17959,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -18263,14 +18270,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -18889,14 +18896,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "So, Sunny"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "So, Sunny"
@@ -18925,13 +18932,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Langlois, Sarah-\u00c8ve"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -18940,6 +18940,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Langlois, Sarah-\u00c8ve"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Langlois, Sarah-\u00c8ve"
@@ -19185,14 +19192,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Webber, Thomas"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Webber, Thomas"
@@ -19203,13 +19210,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Znack, Ginette"
-      },
-      {
-        "heat": "",
         "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -19217,7 +19217,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Znack, Ginette"
@@ -19225,6 +19225,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Znack, Ginette"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Znack, Ginette"
@@ -19992,20 +19999,6 @@
       },
       {
         "heat": "",
-        "event": "G-50+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Harrison, Kaida"
-      },
-      {
-        "heat": "",
-        "event": "G-50+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Harrison, Kaida"
-      },
-      {
-        "heat": "",
         "event": "G-36+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
@@ -20014,6 +20007,20 @@
       {
         "heat": "",
         "event": "G-36+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Harrison, Kaida"
+      },
+      {
+        "heat": "",
+        "event": "G-50+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Harrison, Kaida"
+      },
+      {
+        "heat": "",
+        "event": "G-50+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Harrison, Kaida"
@@ -20463,13 +20470,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Todea, Alin"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -20477,7 +20477,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Todea, Alin"
@@ -20485,6 +20485,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Todea, Alin"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Todea, Alin"
@@ -20601,14 +20608,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Leong, Michael"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Leong, Michael"
@@ -21045,14 +21052,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -21200,13 +21207,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Kuragina, Angelika"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -21222,6 +21222,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Kuragina, Angelika"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Kuragina, Angelika"
@@ -21451,20 +21458,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Babira, Sandu"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Babira, Sandu"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -21473,6 +21466,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Babira, Sandu"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Babira, Sandu"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Babira, Sandu"
@@ -21493,14 +21500,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -21514,7 +21521,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -21704,14 +21711,14 @@
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Solomakha, Roman"
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Solomakha, Roman"
@@ -21760,14 +21767,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -22053,21 +22060,21 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Gagnon, Audrey"
       },
       {
         "heat": "",
-        "event": "AC-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Gagnon, Audrey"
       },
       {
         "heat": "",
-        "event": "AC-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Gagnon, Audrey"
@@ -22659,13 +22666,6 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
@@ -22673,7 +22673,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -22681,6 +22681,13 @@
       {
         "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -23121,21 +23128,21 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fortin, Jacques"
       },
       {
         "heat": "",
-        "event": "AC-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fortin, Jacques"
       },
       {
         "heat": "",
-        "event": "AC-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fortin, Jacques"
@@ -23600,18 +23607,50 @@
       }
     ]
   },
+  "Gauriat, Marie-Anne": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Leroi, Julien"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Leroi, Julien"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Leroi, Julien"
+      },
+      {
+        "heat": "",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Leroi, Julien"
+      }
+    ]
+  },
   "Gauthier, Rachel": {
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Legault, Stephane"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Legault, Stephane"
@@ -23780,13 +23819,6 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
@@ -23794,7 +23826,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -23802,6 +23834,13 @@
       {
         "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -23859,6 +23898,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -23867,13 +23913,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -24148,14 +24187,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -24543,14 +24582,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -25186,14 +25225,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Beaulieu, Ginette"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Beaulieu, Ginette"
@@ -26814,20 +26853,6 @@
       },
       {
         "heat": "",
-        "event": "G-50+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Edwards, Ian"
-      },
-      {
-        "heat": "",
-        "event": "G-50+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Edwards, Ian"
-      },
-      {
-        "heat": "",
         "event": "G-36+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
@@ -26836,6 +26861,20 @@
       {
         "heat": "",
         "event": "G-36+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Edwards, Ian"
+      },
+      {
+        "heat": "",
+        "event": "G-50+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Edwards, Ian"
+      },
+      {
+        "heat": "",
+        "event": "G-50+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Edwards, Ian"
@@ -26860,13 +26899,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Babira, Sandu"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -26888,6 +26920,13 @@
       },
       {
         "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Babira, Sandu"
+      },
+      {
+        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
@@ -26902,13 +26941,6 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
@@ -26916,7 +26948,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -26924,6 +26956,13 @@
       {
         "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -28272,14 +28311,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -28293,7 +28332,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -28453,14 +28492,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -28481,20 +28520,6 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Chacha",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
@@ -28502,7 +28527,21 @@
       },
       {
         "heat": "",
+        "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -28626,13 +28665,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Baydala, Sophia"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -28640,7 +28672,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Baydala, Sophia"
@@ -28648,6 +28680,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Baydala, Sophia"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Baydala, Sophia"
@@ -28745,14 +28784,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
@@ -29525,6 +29564,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Anastasova, Sofiia"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Anastasova, Sofiia"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -29540,20 +29593,6 @@
       {
         "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Anastasova, Sofiia"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Anastasova, Sofiia"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Anastasova, Sofiia"
@@ -29588,6 +29627,13 @@
       },
       {
         "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Broudno, Thais"
+      },
+      {
+        "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -29595,14 +29641,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Iakovenko, Maya"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Iakovenko, Maya"
@@ -29623,14 +29669,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
+        "event": "L-JV Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Ligachyova, Angelica"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ligachyova, Angelica"
@@ -29665,13 +29711,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Ligachyova, Isabella"
-      },
-      {
-        "heat": "",
         "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -29693,6 +29732,13 @@
       },
       {
         "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Ligachyova, Isabella"
+      },
+      {
+        "heat": "",
         "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -29700,14 +29746,14 @@
       },
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Jive",
+        "event": "L-JR Or / Gold LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Tsytsarin, Camilla"
       },
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Samba",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Tsytsarin, Camilla"
@@ -30326,20 +30372,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -30348,6 +30380,20 @@
       {
         "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -30598,14 +30644,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Li, Kareena"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Li, Kareena"
@@ -30616,14 +30662,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lortie, Sylvie"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lortie, Sylvie"
@@ -30757,6 +30803,13 @@
       },
       {
         "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kouznetsov, Dmitriy"
+      },
+      {
+        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -30765,13 +30818,6 @@
       {
         "heat": "",
         "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Kouznetsov, Dmitriy"
-      },
-      {
-        "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kouznetsov, Dmitriy"
@@ -31938,14 +31984,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -31984,14 +32030,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -32030,14 +32076,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -32076,14 +32122,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -32347,6 +32393,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Yue, Shirley"
+      },
+      {
+        "heat": "",
         "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -32355,13 +32408,6 @@
       {
         "heat": "",
         "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Yue, Shirley"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Yue, Shirley"
@@ -32381,13 +32427,6 @@
   },
   "Kiorescu, Oleksiy": {
     "entries": [
-      {
-        "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Bai, Sonia"
-      },
       {
         "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
@@ -32411,6 +32450,13 @@
       },
       {
         "heat": "",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Bai, Sonia"
+      },
+      {
+        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -32418,14 +32464,14 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
@@ -32689,20 +32735,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "G-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Movshovich Fil, Zachary"
-      },
-      {
-        "heat": "",
-        "event": "G-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Movshovich Fil, Zachary"
-      },
-      {
-        "heat": "",
         "event": "G-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -32711,6 +32743,20 @@
       {
         "heat": "",
         "event": "G-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Movshovich Fil, Zachary"
+      },
+      {
+        "heat": "",
+        "event": "G-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Movshovich Fil, Zachary"
+      },
+      {
+        "heat": "",
+        "event": "G-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Movshovich Fil, Zachary"
@@ -33109,20 +33155,6 @@
       },
       {
         "heat": "",
-        "event": "G-JR Or / Gold LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Stefanov, Catherine"
-      },
-      {
-        "heat": "",
-        "event": "G-JR Or / Gold LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Stefanov, Catherine"
-      },
-      {
-        "heat": "",
         "event": "G-JR Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -33131,6 +33163,20 @@
       {
         "heat": "",
         "event": "G-JR Or / Gold LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Stefanov, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "G-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Stefanov, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "G-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Stefanov, Catherine"
@@ -33858,14 +33904,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Achinfiev, Alexei"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Achinfiev, Alexei"
@@ -33890,6 +33936,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Stefanov, Peter"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Stefanov, Peter"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -33905,20 +33965,6 @@
       {
         "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Stefanov, Peter"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Stefanov, Peter"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Stefanov, Peter"
@@ -34052,6 +34098,13 @@
       },
       {
         "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kachurovska, Olena"
+      },
+      {
+        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -34060,13 +34113,6 @@
       {
         "heat": "",
         "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Kachurovska, Olena"
-      },
-      {
-        "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kachurovska, Olena"
@@ -34155,6 +34201,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -34170,20 +34230,6 @@
       {
         "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -34886,13 +34932,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Filatov, Arsenii"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -34908,6 +34947,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Filatov, Arsenii"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Filatov, Arsenii"
@@ -35110,14 +35156,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
@@ -35138,14 +35184,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Tang, Sue"
@@ -35548,11 +35594,53 @@
         "time": "",
         "session": "",
         "partner": "Lo, Karen"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lo, Karen"
       }
     ]
   },
   "Lachance, Delphine": {
     "entries": [
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Daniault, Alexis"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Daniault, Alexis"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Daniault, Alexis"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Daniault, Alexis"
+      },
+      {
+        "heat": "",
+        "event": "L-Y Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Daniault, Alexis"
+      },
       {
         "heat": "",
         "event": "L-U21 Argent / Silver LATIN MIXED Jive",
@@ -35590,41 +35678,6 @@
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Daniault, Alexis"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Daniault, Alexis"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Daniault, Alexis"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Daniault, Alexis"
-      },
-      {
-        "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Daniault, Alexis"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -35632,14 +35685,14 @@
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
@@ -36348,13 +36401,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Li, Olivia"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -36370,6 +36416,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Li, Olivia"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Li, Olivia"
@@ -37102,20 +37155,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Jin, Phyllis"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Jin, Phyllis"
-      },
-      {
-        "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -37124,6 +37163,20 @@
       {
         "heat": "",
         "event": "L-JR Or / Gold LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Jin, Phyllis"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Jin, Phyllis"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Jin, Phyllis"
@@ -37151,14 +37204,14 @@
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Li, Yuxin"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Li, Yuxin"
@@ -37176,13 +37229,6 @@
         "time": "",
         "session": "",
         "partner": "Li, Yuxin"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Liang, Eva"
       },
       {
         "heat": "",
@@ -37207,24 +37253,17 @@
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Jive",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Liang, Eva"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JR Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
-        "partner": "Qi, Qiutong"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Qi, Qiutong"
+        "partner": "Liang, Eva"
       },
       {
         "heat": "",
@@ -37236,6 +37275,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Qi, Qiutong"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Qi, Qiutong"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Qi, Qiutong"
@@ -37277,13 +37330,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Saleh, Chloe"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -37292,6 +37338,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Saleh, Chloe"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Saleh, Chloe"
@@ -37340,14 +37393,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Saleh, Milia"
       },
       {
         "heat": "",
-        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
+        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Saleh, Milia"
@@ -37410,6 +37463,20 @@
       },
       {
         "heat": "",
+        "event": "L-JR Bronze / Bronze LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Zhou, Vivien"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Bronze / Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Zhou, Vivien"
+      },
+      {
+        "heat": "",
         "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -37425,20 +37492,6 @@
       {
         "heat": "",
         "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Zhou, Vivien"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Bronze / Bronze LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zhou, Vivien"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Bronze / Bronze LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhou, Vivien"
@@ -37573,13 +37626,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Dubuc-Ventura, Alexane"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -37588,6 +37634,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Dubuc-Ventura, Alexane"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Dubuc-Ventura, Alexane"
@@ -37605,13 +37658,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Lavery, Elise"
-      },
-      {
-        "heat": "",
         "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -37619,7 +37665,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Lavery, Elise"
@@ -37627,6 +37673,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lavery, Elise"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lavery, Elise"
@@ -38080,13 +38133,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Lapierre, Denis"
-      },
-      {
-        "heat": "",
         "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -38094,7 +38140,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Lapierre, Denis"
@@ -38102,6 +38148,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lapierre, Denis"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lapierre, Denis"
@@ -38362,14 +38415,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -39803,14 +39856,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Gauthier, Rachel"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Gauthier, Rachel"
@@ -39835,14 +39888,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Blais, Ren\u00e9e"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Blais, Ren\u00e9e"
@@ -39853,20 +39906,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Chen, Isabella"
-      },
-      {
-        "heat": "",
-        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Chen, Isabella"
-      },
-      {
-        "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -39875,6 +39914,20 @@
       {
         "heat": "",
         "event": "L-19+ Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Chen, Isabella"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Chen, Isabella"
+      },
+      {
+        "heat": "",
+        "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Chen, Isabella"
@@ -39934,17 +39987,49 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Fan, Jillian"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Fan, Jillian"
+      }
+    ]
+  },
+  "Leroi, Julien": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gauriat, Marie-Anne"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gauriat, Marie-Anne"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gauriat, Marie-Anne"
+      },
+      {
+        "heat": "",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gauriat, Marie-Anne"
       }
     ]
   },
@@ -41499,14 +41584,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joung, Min"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joung, Min"
@@ -41612,14 +41697,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -41714,14 +41799,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -41749,13 +41834,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Lakra, Kiara"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -41771,6 +41849,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Lakra, Kiara"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Lakra, Kiara"
@@ -41950,7 +42035,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -41964,7 +42049,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -41996,14 +42081,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -42049,13 +42134,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -42071,6 +42149,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -42264,14 +42349,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
+        "event": "L-JV Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -42310,13 +42395,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Ivanov, Pavel"
-      },
-      {
-        "heat": "",
         "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -42332,6 +42410,13 @@
       {
         "heat": "",
         "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Ivanov, Pavel"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -42437,13 +42522,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Petrov, Nathaniel"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -42459,6 +42537,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Petrov, Nathaniel"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Petrov, Nathaniel"
@@ -42669,20 +42754,6 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -42691,6 +42762,20 @@
       {
         "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -43965,6 +44050,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -43973,13 +44065,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -44323,6 +44408,13 @@
       {
         "heat": "",
         "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Lacasse, Luc"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Lacasse, Luc"
@@ -44819,14 +44911,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -45476,14 +45568,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joyal, Guy"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Joyal, Guy"
@@ -45554,6 +45646,59 @@
       }
     ]
   },
+  "Lu, Andrea": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "A-19+ Ouvert / Open LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-19+ Ouvert / Open LATIN SOLO Samba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-19+ Ouvert / Open LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-19+ Ouvert / Open LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-19+ Ouvert / Open LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-16+ Or / Gold LATIN SOLO (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-U21 Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Lu, Ariel": {
     "entries": [
       {
@@ -45572,7 +45717,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -45586,7 +45731,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -45618,14 +45763,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -45639,14 +45784,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -45660,7 +45805,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -46202,14 +46347,14 @@
       },
       {
         "heat": "",
-        "event": "L-19+ Or / Gold LATIN MIXED Jive",
+        "event": "L-19+ Or / Gold LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Naidoo, Shaylen"
       },
       {
         "heat": "",
-        "event": "L-19+ Or / Gold LATIN MIXED Samba",
+        "event": "L-19+ Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Naidoo, Shaylen"
@@ -46453,14 +46598,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Richer, Luc"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Richer, Luc"
@@ -46717,14 +46862,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -47267,20 +47412,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Babira, Sandu"
-      },
-      {
-        "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Babira, Sandu"
-      },
-      {
-        "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -47296,6 +47427,20 @@
       {
         "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Babira, Sandu"
+      },
+      {
+        "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Babira, Sandu"
+      },
+      {
+        "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Babira, Sandu"
@@ -47681,14 +47826,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -48976,14 +49121,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -49357,14 +49502,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -49558,7 +49703,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -49572,7 +49717,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -49839,14 +49984,14 @@
       },
       {
         "heat": "",
-        "event": "A-19+ Argent / Silver LATIN SOLO Jive",
+        "event": "A-19+ Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-19+ Argent / Silver LATIN SOLO Paso Doble",
+        "event": "A-19+ Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -50795,14 +50940,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -50834,20 +50979,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Tretiak, Viacheslav"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Tretiak, Viacheslav"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -50856,6 +50987,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Tretiak, Viacheslav"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Tretiak, Viacheslav"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Tretiak, Viacheslav"
@@ -50883,13 +51028,6 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -50898,6 +51036,13 @@
       {
         "heat": "",
         "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -50929,20 +51074,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "G-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Kischitzky, Gaya"
-      },
-      {
-        "heat": "",
-        "event": "G-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Kischitzky, Gaya"
-      },
-      {
-        "heat": "",
         "event": "G-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -50951,6 +51082,20 @@
       {
         "heat": "",
         "event": "G-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Kischitzky, Gaya"
+      },
+      {
+        "heat": "",
+        "event": "G-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Kischitzky, Gaya"
+      },
+      {
+        "heat": "",
+        "event": "G-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kischitzky, Gaya"
@@ -51088,6 +51233,13 @@
       },
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -51096,13 +51248,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -51455,14 +51600,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Plourde, Marie-Andree"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Plourde, Marie-Andree"
@@ -51613,14 +51758,14 @@
       },
       {
         "heat": "",
-        "event": "L-19+ Or / Gold LATIN MIXED Jive",
+        "event": "L-19+ Or / Gold LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Ma, Hylann"
       },
       {
         "heat": "",
-        "event": "L-19+ Or / Gold LATIN MIXED Samba",
+        "event": "L-19+ Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ma, Hylann"
@@ -51871,14 +52016,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -52538,14 +52683,28 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Young Spice, Jack"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Young Spice, Jack"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
@@ -52573,21 +52732,7 @@
       },
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Young Spice, Jack"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Young Spice, Jack"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Young Spice, Jack"
@@ -52779,14 +52924,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
@@ -52807,14 +52952,14 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
       },
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
@@ -52926,7 +53071,7 @@
       },
       {
         "heat": "",
-        "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+        "event": "L- Pr\u00e9 Argent / Pre Silver Solo Exhibition Tango Vals",
         "time": "",
         "session": "",
         "partner": "Cheuk, Maria"
@@ -53151,14 +53296,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Bodrug, Richard"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Bodrug, Richard"
@@ -54317,6 +54462,13 @@
       },
       {
         "heat": "",
+        "event": "A-JV Ouvert / Open LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -54339,13 +54491,6 @@
       {
         "heat": "",
         "event": "A-JV Ouvert / Open LATIN SOLO Jive",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -54783,14 +54928,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "White, James"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "White, James"
@@ -55893,14 +56038,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Wood, Wayne"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Wood, Wayne"
@@ -56108,14 +56253,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -56587,13 +56732,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lin, Vanessa"
-      },
-      {
-        "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -56609,6 +56747,13 @@
       {
         "heat": "",
         "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Lin, Vanessa"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Lin, Vanessa"
@@ -57436,13 +57581,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Call, Devri"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -57450,7 +57588,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Call, Devri"
@@ -57458,6 +57596,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Call, Devri"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Call, Devri"
@@ -58250,14 +58395,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Or / Gold LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Paso Doble",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -58388,7 +58533,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -58402,7 +58547,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -58427,14 +58572,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nadeau, Mario"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Nadeau, Mario"
@@ -58466,14 +58611,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -60570,14 +60715,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Saulnier, Roland"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Saulnier, Roland"
@@ -60747,20 +60892,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -60769,6 +60900,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -60953,14 +61098,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gitana"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gitana"
@@ -60971,14 +61116,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gene"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Rassin, Gene"
@@ -61231,14 +61376,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Bermingham, Aidan"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Bermingham, Aidan"
@@ -62183,14 +62328,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -62524,14 +62669,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Maill\u00e9, Suzie"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Maill\u00e9, Suzie"
@@ -62591,14 +62736,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -62665,14 +62810,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -62877,14 +63022,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Denis, Christelle"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Denis, Christelle"
@@ -63958,14 +64103,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -65872,13 +66017,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -65893,6 +66031,13 @@
       },
       {
         "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
         "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -65900,14 +66045,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -66013,14 +66158,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
       },
       {
         "heat": "",
-        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
+        "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -66055,14 +66200,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -66221,13 +66366,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Chan, Athyn"
-      },
-      {
-        "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -66243,6 +66381,13 @@
       {
         "heat": "",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Chan, Athyn"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Chan, Athyn"
@@ -66284,14 +66429,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -66387,14 +66532,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Provost, Francine"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Provost, Francine"
@@ -66405,20 +66550,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Chladek, Emmy"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Chladek, Emmy"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -66427,6 +66558,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Chladek, Emmy"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Chladek, Emmy"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Chladek, Emmy"
@@ -66461,14 +66606,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -66482,7 +66627,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -67864,14 +68009,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -67889,14 +68034,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -67910,7 +68055,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -68066,6 +68211,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -68074,13 +68226,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -69004,14 +69149,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -69050,14 +69195,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -69075,6 +69220,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -69083,13 +69242,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -69110,13 +69262,6 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JV Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -69124,7 +69269,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -69917,14 +70062,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
@@ -70402,14 +70547,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Du, Jessie"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Du, Jessie"
@@ -70427,14 +70572,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -70561,14 +70706,14 @@
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Fogl, Anne"
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fogl, Anne"
@@ -70663,14 +70808,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -70723,6 +70868,13 @@
       },
       {
         "heat": "",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -70730,7 +70882,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -70744,14 +70896,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Rumba",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -70935,14 +71080,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -71388,14 +71533,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -71462,20 +71607,6 @@
       },
       {
         "heat": "",
-        "event": "G-JR Or / Gold LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Kolesnik, Gregory"
-      },
-      {
-        "heat": "",
-        "event": "G-JR Or / Gold LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Kolesnik, Gregory"
-      },
-      {
-        "heat": "",
         "event": "G-JR Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -71484,6 +71615,20 @@
       {
         "heat": "",
         "event": "G-JR Or / Gold LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Kolesnik, Gregory"
+      },
+      {
+        "heat": "",
+        "event": "G-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Kolesnik, Gregory"
+      },
+      {
+        "heat": "",
+        "event": "G-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kolesnik, Gregory"
@@ -71533,6 +71678,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Kotenov, Sasha"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Kotenov, Sasha"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -71548,20 +71707,6 @@
       {
         "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Kotenov, Sasha"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Kotenov, Sasha"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kotenov, Sasha"
@@ -73307,14 +73452,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -73932,14 +74077,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -74275,14 +74420,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -74370,14 +74515,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -74455,14 +74600,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD5 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
@@ -74483,14 +74628,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kwok, Peter"
@@ -74501,14 +74646,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
@@ -74668,14 +74813,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Baranova, Veronica"
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Baranova, Veronica"
@@ -74816,14 +74961,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Borvil, Jean-Baptiste"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Borvil, Jean-Baptiste"
@@ -75837,20 +75982,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -75859,6 +75990,20 @@
       {
         "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -75890,13 +76035,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Elliott, Rowyn"
-      },
-      {
-        "heat": "",
         "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -75904,7 +76042,7 @@
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Elliott, Rowyn"
@@ -75912,6 +76050,13 @@
       {
         "heat": "",
         "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Elliott, Rowyn"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Elliott, Rowyn"
@@ -76983,20 +77128,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Movshovich Fil, Isabella"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Movshovich Fil, Isabella"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -77005,6 +77136,20 @@
       {
         "heat": "",
         "event": "L-JV Argent / Silver LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Movshovich Fil, Isabella"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Movshovich Fil, Isabella"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Movshovich Fil, Isabella"
@@ -77054,14 +77199,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Collette, Sylvain"
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-AD1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Collette, Sylvain"
@@ -77420,14 +77565,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -77586,14 +77731,14 @@
       },
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Jive",
+        "event": "L-JR Or / Gold LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
       },
       {
         "heat": "",
-        "event": "L-JR Or / Gold LATIN MIXED Samba",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -77670,14 +77815,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -80596,14 +80741,14 @@
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Ciobanu, Gabriel"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Ciobanu, Gabriel"
@@ -80656,14 +80801,14 @@
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -81039,14 +81184,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -81134,14 +81279,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -81173,6 +81318,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Campeau, Mathias"
+      },
+      {
+        "heat": "",
         "event": "L-36+ Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
@@ -81202,13 +81354,6 @@
       {
         "heat": "",
         "event": "L-50+ Argent / Silver LATIN MIXED Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Campeau, Mathias"
-      },
-      {
-        "heat": "",
-        "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Campeau, Mathias"
@@ -82283,14 +82428,14 @@
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -82399,20 +82544,6 @@
       },
       {
         "heat": "",
-        "event": "L-50+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-50+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Zhelasko, Danny"
-      },
-      {
-        "heat": "",
         "event": "L-50+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -82428,6 +82559,20 @@
       {
         "heat": "",
         "event": "L-50+ Ouvert / Open LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-50+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Zhelasko, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-50+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -82456,14 +82601,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Duruisseau, Diane"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Duruisseau, Diane"
@@ -82481,14 +82626,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -82678,14 +82823,14 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Parry, Sheila"
       },
       {
         "heat": "",
-        "event": "AC-AD5 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Parry, Sheila"
@@ -83182,13 +83327,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "Chen, Jenny Erbei"
-      },
-      {
-        "heat": "",
         "event": "AC-AD2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -83196,7 +83334,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Jenny Erbei"
@@ -83204,6 +83342,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Chen, Jenny Erbei"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Chen, Jenny Erbei"
@@ -83379,14 +83524,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -83418,14 +83563,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Pearson, Shirley"
       },
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Pearson, Shirley"
@@ -83479,6 +83624,13 @@
       },
       {
         "heat": "",
+        "event": "A-JV Ouvert / Open LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -83501,13 +83653,6 @@
       {
         "heat": "",
         "event": "A-JV Ouvert / Open LATIN SOLO Jive",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -83539,7 +83684,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -83553,7 +83698,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -83603,14 +83748,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -83624,14 +83769,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
@@ -83645,7 +83790,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -83663,6 +83808,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "A-JV Or / Gold LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -83671,13 +83830,6 @@
       {
         "heat": "",
         "event": "A-JV Or / Gold LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
-        "event": "A-JV Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -83698,13 +83850,6 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JV Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
@@ -83712,7 +83857,7 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Jive",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -84044,14 +84189,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
+        "event": "A-JR Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
+        "event": "A-JR Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -84090,14 +84235,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -84200,14 +84345,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Zhang, Muqi"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Zhang, Muqi"
@@ -84228,7 +84373,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -84242,7 +84387,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+        "event": "A-JR Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -84701,14 +84846,28 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Nikolov, Ellie"
       },
       {
         "heat": "",
-        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Nikolov, Ellie"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Nikolov, Ellie"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Nikolov, Ellie"
@@ -84736,21 +84895,7 @@
       },
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Nikolov, Ellie"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Nikolov, Ellie"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Nikolov, Ellie"
@@ -84838,13 +84983,6 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Samba",
-        "time": "",
-        "session": "",
-        "partner": null
-      },
-      {
-        "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
@@ -84852,7 +84990,7 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -84860,6 +84998,13 @@
       {
         "heat": "",
         "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -84909,6 +85054,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kim, Djun"
+      },
+      {
+        "heat": "",
         "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -84917,13 +85069,6 @@
       {
         "heat": "",
         "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "",
-        "session": "",
-        "partner": "Kim, Djun"
-      },
-      {
-        "heat": "",
-        "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kim, Djun"
@@ -84948,20 +85093,6 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Argent / Silver LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Cazacu, Tina"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Argent / Silver LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Cazacu, Tina"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Or / Gold LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -84977,6 +85108,20 @@
       {
         "heat": "",
         "event": "L-U21 Or / Gold LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Cazacu, Tina"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Argent / Silver LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Cazacu, Tina"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Cazacu, Tina"
@@ -85104,14 +85249,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -85125,14 +85270,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "event": "A-JR Argent / Silver LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -85164,14 +85309,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -85231,14 +85376,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -85266,14 +85411,14 @@
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "event": "A-JV Argent / Silver LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JV Argent / Silver LATIN SOLO Samba",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -85312,14 +85457,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -85351,14 +85496,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Yang-Muhlbacher, Andrew"
       },
       {
         "heat": "",
-        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Yang-Muhlbacher, Andrew"
@@ -85379,14 +85524,14 @@
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Rumba",
+        "event": "A-Y Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Samba",
+        "event": "A-Y Ouvert / Open LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -85601,6 +85746,20 @@
       },
       {
         "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Kovalenko, Karolina"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Kovalenko, Karolina"
+      },
+      {
+        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -85622,20 +85781,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Kovalenko, Karolina"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Kovalenko, Karolina"
-      },
-      {
-        "heat": "",
         "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -85650,20 +85795,6 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Ling Guzman, Julia"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Ling Guzman, Julia"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -85672,6 +85803,20 @@
       {
         "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Ling Guzman, Julia"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Ling Guzman, Julia"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Ling Guzman, Julia"
@@ -85727,20 +85872,6 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Tkachenko, Yelizaveta"
-      },
-      {
-        "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Tkachenko, Yelizaveta"
-      },
-      {
-        "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -85749,6 +85880,20 @@
       {
         "heat": "",
         "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "time": "",
+        "session": "",
+        "partner": "Tkachenko, Yelizaveta"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Tkachenko, Yelizaveta"
+      },
+      {
+        "heat": "",
+        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
@@ -85790,14 +85935,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
@@ -85825,20 +85970,6 @@
       },
       {
         "heat": "",
-        "event": "L-50+ Ouvert / Open LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Wang-Mitchell, Fei"
-      },
-      {
-        "heat": "",
-        "event": "L-50+ Ouvert / Open LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Wang-Mitchell, Fei"
-      },
-      {
-        "heat": "",
         "event": "L-50+ Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -85854,6 +85985,20 @@
       {
         "heat": "",
         "event": "L-50+ Ouvert / Open LATIN MIXED Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Wang-Mitchell, Fei"
+      },
+      {
+        "heat": "",
+        "event": "L-50+ Ouvert / Open LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Wang-Mitchell, Fei"
+      },
+      {
+        "heat": "",
+        "event": "L-50+ Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Wang-Mitchell, Fei"
@@ -85881,14 +86026,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
@@ -86114,6 +86259,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-JR Bronze / Bronze LATIN MIXED Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Bronze / Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
         "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
@@ -86135,20 +86294,6 @@
       },
       {
         "heat": "",
-        "event": "L-JR Bronze / Bronze LATIN MIXED Paso Doble",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
-        "event": "L-JR Bronze / Bronze LATIN MIXED Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
         "time": "",
         "session": "",
@@ -86156,14 +86301,14 @@
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
@@ -86188,13 +86333,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "",
-        "session": "",
-        "partner": "D\u00e9saulniers, Sylvain"
-      },
-      {
-        "heat": "",
         "event": "AC-AD4 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
@@ -86202,7 +86340,7 @@
       },
       {
         "heat": "",
-        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "event": "AC-AD3 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "D\u00e9saulniers, Sylvain"
@@ -86210,6 +86348,13 @@
       {
         "heat": "",
         "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "D\u00e9saulniers, Sylvain"
+      },
+      {
+        "heat": "",
+        "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "D\u00e9saulniers, Sylvain"

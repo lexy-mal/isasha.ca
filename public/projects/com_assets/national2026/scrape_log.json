@@ -1015,5 +1015,406 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-21T10:00:02.247698+00:00",
+    "participants": {
+      "oldCount": 939,
+      "newCount": 942,
+      "added": [
+        {
+          "name": "Gauriat, Marie-Anne",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Leroi, Julien"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Leroi, Julien"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Leroi, Julien"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD2 Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Leroi, Julien"
+            }
+          ]
+        },
+        {
+          "name": "Leroi, Julien",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Gauriat, Marie-Anne"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Gauriat, Marie-Anne"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Gauriat, Marie-Anne"
+            },
+            {
+              "heat": "",
+              "event": "AC-AD2 Or/Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Gauriat, Marie-Anne"
+            }
+          ]
+        },
+        {
+          "name": "Lu, Andrea",
+          "entries": [
+            {
+              "heat": "",
+              "event": "A-16+ Or / Gold LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-19+ Ouvert / Open LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-19+ Ouvert / Open LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-19+ Ouvert / Open LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-19+ Ouvert / Open LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-19+ Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-U21 Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Broudno, Thais",
+          "oldEntryCount": 10,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Ivanov, Pavel"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Cheuk, Maria",
+          "oldEntryCount": 28,
+          "newEntryCount": 28,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L- Pr\u00e9 Argent / Pre Silver Solo Exhibition Tango Vals",
+              "partner": "Olavide, Carlos"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+              "partner": "Olavide, Carlos"
+            }
+          ]
+        },
+        {
+          "name": "Fortin, Jacques",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "",
+              "event": "AC-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "",
+              "event": "AC-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            }
+          ]
+        },
+        {
+          "name": "Gagnon, Audrey",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "",
+              "event": "AC-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "",
+              "event": "AC-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            }
+          ]
+        },
+        {
+          "name": "Ivanov, Pavel",
+          "oldEntryCount": 30,
+          "newEntryCount": 31,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Broudno, Thais"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Lacasse, Luc",
+          "oldEntryCount": 1,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Lo, Karen"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Lo, Karen",
+          "oldEntryCount": 1,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Lacasse, Luc"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Olavide, Carlos",
+          "oldEntryCount": 26,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L- Pr\u00e9 Argent / Pre Silver Solo Exhibition Tango Vals",
+              "partner": "Cheuk, Maria"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L- Pr\u00e9 Argent / Pre Silver Tango Vals",
+              "partner": "Cheuk, Maria"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2670,
+      "newCount": 2668,
+      "oldUniqueCount": 2670,
+      "newUniqueCount": 2668,
+      "added": [
+        "AC-AD2 Or/Gold AMATEUR LATIN (C/R/S)",
+        "L- Pr\u00e9 Argent / Pre Silver Solo Exhibition Tango Vals"
+      ],
+      "removed": [
+        "AC-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "AC-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "AC-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "L- Pr\u00e9 Argent / Pre Silver Tango Vals"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-16+ Or / Gold LATIN SOLO (C/R/S)",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-19+ Ouvert / Open LATIN SOLO Chacha",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-19+ Ouvert / Open LATIN SOLO Jive",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-19+ Ouvert / Open LATIN SOLO Paso Doble",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-19+ Ouvert / Open LATIN SOLO Rumba",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-19+ Ouvert / Open LATIN SOLO Samba",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-U21 Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Lu, Andrea"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Gauriat, Marie-Anne",
+            "Leroi, Julien"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD Or/Gold AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Gauriat, Marie-Anne",
+            "Leroi, Julien"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD1 Or/Gold AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Gauriat, Marie-Anne",
+            "Leroi, Julien"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Lacasse, Luc",
+            "Lo, Karen"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+          "added": [
+            "Broudno, Thais",
+            "Ivanov, Pavel"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
