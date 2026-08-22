@@ -1643,7 +1643,8 @@
       "Wei, Lily",
       "Wong, Victoria",
       "Xiong, Leah",
-      "Zhang, Cecilia"
+      "Zhang, Cecilia",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -1692,7 +1693,8 @@
       "Wong, Victoria",
       "Xiong, Leah",
       "Zhang, Cecilia",
-      "Zhou, Vilma"
+      "Zhou, Vilma",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -1726,7 +1728,8 @@
       "Wei, Lily",
       "Wong, Victoria",
       "Zhang, Cecilia",
-      "Zhou, Vilma"
+      "Zhou, Vilma",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -1773,7 +1776,8 @@
       "Wei, Lily",
       "Wong, Victoria",
       "Xiong, Leah",
-      "Zhang, Cecilia"
+      "Zhang, Cecilia",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -1821,7 +1825,8 @@
       "Wei, Lily",
       "Wong, Victoria",
       "Xiong, Leah",
-      "Zhang, Cecilia"
+      "Zhang, Cecilia",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -2072,7 +2077,8 @@
       "Xiao, Ivan",
       "Zalessky, Veronica",
       "Zhang, Cecilia",
-      "Zhou, Vilma"
+      "Zhou, Vilma",
+      "Zilevica, Ulyana"
     ]
   },
   {
@@ -2119,7 +2125,16 @@
   },
   {
     "heat": "",
-    "event": "A-Y Bronze / Bronze LATIN SOLO Jive",
+    "event": "A-YTH Bronze / Bronze BALLROOM SOLO Viennese Waltz",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chaves, Arielle"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
     "session": "",
     "time": "",
     "competitors": [
@@ -2128,7 +2143,7 @@
   },
   {
     "heat": "",
-    "event": "A-Y Bronze / Bronze LATIN SOLO Paso Doble",
+    "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
     "session": "",
     "time": "",
     "competitors": [
@@ -2137,7 +2152,7 @@
   },
   {
     "heat": "",
-    "event": "A-Y Or / Gold LATIN SOLO Chacha",
+    "event": "A-YTH Or / Gold LATIN SOLO Chacha",
     "session": "",
     "time": "",
     "competitors": [
@@ -2146,7 +2161,7 @@
   },
   {
     "heat": "",
-    "event": "A-Y Or / Gold LATIN SOLO Jive",
+    "event": "A-YTH Or / Gold LATIN SOLO Jive",
     "session": "",
     "time": "",
     "competitors": [
@@ -2155,7 +2170,7 @@
   },
   {
     "heat": "",
-    "event": "A-Y Or / Gold LATIN SOLO Paso Doble",
+    "event": "A-YTH Or / Gold LATIN SOLO Paso Doble",
     "session": "",
     "time": "",
     "competitors": [
@@ -2164,7 +2179,7 @@
   },
   {
     "heat": "",
-    "event": "A-Y Or / Gold LATIN SOLO Rumba",
+    "event": "A-YTH Or / Gold LATIN SOLO Rumba",
     "session": "",
     "time": "",
     "competitors": [
@@ -2173,66 +2188,11 @@
   },
   {
     "heat": "",
-    "event": "A-Y Or / Gold LATIN SOLO Samba",
+    "event": "A-YTH Or / Gold LATIN SOLO Samba",
     "session": "",
     "time": "",
     "competitors": [
       "Kwok, Mavis"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-Y Ouvert / Open LATIN SOLO Chacha",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-Y Ouvert / Open LATIN SOLO Jive",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-Y Ouvert / Open LATIN SOLO Paso Doble",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-Y Ouvert / Open LATIN SOLO Rumba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-Y Ouvert / Open LATIN SOLO Samba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Xu, Yimeng",
-      "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "A-YTH Bronze / Bronze BALLROOM SOLO Viennese Waltz",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chaves, Arielle"
     ]
   },
   {
@@ -2247,6 +2207,24 @@
   },
   {
     "heat": "",
+    "event": "A-YTH Ouvert / Open LATIN SOLO Chacha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "A-YTH Ouvert / Open LATIN SOLO Jive",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "",
     "event": "A-YTH Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "",
     "time": "",
@@ -2255,6 +2233,34 @@
       "Hudon, Coralie",
       "Li, Olivia",
       "Li, Yuxin",
+      "Xu, Yimeng",
+      "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "A-YTH Ouvert / Open LATIN SOLO Paso Doble",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "A-YTH Ouvert / Open LATIN SOLO Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
+    "session": "",
+    "time": "",
+    "competitors": [
       "Xu, Yimeng",
       "Zhang, Muqi"
     ]
@@ -5576,84 +5582,6 @@
   },
   {
     "heat": "",
-    "event": "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Desroches, Jasmin",
-      "Huletsky-Vall\u00e9e, Sandy"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chaves, Arielle",
-      "Fonya, Karolina"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chaves, Arielle",
-      "Fonya, Karolina",
-      "Marcinkoski, Solomiya",
-      "Yen, Ethan"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Askinadze, Victoria",
-      "Belharbi, Zakary",
-      "Benson, Cassandra",
-      "Bogodelny, Kris",
-      "Chen, Nicole",
-      "Cismas, Lisandru",
-      "Fedorenko, Sviatoslav",
-      "Guenis, Tamir",
-      "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
-      "Kravtsov, Mark",
-      "Loginov, Cataleya",
-      "Moscal, Silvia",
-      "Silagadze, David",
-      "Stroganov, Arnold",
-      "Tsysar, Sofia"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Askinadze, Victoria",
-      "Belharbi, Zakary",
-      "Benson, Cassandra",
-      "Bogodelny, Kris",
-      "Chen, Nicole",
-      "Cismas, Lisandru",
-      "Guenis, Tamir",
-      "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
-      "Kravtsov, Mark",
-      "Moscal, Silvia",
-      "Silagadze, David",
-      "Stroganov, Arnold",
-      "Tsysar, Sofia"
-    ]
-  },
-  {
-    "heat": "",
     "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
     "session": "",
     "time": "",
@@ -5728,6 +5656,38 @@
   },
   {
     "heat": "",
+    "event": "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Desroches, Jasmin",
+      "Huletsky-Vall\u00e9e, Sandy"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chaves, Arielle",
+      "Fonya, Karolina"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chaves, Arielle",
+      "Fonya, Karolina",
+      "Marcinkoski, Solomiya",
+      "Yen, Ethan"
+    ]
+  },
+  {
+    "heat": "",
     "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
     "session": "",
     "time": "",
@@ -5754,6 +5714,52 @@
       "Loginov, Cataleya",
       "Moscal, Silvia",
       "Stroganov, Arnold"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Askinadze, Victoria",
+      "Belharbi, Zakary",
+      "Benson, Cassandra",
+      "Bogodelny, Kris",
+      "Chen, Nicole",
+      "Cismas, Lisandru",
+      "Fedorenko, Sviatoslav",
+      "Guenis, Tamir",
+      "Kavtaradze, Sophie",
+      "Kazantseva, Polina",
+      "Kravtsov, Mark",
+      "Loginov, Cataleya",
+      "Moscal, Silvia",
+      "Silagadze, David",
+      "Stroganov, Arnold",
+      "Tsysar, Sofia"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Askinadze, Victoria",
+      "Belharbi, Zakary",
+      "Benson, Cassandra",
+      "Bogodelny, Kris",
+      "Chen, Nicole",
+      "Cismas, Lisandru",
+      "Guenis, Tamir",
+      "Kavtaradze, Sophie",
+      "Kazantseva, Polina",
+      "Kravtsov, Mark",
+      "Moscal, Silvia",
+      "Silagadze, David",
+      "Stroganov, Arnold",
+      "Tsysar, Sofia"
     ]
   },
   {
@@ -13050,36 +13056,6 @@
   },
   {
     "heat": "",
-    "event": "G-Y Ouvert / Open LATIN MIXED Cha Cha",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chladek, Emmy",
-      "Kremer, Tyler"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "G-Y Ouvert / Open LATIN MIXED Rumba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chladek, Emmy",
-      "Kremer, Tyler"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "G-Y Ouvert / Open LATIN MIXED Samba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Chladek, Emmy",
-      "Kremer, Tyler"
-    ]
-  },
-  {
-    "heat": "",
     "event": "G-Y PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
     "session": "",
     "time": "",
@@ -13091,6 +13067,36 @@
   {
     "heat": "",
     "event": "G-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chladek, Emmy",
+      "Kremer, Tyler"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chladek, Emmy",
+      "Kremer, Tyler"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Chladek, Emmy",
+      "Kremer, Tyler"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
     "session": "",
     "time": "",
     "competitors": [
@@ -31665,7 +31671,6 @@
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
       "Bogodelny, Kris",
-      "Bourov, Stephanie",
       "Chan, Athyn",
       "Chladek, Emmy",
       "Do, Chloe",
@@ -31677,7 +31682,6 @@
       "Laroche, Justin",
       "Ligachyova, Angelica",
       "Long, Alexandra",
-      "MacKay, Catherine",
       "Nikolov, Ellie",
       "Pinchak, Gleb",
       "Sterekhova, Alexandra",
@@ -31698,7 +31702,6 @@
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
       "Bogodelny, Kris",
-      "Bourov, Stephanie",
       "Chan, Athyn",
       "Chladek, Emmy",
       "Do, Chloe",
@@ -31709,7 +31712,6 @@
       "Laroche, Justin",
       "Ligachyova, Isabella",
       "Long, Alexandra",
-      "MacKay, Catherine",
       "Pinchak, Gleb",
       "Sterekhova, Alexandra",
       "Talbot, Florence",
@@ -31786,7 +31788,6 @@
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
       "Bogodelny, Kris",
-      "Bourov, Stephanie",
       "Chan, Athyn",
       "Chladek, Emmy",
       "Do, Chloe",
@@ -31798,7 +31799,6 @@
       "Laroche, Justin",
       "Ligachyova, Isabella",
       "Long, Alexandra",
-      "MacKay, Catherine",
       "Nikolov, Ellie",
       "Pinchak, Gleb",
       "Sterekhova, Alexandra",
@@ -32153,6 +32153,7 @@
       "Amiri, Alia",
       "Amiri, Mila",
       "Bermingham, Aidan",
+      "Bourov, Stephanie",
       "Bronshtein, Elly",
       "Chan, Athyn",
       "Ciobanu, Gabriel",
@@ -32163,6 +32164,7 @@
       "Langlois, Sarah-\u00c8ve",
       "Li, Olivia",
       "Ligachyova, Isabella",
+      "MacKay, Catherine",
       "Nikolov, Ellie",
       "Pelleriti, Janelle",
       "Regillo, Aviana",
@@ -32178,6 +32180,7 @@
     "session": "",
     "time": "",
     "competitors": [
+      "Bourov, Stephanie",
       "Bronshtein, Elly",
       "Chan, Athyn",
       "Doneva, Boyana",
@@ -32187,6 +32190,7 @@
       "Langlois, Anabelle",
       "Langlois, Sarah-\u00c8ve",
       "Li, Olivia",
+      "MacKay, Catherine",
       "Nikolov, Ellie",
       "Pelleriti, Janelle",
       "Saleh, Chloe",
@@ -32245,6 +32249,7 @@
       "Amiri, Alia",
       "Amiri, Mila",
       "Bermingham, Aidan",
+      "Bourov, Stephanie",
       "Chan, Athyn",
       "Ciobanu, Gabriel",
       "Dubuc-Ventura, Alexane",
@@ -32252,6 +32257,7 @@
       "Lama, Sean",
       "Langlois, Sarah-\u00c8ve",
       "Li, Olivia",
+      "MacKay, Catherine",
       "Nikolov, Ellie",
       "Regillo, Aviana",
       "Saleh, Chloe",
@@ -32491,9 +32497,18 @@
       "Kiorescu, Oleksiy",
       "Kovaliuk, Oleksandr",
       "Lachance, Delphine",
-      "Ling Guzman, Julia",
       "Raskin, Nicole",
       "Tkachenko, Yelizaveta",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Tsoladikis, Isabella",
       "Zhelasko, Danny"
     ]
   },
@@ -32508,7 +32523,6 @@
       "Kiorescu, Oleksiy",
       "Ling Guzman, Julia",
       "Raskin, Nicole",
-      "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
     ]
   },
@@ -32523,7 +32537,6 @@
       "Kiorescu, Oleksiy",
       "Kovaliuk, Oleksandr",
       "Ling Guzman, Julia",
-      "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
     ]
   },
@@ -32550,7 +32563,6 @@
       "Friesen, Saya",
       "Kovaliuk, Oleksandr",
       "Ling Guzman, Julia",
-      "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
     ]
   },
@@ -32565,7 +32577,6 @@
       "Kiorescu, Oleksiy",
       "Ling Guzman, Julia",
       "Raskin, Nicole",
-      "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
     ]
   },
@@ -32578,58 +32589,67 @@
       "Bai, Sonia",
       "Kiorescu, Oleksiy",
       "Ling Guzman, Julia",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Ling Guzman, Julia",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
     ]
   },
   {
     "heat": "",
-    "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+    "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
     "session": "",
     "time": "",
     "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Tkachenko, Yelizaveta",
+      "Zhelasko, Danny"
     ]
   },
   {
     "heat": "",
-    "event": "L-Y Argent / Silver LATIN MIXED Jive",
+    "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
     "session": "",
     "time": "",
     "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Tkachenko, Yelizaveta",
+      "Zhelasko, Danny"
     ]
   },
   {
     "heat": "",
-    "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+    "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
     "session": "",
     "time": "",
     "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Tkachenko, Yelizaveta",
+      "Zhelasko, Danny"
     ]
   },
   {
     "heat": "",
-    "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+    "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
     "session": "",
     "time": "",
     "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Argent / Silver LATIN MIXED Samba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Tkachenko, Yelizaveta",
+      "Zhelasko, Danny"
     ]
   },
   {
@@ -32670,36 +32690,6 @@
     "competitors": [
       "Safonov, Vadim",
       "Safonova, Karina"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Dubuc-Ventura, Alexane",
-      "Touchette, \u00c9liane"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Dubuc-Ventura, Alexane",
-      "Touchette, \u00c9liane"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Dubuc-Ventura, Alexane",
-      "Touchette, \u00c9liane"
     ]
   },
   {
@@ -32834,7 +32824,99 @@
   },
   {
     "heat": "",
-    "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+    "event": "L-Y PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Cooperman, Tony",
+      "Daich, Idan",
+      "Galati, Sienna",
+      "Koltchina, Olivia"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Argent / Silver LATIN MIXED Jive",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Argent / Silver LATIN MIXED Samba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Dubuc-Ventura, Alexane",
+      "Touchette, \u00c9liane"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Dubuc-Ventura, Alexane",
+      "Touchette, \u00c9liane"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Dubuc-Ventura, Alexane",
+      "Touchette, \u00c9liane"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "",
     "time": "",
     "competitors": [
@@ -32848,7 +32930,7 @@
   },
   {
     "heat": "",
-    "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+    "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "",
     "time": "",
     "competitors": [
@@ -32862,99 +32944,6 @@
       "Naidoo, Shaylen",
       "Petrov, Nathaniel",
       "Timchenko, Andrew"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Bai, Sonia",
-      "Busoi, Patrick",
-      "Kiorescu, Oleksiy",
-      "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
-      "Zhang, Helen",
-      "Zhelasko, Danny"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Ouvert / Open LATIN MIXED Jive",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Bai, Sonia",
-      "Bielichenko, Vasyl",
-      "Busoi, Patrick",
-      "Higginson, Kendell",
-      "Kiorescu, Oleksiy",
-      "Kochan, Nathalia",
-      "Kovaliuk, Oleksandr",
-      "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
-      "Zhang, Helen",
-      "Zhelasko, Danny"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Bielichenko, Vasyl",
-      "Busoi, Patrick",
-      "Higginson, Kendell",
-      "Kochan, Nathalia",
-      "Kovaliuk, Oleksandr",
-      "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
-      "Zhang, Helen",
-      "Zhelasko, Danny"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Bai, Sonia",
-      "Busoi, Patrick",
-      "Kiorescu, Oleksiy",
-      "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
-      "Zhang, Helen",
-      "Zhelasko, Danny"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y Ouvert / Open LATIN MIXED Samba",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Bai, Sonia",
-      "Busoi, Patrick",
-      "Kiorescu, Oleksiy",
-      "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
-      "Zhang, Helen",
-      "Zhelasko, Danny"
-    ]
-  },
-  {
-    "heat": "",
-    "event": "L-Y PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
-    "session": "",
-    "time": "",
-    "competitors": [
-      "Cooperman, Tony",
-      "Daich, Idan",
-      "Galati, Sienna",
-      "Koltchina, Olivia"
     ]
   },
   {
@@ -32980,7 +32969,38 @@
       "Machulka, Nikita",
       "Smedley, Sabrina",
       "Tsoladikis, Isabella",
-      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Bai, Sonia",
+      "Busoi, Patrick",
+      "Kiorescu, Oleksiy",
+      "Smedley, Sabrina",
+      "Tsoladikis, Isabella",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Bai, Sonia",
+      "Bielichenko, Vasyl",
+      "Busoi, Patrick",
+      "Higginson, Kendell",
+      "Kiorescu, Oleksiy",
+      "Kochan, Nathalia",
+      "Kovaliuk, Oleksandr",
+      "Smedley, Sabrina",
+      "Tsoladikis, Isabella",
       "Zhelasko, Danny"
     ]
   },
@@ -33004,7 +33024,110 @@
       "Li, Yuxin",
       "Machulka, Nikita",
       "Smedley, Sabrina",
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Bielichenko, Vasyl",
+      "Busoi, Patrick",
+      "Higginson, Kendell",
+      "Kochan, Nathalia",
+      "Kovaliuk, Oleksandr",
+      "Smedley, Sabrina",
       "Tsoladikis, Isabella",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Bai, Sonia",
+      "Busoi, Patrick",
+      "Kiorescu, Oleksiy",
+      "Smedley, Sabrina",
+      "Tsoladikis, Isabella",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Bai, Sonia",
+      "Busoi, Patrick",
+      "Kiorescu, Oleksiy",
+      "Smedley, Sabrina",
+      "Tsoladikis, Isabella",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
+    "session": "",
+    "time": "",
+    "competitors": [
+      "Zhang, Helen",
+      "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "",
+    "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
+    "session": "",
+    "time": "",
+    "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
     ]

@@ -2504,14 +2504,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Guenis, Tamir"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Guenis, Tamir"
@@ -3111,21 +3111,21 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
@@ -3153,7 +3153,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kiorescu, Oleksiy"
@@ -5461,14 +5461,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Benson, Cassandra"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Benson, Cassandra"
@@ -5860,14 +5860,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Belharbi, Zakary"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Belharbi, Zakary"
@@ -7376,14 +7376,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Kochan, Nathalia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kochan, Nathalia"
@@ -7793,14 +7793,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Chen, Nicole"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chen, Nicole"
@@ -8906,14 +8906,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Zaharia, Daniel"
       },
       {
         "heat": "",
-        "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Zaharia, Daniel"
@@ -9335,20 +9335,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "MacKay, Catherine"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "MacKay, Catherine"
-      },
-      {
-        "heat": "",
         "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -9356,7 +9342,21 @@
       },
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "MacKay, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "MacKay, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "MacKay, Catherine"
@@ -10813,35 +10813,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Smedley, Sabrina"
@@ -13045,14 +13045,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Fonya, Karolina"
       },
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Fonya, Karolina"
@@ -13073,7 +13073,7 @@
       },
       {
         "heat": "",
-        "event": "A-Y Bronze / Bronze LATIN SOLO Paso Doble",
+        "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -13421,14 +13421,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Bogodelny, Kris"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Bogodelny, Kris"
@@ -13815,21 +13815,21 @@
       },
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Kremer, Tyler"
       },
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Kremer, Tyler"
       },
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Kremer, Tyler"
@@ -14192,14 +14192,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Yelizarova, Mia"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Yelizarova, Mia"
@@ -14319,14 +14319,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Moscal, Silvia"
@@ -16218,35 +16218,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+        "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Samba",
+        "event": "L-YTH Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+        "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Jive",
+        "event": "L-YTH Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
@@ -16295,14 +16295,14 @@
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lachance, Delphine"
@@ -17366,7 +17366,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Huletsky-Vall\u00e9e, Sandy"
@@ -18960,21 +18960,21 @@
       },
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Touchette, \u00c9liane"
       },
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Touchette, \u00c9liane"
       },
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Touchette, \u00c9liane"
@@ -20640,7 +20640,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Loginov, Cataleya"
@@ -21256,14 +21256,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Murzin, Catherine"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Murzin, Catherine"
@@ -21711,14 +21711,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Solomakha, Roman"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Solomakha, Roman"
@@ -21880,14 +21880,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chaves, Arielle"
       },
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Chaves, Arielle"
@@ -22648,7 +22648,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Naidoo, Shaylen"
@@ -25257,14 +25257,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Askinadze, Victoria"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Askinadze, Victoria"
@@ -27033,14 +27033,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Kovaliuk, Oleksandr"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Kovaliuk, Oleksandr"
@@ -28414,7 +28414,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Desroches, Jasmin"
@@ -28784,14 +28784,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Rolik, Alexa"
@@ -29767,14 +29767,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tsytsarin, Camilla"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Tsytsarin, Camilla"
@@ -30860,7 +30860,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kovaliuk, Oleksandr"
@@ -31289,14 +31289,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Stroganov, Arnold"
@@ -31328,14 +31328,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kravtsov, Mark"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kravtsov, Mark"
@@ -32436,21 +32436,21 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
@@ -32478,7 +32478,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Bai, Sonia"
@@ -32958,14 +32958,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Bielichenko, Vasyl"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Bielichenko, Vasyl"
@@ -32986,14 +32986,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Timchenko, Andrew"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Timchenko, Andrew"
@@ -34367,14 +34367,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Higginson, Kendell"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Higginson, Kendell"
@@ -34409,7 +34409,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Karanova, Yoana"
@@ -34551,14 +34551,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kazantseva, Polina"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kazantseva, Polina"
@@ -34569,21 +34569,21 @@
     "entries": [
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Chladek, Emmy"
       },
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Chladek, Emmy"
       },
       {
         "heat": "",
-        "event": "G-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Chladek, Emmy"
@@ -35110,35 +35110,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "A-Y Or / Gold LATIN SOLO Samba",
+        "event": "A-YTH Or / Gold LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Or / Gold LATIN SOLO Jive",
+        "event": "A-YTH Or / Gold LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Or / Gold LATIN SOLO Chacha",
+        "event": "A-YTH Or / Gold LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Or / Gold LATIN SOLO Rumba",
+        "event": "A-YTH Or / Gold LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Or / Gold LATIN SOLO Paso Doble",
+        "event": "A-YTH Or / Gold LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -35608,35 +35608,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+        "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Samba",
+        "event": "L-YTH Argent / Silver LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+        "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+        "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-Y Argent / Silver LATIN MIXED Jive",
+        "event": "L-YTH Argent / Silver LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
@@ -35685,14 +35685,14 @@
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Daniault, Alexis"
@@ -37204,13 +37204,6 @@
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Li, Yuxin"
-      },
-      {
-        "heat": "",
         "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -37218,7 +37211,7 @@
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Li, Yuxin"
@@ -37226,6 +37219,13 @@
       {
         "heat": "",
         "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Li, Yuxin"
+      },
+      {
+        "heat": "",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Li, Yuxin"
@@ -42056,14 +42056,14 @@
       },
       {
         "heat": "",
-        "event": "A-16+ Ouvert / Open LATIN SOLO (C/R/S)",
+        "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
+        "event": "A-16+ Ouvert / Open LATIN SOLO (C/R/S)",
         "time": "",
         "session": "",
         "partner": null
@@ -42081,13 +42081,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
-        "time": "",
-        "session": "",
-        "partner": "Lama, Sean"
-      },
-      {
-        "heat": "",
         "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -42095,7 +42088,7 @@
       },
       {
         "heat": "",
-        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -42103,6 +42096,13 @@
       {
         "heat": "",
         "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Lama, Sean"
+      },
+      {
+        "heat": "",
+        "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Lama, Sean"
@@ -42733,14 +42733,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Petrov, Nathaniel"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Petrov, Nathaniel"
@@ -42789,7 +42789,7 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -44679,7 +44679,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fedorenko, Sviatoslav"
@@ -46530,20 +46530,6 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-        "time": "",
-        "session": "",
-        "partner": "Bourov, Stephanie"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-        "time": "",
-        "session": "",
-        "partner": "Bourov, Stephanie"
-      },
-      {
-        "heat": "",
         "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
         "time": "",
         "session": "",
@@ -46551,7 +46537,21 @@
       },
       {
         "heat": "",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+        "time": "",
+        "session": "",
+        "partner": "Bourov, Stephanie"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+        "time": "",
+        "session": "",
+        "partner": "Bourov, Stephanie"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Bourov, Stephanie"
@@ -47345,7 +47345,7 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Yen, Ethan"
@@ -50665,14 +50665,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Cismas, Lisandru"
@@ -51395,14 +51395,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Filatov, Arsenii"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Filatov, Arsenii"
@@ -51639,7 +51639,7 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Friesen, Saya"
@@ -56781,14 +56781,14 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ling Guzman, Julia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Ling Guzman, Julia"
@@ -63004,7 +63004,7 @@
       },
       {
         "heat": "",
-        "event": "A-Y Bronze / Bronze LATIN SOLO Jive",
+        "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -64103,14 +64103,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
       },
       {
         "heat": "",
-        "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Andrey"
@@ -69720,14 +69720,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Tsysar, Sofia"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Tsysar, Sofia"
@@ -70048,35 +70048,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Busoi, Patrick"
@@ -70706,14 +70706,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Fogl, Anne"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Fogl, Anne"
@@ -73371,14 +73371,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Kavtaradze, Sophie"
@@ -75879,14 +75879,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Kochan, Nathalia"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Kochan, Nathalia"
@@ -75982,35 +75982,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -77046,21 +77046,21 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Dubuc-Ventura, Alexane"
       },
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Dubuc-Ventura, Alexane"
       },
       {
         "heat": "",
-        "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Dubuc-Ventura, Alexane"
@@ -77551,35 +77551,35 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -77593,7 +77593,7 @@
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -77678,14 +77678,14 @@
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Silagadze, David"
       },
       {
         "heat": "",
-        "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Silagadze, David"
@@ -77752,14 +77752,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Ivanov, Pavel"
@@ -80801,14 +80801,14 @@
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -82428,14 +82428,14 @@
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
+        "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
@@ -83988,7 +83988,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Samba",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
@@ -84680,14 +84680,14 @@
       },
       {
         "heat": "",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Ciobanu, Daniel"
       },
       {
         "heat": "",
-        "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
         "time": "",
         "session": "",
         "partner": "Ciobanu, Daniel"
@@ -84779,7 +84779,7 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "",
         "session": "",
         "partner": "Marcinkoski, Solomiya"
@@ -85079,14 +85079,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Borovinskaya, Mariya"
       },
       {
         "heat": "",
-        "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Borovinskaya, Mariya"
@@ -85443,42 +85443,42 @@
     "entries": [
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Zhelasko, Danny"
@@ -85510,35 +85510,35 @@
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Jive",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Jive",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Chacha",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Chacha",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Samba",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Rumba",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Rumba",
         "time": "",
         "session": "",
         "partner": null
       },
       {
         "heat": "",
-        "event": "A-Y Ouvert / Open LATIN SOLO Paso Doble",
+        "event": "A-YTH Ouvert / Open LATIN SOLO Paso Doble",
         "time": "",
         "session": "",
         "partner": null
@@ -85830,7 +85830,7 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Ling Guzman, Julia"
@@ -85872,35 +85872,35 @@
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
       },
       {
         "heat": "",
-        "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Tkachenko, Yelizaveta"
@@ -85921,35 +85921,35 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
@@ -85963,7 +85963,7 @@
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+        "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": "Tsoladikis, Isabella"
@@ -86012,42 +86012,42 @@
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
       },
       {
         "heat": "",
-        "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
         "time": "",
         "session": "",
         "partner": "Zhang, Helen"
@@ -86323,6 +86323,52 @@
       {
         "heat": "",
         "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
+  "Zilevica, Ulyana": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
         "time": "",
         "session": "",
         "partner": null

@@ -1416,5 +1416,2349 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-22T10:00:02.756234+00:00",
+    "participants": {
+      "oldCount": 942,
+      "newCount": 943,
+      "added": [
+        {
+          "name": "Zilevica, Ulyana",
+          "entries": [
+            {
+              "heat": "",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Askinadze, Victoria",
+          "oldEntryCount": 5,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Guenis, Tamir"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Guenis, Tamir"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Guenis, Tamir"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Guenis, Tamir"
+            }
+          ]
+        },
+        {
+          "name": "Bai, Sonia",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Kiorescu, Oleksiy"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Kiorescu, Oleksiy"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Kiorescu, Oleksiy"
+            }
+          ]
+        },
+        {
+          "name": "Belharbi, Zakary",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Benson, Cassandra"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Benson, Cassandra"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Benson, Cassandra"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Benson, Cassandra"
+            }
+          ]
+        },
+        {
+          "name": "Benson, Cassandra",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Belharbi, Zakary"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Belharbi, Zakary"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Belharbi, Zakary"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Belharbi, Zakary"
+            }
+          ]
+        },
+        {
+          "name": "Bielichenko, Vasyl",
+          "oldEntryCount": 24,
+          "newEntryCount": 24,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kochan, Nathalia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Kochan, Nathalia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kochan, Nathalia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Kochan, Nathalia"
+            }
+          ]
+        },
+        {
+          "name": "Bogodelny, Kris",
+          "oldEntryCount": 20,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Chen, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Chen, Nicole"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Chen, Nicole"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Chen, Nicole"
+            }
+          ]
+        },
+        {
+          "name": "Bourov, Stephanie",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+              "partner": "MacKay, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+              "partner": "MacKay, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+              "partner": "MacKay, Catherine"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "MacKay, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "MacKay, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "MacKay, Catherine"
+            }
+          ]
+        },
+        {
+          "name": "Busoi, Patrick",
+          "oldEntryCount": 9,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Smedley, Sabrina"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Smedley, Sabrina"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Smedley, Sabrina"
+            }
+          ]
+        },
+        {
+          "name": "Chaves, Arielle",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Fonya, Karolina"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Fonya, Karolina"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "A-Y Bronze / Bronze LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Fonya, Karolina"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Fonya, Karolina"
+            }
+          ]
+        },
+        {
+          "name": "Chen, Nicole",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Bogodelny, Kris"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Bogodelny, Kris"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Bogodelny, Kris"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Bogodelny, Kris"
+            }
+          ]
+        },
+        {
+          "name": "Chladek, Emmy",
+          "oldEntryCount": 20,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Kremer, Tyler"
+            },
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Kremer, Tyler"
+            },
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Kremer, Tyler"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Kremer, Tyler"
+            },
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Kremer, Tyler"
+            },
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Kremer, Tyler"
+            }
+          ]
+        },
+        {
+          "name": "Cismas, Lisandru",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Moscal, Silvia"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Moscal, Silvia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Moscal, Silvia"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Moscal, Silvia"
+            }
+          ]
+        },
+        {
+          "name": "Daniault, Alexis",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Jive",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Samba",
+              "partner": "Lachance, Delphine"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Jive",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Samba",
+              "partner": "Lachance, Delphine"
+            }
+          ]
+        },
+        {
+          "name": "Desroches, Jasmin",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Huletsky-Vall\u00e9e, Sandy"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Huletsky-Vall\u00e9e, Sandy"
+            }
+          ]
+        },
+        {
+          "name": "Dubuc-Ventura, Alexane",
+          "oldEntryCount": 9,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Touchette, \u00c9liane"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Touchette, \u00c9liane"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Touchette, \u00c9liane"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Touchette, \u00c9liane"
+            },
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Touchette, \u00c9liane"
+            },
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Touchette, \u00c9liane"
+            }
+          ]
+        },
+        {
+          "name": "Fedorenko, Sviatoslav",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Loginov, Cataleya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Loginov, Cataleya"
+            }
+          ]
+        },
+        {
+          "name": "Filatov, Arsenii",
+          "oldEntryCount": 21,
+          "newEntryCount": 21,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Murzin, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Murzin, Catherine"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Murzin, Catherine"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Murzin, Catherine"
+            }
+          ]
+        },
+        {
+          "name": "Fonya, Karolina",
+          "oldEntryCount": 15,
+          "newEntryCount": 15,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Chaves, Arielle"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Chaves, Arielle"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Chaves, Arielle"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Chaves, Arielle"
+            }
+          ]
+        },
+        {
+          "name": "Friesen, Saya",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Naidoo, Shaylen"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Naidoo, Shaylen"
+            }
+          ]
+        },
+        {
+          "name": "Guenis, Tamir",
+          "oldEntryCount": 5,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Askinadze, Victoria"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Askinadze, Victoria"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Askinadze, Victoria"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Askinadze, Victoria"
+            }
+          ]
+        },
+        {
+          "name": "Higginson, Kendell",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kovaliuk, Oleksandr"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Kovaliuk, Oleksandr"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Kovaliuk, Oleksandr"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Kovaliuk, Oleksandr"
+            }
+          ]
+        },
+        {
+          "name": "Huletsky-Vall\u00e9e, Sandy",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Desroches, Jasmin"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Desroches, Jasmin"
+            }
+          ]
+        },
+        {
+          "name": "Karanova, Yoana",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Kovaliuk, Oleksandr"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Kovaliuk, Oleksandr"
+            }
+          ]
+        },
+        {
+          "name": "Kavtaradze, Sophie",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Stroganov, Arnold"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Stroganov, Arnold"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Stroganov, Arnold"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Stroganov, Arnold"
+            }
+          ]
+        },
+        {
+          "name": "Kazantseva, Polina",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            }
+          ]
+        },
+        {
+          "name": "Kiorescu, Oleksiy",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Bai, Sonia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Bai, Sonia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Bai, Sonia"
+            }
+          ]
+        },
+        {
+          "name": "Kochan, Nathalia",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Timchenko, Andrew"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Timchenko, Andrew"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Bielichenko, Vasyl"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Bielichenko, Vasyl"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Timchenko, Andrew"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Timchenko, Andrew"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Bielichenko, Vasyl"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Bielichenko, Vasyl"
+            }
+          ]
+        },
+        {
+          "name": "Kovaliuk, Oleksandr",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Karanova, Yoana"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Higginson, Kendell"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Higginson, Kendell"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Karanova, Yoana"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Higginson, Kendell"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Higginson, Kendell"
+            }
+          ]
+        },
+        {
+          "name": "Kravtsov, Mark",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kazantseva, Polina"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kazantseva, Polina"
+            }
+          ]
+        },
+        {
+          "name": "Kremer, Tyler",
+          "oldEntryCount": 5,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Chladek, Emmy"
+            },
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Chladek, Emmy"
+            },
+            {
+              "heat": "",
+              "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Chladek, Emmy"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Chladek, Emmy"
+            },
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Chladek, Emmy"
+            },
+            {
+              "heat": "",
+              "event": "G-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Chladek, Emmy"
+            }
+          ]
+        },
+        {
+          "name": "Kwok, Mavis",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "A-YTH Or / Gold LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Or / Gold LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Or / Gold LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Or / Gold LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Or / Gold LATIN SOLO Samba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "A-Y Or / Gold LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Or / Gold LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Or / Gold LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Or / Gold LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Or / Gold LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Lachance, Delphine",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Jive",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Argent / Silver LATIN MIXED Samba",
+              "partner": "Daniault, Alexis"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Jive",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Argent / Silver LATIN MIXED Samba",
+              "partner": "Daniault, Alexis"
+            }
+          ]
+        },
+        {
+          "name": "Ling Guzman, Julia",
+          "oldEntryCount": 23,
+          "newEntryCount": 23,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Petrov, Nathaniel"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Petrov, Nathaniel"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Petrov, Nathaniel"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Petrov, Nathaniel"
+            }
+          ]
+        },
+        {
+          "name": "Loginov, Cataleya",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Fedorenko, Sviatoslav"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Fedorenko, Sviatoslav"
+            }
+          ]
+        },
+        {
+          "name": "MacKay, Catherine",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+              "partner": "Bourov, Stephanie"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+              "partner": "Bourov, Stephanie"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+              "partner": "Bourov, Stephanie"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Bourov, Stephanie"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "Bourov, Stephanie"
+            },
+            {
+              "heat": "",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Bourov, Stephanie"
+            }
+          ]
+        },
+        {
+          "name": "Marcinkoski, Solomiya",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Yen, Ethan"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Yen, Ethan"
+            }
+          ]
+        },
+        {
+          "name": "Moscal, Silvia",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cismas, Lisandru"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Cismas, Lisandru"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cismas, Lisandru"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Cismas, Lisandru"
+            }
+          ]
+        },
+        {
+          "name": "Murzin, Catherine",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Filatov, Arsenii"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Filatov, Arsenii"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Filatov, Arsenii"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Filatov, Arsenii"
+            }
+          ]
+        },
+        {
+          "name": "Naidoo, Shaylen",
+          "oldEntryCount": 25,
+          "newEntryCount": 25,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Friesen, Saya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Friesen, Saya"
+            }
+          ]
+        },
+        {
+          "name": "Petrov, Nathaniel",
+          "oldEntryCount": 33,
+          "newEntryCount": 33,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Ling Guzman, Julia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Ling Guzman, Julia"
+            }
+          ]
+        },
+        {
+          "name": "Rivest, Lilly",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "A-Y Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Silagadze, David",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Tsysar, Sofia"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Tsysar, Sofia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Tsysar, Sofia"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Tsysar, Sofia"
+            }
+          ]
+        },
+        {
+          "name": "Smedley, Sabrina",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Busoi, Patrick"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Busoi, Patrick"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Busoi, Patrick"
+            }
+          ]
+        },
+        {
+          "name": "Stroganov, Arnold",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kavtaradze, Sophie"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kavtaradze, Sophie"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kavtaradze, Sophie"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kavtaradze, Sophie"
+            }
+          ]
+        },
+        {
+          "name": "Timchenko, Andrew",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Kochan, Nathalia"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Kochan, Nathalia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Kochan, Nathalia"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+              "partner": "Kochan, Nathalia"
+            }
+          ]
+        },
+        {
+          "name": "Tkachenko, Yelizaveta",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Touchette, \u00c9liane",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Dubuc-Ventura, Alexane"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "",
+              "event": "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Dubuc-Ventura, Alexane"
+            }
+          ]
+        },
+        {
+          "name": "Tsoladikis, Isabella",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Tsysar, Sofia",
+          "oldEntryCount": 9,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Silagadze, David"
+            },
+            {
+              "heat": "",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Silagadze, David"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Silagadze, David"
+            },
+            {
+              "heat": "",
+              "event": "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Silagadze, David"
+            }
+          ]
+        },
+        {
+          "name": "Xu, Yimeng",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Yen, Ethan",
+          "oldEntryCount": 9,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Marcinkoski, Solomiya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Marcinkoski, Solomiya"
+            }
+          ]
+        },
+        {
+          "name": "Zhang, Helen",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Zhang, Muqi",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "",
+              "event": "A-Y Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Zhelasko, Danny",
+          "oldEntryCount": 46,
+          "newEntryCount": 46,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhang, Helen"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Jive",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Rumba",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "",
+              "event": "L-Y Ouvert / Open LATIN MIXED Samba",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhang, Helen"
+            },
+            {
+              "heat": "",
+              "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Tsoladikis, Isabella"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2668,
+      "newCount": 2681,
+      "oldUniqueCount": 2668,
+      "newUniqueCount": 2681,
+      "added": [
+        "A-YTH Bronze / Bronze LATIN SOLO Jive",
+        "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
+        "A-YTH Or / Gold LATIN SOLO Chacha",
+        "A-YTH Or / Gold LATIN SOLO Jive",
+        "A-YTH Or / Gold LATIN SOLO Paso Doble",
+        "A-YTH Or / Gold LATIN SOLO Rumba",
+        "A-YTH Or / Gold LATIN SOLO Samba",
+        "A-YTH Ouvert / Open LATIN SOLO Chacha",
+        "A-YTH Ouvert / Open LATIN SOLO Jive",
+        "A-YTH Ouvert / Open LATIN SOLO Paso Doble",
+        "A-YTH Ouvert / Open LATIN SOLO Rumba",
+        "A-YTH Ouvert / Open LATIN SOLO Samba",
+        "AC-YTH Argent/Silver AMATEUR LATIN (C/R/S)",
+        "AC-YTH Argent/Silver AMATEUR LATIN (P/J)",
+        "AC-YTH Bronze/Bronze AMATEUR LATIN (P/J)",
+        "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
+        "G-YTH Ouvert / Open LATIN MIXED Rumba",
+        "G-YTH Ouvert / Open LATIN MIXED Samba",
+        "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+        "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
+        "L-U21* Ouvert / Open LATIN MIXED Jive",
+        "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
+        "L-U21* Ouvert / Open LATIN MIXED Rumba",
+        "L-U21* Ouvert / Open LATIN MIXED Samba",
+        "L-YTH Argent / Silver LATIN MIXED Cha Cha",
+        "L-YTH Argent / Silver LATIN MIXED Jive",
+        "L-YTH Argent / Silver LATIN MIXED Paso Doble",
+        "L-YTH Argent / Silver LATIN MIXED Rumba",
+        "L-YTH Argent / Silver LATIN MIXED Samba",
+        "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+        "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
+        "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
+        "L-YTH Ouvert / Open LATIN MIXED Jive",
+        "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
+        "L-YTH Ouvert / Open LATIN MIXED Rumba",
+        "L-YTH Ouvert / Open LATIN MIXED Samba",
+        "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+        "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
+        "L-YTH* Ouvert / Open LATIN MIXED Jive",
+        "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
+        "L-YTH* Ouvert / Open LATIN MIXED Rumba",
+        "L-YTH* Ouvert / Open LATIN MIXED Samba"
+      ],
+      "removed": [
+        "A-Y Bronze / Bronze LATIN SOLO Jive",
+        "A-Y Bronze / Bronze LATIN SOLO Paso Doble",
+        "A-Y Or / Gold LATIN SOLO Chacha",
+        "A-Y Or / Gold LATIN SOLO Jive",
+        "A-Y Or / Gold LATIN SOLO Paso Doble",
+        "A-Y Or / Gold LATIN SOLO Rumba",
+        "A-Y Or / Gold LATIN SOLO Samba",
+        "A-Y Ouvert / Open LATIN SOLO Chacha",
+        "A-Y Ouvert / Open LATIN SOLO Jive",
+        "A-Y Ouvert / Open LATIN SOLO Paso Doble",
+        "A-Y Ouvert / Open LATIN SOLO Rumba",
+        "A-Y Ouvert / Open LATIN SOLO Samba",
+        "AC-YO Argent/Silver AMATEUR LATIN (C/R/S)",
+        "AC-YO Argent/Silver AMATEUR LATIN (P/J)",
+        "AC-YO Bronze/Bronze AMATEUR LATIN (P/J)",
+        "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "AC-YO Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "G-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "G-Y Ouvert / Open LATIN MIXED Rumba",
+        "G-Y Ouvert / Open LATIN MIXED Samba",
+        "L-Y Argent / Silver LATIN MIXED Cha Cha",
+        "L-Y Argent / Silver LATIN MIXED Jive",
+        "L-Y Argent / Silver LATIN MIXED Paso Doble",
+        "L-Y Argent / Silver LATIN MIXED Rumba",
+        "L-Y Argent / Silver LATIN MIXED Samba",
+        "L-Y D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+        "L-Y D\u00e9butant / Beginner LATIN MIXED Rumba",
+        "L-Y D\u00e9butant / Beginner LATIN MIXED Samba",
+        "L-Y Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "L-Y Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "L-Y Ouvert / Open LATIN MIXED Cha Cha",
+        "L-Y Ouvert / Open LATIN MIXED Jive",
+        "L-Y Ouvert / Open LATIN MIXED Paso Doble",
+        "L-Y Ouvert / Open LATIN MIXED Rumba",
+        "L-Y Ouvert / Open LATIN MIXED Samba"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Zilevica, Ulyana"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+          "added": [],
+          "removed": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+          "added": [],
+          "removed": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+          "added": [],
+          "removed": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ]
+        },
+        {
+          "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+          "added": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+          "added": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+          "added": [
+            "Bourov, Stephanie",
+            "MacKay, Catherine"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Ling Guzman, Julia"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
+          "added": [],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
+          "added": [],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
+          "added": [],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
+          "added": [],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
+          "added": [],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Zhang, Helen"
+          ]
+        },
+        {
+          "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Tsoladikis, Isabella"
+          ]
+        }
+      ]
+    }
   }
 ]
