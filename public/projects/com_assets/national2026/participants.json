@@ -1185,6 +1185,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Hammerschmidt, Donna"
+      },
+      {
+        "heat": "",
         "event": "L-D Or Ouvert / Open Gold BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -1235,13 +1242,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Hammerschmidt, Donna"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Hammerschmidt, Donna"
@@ -2129,13 +2129,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Pat, So My"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -2171,6 +2164,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Pat, So My"
+      },
+      {
+        "heat": "",
         "event": "L-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "",
         "session": "",
@@ -2199,6 +2199,13 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Roy, Catherine"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -2214,13 +2221,6 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Roy, Catherine"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Roy, Catherine"
@@ -5116,6 +5116,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Bolduc, Marie"
+      },
+      {
+        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
         "time": "",
         "session": "",
@@ -5131,13 +5138,6 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
-        "time": "",
-        "session": "",
-        "partner": "Bolduc, Marie"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
         "partner": "Bolduc, Marie"
@@ -5507,13 +5507,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Lefebvre, Martin"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -5543,6 +5536,13 @@
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Lefebvre, Martin"
@@ -5906,13 +5906,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Safonova, Alina"
-      },
-      {
-        "heat": "",
         "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -5941,14 +5934,14 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Mambo",
+        "event": "G-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
+        "event": "G-E Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -5983,13 +5976,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Safonova, Alina"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -5998,6 +5984,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Safonova, Alina"
+      },
+      {
+        "heat": "",
+        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -6088,13 +6081,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Safonova, Alina"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -6130,6 +6116,13 @@
       },
       {
         "heat": "",
+        "event": "G-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Safonova, Alina"
+      },
+      {
+        "heat": "",
         "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -6138,6 +6131,13 @@
       {
         "heat": "",
         "event": "G-C Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Safonova, Alina"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Safonova, Alina"
@@ -7429,6 +7429,13 @@
         "time": "",
         "session": "",
         "partner": "Raskin, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Smodleva, Barbara"
       }
     ]
   },
@@ -7903,6 +7910,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Beaudet, Jean"
+      },
+      {
+        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
         "time": "",
         "session": "",
@@ -7918,13 +7932,6 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
-        "time": "",
-        "session": "",
-        "partner": "Beaudet, Jean"
-      },
-      {
-        "heat": "",
-        "event": "G-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
         "partner": "Beaudet, Jean"
@@ -8373,13 +8380,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Pichette, Cory"
-      },
-      {
-        "heat": "",
         "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -8472,6 +8472,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Pichette, Cory"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Pichette, Cory"
@@ -11045,6 +11052,20 @@
       },
       {
         "heat": "",
+        "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Mineau, Jessie"
+      },
+      {
+        "heat": "",
+        "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Mineau, Jessie"
+      },
+      {
+        "heat": "",
         "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
         "time": "",
         "session": "",
@@ -11060,20 +11081,6 @@
       {
         "heat": "",
         "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Mineau, Jessie"
-      },
-      {
-        "heat": "",
-        "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Mineau, Jessie"
-      },
-      {
-        "heat": "",
-        "event": "G-F Or Ouvert / Open Gold LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Mineau, Jessie"
@@ -11608,6 +11615,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Julien, Mariette"
+      },
+      {
+        "heat": "",
         "event": "L-F Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -11637,13 +11651,6 @@
       {
         "heat": "",
         "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
-        "time": "",
-        "session": "",
-        "partner": "Julien, Mariette"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
         "time": "",
         "session": "",
         "partner": "Julien, Mariette"
@@ -12074,6 +12081,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Bronze Ouvert / Open Bronze CLUB Salsa",
+        "time": "",
+        "session": "",
+        "partner": "Kemball, Edith"
+      },
+      {
+        "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze CLUB Samba",
         "time": "",
         "session": "",
@@ -12082,13 +12096,6 @@
       {
         "heat": "",
         "event": "L-F D\u00e9butant Ouvert / Open Newcomer CLUB Salsa",
-        "time": "",
-        "session": "",
-        "partner": "Kemball, Edith"
-      },
-      {
-        "heat": "",
-        "event": "L-F Bronze Ouvert / Open Bronze CLUB Salsa",
         "time": "",
         "session": "",
         "partner": "Kemball, Edith"
@@ -15702,13 +15709,6 @@
       },
       {
         "heat": "",
-        "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Wills, Woodrow"
-      },
-      {
-        "heat": "",
         "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
         "time": "",
         "session": "",
@@ -15745,6 +15745,13 @@
       {
         "heat": "",
         "event": "L-B Or Ouvert / Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Wills, Woodrow"
+      },
+      {
+        "heat": "",
+        "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
         "time": "",
         "session": "",
         "partner": "Wills, Woodrow"
@@ -16844,13 +16851,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Greco, Lori"
-      },
-      {
-        "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -16866,6 +16866,13 @@
       {
         "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Greco, Lori"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Greco, Lori"
@@ -17582,6 +17589,13 @@
       },
       {
         "heat": "",
+        "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Sinyauskaya, Anastasia"
+      },
+      {
+        "heat": "",
         "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
         "time": "",
         "session": "",
@@ -17597,13 +17611,6 @@
       {
         "heat": "",
         "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Sinyauskaya, Anastasia"
-      },
-      {
-        "heat": "",
-        "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Sinyauskaya, Anastasia"
@@ -18523,13 +18530,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Renaud, Karen"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -18594,6 +18594,13 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Renaud, Karen"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Renaud, Karen"
@@ -19442,6 +19449,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Gabinet-Kroo, Kathryn"
+      },
+      {
+        "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -19471,13 +19485,6 @@
       {
         "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Gabinet-Kroo, Kathryn"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Gabinet-Kroo, Kathryn"
@@ -19750,13 +19757,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Lewis, Magali"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -19779,6 +19779,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Lewis, Magali"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Lewis, Magali"
@@ -21267,6 +21274,20 @@
         "time": "",
         "session": "",
         "partner": "Murzin, Catherine"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Turcotte-Miao, Audrey"
+      },
+      {
+        "heat": "",
+        "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Turcotte-Miao, Audrey"
       }
     ]
   },
@@ -22818,6 +22839,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -22847,13 +22875,6 @@
       {
         "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze RHYTHM Swing",
-        "time": "",
-        "session": "",
-        "partner": "Edouard, Volvick"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Edouard, Volvick"
@@ -23329,6 +23350,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Shelkovyy, Yuriy"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -23344,13 +23372,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Shelkovyy, Yuriy"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Shelkovyy, Yuriy"
@@ -24437,13 +24458,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Tudorovsky, Veycheslav"
-      },
-      {
-        "heat": "",
         "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -24501,6 +24515,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Tudorovsky, Veycheslav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"
@@ -24755,13 +24776,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Derry, Patrick"
-      },
-      {
-        "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -24777,6 +24791,13 @@
       {
         "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Derry, Patrick"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Derry, Patrick"
@@ -25338,6 +25359,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, Rebecca"
+      },
+      {
+        "heat": "",
         "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -25367,13 +25395,6 @@
       {
         "heat": "",
         "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, Rebecca"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Horwood, Rebecca"
@@ -25746,13 +25767,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Kiefer, James"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -25768,6 +25782,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Kiefer, James"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Kiefer, James"
@@ -26301,6 +26322,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Anderson, Ryan"
+      },
+      {
+        "heat": "",
         "event": "L-D Or Ouvert / Open Gold BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -26357,13 +26385,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
-        "time": "",
-        "session": "",
-        "partner": "Anderson, Ryan"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Quickstep",
         "time": "",
         "session": "",
@@ -26404,13 +26425,6 @@
       {
         "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Topalov, Stefan"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
@@ -26460,6 +26474,13 @@
       {
         "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Topalov, Stefan"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
@@ -26557,13 +26578,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Vaidila, Hugo"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -26593,6 +26607,13 @@
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Vaidila, Hugo"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Vaidila, Hugo"
@@ -27277,13 +27298,6 @@
       },
       {
         "heat": "",
-        "event": "G-F Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Pastukh, Kateryna"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -27313,6 +27327,13 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Pastukh, Kateryna"
+      },
+      {
+        "heat": "",
+        "event": "G-F Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Pastukh, Kateryna"
@@ -27890,6 +27911,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Gurkov, Dmytro"
+      },
+      {
+        "heat": "",
         "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -27919,13 +27947,6 @@
       {
         "heat": "",
         "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Gurkov, Dmytro"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Gurkov, Dmytro"
@@ -29327,27 +29348,6 @@
       },
       {
         "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Wang, Huiying"
-      },
-      {
-        "heat": "",
         "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
         "time": "",
         "session": "",
@@ -29370,6 +29370,27 @@
       {
         "heat": "",
         "event": "L-F Or Ouvert / Open Gold LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Wang, Huiying"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Wang, Huiying"
@@ -30694,6 +30715,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+        "time": "",
+        "session": "",
+        "partner": "Casavant, Mathieu"
+      },
+      {
+        "heat": "",
         "event": "L-F Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -30723,13 +30751,6 @@
       {
         "heat": "",
         "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
-        "time": "",
-        "session": "",
-        "partner": "Casavant, Mathieu"
-      },
-      {
-        "heat": "",
-        "event": "L-F Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
         "time": "",
         "session": "",
         "partner": "Casavant, Mathieu"
@@ -31738,6 +31759,13 @@
       },
       {
         "heat": "",
+        "event": "L-F Bronze Ouvert / Open Bronze CLUB Salsa",
+        "time": "",
+        "session": "",
+        "partner": "Cascaval, Vlad"
+      },
+      {
+        "heat": "",
         "event": "L-F Bronze Ouvert / Open Bronze CLUB Samba",
         "time": "",
         "session": "",
@@ -31746,13 +31774,6 @@
       {
         "heat": "",
         "event": "L-F D\u00e9butant Ouvert / Open Newcomer CLUB Salsa",
-        "time": "",
-        "session": "",
-        "partner": "Cascaval, Vlad"
-      },
-      {
-        "heat": "",
-        "event": "L-F Bronze Ouvert / Open Bronze CLUB Salsa",
         "time": "",
         "session": "",
         "partner": "Cascaval, Vlad"
@@ -32182,13 +32203,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "G\u00e9linas, Suzanne"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -32204,6 +32218,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "G\u00e9linas, Suzanne"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "G\u00e9linas, Suzanne"
@@ -33662,6 +33683,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Longo, Andrea"
+      },
+      {
+        "heat": "",
         "event": "L-D Bronze 1 Ouvert / Open Bronze 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -33691,27 +33719,6 @@
       {
         "heat": "",
         "event": "L-D Bronze 1 Ouvert / Open Bronze 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Longo, Andrea"
-      },
-      {
-        "heat": "",
-        "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Longo, Andrea"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Longo, Andrea"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
         "partner": "Longo, Andrea"
@@ -33761,6 +33768,20 @@
       {
         "heat": "",
         "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Longo, Andrea"
+      },
+      {
+        "heat": "",
+        "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Longo, Andrea"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Longo, Andrea"
@@ -34024,6 +34045,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Pruneau, Fran\u00e7ois"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -34039,13 +34067,6 @@
       {
         "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Pruneau, Fran\u00e7ois"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Pruneau, Fran\u00e7ois"
@@ -36197,6 +36218,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Naud, Jocelyne"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -36212,13 +36240,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Naud, Jocelyne"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Paso Doble",
         "time": "",
         "session": "",
         "partner": "Naud, Jocelyne"
@@ -38270,14 +38291,14 @@
       },
       {
         "heat": "",
-        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Salsa",
+        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 NC 2 Step",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"
       },
       {
         "heat": "",
-        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 NC 2 Step",
+        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Salsa",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"
@@ -39335,13 +39356,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
-        "time": "",
-        "session": "",
-        "partner": "Ueno, Linda"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -39350,6 +39364,13 @@
       {
         "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Ueno, Linda"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Ueno, Linda"
@@ -39778,13 +39799,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Bell, Lindsay"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -39814,6 +39828,13 @@
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Bell, Lindsay"
@@ -40860,13 +40881,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Murphy, Angela"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -40882,6 +40896,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Murphy, Angela"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Murphy, Angela"
@@ -41018,13 +41039,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Edouard, Volvick"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -41047,6 +41061,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Edouard, Volvick"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Edouard, Volvick"
@@ -41602,6 +41623,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Pogonet, Serghei"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -41617,13 +41645,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pogonet, Serghei"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Pogonet, Serghei"
@@ -42919,13 +42940,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "McCloskey, Fiona"
-      },
-      {
-        "heat": "",
         "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -42941,6 +42955,13 @@
       {
         "heat": "",
         "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "McCloskey, Fiona"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "McCloskey, Fiona"
@@ -43759,6 +43780,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
         "event": "L-D Or Ouvert / Open Gold BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -43794,13 +43822,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Valse/Waltz",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Tango",
         "time": "",
         "session": "",
@@ -43822,13 +43843,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Quickstep",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -43837,13 +43851,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -43892,6 +43899,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
         "event": "L-E Or Ouvert / Open Gold BALLROOM Tango",
         "time": "",
         "session": "",
@@ -43900,6 +43914,13 @@
       {
         "heat": "",
         "event": "L-E Or Ferm\u00e9 / Closed Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Quickstep",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -44961,6 +44982,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Kostov, Stilian"
+      },
+      {
+        "heat": "",
         "event": "L-D Bronze 1 Ouvert / Open Bronze 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -44990,27 +45018,6 @@
       {
         "heat": "",
         "event": "L-D Bronze 1 Ouvert / Open Bronze 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Kostov, Stilian"
-      },
-      {
-        "heat": "",
-        "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Kostov, Stilian"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Kostov, Stilian"
-      },
-      {
-        "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
         "partner": "Kostov, Stilian"
@@ -45060,6 +45067,20 @@
       {
         "heat": "",
         "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Kostov, Stilian"
+      },
+      {
+        "heat": "",
+        "event": "L-D D\u00e9butant Ouvert / Open Newcomer RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Kostov, Stilian"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Kostov, Stilian"
@@ -46929,6 +46950,13 @@
       },
       {
         "heat": "",
+        "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Pavlenko, Arya"
+      },
+      {
+        "heat": "",
         "event": "AC-JV D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
         "time": "",
         "session": "",
@@ -47038,6 +47066,13 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Pang, Phoebe"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -47053,13 +47088,6 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Pang, Phoebe"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Pang, Phoebe"
@@ -47988,13 +48016,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Lisovolenko, Stanislav"
-      },
-      {
-        "heat": "",
         "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -48010,6 +48031,13 @@
       {
         "heat": "",
         "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -49763,13 +49791,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
-        "time": "",
-        "session": "",
-        "partner": "Studenny, Kamil"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -49778,6 +49799,13 @@
       {
         "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Studenny, Kamil"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Studenny, Kamil"
@@ -50206,6 +50234,20 @@
       },
       {
         "heat": "",
+        "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "B\u00e9langer, Richard-Claude"
+      },
+      {
+        "heat": "",
+        "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "B\u00e9langer, Richard-Claude"
+      },
+      {
+        "heat": "",
         "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
         "time": "",
         "session": "",
@@ -50221,20 +50263,6 @@
       {
         "heat": "",
         "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "B\u00e9langer, Richard-Claude"
-      },
-      {
-        "heat": "",
-        "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "B\u00e9langer, Richard-Claude"
-      },
-      {
-        "heat": "",
-        "event": "G-F Or Ouvert / Open Gold LATIN Jive",
         "time": "",
         "session": "",
         "partner": "B\u00e9langer, Richard-Claude"
@@ -50785,6 +50813,13 @@
       },
       {
         "heat": "",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Motyl, Paul"
+      },
+      {
+        "heat": "",
         "event": "A-JV Argent / Silver BALLROOM SOLO Quickstep",
         "time": "",
         "session": "",
@@ -50829,6 +50864,13 @@
   },
   "Motyl, Paul": {
     "entries": [
+      {
+        "heat": "",
+        "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Motyl, Nataliia"
+      },
       {
         "heat": "",
         "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
@@ -51349,13 +51391,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Levit, Sharon"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -51371,6 +51406,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Levit, Sharon"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Levit, Sharon"
@@ -51861,6 +51903,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Paso Doble",
+        "time": "",
+        "session": "",
+        "partner": "Lafreni\u00e8re, Francis"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -51876,13 +51925,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Lafreni\u00e8re, Francis"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 LATIN Paso Doble",
         "time": "",
         "session": "",
         "partner": "Lafreni\u00e8re, Francis"
@@ -54136,13 +54178,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -54164,7 +54199,21 @@
       },
       {
         "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
         "event": "L-D* Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -54207,13 +54256,6 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -54603,6 +54645,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Maletin, Ilya"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -54618,13 +54667,6 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Maletin, Ilya"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Maletin, Ilya"
@@ -55093,13 +55135,6 @@
       },
       {
         "heat": "",
-        "event": "G-F Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Horwood, John"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -55129,6 +55164,13 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Horwood, John"
+      },
+      {
+        "heat": "",
+        "event": "G-F Argent Ferm\u00e9 / Closed Silver RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Horwood, John"
@@ -55678,13 +55720,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -55714,6 +55749,13 @@
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Arbour, Danny"
@@ -55852,6 +55894,13 @@
       {
         "heat": "",
         "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Malashenko, Andr\u00e9"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
         "partner": "Malashenko, Andr\u00e9"
@@ -57135,27 +57184,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Raya, Ariel"
-      },
-      {
-        "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Raya, Ariel"
-      },
-      {
-        "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Raya, Ariel"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -57171,6 +57199,27 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Raya, Ariel"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Raya, Ariel"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Raya, Ariel"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Raya, Ariel"
@@ -57715,13 +57764,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Bookhardt, Elizabeth"
-      },
-      {
-        "heat": "",
         "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -57814,6 +57856,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Bookhardt, Elizabeth"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Bookhardt, Elizabeth"
@@ -58734,6 +58783,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Li, Ling"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -58749,13 +58805,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Li, Ling"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Li, Ling"
@@ -58987,6 +59036,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
+        "heat": "",
         "event": "L-D Or Ouvert / Open Gold BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -59022,13 +59078,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Valse/Waltz",
-        "time": "",
-        "session": "",
-        "partner": "Lisovolenko, Stanislav"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Tango",
         "time": "",
         "session": "",
@@ -59050,13 +59099,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Quickstep",
-        "time": "",
-        "session": "",
-        "partner": "Lisovolenko, Stanislav"
-      },
-      {
-        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse/Waltz",
         "time": "",
         "session": "",
@@ -59065,13 +59107,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Lisovolenko, Stanislav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -59120,6 +59155,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Valse/Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
+        "heat": "",
         "event": "L-E Or Ouvert / Open Gold BALLROOM Tango",
         "time": "",
         "session": "",
@@ -59128,6 +59170,13 @@
       {
         "heat": "",
         "event": "L-E Or Ferm\u00e9 / Closed Gold BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "",
+        "session": "",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
+        "heat": "",
+        "event": "L-D Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Quickstep",
         "time": "",
         "session": "",
         "partner": "Lisovolenko, Stanislav"
@@ -59470,6 +59519,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Storozhuk, Vladyslav"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 SMOOTH Valse/Waltz",
         "time": "",
         "session": "",
@@ -59506,13 +59562,6 @@
       {
         "heat": "",
         "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Tango",
-        "time": "",
-        "session": "",
-        "partner": "Storozhuk, Vladyslav"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Foxtrot",
         "time": "",
         "session": "",
         "partner": "Storozhuk, Vladyslav"
@@ -60775,6 +60824,13 @@
       },
       {
         "heat": "",
+        "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -60790,13 +60846,6 @@
       {
         "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Koullebdjian, H\u00e9l\u00e8ne"
-      },
-      {
-        "heat": "",
-        "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Koullebdjian, H\u00e9l\u00e8ne"
@@ -61197,27 +61246,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Petrova, Iva"
-      },
-      {
-        "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Petrova, Iva"
-      },
-      {
-        "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Petrova, Iva"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
         "time": "",
         "session": "",
@@ -61233,6 +61261,27 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Petrova, Iva"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Petrova, Iva"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Petrova, Iva"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Petrova, Iva"
@@ -61848,13 +61897,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Doroszkiewicz, Steve"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -61919,6 +61961,13 @@
       {
         "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Doroszkiewicz, Steve"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Doroszkiewicz, Steve"
@@ -62937,13 +62986,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Rogotskyy, Konstantin"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -62966,6 +63008,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Rogotskyy, Konstantin"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Rogotskyy, Konstantin"
@@ -64022,13 +64071,6 @@
       },
       {
         "heat": "",
-        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
-        "time": "",
-        "session": "",
-        "partner": "Rios, Silvia"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -64051,6 +64093,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Rios, Silvia"
+      },
+      {
+        "heat": "",
+        "event": "L-C Argent Ouvert / Open Silver RHYTHM Bolero",
         "time": "",
         "session": "",
         "partner": "Rios, Silvia"
@@ -64298,6 +64347,13 @@
       },
       {
         "heat": "",
+        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -64313,13 +64369,6 @@
       {
         "heat": "",
         "event": "L-C Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "",
-        "event": "L-C Bronze Ouvert / Open Bronze LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Arbour, Danny"
@@ -64892,13 +64941,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Benson, Marty"
-      },
-      {
-        "heat": "",
         "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -64927,14 +64969,14 @@
       },
       {
         "heat": "",
-        "event": "G-E Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Mambo",
+        "event": "G-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
       },
       {
         "heat": "",
-        "event": "G-C Bronze Ouvert / Open Bronze RHYTHM Chacha",
+        "event": "G-E Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -64969,13 +65011,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Benson, Marty"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -64984,6 +65019,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Benson, Marty"
+      },
+      {
+        "heat": "",
+        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -65074,13 +65116,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Benson, Marty"
-      },
-      {
-        "heat": "",
         "event": "G-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -65116,6 +65151,13 @@
       },
       {
         "heat": "",
+        "event": "G-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Benson, Marty"
+      },
+      {
+        "heat": "",
         "event": "G-D Argent 1 Ferm\u00e9 / Closed Silver 1 RHYTHM Bolero",
         "time": "",
         "session": "",
@@ -65124,6 +65166,13 @@
       {
         "heat": "",
         "event": "G-C Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Benson, Marty"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Benson, Marty"
@@ -66867,13 +66916,6 @@
       },
       {
         "heat": "",
-        "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Schleese, Sabine"
-      },
-      {
-        "heat": "",
         "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -66896,6 +66938,13 @@
       {
         "heat": "",
         "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Schleese, Sabine"
+      },
+      {
+        "heat": "",
+        "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Schleese, Sabine"
@@ -67070,13 +67119,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Stacey, Kelly"
-      },
-      {
-        "heat": "",
         "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -67105,13 +67147,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Stacey, Kelly"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -67120,6 +67155,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Stacey, Kelly"
+      },
+      {
+        "heat": "",
+        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Stacey, Kelly"
@@ -67141,6 +67183,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ferm\u00e9 / Closed Bronze RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Stacey, Kelly"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Stacey, Kelly"
@@ -67473,13 +67522,6 @@
       },
       {
         "heat": "",
-        "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Schleese, Jochen"
-      },
-      {
-        "heat": "",
         "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -67502,6 +67544,13 @@
       {
         "heat": "",
         "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Schleese, Jochen"
+      },
+      {
+        "heat": "",
+        "event": "AC-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Schleese, Jochen"
@@ -68865,6 +68914,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Gan, Rosa"
+      },
+      {
+        "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -68880,13 +68936,6 @@
       {
         "heat": "",
         "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Gan, Rosa"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or 1 Ouvert / Open Gold 1 BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Gan, Rosa"
@@ -69822,14 +69871,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+        "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
       },
       {
         "heat": "",
-        "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+        "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
         "time": "",
         "session": "",
         "partner": "Topalov, Stefan"
@@ -69970,6 +70019,13 @@
       },
       {
         "heat": "",
+        "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Ding, Edwin"
+      },
+      {
+        "heat": "",
         "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
         "time": "",
         "session": "",
@@ -69985,13 +70041,6 @@
       {
         "heat": "",
         "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Ding, Edwin"
-      },
-      {
-        "heat": "",
-        "event": "G-A Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Ding, Edwin"
@@ -70228,6 +70277,17 @@
         "time": "",
         "session": "",
         "partner": "Daich, Idan"
+      }
+    ]
+  },
+  "Smodleva, Barbara": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Bielichenko, Vasyl"
       }
     ]
   },
@@ -71179,13 +71239,6 @@
       },
       {
         "heat": "",
-        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Schleese, Jochen"
-      },
-      {
-        "heat": "",
         "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
@@ -71214,13 +71267,6 @@
       },
       {
         "heat": "",
-        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Schleese, Jochen"
-      },
-      {
-        "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -71229,6 +71275,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Swing",
+        "time": "",
+        "session": "",
+        "partner": "Schleese, Jochen"
+      },
+      {
+        "heat": "",
+        "event": "G-D Bronze Ouvert / Open Bronze RHYTHM Mambo",
         "time": "",
         "session": "",
         "partner": "Schleese, Jochen"
@@ -71250,6 +71303,13 @@
       {
         "heat": "",
         "event": "G-E Bronze Ferm\u00e9 / Closed Bronze RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Schleese, Jochen"
+      },
+      {
+        "heat": "",
+        "event": "G-E Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Schleese, Jochen"
@@ -72572,13 +72632,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -72600,7 +72653,21 @@
       },
       {
         "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
         "event": "L-D* Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Palakodeti, Sunita"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Palakodeti, Sunita"
@@ -72643,13 +72710,6 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
-        "time": "",
-        "session": "",
-        "partner": "Palakodeti, Sunita"
-      },
-      {
-        "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Palakodeti, Sunita"
@@ -73069,6 +73129,13 @@
       },
       {
         "heat": "",
+        "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Pope, Elena"
+      },
+      {
+        "heat": "",
         "event": "L-E Or 1 Ouvert / Open Gold 1 SMOOTH Valse/Waltz",
         "time": "",
         "session": "",
@@ -73105,13 +73172,6 @@
       {
         "heat": "",
         "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Tango",
-        "time": "",
-        "session": "",
-        "partner": "Pope, Elena"
-      },
-      {
-        "heat": "",
-        "event": "L-D Or Ferm\u00e9 / Closed Gold SMOOTH Foxtrot",
         "time": "",
         "session": "",
         "partner": "Pope, Elena"
@@ -73512,13 +73572,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
-        "time": "",
-        "session": "",
-        "partner": "Miller, Linda"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -73527,6 +73580,13 @@
       {
         "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Miller, Linda"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Miller, Linda"
@@ -76369,13 +76429,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Hanwella, Shani"
-      },
-      {
-        "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -76419,6 +76472,13 @@
       {
         "heat": "",
         "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Hanwella, Shani"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Hanwella, Shani"
@@ -76572,14 +76632,14 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+        "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
         "partner": "Simenhor, Irina"
       },
       {
         "heat": "",
-        "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+        "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
         "time": "",
         "session": "",
         "partner": "Simenhor, Irina"
@@ -78477,13 +78537,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Goodman, Andrea"
-      },
-      {
-        "heat": "",
         "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Rumba",
         "time": "",
         "session": "",
@@ -78541,6 +78594,13 @@
       {
         "heat": "",
         "event": "L-D Argent 1 Ouvert / Open Silver 1 RHYTHM Mambo",
+        "time": "",
+        "session": "",
+        "partner": "Goodman, Andrea"
+      },
+      {
+        "heat": "",
+        "event": "L-D Bronze Ouvert / Open Bronze RHYTHM Chacha",
         "time": "",
         "session": "",
         "partner": "Goodman, Andrea"
@@ -78680,14 +78740,14 @@
       },
       {
         "heat": "",
-        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Salsa",
+        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 NC 2 Step",
         "time": "",
         "session": "",
         "partner": "Lavoie, Louise"
       },
       {
         "heat": "",
-        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 NC 2 Step",
+        "event": "L-F Argent 1 Ferm\u00e9 / Closed Silver 1 CLUB Salsa",
         "time": "",
         "session": "",
         "partner": "Lavoie, Louise"
@@ -79422,13 +79482,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Zwiers, Mariette"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Swing",
         "time": "",
         "session": "",
@@ -79437,6 +79490,13 @@
       {
         "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Zwiers, Mariette"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
         "time": "",
         "session": "",
         "partner": "Zwiers, Mariette"
@@ -79825,6 +79885,20 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Filatov, Arsenii"
+      },
+      {
+        "heat": "",
+        "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Filatov, Arsenii"
+      },
+      {
+        "heat": "",
         "event": "L-JV D\u00e9butant / Beginner BALLROOM MIXED Valse / Waltz",
         "time": "",
         "session": "",
@@ -80033,13 +80107,6 @@
       },
       {
         "heat": "",
-        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
-        "time": "",
-        "session": "",
-        "partner": "Lebedev, Ivan"
-      },
-      {
-        "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
         "time": "",
         "session": "",
@@ -80048,6 +80115,13 @@
       {
         "heat": "",
         "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "",
+        "session": "",
+        "partner": "Lebedev, Ivan"
+      },
+      {
+        "heat": "",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
         "time": "",
         "session": "",
         "partner": "Lebedev, Ivan"
@@ -80213,13 +80287,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
-        "time": "",
-        "session": "",
-        "partner": "Hanwella, Shani"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
         "time": "",
         "session": "",
@@ -80249,6 +80316,13 @@
       {
         "heat": "",
         "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+        "time": "",
+        "session": "",
+        "partner": "Hanwella, Shani"
+      },
+      {
+        "heat": "",
+        "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "",
         "session": "",
         "partner": "Hanwella, Shani"
@@ -81549,27 +81623,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Zhang, Yuelin"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Zhang, Yuelin"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Zhang, Yuelin"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent Ouvert / Open Silver LATIN Chacha",
         "time": "",
         "session": "",
@@ -81585,6 +81638,27 @@
       {
         "heat": "",
         "event": "L-JV Argent Ouvert / Open Silver LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Zhang, Yuelin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Zhang, Yuelin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Zhang, Yuelin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Zhang, Yuelin"
@@ -82147,27 +82221,6 @@
       },
       {
         "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Ilyushenov, Dmitry"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Ilyushenov, Dmitry"
-      },
-      {
-        "heat": "",
-        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Ilyushenov, Dmitry"
-      },
-      {
-        "heat": "",
         "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
         "time": "",
         "session": "",
@@ -82190,6 +82243,27 @@
       {
         "heat": "",
         "event": "L-F Or Ouvert / Open Gold LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Ilyushenov, Dmitry"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Ilyushenov, Dmitry"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Ilyushenov, Dmitry"
+      },
+      {
+        "heat": "",
+        "event": "L-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Ilyushenov, Dmitry"
@@ -83067,13 +83141,6 @@
       },
       {
         "heat": "",
-        "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
-        "time": "",
-        "session": "",
-        "partner": "Dafoe, Storm"
-      },
-      {
-        "heat": "",
         "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Foxtrot",
         "time": "",
         "session": "",
@@ -83110,6 +83177,13 @@
       {
         "heat": "",
         "event": "L-B Or Ouvert / Open Gold BALLROOM Foxtrot",
+        "time": "",
+        "session": "",
+        "partner": "Dafoe, Storm"
+      },
+      {
+        "heat": "",
+        "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold BALLROOM Tango",
         "time": "",
         "session": "",
         "partner": "Dafoe, Storm"
@@ -85598,27 +85672,6 @@
       },
       {
         "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
-        "time": "",
-        "session": "",
-        "partner": "Voronov, Valentin"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Samba",
-        "time": "",
-        "session": "",
-        "partner": "Voronov, Valentin"
-      },
-      {
-        "heat": "",
-        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Voronov, Valentin"
-      },
-      {
-        "heat": "",
         "event": "L-JV Argent Ouvert / Open Silver LATIN Chacha",
         "time": "",
         "session": "",
@@ -85634,6 +85687,27 @@
       {
         "heat": "",
         "event": "L-JV Argent Ouvert / Open Silver LATIN Rumba",
+        "time": "",
+        "session": "",
+        "partner": "Voronov, Valentin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Chacha",
+        "time": "",
+        "session": "",
+        "partner": "Voronov, Valentin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Samba",
+        "time": "",
+        "session": "",
+        "partner": "Voronov, Valentin"
+      },
+      {
+        "heat": "",
+        "event": "L-JV Argent 1 Ouvert / Open Silver 1 LATIN Rumba",
         "time": "",
         "session": "",
         "partner": "Voronov, Valentin"
@@ -86658,13 +86732,6 @@
       },
       {
         "heat": "",
-        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
-        "time": "",
-        "session": "",
-        "partner": "Tudorovsky, Veycheslav"
-      },
-      {
-        "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Swing",
         "time": "",
         "session": "",
@@ -86673,6 +86740,13 @@
       {
         "heat": "",
         "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Bolero",
+        "time": "",
+        "session": "",
+        "partner": "Tudorovsky, Veycheslav"
+      },
+      {
+        "heat": "",
+        "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 RHYTHM Rumba",
         "time": "",
         "session": "",
         "partner": "Tudorovsky, Veycheslav"

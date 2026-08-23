@@ -3760,5 +3760,178 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-23T10:00:01.875539+00:00",
+    "participants": {
+      "oldCount": 943,
+      "newCount": 944,
+      "added": [
+        {
+          "name": "Smodleva, Barbara",
+          "entries": [
+            {
+              "heat": "",
+              "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Bielichenko, Vasyl"
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Bielichenko, Vasyl",
+          "oldEntryCount": 24,
+          "newEntryCount": 25,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Smodleva, Barbara"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Filatov, Arsenii",
+          "oldEntryCount": 21,
+          "newEntryCount": 23,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Turcotte-Miao, Audrey"
+            },
+            {
+              "heat": "",
+              "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Turcotte-Miao, Audrey"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Malashenko, Andr\u00e9",
+          "oldEntryCount": 4,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Pavlenko, Arya"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Motyl, Nataliia",
+          "oldEntryCount": 11,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Motyl, Paul"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Motyl, Paul",
+          "oldEntryCount": 10,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Motyl, Nataliia"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Pavlenko, Arya",
+          "oldEntryCount": 11,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Malashenko, Andr\u00e9"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Turcotte-Miao, Audrey",
+          "oldEntryCount": 11,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "",
+              "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Filatov, Arsenii"
+            },
+            {
+              "heat": "",
+              "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Filatov, Arsenii"
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2681,
+      "newCount": 2681,
+      "oldUniqueCount": 2681,
+      "newUniqueCount": 2681,
+      "added": [],
+      "removed": [],
+      "rosterChanged": [
+        {
+          "event": "AC-16+ AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Filatov, Arsenii",
+            "Turcotte-Miao, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+          "added": [
+            "Bielichenko, Vasyl",
+            "Smodleva, Barbara"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Malashenko, Andr\u00e9",
+            "Pavlenko, Arya"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Filatov, Arsenii",
+            "Turcotte-Miao, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+          "added": [
+            "Motyl, Nataliia",
+            "Motyl, Paul"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
