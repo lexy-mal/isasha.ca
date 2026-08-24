@@ -963,6 +963,21 @@
             margin-top: 10px;
             min-height: 1.2em;
         }
+
+        .app-footer {
+            text-align: center;
+            padding: 16px 20px 24px;
+            color: var(--text-secondary);
+            font-size: 0.75em;
+            letter-spacing: 0.04em;
+            border-top: 1px solid var(--bg-tertiary);
+            margin-top: 40px;
+        }
+
+        .app-footer #app-version {
+            color: var(--text-secondary);
+            opacity: 0.85;
+        }
     </style>
 </head>
 <body>
@@ -1033,6 +1048,10 @@
             </div>
         </div>
     </div>
+
+    <footer class="app-footer">
+        <span id="app-version">…</span>
+    </footer>
 
     <script>
         let participantsData = {};
@@ -3618,6 +3637,21 @@
         } else {
             document.getElementById('passwordGateInput').focus();
         }
+
+        async function loadAppVersion() {
+            const el = document.getElementById('app-version');
+            if (!el) return;
+            try {
+                const res = await fetch('/projects/com_assets/version.json');
+                if (!res.ok) throw new Error(String(res.status));
+                const v = await res.json();
+                el.textContent = `v${v.build}${v.commit && v.commit !== 'local' ? ' · ' + v.commit : ''}`;
+            } catch (e) {
+                el.textContent = '';
+            }
+        }
+
+        loadAppVersion();
     </script>
 </body>
 </html>

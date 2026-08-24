@@ -1,0 +1,7 @@
+#!/bin/bash
+# Stamp version.json before each commit so the footer build number tracks pushes.
+set -e
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+node scripts/stamp-version.js
+git add public/projects/com_assets/version.json

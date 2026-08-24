@@ -49,7 +49,8 @@ if git diff --quiet -- "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json
     exit 0
 fi
 
-git add "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json" "$DATA_DIR/scrape_log.json"
+node scripts/stamp-version.js >> "$LOG_FILE" 2>&1
+git add "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json" "$DATA_DIR/scrape_log.json" public/projects/com_assets/version.json
 if ! git commit -m "chore: daily scrape update ($(date +%F))
 
 Automated daily scrape via cron. See scrape-log.html for the diff." >> "$LOG_FILE" 2>&1; then
