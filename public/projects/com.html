@@ -11,7 +11,7 @@
     </script>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Dance Competition</title>
     <script src="com_assets/competition-manager.js"></script>
     <style>
@@ -362,6 +362,19 @@
             gap: 12px;
         }
 
+        .event-title-main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .event-title-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px 8px;
+            flex-shrink: 0;
+        }
+
         .heat-label {
             background: var(--accent);
             color: var(--bg-primary);
@@ -622,6 +635,9 @@
             height: 100svh;
             overflow: hidden;
             pointer-events: none;
+            padding-top: env(safe-area-inset-top, 0px);
+            padding-bottom: env(safe-area-inset-bottom, 0px);
+            box-sizing: border-box;
         }
 
         .detail-overlay.active {
@@ -693,6 +709,12 @@
             border-right: none;
             border-top: none;
             box-shadow: none;
+            font-size: 0.82em;
+            line-height: 1.4;
+            white-space: normal;
+            word-break: break-word;
+            overflow-wrap: anywhere;
+            padding: 10px 14px;
         }
 
         .detail-overlay.active .overlay-countdown-bar.empty {
@@ -709,8 +731,9 @@
             min-height: 0;
             overflow-x: hidden;
             overflow-y: auto;
-            padding: 20px 20px 48px;
+            padding: 16px 16px calc(48px + env(safe-area-inset-bottom, 0px));
             overscroll-behavior: contain;
+            -webkit-overflow-scrolling: touch;
         }
 
         html.detail-overlay-open,
@@ -865,6 +888,33 @@
             .stats-grid {
                 grid-template-columns: repeat(2, 1fr);
                 gap: 12px;
+            }
+
+            .event-title {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 8px;
+            }
+
+            .event-title-meta {
+                width: 100%;
+            }
+
+            .event-time-label,
+            .event-countdown-label {
+                font-size: 0.72em;
+            }
+
+            html.has-touch .detail-overlay.active .detail-content .person-header .person-name,
+            html.has-coarse-pointer .detail-overlay.active .detail-content .person-header .person-name {
+                display: none;
+            }
+
+            .detail-overlay.active .detail-person-name {
+                white-space: normal;
+                overflow: visible;
+                text-overflow: unset;
+                line-height: 1.25;
             }
         }
 
@@ -1964,7 +2014,7 @@
         }
 
         // Format countdown display text (with days, hours, minutes, seconds)
-        function formatCountdownTime(nextHeatTime) {
+        function formatCountdownTime(nextHeatTime, { fullEventName = false } = {}) {
             if (!nextHeatTime) {
                 return '✓ All events completed';
             }
@@ -1976,7 +2026,33 @@
                 return '✓ Event started';
             }
 
-            return `🕐 Next in ${formatDurationMs(diffMs)} · ${nextHeatTime.heat}${nextHeatTime.event ? ' · ' + truncateEventName(nextHeatTime.event) : ''}`;
+            const eventPart = nextHeatTime.event
+                ? ' · ' + (fullEventName ? nextHeatTime.event : truncateEventName(nextHeatTime.event))
+                : '';
+            return `🕐 Next in ${formatDurationMs(diffMs)} · ${nextHeatTime.heat}${eventPart}`;
+        }
+
+        function buildPersonCountdownText(personData, { fullEventName = false } = {}) {
+            const runningHeat = getCurrentlyRunningHeat(personData);
+            const nextHeat = getNextHeatForPerson(personData);
+
+            if (runningHeat) {
+                const heatNum = runningHeat.heat || '';
+                const eventPart = runningHeat.event
+                    ? ` · ${fullEventName ? runningHeat.event : truncateEventName(runningHeat.event)}`
+                    : '';
+                return `🔴 ${heatNum} is running${eventPart}`;
+            }
+            if (nextHeat) {
+                return formatCountdownTime(nextHeat, { fullEventName });
+            }
+            if (competitionEndDate && new Date() > competitionEndDate) {
+                return `✓ Competition ended (${competitionEndDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })})`;
+            }
+            if (personData.entries.some(entry => !getEventDateFromTimeString(entry.time))) {
+                return '⏳ Heat times not posted yet';
+            }
+            return '✓ All events completed';
         }
 
         function formatDurationMs(diffMs) {
@@ -2037,18 +2113,15 @@
                 const heatText = heatLabel.textContent.trim();
 
                 // Extract event name - it's the text after the toggle icon
-                const eventToggle = eventTitle.querySelector('.event-toggle');
-                const firstSpan = eventTitle.querySelector('span');
+                const firstSpan = eventTitle.querySelector('.event-title-main') || eventTitle.querySelector('span');
                 if (!firstSpan) return;
 
-                // Get the event text (everything in the span except the toggle)
+                // Get the event text (everything in the main span except the toggle and badges)
                 let eventText = '';
-                for (let node of firstSpan.childNodes) {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        eventText += node.textContent;
-                    }
-                }
-                eventText = eventText.trim();
+                const mainClone = firstSpan.cloneNode(true);
+                mainClone.querySelector('.event-toggle')?.remove();
+                mainClone.querySelectorAll('span').forEach(s => s.remove());
+                eventText = mainClone.textContent.trim();
 
                 if (!eventText || !heatText) return;
 
@@ -2099,29 +2172,14 @@
             }
 
             const personData = participantsData[currentName];
-            const runningHeat = getCurrentlyRunningHeat(personData);
-            const nextHeat = getNextHeatForPerson(personData);
-
-            let countdownText;
-            if (runningHeat) {
-                const heatNum = runningHeat.heat || '';
-                const eventPart = runningHeat.event ? ` · ${truncateEventName(runningHeat.event)}` : '';
-                countdownText = `🔴 ${heatNum} is running${eventPart}`;
-            } else if (nextHeat) {
-                countdownText = formatCountdownTime(nextHeat);
-            } else if (competitionEndDate && new Date() > competitionEndDate) {
-                countdownText = `✓ Competition ended (${competitionEndDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })})`;
-            } else if (personData.entries.some(entry => !getEventDateFromTimeString(entry.time))) {
-                countdownText = '⏳ Heat times not posted yet';
-            } else {
-                countdownText = '✓ All events completed';
-            }
+            const countdownText = buildPersonCountdownText(personData, { fullEventName: false });
+            const overlayCountdownText = buildPersonCountdownText(personData, { fullEventName: true });
 
             // Update mobile countdown (fixed bar above scroll area)
             const overlayCountdown = document.getElementById('overlayCountdown');
             if (overlayCountdown) {
-                overlayCountdown.textContent = countdownText;
-                overlayCountdown.classList.toggle('empty', !countdownText);
+                overlayCountdown.textContent = overlayCountdownText;
+                overlayCountdown.classList.toggle('empty', !overlayCountdownText);
                 syncOverlayTopInset();
             }
 
@@ -2513,11 +2571,13 @@
                 html += `
                     <div class="event-item collapsed" id="all-competitors" onclick="toggleEvent(this)">
                         <div class="event-title">
-                            <span style="flex: 1;">
+                            <span class="event-title-main">
                                 <span class="event-toggle">▶</span>
                                 All Opponents
                             </span>
-                            <span class="heat-label">${totalCompetitors}</span>
+                            <span class="event-title-meta">
+                                <span class="heat-label">${totalCompetitors}</span>
+                            </span>
                         </div>
                         <div class="event-meta" style="display: none;">
                             <div class="meta-field">
@@ -2776,13 +2836,15 @@
                     : '';
                 html += `
                     <div class="event-title">
-                        <span style="flex: 1;">
+                        <span class="event-title-main">
                             <span class="event-toggle">▶</span>
                             ${info.event}${placementBadge}
                         </span>
-                        <span class="event-time-label">${displayTime}</span>
-                        ${eventCountdown ? `<span class="event-countdown-label">${eventCountdown}</span>` : '<span class="event-countdown-label" style="display:none;"></span>'}
-                        <span class="heat-label">${info.heat}</span>
+                        <span class="event-title-meta">
+                            <span class="heat-label">${info.heat}</span>
+                            <span class="event-time-label">${displayTime}</span>
+                            ${eventCountdown ? `<span class="event-countdown-label">${eventCountdown}</span>` : '<span class="event-countdown-label" style="display:none;"></span>'}
+                        </span>
                     </div>
                 `;
 
