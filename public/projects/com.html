@@ -663,6 +663,10 @@
             display: none;
         }
 
+        .overlay-countdown-bar {
+            display: none;
+        }
+
         .event-countdown-label {
             font-size: 0.75em;
             color: var(--accent);
@@ -780,19 +784,35 @@
                 display: none;
             }
 
-            .participant-countdown-bar {
-                position: sticky;
-                top: 0;
-                z-index: 100;
-                margin: -20px -20px 16px;
+            /* Pinned between header and scroll area — sticky fails inside iOS overflow scroll */
+            .detail-overlay .overlay-countdown-bar {
+                display: block;
+                flex-shrink: 0;
+                position: static;
+                margin: 0;
                 border-radius: 0;
                 border-left: none;
                 border-right: none;
+                border-top: none;
+            }
+
+            .detail-overlay .overlay-countdown-bar.empty {
+                display: none;
+            }
+
+            .detail-overlay.active #desktopCountdown {
+                display: none !important;
             }
 
             /* Hide main-content when overlay is active */
             .detail-overlay.active ~ .main-content {
                 display: none;
+            }
+
+            body.detail-overlay-open {
+                overflow: hidden;
+                position: fixed;
+                width: 100%;
             }
 
             /* Overlay animations */
@@ -1070,6 +1090,7 @@
                     <div class="detail-next-heat" id="detailNextHeat"></div>
                 </div>
             </div>
+            <div id="overlayCountdown" class="participant-countdown-bar overlay-countdown-bar empty"></div>
             <div class="detail-content" id="detailContentDisplay">
                 <div class="loading">Loading data...</div>
             </div>
@@ -2005,6 +2026,11 @@
             }
 
             if (!currentName || !participantsData[currentName]) {
+                const overlayCountdown = document.getElementById('overlayCountdown');
+                if (overlayCountdown) {
+                    overlayCountdown.textContent = '';
+                    overlayCountdown.classList.add('empty');
+                }
                 return;
             }
 
@@ -2025,7 +2051,13 @@
                 countdownText = '✓ All events completed';
             }
 
-            // Update mobile countdown (detail overlay)
+            // Update mobile countdown (fixed bar above scroll area)
+            const overlayCountdown = document.getElementById('overlayCountdown');
+            if (overlayCountdown) {
+                overlayCountdown.textContent = countdownText;
+                overlayCountdown.classList.toggle('empty', !countdownText);
+            }
+
             const mobileCountdown = document.getElementById('detailNextHeat');
             if (mobileCountdown) {
                 mobileCountdown.textContent = countdownText;
@@ -2292,6 +2324,7 @@
             const overlay = document.querySelector('.detail-overlay');
             if (window.innerWidth <= 1024) {
                 overlay.classList.add('active');
+                document.body.classList.add('detail-overlay-open');
             }
 
             // Update header text
@@ -3033,6 +3066,7 @@
         function closeDetailView() {
             const overlay = document.querySelector('.detail-overlay');
             overlay.classList.remove('active');
+            document.body.classList.remove('detail-overlay-open');
         }
 
         function getHomeStats() {
@@ -3345,7 +3379,10 @@
             if (!eventInfo) return;
 
             const overlay = document.querySelector('.detail-overlay');
-            if (window.innerWidth <= 1024) overlay.classList.add('active');
+            if (window.innerWidth <= 1024) {
+                overlay.classList.add('active');
+                document.body.classList.add('detail-overlay-open');
+            }
 
             const contentElement = overlay.classList.contains('active')
                 ? document.getElementById('detailContentDisplay')
@@ -3402,6 +3439,11 @@
             // behind, since updateDetailCountdown() bails out on a non-person name.
             const staleCountdown = document.getElementById('detailNextHeat');
             if (staleCountdown) staleCountdown.textContent = '';
+            const staleOverlayCountdown = document.getElementById('overlayCountdown');
+            if (staleOverlayCountdown) {
+                staleOverlayCountdown.textContent = '';
+                staleOverlayCountdown.classList.add('empty');
+            }
             const staleDesktopCountdown = document.getElementById('desktopCountdown');
             if (staleDesktopCountdown) {
                 staleDesktopCountdown.textContent = '';
@@ -3627,6 +3669,7 @@
                 if (overlay) {
                     overlay.classList.remove('active');
                 }
+                document.body.classList.remove('detail-overlay-open');
             }
         });
 
