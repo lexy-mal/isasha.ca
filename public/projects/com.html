@@ -33,7 +33,7 @@
 
         html {
             scroll-behavior: smooth;
-            overflow-x: hidden;
+            overflow-x: clip;
         }
 
         body {
@@ -41,7 +41,7 @@
             color: var(--text-primary);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
             line-height: 1.6;
-            overflow-x: hidden;
+            overflow-x: clip;
             max-width: 100vw;
             padding-bottom: 36px;
         }
@@ -811,17 +811,22 @@
             .detail-overlay.active .detail-back-btn:active {
                 opacity: 0.7;
             }
+        }
 
-            /* Fallback if overlay did not open: pin the in-page countdown */
-            #desktopCountdown {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                margin: 0;
-                border-radius: 0;
-                z-index: 1500;
-            }
+        /* iPad / touch: pin in-page countdown when overlay is not used
+           (13" iPad Pro is ~1032×1376 CSS px — wider than 1024). */
+        html.has-touch #desktopCountdown {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0;
+            border-radius: 0;
+            z-index: 1500;
+        }
+
+        html.has-touch.detail-overlay-open #desktopCountdown {
+            display: none !important;
         }
 
         @media (max-width: 640px) {
@@ -1092,12 +1097,21 @@
         let competitionStartDate = null;
         let competitionEndDate = null;
 
-        const MOBILE_DETAIL_MQ = window.matchMedia('(max-width: 1024px)');
-        const TOUCH_MQ = window.matchMedia('(hover: none) and (pointer: coarse)');
+        const MOBILE_DETAIL_MQ = window.matchMedia('(max-width: 1400px)');
         let overlayTopObserver = null;
 
+        function isTouchDevice() {
+            return (navigator.maxTouchPoints || 0) > 0 || 'ontouchstart' in window;
+        }
+
+        if (isTouchDevice()) {
+            document.documentElement.classList.add('has-touch');
+        }
+
         function useMobileDetailOverlay() {
-            return MOBILE_DETAIL_MQ.matches || (TOUCH_MQ.matches && window.innerWidth <= 1280);
+            // iPad Pro 13" is ~1032 CSS px portrait / ~1376 landscape, so a 1024px
+            // breakpoint never fires. Chrome on iPadOS also often reports hover:hover.
+            return isTouchDevice() || MOBILE_DETAIL_MQ.matches;
         }
 
         function syncOverlayTopInset() {
