@@ -7,11 +7,18 @@ const { loadComFunctions } = require('./extract-com-functions');
 const TIME_SYMBOLS = [
   'parseHeatTime',
   'parsedHour24',
+  'parseLocalDate',
   'formatDisplayTime',
   'getEventDateFromTimeString',
   'compareEventsByTime',
   'isEventCompleted',
 ];
+
+const NATIONAL_2026_PRELUDE = `
+let competitionStartDate = new Date(2026, 7, 20);
+let competitionEndDate = new Date(2026, 7, 23);
+competitionEndDate.setHours(23, 59, 59, 999);
+`;
 
 test('parseHeatTime: 12-hour and 24-hour formats', async (t) => {
   const fns = loadComFunctions(TIME_SYMBOLS);
@@ -66,12 +73,20 @@ test('formatDisplayTime', async (t) => {
 });
 
 test('compareEventsByTime', async (t) => {
-  const fns = loadComFunctions(TIME_SYMBOLS);
+  const fns = loadComFunctions(TIME_SYMBOLS, NATIONAL_2026_PRELUDE);
 
-  await t.test('orders events chronologically within the week', () => {
+  await t.test('orders events chronologically within the competition week', () => {
     const earlier = { heat: 'Heat 713', event: 'A', time: '10:23 Sunday' };
     const later = { heat: 'Heat 714', event: 'B', time: '10:27 Sunday' };
     assert.ok(fns.compareEventsByTime(earlier, later) < 0);
     assert.ok(fns.compareEventsByTime(later, earlier) > 0);
+  });
+
+  await t.test('maps Sunday events to competition Sunday, not calendar week Sunday', () => {
+    const sunday = fns.getEventDateFromTimeString('10:23 Sunday');
+    assert.equal(sunday.getFullYear(), 2026);
+    assert.equal(sunday.getMonth(), 7);
+    assert.equal(sunday.getDate(), 23);
+    assert.equal(sunday.getDay(), 0);
   });
 });

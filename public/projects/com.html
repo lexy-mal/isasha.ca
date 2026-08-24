@@ -1041,6 +1041,8 @@
         let resultsData = {};
         let personResultsData = {};
         let judgesData = {};
+        let competitionStartDate = null;
+        let competitionEndDate = null;
 
         // Format names from "Last, First" to "First Last"
         function formatName(name) {
@@ -1663,6 +1665,24 @@
             return hour;
         }
 
+        function parseLocalDate(dateStr) {
+            const [y, m, d] = dateStr.split('-').map(Number);
+            return new Date(y, m - 1, d);
+        }
+
+        function syncCompetitionDates() {
+            competitionStartDate = null;
+            competitionEndDate = null;
+            const comp = window.competitionManager?.getActive();
+            if (comp?.startDate) {
+                competitionStartDate = parseLocalDate(comp.startDate);
+            }
+            if (comp?.endDate) {
+                competitionEndDate = parseLocalDate(comp.endDate);
+                competitionEndDate.setHours(23, 59, 59, 999);
+            }
+        }
+
         function getEventDateFromTimeString(timeString) {
             const parsed = parseHeatTime(timeString);
             if (!parsed) return null;
@@ -1671,11 +1691,22 @@
             const targetDayIndex = days.indexOf(parsed.dayName);
             if (targetDayIndex === -1) return null;
 
-            const now = new Date();
-            const todayIndex = now.getDay();
             const hour = parsedHour24(parsed);
             if (hour == null) return null;
 
+            // Map weekday names to actual calendar dates within the competition window
+            if (competitionStartDate && competitionEndDate) {
+                for (let d = new Date(competitionStartDate); d <= competitionEndDate; d.setDate(d.getDate() + 1)) {
+                    if (d.getDay() === targetDayIndex) {
+                        return new Date(d.getFullYear(), d.getMonth(), d.getDate(), hour, parsed.minute, 0, 0);
+                    }
+                }
+                return null;
+            }
+
+            // Fallback: current calendar week (Sun–Sat) when no competition dates configured
+            const now = new Date();
+            const todayIndex = now.getDay();
             const eventDate = new Date(now);
             eventDate.setHours(hour, parsed.minute, 0, 0);
             eventDate.setDate(eventDate.getDate() + (targetDayIndex - todayIndex));
@@ -1941,10 +1972,10 @@
                 const eventPart = runningHeat.event ? ` · ${truncateEventName(runningHeat.event)}` : '';
                 countdownText = `🔴 ${heatNum} is running${eventPart}`;
             } else if (nextHeat) {
-                // Show countdown to next heat
                 countdownText = formatCountdownTime(nextHeat);
+            } else if (competitionEndDate && new Date() > competitionEndDate) {
+                countdownText = `✓ Competition ended (${competitionEndDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })})`;
             } else {
-                // No more heats
                 countdownText = '✓ All events completed';
             }
 
@@ -2061,6 +2092,7 @@
                 // Update UI with current competition name
                 document.getElementById('competitionTitle').textContent = window.competitionManager.getCompetitionName();
                 window.competitionManager.renderSelector('competitionSelector');
+                syncCompetitionDates();
 
                 const participantsPath = window.competitionManager.getDataPath('participants.json');
                 const heatEventsPath = window.competitionManager.getDataPath('heat_events.json');

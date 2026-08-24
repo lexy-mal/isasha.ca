@@ -6,6 +6,8 @@
       "description": "National Dance Championship 2026",
       "entryListUrl": "http://www.comp-mngr.com/national2026/national2026_EntryLists.htm",
       "heatListUrl": "http://www.comp-mngr.com/national2026/national2026_HeatLists.htm",
+      "startDate": "2026-08-20",
+      "endDate": "2026-08-23",
       "hasResults": false,
       "archived": false
     },
@@ -14,6 +16,8 @@
       "name": "Imperial Cup 2026",
       "description": "Imperial Cup Dancesport Championships 2026",
       "entryListUrl": "https://www.comp-mngr.com/impercup2026/ImperCup2026_HeatLists.htm",
+      "startDate": "2026-06-12",
+      "endDate": "2026-06-14",
       "hasResults": true,
       "archived": true
     }
