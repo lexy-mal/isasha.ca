@@ -815,7 +815,8 @@
 
         /* iPad / touch: pin in-page countdown when overlay is not used
            (13" iPad Pro is ~1032×1376 CSS px — wider than 1024). */
-        html.has-touch #desktopCountdown {
+        html.has-touch #desktopCountdown,
+        html.has-coarse-pointer #desktopCountdown {
             position: fixed;
             top: 0;
             left: 0;
@@ -825,8 +826,25 @@
             z-index: 1500;
         }
 
-        html.has-touch.detail-overlay-open #desktopCountdown {
+        html.has-touch.detail-overlay-open #desktopCountdown,
+        html.has-coarse-pointer.detail-overlay-open #desktopCountdown {
             display: none !important;
+        }
+
+        @media (any-pointer: coarse) {
+            #desktopCountdown {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0;
+                border-radius: 0;
+                z-index: 1500;
+            }
+
+            .detail-overlay.active #desktopCountdown {
+                display: none !important;
+            }
         }
 
         @media (max-width: 640px) {
@@ -1097,21 +1115,30 @@
         let competitionStartDate = null;
         let competitionEndDate = null;
 
-        const MOBILE_DETAIL_MQ = window.matchMedia('(max-width: 1400px)');
-        let overlayTopObserver = null;
-
-        function isTouchDevice() {
-            return (navigator.maxTouchPoints || 0) > 0 || 'ontouchstart' in window;
+        function isIPad() {
+            const ua = navigator.userAgent || '';
+            const points = navigator.maxTouchPoints || 0;
+            // iPadOS 13+ disguises as Macintosh; Chrome on iPad does this too.
+            return /iPad/i.test(ua)
+                || (navigator.platform === 'MacIntel' && points > 1)
+                || (/Macintosh/i.test(ua) && points > 1);
         }
 
-        if (isTouchDevice()) {
-            document.documentElement.classList.add('has-touch');
+        function isTouchDevice() {
+            if (isIPad()) return true;
+            if ((navigator.maxTouchPoints || 0) > 0) return true;
+            if (window.matchMedia('(any-pointer: coarse)').matches) return true;
+            if ('ontouchstart' in window) return true;
+            return false;
+        }
+
+        if (isTouchDevice()) document.documentElement.classList.add('has-touch');
+        if (window.matchMedia('(any-pointer: coarse)').matches) {
+            document.documentElement.classList.add('has-coarse-pointer');
         }
 
         function useMobileDetailOverlay() {
-            // iPad Pro 13" is ~1032 CSS px portrait / ~1376 landscape, so a 1024px
-            // breakpoint never fires. Chrome on iPadOS also often reports hover:hover.
-            return isTouchDevice() || MOBILE_DETAIL_MQ.matches;
+            return isTouchDevice();
         }
 
         function syncOverlayTopInset() {
@@ -3695,11 +3722,17 @@
 
         // Close overlay when resizing above mobile breakpoint
         window.addEventListener('resize', () => {
-            if (!useMobileDetailOverlay()) {
-                closeDetailOverlay();
-            } else {
+            // Never drop the overlay on iPad rotation — landscape is >1024px and
+            // used to fall back to the desktop layout where the bar scrolls away.
+            if (isTouchDevice()) {
+                document.documentElement.classList.add('has-touch');
                 syncOverlayTopInset();
+                return;
             }
+            closeDetailOverlay();
+        });
+        window.visualViewport?.addEventListener('resize', () => {
+            if (isTouchDevice()) syncOverlayTopInset();
         });
 
         // Password gate — client-side only (see CSS comment above the
