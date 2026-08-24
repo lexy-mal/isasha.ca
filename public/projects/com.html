@@ -378,11 +378,17 @@
         .heat-label {
             background: var(--accent);
             color: var(--bg-primary);
-            padding: 4px 12px;
-            border-radius: 3px;
-            font-size: 0.8em;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.78em;
             font-weight: 600;
             white-space: nowrap;
+            flex-shrink: 0;
+            line-height: 1.25;
+        }
+
+        .event-item.collapsed .event-title-meta .event-toggle {
+            flex-shrink: 0;
         }
 
         .event-meta {
@@ -810,8 +816,14 @@
         }
 
         .event-item.next-upcoming {
-            border-left: 3px solid var(--accent);
-            padding-left: 12px;
+            box-shadow: inset 3px 0 0 var(--accent);
+        }
+
+        .event-summary-name {
+            font-weight: 500;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+            line-height: 1.35;
         }
 
         @media (max-width: 1024px) {
@@ -898,11 +910,21 @@
 
             .event-title-meta {
                 width: 100%;
+                align-items: center;
+            }
+
+            .heat-label {
+                font-size: 0.72em;
+                padding: 4px 8px;
             }
 
             .event-time-label,
             .event-countdown-label {
                 font-size: 0.72em;
+            }
+
+            .event-item.collapsed .event-summary {
+                margin-top: 4px;
             }
 
             html.has-touch .detail-overlay.active .detail-content .person-header .person-name,
@@ -1905,6 +1927,12 @@
             return `${hour}:${minute} ${parsed.dayName}`;
         }
 
+        function formatHeatBadge(heatStr) {
+            const full = String(heatStr || '').trim();
+            const num = full.match(/(\d+)/)?.[1];
+            return num ? `Heat ${num}` : full || 'Heat';
+        }
+
         function compareEventsByTime(a, b) {
             const dateA = getEventDateFromTimeString(a.time);
             const dateB = getEventDateFromTimeString(b.time);
@@ -2097,60 +2125,11 @@
 
         // Update completed status of all visible events
         function updateEventCompletionStatus() {
-            // Get all event items
-            const eventItems = document.querySelectorAll('.event-item');
-
-            eventItems.forEach(item => {
-                // For "All Competitors" section, skip (no time)
+            document.querySelectorAll('.event-item[data-event-time]').forEach(item => {
                 if (item.id === 'all-competitors') return;
-
-                // Get the event title and heat label
-                const eventTitle = item.querySelector('.event-title');
-                const heatLabel = item.querySelector('.heat-label');
-                if (!eventTitle || !heatLabel) return;
-
-                // Extract heat text from label
-                const heatText = heatLabel.textContent.trim();
-
-                // Extract event name - it's the text after the toggle icon
-                const firstSpan = eventTitle.querySelector('.event-title-main') || eventTitle.querySelector('span');
-                if (!firstSpan) return;
-
-                // Get the event text (everything in the main span except the toggle and badges)
-                let eventText = '';
-                const mainClone = firstSpan.cloneNode(true);
-                mainClone.querySelector('.event-toggle')?.remove();
-                mainClone.querySelectorAll('span').forEach(s => s.remove());
-                eventText = mainClone.textContent.trim();
-
-                if (!eventText || !heatText) return;
-
-                // Find matching entry from current participant
-                const currentName = document.querySelector('.person-name')?.textContent;
-                if (!currentName || !participantsData[currentName]) return;
-
-                const personData = participantsData[currentName];
-                let eventTime = null;
-
-                // Find matching entry
-                for (let entry of personData.entries) {
-                    if (entry.heat === heatText && entry.event === eventText) {
-                        eventTime = entry.time;
-                        break;
-                    }
-                }
-
+                const eventTime = item.getAttribute('data-event-time');
                 if (!eventTime) return;
-
-                // Check if event is completed
-                const isCompleted = isEventCompleted(eventTime);
-
-                // Update CSS class
-                if (isCompleted) {
-                    item.classList.add('completed');
-                } else {
-                    item.classList.remove('completed');
-                }
+                item.classList.toggle('completed', isEventCompleted(eventTime));
             });
         }
 
@@ -2195,19 +2174,11 @@
                 desktopCountdown.classList.toggle('empty', !countdownText);
             }
 
-            updateEventCountdownLabels();
             updateEventCompletionStatus();
         }
 
         function updateEventCountdownLabels() {
-            document.querySelectorAll('.event-item[data-event-time]').forEach(item => {
-                const timeString = item.getAttribute('data-event-time');
-                const label = item.querySelector('.event-countdown-label');
-                if (!label) return;
-                const countdown = formatEventCountdown(timeString);
-                label.textContent = countdown;
-                label.style.display = countdown ? '' : 'none';
-            });
+            // Per-tile countdown labels removed — countdown lives in the overlay header only.
         }
 
         // Google Analytics Event Tracking
@@ -2571,13 +2542,13 @@
                 html += `
                     <div class="event-item collapsed" id="all-competitors" onclick="toggleEvent(this)">
                         <div class="event-title">
-                            <span class="event-title-main">
-                                <span class="event-toggle">▶</span>
-                                All Opponents
-                            </span>
                             <span class="event-title-meta">
-                                <span class="heat-label">${totalCompetitors}</span>
+                                <span class="event-toggle" aria-hidden="true">▶</span>
+                                <span class="heat-label" title="Opponent count">${totalCompetitors}</span>
                             </span>
+                        </div>
+                        <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
+                            <div class="event-summary-name">All Opponents</div>
                         </div>
                         <div class="event-meta" style="display: none;">
                             <div class="meta-field">
@@ -2822,28 +2793,26 @@
                 const completedClass = isCompleted ? ' completed' : '';
                 const upcomingClass = isNextUpcoming ? ' next-upcoming' : '';
                 const displayTime = formatDisplayTime(info.time);
-                const eventCountdown = formatEventCountdown(info.time);
                 const opponentNamesAttr = competitors
                     .filter(c => c !== name)
                     .join(' | ')
                     .toLowerCase()
                     .replace(/"/g, '&quot;');
+                const heatBadge = formatHeatBadge(info.heat);
+                const heatAttr = info.heat.replace(/"/g, '&quot;');
+                const eventAttr = info.event.replace(/"/g, '&quot;');
 
-                html += `<div class="event-item collapsed${completedClass}${upcomingClass}" id="${eventId}" data-competitors="${opponentNamesAttr}" data-event-time="${info.time.replace(/"/g, '&quot;')}" onclick="toggleEvent(this)">`;
+                html += `<div class="event-item collapsed${completedClass}${upcomingClass}" id="${eventId}" data-heat="${heatAttr}" data-event="${eventAttr}" data-competitors="${opponentNamesAttr}" data-event-time="${info.time.replace(/"/g, '&quot;')}" onclick="toggleEvent(this)">`;
                 const myPlacement = getPersonPlacement(name, info.heat, info.event);
                 const placementBadge = myPlacement
                     ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
                     : '';
                 html += `
                     <div class="event-title">
-                        <span class="event-title-main">
-                            <span class="event-toggle">▶</span>
-                            ${info.event}${placementBadge}
-                        </span>
                         <span class="event-title-meta">
-                            <span class="heat-label">${info.heat}</span>
+                            <span class="event-toggle" aria-hidden="true">▶</span>
+                            <span class="heat-label" title="${heatAttr}">${heatBadge}</span>
                             <span class="event-time-label">${displayTime}</span>
-                            ${eventCountdown ? `<span class="event-countdown-label">${eventCountdown}</span>` : '<span class="event-countdown-label" style="display:none;"></span>'}
                         </span>
                     </div>
                 `;
@@ -2862,7 +2831,7 @@
 
                 html += `
                     <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
-                        <div style="margin-bottom: 4px; font-weight: 500; color: var(--text-primary);">${info.event}</div>
+                        <div class="event-summary-name">${info.event}${placementBadge}</div>
                         ${eventChipsRow}
                         ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${displayTime} | ${countText}
                     </div>
