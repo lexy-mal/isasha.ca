@@ -8,4 +8,14 @@
   Run `npm i` to install the dependencies.
 
   Run `npm run dev` to start the development server.
+
+  ## App version footer
+
+  The dance app (`public/projects/com.html`) shows a build number in the page footer. It is stamped automatically on each Cloudflare deploy (`npm run build` uses `git rev-list --count HEAD`).
+
+  Optional — stamp `version.json` on every local commit:
+
+  ```bash
+  git config core.hooksPath .githooks
+  ```
   
