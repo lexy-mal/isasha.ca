@@ -173,6 +173,101 @@
       }
     ]
   },
+  "Agheeva, Maria": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Korzon, Romeo"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Ahunov, Adelina": {
     "entries": [
       {
@@ -195,14 +290,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Guarasio, Alexandr-Samuel"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Guarasio, Alexandr-Samuel"
@@ -2472,14 +2567,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Gordon, Tyler"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Gordon, Tyler"
@@ -2551,6 +2646,80 @@
         "time": "",
         "session": "",
         "partner": "Prasnikar, Klemen"
+      }
+    ]
+  },
+  "Avoyan, Camelia": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Kaminer, George"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -5260,14 +5429,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Messier, Philippe"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Messier, Philippe"
@@ -10355,14 +10524,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Arthur"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Nor-Arevian, Arthur"
@@ -11422,14 +11591,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Lopaiev, Nikita"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Lopaiev, Nikita"
@@ -16327,6 +16496,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Tsydinskyi, Mykyta"
+      },
+      {
+        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -21087,6 +21263,80 @@
       }
     ]
   },
+  "Feskiv, Nicole": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Gakh, David"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Feyzulaev, Camilla": {
     "entries": [
       {
@@ -23265,6 +23515,80 @@
       }
     ]
   },
+  "Gakh, David": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Feskiv, Nicole"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Galati, Sienna": {
     "entries": [
       {
@@ -24560,14 +24884,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Krauchenko, Oleksandr"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Krauchenko, Oleksandr"
@@ -24578,14 +24902,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Artemenko, Kamila"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Artemenko, Kamila"
@@ -25196,14 +25520,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ahunov, Eva"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Ahunov, Eva"
@@ -28321,6 +28645,38 @@
       }
     ]
   },
+  "Hrasevich, Valeria": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Leon"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Leon"
+      },
+      {
+        "heat": "",
+        "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": null
+      },
+      {
+        "heat": "",
+        "event": "A-JR Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Huang, Charlotte": {
     "entries": [
       {
@@ -28453,14 +28809,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Malashenko, Alexandra"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Malashenko, Alexandra"
@@ -29828,14 +30184,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Skripanev, Dmitry"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Skripanev, Dmitry"
@@ -30853,6 +31209,80 @@
         "time": "",
         "session": "",
         "partner": "Miller, Linda"
+      }
+    ]
+  },
+  "Kaminer, George": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Avoyan, Camelia"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -32865,14 +33295,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Pidvirnyi, Zakhar"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Pidvirnyi, Zakhar"
@@ -33514,6 +33944,101 @@
       }
     ]
   },
+  "Korzon, Romeo": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Agheeva, Maria"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Kos, Courtney": {
     "entries": [
       {
@@ -34144,14 +34669,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Reider, Emmanuella"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Reider, Emmanuella"
@@ -34512,14 +35037,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
         "time": "",
         "session": "",
         "partner": "Gooley, Haylin"
       },
       {
         "heat": "",
-        "event": "PRO RHYTHM Championnat National Canadien / Canada's National Championship (C/R/SW/B/M)",
+        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
         "time": "",
         "session": "",
         "partner": "Gooley, Haylin"
@@ -36510,14 +37035,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Thokoly, Emese"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Thokoly, Emese"
@@ -44230,14 +44755,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Peng, Noreen"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Peng, Noreen"
@@ -45224,14 +45749,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Carunas, Elina"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Carunas, Elina"
@@ -46764,14 +47289,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Hurtado, Maximiliano"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Hurtado, Maximiliano"
@@ -49449,14 +49974,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Beaudry, Annabelle"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Beaudry, Annabelle"
@@ -52906,14 +53431,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Bronshtein, Evelyn"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Bronshtein, Evelyn"
@@ -52959,6 +53484,28 @@
         "time": "",
         "session": "",
         "partner": "Bronshtein, Evelyn"
+      }
+    ]
+  },
+  "Nor-Arevian, Norair": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Nor-Arevian, Olga"
+      }
+    ]
+  },
+  "Nor-Arevian, Olga": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-AD1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Nor-Arevian, Norair"
       }
     ]
   },
@@ -53056,6 +53603,87 @@
         "time": "",
         "session": "",
         "partner": "Kitsun, Andrei"
+      }
+    ]
+  },
+  "Ofengenden, Abigail": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Yagiyaev, Alec"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -56334,14 +56962,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Liu, Nickolas"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Liu, Nickolas"
@@ -58279,14 +58907,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Kishchuk, Sofiia"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Kishchuk, Sofiia"
@@ -61545,14 +62173,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Koval, Mykhailo"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Koval, Mykhailo"
@@ -62395,6 +63023,38 @@
         "time": "",
         "session": "",
         "partner": null
+      }
+    ]
+  },
+  "Reunov, Daniel": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Marielle"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Marielle"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Marielle"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shvaitser, Marielle"
       }
     ]
   },
@@ -64326,6 +64986,101 @@
         "time": "",
         "session": "",
         "partner": "Mitchell, Brenton"
+      }
+    ]
+  },
+  "Rotbart, Stanley": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Udebashvilli, Milana"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -69385,6 +70140,94 @@
       }
     ]
   },
+  "Shpolski, Alex": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Soloviov, Maria"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
   "Shpuntov, Mark Igor": {
     "entries": [
       {
@@ -69758,6 +70601,56 @@
       }
     ]
   },
+  "Shvaitser, Leon": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Hrasevich, Valeria"
+      },
+      {
+        "heat": "",
+        "event": "L-JR Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Hrasevich, Valeria"
+      }
+    ]
+  },
+  "Shvaitser, Marielle": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Reunov, Daniel"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Reunov, Daniel"
+      },
+      {
+        "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Reunov, Daniel"
+      },
+      {
+        "heat": "",
+        "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Reunov, Daniel"
+      }
+    ]
+  },
   "Silagadze, David": {
     "entries": [
       {
@@ -70065,14 +70958,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Jamaleddin, Eva"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Jamaleddin, Eva"
@@ -70798,6 +71691,94 @@
         "time": "",
         "session": "",
         "partner": "Lukianova, Yuliia"
+      }
+    ]
+  },
+  "Soloviov, Maria": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "AC-JR Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Shpolski, Alex"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -75120,14 +76101,14 @@
     "entries": [
       {
         "heat": "",
-        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Lakutsevich, Anton"
       },
       {
         "heat": "",
-        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "",
         "session": "",
         "partner": "Lakutsevich, Anton"
@@ -77671,6 +78652,13 @@
     "entries": [
       {
         "heat": "",
+        "event": "AC-YTH AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Davidov, Elizabeth"
+      },
+      {
+        "heat": "",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "",
         "session": "",
@@ -80086,6 +81074,101 @@
         "time": "",
         "session": "",
         "partner": "Shpuntov, Mark Igor"
+      }
+    ]
+  },
+  "Udebashvilli, Milana": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Rotbart, Stanley"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
+        "time": "",
+        "session": "",
+        "partner": null
       }
     ]
   },
@@ -84084,6 +85167,87 @@
       {
         "heat": "",
         "event": "A-16+ Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+        "time": "",
+        "session": "",
+        "partner": null
+      }
+    ]
+  },
+  "Yagiyaev, Alec": {
+    "entries": [
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR LATIN (P/J)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "AC-JV Or/Gold AMATEUR LATIN (C/R/S)",
+        "time": "",
+        "session": "",
+        "partner": "Ofengenden, Abigail"
+      },
+      {
+        "heat": "",
+        "event": "Formation \"ADIOS\"",
         "time": "",
         "session": "",
         "partner": null
