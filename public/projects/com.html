@@ -607,32 +607,126 @@
             background: var(--accent);
         }
 
-        /* Detail overlay styles - base (hidden on desktop) */
+        /* Detail overlay — always a flex column so the countdown cannot scroll.
+           Do not overlap header and content: iOS -webkit-overflow-scrolling
+           paints the scroll layer above siblings regardless of z-index. */
         .detail-overlay {
             position: fixed;
             inset: 0;
             background: var(--bg-primary);
             z-index: 2050;
-            flex-direction: column;
-            opacity: 0;
-            transition: opacity 0.3s ease;
             display: none;
+            flex-direction: column;
+            height: 100%;
+            height: 100dvh;
+            height: 100svh;
+            overflow: hidden;
             pointer-events: none;
         }
 
         .detail-overlay.active {
             display: flex !important;
-            flex-direction: column;
-            height: 100dvh;
-            height: 100svh;
-            overflow: hidden;
-            opacity: 1;
             pointer-events: auto;
+        }
+
+        .detail-overlay-top {
+            flex: 0 0 auto;
+            background: var(--bg-primary);
+            z-index: 2;
+        }
+
+        .detail-overlay.active .detail-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--bg-tertiary);
+        }
+
+        .detail-overlay.active .detail-back-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            background: transparent;
+            border: none;
+            color: var(--accent);
+            font-size: 20px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .detail-header-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            flex: 1;
+            min-width: 0;
+        }
+
+        .detail-person-name {
+            display: block;
+            font-size: 1em;
+            font-weight: 600;
+            color: var(--accent);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .detail-event-count {
+            display: block;
+            font-size: 0.75em;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .detail-overlay.active .overlay-countdown-bar {
+            display: block !important;
+            position: static;
+            margin: 0;
+            border-radius: 0;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            box-shadow: none;
+        }
+
+        .detail-overlay.active .overlay-countdown-bar.empty {
+            display: none;
+        }
+
+        .detail-overlay.active #desktopCountdown,
+        .detail-overlay.active #detailNextHeat {
+            display: none !important;
+        }
+
+        .detail-overlay.active .detail-content {
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow-x: hidden;
+            overflow-y: auto;
+            padding: 20px 20px 48px;
+            overscroll-behavior: contain;
+        }
+
+        html.detail-overlay-open,
+        html.detail-overlay-open body {
+            overflow: hidden !important;
+            height: 100% !important;
+            overscroll-behavior: none;
+        }
+
+        html.detail-overlay-open #mainContainer {
+            visibility: hidden;
         }
 
         .detail-back-btn,
         .detail-header {
-            display: none; /* Hidden until mobile media query shows them */
+            display: none;
         }
 
         /* Show countdown element on desktop */
@@ -714,155 +808,19 @@
                 font-size: 2.5em;
             }
 
-            /* Mobile detail overlay styles */
-            .detail-header {
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                padding: 16px;
-                background: var(--bg-secondary);
-                border-bottom: 1px solid var(--bg-tertiary);
-                flex-shrink: 0;
-                z-index: 1001;
-            }
-
-            .detail-back-btn {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 36px;
-                height: 36px;
-                background: transparent;
-                border: none;
-                color: var(--accent);
-                font-size: 20px;
-                cursor: pointer;
-                transition: opacity 0.2s ease;
-                flex-shrink: 0;
-            }
-
-            .detail-back-btn:active {
+            .detail-overlay.active .detail-back-btn:active {
                 opacity: 0.7;
             }
 
-            .detail-header-info {
-                display: flex;
-                flex-direction: column;
-                gap: 2px;
-                flex: 1;
-                min-width: 0;
-            }
-
-            .detail-person-name {
-                display: block;
-                font-size: 1em;
-                font-weight: 600;
-                color: var(--accent);
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
-
-            .detail-event-count {
-                display: block;
-                font-size: 0.75em;
-                color: var(--text-secondary);
-                text-transform: uppercase;
-                letter-spacing: 0.05em;
-            }
-
-            /* iOS Safari: fixed top block + inset scroll pane (flex sticky is unreliable) */
-            .detail-overlay.active {
-                display: block;
-            }
-
-            .detail-overlay-top {
+            /* Fallback if overlay did not open: pin the in-page countdown */
+            #desktopCountdown {
                 position: fixed;
                 top: 0;
                 left: 0;
                 right: 0;
-                z-index: 2;
-                background: var(--bg-primary);
-                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
-            }
-
-            .detail-content {
-                position: fixed;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                overflow-y: auto;
-                overflow-x: hidden;
-                padding: var(--overlay-top-inset, 96px) 20px 48px;
-                -webkit-overflow-scrolling: touch;
-                overscroll-behavior: contain;
-            }
-
-            #detailNextHeat {
-                display: none;
-            }
-
-            .detail-overlay .overlay-countdown-bar {
-                display: block;
-                position: static;
                 margin: 0;
                 border-radius: 0;
-                border-left: none;
-                border-right: none;
-                border-top: none;
-                box-shadow: none;
-            }
-
-            .detail-overlay .overlay-countdown-bar.empty {
-                display: none;
-            }
-
-            .detail-overlay.active #desktopCountdown {
-                display: none !important;
-            }
-
-            html.detail-overlay-open #mainContainer {
-                visibility: hidden;
-            }
-
-            html.detail-overlay-open {
-                overflow: hidden;
-                height: 100%;
-            }
-
-            html.detail-overlay-open body {
-                overflow: hidden;
-                height: 100%;
-            }
-
-            /* Overlay animations */
-            @keyframes slideDown {
-                from {
-                    opacity: 0;
-                    transform: translateY(-10px);
-                }
-                to {
-                    opacity: 1;
-                    transform: translateY(0);
-                }
-            }
-
-            @keyframes fadeIn {
-                from {
-                    opacity: 0;
-                }
-                to {
-                    opacity: 1;
-                }
-            }
-
-            .detail-overlay.active .detail-header {
-                animation: none;
-            }
-
-            .detail-overlay.active .detail-content {
-                animation: none;
+                z-index: 1500;
             }
         }
 
