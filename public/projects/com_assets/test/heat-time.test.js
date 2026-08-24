@@ -15,8 +15,8 @@ const TIME_SYMBOLS = [
 ];
 
 const NATIONAL_2026_PRELUDE = `
-let competitionStartDate = new Date(2026, 7, 20);
-let competitionEndDate = new Date(2026, 7, 23);
+let competitionStartDate = new Date(2026, 7, 27);
+let competitionEndDate = new Date(2026, 7, 30);
 competitionEndDate.setHours(23, 59, 59, 999);
 `;
 
@@ -86,7 +86,7 @@ test('compareEventsByTime', async (t) => {
     const sunday = fns.getEventDateFromTimeString('10:23 Sunday');
     assert.equal(sunday.getFullYear(), 2026);
     assert.equal(sunday.getMonth(), 7);
-    assert.equal(sunday.getDate(), 23);
+    assert.equal(sunday.getDate(), 30);
     assert.equal(sunday.getDay(), 0);
   });
 });

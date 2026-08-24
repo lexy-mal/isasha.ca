@@ -4,11 +4,11 @@
 # real data changes). Self-expires after STOP_DATE by removing its own crontab line.
 #
 # Installed by: crontab -l entry added 2026-08-17, runs daily at 6:00 AM local.
-# Expires: 2026-08-24 (7 days) — after that this script removes its own cron line.
+# Expires: 2026-08-31 (day after Nationals ends) — after that this script removes its own cron line.
 
 set -uo pipefail
 
-STOP_DATE="2026-08-24"
+STOP_DATE="2026-08-31"
 REPO_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
 SCRAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOG_FILE="$SCRAPER_DIR/daily_scrape.log"
