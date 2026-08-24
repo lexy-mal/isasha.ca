@@ -32,11 +32,11 @@ def get_config(comp_id=None):
     env_vars = load_env()
 
     if comp_id is None:
-        comp_id = env_vars.get('COMPETITION_ID', 'national2026')
+        comp_id = os.environ.get('COMPETITION_ID') or env_vars.get('COMPETITION_ID', 'national2026')
 
     config = {
         'competition_id': comp_id,
-        'heat_lists_url': env_vars.get('HEAT_LISTS_URL', ''),
+        'heat_lists_url': os.environ.get('HEAT_LISTS_URL') or env_vars.get('HEAT_LISTS_URL', ''),
         'results_index_url': env_vars.get('RESULTS_INDEX_URL', ''),
         'results_cgi_url': env_vars.get('RESULTS_CGI_URL', 'http://www.comp-mngr.com/cgi-bin/ScoresheetHandler.pl'),
         'results_data_file': env_vars.get('RESULTS_DATA_FILE', ''),

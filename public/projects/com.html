@@ -636,8 +636,20 @@
             color: var(--accent);
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             font-weight: 500;
+        }
+
+        .event-time-label {
+            font-size: 0.78em;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            margin-left: 8px;
+        }
+
+        .event-item.next-upcoming {
+            border-left: 3px solid var(--accent);
+            padding-left: 12px;
         }
 
         @media (max-width: 1024px) {
@@ -1579,20 +1591,82 @@
             return html;
         }
 
-        // Parse heat time from format: "03:38PM Sunday" or "06:54PM Sunday Later rounds: 5@07:07PM Sunday"
+        // Parse heat time from format: "03:38PM Sunday", "10:23 Sunday", or "06:54PM Sunday Later rounds: ..."
         function parseHeatTime(timeString) {
             if (!timeString) return null;
 
-            // Match first occurrence of HH:MMAM/PM DayName
-            const match = timeString.match(/(\d{1,2}):(\d{2})(AM|PM)\s+(\w+)/);
-            if (!match) return null;
+            const match12 = timeString.match(/(\d{1,2}):(\d{2})(AM|PM)\s+(\w+)/);
+            if (match12) {
+                return {
+                    hour: parseInt(match12[1], 10),
+                    minute: parseInt(match12[2], 10),
+                    meridiem: match12[3],
+                    dayName: match12[4]
+                };
+            }
 
-            return {
-                hour: parseInt(match[1]),
-                minute: parseInt(match[2]),
-                meridiem: match[3],
-                dayName: match[4]
-            };
+            const match24 = timeString.match(/(\d{1,2}):(\d{2})\s+(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)/i);
+            if (match24) {
+                return {
+                    hour: parseInt(match24[1], 10),
+                    minute: parseInt(match24[2], 10),
+                    meridiem: null,
+                    dayName: match24[3].charAt(0).toUpperCase() + match24[3].slice(1).toLowerCase()
+                };
+            }
+
+            return null;
+        }
+
+        function parsedHour24(parsedTime) {
+            if (!parsedTime) return null;
+            if (parsedTime.meridiem == null) return parsedTime.hour;
+            let hour = parsedTime.hour;
+            if (parsedTime.meridiem === 'PM' && hour !== 12) {
+                hour += 12;
+            } else if (parsedTime.meridiem === 'AM' && hour === 12) {
+                hour = 0;
+            }
+            return hour;
+        }
+
+        function getEventDateFromTimeString(timeString) {
+            const parsed = parseHeatTime(timeString);
+            if (!parsed) return null;
+
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            const targetDayIndex = days.indexOf(parsed.dayName);
+            if (targetDayIndex === -1) return null;
+
+            const now = new Date();
+            const todayIndex = now.getDay();
+            const hour = parsedHour24(parsed);
+            if (hour == null) return null;
+
+            const eventDate = new Date(now);
+            eventDate.setHours(hour, parsed.minute, 0, 0);
+            eventDate.setDate(eventDate.getDate() + (targetDayIndex - todayIndex));
+            return eventDate;
+        }
+
+        function formatDisplayTime(timeString) {
+            const parsed = parseHeatTime(timeString);
+            if (!parsed) return timeString || 'TBD';
+            const hour = parsedHour24(parsed);
+            const minute = String(parsed.minute).padStart(2, '0');
+            if (parsed.meridiem) {
+                return `${parsed.hour}:${minute}${parsed.meridiem} ${parsed.dayName}`;
+            }
+            return `${hour}:${minute} ${parsed.dayName}`;
+        }
+
+        function compareEventsByTime(a, b) {
+            const dateA = getEventDateFromTimeString(a.time);
+            const dateB = getEventDateFromTimeString(b.time);
+            if (dateA && dateB) return dateA - dateB;
+            if (dateA) return -1;
+            if (dateB) return 1;
+            return (a.heat + a.event).localeCompare(b.heat + b.event);
         }
 
         // Calculate next occurrence of a day/time combination
@@ -1606,20 +1680,12 @@
 
             const now = new Date();
             const todayIndex = now.getDay();
+            const hour = parsedHour24(parsedTime);
+            if (hour == null) return null;
 
-            // Convert to 24-hour format
-            let hour = parsedTime.hour;
-            if (parsedTime.meridiem === 'PM' && hour !== 12) {
-                hour += 12;
-            } else if (parsedTime.meridiem === 'AM' && hour === 12) {
-                hour = 0;
-            }
-
-            // Create date for target day/time
             const result = new Date(now);
             result.setHours(hour, parsedTime.minute, 0, 0);
 
-            // Calculate days to add
             let daysToAdd = targetDayIndex - todayIndex;
             if (daysToAdd < 0 || (daysToAdd === 0 && result <= now)) {
                 daysToAdd += 7;
@@ -1643,24 +1709,18 @@
             personData.entries.forEach(entry => {
                 const parsed = parseHeatTime(entry.time);
                 if (parsed) {
-                    // Create a date for this week's occurrence
+                    const now = new Date();
                     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
                     const targetDayIndex = days.indexOf(parsed.dayName);
                     const todayIndex = now.getDay();
-
-                    let hour = parsed.hour;
-                    if (parsed.meridiem === 'PM' && hour !== 12) {
-                        hour += 12;
-                    } else if (parsed.meridiem === 'AM' && hour === 12) {
-                        hour = 0;
-                    }
+                    const hour = parsedHour24(parsed);
+                    if (hour == null) return;
 
                     const eventDate = new Date(now);
                     eventDate.setHours(hour, parsed.minute, 0, 0);
 
                     let daysToAdd = targetDayIndex - todayIndex;
                     if (daysToAdd < 0 || (daysToAdd === 0 && eventDate <= now)) {
-                        // Event was earlier in week or already passed today - don't show (competition is over)
                         return;
                     }
 
@@ -1670,6 +1730,7 @@
                     if (!seenHeatTimes.has(timeKey)) {
                         upcomingHeats.push({
                             heat: entry.heat,
+                            event: entry.event,
                             time: eventDate,
                             originalTime: entry.time
                         });
@@ -1702,37 +1763,29 @@
             personData.entries.forEach(entry => {
                 const parsed = parseHeatTime(entry.time);
                 if (parsed) {
-                    // Create a date for this week's occurrence
                     const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
                     const targetDayIndex = days.indexOf(parsed.dayName);
                     const todayIndex = now.getDay();
-
-                    // Convert to 24-hour format
-                    let hour = parsed.hour;
-                    if (parsed.meridiem === 'PM' && hour !== 12) {
-                        hour += 12;
-                    } else if (parsed.meridiem === 'AM' && hour === 12) {
-                        hour = 0;
-                    }
+                    const hour = parsedHour24(parsed);
+                    if (hour == null) return;
 
                     const eventDate = new Date(now);
                     eventDate.setHours(hour, parsed.minute, 0, 0);
 
-                    // Adjust to correct day of week
                     let daysToAdd = targetDayIndex - todayIndex;
                     if (daysToAdd < 0) {
-                        daysToAdd += 7; // Event was earlier in week, was last week
+                        daysToAdd += 7;
                     } else if (daysToAdd > 0 || (daysToAdd === 0 && eventDate > now)) {
-                        daysToAdd = 0; // Event is today and hasn't started, or later this week
+                        daysToAdd = 0;
                     }
                     eventDate.setDate(eventDate.getDate() + daysToAdd);
 
-                    // Check if this heat has started (heat time <= now) and is the latest one
                     if (eventDate <= now) {
                         if (!latestStartTime || eventDate > latestStartTime) {
                             latestStartTime = eventDate;
                             currentHeat = {
                                 heat: entry.heat,
+                                event: entry.event,
                                 time: eventDate,
                                 originalTime: entry.time
                             };
@@ -1772,19 +1825,18 @@
             const mins = Math.floor((totalSeconds % 3600) / 60);
             const secs = totalSeconds % 60;
             const heatNum = nextHeatTime.heat || '';
+            const eventLabel = nextHeatTime.event
+                ? `${heatNum} · ${nextHeatTime.event.length > 40 ? nextHeatTime.event.slice(0, 37) + '…' : nextHeatTime.event}`
+                : heatNum;
 
             if (totalSeconds < 60) {
-                // Less than 1 minute - show seconds only
-                return `🕐 Next: ${heatNum} in ${secs}s`;
+                return `🕐 Next: ${eventLabel} in ${secs}s`;
             } else if (totalSeconds < 3600) {
-                // Less than 1 hour - show minutes and seconds
-                return `🕐 Next: ${heatNum} in ${mins}m ${secs}s`;
+                return `🕐 Next: ${eventLabel} in ${mins}m ${secs}s`;
             } else if (totalSeconds < 86400) {
-                // Less than 1 day - show hours, minutes, seconds
-                return `🕐 Next: ${heatNum} in ${hours}h ${mins}m ${secs}s`;
+                return `🕐 Next: ${eventLabel} in ${hours}h ${mins}m ${secs}s`;
             } else {
-                // 1 day or more - show days, hours, minutes, seconds
-                return `🕐 Next: ${heatNum} in ${days}d ${hours}h ${mins}m ${secs}s`;
+                return `🕐 Next: ${eventLabel} in ${days}d ${hours}h ${mins}m ${secs}s`;
             }
         }
 
@@ -1792,41 +1844,10 @@
         function isEventCompleted(timeString) {
             if (!timeString) return false;
 
-            const parsed = parseHeatTime(timeString);
-            if (!parsed) return false;
+            const eventDate = getEventDateFromTimeString(timeString);
+            if (!eventDate) return false;
 
-            const now = new Date();
-            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-            const targetDayIndex = days.indexOf(parsed.dayName);
-            if (targetDayIndex === -1) return false;
-
-            const todayIndex = now.getDay();
-
-            // Convert to 24-hour format
-            let hour = parsed.hour;
-            if (parsed.meridiem === 'PM' && hour !== 12) {
-                hour += 12;
-            } else if (parsed.meridiem === 'AM' && hour === 12) {
-                hour = 0;
-            }
-
-            // Create date for this occurrence of the target day
-            const eventDate = new Date(now);
-            eventDate.setHours(hour, parsed.minute, 0, 0);
-
-            // If target day is later in the week, adjust to that day
-            // If target day is earlier or same, keep current week (already passed)
-            let daysToAdd = targetDayIndex - todayIndex;
-            if (daysToAdd > 0) {
-                // Event is later in this week, hasn't happened yet
-                return false;
-            } else if (daysToAdd === 0) {
-                // Event is today - check if time has passed
-                return eventDate < now;
-            } else {
-                // Event is earlier in week - it already happened
-                return true;
-            }
+            return eventDate < new Date();
         }
 
         // Update completed status of all visible events
@@ -2179,9 +2200,6 @@
             // Add to recently viewed
             addToRecentlyViewed(name);
 
-            // Update countdown timer immediately
-            updateDetailCountdown();
-
             // Show overlay on mobile
             const overlay = document.querySelector('.detail-overlay');
             if (window.innerWidth <= 768) {
@@ -2234,8 +2252,11 @@
                 }
             });
 
+            const nextHeat = getNextHeatForPerson(data);
+
             let html = `
                 <div class="person-header">
+                    <div id="desktopCountdown"></div>
                     <div class="person-name">${name}</div>
                     <div class="stats-grid">
                         <div class="stat-box">
@@ -2255,7 +2276,6 @@
                             <div class="stat-label">Competitors</div>
                         </div>
                     </div>
-                    <div id="desktopCountdown" style="margin-top: 20px;"></div>
                 </div>
             `;
 
@@ -2539,8 +2559,7 @@
                 byHeatEvent[key].entries.push(entry);
             });
 
-            Object.keys(byHeatEvent).sort().forEach(key => {
-                const info = byHeatEvent[key];
+            Object.values(byHeatEvent).sort(compareEventsByTime).forEach(info => {
                 const eventInfo = heatEventsData.find(he => he.heat === info.heat && he.event === info.event);
 
                 if (!eventInfo) return;
@@ -2553,14 +2572,19 @@
                 const isCoupleEvent = eventPartners.length > 0;
                 const eventId = `event-${info.heat.replace(/\s+/g, '-')}-${info.event.replace(/\s+/g, '-')}`;
                 const isCompleted = isEventCompleted(info.entries[0]?.time);
+                const isNextUpcoming = nextHeat
+                    && nextHeat.heat === info.heat
+                    && nextHeat.event === info.event;
                 const completedClass = isCompleted ? ' completed' : '';
+                const upcomingClass = isNextUpcoming ? ' next-upcoming' : '';
+                const displayTime = formatDisplayTime(info.time);
                 const opponentNamesAttr = competitors
                     .filter(c => c !== name)
                     .join(' | ')
                     .toLowerCase()
                     .replace(/"/g, '&quot;');
 
-                html += `<div class="event-item collapsed${completedClass}" id="${eventId}" data-competitors="${opponentNamesAttr}" onclick="toggleEvent(this)">`;
+                html += `<div class="event-item collapsed${completedClass}${upcomingClass}" id="${eventId}" data-competitors="${opponentNamesAttr}" onclick="toggleEvent(this)">`;
                 const myPlacement = getPersonPlacement(name, info.heat, info.event);
                 const placementBadge = myPlacement
                     ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
@@ -2571,6 +2595,7 @@
                             <span class="event-toggle">▶</span>
                             ${info.event}${placementBadge}
                         </span>
+                        <span class="event-time-label">${displayTime}</span>
                         <span class="heat-label">${info.heat}</span>
                     </div>
                 `;
@@ -2591,7 +2616,7 @@
                     <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
                         <div style="margin-bottom: 4px; font-weight: 500; color: var(--text-primary);">${info.event}</div>
                         ${eventChipsRow}
-                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${info.time} | ${countText}
+                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${displayTime} | ${countText}
                     </div>
                 `;
 
@@ -2600,7 +2625,7 @@
                 html += `
                     <div class="meta-field">
                         <div class="meta-label">Time</div>
-                        <div class="meta-value">${info.time}</div>
+                        <div class="meta-value">${displayTime}</div>
                     </div>
                     <div class="meta-field">
                         <div class="meta-label">Competitors</div>
@@ -2715,6 +2740,7 @@
 
             html += '</div>';
             contentElement.innerHTML = html;
+            updateDetailCountdown();
         }
 
         function filterHeatsByOpponent(value, inputEl) {

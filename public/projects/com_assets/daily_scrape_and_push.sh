@@ -9,10 +9,12 @@
 set -uo pipefail
 
 STOP_DATE="2026-08-24"
-REPO_DIR="/home/andrey/projects/isasha"
-SCRAPER_DIR="$REPO_DIR/public/projects/com_assets"
+REPO_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
+SCRAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOG_FILE="$SCRAPER_DIR/daily_scrape.log"
 DATA_DIR="$SCRAPER_DIR/national2026"
+HEAT_LISTS_URL="http://www.comp-mngr.com/national2026/national2026_HeatLists.htm"
+export HEAT_LISTS_URL
 
 # cron runs with a bare environment, so the GNOME keyring SSH agent that holds the
 # passphrase for the GitHub deploy key isn't wired up automatically the way it is in an
@@ -32,7 +34,7 @@ fi
 log "Starting daily scrape."
 cd "$SCRAPER_DIR"
 
-if ! python3 scrape_national2026.py >> "$LOG_FILE" 2>&1; then
+if ! python3 scrape_data_flexible.py national2026 >> "$LOG_FILE" 2>&1; then
     log "Scrape FAILED (see log above). Not committing/pushing."
     exit 1
 fi
