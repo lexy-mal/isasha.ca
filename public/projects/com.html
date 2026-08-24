@@ -641,7 +641,10 @@
         }
 
         .participant-countdown-bar {
-            background: rgba(0, 217, 255, 0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--bg-primary);
             border: 1px solid var(--accent-dim);
             border-radius: 8px;
             padding: 12px 16px;
@@ -650,6 +653,7 @@
             color: var(--accent);
             font-weight: 500;
             line-height: 1.4;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
         }
 
         .participant-countdown-bar.empty {
@@ -686,6 +690,11 @@
         }
 
         @media (max-width: 1024px) {
+            /* Mobile detail header already shows #detailNextHeat */
+            #desktopCountdown {
+                display: none !important;
+            }
+
             .main-content {
                 grid-template-columns: 1fr;
             }
@@ -2322,8 +2331,8 @@
             const nextHeat = getNextHeatForPerson(data);
 
             let html = `
+                <div id="desktopCountdown" class="participant-countdown-bar"></div>
                 <div class="person-header">
-                    <div id="desktopCountdown" class="participant-countdown-bar"></div>
                     <div class="person-name">${name}</div>
                     <div class="stats-grid">
                         <div class="stat-box">
