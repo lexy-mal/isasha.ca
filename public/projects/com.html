@@ -612,7 +612,7 @@
             position: fixed;
             inset: 0;
             background: var(--bg-primary);
-            z-index: 1000;
+            z-index: 2050;
             flex-direction: column;
             opacity: 0;
             transition: opacity 0.3s ease;
@@ -624,6 +624,7 @@
             display: flex !important;
             flex-direction: column;
             height: 100dvh;
+            height: 100svh;
             overflow: hidden;
             opacity: 1;
             pointer-events: auto;
@@ -770,30 +771,47 @@
                 letter-spacing: 0.05em;
             }
 
-            .detail-content {
+            /* iOS Safari: fixed top block + inset scroll pane (flex sticky is unreliable) */
+            .detail-overlay.active {
                 display: block;
-                flex: 1;
-                min-height: 0;
+            }
+
+            .detail-overlay-top {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 2;
+                background: var(--bg-primary);
+                box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+            }
+
+            .detail-content {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
                 overflow-y: auto;
-                padding: 20px;
-                padding-bottom: 48px;
+                overflow-x: hidden;
+                padding: var(--overlay-top-inset, 96px) 20px 48px;
                 -webkit-overflow-scrolling: touch;
+                overscroll-behavior: contain;
             }
 
             #detailNextHeat {
                 display: none;
             }
 
-            /* Pinned between header and scroll area — sticky fails inside iOS overflow scroll */
             .detail-overlay .overlay-countdown-bar {
                 display: block;
-                flex-shrink: 0;
                 position: static;
                 margin: 0;
                 border-radius: 0;
                 border-left: none;
                 border-right: none;
                 border-top: none;
+                box-shadow: none;
             }
 
             .detail-overlay .overlay-countdown-bar.empty {
@@ -804,15 +822,18 @@
                 display: none !important;
             }
 
-            /* Hide main-content when overlay is active */
-            .detail-overlay.active ~ .main-content {
-                display: none;
+            html.detail-overlay-open #mainContainer {
+                visibility: hidden;
             }
 
-            body.detail-overlay-open {
+            html.detail-overlay-open {
                 overflow: hidden;
-                position: fixed;
-                width: 100%;
+                height: 100%;
+            }
+
+            html.detail-overlay-open body {
+                overflow: hidden;
+                height: 100%;
             }
 
             /* Overlay animations */
@@ -837,11 +858,11 @@
             }
 
             .detail-overlay.active .detail-header {
-                animation: slideDown 0.3s ease;
+                animation: none;
             }
 
             .detail-overlay.active .detail-content {
-                animation: fadeIn 0.3s ease 0.1s both;
+                animation: none;
             }
         }
 
@@ -1080,8 +1101,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="detail-overlay">
+    <div class="detail-overlay">
+        <div class="detail-overlay-top">
             <div class="detail-header">
                 <button class="detail-back-btn" onclick="closeDetailView()">←</button>
                 <div class="detail-header-info">
@@ -1091,9 +1114,9 @@
                 </div>
             </div>
             <div id="overlayCountdown" class="participant-countdown-bar overlay-countdown-bar empty"></div>
-            <div class="detail-content" id="detailContentDisplay">
-                <div class="loading">Loading data...</div>
-            </div>
+        </div>
+        <div class="detail-content" id="detailContentDisplay">
+            <div class="loading">Loading data...</div>
         </div>
     </div>
 
@@ -1110,6 +1133,47 @@
         let judgesData = {};
         let competitionStartDate = null;
         let competitionEndDate = null;
+
+        const MOBILE_DETAIL_MQ = window.matchMedia('(max-width: 1024px)');
+        const TOUCH_MQ = window.matchMedia('(hover: none) and (pointer: coarse)');
+        let overlayTopObserver = null;
+
+        function useMobileDetailOverlay() {
+            return MOBILE_DETAIL_MQ.matches || (TOUCH_MQ.matches && window.innerWidth <= 1280);
+        }
+
+        function syncOverlayTopInset() {
+            const overlay = document.querySelector('.detail-overlay');
+            const top = document.querySelector('.detail-overlay-top');
+            if (!overlay?.classList.contains('active') || !top) return;
+            overlay.style.setProperty('--overlay-top-inset', `${top.offsetHeight}px`);
+        }
+
+        function observeOverlayTop() {
+            const top = document.querySelector('.detail-overlay-top');
+            if (!top) return;
+            if (!overlayTopObserver) {
+                overlayTopObserver = new ResizeObserver(() => syncOverlayTopInset());
+            }
+            overlayTopObserver.disconnect();
+            overlayTopObserver.observe(top);
+            syncOverlayTopInset();
+        }
+
+        function openDetailOverlay() {
+            if (!useMobileDetailOverlay()) return;
+            const overlay = document.querySelector('.detail-overlay');
+            overlay.classList.add('active');
+            document.documentElement.classList.add('detail-overlay-open');
+            observeOverlayTop();
+        }
+
+        function closeDetailOverlay() {
+            const overlay = document.querySelector('.detail-overlay');
+            overlay?.classList.remove('active');
+            document.documentElement.classList.remove('detail-overlay-open');
+            overlayTopObserver?.disconnect();
+        }
 
         // Format names from "Last, First" to "First Last"
         function formatName(name) {
@@ -2056,6 +2120,7 @@
             if (overlayCountdown) {
                 overlayCountdown.textContent = countdownText;
                 overlayCountdown.classList.toggle('empty', !countdownText);
+                syncOverlayTopInset();
             }
 
             const mobileCountdown = document.getElementById('detailNextHeat');
@@ -2320,12 +2385,8 @@
             // Add to recently viewed
             addToRecentlyViewed(name);
 
-            // Show overlay on mobile
-            const overlay = document.querySelector('.detail-overlay');
-            if (window.innerWidth <= 1024) {
-                overlay.classList.add('active');
-                document.body.classList.add('detail-overlay-open');
-            }
+            // Show overlay on mobile / touch
+            openDetailOverlay();
 
             // Update header text
             document.getElementById('detailPersonName').textContent = name;
@@ -2864,6 +2925,9 @@
             html += '</div>';
             contentElement.innerHTML = html;
             updateDetailCountdown();
+            if (document.querySelector('.detail-overlay')?.classList.contains('active')) {
+                observeOverlayTop();
+            }
         }
 
         function filterHeatsByOpponent(value, inputEl) {
@@ -3064,9 +3128,7 @@
         });
 
         function closeDetailView() {
-            const overlay = document.querySelector('.detail-overlay');
-            overlay.classList.remove('active');
-            document.body.classList.remove('detail-overlay-open');
+            closeDetailOverlay();
         }
 
         function getHomeStats() {
@@ -3378,12 +3440,9 @@
                 || heatEventsData.find(he => (he.heat || he.event) === eventKey);
             if (!eventInfo) return;
 
-            const overlay = document.querySelector('.detail-overlay');
-            if (window.innerWidth <= 1024) {
-                overlay.classList.add('active');
-                document.body.classList.add('detail-overlay-open');
-            }
+            openDetailOverlay();
 
+            const overlay = document.querySelector('.detail-overlay');
             const contentElement = overlay.classList.contains('active')
                 ? document.getElementById('detailContentDisplay')
                 : document.getElementById('contentDisplay');
@@ -3485,7 +3544,7 @@
                 </div>
             `;
 
-            if (window.innerWidth > 1024) {
+            if (!useMobileDetailOverlay()) {
                 html += `
                     <button onclick="backToEventList()" style="margin-bottom:16px;padding:8px 14px;background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:6px;color:var(--accent);cursor:pointer;font-size:0.85em;">← Back to events</button>
                 `;
@@ -3664,12 +3723,10 @@
 
         // Close overlay when resizing above mobile breakpoint
         window.addEventListener('resize', () => {
-            if (window.innerWidth > 1024) {
-                const overlay = document.querySelector('.detail-overlay');
-                if (overlay) {
-                    overlay.classList.remove('active');
-                }
-                document.body.classList.remove('detail-overlay-open');
+            if (!useMobileDetailOverlay()) {
+                closeDetailOverlay();
+            } else {
+                syncOverlayTopInset();
             }
         });
 
