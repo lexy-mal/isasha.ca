@@ -2110,6 +2110,8 @@
                 countdownText = formatCountdownTime(nextHeat);
             } else if (competitionEndDate && new Date() > competitionEndDate) {
                 countdownText = `✓ Competition ended (${competitionEndDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' })})`;
+            } else if (personData.entries.some(entry => !getEventDateFromTimeString(entry.time))) {
+                countdownText = '⏳ Heat times not posted yet';
             } else {
                 countdownText = '✓ All events completed';
             }
