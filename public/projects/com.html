@@ -1114,6 +1114,7 @@
         let judgesData = {};
         let competitionStartDate = null;
         let competitionEndDate = null;
+        let overlayTopObserver = null;
 
         function isIPad() {
             const ua = navigator.userAgent || '';
@@ -3688,9 +3689,11 @@
 
         function selectParticipantFromSuggestion(name) {
             const input = document.querySelector('.home-heats-participant-filter');
-            input.value = name;
-            document.getElementById('participant-suggestions').innerHTML = '';
+            if (input) input.value = name;
+            const suggestions = document.getElementById('participant-suggestions');
+            if (suggestions) suggestions.innerHTML = '';
             filterHomeHeats();
+            selectParticipant(name, null, 'event_filter_suggestion');
         }
 
         function clearSearch() {
