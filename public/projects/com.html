@@ -2996,9 +2996,17 @@
         function getHomeHeatsList() {
             const heatStats = {};
             heatEventsData.forEach(he => {
-                const key = he.heat || he.event;
+                const key = `${he.heat}|${he.event}`;
                 if (!heatStats[key]) {
-                    heatStats[key] = { name: key, competitors: he.competitors.length, competitorList: he.competitors };
+                    heatStats[key] = {
+                        key,
+                        name: he.event,
+                        heat: he.heat,
+                        event: he.event,
+                        time: he.time,
+                        competitors: he.competitors.length,
+                        competitorList: he.competitors
+                    };
                 }
             });
 
@@ -3083,13 +3091,18 @@
             const levelChip = levelChipHtml
                 ? `<div style="margin-bottom:4px;">${levelChipHtml}</div>`
                 : '';
+            const heatMeta = [heat.heat, heat.time ? formatDisplayTime(heat.time) : ''].filter(Boolean).join(' · ');
+            const heatMetaHtml = heatMeta
+                ? `<div style="font-size:0.65em;color:var(--text-secondary);margin-bottom:4px;">${heatMeta}</div>`
+                : '';
             return `
-                <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;overflow:hidden;cursor:pointer;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'" onclick="displayEventDetails('${onclickArg(heat.name)}')">
+                <div style="background:var(--bg-secondary);border:1px solid var(--bg-tertiary);border-radius:3px;overflow:hidden;cursor:pointer;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--bg-tertiary)'" onclick="displayEventDetails('${onclickArg(heat.key || heat.name)}')">
                     <div style="padding:8px;">
                         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;gap:6px;">
-                            <div style="font-size:0.8em;font-weight:500;color:var(--accent);line-height:1.1;overflow:hidden;text-overflow:ellipsis;flex:1;" title="${heat.name}">${heat.name}</div>
+                            <div style="font-size:0.8em;font-weight:500;color:var(--accent);line-height:1.1;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;flex:1;" title="${heat.name}">${heat.name}</div>
                             <span style="font-size:0.65em;padding:2px 6px;background:${typeBg};color:var(--bg-primary);border-radius:2px;white-space:nowrap;font-weight:600;">${typeLabel}</span>
                         </div>
+                        ${heatMetaHtml}
                         ${levelChip}
                         ${ageChip}
                         <div style="font-size:1.4em;font-weight:300;margin-bottom:4px;color:var(--text-primary);">${displayCount}</div>
@@ -3280,7 +3293,9 @@
         // pair on mutual partner claims first, then one-sided ones, so nobody renders
         // solo before another competitor claims them. Leftovers are genuine solos.
         function displayEventDetails(eventKey) {
-            const eventInfo = heatEventsData.find(he => (he.heat || he.event) === eventKey);
+            const eventInfo = heatEventsData.find(he => `${he.heat}|${he.event}` === eventKey)
+                || heatEventsData.find(he => he.event === eventKey)
+                || heatEventsData.find(he => (he.heat || he.event) === eventKey);
             if (!eventInfo) return;
 
             const overlay = document.querySelector('.detail-overlay');
