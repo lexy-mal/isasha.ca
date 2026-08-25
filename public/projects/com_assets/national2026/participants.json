@@ -45494,9 +45494,9 @@
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 203",
-        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "16:13 Thursday",
+        "heat": "Heat 204",
+        "event": "L-A Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:18 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Shelkovyy, Yuriy"
       },
@@ -45571,16 +45571,16 @@
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 422",
-        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "11:35 Friday",
+        "heat": "Heat 434",
+        "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:42 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 429",
-        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "12:08 Friday",
+        "heat": "Heat 438",
+        "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "13:01 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Shelkovyy, Yuriy"
       }
@@ -70285,9 +70285,9 @@
         "partner": "Logigan, Svetlana"
       },
       {
-        "heat": "Heat 203",
-        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "16:13 Thursday",
+        "heat": "Heat 204",
+        "event": "L-A Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:18 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Logigan, Svetlana"
       },
@@ -70390,13 +70390,6 @@
         "partner": "Logigan, Svetlana"
       },
       {
-        "heat": "Heat 422",
-        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "11:35 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Logigan, Svetlana"
-      },
-      {
         "heat": "Heat 428",
         "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "12:04 Friday Later rounds: 3@12:32 Friday",
@@ -70404,18 +70397,18 @@
         "partner": "Chau, Khanh"
       },
       {
-        "heat": "Heat 429",
-        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "12:08 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Logigan, Svetlana"
-      },
-      {
         "heat": "Heat 430",
         "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "12:13 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Ramsum, Carolyn"
+      },
+      {
+        "heat": "Heat 434",
+        "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:42 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Logigan, Svetlana"
       },
       {
         "heat": "Heat 435",
@@ -70437,6 +70430,13 @@
         "time": "12:56 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Chau, Khanh"
+      },
+      {
+        "heat": "Heat 438",
+        "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "13:01 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Logigan, Svetlana"
       }
     ]
   },

@@ -9348,16 +9348,6 @@
     ]
   },
   {
-    "heat": "Heat 203",
-    "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-    "session": "Jeudi Matin\u00e9e / Thursday Day",
-    "time": "16:13 Thursday",
-    "competitors": [
-      "Logigan, Svetlana",
-      "Shelkovyy, Yuriy"
-    ]
-  },
-  {
     "heat": "Heat 204",
     "event": "G-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
@@ -9384,6 +9374,8 @@
     "time": "16:18 Thursday",
     "competitors": [
       "Dafoe, Storm",
+      "Logigan, Svetlana",
+      "Shelkovyy, Yuriy",
       "Wills, Woodrow"
     ]
   },
@@ -16952,9 +16944,7 @@
       "Arbour, Danny",
       "Faith, Linda",
       "Lacroix, Dominic",
-      "Logigan, Svetlana",
-      "Roy, Catherine",
-      "Shelkovyy, Yuriy"
+      "Roy, Catherine"
     ]
   },
   {
@@ -17135,8 +17125,6 @@
       "Cooperman, Tony",
       "Fortin, Jacques",
       "Gagnon, Audrey",
-      "Logigan, Svetlana",
-      "Shelkovyy, Yuriy",
       "Sullivan, Arden",
       "Tang, Janelle"
     ]
@@ -17360,6 +17348,8 @@
     "time": "12:42 Friday",
     "competitors": [
       "Cooperman, Tony",
+      "Logigan, Svetlana",
+      "Shelkovyy, Yuriy",
       "Sullivan, Arden"
     ]
   },
@@ -17514,8 +17504,10 @@
       "Janelle, lacey",
       "Karaulov, Alexey",
       "Kudriashov, Mikhail",
+      "Logigan, Svetlana",
       "Malakhov, Nikita",
       "Nirchi, Sabrina",
+      "Shelkovyy, Yuriy",
       "Wang, Grace"
     ]
   },
