@@ -5279,5 +5279,2295 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-25T11:24:12+00:00",
+    "participants": {
+      "oldCount": 962,
+      "newCount": 966,
+      "added": [
+        {
+          "name": "Chiasson, Louise",
+          "entries": [
+            {
+              "heat": "Heat 200",
+              "event": "L-C Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 205",
+              "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 156",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 166",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 154",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 153",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 197",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 198",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 196",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 184",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 195",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
+              "partner": "Komelkov, Vladyslav"
+            }
+          ]
+        },
+        {
+          "name": "Lakra, Jiya",
+          "entries": [
+            {
+              "heat": "Heat 666",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 722",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 669 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 723 [Ballroom B]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 729 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            }
+          ]
+        },
+        {
+          "name": "Polavarapu, Saroja",
+          "entries": [
+            {
+              "heat": "Heat 337",
+              "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-D Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 339",
+              "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 338",
+              "event": "L-D Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Vaidila, Hugo"
+            }
+          ]
+        },
+        {
+          "name": "Siscova, Eva-Victoria",
+          "entries": [
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 764 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 767 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 739 [Ballroom B]",
+              "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 738 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Skavych, Marina",
+          "entries": [
+            {
+              "heat": "Heat 204",
+              "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 206",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 146",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 157",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 144",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 178",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 143",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 194",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Foxtrot",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 147",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Quickstep",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 192",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Tango",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 193",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Komelkov, Vladyslav"
+            },
+            {
+              "heat": "Heat 191",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
+              "partner": "Komelkov, Vladyslav"
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Polavarapa, Saroja",
+          "entries": [
+            {
+              "heat": "Heat 337",
+              "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-D Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 339",
+              "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 338",
+              "event": "L-D Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Vaidila, Hugo"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Vaidila, Hugo"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Bell, Lindsay",
+          "oldEntryCount": 13,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 407",
+              "event": "L-E Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "L-E Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 397",
+              "event": "L-E Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 409",
+              "event": "L-E Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 408",
+              "event": "L-E Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Lefebvre, Martin"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 428",
+              "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 380",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "Lefebvre, Martin"
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "Lefebvre, Martin"
+            }
+          ]
+        },
+        {
+          "name": "Bogodelny, Annabelle",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "Heat 698 [Ballroom A]",
+              "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
+              "partner": "Bogodelny, Kris"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 702 [Ballroom A]",
+              "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+              "partner": "Bogodelny, Kris"
+            }
+          ]
+        },
+        {
+          "name": "Bogodelny, Kris",
+          "oldEntryCount": 20,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "Heat 698 [Ballroom A]",
+              "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
+              "partner": "Bogodelny, Annabelle"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 702 [Ballroom A]",
+              "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+              "partner": "Bogodelny, Annabelle"
+            }
+          ]
+        },
+        {
+          "name": "Brosseau, Karine",
+          "oldEntryCount": 4,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "Heat 652",
+              "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Chaput, Tomy"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Chaput, Tomy",
+          "oldEntryCount": 4,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "Heat 652",
+              "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+              "partner": "Brosseau, Karine"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Daneman, Suzanne",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 138",
+              "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Lam, Jone"
+            }
+          ]
+        },
+        {
+          "name": "Fogl, Anne",
+          "oldEntryCount": 12,
+          "newEntryCount": 17,
+          "addedEntries": [
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 704 [Ballroom B]",
+              "event": "A-JR Argent / Silver BALLROOM SOLO Quickstep",
+              "partner": null
+            },
+            {
+              "heat": "Heat 701 [Ballroom B]",
+              "event": "A-JR Argent / Silver BALLROOM SOLO Tango",
+              "partner": null
+            },
+            {
+              "heat": "Heat 702 [Ballroom B]",
+              "event": "A-JR Argent / Silver BALLROOM SOLO Viennese Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 690 [Ballroom B]",
+              "event": "A-JR Argent / Silver BALLROOM SOLO Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 764 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 767 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 738 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 751 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Solomakha, Roman"
+            },
+            {
+              "heat": "Heat 770",
+              "event": "L-JR Argent / Silver LATIN MIXED Jive",
+              "partner": "Solomakha, Roman"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Solomakha, Roman"
+            },
+            {
+              "heat": "Heat 747 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Rumba",
+              "partner": "Solomakha, Roman"
+            },
+            {
+              "heat": "Heat 746 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Samba",
+              "partner": "Solomakha, Roman"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 699 [Ballroom B]",
+              "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
+              "partner": null
+            },
+            {
+              "heat": "Heat 696 [Ballroom B]",
+              "event": "A-JR Or / Gold BALLROOM SOLO Tango",
+              "partner": null
+            },
+            {
+              "heat": "Heat 702 [Ballroom B]",
+              "event": "A-JR Or / Gold BALLROOM SOLO Viennese Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 695 [Ballroom B]",
+              "event": "A-JR Or / Gold BALLROOM SOLO Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 761 [Ballroom B]",
+              "event": "A-JR Or / Gold LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 740 [Ballroom B]",
+              "event": "A-JR Or / Gold LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 763 [Ballroom B]",
+              "event": "A-JR Or / Gold LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 772 [Ballroom B]",
+              "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Solomakha, Roman"
+            }
+          ]
+        },
+        {
+          "name": "Goncharuk, Evelina",
+          "oldEntryCount": 4,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 760 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 759 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Paso Doble",
+              "partner": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Khorosheva, Tetiana",
+          "oldEntryCount": 3,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Lisovolenko, Stanislav"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Khoury, Maria",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 764 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 738 [Ballroom A]",
+              "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 771",
+              "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 756 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 758 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Khoury, Sarah",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 761 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 763 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 762 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Samba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 771",
+              "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 734",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 736",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 735",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Komelkov, Vladyslav",
+          "oldEntryCount": 1,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "Heat 200",
+              "event": "L-C Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 204",
+              "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 205",
+              "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 206",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 156",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 166",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 154",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 153",
+              "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 146",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 157",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 144",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 178",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 143",
+              "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 197",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 198",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 196",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 184",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 195",
+              "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
+              "partner": "Chiasson, Louise"
+            },
+            {
+              "heat": "Heat 194",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Foxtrot",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 147",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Quickstep",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 192",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Tango",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 193",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse Viennoise/Viennese Waltz",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 191",
+              "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
+              "partner": "Skavych, Marina"
+            },
+            {
+              "heat": "Heat 322",
+              "event": "PRO BALLROOM Championnat National Canadien / Canada's National Championship (W/T/VW/F/Q)",
+              "partner": "Sevastianova, Alexandra"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Lakra, Kiara",
+          "oldEntryCount": 13,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 666",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 722",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 669 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 723 [Ballroom B]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 729 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Li, Oscar"
+            },
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Li, Oscar"
+            }
+          ]
+        },
+        {
+          "name": "Lam, Jone",
+          "oldEntryCount": 87,
+          "newEntryCount": 88,
+          "addedEntries": [
+            {
+              "heat": "Heat 622",
+              "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Levasseur, Judith"
+            },
+            {
+              "heat": "Heat 626",
+              "event": "L-E Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Levasseur, Judith"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 138",
+              "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Daneman, Suzanne"
+            }
+          ]
+        },
+        {
+          "name": "Lefebvre, Martin",
+          "oldEntryCount": 13,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 407",
+              "event": "L-E Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "L-E Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 397",
+              "event": "L-E Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 409",
+              "event": "L-E Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 408",
+              "event": "L-E Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Bell, Lindsay"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 428",
+              "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 380",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "Bell, Lindsay"
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-E Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "Bell, Lindsay"
+            }
+          ]
+        },
+        {
+          "name": "Levasseur, Judith",
+          "oldEntryCount": 36,
+          "newEntryCount": 38,
+          "addedEntries": [
+            {
+              "heat": "Heat 622",
+              "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Lam, Jone"
+            },
+            {
+              "heat": "Heat 626",
+              "event": "L-E Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Lam, Jone"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Li, Hailey",
+          "oldEntryCount": 4,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 782",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+              "partner": "Stefanov, Peter"
+            },
+            {
+              "heat": "Heat 737 [Ballroom B]",
+              "event": "L-JR Or / Gold LATIN MIXED Jive",
+              "partner": "Stefanov, Peter"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Stefanov, Peter"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Li, Oscar",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 666",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Jiya"
+            },
+            {
+              "heat": "Heat 722",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Lakra, Jiya"
+            },
+            {
+              "heat": "Heat 669 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Jiya"
+            },
+            {
+              "heat": "Heat 723 [Ballroom B]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Lakra, Jiya"
+            },
+            {
+              "heat": "Heat 729 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Lakra, Jiya"
+            },
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Jiya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 666",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Kiara"
+            },
+            {
+              "heat": "Heat 722",
+              "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Lakra, Kiara"
+            },
+            {
+              "heat": "Heat 669 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Kiara"
+            },
+            {
+              "heat": "Heat 723 [Ballroom B]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+              "partner": "Lakra, Kiara"
+            },
+            {
+              "heat": "Heat 729 [Ballroom A]",
+              "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+              "partner": "Lakra, Kiara"
+            },
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Lakra, Kiara"
+            }
+          ]
+        },
+        {
+          "name": "Lisovolenko, Stanislav",
+          "oldEntryCount": 177,
+          "newEntryCount": 178,
+          "addedEntries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Khorosheva, Tetiana"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Logigan, Svetlana",
+          "oldEntryCount": 22,
+          "newEntryCount": 22,
+          "addedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 206",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 200",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            }
+          ]
+        },
+        {
+          "name": "Panfili, Patricia",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Test, Jonathan"
+            }
+          ]
+        },
+        {
+          "name": "Sevastianova, Alexandra",
+          "oldEntryCount": 13,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 322",
+              "event": "PRO BALLROOM Championnat National Canadien / Canada's National Championship (W/T/VW/F/Q)",
+              "partner": "Komelkov, Vladyslav"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Shelkovyy, Yuriy",
+          "oldEntryCount": 41,
+          "newEntryCount": 41,
+          "addedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 206",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 200",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            }
+          ]
+        },
+        {
+          "name": "Solomakha, Roman",
+          "oldEntryCount": 8,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "Heat 751 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Fogl, Anne"
+            },
+            {
+              "heat": "Heat 770",
+              "event": "L-JR Argent / Silver LATIN MIXED Jive",
+              "partner": "Fogl, Anne"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+              "partner": "Fogl, Anne"
+            },
+            {
+              "heat": "Heat 747 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Rumba",
+              "partner": "Fogl, Anne"
+            },
+            {
+              "heat": "Heat 746 [Ballroom B]",
+              "event": "L-JR Argent / Silver LATIN MIXED Samba",
+              "partner": "Fogl, Anne"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 772 [Ballroom B]",
+              "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Fogl, Anne"
+            }
+          ]
+        },
+        {
+          "name": "Stefanov, Catherine",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 780 [Ballroom A]",
+              "event": "A-YTH Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 720 [Ballroom A]",
+              "event": "A-YTH Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Stefanov, Peter",
+          "oldEntryCount": 11,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 782",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+              "partner": "Li, Hailey"
+            },
+            {
+              "heat": "Heat 737 [Ballroom B]",
+              "event": "L-JR Or / Gold LATIN MIXED Jive",
+              "partner": "Li, Hailey"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Li, Hailey"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Test, Jonathan",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Panfili, Patricia"
+            }
+          ]
+        },
+        {
+          "name": "Vaidila, Hugo",
+          "oldEntryCount": 29,
+          "newEntryCount": 29,
+          "addedEntries": [
+            {
+              "heat": "Heat 337",
+              "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-D Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 339",
+              "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 338",
+              "event": "L-D Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Polavarapu, Saroja"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Polavarapu, Saroja"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 337",
+              "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-D Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 339",
+              "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 338",
+              "event": "L-D Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Polavarapa, Saroja"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Polavarapa, Saroja"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2686,
+      "newCount": 2702,
+      "oldUniqueCount": 2684,
+      "newUniqueCount": 2700,
+      "added": [
+        "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+        "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+        "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+        "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+        "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+        "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+        "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+        "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+        "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+        "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz"
+      ],
+      "removed": [],
+      "rosterChanged": [
+        {
+          "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+          "added": [
+            "Fogl, Anne",
+            "Khoury, Maria",
+            "Khoury, Sarah",
+            "Siscova, Eva-Victoria"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+          "added": [],
+          "removed": [
+            "Khoury, Maria",
+            "Khoury, Sarah"
+          ]
+        },
+        {
+          "event": "A-JR Argent / Silver BALLROOM SOLO Quickstep",
+          "added": [
+            "Fogl, Anne"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver BALLROOM SOLO Tango",
+          "added": [
+            "Fogl, Anne"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver BALLROOM SOLO Viennese Waltz",
+          "added": [
+            "Fogl, Anne"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver BALLROOM SOLO Waltz",
+          "added": [
+            "Fogl, Anne"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+          "added": [
+            "Fogl, Anne",
+            "Khoury, Maria",
+            "Siscova, Eva-Victoria"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver LATIN SOLO Jive",
+          "added": [
+            "Fogl, Anne",
+            "Siscova, Eva-Victoria"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
+          "added": [
+            "Siscova, Eva-Victoria"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+          "added": [
+            "Fogl, Anne",
+            "Khoury, Maria",
+            "Siscova, Eva-Victoria"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
+          "added": [],
+          "removed": [
+            "Khoury, Maria"
+          ]
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+          "added": [
+            "Goncharuk, Evelina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Paso Doble",
+          "added": [
+            "Goncharuk, Evelina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+          "added": [],
+          "removed": [
+            "Khoury, Maria"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold BALLROOM SOLO Tango",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold BALLROOM SOLO Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold BALLROOM SOLO Waltz",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold LATIN SOLO Chacha",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold LATIN SOLO Jive",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold LATIN SOLO Rumba",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+          "added": [
+            "Khoury, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+          "added": [
+            "Khoury, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Samba",
+          "added": [
+            "Khoury, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+          "added": [],
+          "removed": [
+            "Khoury, Sarah"
+          ]
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+          "added": [],
+          "removed": [
+            "Khoury, Sarah"
+          ]
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+          "added": [],
+          "removed": [
+            "Khoury, Sarah"
+          ]
+        },
+        {
+          "event": "A-YTH Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+          "added": [],
+          "removed": [
+            "Stefanov, Catherine"
+          ]
+        },
+        {
+          "event": "A-YTH Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Stefanov, Catherine"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Brosseau, Karine",
+            "Chaput, Tomy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [
+            "Lakra, Jiya"
+          ],
+          "removed": [
+            "Lakra, Kiara"
+          ]
+        },
+        {
+          "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+          "added": [
+            "Li, Hailey",
+            "Stefanov, Peter"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ]
+        },
+        {
+          "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [],
+          "removed": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ]
+        },
+        {
+          "event": "L-B Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [],
+          "removed": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ]
+        },
+        {
+          "event": "L-C Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Chiasson, Louise",
+            "Komelkov, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [],
+          "removed": [
+            "Daneman, Suzanne",
+            "Lam, Jone"
+          ]
+        },
+        {
+          "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Chiasson, Louise",
+            "Komelkov, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold LATIN Jive",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold LATIN Samba",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Panfili, Patricia",
+            "Polavarapa, Saroja",
+            "Test, Jonathan"
+          ]
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver BALLROOM Foxtrot",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver BALLROOM Quickstep",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver BALLROOM Tango",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Skavych, Marina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Lam, Jone",
+            "Levasseur, Judith"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze LATIN Paso Doble",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze LATIN Rumba",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze LATIN Samba",
+          "added": [],
+          "removed": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Lam, Jone",
+            "Levasseur, Judith"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold LATIN Chacha",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold LATIN Jive",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold LATIN Paso Doble",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold LATIN Rumba",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold LATIN Samba",
+          "added": [
+            "Bell, Lindsay",
+            "Lefebvre, Martin"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+          "added": [
+            "Polavarapu, Saroja"
+          ],
+          "removed": [
+            "Polavarapa, Saroja"
+          ]
+        },
+        {
+          "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+          "added": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Argent / Silver LATIN MIXED Jive",
+          "added": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+          "added": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Argent / Silver LATIN MIXED Rumba",
+          "added": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Argent / Silver LATIN MIXED Samba",
+          "added": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Or / Gold LATIN MIXED Jive",
+          "added": [
+            "Li, Hailey",
+            "Stefanov, Peter"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+          "added": [
+            "Li, Hailey",
+            "Stefanov, Peter"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Fogl, Anne",
+            "Solomakha, Roman"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
+          "added": [
+            "Bogodelny, Annabelle",
+            "Bogodelny, Kris"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Bogodelny, Annabelle",
+            "Bogodelny, Kris"
+          ]
+        },
+        {
+          "event": "PRO BALLROOM Championnat National Canadien / Canada's National Championship (W/T/VW/F/Q)",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Sevastianova, Alexandra"
+          ],
+          "removed": []
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+          "added": [
+            "Khorosheva, Tetiana",
+            "Lisovolenko, Stanislav"
+          ],
+          "removed": []
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-08-25T11:33:13+00:00",
+    "participants": {
+      "oldCount": 966,
+      "newCount": 966,
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Logigan, Svetlana",
+          "oldEntryCount": 22,
+          "newEntryCount": 22,
+          "addedEntries": [
+            {
+              "heat": "Heat 204",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 422",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy"
+            }
+          ]
+        },
+        {
+          "name": "Shelkovyy, Yuriy",
+          "oldEntryCount": 41,
+          "newEntryCount": 41,
+          "addedEntries": [
+            {
+              "heat": "Heat 204",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 422",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Logigan, Svetlana"
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Logigan, Svetlana"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2702,
+      "newCount": 2701,
+      "oldUniqueCount": 2700,
+      "newUniqueCount": 2699,
+      "added": [],
+      "removed": [
+        "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "L-A Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ]
+        },
+        {
+          "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ]
+        },
+        {
+          "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Logigan, Svetlana",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
