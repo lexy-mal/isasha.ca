@@ -5675,41 +5675,6 @@
         "partner": "Lefebvre, Martin"
       },
       {
-        "heat": "Heat 377",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
-        "time": "10:07 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Lefebvre, Martin"
-      },
-      {
-        "heat": "Heat 378",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Samba",
-        "time": "10:09 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Lefebvre, Martin"
-      },
-      {
-        "heat": "Heat 379",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "10:10 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Lefebvre, Martin"
-      },
-      {
-        "heat": "Heat 380",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Paso Doble",
-        "time": "10:12 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Lefebvre, Martin"
-      },
-      {
-        "heat": "Heat 381",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
-        "time": "10:13 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Lefebvre, Martin"
-      },
-      {
         "heat": "Heat 386",
         "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "10:21 Friday",
@@ -5717,9 +5682,44 @@
         "partner": "Lefebvre, Martin"
       },
       {
-        "heat": "Heat 428",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "12:04 Friday Later rounds: 3@12:32 Friday",
+        "heat": "Heat 397",
+        "event": "L-E Or Ouvert / Open Gold LATIN Paso Doble",
+        "time": "10:37 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "Heat 406",
+        "event": "L-E Or Ouvert / Open Gold LATIN Jive",
+        "time": "10:51 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "Heat 407",
+        "event": "L-E Or Ouvert / Open Gold LATIN Chacha",
+        "time": "10:52 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "Heat 408",
+        "event": "L-E Or Ouvert / Open Gold LATIN Samba",
+        "time": "10:54 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "Heat 409",
+        "event": "L-E Or Ouvert / Open Gold LATIN Rumba",
+        "time": "10:55 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lefebvre, Martin"
+      },
+      {
+        "heat": "Heat 434",
+        "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:42 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Lefebvre, Martin"
       },
@@ -7817,9 +7817,9 @@
   "Bogodelny, Annabelle": {
     "entries": [
       {
-        "heat": "Heat 702 [Ballroom A]",
-        "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
-        "time": "10:00 Sunday",
+        "heat": "Heat 698 [Ballroom A]",
+        "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
+        "time": "09:54 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Bogodelny, Kris"
       },
@@ -7912,6 +7912,13 @@
         "partner": "Chen, Nicole"
       },
       {
+        "heat": "Heat 698 [Ballroom A]",
+        "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
+        "time": "09:54 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Bogodelny, Annabelle"
+      },
+      {
         "heat": "Heat 700 [Ballroom A]",
         "event": "L-JR Or / Gold BALLROOM MIXED Valse / Waltz",
         "time": "09:57 Sunday",
@@ -7924,13 +7931,6 @@
         "time": "09:59 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Lin, Witsanee"
-      },
-      {
-        "heat": "Heat 702 [Ballroom A]",
-        "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
-        "time": "10:00 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Bogodelny, Annabelle"
       },
       {
         "heat": "Heat 704 [Ballroom A]",
@@ -10721,6 +10721,13 @@
         "time": "15:41 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Chaput, Tomy"
+      },
+      {
+        "heat": "Heat 652",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "15:56 Saturday Later rounds: 5@17:30 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Chaput, Tomy"
       }
     ]
   },
@@ -13178,6 +13185,13 @@
         "time": "15:41 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Brosseau, Karine"
+      },
+      {
+        "heat": "Heat 652",
+        "event": "AC-16+ Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
+        "time": "15:56 Saturday Later rounds: 5@17:30 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Brosseau, Karine"
       }
     ]
   },
@@ -13819,6 +13833,94 @@
         "time": "14:05 Saturday Later rounds: 5@14:37 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Olavide, Carlos"
+      }
+    ]
+  },
+  "Chiasson, Louise": {
+    "entries": [
+      {
+        "heat": "Heat 153",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+        "time": "14:30 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 154",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+        "time": "14:31 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 155",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "14:33 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 156",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+        "time": "14:34 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 166",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+        "time": "14:49 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 184",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:16 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 195",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
+        "time": "15:33 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 196",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+        "time": "15:34 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 197",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "time": "15:36 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 198",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "15:37 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 200",
+        "event": "L-C Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "15:59 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 205",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:23 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
       }
     ]
   },
@@ -16371,13 +16473,6 @@
         "heat": "Heat 48",
         "event": "L-D Or Ouvert / Open Gold RHYTHM Bolero",
         "time": "09:10 Thursday",
-        "session": "Jeudi Matin\u00e9e / Thursday Day",
-        "partner": "Lam, Jone"
-      },
-      {
-        "heat": "Heat 138",
-        "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
-        "time": "12:31 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Lam, Jone"
       },
@@ -21974,30 +22069,30 @@
   "Fogl, Anne": {
     "entries": [
       {
-        "heat": "Heat 695 [Ballroom B]",
-        "event": "A-JR Or / Gold BALLROOM SOLO Waltz",
-        "time": "09:50 Sunday",
+        "heat": "Heat 690 [Ballroom B]",
+        "event": "A-JR Argent / Silver BALLROOM SOLO Waltz",
+        "time": "09:42 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
       {
-        "heat": "Heat 696 [Ballroom B]",
-        "event": "A-JR Or / Gold BALLROOM SOLO Tango",
-        "time": "09:51 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
-        "heat": "Heat 699 [Ballroom B]",
-        "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
-        "time": "09:56 Sunday",
+        "heat": "Heat 701 [Ballroom B]",
+        "event": "A-JR Argent / Silver BALLROOM SOLO Tango",
+        "time": "09:59 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
       {
         "heat": "Heat 702 [Ballroom B]",
-        "event": "A-JR Or / Gold BALLROOM SOLO Viennese Waltz",
+        "event": "A-JR Argent / Silver BALLROOM SOLO Viennese Waltz",
         "time": "10:00 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 704 [Ballroom B]",
+        "event": "A-JR Argent / Silver BALLROOM SOLO Quickstep",
+        "time": "10:03 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
@@ -22009,18 +22104,39 @@
         "partner": null
       },
       {
-        "heat": "Heat 740 [Ballroom B]",
-        "event": "A-JR Or / Gold LATIN SOLO Jive",
-        "time": "14:57 Sunday Later rounds: 7@15:31 Sunday",
+        "heat": "Heat 738 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+        "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
       {
-        "heat": "Heat 761 [Ballroom B]",
-        "event": "A-JR Or / Gold LATIN SOLO Chacha",
-        "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
+        "heat": "Heat 746 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Samba",
+        "time": "15:06 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": null
+        "partner": "Solomakha, Roman"
+      },
+      {
+        "heat": "Heat 747 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Rumba",
+        "time": "15:07 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Solomakha, Roman"
+      },
+      {
+        "heat": "Heat 751 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "15:32 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Solomakha, Roman"
+      },
+      {
+        "heat": "Heat 750 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+        "time": "15:44 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Solomakha, Roman"
       },
       {
         "heat": "Heat 762 [Ballroom B]",
@@ -22030,9 +22146,30 @@
         "partner": null
       },
       {
-        "heat": "Heat 763 [Ballroom B]",
-        "event": "A-JR Or / Gold LATIN SOLO Rumba",
-        "time": "15:58 Sunday Later rounds: 7@16:25 Sunday",
+        "heat": "Heat 764 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "15:59 Sunday Later rounds: 7@16:26 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 767 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "time": "16:04 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 770",
+        "event": "L-JR Argent / Silver LATIN MIXED Jive",
+        "time": "16:29 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Solomakha, Roman"
+      },
+      {
+        "heat": "Heat 772",
+        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+        "time": "16:49 Sunday Later rounds: 7@17:52 Sunday 7@18:19 Sunday 7@18:37 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
@@ -22040,13 +22177,6 @@
         "heat": "Heat 774 [Ballroom B]",
         "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Solomakha, Roman"
-      },
-      {
-        "heat": "Heat 772 [Ballroom B]",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
-        "time": "18:19 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Solomakha, Roman"
       },
@@ -24463,6 +24593,20 @@
   },
   "Goncharuk, Evelina": {
     "entries": [
+      {
+        "heat": "Heat 759 [Ballroom A]",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Paso Doble",
+        "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 760 [Ballroom A]",
+        "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+        "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
       {
         "heat": "Heat 771",
         "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
@@ -32416,6 +32560,13 @@
         "partner": "Lisovolenko, Stanislav"
       },
       {
+        "heat": "Heat 462",
+        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+        "time": "17:00 Friday Later rounds: 4@20:41 Friday 4@21:20 Friday 4@22:00 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Lisovolenko, Stanislav"
+      },
+      {
         "heat": "Heat 654",
         "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
         "time": "16:25 Saturday Later rounds: 5@17:40 Saturday 6@21:04 Saturday 6@22:06 Saturday 6@22:46 Saturday",
@@ -32427,9 +32578,9 @@
   "Khoury, Maria": {
     "entries": [
       {
-        "heat": "Heat 756 [Ballroom A]",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
-        "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
+        "heat": "Heat 738 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+        "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
@@ -32437,13 +32588,6 @@
         "heat": "Heat 757 [Ballroom A]",
         "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
         "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
-        "heat": "Heat 758 [Ballroom A]",
-        "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
-        "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       },
@@ -32462,9 +32606,16 @@
         "partner": null
       },
       {
-        "heat": "Heat 771",
-        "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-        "time": "16:31 Sunday Later rounds: 7@17:43 Sunday 7@18:14 Sunday 7@18:32 Sunday",
+        "heat": "Heat 764 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "15:59 Sunday Later rounds: 7@16:26 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 772",
+        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+        "time": "16:49 Sunday Later rounds: 7@17:52 Sunday 7@18:19 Sunday 7@18:37 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       }
@@ -32519,27 +32670,6 @@
   "Khoury, Sarah": {
     "entries": [
       {
-        "heat": "Heat 734",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-        "time": "14:38 Sunday Later rounds: 7@15:12 Sunday 7@15:40 Sunday 7@16:07 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
-        "heat": "Heat 735",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-        "time": "14:42 Sunday Later rounds: 7@15:15 Sunday 7@15:41 Sunday 7@16:08 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
-        "heat": "Heat 736",
-        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-        "time": "14:46 Sunday Later rounds: 7@15:18 Sunday 7@15:43 Sunday 7@16:10 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
         "heat": "Heat 737",
         "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
         "time": "14:50 Sunday Later rounds: 7@15:25 Sunday 7@15:46 Sunday 7@16:13 Sunday",
@@ -32554,9 +32684,30 @@
         "partner": null
       },
       {
-        "heat": "Heat 771",
-        "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-        "time": "16:31 Sunday Later rounds: 7@17:43 Sunday 7@18:14 Sunday 7@18:32 Sunday",
+        "heat": "Heat 761 [Ballroom A]",
+        "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+        "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 762 [Ballroom A]",
+        "event": "A-JV Argent / Silver LATIN SOLO Samba",
+        "time": "15:56 Sunday Later rounds: 7@16:23 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 763 [Ballroom A]",
+        "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+        "time": "15:58 Sunday Later rounds: 7@16:25 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 772",
+        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+        "time": "16:49 Sunday Later rounds: 7@17:52 Sunday 7@18:19 Sunday 7@18:37 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
       }
@@ -33924,6 +34075,181 @@
   },
   "Komelkov, Vladyslav": {
     "entries": [
+      {
+        "heat": "Heat 143",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+        "time": "14:15 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 144",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+        "time": "14:16 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 146",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+        "time": "14:19 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 147",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Quickstep",
+        "time": "14:21 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 153",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+        "time": "14:30 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 154",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+        "time": "14:31 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 155",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "14:33 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 156",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+        "time": "14:34 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 157",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+        "time": "14:36 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 166",
+        "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+        "time": "14:49 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 178",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:07 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 184",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:16 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 191",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
+        "time": "15:27 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 192",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Tango",
+        "time": "15:28 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 193",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:30 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 194",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Foxtrot",
+        "time": "15:31 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 195",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
+        "time": "15:33 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 196",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+        "time": "15:34 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 197",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+        "time": "15:36 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 198",
+        "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+        "time": "15:37 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 200",
+        "event": "L-C Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "15:59 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 204",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:18 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 205",
+        "event": "L-D Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:23 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Chiasson, Louise"
+      },
+      {
+        "heat": "Heat 206",
+        "event": "L-D Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:27 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Skavych, Marina"
+      },
+      {
+        "heat": "Heat 322",
+        "event": "PRO BALLROOM Championnat National Canadien / Canada's National Championship (W/T/VW/F/Q)",
+        "time": "22:17 Thursday",
+        "session": "Jeudi Soir\u00e9e / Thursday Evening",
+        "partner": "Sevastianova, Alexandra"
+      },
       {
         "heat": "Heat 462",
         "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
@@ -36936,7 +37262,7 @@
       }
     ]
   },
-  "Lakra, Kiara": {
+  "Lakra, Jiya": {
     "entries": [
       {
         "heat": "Heat 666",
@@ -36979,7 +37305,11 @@
         "time": "13:53 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Li, Oscar"
-      },
+      }
+    ]
+  },
+  "Lakra, Kiara": {
+    "entries": [
       {
         "heat": "Heat 764 [Ballroom B]",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
@@ -37444,13 +37774,6 @@
         "partner": "Lord, Diane"
       },
       {
-        "heat": "Heat 138",
-        "event": "L-C Or Ouvert / Open Gold PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
-        "time": "12:31 Thursday",
-        "session": "Jeudi Matin\u00e9e / Thursday Day",
-        "partner": "Daneman, Suzanne"
-      },
-      {
         "heat": "Heat 139",
         "event": "L-C PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
         "time": "12:44 Thursday Later rounds: 1@13:24 Thursday",
@@ -37652,6 +37975,20 @@
         "time": "11:16 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Lord, Diane"
+      },
+      {
+        "heat": "Heat 622",
+        "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "12:09 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Levasseur, Judith"
+      },
+      {
+        "heat": "Heat 626",
+        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "12:28 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Levasseur, Judith"
       },
       {
         "heat": "Heat 629",
@@ -40323,41 +40660,6 @@
         "partner": "Bell, Lindsay"
       },
       {
-        "heat": "Heat 377",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Chacha",
-        "time": "10:07 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Bell, Lindsay"
-      },
-      {
-        "heat": "Heat 378",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Samba",
-        "time": "10:09 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Bell, Lindsay"
-      },
-      {
-        "heat": "Heat 379",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Rumba",
-        "time": "10:10 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Bell, Lindsay"
-      },
-      {
-        "heat": "Heat 380",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Paso Doble",
-        "time": "10:12 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Bell, Lindsay"
-      },
-      {
-        "heat": "Heat 381",
-        "event": "L-E Bronze Ouvert / Open Bronze LATIN Jive",
-        "time": "10:13 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Bell, Lindsay"
-      },
-      {
         "heat": "Heat 386",
         "event": "L-E Argent Ouvert / Open Silver LATIN Jive",
         "time": "10:21 Friday",
@@ -40365,9 +40667,44 @@
         "partner": "Bell, Lindsay"
       },
       {
-        "heat": "Heat 428",
-        "event": "L-D Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "12:04 Friday Later rounds: 3@12:32 Friday",
+        "heat": "Heat 397",
+        "event": "L-E Or Ouvert / Open Gold LATIN Paso Doble",
+        "time": "10:37 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "Heat 406",
+        "event": "L-E Or Ouvert / Open Gold LATIN Jive",
+        "time": "10:51 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "Heat 407",
+        "event": "L-E Or Ouvert / Open Gold LATIN Chacha",
+        "time": "10:52 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "Heat 408",
+        "event": "L-E Or Ouvert / Open Gold LATIN Samba",
+        "time": "10:54 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "Heat 409",
+        "event": "L-E Or Ouvert / Open Gold LATIN Rumba",
+        "time": "10:55 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Bell, Lindsay"
+      },
+      {
+        "heat": "Heat 434",
+        "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:42 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Bell, Lindsay"
       },
@@ -40830,6 +41167,20 @@
         "heat": "Heat 546",
         "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
         "time": "09:57 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Lam, Jone"
+      },
+      {
+        "heat": "Heat 622",
+        "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "12:09 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Lam, Jone"
+      },
+      {
+        "heat": "Heat 626",
+        "event": "L-E Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "12:28 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Lam, Jone"
       }
@@ -42111,6 +42462,20 @@
         "partner": "Stefanov, Peter"
       },
       {
+        "heat": "Heat 750 [Ballroom B]",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "16:11 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Stefanov, Peter"
+      },
+      {
+        "heat": "Heat 737 [Ballroom B]",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
+        "time": "16:13 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Stefanov, Peter"
+      },
+      {
         "heat": "Heat 769",
         "event": "L-JR Or / Gold LATIN MIXED Rumba",
         "time": "16:28 Sunday",
@@ -42121,6 +42486,13 @@
         "heat": "Heat 774 [Ballroom B]",
         "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
         "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Stefanov, Peter"
+      },
+      {
+        "heat": "Heat 782",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "time": "19:52 Sunday Later rounds: 7@20:35 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Stefanov, Peter"
       }
@@ -42436,42 +42808,42 @@
         "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "07:30 Sunday Later rounds: 7@07:48 Sunday 7@08:14 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       },
       {
         "heat": "Heat 669 [Ballroom A]",
         "event": "AC-JR Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "07:53 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       },
       {
         "heat": "Heat 671 [Ballroom B]",
         "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
         "time": "08:01 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       },
       {
         "heat": "Heat 722",
         "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
         "time": "12:26 Sunday Later rounds: 7@12:54 Sunday 7@13:49 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       },
       {
         "heat": "Heat 729 [Ballroom A]",
         "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "13:03 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       },
       {
         "heat": "Heat 723 [Ballroom B]",
         "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
         "time": "13:53 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Lakra, Kiara"
+        "partner": "Lakra, Jiya"
       }
     ]
   },
@@ -44346,6 +44718,13 @@
         "partner": "Khorosheva, Tetiana"
       },
       {
+        "heat": "Heat 462",
+        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+        "time": "17:00 Friday Later rounds: 4@20:41 Friday 4@21:20 Friday 4@22:00 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Khorosheva, Tetiana"
+      },
+      {
         "heat": "Heat 471",
         "event": "L-C Argent Ferm\u00e9 / Closed Silver SMOOTH Valse Viennoise/Viennese Waltz",
         "time": "08:04 Saturday",
@@ -45115,16 +45494,16 @@
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 200",
-        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "15:59 Thursday",
+        "heat": "Heat 203",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:13 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 203",
-        "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "16:13 Thursday",
+        "heat": "Heat 206",
+        "event": "L-B Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:27 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Shelkovyy, Yuriy"
       },
@@ -45192,16 +45571,16 @@
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 421",
-        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "11:30 Friday",
+        "heat": "Heat 422",
+        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "11:35 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Shelkovyy, Yuriy"
       },
       {
-        "heat": "Heat 422",
-        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "11:35 Friday",
+        "heat": "Heat 429",
+        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:08 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Shelkovyy, Yuriy"
       }
@@ -55336,13 +55715,6 @@
         "time": "12:42 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Test, Jonathan"
-      },
-      {
-        "heat": "Heat 441",
-        "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
-        "time": "13:48 Friday Later rounds: 3@14:38 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Test, Jonathan"
       }
     ]
   },
@@ -59649,7 +60021,7 @@
       }
     ]
   },
-  "Polavarapa, Saroja": {
+  "Polavarapu, Saroja": {
     "entries": [
       {
         "heat": "Heat 337",
@@ -69080,6 +69452,13 @@
         "partner": "Spaetzel, Jonathan"
       },
       {
+        "heat": "Heat 322",
+        "event": "PRO BALLROOM Championnat National Canadien / Canada's National Championship (W/T/VW/F/Q)",
+        "time": "22:17 Thursday",
+        "session": "Jeudi Soir\u00e9e / Thursday Evening",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
         "heat": "Heat 462",
         "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
         "time": "17:00 Friday Later rounds: 4@20:41 Friday 4@21:20 Friday 4@22:00 Friday",
@@ -69906,16 +70285,16 @@
         "partner": "Logigan, Svetlana"
       },
       {
-        "heat": "Heat 200",
-        "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "15:59 Thursday",
+        "heat": "Heat 203",
+        "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:13 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Logigan, Svetlana"
       },
       {
-        "heat": "Heat 203",
-        "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-        "time": "16:13 Thursday",
+        "heat": "Heat 206",
+        "event": "L-B Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:27 Thursday",
         "session": "Jeudi Matin\u00e9e / Thursday Day",
         "partner": "Logigan, Svetlana"
       },
@@ -70011,13 +70390,6 @@
         "partner": "Logigan, Svetlana"
       },
       {
-        "heat": "Heat 421",
-        "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
-        "time": "11:30 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Logigan, Svetlana"
-      },
-      {
         "heat": "Heat 422",
         "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "11:35 Friday",
@@ -70030,6 +70402,13 @@
         "time": "12:04 Friday Later rounds: 3@12:32 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Chau, Khanh"
+      },
+      {
+        "heat": "Heat 429",
+        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+        "time": "12:08 Friday",
+        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "partner": "Logigan, Svetlana"
       },
       {
         "heat": "Heat 430",
@@ -71073,6 +71452,133 @@
       }
     ]
   },
+  "Siscova, Eva-Victoria": {
+    "entries": [
+      {
+        "heat": "Heat 738 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Rumba",
+        "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 739 [Ballroom B]",
+        "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
+        "time": "14:55 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 764 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Chacha",
+        "time": "15:59 Sunday Later rounds: 7@16:26 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 767 [Ballroom A]",
+        "event": "A-JR Argent / Silver LATIN SOLO Jive",
+        "time": "16:04 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 772",
+        "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+        "time": "16:49 Sunday Later rounds: 7@17:52 Sunday 7@18:19 Sunday 7@18:37 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      }
+    ]
+  },
+  "Skavych, Marina": {
+    "entries": [
+      {
+        "heat": "Heat 143",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+        "time": "14:15 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 144",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+        "time": "14:16 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 146",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+        "time": "14:19 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 147",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Quickstep",
+        "time": "14:21 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 157",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+        "time": "14:36 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 178",
+        "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:07 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 191",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse/Waltz",
+        "time": "15:27 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 192",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Tango",
+        "time": "15:28 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 193",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Valse Viennoise/Viennese Waltz",
+        "time": "15:30 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 194",
+        "event": "L-E Argent Ouvert / Open Silver BALLROOM Foxtrot",
+        "time": "15:31 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 204",
+        "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:18 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      },
+      {
+        "heat": "Heat 206",
+        "event": "L-D Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+        "time": "16:27 Thursday",
+        "session": "Jeudi Matin\u00e9e / Thursday Day",
+        "partner": "Komelkov, Vladyslav"
+      }
+    ]
+  },
   "Skripanev, Dmitry": {
     "entries": [
       {
@@ -71791,16 +72297,44 @@
         "partner": "Balan, Vivienne"
       },
       {
-        "heat": "Heat 774 [Ballroom B]",
-        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
-        "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
+        "heat": "Heat 746 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Samba",
+        "time": "15:06 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Fogl, Anne"
       },
       {
-        "heat": "Heat 772 [Ballroom B]",
-        "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
-        "time": "18:19 Sunday",
+        "heat": "Heat 747 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Rumba",
+        "time": "15:07 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Fogl, Anne"
+      },
+      {
+        "heat": "Heat 751 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
+        "time": "15:32 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Fogl, Anne"
+      },
+      {
+        "heat": "Heat 750 [Ballroom B]",
+        "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
+        "time": "15:44 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Fogl, Anne"
+      },
+      {
+        "heat": "Heat 770",
+        "event": "L-JR Argent / Silver LATIN MIXED Jive",
+        "time": "16:29 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Fogl, Anne"
+      },
+      {
+        "heat": "Heat 774 [Ballroom B]",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+        "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Fogl, Anne"
       },
@@ -72997,13 +73531,6 @@
         "partner": "Kolesnik, Gregory"
       },
       {
-        "heat": "Heat 720 [Ballroom A]",
-        "event": "A-YTH Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
-        "time": "11:18 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
-      },
-      {
         "heat": "Heat 745 [Ballroom B]",
         "event": "G-JR Or / Gold LATIN MIXED Cha Cha",
         "time": "15:04 Sunday",
@@ -73044,6 +73571,13 @@
         "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Kolesnik, Gregory"
+      },
+      {
+        "heat": "Heat 780 [Ballroom A]",
+        "event": "A-YTH Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+        "time": "19:41 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
       },
       {
         "heat": "Heat 782",
@@ -73124,6 +73658,20 @@
         "partner": "Kotenov, Sasha"
       },
       {
+        "heat": "Heat 750 [Ballroom B]",
+        "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
+        "time": "16:11 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Li, Hailey"
+      },
+      {
+        "heat": "Heat 737 [Ballroom B]",
+        "event": "L-JR Or / Gold LATIN MIXED Jive",
+        "time": "16:13 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Li, Hailey"
+      },
+      {
         "heat": "Heat 769",
         "event": "L-JR Or / Gold LATIN MIXED Rumba",
         "time": "16:28 Sunday",
@@ -73143,6 +73691,13 @@
         "time": "18:19 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Kotenov, Sasha"
+      },
+      {
+        "heat": "Heat 782",
+        "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+        "time": "19:52 Sunday Later rounds: 7@20:35 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Li, Hailey"
       }
     ]
   },
@@ -76336,13 +76891,6 @@
         "heat": "Heat 434",
         "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
         "time": "12:42 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Panfili, Patricia"
-      },
-      {
-        "heat": "Heat 441",
-        "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
-        "time": "13:48 Friday Later rounds: 3@14:38 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
         "partner": "Panfili, Patricia"
       }
@@ -81695,70 +82243,70 @@
         "event": "L-D Or Ouvert / Open Gold LATIN Chacha",
         "time": "09:07 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 338",
         "event": "L-D Or Ouvert / Open Gold LATIN Samba",
         "time": "09:09 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 339",
         "event": "L-D Or Ouvert / Open Gold LATIN Rumba",
         "time": "09:10 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 340",
         "event": "L-D Or Ouvert / Open Gold LATIN Paso Doble",
         "time": "09:12 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 341",
         "event": "L-D Or Ouvert / Open Gold LATIN Jive",
         "time": "09:13 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 346",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
         "time": "09:21 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 347",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
         "time": "09:22 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 348",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
         "time": "09:24 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 349",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
         "time": "09:25 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 350",
         "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
         "time": "09:27 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       },
       {
         "heat": "Heat 371",
@@ -81891,7 +82439,7 @@
         "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
         "time": "13:48 Friday Later rounds: 3@14:38 Friday",
         "session": "Vendredi Matin\u00e9e / Friday Day",
-        "partner": "Polavarapa, Saroja"
+        "partner": "Polavarapu, Saroja"
       }
     ]
   },

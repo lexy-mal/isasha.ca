@@ -6013,12 +6013,10 @@
       "Barrow, Kara-Lee",
       "Bent, Allison",
       "Collins, Patti",
-      "Daneman, Suzanne",
       "Derry, Patrick",
       "Goodman, Andrea",
       "Ilyushenov, Dmitry",
       "Labelle, Sophie",
-      "Lam, Jone",
       "Levit, Sharon",
       "Lewis, Trina",
       "Rogotskyy, Konstantin",
@@ -6212,6 +6210,16 @@
     ]
   },
   {
+    "heat": "Heat 143",
+    "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse/Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:15 Thursday",
+    "competitors": [
+      "Komelkov, Vladyslav",
+      "Skavych, Marina"
+    ]
+  },
+  {
     "heat": "Heat 144",
     "event": "G-C Bronze 1 Ferm\u00e9 / Closed Bronze 1 BALLROOM Tango",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
@@ -6251,6 +6259,16 @@
       "Miller, Linda",
       "Studenny, Kamil",
       "Ueno, Linda"
+    ]
+  },
+  {
+    "heat": "Heat 144",
+    "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Tango",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:16 Thursday",
+    "competitors": [
+      "Komelkov, Vladyslav",
+      "Skavych, Marina"
     ]
   },
   {
@@ -6380,6 +6398,16 @@
     ]
   },
   {
+    "heat": "Heat 146",
+    "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Foxtrot",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:19 Thursday",
+    "competitors": [
+      "Komelkov, Vladyslav",
+      "Skavych, Marina"
+    ]
+  },
+  {
     "heat": "Heat 147",
     "event": "G-C Bronze 1 Ferm\u00e9 / Closed Bronze 1 BALLROOM Quickstep",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
@@ -6445,8 +6473,10 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "14:21 Thursday",
     "competitors": [
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -6645,6 +6675,16 @@
   },
   {
     "heat": "Heat 153",
+    "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse/Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:30 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 153",
     "event": "L-F Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "14:30 Thursday",
@@ -6715,6 +6755,16 @@
   },
   {
     "heat": "Heat 154",
+    "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Tango",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:31 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 154",
     "event": "L-F Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "14:31 Thursday",
@@ -6767,6 +6817,16 @@
       "Pogonet, Serghei",
       "Pope, Elena",
       "Shelkovyy, Yuriy"
+    ]
+  },
+  {
+    "heat": "Heat 155",
+    "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:33 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
     ]
   },
   {
@@ -6835,6 +6895,16 @@
   },
   {
     "heat": "Heat 156",
+    "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Foxtrot",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:34 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 156",
     "event": "L-F Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "14:34 Thursday",
@@ -6881,6 +6951,16 @@
     "competitors": [
       "G\u00e9linas, Suzanne",
       "Ostanek, Ray"
+    ]
+  },
+  {
+    "heat": "Heat 157",
+    "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Quickstep",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:36 Thursday",
+    "competitors": [
+      "Komelkov, Vladyslav",
+      "Skavych, Marina"
     ]
   },
   {
@@ -7261,6 +7341,16 @@
       "McIntyre, Lauralyn",
       "Pope, Elena",
       "Richardson, Cole"
+    ]
+  },
+  {
+    "heat": "Heat 166",
+    "event": "L-E Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "14:49 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
     ]
   },
   {
@@ -7767,6 +7857,16 @@
   },
   {
     "heat": "Heat 178",
+    "event": "L-E Argent 1 Ouvert / Open Silver 1 BALLROOM Valse Viennoise/Viennese Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:07 Thursday",
+    "competitors": [
+      "Komelkov, Vladyslav",
+      "Skavych, Marina"
+    ]
+  },
+  {
+    "heat": "Heat 178",
     "event": "L-E Bronze Ferm\u00e9 / Closed Bronze BALLROOM Valse Viennoise/Viennese Waltz",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:07 Thursday",
@@ -8059,6 +8159,16 @@
     "competitors": [
       "Miller, Linda",
       "Studenny, Kamil"
+    ]
+  },
+  {
+    "heat": "Heat 184",
+    "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse Viennoise/Viennese Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:16 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
     ]
   },
   {
@@ -8517,8 +8627,10 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:27 Thursday",
     "competitors": [
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -8587,8 +8699,10 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:28 Thursday",
     "competitors": [
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -8637,8 +8751,10 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:30 Thursday",
     "competitors": [
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -8717,8 +8833,10 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:31 Thursday",
     "competitors": [
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -8769,6 +8887,16 @@
     "competitors": [
       "Miller, Linda",
       "Studenny, Kamil"
+    ]
+  },
+  {
+    "heat": "Heat 195",
+    "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Valse/Waltz",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:33 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
     ]
   },
   {
@@ -8853,6 +8981,16 @@
   },
   {
     "heat": "Heat 196",
+    "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Tango",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:34 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 196",
     "event": "L-E Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Tango",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:34 Thursday",
@@ -8923,6 +9061,16 @@
   },
   {
     "heat": "Heat 197",
+    "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Foxtrot",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:36 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 197",
     "event": "L-E Or 1 Ferm\u00e9 / Closed Gold 1 BALLROOM Foxtrot",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:36 Thursday",
@@ -8989,6 +9137,16 @@
     "competitors": [
       "Miller, Linda",
       "Studenny, Kamil"
+    ]
+  },
+  {
+    "heat": "Heat 198",
+    "event": "L-E Argent Ferm\u00e9 / Closed Silver BALLROOM Quickstep",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "15:37 Thursday",
+    "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav"
     ]
   },
   {
@@ -9083,9 +9241,7 @@
     "competitors": [
       "Faith, Linda",
       "Lacroix, Dominic",
-      "Logigan, Svetlana",
       "Mitchell, Brenton",
-      "Shelkovyy, Yuriy",
       "Vasiliu, Irene"
     ]
   },
@@ -9095,7 +9251,9 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "15:59 Thursday",
     "competitors": [
+      "Chiasson, Louise",
       "Cooperman, Tony",
+      "Komelkov, Vladyslav",
       "Lebedev, Ivan",
       "McIntyre, Lauralyn",
       "Miller, Linda",
@@ -9186,9 +9344,17 @@
     "time": "16:13 Thursday",
     "competitors": [
       "Lebedev, Ivan",
-      "Logigan, Svetlana",
-      "Shelkovyy, Yuriy",
       "Ueno, Linda"
+    ]
+  },
+  {
+    "heat": "Heat 203",
+    "event": "L-B Bronze Ouvert / Open Bronze PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "16:13 Thursday",
+    "competitors": [
+      "Logigan, Svetlana",
+      "Shelkovyy, Yuriy"
     ]
   },
   {
@@ -9230,8 +9396,10 @@
       "Anderson, Ryan",
       "Gaspar, Terez",
       "Jensen, Anjali",
+      "Komelkov, Vladyslav",
       "Lebedev, Ivan",
       "Richardson, Cole",
+      "Skavych, Marina",
       "Ueno, Linda"
     ]
   },
@@ -9287,6 +9455,8 @@
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "16:23 Thursday",
     "competitors": [
+      "Chiasson, Louise",
+      "Komelkov, Vladyslav",
       "Miller, Linda",
       "Studenny, Kamil"
     ]
@@ -9340,6 +9510,8 @@
     "time": "16:27 Thursday",
     "competitors": [
       "Lebedev, Ivan",
+      "Logigan, Svetlana",
+      "Shelkovyy, Yuriy",
       "Ueno, Linda"
     ]
   },
@@ -9361,8 +9533,10 @@
     "competitors": [
       "Casavant, Mathieu",
       "Julien, Mariette",
+      "Komelkov, Vladyslav",
       "Lo Basso, Anna",
-      "Sharov, Alex"
+      "Sharov, Alex",
+      "Skavych, Marina"
     ]
   },
   {
@@ -12510,11 +12684,13 @@
       "Dmytriieva, Sofia",
       "Druzhynin, Nikita",
       "Khorosheva, Tetiana",
+      "Komelkov, Vladyslav",
       "Lisovolenko, Stanislav",
       "Lvov, Denis",
       "Mitchell, Brenton",
       "Primeau-Poirier, Virginie",
       "Ross, Darci",
+      "Sevastianova, Alexandra",
       "Xie, Josie",
       "Zhang, Alec"
     ]
@@ -12902,7 +13078,7 @@
       "Lafreni\u00e8re, Francis",
       "Lau, Amy",
       "Maletin, Ilya",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Smithson, Tanja",
       "Vaidila, Hugo",
       "Voronov, Valentin",
@@ -12924,7 +13100,7 @@
       "Lafreni\u00e8re, Francis",
       "Lau, Amy",
       "Maletin, Ilya",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Smithson, Tanja",
       "Vaidila, Hugo",
       "Voronov, Valentin",
@@ -12946,7 +13122,7 @@
       "Lafreni\u00e8re, Francis",
       "Lau, Amy",
       "Maletin, Ilya",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Smithson, Tanja",
       "Vaidila, Hugo",
       "Voronov, Valentin",
@@ -12966,7 +13142,7 @@
       "Kostov, Stilian",
       "Lafreni\u00e8re, Francis",
       "Lau, Amy",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Smithson, Tanja",
       "Vaidila, Hugo",
       "Voronov, Valentin",
@@ -12998,7 +13174,7 @@
       "Kostov, Stilian",
       "Lafreni\u00e8re, Francis",
       "Lau, Amy",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Smithson, Tanja",
       "Vaidila, Hugo",
       "Voronov, Valentin",
@@ -13146,7 +13322,7 @@
       "Lee, Teresa",
       "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Test, Jonathan",
       "Vaidila, Hugo",
@@ -13178,7 +13354,7 @@
       "Lee, Teresa",
       "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Test, Jonathan",
       "Vaidila, Hugo",
@@ -13210,7 +13386,7 @@
       "Lee, Teresa",
       "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Test, Jonathan",
       "Vaidila, Hugo",
@@ -13230,7 +13406,7 @@
       "Lee, Teresa",
       "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Test, Jonathan",
       "Vaidila, Hugo",
@@ -13262,7 +13438,7 @@
       "Lee, Teresa",
       "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Test, Jonathan",
       "Vaidila, Hugo",
@@ -14402,9 +14578,7 @@
     "time": "10:07 Friday",
     "competitors": [
       "Arbour, Danny",
-      "Bell, Lindsay",
       "Hanwella, Shani",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Pat, So My",
       "Vaidila, Hugo",
@@ -14442,9 +14616,7 @@
     "time": "10:09 Friday",
     "competitors": [
       "Arbour, Danny",
-      "Bell, Lindsay",
       "Hanwella, Shani",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Pat, So My",
       "Vaidila, Hugo",
@@ -14482,9 +14654,7 @@
     "time": "10:10 Friday",
     "competitors": [
       "Arbour, Danny",
-      "Bell, Lindsay",
       "Hanwella, Shani",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Pat, So My",
       "Vaidila, Hugo",
@@ -14510,9 +14680,7 @@
     "time": "10:12 Friday",
     "competitors": [
       "Arbour, Danny",
-      "Bell, Lindsay",
       "Hanwella, Shani",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Pat, So My",
       "Vaidila, Hugo",
@@ -14540,9 +14708,7 @@
     "time": "10:13 Friday",
     "competitors": [
       "Arbour, Danny",
-      "Bell, Lindsay",
       "Hanwella, Shani",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Pat, So My",
       "Vaidila, Hugo",
@@ -15314,7 +15480,9 @@
     "time": "10:37 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
+      "Lefebvre, Martin",
       "Parasuco, Rosie",
       "Wang-Mitchell, Fei"
     ]
@@ -15780,7 +15948,9 @@
     "time": "10:51 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
+      "Lefebvre, Martin",
       "Parasuco, Rosie",
       "Wang-Mitchell, Fei"
     ]
@@ -15836,7 +16006,9 @@
     "time": "10:52 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
+      "Lefebvre, Martin",
       "Parasuco, Rosie",
       "Wang-Mitchell, Fei"
     ]
@@ -15892,7 +16064,9 @@
     "time": "10:54 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
+      "Lefebvre, Martin",
       "Parasuco, Rosie",
       "Wang-Mitchell, Fei"
     ]
@@ -15948,7 +16122,9 @@
     "time": "10:55 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
+      "Lefebvre, Martin",
       "Parasuco, Rosie",
       "Wang-Mitchell, Fei"
     ]
@@ -16736,9 +16912,7 @@
     "time": "11:30 Friday",
     "competitors": [
       "Lacroix, Dominic",
-      "Logigan, Svetlana",
-      "Mills, Veronica",
-      "Shelkovyy, Yuriy"
+      "Mills, Veronica"
     ]
   },
   {
@@ -16937,14 +17111,12 @@
     "session": "Vendredi Matin\u00e9e / Friday Day",
     "time": "12:04 Friday Later rounds: 3@12:32 Friday",
     "competitors": [
-      "Bell, Lindsay",
       "Chau, Khanh",
       "Cheuk, Maria",
       "Derry, Patrick",
       "Hanwella, Shani",
       "Lafreni\u00e8re, Francis",
       "Lebedev, Ivan",
-      "Lefebvre, Martin",
       "Milne, Laurie",
       "Naud, Jocelyne",
       "Reininger, Pegi",
@@ -16963,6 +17135,8 @@
       "Cooperman, Tony",
       "Fortin, Jacques",
       "Gagnon, Audrey",
+      "Logigan, Svetlana",
+      "Shelkovyy, Yuriy",
       "Sullivan, Arden",
       "Tang, Janelle"
     ]
@@ -17196,8 +17370,10 @@
     "time": "12:42 Friday",
     "competitors": [
       "Arbour, Danny",
+      "Bell, Lindsay",
       "Daich, Idan",
       "Koullebdjian, H\u00e9l\u00e8ne",
+      "Lefebvre, Martin",
       "Panfili, Patricia",
       "Parasuco, Rosie",
       "Pruneau, Fran\u00e7ois",
@@ -17461,12 +17637,10 @@
       "Lefebvre, Martin",
       "Lo Basso, Anna",
       "Milne, Laurie",
-      "Panfili, Patricia",
       "Parasuco, Rosie",
-      "Polavarapa, Saroja",
+      "Polavarapu, Saroja",
       "Pruneau, Fran\u00e7ois",
       "Sharov, Alex",
-      "Test, Jonathan",
       "Vaidila, Hugo",
       "Valvasori, Jesse",
       "Wang-Mitchell, Fei",
@@ -18159,6 +18333,7 @@
       "Jablonska, Sandra",
       "Janes, Caroly",
       "Jonas, Ellen",
+      "Khorosheva, Tetiana",
       "Kitsun, Andrei",
       "Komelkov, Vladyslav",
       "Konno, Tetsuya",
@@ -18166,6 +18341,7 @@
       "Lavrov, Alieksandr",
       "Lavrov, Vilhelmina",
       "Le, Michal",
+      "Lisovolenko, Stanislav",
       "Lvov, Denis",
       "Mader, Roland",
       "Malov, Dan",
@@ -24137,7 +24313,9 @@
       "Cascaval, Vlad",
       "Fernando, Erma",
       "Kemball, Edith",
+      "Lam, Jone",
       "Lavoie, Louise",
+      "Levasseur, Judith",
       "Levit, Sharon",
       "Tudorovsky, Veycheslav"
     ]
@@ -24321,6 +24499,8 @@
       "Edouard, Volvick",
       "Gabinet-Kroo, Kathryn",
       "Kemball, Edith",
+      "Lam, Jone",
+      "Levasseur, Judith",
       "Reininger, Pegi",
       "Tierney, Caralyn",
       "Tudorovsky, Veycheslav"
@@ -25415,6 +25595,8 @@
     "session": "Samedi Matin\u00e9e / Saturday Day",
     "time": "15:56 Saturday Later rounds: 5@17:30 Saturday",
     "competitors": [
+      "Brosseau, Karine",
+      "Chaput, Tomy",
       "Chouinard, Marc-Andr\u00e9",
       "Davis, Tristen",
       "Desroches, Jasmin",
@@ -25904,7 +26086,7 @@
       "Kaminer, George",
       "Kishchuk, Sofiia",
       "Koval, Mykhailo",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Lakutsevich, Anton",
       "Li, Oscar",
       "Liu, Nickolas",
@@ -26040,7 +26222,7 @@
       "Fonya, Karolina",
       "Giduk, Myka",
       "Kaminer, George",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Li, Oscar",
       "Lopaiev, Nikita",
       "Shpolski, Alex",
@@ -26163,7 +26345,7 @@
       "Avoyan, Camelia",
       "B\u00e9rub\u00e9, Tatiana",
       "Kaminer, George",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Li, Oscar",
       "Morin-Diotte, Logan"
     ]
@@ -26813,6 +26995,7 @@
     "time": "09:42 Sunday",
     "competitors": [
       "Brodziak, Halle",
+      "Fogl, Anne",
       "Giduk, Myka",
       "Liaskovska-Janicek, Sophie",
       "Pelletier, Florence",
@@ -27235,7 +27418,6 @@
     "session": "Dimanche / Sunday",
     "time": "09:50 Sunday",
     "competitors": [
-      "Fogl, Anne",
       "Petrova, Maya",
       "Sochnacki, Talia",
       "Solovyov, Veronica",
@@ -27320,7 +27502,6 @@
     "session": "Dimanche / Sunday",
     "time": "09:51 Sunday",
     "competitors": [
-      "Fogl, Anne",
       "Sochnacki, Talia",
       "Solovyov, Veronica",
       "Tsytsarin, Camilla",
@@ -27544,6 +27725,8 @@
     "time": "09:54 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
+      "Bogodelny, Annabelle",
+      "Bogodelny, Kris",
       "Chan, Athyn",
       "Do, Chloe",
       "Long, Alexandra"
@@ -27565,7 +27748,6 @@
     "session": "Dimanche / Sunday",
     "time": "09:56 Sunday",
     "competitors": [
-      "Fogl, Anne",
       "Sochnacki, Talia",
       "Solovyov, Veronica",
       "Tsytsarin, Camilla",
@@ -27728,6 +27910,7 @@
     "time": "09:59 Sunday",
     "competitors": [
       "Brodziak, Halle",
+      "Fogl, Anne",
       "Giduk, Myka",
       "Liaskovska-Janicek, Sophie",
       "Pelletier, Florence",
@@ -27828,6 +28011,7 @@
     "time": "10:00 Sunday",
     "competitors": [
       "Brodziak, Halle",
+      "Fogl, Anne",
       "Giduk, Myka",
       "Liaskovska-Janicek, Sophie"
     ]
@@ -27838,7 +28022,6 @@
     "session": "Dimanche / Sunday",
     "time": "10:00 Sunday",
     "competitors": [
-      "Fogl, Anne",
       "Pinchak, Gleb",
       "Sochnacki, Talia",
       "Solovyov, Veronica",
@@ -27887,8 +28070,6 @@
     "time": "10:00 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
-      "Bogodelny, Annabelle",
-      "Bogodelny, Kris",
       "Chan, Athyn",
       "Do, Chloe",
       "Long, Alexandra"
@@ -27979,6 +28160,7 @@
     "time": "10:03 Sunday",
     "competitors": [
       "Brodziak, Halle",
+      "Fogl, Anne",
       "Giduk, Myka",
       "Pelletier, Florence",
       "St-Jacques, Delphine",
@@ -28948,8 +29130,7 @@
     "session": "Dimanche / Sunday",
     "time": "11:18 Sunday",
     "competitors": [
-      "Bogodelny, Kris",
-      "Stefanov, Catherine"
+      "Bogodelny, Kris"
     ]
   },
   {
@@ -29013,7 +29194,7 @@
       "Kishchuk, Sofiia",
       "Koval, Mykhailo",
       "Labelle-Parenteau, William",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Lakutsevich, Anton",
       "Langlois, Anabelle",
       "Lauzier, Elicia",
@@ -29139,7 +29320,7 @@
       "Giduk, Myka",
       "Guzun, Amina",
       "Kaminer, George",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Li, Oscar",
       "Lopaiev, Nikita",
       "Romodin, Sebastian",
@@ -29522,7 +29703,7 @@
       "Filatov, Maxim",
       "Guzun, Amina",
       "Kaminer, George",
-      "Lakra, Kiara",
+      "Lakra, Jiya",
       "Li, Oscar",
       "Lopaiev, Nikita",
       "Romodin, Sebastian",
@@ -29737,7 +29918,6 @@
       "Gong, Crystal",
       "Gosselin, Laura",
       "Khoury, Rebecca",
-      "Khoury, Sarah",
       "Khrebtov, Mykyta",
       "Lavrusevich, Milena",
       "Li, Olivia",
@@ -29905,7 +30085,6 @@
       "Gong, Crystal",
       "Gosselin, Laura",
       "Khoury, Rebecca",
-      "Khoury, Sarah",
       "Khrebtov, Mykyta",
       "Lavrusevich, Milena",
       "Li, Olivia",
@@ -30081,7 +30260,6 @@
       "Gong, Crystal",
       "Gosselin, Laura",
       "Khoury, Rebecca",
-      "Khoury, Sarah",
       "Khrebtov, Mykyta",
       "Lavrusevich, Milena",
       "Li, Olivia",
@@ -30321,6 +30499,8 @@
       "Ivanov, Pavel",
       "Jin, Phyllis",
       "Lama, Sean",
+      "Li, Hailey",
+      "Stefanov, Peter",
       "Tsytsarin, Camilla"
     ]
   },
@@ -30392,11 +30572,14 @@
     "competitors": [
       "Brodziak, Halle",
       "Cavaliere, Raffaela",
+      "Fogl, Anne",
       "Fonya, Karolina",
       "Fu, Kaitlin",
       "Giduk, Myka",
       "Hartwell, Estela",
+      "Khoury, Maria",
       "Liaskovska-Janicek, Sophie",
+      "Siscova, Eva-Victoria",
       "Song, Ruihe",
       "Youssef, Zeina",
       "Zhang, Amelie"
@@ -30490,6 +30673,7 @@
       "Giduk, Myka",
       "Hartwell, Estela",
       "Liaskovska-Janicek, Sophie",
+      "Siscova, Eva-Victoria",
       "Youssef, Zeina"
     ]
   },
@@ -30589,7 +30773,6 @@
       "Balan, Eva",
       "Broudno, Thais",
       "Feshchenko, Mariia",
-      "Fogl, Anne",
       "Jamaleddin, Norah",
       "Pinchak, Gleb",
       "Solovyov, Veronica",
@@ -31046,12 +31229,14 @@
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
+      "Fogl, Anne",
       "Hartwell, Estela",
       "Kuragina, Angelika",
       "Lama, Sean",
       "Liang, Eva",
       "Lin, Vanessa",
-      "Petrov, Nathaniel"
+      "Petrov, Nathaniel",
+      "Solomakha, Roman"
     ]
   },
   {
@@ -31128,12 +31313,14 @@
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
+      "Fogl, Anne",
       "Hartwell, Estela",
       "Kuragina, Angelika",
       "Lama, Sean",
       "Liang, Eva",
       "Lin, Vanessa",
-      "Petrov, Nathaniel"
+      "Petrov, Nathaniel",
+      "Solomakha, Roman"
     ]
   },
   {
@@ -31401,12 +31588,14 @@
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
+      "Fogl, Anne",
       "Hartwell, Estela",
       "Kuragina, Angelika",
       "Lama, Sean",
       "Liang, Eva",
       "Lin, Vanessa",
-      "Petrov, Nathaniel"
+      "Petrov, Nathaniel",
+      "Solomakha, Roman"
     ]
   },
   {
@@ -31418,7 +31607,9 @@
       "Broudno, Thais",
       "Ivanov, Pavel",
       "Jin, Phyllis",
-      "Lama, Sean"
+      "Lama, Sean",
+      "Li, Hailey",
+      "Stefanov, Peter"
     ]
   },
   {
@@ -31510,12 +31701,14 @@
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
+      "Fogl, Anne",
       "Hartwell, Estela",
       "Kuragina, Angelika",
       "Lama, Sean",
       "Liang, Eva",
       "Lin, Vanessa",
-      "Petrov, Nathaniel"
+      "Petrov, Nathaniel",
+      "Solomakha, Roman"
     ]
   },
   {
@@ -31808,7 +32001,6 @@
       "Ben-Jemaa, Maya",
       "Bourdon, Charlize",
       "Burganov, Veronica",
-      "Khoury, Maria",
       "Li, Nina",
       "Pelletier, Florence",
       "Shen, Olivia",
@@ -31935,7 +32127,6 @@
       "Ben-Jemaa, Maya",
       "Bourdon, Charlize",
       "Burganov, Veronica",
-      "Khoury, Maria",
       "Li, Nina",
       "Pelletier, Florence",
       "Shen, Olivia",
@@ -32001,6 +32192,7 @@
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
       "Fonya, Karolina",
+      "Goncharuk, Evelina",
       "Khoury, Maria",
       "Li, Nina",
       "Marcinkoski, Solomiya",
@@ -32067,6 +32259,7 @@
       "Burganov, Veronica",
       "Cavaliere, Raffaela",
       "Fonya, Karolina",
+      "Goncharuk, Evelina",
       "Khoury, Maria",
       "Li, Nina",
       "Marcinkoski, Solomiya",
@@ -32125,7 +32318,6 @@
       "Balan, Eva",
       "Broudno, Thais",
       "Feshchenko, Mariia",
-      "Fogl, Anne",
       "Gontcharova, Maya",
       "Movsessian, Nyree",
       "Solovyov, Veronica",
@@ -32146,6 +32338,7 @@
       "Bronshtein, Evelyn",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
+      "Khoury, Sarah",
       "Lu, Yiting",
       "Movshovich Fil, Isabella",
       "Savignac, Gabriella",
@@ -32184,6 +32377,7 @@
       "Bronshtein, Evelyn",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
+      "Khoury, Sarah",
       "Lu, Yiting",
       "Savignac, Gabriella",
       "Semerdji, Juliana",
@@ -32238,7 +32432,6 @@
       "Balan, Eva",
       "Broudno, Thais",
       "Feshchenko, Mariia",
-      "Fogl, Anne",
       "Gontcharova, Maya",
       "Movsessian, Nyree",
       "Solovyov, Veronica",
@@ -32259,6 +32452,7 @@
       "Bronshtein, Evelyn",
       "Flores Wintle, Liliana",
       "Huang, Charlotte",
+      "Khoury, Sarah",
       "Lu, Yiting",
       "Savignac, Gabriella",
       "Selivanova, Julianna",
@@ -32277,12 +32471,15 @@
     "competitors": [
       "Brodziak, Halle",
       "Cavaliere, Raffaela",
+      "Fogl, Anne",
       "Fonya, Karolina",
       "Fu, Kaitlin",
       "Giduk, Myka",
       "Hartwell, Estela",
+      "Khoury, Maria",
       "Liaskovska-Janicek, Sophie",
       "Marcinkoski, Solomiya",
+      "Siscova, Eva-Victoria",
       "Song, Ruihe",
       "Youssef, Zeina",
       "Zhang, Amelie"
@@ -32461,9 +32658,11 @@
     "time": "16:04 Sunday",
     "competitors": [
       "Brodziak, Halle",
+      "Fogl, Anne",
       "Fu, Kaitlin",
       "Giduk, Myka",
       "Hartwell, Estela",
+      "Siscova, Eva-Victoria",
       "Song, Ruihe",
       "Youssef, Zeina",
       "Zhang, Amelie"
@@ -32604,12 +32803,14 @@
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
+      "Fogl, Anne",
       "Hartwell, Estela",
       "Kuragina, Angelika",
       "Lama, Sean",
       "Liang, Eva",
       "Lin, Vanessa",
-      "Petrov, Nathaniel"
+      "Petrov, Nathaniel",
+      "Solomakha, Roman"
     ]
   },
   {
@@ -32649,9 +32850,7 @@
       "Goncharuk, Evelina",
       "Gong, Crystal",
       "Gosselin, Laura",
-      "Khoury, Maria",
       "Khoury, Rebecca",
-      "Khoury, Sarah",
       "Khrebtov, Mykyta",
       "Lavrusevich, Milena",
       "Li, Nina",
@@ -32740,6 +32939,7 @@
       "Brodziak, Halle",
       "Bronshtein, Evelyn",
       "Cavaliere, Raffaela",
+      "Fogl, Anne",
       "Fonya, Karolina",
       "Fu, Kaitlin",
       "Giduk, Myka",
@@ -32749,6 +32949,8 @@
       "Iakovenko, Maya",
       "Jamaleddin, Norah",
       "Janicek, Nikola",
+      "Khoury, Maria",
+      "Khoury, Sarah",
       "Lee, Amber",
       "Li, Nina",
       "Liang, Eva",
@@ -32762,6 +32964,7 @@
       "Savignac, Gabriella",
       "Selivanova, Julianna",
       "Shen, Vienna",
+      "Siscova, Eva-Victoria",
       "Song, Ruihe",
       "Xu, Jiali",
       "Xu, Selina",
@@ -32780,7 +32983,6 @@
     "competitors": [
       "Anastasova, Sofiia",
       "Chen, Kaixin",
-      "Fogl, Anne",
       "Ivanov, Pavel",
       "Jomha, Aleena",
       "Kotenov, Sasha",
@@ -32788,7 +32990,6 @@
       "Lama, Sean",
       "Lennox, Sebastian",
       "Naidoo, Shaylen",
-      "Solomakha, Roman",
       "Stefanov, Peter",
       "Tigelman, Natalie",
       "Zhelasko, Danny"
@@ -33350,6 +33551,7 @@
       "Hudon, Coralie",
       "Li, Olivia",
       "Li, Yuxin",
+      "Stefanov, Catherine",
       "Xu, Yimeng",
       "Zhang, Muqi"
     ]
@@ -33449,6 +33651,7 @@
       "Lama, Sean",
       "Laroche, Justin",
       "Leclair, Sofia",
+      "Li, Hailey",
       "Lin, Vanessa",
       "Munteanu, Luiza",
       "Perchenok, Valeria",
@@ -33458,6 +33661,7 @@
       "Rolik, Alexa",
       "Savignac, Gabriella",
       "Solomakha, Roman",
+      "Stefanov, Peter",
       "Tsytsarin, Camilla",
       "Yelizarova, Mia"
     ]
