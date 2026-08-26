@@ -1254,6 +1254,64 @@
             return `${first} ${last}`;
         }
 
+        // Map stale or variant spellings to the canonical participants.json key.
+        // Source site renames happen between scrapes (e.g. Selivanova -> Selivanov).
+        function resolveParticipantName(name) {
+            if (!name) return name;
+            if (participantsData[name]) return name;
+
+            const lower = name.toLowerCase();
+            const exactCi = sortedParticipants.find(p => p.toLowerCase() === lower);
+            if (exactCi) return exactCi;
+
+            if (name.includes(',')) {
+                const [last, first] = name.split(',').map(n => n.trim());
+                const normLast = last.toLowerCase().replace(/a$/, '');
+                const matches = sortedParticipants.filter(p => {
+                    const [pLast, pFirst] = p.split(',').map(n => n.trim());
+                    return pFirst.toLowerCase() === first.toLowerCase()
+                        && pLast.toLowerCase().replace(/a$/, '') === normLast;
+                });
+                if (matches.length === 1) return matches[0];
+            }
+
+            return name;
+        }
+
+        function participantMatchesFilter(name, filter) {
+            const f = filter.trim().toLowerCase();
+            if (!f) return true;
+            if (name.toLowerCase().includes(f)) return true;
+            if (formatName(name).toLowerCase().includes(f)) return true;
+
+            const resolvedFilter = resolveParticipantName(filter.trim());
+            if (resolvedFilter !== filter.trim() && name === resolvedFilter) return true;
+
+            if (name.includes(',')) {
+                const [last, first] = name.split(',').map(n => n.trim());
+                const normLast = last.toLowerCase().replace(/a$/, '');
+                const normFilter = f.replace(/a$/, '');
+                if (normLast.includes(normFilter) || first.toLowerCase().includes(f)) return true;
+            }
+
+            return false;
+        }
+
+        function migrateRecentlyViewed() {
+            const key = getRecentlyViewedKey();
+            const recentlyViewed = JSON.parse(localStorage.getItem(key) || '[]');
+            const migrated = [];
+            recentlyViewed.forEach(name => {
+                const resolved = resolveParticipantName(name);
+                if (participantsData[resolved] && !migrated.includes(resolved)) {
+                    migrated.push(resolved);
+                }
+            });
+            if (JSON.stringify(migrated) !== JSON.stringify(recentlyViewed)) {
+                localStorage.setItem(key, JSON.stringify(migrated));
+            }
+        }
+
         // Age-category codes embedded in event names (e.g. "AC-JV1 ...", "A-16+ ...").
         // See com_assets/AGE_CATEGORIES.md for how this was derived — the codes here
         // are a real dancesport age ladder, but AD1-AD5 and YO have no published exact
@@ -2307,6 +2365,7 @@
                     heats: heatEventsData.length
                 });
                 sortedParticipants = Object.keys(participantsData).sort();
+                migrateRecentlyViewed();
 
                 // Update dynamic stats
                 document.getElementById('totalParticipants').textContent = sortedParticipants.length;
@@ -2335,7 +2394,7 @@
             list.innerHTML = '';
 
             const filtered = sortedParticipants.filter(name =>
-                name.toLowerCase().includes(filter.toLowerCase())
+                participantMatchesFilter(name, filter)
             );
 
             // Track search events
@@ -2393,10 +2452,11 @@
 
             let html = '<ul style="list-style: none; display: flex; flex-direction: column; gap: 4px;">';
             recentlyViewed.forEach(name => {
-                const entryCount = participantsData[name]?.entries.length || 0;
+                const resolved = resolveParticipantName(name);
+                const entryCount = participantsData[resolved]?.entries.length || 0;
                 html += `
-                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="trackRecentlyViewedClick('${onclickArg(name)}'); searchAndSelect('${onclickArg(name)}', 'recently_viewed')">
-                        <span>${name}</span>
+                    <li class="participant-item" style="padding: 8px; cursor: pointer;" onclick="trackRecentlyViewedClick('${onclickArg(resolved)}'); searchAndSelect('${onclickArg(resolved)}', 'recently_viewed')">
+                        <span>${resolved}</span>
                         <span class="participant-count">${entryCount}</span>
                     </li>
                 `;
@@ -2406,6 +2466,7 @@
         }
 
         function selectParticipant(name, element, source) {
+            name = resolveParticipantName(name);
             document.querySelectorAll('.participant-item').forEach(el => el.classList.remove('active'));
             if (element) element.classList.add('active');
 
@@ -3143,16 +3204,17 @@
         }
 
         function searchAndSelect(name, source) {
-            document.getElementById('searchInput').value = name;
-            displayParticipants(name);
+            const resolved = resolveParticipantName(name);
+            document.getElementById('searchInput').value = resolved;
+            displayParticipants(resolved);
             setTimeout(() => {
                 const items = Array.from(document.querySelectorAll('.participant-item'));
                 const item = items.find(el => {
                     // Get the span text (first child)
                     const span = el.querySelector('span');
-                    return span && span.textContent.trim() === name;
+                    return span && span.textContent.trim() === resolved;
                 });
-                if (item) selectParticipant(name, item, source || 'opponent_link');
+                if (item) selectParticipant(resolved, item, source || 'opponent_link');
             }, 100);
         }
 
