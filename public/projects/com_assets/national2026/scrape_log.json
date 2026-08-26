@@ -7569,5 +7569,1471 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-26T10:00:06.511044+00:00",
+    "participants": {
+      "oldCount": 966,
+      "newCount": 964,
+      "added": [
+        {
+          "name": "Beaulieu, Marie-Claire",
+          "entries": [
+            {
+              "heat": "Heat 633",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 624",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 637",
+              "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 604",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 603",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 605",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 602",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 569",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 568",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 581",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 567",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Chen, Lina",
+          "entries": [
+            {
+              "heat": "Heat 713",
+              "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 771",
+              "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 734",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 737",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 736",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 735",
+              "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 718",
+              "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 779",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Cui, Jiaqi (Ami)",
+          "entries": [
+            {
+              "heat": "Heat 777",
+              "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 745 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 768 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 783",
+              "event": "A-JR Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 748 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 753 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 752 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 728 [Ballroom A]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 653",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 726 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 727 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 732 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 655",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 656",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            }
+          ]
+        },
+        {
+          "name": "Selivanov, Julianna",
+          "entries": [
+            {
+              "heat": "Heat 714",
+              "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 704 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Quickstep",
+              "partner": null
+            },
+            {
+              "heat": "Heat 701 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Tango",
+              "partner": null
+            },
+            {
+              "heat": "Heat 697 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 761 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 739 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 763 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 718",
+              "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 779",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 673 [Ballroom A]",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 672 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 674 [Ballroom A]",
+              "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Gontcharov, Ivan"
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "BEaulieu, Marie-Claire",
+          "entries": [
+            {
+              "heat": "Heat 633",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 624",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 637",
+              "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 604",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 603",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 605",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 602",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 569",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 568",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 581",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 567",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Barabash, Yanina",
+          "entries": [
+            {
+              "heat": "Heat 330",
+              "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+              "partner": "Nikolaiev, Volodymyr"
+            }
+          ]
+        },
+        {
+          "name": "Cui, Amy Jiaqi",
+          "entries": [
+            {
+              "heat": "Heat 777",
+              "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 745 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 768 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 783",
+              "event": "A-JR Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 748 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 753 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 752 [Ballroom A]",
+              "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 728 [Ballroom A]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 726 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 727 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 732 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Kravtsov, Mark"
+            }
+          ]
+        },
+        {
+          "name": "Kazantseva, Polina",
+          "entries": [
+            {
+              "heat": "Heat 142",
+              "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+              "partner": "Sanchez, Sebastian"
+            },
+            {
+              "heat": "Heat 642",
+              "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+              "partner": "Sanchez, Sebastian"
+            },
+            {
+              "heat": "Heat 653",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 465",
+              "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 655",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kravtsov, Mark"
+            },
+            {
+              "heat": "Heat 656",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kravtsov, Mark"
+            }
+          ]
+        },
+        {
+          "name": "Nikolaiev, Volodymyr",
+          "entries": [
+            {
+              "heat": "Heat 330",
+              "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+              "partner": "Barabash, Yanina"
+            }
+          ]
+        },
+        {
+          "name": "Selivanova, Julianna",
+          "entries": [
+            {
+              "heat": "Heat 714",
+              "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 772",
+              "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 704 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Quickstep",
+              "partner": null
+            },
+            {
+              "heat": "Heat 701 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Tango",
+              "partner": null
+            },
+            {
+              "heat": "Heat 697 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 761 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 739 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 763 [Ballroom A]",
+              "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 718",
+              "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 779",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 673 [Ballroom A]",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 672 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Gontcharov, Ivan"
+            },
+            {
+              "heat": "Heat 674 [Ballroom A]",
+              "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Gontcharov, Ivan"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Arbour, Danny",
+          "oldEntryCount": 76,
+          "newEntryCount": 76,
+          "addedEntries": [
+            {
+              "heat": "Heat 633",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 624",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 637",
+              "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 604",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 603",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 605",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 602",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 569",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 568",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 581",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Beaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 567",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "Beaulieu, Marie-Claire"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 633",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 624",
+              "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 637",
+              "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 604",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 603",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 605",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 602",
+              "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 569",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 568",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 581",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "BEaulieu, Marie-Claire"
+            },
+            {
+              "heat": "Heat 567",
+              "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+              "partner": "BEaulieu, Marie-Claire"
+            }
+          ]
+        },
+        {
+          "name": "Artamonov, Arthur",
+          "oldEntryCount": 5,
+          "newEntryCount": 3,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 726 [Ballroom A]",
+              "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Artamonova, Anastasia"
+            },
+            {
+              "heat": "Heat 727 [Ballroom A]",
+              "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Artamonova, Anastasia"
+            }
+          ]
+        },
+        {
+          "name": "Artamonova, Anastasia",
+          "oldEntryCount": 5,
+          "newEntryCount": 3,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 726 [Ballroom A]",
+              "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Artamonov, Arthur"
+            },
+            {
+              "heat": "Heat 727 [Ballroom A]",
+              "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+              "partner": "Artamonov, Arthur"
+            }
+          ]
+        },
+        {
+          "name": "Fogl, Anne",
+          "oldEntryCount": 17,
+          "newEntryCount": 17,
+          "addedEntries": [
+            {
+              "heat": "Heat 742 [Ballroom A]",
+              "event": "A-YTH Argent / Silver LATIN SOLO Samba",
+              "partner": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 762 [Ballroom B]",
+              "event": "A-JR Or / Gold LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Gagliardi, Christopher",
+          "oldEntryCount": 5,
+          "newEntryCount": 3,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 669 [Ballroom B]",
+              "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+              "partner": "Regillo, Aviana"
+            },
+            {
+              "heat": "Heat 671 [Ballroom A]",
+              "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Regillo, Aviana"
+            }
+          ]
+        },
+        {
+          "name": "Gontcharov, Ivan",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Selivanov, Julianna"
+            },
+            {
+              "heat": "Heat 673 [Ballroom A]",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Selivanov, Julianna"
+            },
+            {
+              "heat": "Heat 672 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+              "partner": "Selivanov, Julianna"
+            },
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Selivanov, Julianna"
+            },
+            {
+              "heat": "Heat 674 [Ballroom A]",
+              "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Selivanov, Julianna"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Selivanova, Julianna"
+            },
+            {
+              "heat": "Heat 673 [Ballroom A]",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Selivanova, Julianna"
+            },
+            {
+              "heat": "Heat 672 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+              "partner": "Selivanova, Julianna"
+            },
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Selivanova, Julianna"
+            },
+            {
+              "heat": "Heat 674 [Ballroom A]",
+              "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Selivanova, Julianna"
+            }
+          ]
+        },
+        {
+          "name": "Kitsun, Andrei",
+          "oldEntryCount": 1,
+          "newEntryCount": 1,
+          "addedEntries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Odintsova, Alina"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Odintsova, Alina"
+            }
+          ]
+        },
+        {
+          "name": "Klopotovska, Yaroslava",
+          "oldEntryCount": 4,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 749 [Ballroom A]",
+              "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 766 [Ballroom A]",
+              "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
+              "partner": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Kravtsov, Mark",
+          "oldEntryCount": 8,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 728 [Ballroom A]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 653",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 726 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 727 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 732 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 655",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Jiaqi (Ami)"
+            },
+            {
+              "heat": "Heat 656",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Cui, Jiaqi (Ami)"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 728 [Ballroom A]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Amy Jiaqi"
+            },
+            {
+              "heat": "Heat 653",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "Heat 726 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Cui, Amy Jiaqi"
+            },
+            {
+              "heat": "Heat 727 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Cui, Amy Jiaqi"
+            },
+            {
+              "heat": "Heat 732 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Cui, Amy Jiaqi"
+            },
+            {
+              "heat": "Heat 465",
+              "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "Heat 655",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "Heat 656",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+              "partner": "Kazantseva, Polina"
+            }
+          ]
+        },
+        {
+          "name": "Odintsova, Alina",
+          "oldEntryCount": 1,
+          "newEntryCount": 1,
+          "addedEntries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Kitsun, Andrei"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Kitsun, Andrei"
+            }
+          ]
+        },
+        {
+          "name": "Regillo, Aviana",
+          "oldEntryCount": 11,
+          "newEntryCount": 9,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 669 [Ballroom B]",
+              "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+              "partner": "Gagliardi, Christopher"
+            },
+            {
+              "heat": "Heat 671 [Ballroom A]",
+              "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Gagliardi, Christopher"
+            }
+          ]
+        },
+        {
+          "name": "Sanchez, Sebastian",
+          "oldEntryCount": 4,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 142",
+              "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+              "partner": "Kazantseva, Polina"
+            },
+            {
+              "heat": "Heat 642",
+              "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+              "partner": "Kazantseva, Polina"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2701,
+      "newCount": 2701,
+      "oldUniqueCount": 2699,
+      "newUniqueCount": 2699,
+      "added": [
+        "A-YTH Argent / Silver LATIN SOLO Samba"
+      ],
+      "removed": [
+        "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Or / Gold LATIN SOLO Samba",
+          "added": [],
+          "removed": [
+            "Fogl, Anne"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO Chacha",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO Jive",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO Paso Doble",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO Rumba",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JR Ouvert / Open LATIN SOLO Samba",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver BALLROOM SOLO Quickstep",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver BALLROOM SOLO Tango",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+          "added": [
+            "Chen, Lina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+          "added": [
+            "Chen, Lina",
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Chen, Lina",
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
+          "added": [
+            "Klopotovska, Yaroslava"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
+          "added": [
+            "Klopotovska, Yaroslava"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+          "added": [],
+          "removed": [
+            "Kazantseva, Polina",
+            "Sanchez, Sebastian"
+          ]
+        },
+        {
+          "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Kazantseva, Polina"
+          ]
+        },
+        {
+          "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Cui, Amy Jiaqi"
+          ]
+        },
+        {
+          "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
+          "added": [],
+          "removed": [
+            "Artamonov, Arthur",
+            "Artamonova, Anastasia"
+          ]
+        },
+        {
+          "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
+          "added": [],
+          "removed": [
+            "Artamonov, Arthur",
+            "Artamonova, Anastasia"
+          ]
+        },
+        {
+          "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
+          "added": [],
+          "removed": [
+            "Gagliardi, Christopher",
+            "Regillo, Aviana"
+          ]
+        },
+        {
+          "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Gagliardi, Christopher",
+            "Regillo, Aviana"
+          ]
+        },
+        {
+          "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": [
+            "Selivanova, Julianna"
+          ]
+        },
+        {
+          "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Kazantseva, Polina",
+            "Kravtsov, Mark"
+          ]
+        },
+        {
+          "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Kazantseva, Polina"
+          ]
+        },
+        {
+          "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+          "added": [
+            "Cui, Jiaqi (Ami)"
+          ],
+          "removed": [
+            "Kazantseva, Polina"
+          ]
+        },
+        {
+          "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+          "added": [
+            "Beaulieu, Marie-Claire"
+          ],
+          "removed": [
+            "BEaulieu, Marie-Claire"
+          ]
+        },
+        {
+          "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
+          "added": [],
+          "removed": [
+            "Barabash, Yanina",
+            "Nikolaiev, Volodymyr"
+          ]
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+          "added": [],
+          "removed": [
+            "Kitsun, Andrei",
+            "Odintsova, Alina"
+          ]
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+          "added": [
+            "Kitsun, Andrei",
+            "Odintsova, Alina"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]

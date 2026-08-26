@@ -2241,56 +2241,56 @@
         "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
         "time": "10:28 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 568",
         "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
         "time": "10:30 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 569",
         "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
         "time": "10:31 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 581",
         "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
         "time": "10:49 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 602",
         "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
         "time": "11:21 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 603",
         "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
         "time": "11:22 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 604",
         "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
         "time": "11:24 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 605",
         "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
         "time": "11:25 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 611",
@@ -2318,7 +2318,7 @@
         "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "12:18 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 631",
@@ -2332,7 +2332,7 @@
         "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "13:06 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 636",
@@ -2346,7 +2346,7 @@
         "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
         "time": "13:40 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "BEaulieu, Marie-Claire"
+        "partner": "Beaulieu, Marie-Claire"
       },
       {
         "heat": "Heat 640",
@@ -2502,20 +2502,6 @@
         "partner": "Artamonova, Anastasia"
       },
       {
-        "heat": "Heat 726 [Ballroom A]",
-        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Artamonova, Anastasia"
-      },
-      {
-        "heat": "Heat 727 [Ballroom A]",
-        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
-        "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Artamonova, Anastasia"
-      },
-      {
         "heat": "Heat 733 [Ballroom A]",
         "event": "AC-JV1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "13:58 Sunday",
@@ -2537,20 +2523,6 @@
         "heat": "Heat 725",
         "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
         "time": "12:39 Sunday Later rounds: 7@13:18 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Artamonov, Arthur"
-      },
-      {
-        "heat": "Heat 726 [Ballroom A]",
-        "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
-        "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Artamonov, Arthur"
-      },
-      {
-        "heat": "Heat 727 [Ballroom A]",
-        "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
-        "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Artamonov, Arthur"
       },
@@ -2861,87 +2833,6 @@
         "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Hapier, Liliana"
-      }
-    ]
-  },
-  "BEaulieu, Marie-Claire": {
-    "entries": [
-      {
-        "heat": "Heat 567",
-        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
-        "time": "10:28 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 568",
-        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
-        "time": "10:30 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 569",
-        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
-        "time": "10:31 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 581",
-        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
-        "time": "10:49 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 602",
-        "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
-        "time": "11:21 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 603",
-        "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
-        "time": "11:22 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 604",
-        "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
-        "time": "11:24 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 605",
-        "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
-        "time": "11:25 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 624",
-        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
-        "time": "12:18 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 633",
-        "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
-        "time": "13:06 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
-      },
-      {
-        "heat": "Heat 637",
-        "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
-        "time": "13:40 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Arbour, Danny"
       }
     ]
   },
@@ -4113,17 +4004,6 @@
         "time": "19:55 Sunday Later rounds: 7@20:38 Sunday 7@21:01 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null
-      }
-    ]
-  },
-  "Barabash, Yanina": {
-    "entries": [
-      {
-        "heat": "Heat 330",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
-        "time": "22:48 Thursday",
-        "session": "Jeudi Soir\u00e9e / Thursday Evening",
-        "partner": "Nikolaiev, Volodymyr"
       }
     ]
   },
@@ -5500,6 +5380,87 @@
         "time": "19:54 Saturday Later rounds: 6@21:29 Saturday 6@21:47 Saturday",
         "session": "Samedi Soir\u00e9e / Saturday Evening",
         "partner": "Guay, Claude"
+      }
+    ]
+  },
+  "Beaulieu, Marie-Claire": {
+    "entries": [
+      {
+        "heat": "Heat 567",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse/Waltz",
+        "time": "10:28 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 568",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Tango",
+        "time": "10:30 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 569",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Foxtrot",
+        "time": "10:31 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 581",
+        "event": "L-C Bronze Ouvert / Open Bronze SMOOTH Valse Viennoise/Viennese Waltz",
+        "time": "10:49 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 602",
+        "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+        "time": "11:21 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 603",
+        "event": "L-C Argent Ouvert / Open Silver SMOOTH Tango",
+        "time": "11:22 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 604",
+        "event": "L-C Argent Ouvert / Open Silver SMOOTH Foxtrot",
+        "time": "11:24 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 605",
+        "event": "L-C Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+        "time": "11:25 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 624",
+        "event": "L-A Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "12:18 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 633",
+        "event": "L-A Argent Ouvert / Open Silver PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "13:06 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
+      },
+      {
+        "heat": "Heat 637",
+        "event": "L-A Or Ouvert / Open Gold PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+        "time": "13:40 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Arbour, Danny"
       }
     ]
   },
@@ -13547,6 +13508,66 @@
       }
     ]
   },
+  "Chen, Lina": {
+    "entries": [
+      {
+        "heat": "Heat 713",
+        "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+        "time": "10:23 Sunday Later rounds: 7@10:41 Sunday 7@10:59 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 718",
+        "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+        "time": "11:03 Sunday Later rounds: 7@11:26 Sunday 7@11:48 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 734",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+        "time": "14:38 Sunday Later rounds: 7@15:12 Sunday 7@15:40 Sunday 7@16:07 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 735",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+        "time": "14:42 Sunday Later rounds: 7@15:15 Sunday 7@15:41 Sunday 7@16:08 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 736",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+        "time": "14:46 Sunday Later rounds: 7@15:18 Sunday 7@15:43 Sunday 7@16:10 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 737",
+        "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+        "time": "14:50 Sunday Later rounds: 7@15:25 Sunday 7@15:46 Sunday 7@16:13 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 771",
+        "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+        "time": "16:31 Sunday Later rounds: 7@17:43 Sunday 7@18:14 Sunday 7@18:32 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 779",
+        "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+        "time": "19:11 Sunday Later rounds: 7@20:10 Sunday 7@20:46 Sunday 7@21:08 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      }
+    ]
+  },
   "Chen, Mia Baiqiao": {
     "entries": [
       {
@@ -15874,8 +15895,29 @@
       }
     ]
   },
-  "Cui, Amy Jiaqi": {
+  "Cui, Jiaqi (Ami)": {
     "entries": [
+      {
+        "heat": "Heat 653",
+        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "16:01 Saturday Later rounds: 5@17:35 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Kravtsov, Mark"
+      },
+      {
+        "heat": "Heat 655",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
+        "time": "17:05 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Kravtsov, Mark"
+      },
+      {
+        "heat": "Heat 656",
+        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
+        "time": "17:10 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
+        "partner": "Kravtsov, Mark"
+      },
       {
         "heat": "Heat 726 [Ballroom B]",
         "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
@@ -22111,6 +22153,13 @@
         "partner": null
       },
       {
+        "heat": "Heat 742 [Ballroom A]",
+        "event": "A-YTH Argent / Silver LATIN SOLO Samba",
+        "time": "15:00 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
         "heat": "Heat 746 [Ballroom B]",
         "event": "L-JR Argent / Silver LATIN MIXED Samba",
         "time": "15:06 Sunday",
@@ -22137,13 +22186,6 @@
         "time": "15:44 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Solomakha, Roman"
-      },
-      {
-        "heat": "Heat 762 [Ballroom B]",
-        "event": "A-JR Or / Gold LATIN SOLO Samba",
-        "time": "15:56 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null
       },
       {
         "heat": "Heat 764 [Ballroom A]",
@@ -23450,20 +23492,6 @@
   "Gagliardi, Christopher": {
     "entries": [
       {
-        "heat": "Heat 669 [Ballroom B]",
-        "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
-        "time": "07:53 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Regillo, Aviana"
-      },
-      {
-        "heat": "Heat 671 [Ballroom A]",
-        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Regillo, Aviana"
-      },
-      {
         "heat": "Heat 722",
         "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
         "time": "12:26 Sunday Later rounds: 7@12:54 Sunday 7@13:49 Sunday",
@@ -24725,35 +24753,35 @@
         "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (F/VW)",
         "time": "08:06 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Selivanova, Julianna"
+        "partner": "Selivanov, Julianna"
       },
       {
         "heat": "Heat 673 [Ballroom A]",
         "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
         "time": "08:09 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Selivanova, Julianna"
+        "partner": "Selivanov, Julianna"
       },
       {
         "heat": "Heat 674 [Ballroom A]",
         "event": "AC-JV2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "08:19 Sunday Later rounds: 7@08:39 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Selivanova, Julianna"
+        "partner": "Selivanov, Julianna"
       },
       {
         "heat": "Heat 675 [Ballroom B]",
         "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
         "time": "08:29 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Selivanova, Julianna"
+        "partner": "Selivanov, Julianna"
       },
       {
         "heat": "Heat 676",
         "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
         "time": "08:36 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Selivanova, Julianna"
+        "partner": "Selivanov, Julianna"
       },
       {
         "heat": "Heat 718",
@@ -31905,52 +31933,6 @@
       }
     ]
   },
-  "Kazantseva, Polina": {
-    "entries": [
-      {
-        "heat": "Heat 142",
-        "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
-        "time": "13:14 Thursday",
-        "session": "Jeudi Matin\u00e9e / Thursday Day",
-        "partner": "Sanchez, Sebastian"
-      },
-      {
-        "heat": "Heat 465",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "19:55 Friday Later rounds: 4@21:01 Friday",
-        "session": "Vendredi Soir\u00e9e / Friday Evening",
-        "partner": "Kravtsov, Mark"
-      },
-      {
-        "heat": "Heat 642",
-        "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
-        "time": "14:53 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Sanchez, Sebastian"
-      },
-      {
-        "heat": "Heat 653",
-        "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
-        "time": "16:01 Saturday Later rounds: 5@17:35 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kravtsov, Mark"
-      },
-      {
-        "heat": "Heat 655",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
-        "time": "17:05 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kravtsov, Mark"
-      },
-      {
-        "heat": "Heat 656",
-        "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
-        "time": "17:10 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kravtsov, Mark"
-      }
-    ]
-  },
   "Kemball, Edith": {
     "entries": [
       {
@@ -33516,16 +33498,30 @@
   "Kitsun, Andrei": {
     "entries": [
       {
-        "heat": "Heat 462",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "17:00 Friday Later rounds: 4@20:41 Friday 4@21:20 Friday 4@22:00 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "heat": "Heat 654",
+        "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+        "time": "16:25 Saturday Later rounds: 5@17:40 Saturday 6@21:04 Saturday 6@22:06 Saturday 6@22:46 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Odintsova, Alina"
       }
     ]
   },
   "Klopotovska, Yaroslava": {
     "entries": [
+      {
+        "heat": "Heat 749 [Ballroom A]",
+        "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
+        "time": "15:10 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
+      {
+        "heat": "Heat 766 [Ballroom A]",
+        "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
+        "time": "16:02 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": null
+      },
       {
         "heat": "Heat 774 [Ballroom A]",
         "event": "A-16+ Bronze / Bronze LATIN SOLO (C/R/S)",
@@ -35380,60 +35376,53 @@
   "Kravtsov, Mark": {
     "entries": [
       {
-        "heat": "Heat 465",
-        "event": "AC-YTH AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
-        "time": "19:55 Friday Later rounds: 4@21:01 Friday",
-        "session": "Vendredi Soir\u00e9e / Friday Evening",
-        "partner": "Kazantseva, Polina"
-      },
-      {
         "heat": "Heat 653",
         "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "16:01 Saturday Later rounds: 5@17:35 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kazantseva, Polina"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 655",
         "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "17:05 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kazantseva, Polina"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 656",
         "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "17:10 Saturday",
         "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kazantseva, Polina"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 726 [Ballroom B]",
         "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Cui, Amy Jiaqi"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 727 [Ballroom B]",
         "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
         "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Cui, Amy Jiaqi"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 728 [Ballroom A]",
         "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
         "time": "12:50 Sunday Later rounds: 7@13:49 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Cui, Amy Jiaqi"
+        "partner": "Cui, Jiaqi (Ami)"
       },
       {
         "heat": "Heat 732 [Ballroom B]",
         "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "14:08 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Cui, Amy Jiaqi"
+        "partner": "Cui, Jiaqi (Ami)"
       }
     ]
   },
@@ -53691,17 +53680,6 @@
       }
     ]
   },
-  "Nikolaiev, Volodymyr": {
-    "entries": [
-      {
-        "heat": "Heat 330",
-        "event": "PRO SMOOTH Championnat National Canadien / Canada's National Championship (W/T/F/VW)",
-        "time": "22:48 Thursday",
-        "session": "Jeudi Soir\u00e9e / Thursday Evening",
-        "partner": "Barabash, Yanina"
-      }
-    ]
-  },
   "Nikolov, Ellie": {
     "entries": [
       {
@@ -54054,10 +54032,10 @@
   "Odintsova, Alina": {
     "entries": [
       {
-        "heat": "Heat 462",
-        "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
-        "time": "17:00 Friday Later rounds: 4@20:41 Friday 4@21:20 Friday 4@22:00 Friday",
-        "session": "Vendredi Matin\u00e9e / Friday Day",
+        "heat": "Heat 654",
+        "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+        "time": "16:25 Saturday Later rounds: 5@17:40 Saturday 6@21:04 Saturday 6@22:06 Saturday 6@22:46 Saturday",
+        "session": "Samedi Matin\u00e9e / Saturday Day",
         "partner": "Kitsun, Andrei"
       }
     ]
@@ -62494,20 +62472,6 @@
   "Regillo, Aviana": {
     "entries": [
       {
-        "heat": "Heat 669 [Ballroom B]",
-        "event": "AC-JV D\u00e9butant/Beginner AMATEUR BALLROOM (W/T)",
-        "time": "07:53 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Gagliardi, Christopher"
-      },
-      {
-        "heat": "Heat 671 [Ballroom A]",
-        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Gagliardi, Christopher"
-      },
-      {
         "heat": "Heat 722",
         "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
         "time": "12:26 Sunday Later rounds: 7@12:54 Sunday 7@13:49 Sunday",
@@ -67713,20 +67677,6 @@
   "Sanchez, Sebastian": {
     "entries": [
       {
-        "heat": "Heat 142",
-        "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
-        "time": "13:14 Thursday",
-        "session": "Jeudi Matin\u00e9e / Thursday Day",
-        "partner": "Kazantseva, Polina"
-      },
-      {
-        "heat": "Heat 642",
-        "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
-        "time": "14:53 Saturday",
-        "session": "Samedi Matin\u00e9e / Saturday Day",
-        "partner": "Kazantseva, Polina"
-      },
-      {
         "heat": "Heat 664",
         "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "21:38 Saturday Later rounds: 6@22:16 Saturday",
@@ -69036,7 +68986,7 @@
       }
     ]
   },
-  "Selivanova, Julianna": {
+  "Selivanov, Julianna": {
     "entries": [
       {
         "heat": "Heat 672 [Ballroom B]",

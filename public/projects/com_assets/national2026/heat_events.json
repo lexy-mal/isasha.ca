@@ -6131,16 +6131,6 @@
   },
   {
     "heat": "Heat 142",
-    "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
-    "session": "Jeudi Matin\u00e9e / Thursday Day",
-    "time": "13:14 Thursday",
-    "competitors": [
-      "Kazantseva, Polina",
-      "Sanchez, Sebastian"
-    ]
-  },
-  {
-    "heat": "Heat 142",
     "event": "G-D PRO-AM RHYTHM Schol. Champ. Canadien / Canadian Champ. (C/R/SW/B/M)",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "13:14 Thursday",
@@ -12764,12 +12754,10 @@
     "time": "22:48 Thursday",
     "competitors": [
       "Artemenko, Kamila",
-      "Barabash, Yanina",
       "Derry, Patrick",
       "Gooley, Haylin",
       "Gordon, Tyler",
       "Krauchenko, Oleksandr",
-      "Nikolaiev, Volodymyr",
       "Trutneva, Anastasia"
     ]
   },
@@ -18326,7 +18314,6 @@
       "Janes, Caroly",
       "Jonas, Ellen",
       "Khorosheva, Tetiana",
-      "Kitsun, Andrei",
       "Komelkov, Vladyslav",
       "Konno, Tetsuya",
       "Lamine, Michel",
@@ -18341,7 +18328,6 @@
       "Mitchell, Brenton",
       "Miyazaki, Maria",
       "O'Connor, Natalia",
-      "Odintsova, Alina",
       "Ohta, Yoshiyuki",
       "Primeau-Poirier, Virginie",
       "Ross, Darci",
@@ -18438,9 +18424,7 @@
       "Guenis, Tamir",
       "Ilyushenov, Andrey",
       "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
       "Kischitzky, Gaya",
-      "Kravtsov, Mark",
       "Moscal, Silvia",
       "Nor-Arevian, Sofia",
       "Oliynyk, Sofiya",
@@ -22085,7 +22069,7 @@
     "time": "10:28 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Golestani, Nicole",
       "Lewis, Magali",
@@ -22127,7 +22111,7 @@
     "time": "10:30 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Golestani, Nicole",
       "Lewis, Magali",
@@ -22157,7 +22141,7 @@
     "time": "10:31 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Golestani, Nicole",
       "Lewis, Magali",
@@ -22542,7 +22526,7 @@
     "time": "10:49 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Lewis, Magali",
       "Perras, Isabelle",
@@ -23202,7 +23186,7 @@
     "time": "11:21 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Feldman, Rachel",
       "McCloskey, Fiona",
@@ -23232,7 +23216,7 @@
     "time": "11:22 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Feldman, Rachel",
       "McCloskey, Fiona",
@@ -23262,7 +23246,7 @@
     "time": "11:24 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Feldman, Rachel",
       "McCloskey, Fiona",
@@ -23304,7 +23288,7 @@
     "time": "11:25 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Edouard, Volvick",
       "Feldman, Rachel",
       "McCloskey, Fiona",
@@ -24378,7 +24362,7 @@
     "time": "12:18 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Levit, Sharon",
       "Marsh, Amanda"
     ]
@@ -24744,7 +24728,7 @@
     "time": "13:06 Saturday",
     "competitors": [
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Levit, Sharon",
       "Marsh, Amanda",
       "Nicholls, Catherine",
@@ -24929,7 +24913,7 @@
     "competitors": [
       "Aouad, Celina",
       "Arbour, Danny",
-      "BEaulieu, Marie-Claire",
+      "Beaulieu, Marie-Claire",
       "Tudorovsky, Veycheslav"
     ]
   },
@@ -25150,8 +25134,6 @@
     "time": "14:53 Saturday",
     "competitors": [
       "Collette, Sylvain",
-      "Kazantseva, Polina",
-      "Sanchez, Sebastian",
       "Trudeau, Caroline"
     ]
   },
@@ -25631,11 +25613,11 @@
       "Campeau, Mathias",
       "Chen, Nicole",
       "Cismas, Lisandru",
+      "Cui, Jiaqi (Ami)",
       "Dempster, Abigail",
       "Feyzulaev, Camilla",
       "Groulx, William",
       "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
       "Kravtsov, Mark",
       "Laroche, Justin",
       "Locke, Richard",
@@ -25686,6 +25668,7 @@
       "Karaulov, Alexey",
       "Kashirkin, Ilya",
       "Khorosheva, Tetiana",
+      "Kitsun, Andrei",
       "Kovalenko, Dmytro",
       "Kovalenko, Nina",
       "Kozobrod, Masha",
@@ -25710,6 +25693,7 @@
       "Nolan, Sarah",
       "Nomura, Naoto",
       "Oblakova, Anna",
+      "Odintsova, Alina",
       "Ohta, Yoshiyuki",
       "Olarescu, Stas",
       "Ong, Kelvin",
@@ -25747,10 +25731,10 @@
       "Bogodelny, Kris",
       "Chen, Nicole",
       "Cismas, Lisandru",
+      "Cui, Jiaqi (Ami)",
       "Fedorenko, Sviatoslav",
       "Guenis, Tamir",
       "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
       "Kravtsov, Mark",
       "Loginov, Cataleya",
       "Moscal, Silvia",
@@ -25791,9 +25775,9 @@
       "Bogodelny, Kris",
       "Chen, Nicole",
       "Cismas, Lisandru",
+      "Cui, Jiaqi (Ami)",
       "Guenis, Tamir",
       "Kavtaradze, Sophie",
-      "Kazantseva, Polina",
       "Kravtsov, Mark",
       "Moscal, Silvia",
       "Silagadze, David",
@@ -26248,13 +26232,11 @@
     "competitors": [
       "Ahunov, Adelina",
       "Feskiv, Nicole",
-      "Gagliardi, Christopher",
       "Gakh, David",
       "Labelle-Parenteau, William",
       "Langlois, Anabelle",
       "Malashenko, Andr\u00e9",
       "Pavlenko, Arya",
-      "Regillo, Aviana",
       "Sevigny, Raphael"
     ]
   },
@@ -26350,7 +26332,6 @@
     "competitors": [
       "Beaudry, Annabelle",
       "Feskiv, Nicole",
-      "Gagliardi, Christopher",
       "Gakh, David",
       "Gregoire, Isaac",
       "Koval, Mykhailo",
@@ -26360,7 +26341,6 @@
       "Pavlenko, Arya",
       "Peng, Noreen",
       "Provencher, Olive",
-      "Regillo, Aviana",
       "Reider, Emmanuella",
       "Richer, Roxana",
       "Richer, Ruslan",
@@ -26423,7 +26403,7 @@
     "time": "08:06 Sunday",
     "competitors": [
       "Gontcharov, Ivan",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -26468,7 +26448,7 @@
       "Murzin, Nicole",
       "Ofengenden, Abigail",
       "Popov, Daniel",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Yagiyaev, Alec"
     ]
   },
@@ -26539,7 +26519,7 @@
       "Popov, Daniel",
       "Reider, Emmanuella",
       "Rolik, Max",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -26571,7 +26551,7 @@
     "time": "08:29 Sunday",
     "competitors": [
       "Gontcharov, Ivan",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -26620,7 +26600,7 @@
       "Murzin, Nicole",
       "Ofengenden, Abigail",
       "Popov, Daniel",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Yagiyaev, Alec"
     ]
   },
@@ -27588,7 +27568,7 @@
     "competitors": [
       "Balan, Ella",
       "Bronshtein, Evelyn",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -27919,7 +27899,7 @@
       "Allaire, Lea",
       "Balan, Ella",
       "Bronshtein, Evelyn",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -28169,7 +28149,7 @@
       "Belmonte, Olivia",
       "Bronshtein, Evelyn",
       "Motyl, Nataliia",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -28683,6 +28663,7 @@
       "Ben-Jemaa, Maya",
       "Bronshtein, Evelyn",
       "Cavaliere, Raffaela",
+      "Chen, Lina",
       "Fonya, Karolina",
       "Giduk, Myka",
       "Gong, Crystal",
@@ -28752,7 +28733,7 @@
       "Marette, Giselle",
       "Pelletier, Florence",
       "Pinhasov, Lital",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "St-Jacques, Delphine",
       "Stechlinski, Lexie"
     ]
@@ -29023,6 +29004,7 @@
       "Belmonte, Olivia",
       "Bronshtein, Evelyn",
       "Chen, Janelle",
+      "Chen, Lina",
       "Do, Chloe",
       "Gontcharov, Ivan",
       "Janicek, Nikola",
@@ -29032,7 +29014,7 @@
       "Motyl, Nataliia",
       "Pavlenko, Arya",
       "Selivanov, Elizabeth",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Stroganova, Estella",
       "Veshchikova, Evelin",
       "Zalessky, Veronica"
@@ -29491,7 +29473,7 @@
       "Babizhaev, Yana",
       "Birkin, Artem",
       "Chempinsky, Elinor",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Dianov, Nikita",
       "Dmitrenko, Nicolas",
       "Fedorenko, Sviatoslav",
@@ -29518,8 +29500,6 @@
     "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
     "competitors": [
       "Amiri, Alia",
-      "Artamonov, Arthur",
-      "Artamonova, Anastasia",
       "Ciobanu, Gabriel",
       "Elali, Vadimir",
       "Hoang, Jack",
@@ -29552,7 +29532,7 @@
       "Babizhaev, Yana",
       "Birkin, Artem",
       "Chempinsky, Elinor",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Dianov, Nikita",
       "Dmitrenko, Nicolas",
       "Fedorenko, Sviatoslav",
@@ -29578,8 +29558,6 @@
     "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
     "competitors": [
       "Amiri, Alia",
-      "Artamonov, Arthur",
-      "Artamonova, Anastasia",
       "Ciobanu, Gabriel",
       "Elali, Vadimir",
       "Hoang, Jack",
@@ -29612,7 +29590,7 @@
       "Babizhaev, Yana",
       "Birkin, Artem",
       "Chempinsky, Elinor",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Dianov, Nikita",
       "Dmitrenko, Nicolas",
       "Fedorenko, Sviatoslav",
@@ -29802,7 +29780,7 @@
     "time": "14:08 Sunday",
     "competitors": [
       "Chempinsky, Elinor",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Dianov, Nikita",
       "Dmitrenko, Nicolas",
       "Kischitzky, Gaya",
@@ -29905,6 +29883,7 @@
       "Allaire, Lea",
       "Balan, Ella",
       "Belmonte, Alesia",
+      "Chen, Lina",
       "Do, Chloe",
       "Dong, Charlene",
       "Gong, Crystal",
@@ -30072,6 +30051,7 @@
       "Al Said, Olivia",
       "Aptekar, Eliana Ann-Marie",
       "Balan, Ella",
+      "Chen, Lina",
       "Do, Chloe",
       "Dong, Charlene",
       "Gong, Crystal",
@@ -30247,6 +30227,7 @@
       "Allaire, Lea",
       "Aptekar, Eliana Ann-Marie",
       "Balan, Ella",
+      "Chen, Lina",
       "Do, Chloe",
       "Dong, Charlene",
       "Gong, Crystal",
@@ -30410,6 +30391,7 @@
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Balan, Ella",
+      "Chen, Lina",
       "Do, Chloe",
       "Dong, Charlene",
       "Gong, Crystal",
@@ -30683,7 +30665,7 @@
       "Movshovich Fil, Isabella",
       "Perchenok, Valeria",
       "Savignac, Gabriella",
-      "Selivanova, Julianna"
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -30917,6 +30899,15 @@
   },
   {
     "heat": "Heat 742 [Ballroom A]",
+    "event": "A-YTH Argent / Silver LATIN SOLO Samba",
+    "session": "Dimanche / Sunday",
+    "time": "15:00 Sunday",
+    "competitors": [
+      "Fogl, Anne"
+    ]
+  },
+  {
+    "heat": "Heat 742 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
     "time": "15:00 Sunday",
@@ -31120,7 +31111,7 @@
     "time": "15:04 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Li, Yuci",
       "Lu, Ariel",
       "Milkova, Anna",
@@ -31357,7 +31348,7 @@
     "time": "15:09 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Li, Yuci",
       "Lu, Ariel",
       "Pinchak, Gleb",
@@ -31444,6 +31435,7 @@
     "session": "Dimanche / Sunday",
     "time": "15:10 Sunday",
     "competitors": [
+      "Klopotovska, Yaroslava",
       "Rivest, Lilly"
     ]
   },
@@ -31724,7 +31716,7 @@
     "time": "15:34 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Li, Yuci",
       "Lu, Ariel",
       "Milkova, Anna",
@@ -31799,7 +31791,7 @@
     "time": "15:35 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Li, Yuci",
       "Lu, Ariel",
       "Milkova, Anna",
@@ -32334,7 +32326,7 @@
       "Lu, Yiting",
       "Movshovich Fil, Isabella",
       "Savignac, Gabriella",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Semerdji, Juliana",
       "Shen, Vienna",
       "Teplitskiy, Sophie",
@@ -32351,7 +32343,6 @@
     "competitors": [
       "Balan, Eva",
       "Feshchenko, Mariia",
-      "Fogl, Anne",
       "Movsessian, Nyree",
       "Solovyov, Veronica",
       "Song, Ruihe",
@@ -32447,7 +32438,7 @@
       "Khoury, Sarah",
       "Lu, Yiting",
       "Savignac, Gabriella",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Semerdji, Juliana",
       "Shen, Vienna",
       "Xiong, Leah",
@@ -32579,7 +32570,8 @@
     "session": "Dimanche / Sunday",
     "time": "16:02 Sunday",
     "competitors": [
-      "Chaves, Arielle"
+      "Chaves, Arielle",
+      "Klopotovska, Yaroslava"
     ]
   },
   {
@@ -32701,7 +32693,7 @@
     "time": "16:05 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Li, Yuci",
       "Lu, Ariel",
       "Milkova, Anna",
@@ -32837,6 +32829,7 @@
       "Bourdon, Charlize",
       "Bronshtein, Evelyn",
       "Burganov, Veronica",
+      "Chen, Lina",
       "Dong, Charlene",
       "Fonya, Karolina",
       "Goncharuk, Evelina",
@@ -32954,7 +32947,7 @@
       "Qi, Qiutong",
       "Regillo, Milania",
       "Savignac, Gabriella",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Shen, Vienna",
       "Siscova, Eva-Victoria",
       "Song, Ruihe",
@@ -33311,7 +33304,7 @@
       "Barsky, Eitan",
       "Bushchyk, Alessiah",
       "Chen, Lavin",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Gao, Ruiwan",
       "Hrasevich, Valeria",
       "Jin, Phyllis",
@@ -33437,6 +33430,7 @@
       "Belmonte, Olivia",
       "Bronshtein, Evelyn",
       "Chen, Janelle",
+      "Chen, Lina",
       "Chen, Mia Baiqiao",
       "Do, Chloe",
       "Gao, Ruiwan",
@@ -33458,7 +33452,7 @@
       "Pozdirca, Kyra",
       "Qi, Qiutong",
       "Selivanov, Elizabeth",
-      "Selivanova, Julianna",
+      "Selivanov, Julianna",
       "Severina-Clearwater, Valentina",
       "Sochnacki, Liana",
       "Stroganova, Estella",
@@ -33669,7 +33663,7 @@
       "Broudno, Thais",
       "Chen, Kaixin",
       "Chen, Lavin",
-      "Cui, Amy Jiaqi",
+      "Cui, Jiaqi (Ami)",
       "Dolgovsky, Nicole",
       "Feshchenko, Mariia",
       "Gontcharova, Maya",
