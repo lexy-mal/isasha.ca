@@ -5528,8 +5528,6 @@
       "Edouard, Volvick",
       "Gabinet-Kroo, Kathryn",
       "Kemball, Edith",
-      "Lam, Jone",
-      "Levasseur, Judith",
       "McNally, Trish",
       "Tudorovsky, Veycheslav"
     ]
@@ -5740,9 +5738,7 @@
     "competitors": [
       "Cascaval, Vlad",
       "Kemball, Edith",
-      "Lam, Jone",
       "Lavoie, Louise",
-      "Levasseur, Judith",
       "Tudorovsky, Veycheslav"
     ]
   },
@@ -6066,6 +6062,16 @@
       "Topalov, Stefan",
       "Tudorovsky, Veycheslav",
       "Tyndale, Yana"
+    ]
+  },
+  {
+    "heat": "Heat 140",
+    "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "12:54 Thursday",
+    "competitors": [
+      "Kazantseva, Victoria",
+      "Sanchez, Sebastian"
     ]
   },
   {
@@ -9329,12 +9335,34 @@
   },
   {
     "heat": "Heat 203",
+    "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "16:13 Thursday",
+    "competitors": [
+      "Marasigan, Clara",
+      "Williamson, Stephen"
+    ]
+  },
+  {
+    "heat": "Heat 203",
     "event": "L-B Argent Ferm\u00e9 / Closed Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "16:13 Thursday",
     "competitors": [
       "Lebedev, Ivan",
       "Ueno, Linda"
+    ]
+  },
+  {
+    "heat": "Heat 203",
+    "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+    "session": "Jeudi Matin\u00e9e / Thursday Day",
+    "time": "16:13 Thursday",
+    "competitors": [
+      "Foers, Marion",
+      "Ilyushenov, Dmitry",
+      "Wills, Woodrow",
+      "Wong, Priscilla"
     ]
   },
   {
@@ -9583,16 +9611,6 @@
   },
   {
     "heat": "Heat 208",
-    "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-    "session": "Jeudi Matin\u00e9e / Thursday Day",
-    "time": "16:37 Thursday",
-    "competitors": [
-      "Marasigan, Clara",
-      "Williamson, Stephen"
-    ]
-  },
-  {
-    "heat": "Heat 208",
     "event": "L-C Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
     "session": "Jeudi Matin\u00e9e / Thursday Day",
     "time": "16:37 Thursday",
@@ -9607,18 +9625,6 @@
       "Pogonet, Serghei",
       "Richardson, Cole",
       "Rogotskyy, Konstantin"
-    ]
-  },
-  {
-    "heat": "Heat 208",
-    "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
-    "session": "Jeudi Matin\u00e9e / Thursday Day",
-    "time": "16:37 Thursday",
-    "competitors": [
-      "Foers, Marion",
-      "Ilyushenov, Dmitry",
-      "Wills, Woodrow",
-      "Wong, Priscilla"
     ]
   },
   {
@@ -15207,10 +15213,8 @@
     "session": "Vendredi Matin\u00e9e / Friday Day",
     "time": "10:31 Friday",
     "competitors": [
-      "Chizhik, Viacheslav",
       "Janelle, lacey",
       "Kudriashov, Mikhail",
-      "Lazareva, Yuliya",
       "Lifshitz, Tal",
       "Prokopchuk, Zhanna"
     ]
@@ -16147,6 +16151,16 @@
     "competitors": [
       "B\u00e9langer, Richard-Claude",
       "Mineau, Jessie"
+    ]
+  },
+  {
+    "heat": "Heat 410",
+    "event": "L-B Or 1 Ouvert / Open Gold 1 LATIN Jive",
+    "session": "Vendredi Matin\u00e9e / Friday Day",
+    "time": "10:57 Friday",
+    "competitors": [
+      "Chizhik, Viacheslav",
+      "Lazareva, Yuliya"
     ]
   },
   {
@@ -17153,8 +17167,6 @@
     "competitors": [
       "Arbour, Danny",
       "Cooperman, Tony",
-      "Fortin, Jacques",
-      "Gagnon, Audrey",
       "Ramsum, Carolyn",
       "Roy, Catherine",
       "Shelkovyy, Yuriy",
@@ -17203,8 +17215,6 @@
       "Bourquin, R\u00e9my",
       "Cooperman, Tony",
       "Fomin, Maxim",
-      "Fortin, Jacques",
-      "Gagnon, Audrey",
       "Kuntz, Sarah",
       "Lacroix, Dominic",
       "Maletin, Ilya",
@@ -17336,6 +17346,8 @@
     "time": "12:42 Friday",
     "competitors": [
       "Cooperman, Tony",
+      "Fortin, Jacques",
+      "Gagnon, Audrey",
       "Logigan, Svetlana",
       "Shelkovyy, Yuriy",
       "Sullivan, Arden"
@@ -17489,6 +17501,8 @@
     "competitors": [
       "Corriveau, Vincent",
       "Dragutan, Tatiana",
+      "Fortin, Jacques",
+      "Gagnon, Audrey",
       "Janelle, lacey",
       "Karaulov, Alexey",
       "Kudriashov, Mikhail",
@@ -18076,11 +18090,9 @@
     "time": "15:41 Friday",
     "competitors": [
       "Cismas, Lisandru",
-      "Fedorenko, Sviatoslav",
       "Kachurovska, Olena",
       "Kavtaradze, Sophie",
       "Kouznetsov, Dmitriy",
-      "Loginov, Cataleya",
       "Moscal, Silvia",
       "Stroganov, Arnold"
     ]
@@ -18182,12 +18194,10 @@
       "Campeau, Mathias",
       "Cismas, Lisandru",
       "Dempster, Abigail",
-      "Fedorenko, Sviatoslav",
       "Kachurovska, Olena",
       "Kavtaradze, Sophie",
       "Kouznetsov, Dmitriy",
       "Locke, Richard",
-      "Loginov, Cataleya",
       "Lukianova, Yuliia",
       "Moscal, Silvia",
       "Nault, Elsie-Rose",
@@ -20354,16 +20364,6 @@
     "competitors": [
       "Aouad, Celina",
       "Tudorovsky, Veycheslav"
-    ]
-  },
-  {
-    "heat": "Heat 518",
-    "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "09:15 Saturday",
-    "competitors": [
-      "Simenhor, Irina",
-      "Topalov, Stefan"
     ]
   },
   {
@@ -23142,9 +23142,7 @@
     "time": "11:18 Saturday",
     "competitors": [
       "Kostov, Stilian",
-      "Longo, Andrea",
-      "Simenhor, Irina",
-      "Topalov, Stefan"
+      "Longo, Andrea"
     ]
   },
   {
@@ -23494,9 +23492,7 @@
     "time": "11:33 Saturday",
     "competitors": [
       "Kostov, Stilian",
-      "Longo, Andrea",
-      "Simenhor, Irina",
-      "Topalov, Stefan"
+      "Longo, Andrea"
     ]
   },
   {
@@ -26618,7 +26614,7 @@
     "heat": "Heat 681",
     "event": "Formation \"ADIOS\"",
     "session": "Dimanche / Sunday",
-    "time": "09:01 Sunday",
+    "time": "09:04 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Avoyan, Camelia",
@@ -26678,16 +26674,6 @@
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
-    ]
-  },
-  {
-    "heat": "Heat 686 [Ballroom B]",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
-    "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
     ]
   },
   {
@@ -26752,16 +26738,6 @@
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
-    ]
-  },
-  {
-    "heat": "Heat 687 [Ballroom B]",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED Tango",
-    "session": "Dimanche / Sunday",
-    "time": "10:18 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
     ]
   },
   {
@@ -26920,16 +26896,6 @@
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
-    ]
-  },
-  {
-    "heat": "Heat 689 [Ballroom B]",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED Quickstep",
-    "session": "Dimanche / Sunday",
-    "time": "10:21 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
     ]
   },
   {
@@ -27711,7 +27677,8 @@
     "time": "09:56 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
-      "Cavaliere, Raffaela"
+      "Cavaliere, Raffaela",
+      "Pan, Serena"
     ]
   },
   {
@@ -27785,6 +27752,7 @@
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
       "Marcinkoski, Solomiya",
+      "Pan, Serena",
       "Pinhasov, Lital",
       "Yen, Elsa",
       "Yen, Ethan"
@@ -28291,16 +28259,6 @@
     ]
   },
   {
-    "heat": "Heat 706",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED Foxtrot",
-    "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
-    ]
-  },
-  {
     "heat": "Heat 707",
     "event": "G-19+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
@@ -28464,16 +28422,6 @@
       "Naidoo, Shaylen",
       "Thomson, Cathy",
       "Zompanti, Lucius"
-    ]
-  },
-  {
-    "heat": "Heat 709",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
-    "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
     ]
   },
   {
@@ -28897,8 +28845,6 @@
     "session": "Dimanche / Sunday",
     "time": "10:36 Sunday",
     "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e",
       "Ma, Hylann",
       "Naidoo, Shaylen"
     ]
@@ -28955,16 +28901,6 @@
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
-    ]
-  },
-  {
-    "heat": "Heat 717 [Ballroom B]",
-    "event": "L-50+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
-    "session": "Dimanche / Sunday",
-    "time": "10:45 Sunday",
-    "competitors": [
-      "Doonan, Lionel",
-      "Fournier, Andr\u00e9e"
     ]
   },
   {
@@ -30001,6 +29937,8 @@
     "time": "15:40 Sunday",
     "competitors": [
       "Bronshtein, Elly",
+      "Dubuc-Ventura, Alexane",
+      "Kirouac, L\u00e9onie",
       "Lama, Sean",
       "Lysenko, Mariia",
       "Pelleriti, Janelle",
@@ -30180,6 +30118,8 @@
     "time": "15:41 Sunday",
     "competitors": [
       "Bronshtein, Elly",
+      "Dubuc-Ventura, Alexane",
+      "Kirouac, L\u00e9onie",
       "Lama, Sean",
       "Pelleriti, Janelle",
       "Saleh, Emma"
@@ -30344,6 +30284,8 @@
     "time": "15:43 Sunday",
     "competitors": [
       "Bronshtein, Elly",
+      "Dubuc-Ventura, Alexane",
+      "Kirouac, L\u00e9onie",
       "Lama, Sean",
       "Lysenko, Mariia",
       "Pelleriti, Janelle",
@@ -30495,6 +30437,8 @@
     "time": "15:46 Sunday",
     "competitors": [
       "Bronshtein, Elly",
+      "Dubuc-Ventura, Alexane",
+      "Kirouac, L\u00e9onie",
       "Lama, Sean",
       "Lysenko, Mariia",
       "Pelleriti, Janelle",
@@ -31986,6 +31930,7 @@
       "Bourdon, Charlize",
       "Burganov, Veronica",
       "Li, Nina",
+      "Pan, Serena",
       "Pelletier, Florence",
       "Shen, Olivia",
       "St-Jacques, Delphine",
@@ -32050,6 +31995,7 @@
       "Burganov, Veronica",
       "Khoury, Maria",
       "Li, Nina",
+      "Pan, Serena",
       "Pelletier, Florence",
       "Shen, Olivia",
       "St-Jacques, Delphine",
@@ -32112,6 +32058,7 @@
       "Bourdon, Charlize",
       "Burganov, Veronica",
       "Li, Nina",
+      "Pan, Serena",
       "Pelletier, Florence",
       "Shen, Olivia",
       "St-Jacques, Delphine",
@@ -32847,6 +32794,7 @@
       "Miadzeika, Valeryia",
       "Movshovich Fil, Isabella",
       "Newman, Nicole",
+      "Pan, Serena",
       "Pavlenko, Arya",
       "Pelletier, Florence",
       "Pinhasov, Lital",

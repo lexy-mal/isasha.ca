@@ -9035,5 +9035,731 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-27T10:00:04.545076+00:00",
+    "participants": {
+      "oldCount": 964,
+      "newCount": 966,
+      "added": [
+        {
+          "name": "Kazantseva, Victoria",
+          "entries": [
+            {
+              "heat": "Heat 140",
+              "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+              "partner": "Sanchez, Sebastian"
+            }
+          ]
+        },
+        {
+          "name": "Kirouac, L\u00e9onie",
+          "entries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "Heat 737 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Jive",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Dubuc-Ventura, Alexane"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Dubuc-Ventura, Alexane"
+            }
+          ]
+        },
+        {
+          "name": "Pan, Serena",
+          "entries": [
+            {
+              "heat": "Heat 771",
+              "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 699 [Ballroom B]",
+              "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
+              "partner": null
+            },
+            {
+              "heat": "Heat 700 [Ballroom B]",
+              "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
+              "partner": null
+            },
+            {
+              "heat": "Heat 756 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 758 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 757 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+              "partner": null
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Fournier, Andr\u00e9e",
+          "entries": [
+            {
+              "heat": "Heat 716 [Ballroom B]",
+              "event": "L-36+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 717 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 706",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Foxtrot",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 689 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Quickstep",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 687 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Tango",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 686 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 709",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+              "partner": "Doonan, Lionel"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Chizhik, Viacheslav",
+          "oldEntryCount": 22,
+          "newEntryCount": 22,
+          "addedEntries": [
+            {
+              "heat": "Heat 410",
+              "event": "L-B Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Lazareva, Yuliya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Lazareva, Yuliya"
+            }
+          ]
+        },
+        {
+          "name": "Doonan, Lionel",
+          "oldEntryCount": 30,
+          "newEntryCount": 23,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 716 [Ballroom B]",
+              "event": "L-36+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 717 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 706",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Foxtrot",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 689 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Quickstep",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 687 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Tango",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 686 [Ballroom B]",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+              "partner": "Fournier, Andr\u00e9e"
+            },
+            {
+              "heat": "Heat 709",
+              "event": "L-50+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+              "partner": "Fournier, Andr\u00e9e"
+            }
+          ]
+        },
+        {
+          "name": "Dubuc-Ventura, Alexane",
+          "oldEntryCount": 9,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+              "partner": "Kirouac, L\u00e9onie"
+            },
+            {
+              "heat": "Heat 737 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Jive",
+              "partner": "Kirouac, L\u00e9onie"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Rumba",
+              "partner": "Kirouac, L\u00e9onie"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Samba",
+              "partner": "Kirouac, L\u00e9onie"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Fedorenko, Sviatoslav",
+          "oldEntryCount": 10,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 458",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Loginov, Cataleya"
+            },
+            {
+              "heat": "Heat 454",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Loginov, Cataleya"
+            }
+          ]
+        },
+        {
+          "name": "Foers, Marion",
+          "oldEntryCount": 24,
+          "newEntryCount": 24,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Ilyushenov, Dmitry"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Ilyushenov, Dmitry"
+            }
+          ]
+        },
+        {
+          "name": "Fortin, Jacques",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 434",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 430",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            },
+            {
+              "heat": "Heat 431",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Gagnon, Audrey"
+            }
+          ]
+        },
+        {
+          "name": "Gagnon, Audrey",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 434",
+              "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 430",
+              "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            },
+            {
+              "heat": "Heat 431",
+              "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Fortin, Jacques"
+            }
+          ]
+        },
+        {
+          "name": "Ilyushenov, Dmitry",
+          "oldEntryCount": 88,
+          "newEntryCount": 88,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Foers, Marion"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Foers, Marion"
+            }
+          ]
+        },
+        {
+          "name": "Lam, Jone",
+          "oldEntryCount": 88,
+          "newEntryCount": 86,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 130",
+              "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Levasseur, Judith"
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-E Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Levasseur, Judith"
+            }
+          ]
+        },
+        {
+          "name": "Lazareva, Yuliya",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "Heat 410",
+              "event": "L-B Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Chizhik, Viacheslav"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Chizhik, Viacheslav"
+            }
+          ]
+        },
+        {
+          "name": "Levasseur, Judith",
+          "oldEntryCount": 38,
+          "newEntryCount": 36,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 130",
+              "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Lam, Jone"
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-E Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Lam, Jone"
+            }
+          ]
+        },
+        {
+          "name": "Loginov, Cataleya",
+          "oldEntryCount": 10,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 458",
+              "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Fedorenko, Sviatoslav"
+            },
+            {
+              "heat": "Heat 454",
+              "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Fedorenko, Sviatoslav"
+            }
+          ]
+        },
+        {
+          "name": "Marasigan, Clara",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Williamson, Stephen"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Williamson, Stephen"
+            }
+          ]
+        },
+        {
+          "name": "Sanchez, Sebastian",
+          "oldEntryCount": 2,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 140",
+              "event": "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+              "partner": "Kazantseva, Victoria"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Simenhor, Irina",
+          "oldEntryCount": 23,
+          "newEntryCount": 20,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 518",
+              "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Topalov, Stefan"
+            },
+            {
+              "heat": "Heat 600",
+              "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Topalov, Stefan"
+            },
+            {
+              "heat": "Heat 610",
+              "event": "L-D D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Topalov, Stefan"
+            }
+          ]
+        },
+        {
+          "name": "Topalov, Stefan",
+          "oldEntryCount": 76,
+          "newEntryCount": 73,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 518",
+              "event": "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Simenhor, Irina"
+            },
+            {
+              "heat": "Heat 600",
+              "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Simenhor, Irina"
+            },
+            {
+              "heat": "Heat 610",
+              "event": "L-D D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Simenhor, Irina"
+            }
+          ]
+        },
+        {
+          "name": "Williamson, Stephen",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Marasigan, Clara"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Marasigan, Clara"
+            }
+          ]
+        },
+        {
+          "name": "Wills, Woodrow",
+          "oldEntryCount": 37,
+          "newEntryCount": 37,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Wong, Priscilla"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Wong, Priscilla"
+            }
+          ]
+        },
+        {
+          "name": "Wong, Priscilla",
+          "oldEntryCount": 13,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Wills, Woodrow"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-E Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Wills, Woodrow"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2701,
+      "newCount": 2696,
+      "oldUniqueCount": 2699,
+      "newUniqueCount": 2694,
+      "added": [
+        "AC-16+ AMATEUR RHYTHM \"NATIONAL CHAMP\" (C/R/SW/B/M)",
+        "L-B Or 1 Ouvert / Open Gold 1 LATIN Jive"
+      ],
+      "removed": [
+        "L-50+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+        "L-50+ Ouvert / Open BALLROOM MIXED Foxtrot",
+        "L-50+ Ouvert / Open BALLROOM MIXED Quickstep",
+        "L-50+ Ouvert / Open BALLROOM MIXED Tango",
+        "L-50+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+        "L-50+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
+        "L-C D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-16+ Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Fedorenko, Sviatoslav",
+            "Loginov, Cataleya"
+          ]
+        },
+        {
+          "event": "AC-YTH Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Fedorenko, Sviatoslav",
+            "Loginov, Cataleya"
+          ]
+        },
+        {
+          "event": "L-36+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Doonan, Lionel",
+            "Fournier, Andr\u00e9e"
+          ]
+        },
+        {
+          "event": "L-A Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ]
+        },
+        {
+          "event": "L-B Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ]
+        },
+        {
+          "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Fortin, Jacques",
+            "Gagnon, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+          "added": [],
+          "removed": [
+            "Chizhik, Viacheslav",
+            "Lazareva, Yuliya"
+          ]
+        },
+        {
+          "event": "L-D Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Simenhor, Irina",
+            "Topalov, Stefan"
+          ]
+        },
+        {
+          "event": "L-D D\u00e9butant Ouvert / Open Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Simenhor, Irina",
+            "Topalov, Stefan"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [],
+          "removed": [
+            "Lam, Jone",
+            "Levasseur, Judith"
+          ]
+        },
+        {
+          "event": "L-E Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [],
+          "removed": [
+            "Lam, Jone",
+            "Levasseur, Judith"
+          ]
+        },
+        {
+          "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+          "added": [
+            "Dubuc-Ventura, Alexane",
+            "Kirouac, L\u00e9onie"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Jive",
+          "added": [
+            "Dubuc-Ventura, Alexane",
+            "Kirouac, L\u00e9onie"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Rumba",
+          "added": [
+            "Dubuc-Ventura, Alexane",
+            "Kirouac, L\u00e9onie"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Samba",
+          "added": [
+            "Dubuc-Ventura, Alexane",
+            "Kirouac, L\u00e9onie"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
