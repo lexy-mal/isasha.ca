@@ -9761,5 +9761,1388 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-28T10:00:04.057007+00:00",
+    "participants": {
+      "oldCount": 966,
+      "newCount": 965,
+      "added": [
+        {
+          "name": "Liu, Clare",
+          "entries": [
+            {
+              "heat": "Heat 776",
+              "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 743 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 755 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 766 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 738 [Ballroom B]",
+              "event": "A-JV Or / Gold LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 746 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 779",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Sanchez, Sabrina",
+          "entries": [
+            {
+              "heat": "Heat 642",
+              "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+              "partner": "Sanchez, Sebastian"
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Liu, Claire",
+          "entries": [
+            {
+              "heat": "Heat 776",
+              "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
+              "partner": null
+            },
+            {
+              "heat": "Heat 743 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Chacha",
+              "partner": null
+            },
+            {
+              "heat": "Heat 755 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Jive",
+              "partner": null
+            },
+            {
+              "heat": "Heat 766 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 738 [Ballroom B]",
+              "event": "A-JV Or / Gold LATIN SOLO Rumba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 746 [Ballroom A]",
+              "event": "A-JV Or / Gold LATIN SOLO Samba",
+              "partner": null
+            },
+            {
+              "heat": "Heat 779",
+              "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+              "partner": null
+            }
+          ]
+        },
+        {
+          "name": "Liu, Sophie",
+          "entries": [
+            {
+              "heat": "Heat 467",
+              "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Yang, Eryn"
+            },
+            {
+              "heat": "Heat 463",
+              "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Yang, Eryn"
+            }
+          ]
+        },
+        {
+          "name": "Yang, Eryn",
+          "entries": [
+            {
+              "heat": "Heat 467",
+              "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Liu, Sophie"
+            },
+            {
+              "heat": "Heat 463",
+              "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+              "partner": "Liu, Sophie"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Anderson, Ryan",
+          "oldEntryCount": 38,
+          "newEntryCount": 37,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-C Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Hammerschmidt, Donna"
+            }
+          ]
+        },
+        {
+          "name": "Arbour, Danny",
+          "oldEntryCount": 76,
+          "newEntryCount": 76,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "L-B Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Roy, Catherine"
+            },
+            {
+              "heat": "Heat 547",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 546",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 545",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 544",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+              "partner": "Briere, Louise"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 422",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Roy, Catherine"
+            },
+            {
+              "heat": "Heat 483",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 482",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 484",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Briere, Louise"
+            },
+            {
+              "heat": "Heat 481",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Briere, Louise"
+            }
+          ]
+        },
+        {
+          "name": "Billiau, Natasja",
+          "oldEntryCount": 7,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 715 [Ballroom B]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 703 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Foxtrot",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 704 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Quickstep",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 701 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Tango",
+              "partner": "Doonan, Lionel"
+            },
+            {
+              "heat": "Heat 700 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+              "partner": "Doonan, Lionel"
+            }
+          ]
+        },
+        {
+          "name": "Briere, Louise",
+          "oldEntryCount": 17,
+          "newEntryCount": 17,
+          "addedEntries": [
+            {
+              "heat": "Heat 547",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 546",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 545",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 544",
+              "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 483",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Foxtrot",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 482",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 484",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Arbour, Danny"
+            },
+            {
+              "heat": "Heat 481",
+              "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Arbour, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Cornacchia, Carmen",
+          "oldEntryCount": 26,
+          "newEntryCount": 34,
+          "addedEntries": [
+            {
+              "heat": "Heat 500",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 499",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 501",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 498",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 585",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 584",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Tango",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 529",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Trutneva, Anastasia"
+            },
+            {
+              "heat": "Heat 583",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse/Waltz",
+              "partner": "Trutneva, Anastasia"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Doonan, Lionel",
+          "oldEntryCount": 23,
+          "newEntryCount": 18,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 715 [Ballroom B]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Billiau, Natasja"
+            },
+            {
+              "heat": "Heat 703 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Foxtrot",
+              "partner": "Billiau, Natasja"
+            },
+            {
+              "heat": "Heat 704 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Quickstep",
+              "partner": "Billiau, Natasja"
+            },
+            {
+              "heat": "Heat 701 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Tango",
+              "partner": "Billiau, Natasja"
+            },
+            {
+              "heat": "Heat 700 [Ballroom A]",
+              "event": "L-19+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+              "partner": "Billiau, Natasja"
+            }
+          ]
+        },
+        {
+          "name": "Dubuc-Ventura, Alexane",
+          "oldEntryCount": 13,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Kirouac, L\u00e9onie"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Frame, Julie",
+          "oldEntryCount": 44,
+          "newEntryCount": 44,
+          "addedEntries": [
+            {
+              "heat": "Heat 420",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Rumba",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 518",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Chacha",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Samba",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 389",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer LATIN Jive",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 513",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Sniegocki, Andrew"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 334",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Rumba",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 476",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 332",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Chacha",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 333",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Samba",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 336",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer LATIN Jive",
+              "partner": "Sniegocki, Andrew"
+            },
+            {
+              "heat": "Heat 471",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Sniegocki, Andrew"
+            }
+          ]
+        },
+        {
+          "name": "Gurkov, Dmytro",
+          "oldEntryCount": 51,
+          "newEntryCount": 48,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 109",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+              "partner": "Pavlichenko, Mila"
+            },
+            {
+              "heat": "Heat 93",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+              "partner": "Pavlichenko, Mila"
+            },
+            {
+              "heat": "Heat 94",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+              "partner": "Pavlichenko, Mila"
+            }
+          ]
+        },
+        {
+          "name": "G\u00e9linas, Suzanne",
+          "oldEntryCount": 68,
+          "newEntryCount": 69,
+          "addedEntries": [
+            {
+              "heat": "Heat 329A",
+              "event": "G- Bronze / Bronze Tango Solo Exhibition",
+              "partner": "Ostanek, Ray"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Hammerschmidt, Donna",
+          "oldEntryCount": 13,
+          "newEntryCount": 12,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 208",
+              "event": "L-C Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Anderson, Ryan"
+            }
+          ]
+        },
+        {
+          "name": "Johnson, Natasha",
+          "oldEntryCount": 12,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "Heat 608",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Tango",
+              "partner": "Kochergin, Stanislav"
+            },
+            {
+              "heat": "Heat 547",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Kochergin, Stanislav"
+            },
+            {
+              "heat": "Heat 607",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+              "partner": "Kochergin, Stanislav"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 486",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Kochergin, Stanislav"
+            },
+            {
+              "heat": "Heat 488",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Kochergin, Stanislav"
+            },
+            {
+              "heat": "Heat 485",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Kochergin, Stanislav"
+            }
+          ]
+        },
+        {
+          "name": "Kirouac, L\u00e9onie",
+          "oldEntryCount": 4,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Dubuc-Ventura, Alexane"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Kochergin, Stanislav",
+          "oldEntryCount": 12,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "Heat 608",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Tango",
+              "partner": "Johnson, Natasha"
+            },
+            {
+              "heat": "Heat 547",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Johnson, Natasha"
+            },
+            {
+              "heat": "Heat 607",
+              "event": "L-E Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+              "partner": "Johnson, Natasha"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 486",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Tango",
+              "partner": "Johnson, Natasha"
+            },
+            {
+              "heat": "Heat 488",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Johnson, Natasha"
+            },
+            {
+              "heat": "Heat 485",
+              "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+              "partner": "Johnson, Natasha"
+            }
+          ]
+        },
+        {
+          "name": "Leal, Marla",
+          "oldEntryCount": 30,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "Heat 622",
+              "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Robinson, Don"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Robinson, Don"
+            },
+            {
+              "heat": "Heat 218",
+              "event": "G-F Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Salsa",
+              "partner": "Robinson, Don"
+            },
+            {
+              "heat": "Heat 317",
+              "event": "G-F Bronze 1 Ouvert / Open Bronze 1 CLUB Salsa",
+              "partner": "Robinson, Don"
+            },
+            {
+              "heat": "Heat 236",
+              "event": "G-F Bronze Ferm\u00e9 / Closed Bronze CLUB Salsa",
+              "partner": "Robinson, Don"
+            },
+            {
+              "heat": "Heat 261",
+              "event": "G-F Bronze Ouvert / Open Bronze CLUB Salsa",
+              "partner": "Robinson, Don"
+            }
+          ]
+        },
+        {
+          "name": "Lisovolenko, Stanislav",
+          "oldEntryCount": 178,
+          "newEntryCount": 175,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 122",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Chacha",
+              "partner": "McCloskey, Fiona"
+            },
+            {
+              "heat": "Heat 123",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Rumba",
+              "partner": "McCloskey, Fiona"
+            },
+            {
+              "heat": "Heat 124",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Swing",
+              "partner": "McCloskey, Fiona"
+            }
+          ]
+        },
+        {
+          "name": "McCloskey, Fiona",
+          "oldEntryCount": 105,
+          "newEntryCount": 102,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 122",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Chacha",
+              "partner": "Lisovolenko, Stanislav"
+            },
+            {
+              "heat": "Heat 123",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Rumba",
+              "partner": "Lisovolenko, Stanislav"
+            },
+            {
+              "heat": "Heat 124",
+              "event": "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Swing",
+              "partner": "Lisovolenko, Stanislav"
+            }
+          ]
+        },
+        {
+          "name": "Ostanek, Ray",
+          "oldEntryCount": 36,
+          "newEntryCount": 37,
+          "addedEntries": [
+            {
+              "heat": "Heat 329A",
+              "event": "G- Bronze / Bronze Tango Solo Exhibition",
+              "partner": "G\u00e9linas, Suzanne"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Pan, Serena",
+          "oldEntryCount": 6,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 760 [Ballroom A]",
+              "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+              "partner": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Pavlichenko, Mila",
+          "oldEntryCount": 12,
+          "newEntryCount": 9,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 109",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+              "partner": "Gurkov, Dmytro"
+            },
+            {
+              "heat": "Heat 93",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+              "partner": "Gurkov, Dmytro"
+            },
+            {
+              "heat": "Heat 94",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+              "partner": "Gurkov, Dmytro"
+            }
+          ]
+        },
+        {
+          "name": "Robinson, Don",
+          "oldEntryCount": 30,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "Heat 622",
+              "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Leal, Marla"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 203",
+              "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Leal, Marla"
+            },
+            {
+              "heat": "Heat 218",
+              "event": "G-F Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Salsa",
+              "partner": "Leal, Marla"
+            },
+            {
+              "heat": "Heat 317",
+              "event": "G-F Bronze 1 Ouvert / Open Bronze 1 CLUB Salsa",
+              "partner": "Leal, Marla"
+            },
+            {
+              "heat": "Heat 236",
+              "event": "G-F Bronze Ferm\u00e9 / Closed Bronze CLUB Salsa",
+              "partner": "Leal, Marla"
+            },
+            {
+              "heat": "Heat 261",
+              "event": "G-F Bronze Ouvert / Open Bronze CLUB Salsa",
+              "partner": "Leal, Marla"
+            }
+          ]
+        },
+        {
+          "name": "Roy, Catherine",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "L-B Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Arbour, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 422",
+              "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Arbour, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Sanchez, Sebastian",
+          "oldEntryCount": 3,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 642",
+              "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+              "partner": "Sanchez, Sabrina"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Simenhor, Irina",
+          "oldEntryCount": 20,
+          "newEntryCount": 22,
+          "addedEntries": [
+            {
+              "heat": "Heat 135",
+              "event": "L-C Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Topalov, Stefan"
+            },
+            {
+              "heat": "Heat 634",
+              "event": "L-C Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Topalov, Stefan"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Sniegocki, Andrew",
+          "oldEntryCount": 44,
+          "newEntryCount": 44,
+          "addedEntries": [
+            {
+              "heat": "Heat 420",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Rumba",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 518",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Chacha",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Samba",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 389",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer LATIN Jive",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 513",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Frame, Julie"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 334",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Rumba",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 476",
+              "event": "L-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 332",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Chacha",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 333",
+              "event": "L-E Bronze 1 Ferm\u00e9 / Closed Bronze 1 LATIN Samba",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 336",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer LATIN Jive",
+              "partner": "Frame, Julie"
+            },
+            {
+              "heat": "Heat 471",
+              "event": "L-E Debutant Ferm\u00e9 / Closed Newcomer SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Frame, Julie"
+            }
+          ]
+        },
+        {
+          "name": "Topalov, Stefan",
+          "oldEntryCount": 73,
+          "newEntryCount": 75,
+          "addedEntries": [
+            {
+              "heat": "Heat 135",
+              "event": "L-C Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+              "partner": "Simenhor, Irina"
+            },
+            {
+              "heat": "Heat 634",
+              "event": "L-C Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+              "partner": "Simenhor, Irina"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Trutneva, Anastasia",
+          "oldEntryCount": 27,
+          "newEntryCount": 35,
+          "addedEntries": [
+            {
+              "heat": "Heat 500",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 499",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 501",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 498",
+              "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 585",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 584",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Tango",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 529",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Cornacchia, Carmen"
+            },
+            {
+              "heat": "Heat 583",
+              "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse/Waltz",
+              "partner": "Cornacchia, Carmen"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Verba, Iuliia",
+          "oldEntryCount": 7,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 678",
+              "event": "D\u00e9butant / Beginner Argentinian Tango",
+              "partner": null
+            },
+            {
+              "heat": "Heat 677",
+              "event": "D\u00e9butant / Beginner Pasodoble",
+              "partner": null
+            },
+            {
+              "heat": "Heat 684",
+              "event": "Pr\u00e9-Bronze / Pre-Bronze Dancing Flames",
+              "partner": null
+            },
+            {
+              "heat": "Heat 683",
+              "event": "Pr\u00e9-Bronze / Pre-Bronze Pink Inferno",
+              "partner": null
+            },
+            {
+              "heat": "Heat 679",
+              "event": "Pr\u00e9-Bronze / Pre-Bronze Umbrella",
+              "partner": null
+            },
+            {
+              "heat": "Heat 685",
+              "event": "Pr\u00e9-Bronze / Pre-Bronze Western Heat",
+              "partner": null
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2696,
+      "newCount": 2693,
+      "oldUniqueCount": 2694,
+      "newUniqueCount": 2691,
+      "added": [
+        "D\u00e9butant / Beginner Argentinian Tango",
+        "D\u00e9butant / Beginner Pasodoble",
+        "G- Bronze / Bronze Tango Solo Exhibition",
+        "Pr\u00e9-Bronze / Pre-Bronze Dancing Flames",
+        "Pr\u00e9-Bronze / Pre-Bronze Pink Inferno",
+        "Pr\u00e9-Bronze / Pre-Bronze Umbrella",
+        "Pr\u00e9-Bronze / Pre-Bronze Western Heat"
+      ],
+      "removed": [
+        "G-F Bronze 1 Ferm\u00e9 / Closed Bronze 1 CLUB Salsa",
+        "G-F Bronze 1 Ouvert / Open Bronze 1 CLUB Salsa",
+        "G-F Bronze Ferm\u00e9 / Closed Bronze CLUB Salsa",
+        "G-F Bronze Ouvert / Open Bronze CLUB Salsa",
+        "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Bolero",
+        "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Rumba",
+        "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold RHYTHM Swing",
+        "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Chacha",
+        "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Rumba",
+        "L-C* Or 1 Ferm\u00e9 / Closed Gold 1 RHYTHM Swing"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+          "added": [
+            "Pan, Serena"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Chacha",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Jive",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Rumba",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JV Or / Gold LATIN SOLO Samba",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Liu, Clare"
+          ],
+          "removed": [
+            "Liu, Claire"
+          ]
+        },
+        {
+          "event": "AC-16+ AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Liu, Sophie",
+            "Yang, Eryn"
+          ]
+        },
+        {
+          "event": "AC-16+ AMATEUR SMOOTH \"NATIONAL CHAMP\" (W/T/F/VW)",
+          "added": [
+            "Sanchez, Sabrina",
+            "Sanchez, Sebastian"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-U21 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Liu, Sophie",
+            "Yang, Eryn"
+          ]
+        },
+        {
+          "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Tango",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Tango",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Argent Ferm\u00e9 / Closed Silver SMOOTH Valse/Waltz",
+          "added": [
+            "Cornacchia, Carmen",
+            "Trutneva, Anastasia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [],
+          "removed": [
+            "Leal, Marla",
+            "Robinson, Don"
+          ]
+        },
+        {
+          "event": "G-E Bronze Ferm\u00e9 / Closed Bronze  PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Leal, Marla",
+            "Robinson, Don"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+          "added": [
+            "Dubuc-Ventura, Alexane",
+            "Kirouac, L\u00e9onie"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-19+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Billiau, Natasja",
+            "Doonan, Lionel"
+          ]
+        },
+        {
+          "event": "L-19+ Ouvert / Open BALLROOM MIXED Foxtrot",
+          "added": [],
+          "removed": [
+            "Billiau, Natasja",
+            "Doonan, Lionel"
+          ]
+        },
+        {
+          "event": "L-19+ Ouvert / Open BALLROOM MIXED Quickstep",
+          "added": [],
+          "removed": [
+            "Billiau, Natasja",
+            "Doonan, Lionel"
+          ]
+        },
+        {
+          "event": "L-19+ Ouvert / Open BALLROOM MIXED Tango",
+          "added": [],
+          "removed": [
+            "Billiau, Natasja",
+            "Doonan, Lionel"
+          ]
+        },
+        {
+          "event": "L-19+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
+          "added": [],
+          "removed": [
+            "Billiau, Natasja",
+            "Doonan, Lionel"
+          ]
+        },
+        {
+          "event": "L-B Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Arbour, Danny",
+            "Roy, Catherine"
+          ]
+        },
+        {
+          "event": "L-B Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Arbour, Danny",
+            "Roy, Catherine"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze PRO-AM RHYTHM  3-Danses / 3-Dance (C/R/SW)",
+          "added": [
+            "Simenhor, Irina",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Bronze Ouvert / Open Bronze PRO-AM SMOOTH  3-Danses / 3-Dance (W/T/F)",
+          "added": [
+            "Simenhor, Irina",
+            "Topalov, Stefan"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
+          "added": [],
+          "removed": [
+            "Anderson, Ryan",
+            "Hammerschmidt, Donna"
+          ]
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver SMOOTH Tango",
+          "added": [],
+          "removed": [
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ]
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ]
+        },
+        {
+          "event": "L-E Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+          "added": [],
+          "removed": [
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold SMOOTH Tango",
+          "added": [
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [
+            "Arbour, Danny",
+            "Briere, Louise",
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-E Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+          "added": [
+            "Johnson, Natasha",
+            "Kochergin, Stanislav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-F Argent Ouvert / Open Silver SMOOTH Foxtrot",
+          "added": [],
+          "removed": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ]
+        },
+        {
+          "event": "L-F Argent Ouvert / Open Silver SMOOTH Tango",
+          "added": [],
+          "removed": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ]
+        },
+        {
+          "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse Viennoise/Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ]
+        },
+        {
+          "event": "L-F Argent Ouvert / Open Silver SMOOTH Valse/Waltz",
+          "added": [],
+          "removed": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ]
+        },
+        {
+          "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Foxtrot",
+          "added": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Tango",
+          "added": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-F Bronze 1 Ouvert / Open Bronze 1 SMOOTH Valse/Waltz",
+          "added": [
+            "Arbour, Danny",
+            "Briere, Louise"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
