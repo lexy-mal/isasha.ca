@@ -44,3 +44,4 @@ __pycache__/
 
 # Cron job runtime log (not source)
 public/projects/com_assets/daily_scrape.log
+public/projects/com_assets/daily_scrape.lock
