@@ -11144,5 +11144,2042 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-29T10:00:04.492764+00:00",
+    "participants": {
+      "oldCount": 965,
+      "newCount": 961,
+      "added": [
+        {
+          "name": "Belanger, Richard-Claude",
+          "entries": [
+            {
+              "heat": "Heat 437",
+              "event": "G-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "G-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 433",
+              "event": "G-E Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "G-F Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 414",
+              "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-F Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 420",
+              "event": "G-F Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "G-F Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Mineau, Jessie"
+            }
+          ]
+        },
+        {
+          "name": "Berube, Marco",
+          "entries": [
+            {
+              "heat": "Heat 427",
+              "event": "G-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 440",
+              "event": "G-C PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 398",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Chacha",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Jive",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Paso Doble",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 400",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Rumba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 399",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Samba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 361",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 360",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "Primeau, Claudia"
+            }
+          ]
+        },
+        {
+          "name": "Janelle, Lacey",
+          "entries": [
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 439",
+              "event": "L-B PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 402",
+              "event": "L-C Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-C Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 403",
+              "event": "L-C Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 368",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 369",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            }
+          ]
+        },
+        {
+          "name": "Koullebdjian, Helene",
+          "entries": [
+            {
+              "heat": "Heat 437",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Paso Doble",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "B\u00e9langer, Richard-Claude",
+          "entries": [
+            {
+              "heat": "Heat 437",
+              "event": "G-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "G-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 433",
+              "event": "G-E Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "G-F Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 414",
+              "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-F Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 420",
+              "event": "G-F Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "G-F Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Mineau, Jessie"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Mineau, Jessie"
+            }
+          ]
+        },
+        {
+          "name": "B\u00e9rub\u00e9, Marco",
+          "entries": [
+            {
+              "heat": "Heat 427",
+              "event": "G-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 440",
+              "event": "G-C PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 398",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Chacha",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Jive",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Paso Doble",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 400",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Rumba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 399",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Samba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 361",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 360",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "Primeau, Claudia"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "Primeau, Claudia"
+            }
+          ]
+        },
+        {
+          "name": "Fukuda, Yuichi",
+          "entries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Gray, Elizabeth"
+            }
+          ]
+        },
+        {
+          "name": "Gray, Elizabeth",
+          "entries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Fukuda, Yuichi"
+            }
+          ]
+        },
+        {
+          "name": "Janelle, lacey",
+          "entries": [
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 439",
+              "event": "L-B PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 402",
+              "event": "L-C Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-C Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 403",
+              "event": "L-C Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 368",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Kudriashov, Mikhail"
+            },
+            {
+              "heat": "Heat 369",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Kudriashov, Mikhail"
+            }
+          ]
+        },
+        {
+          "name": "Koullebdjian, H\u00e9l\u00e8ne",
+          "entries": [
+            {
+              "heat": "Heat 437",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Paso Doble",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Pruneau, Fran\u00e7ois"
+            }
+          ]
+        },
+        {
+          "name": "Lamine, Michel",
+          "entries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Vandenhove, Melissa"
+            }
+          ]
+        },
+        {
+          "name": "Vandenhove, Melissa",
+          "entries": [
+            {
+              "heat": "Heat 462",
+              "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+              "partner": "Lamine, Michel"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Bookhardt, Elizabeth",
+          "oldEntryCount": 96,
+          "newEntryCount": 95,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 376",
+              "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 LATIN Jive",
+              "partner": "Kudriashov, Mikhail"
+            }
+          ]
+        },
+        {
+          "name": "Corriveau, Vincent",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 397",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Dragutan, Tatiana"
+            }
+          ]
+        },
+        {
+          "name": "Daich, Idan",
+          "oldEntryCount": 50,
+          "newEntryCount": 49,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 356",
+              "event": "L-Y Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Koltchina, Olivia"
+            }
+          ]
+        },
+        {
+          "name": "Dragutan, Tatiana",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 397",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Corriveau, Vincent"
+            }
+          ]
+        },
+        {
+          "name": "Fortier, Diane",
+          "oldEntryCount": 4,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 451",
+              "event": "AC-AD3 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Losier, Marc-Andr\u00e9"
+            },
+            {
+              "heat": "Heat 447",
+              "event": "AC-AD4 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Losier, Marc-Andr\u00e9"
+            }
+          ]
+        },
+        {
+          "name": "Jensen, Anjali",
+          "oldEntryCount": 28,
+          "newEntryCount": 28,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Richardson, Cole"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Richardson, Cole"
+            }
+          ]
+        },
+        {
+          "name": "Kamil Studenny, Carlos Zapata &",
+          "oldEntryCount": 1,
+          "newEntryCount": 1,
+          "addedEntries": [
+            {
+              "heat": "Heat 329",
+              "event": "L- Argent / Silver Sky Fall",
+              "partner": "Miller, Linda"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 329",
+              "event": "L- Argent / Silver We Found Love",
+              "partner": "Miller, Linda"
+            }
+          ]
+        },
+        {
+          "name": "Koltchina, Olivia",
+          "oldEntryCount": 11,
+          "newEntryCount": 10,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 356",
+              "event": "L-Y Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Daich, Idan"
+            }
+          ]
+        },
+        {
+          "name": "Kudriashov, Mikhail",
+          "oldEntryCount": 27,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 439",
+              "event": "L-B PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 402",
+              "event": "L-C Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-C Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 403",
+              "event": "L-C Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 368",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Janelle, Lacey"
+            },
+            {
+              "heat": "Heat 369",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Janelle, Lacey"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 438",
+              "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 439",
+              "event": "L-B PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 393",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 402",
+              "event": "L-C Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-C Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 403",
+              "event": "L-C Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 368",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 369",
+              "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Janelle, lacey"
+            },
+            {
+              "heat": "Heat 376",
+              "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 LATIN Jive",
+              "partner": "Bookhardt, Elizabeth"
+            }
+          ]
+        },
+        {
+          "name": "Lacroix, Dominic",
+          "oldEntryCount": 39,
+          "newEntryCount": 39,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "L-A Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mills, Veronica"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Mills, Veronica"
+            }
+          ]
+        },
+        {
+          "name": "Lafreni\u00e8re, Francis",
+          "oldEntryCount": 49,
+          "newEntryCount": 49,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Naud, Jocelyne"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Naud, Jocelyne"
+            }
+          ]
+        },
+        {
+          "name": "Lau, Grace",
+          "oldEntryCount": 20,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Saini, Neeraj"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Saini, Neeraj"
+            }
+          ]
+        },
+        {
+          "name": "Losier, Marc-Andr\u00e9",
+          "oldEntryCount": 4,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 451",
+              "event": "AC-AD3 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Fortier, Diane"
+            },
+            {
+              "heat": "Heat 447",
+              "event": "AC-AD4 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Fortier, Diane"
+            }
+          ]
+        },
+        {
+          "name": "Maletin, Ilya",
+          "oldEntryCount": 27,
+          "newEntryCount": 27,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pang, Phoebe"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Pang, Phoebe"
+            }
+          ]
+        },
+        {
+          "name": "Miller, Linda",
+          "oldEntryCount": 26,
+          "newEntryCount": 26,
+          "addedEntries": [
+            {
+              "heat": "Heat 329",
+              "event": "L- Argent / Silver Sky Fall",
+              "partner": "Kamil Studenny, Carlos Zapata &"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 329",
+              "event": "L- Argent / Silver We Found Love",
+              "partner": "Kamil Studenny, Carlos Zapata &"
+            }
+          ]
+        },
+        {
+          "name": "Mills, Veronica",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "L-A Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lacroix, Dominic"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lacroix, Dominic"
+            }
+          ]
+        },
+        {
+          "name": "Mineau, Jessie",
+          "oldEntryCount": 20,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "Heat 437",
+              "event": "G-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "G-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 433",
+              "event": "G-E Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "G-F Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 414",
+              "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-F Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 420",
+              "event": "G-F Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "G-F Or Ouvert / Open Gold LATIN Samba",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Belanger, Richard-Claude"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Belanger, Richard-Claude"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 437",
+              "event": "G-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "G-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 433",
+              "event": "G-E Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 438",
+              "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 418",
+              "event": "G-F Or Ouvert / Open Gold LATIN Chacha",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 414",
+              "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-F Or Ouvert / Open Gold LATIN Paso Doble",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 420",
+              "event": "G-F Or Ouvert / Open Gold LATIN Rumba",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 419",
+              "event": "G-F Or Ouvert / Open Gold LATIN Samba",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "B\u00e9langer, Richard-Claude"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "B\u00e9langer, Richard-Claude"
+            }
+          ]
+        },
+        {
+          "name": "Naud, Jocelyne",
+          "oldEntryCount": 13,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lafreni\u00e8re, Francis"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lafreni\u00e8re, Francis"
+            }
+          ]
+        },
+        {
+          "name": "Pang, Phoebe",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Maletin, Ilya"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Maletin, Ilya"
+            }
+          ]
+        },
+        {
+          "name": "Primeau, Claudia",
+          "oldEntryCount": 24,
+          "newEntryCount": 24,
+          "addedEntries": [
+            {
+              "heat": "Heat 427",
+              "event": "G-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 440",
+              "event": "G-C PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 398",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Chacha",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Jive",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Paso Doble",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 400",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Rumba",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 399",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Samba",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 361",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 360",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "Berube, Marco"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "Berube, Marco"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 427",
+              "event": "G-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 440",
+              "event": "G-C PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 398",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Chacha",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 406",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Jive",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 405",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Paso Doble",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 400",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Rumba",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 399",
+              "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Samba",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Chacha",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 361",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Jive",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 360",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Paso Doble",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Rumba",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "G-D Bronze Ouvert / Open Bronze LATIN Samba",
+              "partner": "B\u00e9rub\u00e9, Marco"
+            }
+          ]
+        },
+        {
+          "name": "Pruneau, Fran\u00e7ois",
+          "oldEntryCount": 13,
+          "newEntryCount": 13,
+          "addedEntries": [
+            {
+              "heat": "Heat 437",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Paso Doble",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Koullebdjian, Helene"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Koullebdjian, Helene"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 437",
+              "event": "L-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 434",
+              "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 441",
+              "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 415",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 410",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 385",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Paso Doble",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 417",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 416",
+              "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Samba",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 346",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 350",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 349",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 348",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+              "partner": "Koullebdjian, H\u00e9l\u00e8ne"
+            }
+          ]
+        },
+        {
+          "name": "Richardson, Cole",
+          "oldEntryCount": 37,
+          "newEntryCount": 37,
+          "addedEntries": [
+            {
+              "heat": "Heat 425",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Jensen, Anjali"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 429",
+              "event": "L-C Or Ferm\u00e9 / Closed Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Jensen, Anjali"
+            }
+          ]
+        },
+        {
+          "name": "Saini, Neeraj",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 426",
+              "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lau, Grace"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 421",
+              "event": "G-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+              "partner": "Lau, Grace"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2693,
+      "newCount": 2691,
+      "oldUniqueCount": 2691,
+      "newUniqueCount": 2689,
+      "added": [
+        "L- Argent / Silver Sky Fall"
+      ],
+      "removed": [
+        "AC-AD4 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+        "L- Argent / Silver We Found Love",
+        "L-A Bronze Ferm\u00e9 / Closed Bronze  PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "AC-AD3 Bronze/Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Fortier, Diane",
+            "Losier, Marc-Andr\u00e9"
+          ]
+        },
+        {
+          "event": "G-C Bronze Ouvert / Open Bronze PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-C PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Chacha",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Jive",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Paso Doble",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Rumba",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze 1 Ouvert / Open Bronze 1 LATIN Samba",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze Ouvert / Open Bronze LATIN Chacha",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze Ouvert / Open Bronze LATIN Jive",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze Ouvert / Open Bronze LATIN Paso Doble",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze Ouvert / Open Bronze LATIN Rumba",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Bronze Ouvert / Open Bronze LATIN Samba",
+          "added": [
+            "Berube, Marco"
+          ],
+          "removed": [
+            "B\u00e9rub\u00e9, Marco"
+          ]
+        },
+        {
+          "event": "G-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-E Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-E Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert / Open Gold LATIN Chacha",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert / Open Gold LATIN Jive",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert / Open Gold LATIN Paso Doble",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert / Open Gold LATIN Rumba",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert / Open Gold LATIN Samba",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "G-F Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+          "added": [
+            "Belanger, Richard-Claude"
+          ],
+          "removed": [
+            "B\u00e9langer, Richard-Claude"
+          ]
+        },
+        {
+          "event": "L-A Argent Ferm\u00e9 / Closed Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Lacroix, Dominic",
+            "Mills, Veronica"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+          "added": [],
+          "removed": [
+            "Corriveau, Vincent",
+            "Dragutan, Tatiana"
+          ]
+        },
+        {
+          "event": "L-B PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Jive",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or 1 Ouvert / Open Gold 1 LATIN Samba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold LATIN Chacha",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold LATIN Rumba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert / Open Gold LATIN Samba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-C Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+          "added": [
+            "Janelle, Lacey"
+          ],
+          "removed": [
+            "Janelle, lacey"
+          ]
+        },
+        {
+          "event": "L-D Argent 1 Ferm\u00e9 / Closed Silver 1 LATIN Jive",
+          "added": [],
+          "removed": [
+            "Bookhardt, Elizabeth",
+            "Kudriashov, Mikhail"
+          ]
+        },
+        {
+          "event": "L-D Argent Ouvert / Open Silver PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-D Or Ouvert / Open Gold PRO-AM LATIN  3-Danses / 3-Dance (C/R/S)",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-D PRO-AM LATIN Schol. Champ. Canadien / Canadian Champ. (C/S/R/P/J)",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Chacha",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Jive",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Paso Doble",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Rumba",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or 1 Ouvert / Open Gold 1 LATIN Samba",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Chacha",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Jive",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Paso Doble",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-E Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Samba",
+          "added": [
+            "Koullebdjian, Helene"
+          ],
+          "removed": [
+            "Koullebdjian, H\u00e9l\u00e8ne"
+          ]
+        },
+        {
+          "event": "L-Y Or Ouvert Avanc\u00e9 / Advanced Open Gold LATIN Rumba",
+          "added": [],
+          "removed": [
+            "Daich, Idan",
+            "Koltchina, Olivia"
+          ]
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
+          "added": [],
+          "removed": [
+            "Fukuda, Yuichi",
+            "Gray, Elizabeth",
+            "Lamine, Michel",
+            "Vandenhove, Melissa"
+          ]
+        }
+      ]
+    }
   }
 ]
