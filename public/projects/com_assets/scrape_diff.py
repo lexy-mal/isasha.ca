@@ -14,15 +14,28 @@ from pathlib import Path
 
 
 def _entry_key(entry):
-    """A participant entry's identity for change-detection: which heat/event/partner,
+    """A participant entry's identity for change-detection: which heat/event/partner/awards,
     not the raw dict — field order or extra keys shouldn't register as a change."""
-    return (entry.get('heat', ''), entry.get('event', ''), entry.get('partner') or '')
+    return (
+        entry.get('heat', ''),
+        entry.get('event', ''),
+        entry.get('partner') or '',
+        entry.get('awards') or '',
+    )
 
 
 def _entries_for_keys(keys):
     return sorted(
-        (dict(heat=k[0], event=k[1], partner=(k[2] or None)) for k in keys),
-        key=lambda d: (d['event'], d['partner'] or '')
+        (
+            dict(
+                heat=k[0],
+                event=k[1],
+                partner=(k[2] or None),
+                awards=(k[3] or None) if len(k) > 3 else None,
+            )
+            for k in keys
+        ),
+        key=lambda d: (d['event'], d['partner'] or '', d.get('awards') or '')
     )
 
 

@@ -707,7 +707,9 @@
         }
 
         .detail-overlay.active .overlay-countdown-bar {
-            display: block !important;
+            display: flex !important;
+            flex-direction: column;
+            gap: 4px;
             position: static;
             margin: 0;
             border-radius: 0;
@@ -781,14 +783,30 @@
             font-weight: 500;
             line-height: 1.4;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
         }
 
         .participant-countdown-bar.empty {
             display: none;
         }
 
+        .countdown-awards {
+            font-size: 0.9em;
+            opacity: 0.92;
+            font-weight: 500;
+        }
+
         .overlay-countdown-bar {
             display: none;
+        }
+
+        .event-awards-label {
+            font-size: 0.78em;
+            color: var(--text-secondary);
+            white-space: nowrap;
+            margin-left: 8px;
         }
 
         .event-countdown-label {
@@ -2099,6 +2117,39 @@
             return null;
         }
 
+        function getNextAwardsForPerson(personData) {
+            if (!personData || !personData.entries || personData.entries.length === 0) {
+                return null;
+            }
+
+            const now = new Date();
+            const upcomingAwards = [];
+            const seenAwardTimes = new Set();
+
+            personData.entries.forEach(entry => {
+                if (!entry.awards) return;
+                const awardDate = getEventDateFromTimeString(entry.awards);
+                if (awardDate && awardDate > now) {
+                    const timeKey = awardDate.getTime();
+                    if (!seenAwardTimes.has(timeKey)) {
+                        upcomingAwards.push({
+                            heat: entry.heat,
+                            event: entry.event,
+                            time: awardDate,
+                            originalTime: entry.awards
+                        });
+                        seenAwardTimes.add(timeKey);
+                    }
+                }
+            });
+
+            if (upcomingAwards.length === 0) {
+                return null;
+            }
+
+            return upcomingAwards.sort((a, b) => a.time - b.time)[0];
+        }
+
         // Format countdown display text (with days, hours, minutes, seconds)
         function formatCountdownTime(nextHeatTime, { fullEventName = false } = {}) {
             if (!nextHeatTime) {
@@ -2116,6 +2167,19 @@
                 ? ' · ' + (fullEventName ? nextHeatTime.event : truncateEventName(nextHeatTime.event))
                 : '';
             return `🕐 Next in ${formatDurationMs(diffMs)} · ${nextHeatTime.heat}${eventPart}`;
+        }
+
+        function formatAwardsCountdownTime(nextAwards, { fullEventName = false } = {}) {
+            if (!nextAwards) return '';
+
+            const now = new Date();
+            const diffMs = nextAwards.time - now;
+            if (diffMs < 0) return '';
+
+            const eventPart = nextAwards.event
+                ? ' · ' + (fullEventName ? nextAwards.event : truncateEventName(nextAwards.event))
+                : '';
+            return `🏆 Awards in ${formatDurationMs(diffMs)} · ${nextAwards.heat}${eventPart}`;
         }
 
         function buildPersonCountdownText(personData, { fullEventName = false } = {}) {
@@ -2139,6 +2203,30 @@
                 return '⏳ Heat times not posted yet';
             }
             return '✓ All events completed';
+        }
+
+        function buildPersonAwardsCountdownText(personData, { fullEventName = false } = {}) {
+            if (!personData || !personData.entries) return '';
+            const nextAwards = getNextAwardsForPerson(personData);
+            return formatAwardsCountdownTime(nextAwards, { fullEventName });
+        }
+
+        function fillCountdownBar(el, heatText, awardsText) {
+            if (!el) return;
+            el.replaceChildren();
+            if (heatText) {
+                const heatLine = document.createElement('div');
+                heatLine.className = 'countdown-heat';
+                heatLine.textContent = heatText;
+                el.appendChild(heatLine);
+            }
+            if (awardsText) {
+                const awardsLine = document.createElement('div');
+                awardsLine.className = 'countdown-awards';
+                awardsLine.textContent = awardsText;
+                el.appendChild(awardsLine);
+            }
+            el.classList.toggle('empty', !heatText && !awardsText);
         }
 
         function formatDurationMs(diffMs) {
@@ -2200,37 +2288,31 @@
             }
 
             if (!currentName || !participantsData[currentName]) {
-                const overlayCountdown = document.getElementById('overlayCountdown');
-                if (overlayCountdown) {
-                    overlayCountdown.textContent = '';
-                    overlayCountdown.classList.add('empty');
-                }
+                fillCountdownBar(document.getElementById('overlayCountdown'), '', '');
+                fillCountdownBar(document.getElementById('desktopCountdown'), '', '');
+                const mobileCountdown = document.getElementById('detailNextHeat');
+                if (mobileCountdown) mobileCountdown.textContent = '';
                 return;
             }
 
             const personData = participantsData[currentName];
-            const countdownText = buildPersonCountdownText(personData, { fullEventName: false });
-            const overlayCountdownText = buildPersonCountdownText(personData, { fullEventName: true });
+            const heatText = buildPersonCountdownText(personData, { fullEventName: false });
+            const awardsText = buildPersonAwardsCountdownText(personData, { fullEventName: false });
+            const overlayHeatText = buildPersonCountdownText(personData, { fullEventName: true });
+            const overlayAwardsText = buildPersonAwardsCountdownText(personData, { fullEventName: true });
 
             // Update mobile countdown (fixed bar above scroll area)
-            const overlayCountdown = document.getElementById('overlayCountdown');
-            if (overlayCountdown) {
-                overlayCountdown.textContent = overlayCountdownText;
-                overlayCountdown.classList.toggle('empty', !overlayCountdownText);
-                syncOverlayTopInset();
-            }
+            fillCountdownBar(document.getElementById('overlayCountdown'), overlayHeatText, overlayAwardsText);
+            syncOverlayTopInset();
 
             const mobileCountdown = document.getElementById('detailNextHeat');
             if (mobileCountdown) {
-                mobileCountdown.textContent = countdownText;
+                const parts = [heatText, awardsText].filter(Boolean);
+                mobileCountdown.textContent = parts.join(' · ');
             }
 
             // Update desktop countdown banner
-            const desktopCountdown = document.getElementById('desktopCountdown');
-            if (desktopCountdown) {
-                desktopCountdown.textContent = countdownText;
-                desktopCountdown.classList.toggle('empty', !countdownText);
-            }
+            fillCountdownBar(document.getElementById('desktopCountdown'), heatText, awardsText);
 
             updateEventCompletionStatus();
         }
@@ -2828,9 +2910,12 @@
                         heat: entry.heat,
                         event: entry.event,
                         time: entry.time,
+                        awards: entry.awards || null,
                         session: entry.session,
                         entries: []
                     };
+                } else if (!byHeatEvent[key].awards && entry.awards) {
+                    byHeatEvent[key].awards = entry.awards;
                 }
                 byHeatEvent[key].entries.push(entry);
             });
@@ -2854,6 +2939,11 @@
                 const completedClass = isCompleted ? ' completed' : '';
                 const upcomingClass = isNextUpcoming ? ' next-upcoming' : '';
                 const displayTime = formatDisplayTime(info.time);
+                const awardsTime = info.awards || eventInfo.awards || null;
+                const displayAwards = awardsTime ? formatDisplayTime(awardsTime) : '';
+                const awardsLabelHtml = displayAwards
+                    ? `<span class="event-awards-label">Awards ${displayAwards}</span>`
+                    : '';
                 const opponentNamesAttr = competitors
                     .filter(c => c !== name)
                     .join(' | ')
@@ -2874,6 +2964,7 @@
                             <span class="event-toggle" aria-hidden="true">▶</span>
                             <span class="heat-label" title="${heatAttr}">${heatBadge}</span>
                             <span class="event-time-label">${displayTime}</span>
+                            ${awardsLabelHtml}
                         </span>
                     </div>
                 `;
@@ -2889,12 +2980,13 @@
                 const eventChipsRow = (eventLevelChip || eventAgeChip)
                     ? `<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:4px;">${eventLevelChip}${eventAgeChip}</div>`
                     : '';
+                const awardsSummary = displayAwards ? ` | Awards ${displayAwards}` : '';
 
                 html += `
                     <div class="event-summary" style="font-size: 0.9em; color: var(--text-secondary); margin-top: 8px;">
                         <div class="event-summary-name">${info.event}${placementBadge}</div>
                         ${eventChipsRow}
-                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${displayTime} | ${countText}
+                        ${partner ? `<strong style="color: var(--accent);">${partner}</strong> | ` : ''}${displayTime}${awardsSummary} | ${countText}
                     </div>
                 `;
 
@@ -2905,6 +2997,11 @@
                         <div class="meta-label">Time</div>
                         <div class="meta-value">${displayTime}</div>
                     </div>
+                    ${displayAwards ? `
+                    <div class="meta-field">
+                        <div class="meta-label">Awards</div>
+                        <div class="meta-value">${displayAwards}</div>
+                    </div>` : ''}
                     <div class="meta-field">
                         <div class="meta-label">Competitors</div>
                         <div class="meta-value">${competitors.length} total</div>
@@ -3241,6 +3338,7 @@
                         heat: he.heat,
                         event: he.event,
                         time: he.time,
+                        awards: he.awards || null,
                         competitors: he.competitors.length,
                         competitorList: he.competitors
                     };
@@ -3328,7 +3426,11 @@
             const levelChip = levelChipHtml
                 ? `<div style="margin-bottom:4px;">${levelChipHtml}</div>`
                 : '';
-            const heatMeta = [heat.heat, heat.time ? formatDisplayTime(heat.time) : ''].filter(Boolean).join(' · ');
+            const heatMeta = [
+                heat.heat,
+                heat.time ? formatDisplayTime(heat.time) : '',
+                heat.awards ? `Awards ${formatDisplayTime(heat.awards)}` : ''
+            ].filter(Boolean).join(' · ');
             const heatMetaHtml = heatMeta
                 ? `<div style="font-size:0.65em;color:var(--text-secondary);margin-bottom:4px;">${heatMeta}</div>`
                 : '';
@@ -3593,16 +3695,8 @@
             // behind, since updateDetailCountdown() bails out on a non-person name.
             const staleCountdown = document.getElementById('detailNextHeat');
             if (staleCountdown) staleCountdown.textContent = '';
-            const staleOverlayCountdown = document.getElementById('overlayCountdown');
-            if (staleOverlayCountdown) {
-                staleOverlayCountdown.textContent = '';
-                staleOverlayCountdown.classList.add('empty');
-            }
-            const staleDesktopCountdown = document.getElementById('desktopCountdown');
-            if (staleDesktopCountdown) {
-                staleDesktopCountdown.textContent = '';
-                staleDesktopCountdown.classList.add('empty');
-            }
+            fillCountdownBar(document.getElementById('overlayCountdown'), '', '');
+            fillCountdownBar(document.getElementById('desktopCountdown'), '', '');
             document.getElementById('detailEventCount').textContent =
                 `${competitors.length} participant${competitors.length !== 1 ? 's' : ''}` +
                 (coupleCount ? ` · ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}` : '') +

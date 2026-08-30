@@ -70,6 +70,8 @@ class DanceDataParser(HTMLParser):
                     session_time = row[0]
                     heat = row[2]
                     event = row[3]
+                    awards_raw = row[4].strip() if len(row) > 4 else ''
+                    awards = awards_raw or None
 
                     if '@' in session_time:
                         session, time = session_time.split('@', 1)
@@ -82,7 +84,8 @@ class DanceDataParser(HTMLParser):
                         'event': event,
                         'time': time.strip(),
                         'session': session.strip(),
-                        'partner': self.current_partner
+                        'partner': self.current_partner,
+                        'awards': awards
                     }
                     self.participants[self.current_person].append(entry)
             self.table_rows = []
@@ -138,8 +141,11 @@ def build_heat_events(participants):
                     'event': event,
                     'session': entry['session'],
                     'time': entry['time'],
+                    'awards': entry.get('awards'),
                     'competitors': []
                 }
+            elif not heat_events_dict[key].get('awards') and entry.get('awards'):
+                heat_events_dict[key]['awards'] = entry['awards']
 
             if person not in heat_events_dict[key]['competitors']:
                 heat_events_dict[key]['competitors'].append(person)
@@ -166,7 +172,8 @@ def format_participants(participants):
                 'event': entry['event'],
                 'time': entry['time'],
                 'session': entry['session'],
-                'partner': entry.get('partner')
+                'partner': entry.get('partner'),
+                'awards': entry.get('awards')
             }
             formatted_entries.append(formatted_entry)
 
