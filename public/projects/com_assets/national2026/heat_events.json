@@ -18751,16 +18751,6 @@
   },
   {
     "heat": "Heat 476",
-    "event": "L-B Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "08:12 Saturday",
-    "competitors": [
-      "Gurkov, Dmytro",
-      "Pavlichenko, Mila"
-    ]
-  },
-  {
-    "heat": "Heat 476",
     "event": "L-C Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
     "session": "Samedi Matin\u00e9e / Saturday Day",
     "time": "08:12 Saturday",
@@ -19311,16 +19301,6 @@
     ]
   },
   {
-    "heat": "Heat 493",
-    "event": "L-H Or Ouvert / Open Gold SMOOTH Valse/Waltz",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "08:37 Saturday",
-    "competitors": [
-      "Beattie, Kay",
-      "Tudorovsky, Veycheslav"
-    ]
-  },
-  {
     "heat": "Heat 494",
     "event": "AC-D Bronze 1 Ferm\u00e9 / Closed Bronze 1 SMOOTH Tango",
     "session": "Samedi Matin\u00e9e / Saturday Day",
@@ -19349,16 +19329,6 @@
     "competitors": [
       "McCloskey, Fiona",
       "Storozhuk, Vladyslav"
-    ]
-  },
-  {
-    "heat": "Heat 494",
-    "event": "L-H Or Ouvert / Open Gold SMOOTH Tango",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "08:39 Saturday",
-    "competitors": [
-      "Beattie, Kay",
-      "Tudorovsky, Veycheslav"
     ]
   },
   {
@@ -19400,16 +19370,6 @@
     "competitors": [
       "McCloskey, Fiona",
       "Storozhuk, Vladyslav"
-    ]
-  },
-  {
-    "heat": "Heat 495",
-    "event": "L-H Or Ouvert / Open Gold SMOOTH Foxtrot",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "08:40 Saturday",
-    "competitors": [
-      "Beattie, Kay",
-      "Tudorovsky, Veycheslav"
     ]
   },
   {
@@ -21154,16 +21114,6 @@
     "competitors": [
       "Horwood, John",
       "Pastukh, Kateryna"
-    ]
-  },
-  {
-    "heat": "Heat 542",
-    "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "09:51 Saturday",
-    "competitors": [
-      "Gurkov, Dmytro",
-      "Pavlichenko, Mila"
     ]
   },
   {
@@ -23944,16 +23894,6 @@
   },
   {
     "heat": "Heat 619",
-    "event": "G-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "11:46 Saturday",
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 619",
     "event": "G-C Or 1 Ouvert / Open Gold 1 SMOOTH Foxtrot",
     "session": "Samedi Matin\u00e9e / Saturday Day",
     "time": "11:46 Saturday",
@@ -25366,8 +25306,6 @@
     "time": "15:41 Saturday",
     "competitors": [
       "Chouinard, Marc-Andr\u00e9",
-      "Fortier, Diane",
-      "Losier, Marc-Andr\u00e9",
       "Paquette, Emmanuelle"
     ]
   },
@@ -25403,16 +25341,6 @@
     "competitors": [
       "Gauriat, Marie-Anne",
       "Leroi, Julien"
-    ]
-  },
-  {
-    "heat": "Heat 650",
-    "event": "AC-AD4 Argent/Silver AMATEUR LATIN (C/R/S)",
-    "session": "Samedi Matin\u00e9e / Saturday Day",
-    "time": "15:46 Saturday",
-    "competitors": [
-      "Fortier, Diane",
-      "Losier, Marc-Andr\u00e9"
     ]
   },
   {
@@ -25567,9 +25495,7 @@
       "Krimus, Oskar",
       "Krystosek, Natalia",
       "Kudriashov, Mikhail",
-      "Kyrylenko, Kateryna",
       "Lisovolenko, Stanislav",
-      "Loewe, Thomas Jay",
       "Lvov, Denis",
       "Mader, Roland",
       "Marques, Ricardo",
@@ -25581,7 +25507,6 @@
       "Mtchedlidze, Nicole",
       "Muja, Georgina",
       "Nakajima, Yuuki",
-      "Nirvana, Nirvana",
       "Nolan, Sarah",
       "Nomura, Naoto",
       "Oblakova, Anna",
@@ -25603,7 +25528,6 @@
       "Triebe-Mader, Franziska",
       "Vlchova, Marketa",
       "Volbel, Simon",
-      "Voloshko, Andrii",
       "Wu, James",
       "Wu, Jerome",
       "Yamasaki, Karin",
@@ -25879,7 +25803,6 @@
       "Baydala, Sophia",
       "Call, Devri",
       "Chan, Athyn",
-      "Davidov, Elizabeth",
       "Elliott, Rowyn",
       "Filatov, Arsenii",
       "Ilyushenov, Andrey",
@@ -25895,7 +25818,6 @@
       "Schaaf, Kassandra",
       "Shvaitser, Marielle",
       "Todea, Alin",
-      "Tsydinskyi, Mykyta",
       "Turcotte-Miao, Audrey",
       "Wills-Campbell, Nemiah",
       "Young Spice, Jack",
@@ -26422,17 +26344,13 @@
     "competitors": [
       "Agheeva, Maria",
       "Babizhaev, Yana",
-      "Cucos, Arina",
       "Dmitrenko, Nicolas",
       "Fedorenko, Sviatoslav",
       "Finkelshtein, David",
-      "Fylymonchyk, Yaroslav",
       "Korzon, Romeo",
       "Kpahou, Richard",
-      "Kwietniewska, Laura",
       "Loginov, Cataleya",
       "Olinyk, Anastasiya",
-      "Platkov, Oleksandr",
       "Prilepskaia, Vlada"
     ]
   },
@@ -26487,12 +26405,10 @@
     "time": "08:36 Sunday",
     "competitors": [
       "Brovchin, Arsenii",
-      "Gontcharov, Ivan",
       "Kovalenko, Stefaniia",
       "Murzin, Nicole",
       "Ofengenden, Abigail",
       "Popov, Daniel",
-      "Selivanov, Julianna",
       "Yagiyaev, Alec"
     ]
   },
@@ -26500,7 +26416,7 @@
     "heat": "Heat 677",
     "event": "D\u00e9butant / Beginner Pasodoble",
     "session": "Dimanche / Sunday",
-    "time": "09:10 Sunday",
+    "time": "09:13 Sunday",
     "competitors": [
       "Verba, Iuliia"
     ]
@@ -26526,8 +26442,8 @@
   {
     "heat": "Heat 680",
     "event": "AC-JR \"Voil\u00e0\" Viennese Waltz",
-    "session": "Dimanche / Sunday",
-    "time": "08:58 Sunday",
+    "session": "Samedi Matin\u00e9e / Saturday Day",
+    "time": "16:05 Saturday",
     "competitors": [
       "Pavlenko, Maya",
       "Rozdorozhnyi, Mark"
@@ -26537,7 +26453,7 @@
     "heat": "Heat 681",
     "event": "Formation \"ADIOS\"",
     "session": "Dimanche / Sunday",
-    "time": "09:01 Sunday",
+    "time": "09:04 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Avoyan, Camelia",
@@ -26566,7 +26482,7 @@
     "heat": "Heat 684",
     "event": "Pr\u00e9-Bronze / Pre-Bronze Dancing Flames",
     "session": "Dimanche / Sunday",
-    "time": "09:04 Sunday",
+    "time": "09:07 Sunday",
     "competitors": [
       "Verba, Iuliia"
     ]
@@ -26584,7 +26500,7 @@
     "heat": "Heat 686",
     "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:33 Sunday Later rounds: 7@10:14 Sunday",
+    "time": "09:36 Sunday Later rounds: 7@10:17 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Aptekar, Eliana Ann-Marie",
@@ -26610,7 +26526,7 @@
     "heat": "Heat 686 [Ballroom B]",
     "event": "G-36+ Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:14 Sunday",
+    "time": "10:17 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -26620,7 +26536,7 @@
     "heat": "Heat 686 [Ballroom B]",
     "event": "L-19+ Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:14 Sunday",
+    "time": "10:17 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -26630,7 +26546,7 @@
     "heat": "Heat 686 [Ballroom B]",
     "event": "L-JR Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:14 Sunday",
+    "time": "10:17 Sunday",
     "competitors": [
       "Burganov, Veronica",
       "Filatov, Arsenii"
@@ -26640,7 +26556,7 @@
     "heat": "Heat 686 [Ballroom B]",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:14 Sunday",
+    "time": "10:17 Sunday",
     "competitors": [
       "Raskin, Nicole",
       "Timchenko, Andrew"
@@ -26650,7 +26566,7 @@
     "heat": "Heat 687",
     "event": "A-JV Bronze / Bronze BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:35 Sunday Later rounds: 7@10:15 Sunday",
+    "time": "09:38 Sunday Later rounds: 7@10:18 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Aptekar, Eliana Ann-Marie",
@@ -26674,7 +26590,7 @@
     "heat": "Heat 687 [Ballroom B]",
     "event": "G-36+ Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:15 Sunday",
+    "time": "10:18 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -26684,7 +26600,7 @@
     "heat": "Heat 687 [Ballroom B]",
     "event": "L-19+ Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:15 Sunday",
+    "time": "10:18 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -26694,7 +26610,7 @@
     "heat": "Heat 687 [Ballroom B]",
     "event": "L-JR Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:15 Sunday",
+    "time": "10:18 Sunday",
     "competitors": [
       "Burganov, Veronica",
       "Filatov, Arsenii"
@@ -26704,7 +26620,7 @@
     "heat": "Heat 687 [Ballroom B]",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:15 Sunday",
+    "time": "10:18 Sunday",
     "competitors": [
       "Raskin, Nicole",
       "Timchenko, Andrew"
@@ -26714,7 +26630,7 @@
     "heat": "Heat 688",
     "event": "A-JV Bronze / Bronze BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:36 Sunday Later rounds: 7@10:17 Sunday",
+    "time": "09:39 Sunday Later rounds: 7@10:20 Sunday",
     "competitors": [
       "Do, Chloe",
       "Lavrusevich, Milena",
@@ -26733,7 +26649,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "G-19+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Lukianova, Yuliia",
       "Majid, Shane"
@@ -26743,7 +26659,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "G-36+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -26753,7 +26669,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "G-50+ Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -26763,7 +26679,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "G-JR Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -26773,7 +26689,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "L-19+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Goth, Amanda",
@@ -26785,7 +26701,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "L-50+ Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -26795,7 +26711,7 @@
     "heat": "Heat 688 [Ballroom B]",
     "event": "L-JR Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:17 Sunday",
+    "time": "10:20 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Chan, Athyn",
@@ -26809,7 +26725,7 @@
     "heat": "Heat 689",
     "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:38 Sunday Later rounds: 7@10:18 Sunday",
+    "time": "09:41 Sunday Later rounds: 7@10:21 Sunday",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Do, Chloe",
@@ -26832,7 +26748,7 @@
     "heat": "Heat 689 [Ballroom B]",
     "event": "G-36+ Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:18 Sunday",
+    "time": "10:21 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -26842,7 +26758,7 @@
     "heat": "Heat 689 [Ballroom B]",
     "event": "L-19+ Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:18 Sunday",
+    "time": "10:21 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -26852,7 +26768,7 @@
     "heat": "Heat 689 [Ballroom B]",
     "event": "L-JR Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:18 Sunday",
+    "time": "10:21 Sunday",
     "competitors": [
       "Burganov, Veronica",
       "Filatov, Arsenii"
@@ -26862,7 +26778,7 @@
     "heat": "Heat 690 [Ballroom B]",
     "event": "A-19+ Bronze / Bronze BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Waddley Sinval, Kris"
     ]
@@ -26871,7 +26787,7 @@
     "heat": "Heat 690 [Ballroom B]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Rogers, Jeffrey"
     ]
@@ -26880,7 +26796,7 @@
     "heat": "Heat 690 [Ballroom B]",
     "event": "A-JR Argent / Silver BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fogl, Anne",
@@ -26895,7 +26811,7 @@
     "heat": "Heat 690 [Ballroom B]",
     "event": "A-JV Ouvert / Open BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Chen, Janelle"
     ]
@@ -26904,7 +26820,7 @@
     "heat": "Heat 690 [Ballroom A]",
     "event": "G-50+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -26914,7 +26830,7 @@
     "heat": "Heat 690 [Ballroom A]",
     "event": "G-JV D\u00e9butant / Beginner BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Petrova, Katusha",
       "Prosveer, Leon"
@@ -26924,7 +26840,7 @@
     "heat": "Heat 690 [Ballroom A]",
     "event": "L-50+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -26938,7 +26854,7 @@
     "heat": "Heat 690 [Ballroom A]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -26950,7 +26866,7 @@
     "heat": "Heat 690 [Ballroom A]",
     "event": "L-JV D\u00e9butant / Beginner BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:39 Sunday",
+    "time": "09:42 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Li, Olivia",
@@ -26964,7 +26880,7 @@
     "heat": "Heat 691 [Ballroom B]",
     "event": "A-19+ Bronze / Bronze BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Waddley Sinval, Kris"
     ]
@@ -26973,7 +26889,7 @@
     "heat": "Heat 691 [Ballroom B]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Rogers, Jeffrey"
     ]
@@ -26982,7 +26898,7 @@
     "heat": "Heat 691 [Ballroom B]",
     "event": "A-JV Ouvert / Open BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Chen, Janelle"
     ]
@@ -26991,7 +26907,7 @@
     "heat": "Heat 691 [Ballroom A]",
     "event": "G-50+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27001,7 +26917,7 @@
     "heat": "Heat 691 [Ballroom A]",
     "event": "L-50+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -27015,7 +26931,7 @@
     "heat": "Heat 691 [Ballroom A]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -27027,7 +26943,7 @@
     "heat": "Heat 691 [Ballroom A]",
     "event": "L-JV D\u00e9butant / Beginner BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:41 Sunday",
+    "time": "09:44 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Li, Olivia",
@@ -27041,7 +26957,7 @@
     "heat": "Heat 692 [Ballroom B]",
     "event": "A-19+ Argent / Silver BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Mills, Veronica"
     ]
@@ -27050,7 +26966,7 @@
     "heat": "Heat 692 [Ballroom B]",
     "event": "A-19+ Bronze / Bronze BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Waddley Sinval, Kris"
     ]
@@ -27059,7 +26975,7 @@
     "heat": "Heat 692 [Ballroom B]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Rogers, Jeffrey"
     ]
@@ -27068,7 +26984,7 @@
     "heat": "Heat 692 [Ballroom B]",
     "event": "A-JV Ouvert / Open BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Chen, Janelle"
     ]
@@ -27077,7 +26993,7 @@
     "heat": "Heat 692 [Ballroom B]",
     "event": "A-YTH Bronze / Bronze BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Chaves, Arielle"
     ]
@@ -27086,7 +27002,7 @@
     "heat": "Heat 692 [Ballroom A]",
     "event": "G-50+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27096,7 +27012,7 @@
     "heat": "Heat 692 [Ballroom A]",
     "event": "L-50+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Rockwell, Gloria"
@@ -27106,7 +27022,7 @@
     "heat": "Heat 692 [Ballroom A]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:42 Sunday",
+    "time": "09:45 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -27120,7 +27036,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-19+ Argent / Silver BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Mills, Veronica"
     ]
@@ -27129,7 +27045,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-19+ Bronze / Bronze BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Waddley Sinval, Kris"
     ]
@@ -27138,7 +27054,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Rogers, Jeffrey"
     ]
@@ -27147,7 +27063,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-JR Ouvert / Open BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Jamaleddin, Norah",
       "Movsessian, Nyree",
@@ -27158,7 +27074,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-JV Argent / Silver BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Bronshtein, Evelyn"
     ]
@@ -27167,7 +27083,7 @@
     "heat": "Heat 693 [Ballroom B]",
     "event": "A-JV Ouvert / Open BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Chen, Janelle"
     ]
@@ -27176,7 +27092,7 @@
     "heat": "Heat 693 [Ballroom A]",
     "event": "G-50+ Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27186,7 +27102,7 @@
     "heat": "Heat 693 [Ballroom A]",
     "event": "L-50+ Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Rockwell, Gloria"
@@ -27196,7 +27112,7 @@
     "heat": "Heat 693 [Ballroom A]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:44 Sunday",
+    "time": "09:47 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -27210,7 +27126,7 @@
     "heat": "Heat 694 [Ballroom B]",
     "event": "A-19+ Bronze / Bronze BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Waddley Sinval, Kris"
     ]
@@ -27219,7 +27135,7 @@
     "heat": "Heat 694 [Ballroom B]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Rogers, Jeffrey"
     ]
@@ -27228,7 +27144,7 @@
     "heat": "Heat 694 [Ballroom B]",
     "event": "A-JR Ouvert / Open BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Milkova, Anna"
     ]
@@ -27237,7 +27153,7 @@
     "heat": "Heat 694 [Ballroom B]",
     "event": "A-JV Ouvert / Open BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Chen, Janelle"
     ]
@@ -27246,7 +27162,7 @@
     "heat": "Heat 694 [Ballroom A]",
     "event": "G-50+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27256,7 +27172,7 @@
     "heat": "Heat 694 [Ballroom A]",
     "event": "G-JV D\u00e9butant / Beginner BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Petrova, Katusha",
       "Prosveer, Leon"
@@ -27266,7 +27182,7 @@
     "heat": "Heat 694 [Ballroom A]",
     "event": "L-50+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -27280,7 +27196,7 @@
     "heat": "Heat 694 [Ballroom A]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -27292,7 +27208,7 @@
     "heat": "Heat 694 [Ballroom A]",
     "event": "L-JV D\u00e9butant / Beginner BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:45 Sunday",
+    "time": "09:48 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Li, Olivia",
@@ -27304,7 +27220,7 @@
     "heat": "Heat 695 [Ballroom B]",
     "event": "A-JR Or / Gold BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Petrova, Maya",
       "Sochnacki, Talia",
@@ -27317,7 +27233,7 @@
     "heat": "Heat 695 [Ballroom B]",
     "event": "A-JR Ouvert / Open BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Milkova, Anna",
       "Movsessian, Nyree"
@@ -27327,7 +27243,7 @@
     "heat": "Heat 695 [Ballroom A]",
     "event": "G-36+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27337,7 +27253,7 @@
     "heat": "Heat 695 [Ballroom A]",
     "event": "L-36+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -27351,7 +27267,7 @@
     "heat": "Heat 695 [Ballroom A]",
     "event": "L-JR Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Filatov, Arsenii",
       "Kuragina, Angelika",
@@ -27363,7 +27279,7 @@
     "heat": "Heat 695 [Ballroom A]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:47 Sunday",
+    "time": "09:50 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn",
@@ -27377,7 +27293,7 @@
     "heat": "Heat 696 [Ballroom B]",
     "event": "A-JR Bronze / Bronze BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
@@ -27388,7 +27304,7 @@
     "heat": "Heat 696 [Ballroom B]",
     "event": "A-JR Or / Gold BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Sochnacki, Talia",
       "Solovyov, Veronica",
@@ -27400,7 +27316,7 @@
     "heat": "Heat 696 [Ballroom B]",
     "event": "A-JR Ouvert / Open BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Milkova, Anna",
       "Movsessian, Nyree"
@@ -27410,7 +27326,7 @@
     "heat": "Heat 696 [Ballroom A]",
     "event": "G-36+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27420,7 +27336,7 @@
     "heat": "Heat 696 [Ballroom A]",
     "event": "L-36+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -27434,7 +27350,7 @@
     "heat": "Heat 696 [Ballroom A]",
     "event": "L-JR Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Filatov, Arsenii",
       "Kuragina, Angelika",
@@ -27446,7 +27362,7 @@
     "heat": "Heat 696 [Ballroom A]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:48 Sunday",
+    "time": "09:51 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Li, Olivia",
@@ -27458,7 +27374,7 @@
     "heat": "Heat 697 [Ballroom B]",
     "event": "A-JR Bronze / Bronze BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Cavaliere, Raffaela",
       "Fonya, Karolina",
@@ -27469,7 +27385,7 @@
     "heat": "Heat 697 [Ballroom B]",
     "event": "A-JR Ouvert / Open BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Jamaleddin, Norah",
       "Pinchak, Gleb",
@@ -27480,7 +27396,7 @@
     "heat": "Heat 697 [Ballroom B]",
     "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Balan, Ella",
       "Bronshtein, Evelyn",
@@ -27491,7 +27407,7 @@
     "heat": "Heat 697 [Ballroom A]",
     "event": "L-19+ Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -27501,7 +27417,7 @@
     "heat": "Heat 697 [Ballroom A]",
     "event": "L-19+ Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Ma, Hylann",
       "Naidoo, Shaylen"
@@ -27511,7 +27427,7 @@
     "heat": "Heat 697 [Ballroom A]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:50 Sunday",
+    "time": "09:53 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Sanchez, Karol"
@@ -27521,7 +27437,7 @@
     "heat": "Heat 698 [Ballroom B]",
     "event": "A-JR Bronze / Bronze BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
@@ -27532,7 +27448,7 @@
     "heat": "Heat 698 [Ballroom B]",
     "event": "A-JR Or / Gold BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Petrova, Maya",
       "Pinchak, Gleb",
@@ -27546,7 +27462,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "G-36+ Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27556,7 +27472,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "G-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Loginov, Nickolas",
       "Turcotte-Miao, Audrey"
@@ -27566,7 +27482,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "L-19+ Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -27576,7 +27492,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "L-19+ Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Ma, Hylann",
       "Naidoo, Shaylen"
@@ -27586,7 +27502,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "L-36+ Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Rockwell, Gloria"
@@ -27596,7 +27512,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "L-JR Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Broudno, Thais",
       "Filatov, Arsenii",
@@ -27610,7 +27526,7 @@
     "heat": "Heat 698 [Ballroom A]",
     "event": "L-JV Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:51 Sunday",
+    "time": "09:54 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
@@ -27624,7 +27540,7 @@
     "heat": "Heat 699 [Ballroom B]",
     "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
@@ -27635,7 +27551,7 @@
     "heat": "Heat 699 [Ballroom B]",
     "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Sochnacki, Talia",
       "Solovyov, Veronica",
@@ -27647,7 +27563,7 @@
     "heat": "Heat 699 [Ballroom A]",
     "event": "G-36+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27657,7 +27573,7 @@
     "heat": "Heat 699 [Ballroom A]",
     "event": "L-36+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -27671,7 +27587,7 @@
     "heat": "Heat 699 [Ballroom A]",
     "event": "L-JR Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Filatov, Arsenii",
       "Kuragina, Angelika",
@@ -27683,7 +27599,7 @@
     "heat": "Heat 699 [Ballroom A]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "09:53 Sunday",
+    "time": "09:56 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn",
@@ -27697,7 +27613,7 @@
     "heat": "Heat 700 [Ballroom B]",
     "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
@@ -27712,7 +27628,7 @@
     "heat": "Heat 700 [Ballroom B]",
     "event": "A-JV Argent / Silver BALLROOM SOLO Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Balan, Ella",
@@ -27723,7 +27639,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "G-50+ Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -27733,7 +27649,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "G-50+ Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -27743,7 +27659,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "G-JR Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -27753,7 +27669,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "L-19+ Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -27763,7 +27679,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn"
@@ -27773,7 +27689,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "L-50+ Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -27783,7 +27699,7 @@
     "heat": "Heat 700 [Ballroom A]",
     "event": "L-JR Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:54 Sunday",
+    "time": "09:57 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Ilyushenov, Andrey",
@@ -27795,7 +27711,7 @@
     "heat": "Heat 701 [Ballroom B]",
     "event": "A-JR Argent / Silver BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fogl, Anne",
@@ -27810,7 +27726,7 @@
     "heat": "Heat 701 [Ballroom B]",
     "event": "A-JV Argent / Silver BALLROOM SOLO Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Balan, Ella",
@@ -27822,7 +27738,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "G-50+ Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -27832,7 +27748,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "G-50+ Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -27842,7 +27758,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "G-JR Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -27852,7 +27768,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "L-19+ Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -27862,7 +27778,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn"
@@ -27872,7 +27788,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "L-50+ Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -27882,7 +27798,7 @@
     "heat": "Heat 701 [Ballroom A]",
     "event": "L-JR Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "09:56 Sunday",
+    "time": "09:59 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Ilyushenov, Andrey",
@@ -27894,7 +27810,7 @@
     "heat": "Heat 702 [Ballroom B]",
     "event": "A-JR Argent / Silver BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fogl, Anne",
@@ -27906,7 +27822,7 @@
     "heat": "Heat 702 [Ballroom B]",
     "event": "A-JR Or / Gold BALLROOM SOLO Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Pinchak, Gleb",
       "Sochnacki, Talia",
@@ -27919,7 +27835,7 @@
     "heat": "Heat 702 [Ballroom A]",
     "event": "G-36+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie"
@@ -27929,7 +27845,7 @@
     "heat": "Heat 702 [Ballroom A]",
     "event": "L-36+ Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Rockwell, Gloria"
@@ -27939,7 +27855,7 @@
     "heat": "Heat 702 [Ballroom A]",
     "event": "L-JR Argent / Silver BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Broudno, Thais",
       "Filatov, Arsenii",
@@ -27953,7 +27869,7 @@
     "heat": "Heat 702 [Ballroom A]",
     "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "09:57 Sunday",
+    "time": "10:00 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Chan, Athyn",
@@ -27965,7 +27881,7 @@
     "heat": "Heat 703 [Ballroom B]",
     "event": "A-JR Argent / Silver BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Giduk, Myka"
@@ -27975,7 +27891,7 @@
     "heat": "Heat 703 [Ballroom B]",
     "event": "A-JV Bronze / Bronze BALLROOM SOLO Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Balan, Ella",
       "Do, Chloe",
@@ -27991,7 +27907,7 @@
     "heat": "Heat 703 [Ballroom A]",
     "event": "G-36+ Ouvert / Open BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -28001,7 +27917,7 @@
     "heat": "Heat 703 [Ballroom A]",
     "event": "G-50+ Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28011,7 +27927,7 @@
     "heat": "Heat 703 [Ballroom A]",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn"
@@ -28021,7 +27937,7 @@
     "heat": "Heat 703 [Ballroom A]",
     "event": "L-19+ Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -28031,7 +27947,7 @@
     "heat": "Heat 703 [Ballroom A]",
     "event": "L-JR Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "09:59 Sunday",
+    "time": "10:02 Sunday",
     "competitors": [
       "Burganov, Veronica",
       "Filatov, Arsenii"
@@ -28041,7 +27957,7 @@
     "heat": "Heat 704 [Ballroom B]",
     "event": "A-JR Argent / Silver BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fogl, Anne",
@@ -28055,7 +27971,7 @@
     "heat": "Heat 704 [Ballroom B]",
     "event": "A-JV Argent / Silver BALLROOM SOLO Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Balan, Ella",
       "Belmonte, Olivia",
@@ -28068,7 +27984,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "G-50+ Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28078,7 +27994,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "G-50+ Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28088,7 +28004,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "G-JR Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -28098,7 +28014,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "L-19+ Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -28108,7 +28024,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Chan, Athyn"
@@ -28118,7 +28034,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "L-50+ Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -28128,7 +28044,7 @@
     "heat": "Heat 704 [Ballroom A]",
     "event": "L-JR Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:00 Sunday",
+    "time": "10:03 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Ilyushenov, Andrey",
@@ -28140,7 +28056,7 @@
     "heat": "Heat 705",
     "event": "G-36+ Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:02 Sunday",
+    "time": "10:05 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28150,7 +28066,7 @@
     "heat": "Heat 705",
     "event": "L-19+ Pr\u00e9-Bronze / Pre-Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:02 Sunday",
+    "time": "10:05 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -28160,7 +28076,7 @@
     "heat": "Heat 705",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:02 Sunday",
+    "time": "10:05 Sunday",
     "competitors": [
       "Friesen, Saya",
       "Naidoo, Shaylen"
@@ -28170,7 +28086,7 @@
     "heat": "Heat 706",
     "event": "G-36+ Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:03 Sunday",
+    "time": "10:06 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28180,7 +28096,7 @@
     "heat": "Heat 706",
     "event": "G-50+ Ouvert / Open BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:03 Sunday",
+    "time": "10:06 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -28190,7 +28106,7 @@
     "heat": "Heat 706",
     "event": "L-36+ Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:03 Sunday",
+    "time": "10:06 Sunday",
     "competitors": [
       "Goth, Amanda",
       "Kirillov, Eduard",
@@ -28204,7 +28120,7 @@
     "heat": "Heat 707",
     "event": "G-19+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Lukianova, Yuliia",
       "Majid, Shane"
@@ -28214,7 +28130,7 @@
     "heat": "Heat 707",
     "event": "G-36+ Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28224,7 +28140,7 @@
     "heat": "Heat 707",
     "event": "G-JV Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Loginov, Nickolas",
       "Turcotte-Miao, Audrey"
@@ -28234,7 +28150,7 @@
     "heat": "Heat 707",
     "event": "L-19+ Argent / Silver BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Goth, Amanda",
@@ -28246,7 +28162,7 @@
     "heat": "Heat 707",
     "event": "L-36+ Or / Gold BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -28256,7 +28172,7 @@
     "heat": "Heat 707",
     "event": "L-JV Bronze / Bronze BALLROOM MIXED Valse / Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:05 Sunday",
+    "time": "10:08 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
@@ -28270,7 +28186,7 @@
     "heat": "Heat 708",
     "event": "G-19+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Lukianova, Yuliia",
       "Majid, Shane"
@@ -28280,7 +28196,7 @@
     "heat": "Heat 708",
     "event": "G-36+ Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28290,7 +28206,7 @@
     "heat": "Heat 708",
     "event": "G-JV Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Loginov, Nickolas",
       "Turcotte-Miao, Audrey"
@@ -28300,7 +28216,7 @@
     "heat": "Heat 708",
     "event": "L-19+ Argent / Silver BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Goth, Amanda",
@@ -28312,7 +28228,7 @@
     "heat": "Heat 708",
     "event": "L-36+ Or / Gold BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -28322,7 +28238,7 @@
     "heat": "Heat 708",
     "event": "L-JV Bronze / Bronze BALLROOM MIXED Tango",
     "session": "Dimanche / Sunday",
-    "time": "10:06 Sunday",
+    "time": "10:09 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
@@ -28336,7 +28252,7 @@
     "heat": "Heat 709",
     "event": "G-36+ Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:08 Sunday",
+    "time": "10:11 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28346,7 +28262,7 @@
     "heat": "Heat 709",
     "event": "G-50+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:08 Sunday",
+    "time": "10:11 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -28356,7 +28272,7 @@
     "heat": "Heat 709",
     "event": "L-36+ Or / Gold BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:08 Sunday",
+    "time": "10:11 Sunday",
     "competitors": [
       "Goth, Amanda",
       "Kirillov, Eduard",
@@ -28370,7 +28286,7 @@
     "heat": "Heat 710",
     "event": "G-36+ Bronze / Bronze BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28380,7 +28296,7 @@
     "heat": "Heat 710",
     "event": "G-50+ Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28390,7 +28306,7 @@
     "heat": "Heat 710",
     "event": "G-JR Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -28400,7 +28316,7 @@
     "heat": "Heat 710",
     "event": "L-19+ Argent / Silver BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Goth, Amanda",
@@ -28412,7 +28328,7 @@
     "heat": "Heat 710",
     "event": "L-50+ Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -28422,7 +28338,7 @@
     "heat": "Heat 710",
     "event": "L-JR Or / Gold BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Chan, Athyn",
@@ -28436,7 +28352,7 @@
     "heat": "Heat 710",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED Foxtrot",
     "session": "Dimanche / Sunday",
-    "time": "10:09 Sunday",
+    "time": "10:12 Sunday",
     "competitors": [
       "Friesen, Saya",
       "Naidoo, Shaylen"
@@ -28446,7 +28362,7 @@
     "heat": "Heat 711",
     "event": "G-19+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Lukianova, Yuliia",
       "Majid, Shane"
@@ -28456,7 +28372,7 @@
     "heat": "Heat 711",
     "event": "G-36+ Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Bussi\u00e8re, M\u00e9lanie",
       "Thomson, Chris"
@@ -28466,7 +28382,7 @@
     "heat": "Heat 711",
     "event": "G-JV Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Loginov, Nickolas",
       "Turcotte-Miao, Audrey"
@@ -28476,7 +28392,7 @@
     "heat": "Heat 711",
     "event": "L-19+ Argent / Silver BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Doonan, Lionel",
       "Goth, Amanda",
@@ -28488,7 +28404,7 @@
     "heat": "Heat 711",
     "event": "L-36+ Or / Gold BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Thomson, Cathy",
       "Zompanti, Lucius"
@@ -28498,7 +28414,7 @@
     "heat": "Heat 711",
     "event": "L-JV Bronze / Bronze BALLROOM MIXED Quickstep",
     "session": "Dimanche / Sunday",
-    "time": "10:11 Sunday",
+    "time": "10:14 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bogodelny, Annabelle",
@@ -28512,7 +28428,7 @@
     "heat": "Heat 712",
     "event": "G-50+ Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:12 Sunday",
+    "time": "10:15 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28522,7 +28438,7 @@
     "heat": "Heat 712",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:12 Sunday",
+    "time": "10:15 Sunday",
     "competitors": [
       "Billiau, Natasja",
       "Bronshtein, Elly",
@@ -28534,7 +28450,7 @@
     "heat": "Heat 712",
     "event": "L-JR Bronze / Bronze BALLROOM MIXED Valse Viennoise / Viennese Waltz",
     "session": "Dimanche / Sunday",
-    "time": "10:12 Sunday",
+    "time": "10:15 Sunday",
     "competitors": [
       "Burganov, Veronica",
       "Filatov, Arsenii"
@@ -28544,7 +28460,7 @@
     "heat": "Heat 713",
     "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:20 Sunday Later rounds: 7@10:38 Sunday 7@10:56 Sunday",
+    "time": "10:23 Sunday Later rounds: 7@10:41 Sunday 7@10:59 Sunday",
     "competitors": [
       "Abdullayeva, Safiya",
       "Aptekar, Eliana Ann-Marie",
@@ -28578,7 +28494,7 @@
     "heat": "Heat 713 [Ballroom B]",
     "event": "G-15- Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:38 Sunday",
+    "time": "10:41 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Petrova, Katusha",
@@ -28590,7 +28506,7 @@
     "heat": "Heat 713 [Ballroom B]",
     "event": "L-15- Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:38 Sunday",
+    "time": "10:41 Sunday",
     "competitors": [
       "Bogodelny, Kris",
       "Broudno, Thais",
@@ -28608,7 +28524,7 @@
     "heat": "Heat 714",
     "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:24 Sunday Later rounds: 7@10:47 Sunday",
+    "time": "10:27 Sunday Later rounds: 7@10:50 Sunday",
     "competitors": [
       "Abdullayeva, Safiya",
       "Aptekar, Eliana Ann-Marie",
@@ -28632,7 +28548,7 @@
     "heat": "Heat 714 [Ballroom B]",
     "event": "G-16+ Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:47 Sunday",
+    "time": "10:50 Sunday",
     "competitors": [
       "Beaulieu, Yvan",
       "Bussi\u00e8re, M\u00e9lanie",
@@ -28644,7 +28560,7 @@
     "heat": "Heat 714 [Ballroom B]",
     "event": "L-16+ Argent + Or / Silver + Gold BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:47 Sunday",
+    "time": "10:50 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Doonan, Lionel",
@@ -28662,7 +28578,7 @@
     "heat": "Heat 715 [Ballroom A]",
     "event": "A-15- Ouvert / Open BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:29 Sunday Later rounds: 7@10:51 Sunday",
+    "time": "10:32 Sunday Later rounds: 7@10:54 Sunday",
     "competitors": [
       "Balan, Vivienne",
       "Barsky, Eitan",
@@ -28679,7 +28595,7 @@
     "heat": "Heat 715 [Ballroom B]",
     "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:29 Sunday",
+    "time": "10:32 Sunday",
     "competitors": [
       "Petrova, Katusha",
       "Prosveer, Leon"
@@ -28689,7 +28605,7 @@
     "heat": "Heat 715 [Ballroom B]",
     "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:29 Sunday",
+    "time": "10:32 Sunday",
     "competitors": [
       "Bogodelny, Annabelle",
       "Bogodelny, Kris",
@@ -28709,7 +28625,7 @@
     "heat": "Heat 715 [Ballroom B]",
     "event": "L-19+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:51 Sunday",
+    "time": "10:54 Sunday",
     "competitors": [
       "Bohuslavska, Maryna",
       "Petrov, Nathaniel"
@@ -28719,7 +28635,7 @@
     "heat": "Heat 715 [Ballroom B]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:51 Sunday",
+    "time": "10:54 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -28735,7 +28651,7 @@
     "heat": "Heat 716 [Ballroom A]",
     "event": "A-15- Or / Gold BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday Later rounds: 7@10:56 Sunday",
+    "time": "10:36 Sunday Later rounds: 7@10:59 Sunday",
     "competitors": [
       "Belmonte, Olivia",
       "Brodziak, Halle",
@@ -28753,7 +28669,7 @@
     "heat": "Heat 716 [Ballroom B]",
     "event": "G-16+ D\u00e9b. \u00e0 Bronze / Beg. to Bronze BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday",
+    "time": "10:36 Sunday",
     "competitors": [
       "Anikin, Vladimir",
       "Berlinska, Olympia"
@@ -28763,7 +28679,7 @@
     "heat": "Heat 716 [Ballroom B]",
     "event": "G-36+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday",
+    "time": "10:36 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -28773,7 +28689,7 @@
     "heat": "Heat 716 [Ballroom B]",
     "event": "L-16+ D\u00e9b. \u00e0 Bronze / Beg. to Bronze BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday",
+    "time": "10:36 Sunday",
     "competitors": [
       "Shum-lok, Mitch",
       "Waddley Sinval, Kris"
@@ -28783,7 +28699,7 @@
     "heat": "Heat 716 [Ballroom B]",
     "event": "L-36+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday",
+    "time": "10:36 Sunday",
     "competitors": [
       "Ma, Hylann",
       "Naidoo, Shaylen"
@@ -28793,7 +28709,7 @@
     "heat": "Heat 716 [Ballroom B]",
     "event": "L-YTH Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:33 Sunday",
+    "time": "10:36 Sunday",
     "competitors": [
       "Filatov, Arsenii",
       "Kochan, Nathalia",
@@ -28807,7 +28723,7 @@
     "heat": "Heat 717 [Ballroom A]",
     "event": "A-16+ Argent / Silver BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Mills, Veronica",
       "Rivest, Lilly"
@@ -28817,7 +28733,7 @@
     "heat": "Heat 717 [Ballroom A]",
     "event": "A-16+ Bronze / Bronze BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Chaves, Arielle",
       "Waddley Sinval, Kris"
@@ -28827,7 +28743,7 @@
     "heat": "Heat 717 [Ballroom A]",
     "event": "A-36+ Ouvert / Open BALLROOM SOLO (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Kwok, Alex",
       "Rogers, Jeffrey"
@@ -28837,7 +28753,7 @@
     "heat": "Heat 717 [Ballroom B]",
     "event": "G-50+ Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -28847,7 +28763,7 @@
     "heat": "Heat 717 [Ballroom B]",
     "event": "L-JV Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Ilyushenov, Andrey",
       "Motyl, Nataliia",
@@ -28859,7 +28775,7 @@
     "heat": "Heat 717 [Ballroom B]",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
     "session": "Dimanche / Sunday",
-    "time": "10:42 Sunday",
+    "time": "10:45 Sunday",
     "competitors": [
       "Friesen, Saya",
       "Naidoo, Shaylen",
@@ -28871,7 +28787,7 @@
     "heat": "Heat 718",
     "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:00 Sunday Later rounds: 7@11:23 Sunday 7@11:45 Sunday",
+    "time": "11:03 Sunday Later rounds: 7@11:26 Sunday 7@11:48 Sunday",
     "competitors": [
       "Abdullayeva, Safiya",
       "Aptekar, Eliana Ann-Marie",
@@ -28900,7 +28816,7 @@
     "heat": "Heat 718 [Ballroom B]",
     "event": "L-JR Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:45 Sunday",
+    "time": "11:48 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Golovanevski, Alexandra",
@@ -28918,7 +28834,7 @@
     "heat": "Heat 718 [Ballroom B]",
     "event": "L-U21 Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:23 Sunday",
+    "time": "11:26 Sunday",
     "competitors": [
       "Ling Guzman, Julia",
       "Petrov, Nathaniel",
@@ -28930,7 +28846,7 @@
     "heat": "Heat 719",
     "event": "A-JR Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:08 Sunday Later rounds: 7@11:38 Sunday",
+    "time": "11:11 Sunday Later rounds: 7@11:41 Sunday",
     "competitors": [
       "Balan, Vivienne",
       "Barsky, Eitan",
@@ -28952,7 +28868,7 @@
     "heat": "Heat 719 [Ballroom B]",
     "event": "L-JV Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:38 Sunday",
+    "time": "11:41 Sunday",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Ilyushenov, Andrey",
@@ -28968,7 +28884,7 @@
     "heat": "Heat 720 [Ballroom A]",
     "event": "A-16+ Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:15 Sunday",
+    "time": "11:18 Sunday",
     "competitors": [
       "Kwok, Alex",
       "Rogers, Jeffrey"
@@ -28978,7 +28894,7 @@
     "heat": "Heat 720 [Ballroom A]",
     "event": "A-YTH Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:15 Sunday",
+    "time": "11:18 Sunday",
     "competitors": [
       "Bogodelny, Kris"
     ]
@@ -28987,7 +28903,7 @@
     "heat": "Heat 720 [Ballroom B]",
     "event": "L-YTH Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:15 Sunday",
+    "time": "11:18 Sunday",
     "competitors": [
       "Filatov, Arsenii",
       "Friesen, Saya",
@@ -29005,7 +28921,7 @@
     "heat": "Heat 721",
     "event": "L-16+ Ouvert / Open BALLROOM MIXED NATIONAL (W/T/VW/F/Q)",
     "session": "Dimanche / Sunday",
-    "time": "11:30 Sunday",
+    "time": "11:33 Sunday",
     "competitors": [
       "Billiau, Natasja",
       "Bohuslavska, Maryna",
@@ -29019,7 +28935,7 @@
     "heat": "Heat 722",
     "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:23 Sunday Later rounds: 7@12:51 Sunday 7@13:46 Sunday",
+    "time": "12:26 Sunday Later rounds: 7@12:54 Sunday 7@13:49 Sunday",
     "competitors": [
       "Ahunov, Eva",
       "Arkin, Diyanat",
@@ -29083,7 +28999,7 @@
     "heat": "Heat 722 [Ballroom B]",
     "event": "AC-15- Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:51 Sunday",
+    "time": "12:54 Sunday",
     "competitors": [
       "Perrun, Alexandre",
       "Perrun, Anastasia"
@@ -29093,7 +29009,7 @@
     "heat": "Heat 722 [Ballroom B]",
     "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:51 Sunday",
+    "time": "12:54 Sunday",
     "competitors": [
       "Chen, Jiaxin",
       "Gontcharov, Ivan",
@@ -29109,7 +29025,7 @@
     "heat": "Heat 723",
     "event": "AC-15- Argent & Or/Silver & Gold AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:27 Sunday Later rounds: 7@12:56 Sunday 7@13:50 Sunday",
+    "time": "12:30 Sunday Later rounds: 7@12:59 Sunday 7@13:53 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Amiri, Alia",
@@ -29159,7 +29075,7 @@
     "heat": "Heat 723 [Ballroom B]",
     "event": "AC-JR Bronze/Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "13:50 Sunday",
+    "time": "13:53 Sunday",
     "competitors": [
       "Avoyan, Camelia",
       "Barbac, Sophie",
@@ -29185,7 +29101,7 @@
     "heat": "Heat 723 [Ballroom B]",
     "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:56 Sunday",
+    "time": "12:59 Sunday",
     "competitors": [
       "Avoyan, Camelia",
       "Kaminer, George"
@@ -29195,7 +29111,7 @@
     "heat": "Heat 723 [Ballroom B]",
     "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:56 Sunday",
+    "time": "12:59 Sunday",
     "competitors": [
       "Couet, Samuel",
       "Feskiv, Nicole",
@@ -29221,7 +29137,7 @@
     "heat": "Heat 724 [Ballroom B]",
     "event": "AC-JR Or/Gold AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "13:11 Sunday",
+    "time": "13:14 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Anastasova, Sofiia",
@@ -29245,7 +29161,7 @@
     "heat": "Heat 724",
     "event": "AC-JV Bronze/Bronze AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:32 Sunday Later rounds: 7@13:11 Sunday",
+    "time": "12:35 Sunday Later rounds: 7@13:14 Sunday",
     "competitors": [
       "Ahunov, Eva",
       "Arkin, Diyanat",
@@ -29289,7 +29205,7 @@
     "heat": "Heat 725",
     "event": "AC-JV Bronze/Bronze AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "12:36 Sunday Later rounds: 7@13:15 Sunday",
+    "time": "12:39 Sunday Later rounds: 7@13:18 Sunday",
     "competitors": [
       "Arkin, Diyanat",
       "Artamonov, Arthur",
@@ -29327,7 +29243,7 @@
     "heat": "Heat 725 [Ballroom B]",
     "event": "AC-JV Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:15 Sunday",
+    "time": "13:18 Sunday",
     "competitors": [
       "Chen, Jiaxin",
       "Gontcharov, Ivan",
@@ -29341,7 +29257,7 @@
     "heat": "Heat 726 [Ballroom B]",
     "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:39 Sunday Later rounds: 7@13:18 Sunday",
+    "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Arbour, Elly",
@@ -29373,7 +29289,7 @@
     "heat": "Heat 726 [Ballroom A]",
     "event": "AC-JV Argent/Silver AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:39 Sunday Later rounds: 7@13:18 Sunday",
+    "time": "12:42 Sunday Later rounds: 7@13:21 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Ciobanu, Gabriel",
@@ -29401,7 +29317,7 @@
     "heat": "Heat 727 [Ballroom B]",
     "event": "AC-JR Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "12:44 Sunday Later rounds: 7@13:23 Sunday",
+    "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Aydogan, Emre",
@@ -29431,7 +29347,7 @@
     "heat": "Heat 727 [Ballroom A]",
     "event": "AC-JV Argent/Silver AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "12:44 Sunday Later rounds: 7@13:23 Sunday",
+    "time": "12:47 Sunday Later rounds: 7@13:26 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Ciobanu, Gabriel",
@@ -29459,7 +29375,7 @@
     "heat": "Heat 728 [Ballroom A]",
     "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "12:47 Sunday Later rounds: 7@13:46 Sunday",
+    "time": "12:50 Sunday Later rounds: 7@13:49 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Arbour, Elly",
@@ -29489,7 +29405,7 @@
     "heat": "Heat 728 [Ballroom B]",
     "event": "AC-JR D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
     "session": "Dimanche / Sunday",
-    "time": "12:47 Sunday",
+    "time": "12:50 Sunday",
     "competitors": [
       "Avoyan, Camelia",
       "B\u00e9rub\u00e9, Tatiana",
@@ -29501,7 +29417,7 @@
     "heat": "Heat 728 [Ballroom B]",
     "event": "AC-JV D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
     "session": "Dimanche / Sunday",
-    "time": "12:47 Sunday",
+    "time": "12:50 Sunday",
     "competitors": [
       "Ahunov, Adelina",
       "Arkin, Shereen",
@@ -29519,7 +29435,7 @@
     "heat": "Heat 729 [Ballroom B]",
     "event": "AC-JR Argent/Silver AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:00 Sunday",
+    "time": "13:03 Sunday",
     "competitors": [
       "Beauchamp, Mikael",
       "Beauchamp, Sasha",
@@ -29541,7 +29457,7 @@
     "heat": "Heat 729 [Ballroom A]",
     "event": "AC-JR Bronze/Bronze AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:00 Sunday",
+    "time": "13:03 Sunday",
     "competitors": [
       "Avoyan, Camelia",
       "Barbac, Sophie",
@@ -29563,7 +29479,7 @@
     "heat": "Heat 730 [Ballroom B]",
     "event": "AC-JR Or/Gold AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:03 Sunday",
+    "time": "13:06 Sunday",
     "competitors": [
       "Agheeva, Maria",
       "Anastasova, Sofiia",
@@ -29589,7 +29505,7 @@
     "heat": "Heat 730 [Ballroom A]",
     "event": "AC-JV Or/Gold AMATEUR LATIN (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:03 Sunday",
+    "time": "13:06 Sunday",
     "competitors": [
       "Brovchin, Arsenii",
       "Chen, Jiaxin",
@@ -29609,7 +29525,7 @@
     "heat": "Heat 731 [Ballroom B]",
     "event": "AC-JR Argent/Silver AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "13:06 Sunday",
+    "time": "13:09 Sunday",
     "competitors": [
       "Beauchamp, Mikael",
       "Beauchamp, Sasha",
@@ -29633,7 +29549,7 @@
     "heat": "Heat 731 [Ballroom A]",
     "event": "AC-JV Or/Gold AMATEUR LATIN (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "13:06 Sunday",
+    "time": "13:09 Sunday",
     "competitors": [
       "Brovchin, Arsenii",
       "Chen, Jiaxin",
@@ -29653,7 +29569,7 @@
     "heat": "Heat 732 [Ballroom B]",
     "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "14:05 Sunday",
+    "time": "14:08 Sunday",
     "competitors": [
       "Chempinsky, Elinor",
       "Cui, Jiaqi (Ami)",
@@ -29675,7 +29591,7 @@
     "heat": "Heat 732",
     "event": "AC-JV2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:26 Sunday Later rounds: 7@14:05 Sunday",
+    "time": "13:29 Sunday Later rounds: 7@14:08 Sunday",
     "competitors": [
       "Brovchin, Arsenii",
       "Carunas, Elina",
@@ -29715,7 +29631,7 @@
     "heat": "Heat 733 [Ballroom B]",
     "event": "AC-JR1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:55 Sunday",
+    "time": "13:58 Sunday",
     "competitors": [
       "Aydogan, Emre",
       "Babizhaev, Yana",
@@ -29737,7 +29653,7 @@
     "heat": "Heat 733 [Ballroom A]",
     "event": "AC-JV1 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "13:55 Sunday",
+    "time": "13:58 Sunday",
     "competitors": [
       "Arkin, Diyanat",
       "Artamonov, Arthur",
@@ -29753,7 +29669,7 @@
     "heat": "Heat 734",
     "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "14:35 Sunday Later rounds: 7@15:09 Sunday 7@15:37 Sunday 7@16:04 Sunday",
+    "time": "14:38 Sunday Later rounds: 7@15:12 Sunday 7@15:40 Sunday 7@16:07 Sunday",
     "competitors": [
       "Al Said, Olivia",
       "Allaire, Lea",
@@ -29804,7 +29720,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "G-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
       "Doneva, Boyana",
       "Labelle-Parenteau, William"
@@ -29814,7 +29730,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "G-JV D\u00e9butant / Beginner LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
       "Petrova, Katusha",
       "Prosveer, Leon"
@@ -29824,7 +29740,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-50+ Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "16:04 Sunday",
+    "time": "16:07 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Viau, Marie-Josee"
@@ -29834,11 +29750,11 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "16:04 Sunday",
+    "time": "16:07 Sunday",
     "competitors": [
       "Bermingham, Aidan",
       "Bourdon, Charlize",
-      "Dombrovski, Alise",
+      "Daniault, Alexis",
       "Lama, Sean",
       "Laroche, Justin",
       "Leclair, Sofia",
@@ -29850,7 +29766,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "16:04 Sunday",
+    "time": "16:07 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Ivanov, Pavel",
@@ -29864,7 +29780,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
       "Blanchet, L\u00e9a",
       "Frick, Sacha"
@@ -29874,7 +29790,7 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Dubuc-Ventura, Alexane",
@@ -29890,31 +29806,19 @@
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
-      "Dombrovski, Alise",
       "Gagliardi, Blanche",
       "Iakovenko, Maya",
       "Ivanov, Pavel",
-      "Laroche, Justin",
-      "Munteanu, Luiza"
-    ]
-  },
-  {
-    "heat": "Heat 734 [Ballroom B]",
-    "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
-    "session": "Dimanche / Sunday",
-    "time": "16:04 Sunday",
-    "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Laroche, Justin"
     ]
   },
   {
     "heat": "Heat 734 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:37 Sunday",
+    "time": "15:40 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -29924,7 +29828,7 @@
     "heat": "Heat 735",
     "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:39 Sunday Later rounds: 7@15:12 Sunday 7@15:38 Sunday 7@16:05 Sunday",
+    "time": "14:42 Sunday Later rounds: 7@15:15 Sunday 7@15:41 Sunday 7@16:08 Sunday",
     "competitors": [
       "Al Said, Olivia",
       "Aptekar, Eliana Ann-Marie",
@@ -29973,7 +29877,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "G-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Doneva, Boyana",
       "Labelle-Parenteau, William"
@@ -29983,7 +29887,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "G-JV D\u00e9butant / Beginner LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Petrova, Katusha",
       "Prosveer, Leon"
@@ -29993,7 +29897,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-36+ Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Campeau, Mathias",
@@ -30005,7 +29909,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-50+ Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "16:05 Sunday",
+    "time": "16:08 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Viau, Marie-Josee"
@@ -30015,11 +29919,11 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "16:05 Sunday",
+    "time": "16:08 Sunday",
     "competitors": [
       "Bermingham, Aidan",
       "Bourdon, Charlize",
-      "Dombrovski, Alise",
+      "Daniault, Alexis",
       "Lama, Sean",
       "Laroche, Justin",
       "Leclair, Sofia",
@@ -30031,7 +29935,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "16:05 Sunday",
+    "time": "16:08 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Ivanov, Pavel",
@@ -30045,7 +29949,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Blanchet, L\u00e9a",
       "Frick, Sacha"
@@ -30055,7 +29959,7 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Dubuc-Ventura, Alexane",
@@ -30069,29 +29973,17 @@
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-JV Or / Gold LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
-      "Dombrovski, Alise",
       "Gagliardi, Blanche",
-      "Laroche, Justin",
-      "Munteanu, Luiza"
-    ]
-  },
-  {
-    "heat": "Heat 735 [Ballroom B]",
-    "event": "L-U21 Argent / Silver LATIN MIXED Samba",
-    "session": "Dimanche / Sunday",
-    "time": "16:05 Sunday",
-    "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Laroche, Justin"
     ]
   },
   {
     "heat": "Heat 735 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:38 Sunday",
+    "time": "15:41 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -30101,7 +29993,7 @@
     "heat": "Heat 736",
     "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "14:43 Sunday Later rounds: 7@15:15 Sunday 7@15:40 Sunday 7@16:07 Sunday",
+    "time": "14:46 Sunday Later rounds: 7@15:18 Sunday 7@15:43 Sunday 7@16:10 Sunday",
     "competitors": [
       "Al Said, Olivia",
       "Allaire, Lea",
@@ -30149,7 +30041,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "G-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
       "Doneva, Boyana",
       "Labelle-Parenteau, William"
@@ -30159,7 +30051,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-36+ Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Campeau, Mathias",
@@ -30171,7 +30063,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-50+ Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:07 Sunday",
+    "time": "16:10 Sunday",
     "competitors": [
       "Campeau, Mathias",
       "Viau, Marie-Josee"
@@ -30181,11 +30073,11 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:07 Sunday",
+    "time": "16:10 Sunday",
     "competitors": [
       "Bermingham, Aidan",
       "Bourdon, Charlize",
-      "Dombrovski, Alise",
+      "Daniault, Alexis",
       "Lama, Sean",
       "Laroche, Justin",
       "Leclair, Sofia",
@@ -30197,7 +30089,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:07 Sunday",
+    "time": "16:10 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Ivanov, Pavel",
@@ -30211,7 +30103,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
       "Blanchet, L\u00e9a",
       "Frick, Sacha"
@@ -30221,7 +30113,7 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Dubuc-Ventura, Alexane",
@@ -30237,29 +30129,17 @@
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-JV Or / Gold LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
-      "Dombrovski, Alise",
       "Gagliardi, Blanche",
-      "Laroche, Justin",
-      "Munteanu, Luiza"
-    ]
-  },
-  {
-    "heat": "Heat 736 [Ballroom B]",
-    "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
-    "session": "Dimanche / Sunday",
-    "time": "16:07 Sunday",
-    "competitors": [
-      "Daniault, Alexis",
-      "Lachance, Delphine"
+      "Laroche, Justin"
     ]
   },
   {
     "heat": "Heat 736 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:40 Sunday",
+    "time": "15:43 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -30269,7 +30149,7 @@
     "heat": "Heat 737",
     "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "14:47 Sunday Later rounds: 7@15:22 Sunday 7@15:43 Sunday 7@16:10 Sunday",
+    "time": "14:50 Sunday Later rounds: 7@15:25 Sunday 7@15:46 Sunday 7@16:13 Sunday",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Balan, Ella",
@@ -30320,7 +30200,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "G-50+ Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:43 Sunday",
+    "time": "15:46 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -30330,7 +30210,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "G-JR Or / Gold LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:10 Sunday",
+    "time": "16:13 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -30340,7 +30220,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:43 Sunday",
+    "time": "15:46 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -30350,7 +30230,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-JR Or / Gold LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:10 Sunday",
+    "time": "16:13 Sunday",
     "competitors": [
       "Ivanov, Pavel",
       "Jin, Phyllis",
@@ -30364,7 +30244,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:10 Sunday",
+    "time": "16:13 Sunday",
     "competitors": [
       "Blanchet, L\u00e9a",
       "Frick, Sacha"
@@ -30374,7 +30254,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-JV D\u00e9butant / Beginner LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:43 Sunday",
+    "time": "15:46 Sunday",
     "competitors": [
       "Bronshtein, Elly",
       "Dubuc-Ventura, Alexane",
@@ -30390,7 +30270,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-JV Or / Gold LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:10 Sunday",
+    "time": "16:13 Sunday",
     "competitors": [
       "Dombrovski, Alise",
       "Munteanu, Luiza"
@@ -30400,7 +30280,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-U21 Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:43 Sunday",
+    "time": "15:46 Sunday",
     "competitors": [
       "Cazacu, Tina",
       "Daniault, Alexis",
@@ -30412,7 +30292,7 @@
     "heat": "Heat 737 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:10 Sunday",
+    "time": "16:13 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Friesen, Saya",
@@ -30426,7 +30306,7 @@
     "heat": "Heat 738 [Ballroom A]",
     "event": "A-JR Argent / Silver LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "14:51 Sunday Later rounds: 7@15:25 Sunday",
+    "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Cavaliere, Raffaela",
@@ -30447,7 +30327,7 @@
     "heat": "Heat 738 [Ballroom B]",
     "event": "A-JV Or / Gold LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "14:51 Sunday",
+    "time": "14:54 Sunday",
     "competitors": [
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
@@ -30463,7 +30343,7 @@
     "heat": "Heat 738 [Ballroom B]",
     "event": "G-JV Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:25 Sunday",
+    "time": "15:28 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -30473,7 +30353,7 @@
     "heat": "Heat 738 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:25 Sunday",
+    "time": "15:28 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bronshtein, Elly",
@@ -30485,7 +30365,7 @@
     "heat": "Heat 738 [Ballroom B]",
     "event": "L-JV Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:25 Sunday",
+    "time": "15:28 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Chladek, Emmy",
@@ -30505,7 +30385,7 @@
     "heat": "Heat 738 [Ballroom B]",
     "event": "L-U21* Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:25 Sunday",
+    "time": "15:28 Sunday",
     "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
@@ -30515,7 +30395,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "A-19+ Argent / Silver LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "14:52 Sunday",
+    "time": "14:55 Sunday",
     "competitors": [
       "Mills, Veronica"
     ]
@@ -30524,7 +30404,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "A-JR Argent / Silver LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "14:52 Sunday",
+    "time": "14:55 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fu, Kaitlin",
@@ -30539,7 +30419,7 @@
     "heat": "Heat 739 [Ballroom A]",
     "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "14:52 Sunday Later rounds: 7@15:26 Sunday",
+    "time": "14:55 Sunday Later rounds: 7@15:29 Sunday",
     "competitors": [
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
@@ -30556,7 +30436,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "A-JV Ouvert / Open LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "14:52 Sunday",
+    "time": "14:55 Sunday",
     "competitors": [
       "Pan, Olivia",
       "Xiao, Ivan"
@@ -30566,7 +30446,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "G-36+ Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -30576,7 +30456,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "L-19+ Or / Gold LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Ma, Hylann",
       "Naidoo, Shaylen"
@@ -30586,7 +30466,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "L-36+ Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Marcotte, M\u00e9lissa"
@@ -30596,7 +30476,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -30606,7 +30486,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "L-U21* Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
@@ -30616,7 +30496,7 @@
     "heat": "Heat 739 [Ballroom B]",
     "event": "L-YTH Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:26 Sunday",
+    "time": "15:29 Sunday",
     "competitors": [
       "Daniault, Alexis",
       "Lachance, Delphine"
@@ -30626,7 +30506,7 @@
     "heat": "Heat 740 [Ballroom B]",
     "event": "A-JR Or / Gold LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
+    "time": "14:57 Sunday Later rounds: 7@15:31 Sunday",
     "competitors": [
       "Balan, Eva",
       "Broudno, Thais",
@@ -30643,7 +30523,7 @@
     "heat": "Heat 740 [Ballroom A]",
     "event": "A-JV Argent / Silver LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "14:54 Sunday Later rounds: 7@15:28 Sunday",
+    "time": "14:57 Sunday Later rounds: 7@15:31 Sunday",
     "competitors": [
       "Arkin, Diyanat",
       "Belmonte, Olivia",
@@ -30663,7 +30543,7 @@
     "heat": "Heat 741 [Ballroom A]",
     "event": "A-19+ Ouvert / Open LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Dong, Cathy",
       "He, Xintian",
@@ -30675,7 +30555,7 @@
     "heat": "Heat 741 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Verba, Iuliia",
       "Wang, Lu"
@@ -30685,7 +30565,7 @@
     "heat": "Heat 741 [Ballroom A]",
     "event": "A-JV D\u00e9butant / Beginner LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Saleh, Emma"
     ]
@@ -30694,7 +30574,7 @@
     "heat": "Heat 741 [Ballroom B]",
     "event": "G-JV Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -30704,7 +30584,7 @@
     "heat": "Heat 741 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bronshtein, Elly",
@@ -30716,7 +30596,7 @@
     "heat": "Heat 741 [Ballroom B]",
     "event": "L-JV Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Baranova, Veronica",
@@ -30734,9 +30614,19 @@
   },
   {
     "heat": "Heat 741 [Ballroom B]",
+    "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
+    "session": "Dimanche / Sunday",
+    "time": "14:58 Sunday",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "Heat 741 [Ballroom B]",
     "event": "L-U21* Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:55 Sunday",
+    "time": "14:58 Sunday",
     "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
@@ -30746,7 +30636,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-19+ Ouvert / Open LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Dong, Cathy",
       "Lu, Andrea"
@@ -30756,7 +30646,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Verba, Iuliia",
       "Wang, Lu"
@@ -30766,7 +30656,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-JV D\u00e9butant / Beginner LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Saleh, Emma"
     ]
@@ -30775,7 +30665,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-JV Ouvert / Open LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Pan, Olivia",
       "Xiao, Ivan"
@@ -30785,7 +30675,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-YTH Argent / Silver LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Fogl, Anne"
     ]
@@ -30794,7 +30684,7 @@
     "heat": "Heat 742 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Kwok, Mavis"
     ]
@@ -30803,7 +30693,7 @@
     "heat": "Heat 742 [Ballroom B]",
     "event": "G-JV Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -30813,7 +30703,7 @@
     "heat": "Heat 742 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bronshtein, Elly",
@@ -30825,7 +30715,7 @@
     "heat": "Heat 742 [Ballroom B]",
     "event": "L-JV Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Chladek, Emmy",
@@ -30845,7 +30735,7 @@
     "heat": "Heat 742 [Ballroom B]",
     "event": "L-U21* Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "14:57 Sunday",
+    "time": "15:00 Sunday",
     "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
@@ -30855,7 +30745,7 @@
     "heat": "Heat 743 [Ballroom A]",
     "event": "A-JV Or / Gold LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
@@ -30871,7 +30761,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-19+ Or / Gold LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Blouin, Marie-Janne",
       "Laroche, Justin",
@@ -30883,7 +30773,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-36+ Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Campeau, Mathias",
@@ -30895,7 +30785,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -30905,7 +30795,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -30915,7 +30805,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-U21 Or / Gold LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Cazacu, Tina",
       "Zaharia, Daniel"
@@ -30925,7 +30815,7 @@
     "heat": "Heat 743 [Ballroom B]",
     "event": "L-YTH Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "14:58 Sunday",
+    "time": "15:01 Sunday",
     "competitors": [
       "Daniault, Alexis",
       "Lachance, Delphine"
@@ -30935,7 +30825,7 @@
     "heat": "Heat 744 [Ballroom A]",
     "event": "A-JR Argent / Silver LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:00 Sunday",
+    "time": "15:03 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Cavaliere, Raffaela",
@@ -30952,7 +30842,7 @@
     "heat": "Heat 744 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:00 Sunday",
+    "time": "15:03 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -30962,7 +30852,7 @@
     "heat": "Heat 744 [Ballroom B]",
     "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:00 Sunday",
+    "time": "15:03 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -30972,7 +30862,7 @@
     "heat": "Heat 744 [Ballroom B]",
     "event": "L-U21 Or / Gold LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:00 Sunday",
+    "time": "15:03 Sunday",
     "competitors": [
       "Cazacu, Tina",
       "Zaharia, Daniel"
@@ -30982,7 +30872,7 @@
     "heat": "Heat 744 [Ballroom B]",
     "event": "L-YTH Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:00 Sunday",
+    "time": "15:03 Sunday",
     "competitors": [
       "Daniault, Alexis",
       "Lachance, Delphine"
@@ -30992,7 +30882,7 @@
     "heat": "Heat 745 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
       "Cui, Jiaqi (Ami)",
@@ -31008,7 +30898,7 @@
     "heat": "Heat 745 [Ballroom A]",
     "event": "A-JV Ouvert / Open LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Pan, Olivia",
       "Xiao, Ivan"
@@ -31018,7 +30908,7 @@
     "heat": "Heat 745 [Ballroom B]",
     "event": "G-JR Or / Gold LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -31028,7 +30918,7 @@
     "heat": "Heat 745 [Ballroom B]",
     "event": "L-JR Or / Gold LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Broudno, Thais",
       "Ivanov, Pavel",
@@ -31042,7 +30932,7 @@
     "heat": "Heat 745 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Bielichenko, Vasyl",
@@ -31056,7 +30946,7 @@
     "heat": "Heat 745 [Ballroom B]",
     "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:01 Sunday",
+    "time": "15:04 Sunday",
     "competitors": [
       "Dubuc-Ventura, Alexane",
       "Touchette, \u00c9liane"
@@ -31066,7 +30956,7 @@
     "heat": "Heat 746 [Ballroom A]",
     "event": "A-JV Or / Gold LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:03 Sunday",
+    "time": "15:06 Sunday",
     "competitors": [
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
@@ -31082,7 +30972,7 @@
     "heat": "Heat 746 [Ballroom B]",
     "event": "G-YTH Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:03 Sunday",
+    "time": "15:06 Sunday",
     "competitors": [
       "Chladek, Emmy",
       "Kremer, Tyler"
@@ -31092,7 +30982,7 @@
     "heat": "Heat 746 [Ballroom B]",
     "event": "L-JR Argent / Silver LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:03 Sunday",
+    "time": "15:06 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
@@ -31108,9 +30998,19 @@
   },
   {
     "heat": "Heat 746 [Ballroom B]",
+    "event": "L-U21 Argent / Silver LATIN MIXED Samba",
+    "session": "Dimanche / Sunday",
+    "time": "15:06 Sunday",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "Heat 746 [Ballroom B]",
     "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:03 Sunday",
+    "time": "15:06 Sunday",
     "competitors": [
       "Dubuc-Ventura, Alexane",
       "Touchette, \u00c9liane"
@@ -31120,7 +31020,7 @@
     "heat": "Heat 746 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:03 Sunday",
+    "time": "15:06 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Busoi, Patrick",
@@ -31134,7 +31034,7 @@
     "heat": "Heat 747 [Ballroom A]",
     "event": "A-19+ Ouvert / Open LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Dong, Cathy",
       "Ha, Kelly",
@@ -31147,7 +31047,7 @@
     "heat": "Heat 747 [Ballroom A]",
     "event": "A-JV D\u00e9butant / Beginner LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Saleh, Emma"
     ]
@@ -31156,7 +31056,7 @@
     "heat": "Heat 747 [Ballroom A]",
     "event": "A-JV Ouvert / Open LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Pan, Olivia",
       "Xiao, Ivan"
@@ -31166,7 +31066,7 @@
     "heat": "Heat 747 [Ballroom B]",
     "event": "G-YTH Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Chladek, Emmy",
       "Kremer, Tyler"
@@ -31176,7 +31076,7 @@
     "heat": "Heat 747 [Ballroom B]",
     "event": "L-JR Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
@@ -31192,9 +31092,19 @@
   },
   {
     "heat": "Heat 747 [Ballroom B]",
+    "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
+    "session": "Dimanche / Sunday",
+    "time": "15:07 Sunday",
+    "competitors": [
+      "Daniault, Alexis",
+      "Lachance, Delphine"
+    ]
+  },
+  {
+    "heat": "Heat 747 [Ballroom B]",
     "event": "L-YTH D\u00e9butant / Beginner LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Dubuc-Ventura, Alexane",
       "Touchette, \u00c9liane"
@@ -31204,7 +31114,7 @@
     "heat": "Heat 747 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:04 Sunday",
+    "time": "15:07 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Busoi, Patrick",
@@ -31218,7 +31128,7 @@
     "heat": "Heat 748 [Ballroom A]",
     "event": "A-19+ Ouvert / Open LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:06 Sunday",
+    "time": "15:09 Sunday",
     "competitors": [
       "Dong, Cathy",
       "Ha, Kelly",
@@ -31229,7 +31139,7 @@
     "heat": "Heat 748 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:06 Sunday",
+    "time": "15:09 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
       "Cui, Jiaqi (Ami)",
@@ -31245,7 +31155,7 @@
     "heat": "Heat 748 [Ballroom B]",
     "event": "G-JV Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:06 Sunday",
+    "time": "15:09 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -31255,7 +31165,7 @@
     "heat": "Heat 748 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:06 Sunday",
+    "time": "15:09 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bronshtein, Elly",
@@ -31267,7 +31177,7 @@
     "heat": "Heat 748 [Ballroom B]",
     "event": "L-JV Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:06 Sunday",
+    "time": "15:09 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Baranova, Veronica",
@@ -31289,7 +31199,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-19+ Argent / Silver LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Mills, Veronica"
     ]
@@ -31298,7 +31208,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-JV D\u00e9butant / Beginner LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Saleh, Emma"
     ]
@@ -31307,7 +31217,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-JV Ouvert / Open LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Pan, Olivia",
       "Xiao, Ivan"
@@ -31317,7 +31227,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-YTH Bronze / Bronze LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Klopotovska, Yaroslava",
       "Rivest, Lilly"
@@ -31327,7 +31237,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Kwok, Mavis"
     ]
@@ -31336,7 +31246,7 @@
     "heat": "Heat 749 [Ballroom A]",
     "event": "A-YTH Ouvert / Open LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Zhang, Muqi"
     ]
@@ -31345,7 +31255,7 @@
     "heat": "Heat 749 [Ballroom B]",
     "event": "G-JV Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -31355,7 +31265,7 @@
     "heat": "Heat 749 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bronshtein, Elly",
@@ -31367,7 +31277,7 @@
     "heat": "Heat 749 [Ballroom B]",
     "event": "L-JV Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:07 Sunday",
+    "time": "15:10 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Chladek, Emmy",
@@ -31387,7 +31297,7 @@
     "heat": "Heat 750",
     "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:18 Sunday Later rounds: 7@15:41 Sunday 7@16:08 Sunday",
+    "time": "15:21 Sunday Later rounds: 7@15:44 Sunday 7@16:11 Sunday",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Balan, Ella",
@@ -31422,7 +31332,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "G-50+ Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "16:08 Sunday",
+    "time": "16:11 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -31432,7 +31342,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "G-JR Or / Gold LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "16:08 Sunday",
+    "time": "16:11 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -31442,7 +31352,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "16:08 Sunday",
+    "time": "16:11 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -31452,7 +31362,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "L-JR Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:41 Sunday",
+    "time": "15:44 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
@@ -31470,7 +31380,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "L-JR Or / Gold LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "16:08 Sunday",
+    "time": "16:11 Sunday",
     "competitors": [
       "Broudno, Thais",
       "Ivanov, Pavel",
@@ -31484,7 +31394,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:41 Sunday",
+    "time": "15:44 Sunday",
     "competitors": [
       "Blanchet, L\u00e9a",
       "Frick, Sacha"
@@ -31492,19 +31402,9 @@
   },
   {
     "heat": "Heat 750 [Ballroom B]",
-    "event": "L-JV Or / Gold LATIN MIXED Paso Doble",
-    "session": "Dimanche / Sunday",
-    "time": "15:41 Sunday",
-    "competitors": [
-      "Dombrovski, Alise",
-      "Munteanu, Luiza"
-    ]
-  },
-  {
-    "heat": "Heat 750 [Ballroom B]",
     "event": "L-U21 Argent / Silver LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "16:08 Sunday",
+    "time": "16:11 Sunday",
     "competitors": [
       "Cazacu, Tina",
       "Daniault, Alexis",
@@ -31516,7 +31416,7 @@
     "heat": "Heat 750 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:41 Sunday",
+    "time": "15:44 Sunday",
     "competitors": [
       "Friesen, Saya",
       "Kovaliuk, Oleksandr",
@@ -31528,7 +31428,7 @@
     "heat": "Heat 751 [Ballroom A]",
     "event": "A-19+ Or / Gold LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "He, Xintian"
     ]
@@ -31537,7 +31437,7 @@
     "heat": "Heat 751 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "Kwok, Mavis"
     ]
@@ -31546,7 +31446,7 @@
     "heat": "Heat 751 [Ballroom A]",
     "event": "A-YTH Ouvert / Open LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "Zhang, Muqi"
     ]
@@ -31555,7 +31455,7 @@
     "heat": "Heat 751 [Ballroom B]",
     "event": "G-YTH Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "Chladek, Emmy",
       "Kremer, Tyler"
@@ -31565,7 +31465,7 @@
     "heat": "Heat 751 [Ballroom B]",
     "event": "L-JR Argent / Silver LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
@@ -31583,7 +31483,7 @@
     "heat": "Heat 751 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:29 Sunday",
+    "time": "15:32 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Busoi, Patrick",
@@ -31597,7 +31497,7 @@
     "heat": "Heat 752 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:31 Sunday",
+    "time": "15:34 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
       "Cui, Jiaqi (Ami)",
@@ -31614,7 +31514,7 @@
     "heat": "Heat 752 [Ballroom B]",
     "event": "G-JR Or / Gold LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:31 Sunday",
+    "time": "15:34 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -31624,7 +31524,7 @@
     "heat": "Heat 752 [Ballroom B]",
     "event": "L-19+ Or / Gold LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:31 Sunday",
+    "time": "15:34 Sunday",
     "competitors": [
       "Blouin, Marie-Janne",
       "Laroche, Justin",
@@ -31636,7 +31536,7 @@
     "heat": "Heat 752 [Ballroom B]",
     "event": "L-JR Or / Gold LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:31 Sunday",
+    "time": "15:34 Sunday",
     "competitors": [
       "Ivanov, Pavel",
       "Jin, Phyllis",
@@ -31650,7 +31550,7 @@
     "heat": "Heat 752 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:31 Sunday",
+    "time": "15:34 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Kiorescu, Oleksiy",
@@ -31662,7 +31562,7 @@
     "heat": "Heat 753 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Verba, Iuliia",
       "Wang, Lu"
@@ -31672,7 +31572,7 @@
     "heat": "Heat 753 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
       "Cui, Jiaqi (Ami)",
@@ -31688,7 +31588,7 @@
     "heat": "Heat 753 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -31698,7 +31598,7 @@
     "heat": "Heat 753 [Ballroom B]",
     "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -31708,7 +31608,7 @@
     "heat": "Heat 753 [Ballroom B]",
     "event": "L-U21 Or / Gold LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Cazacu, Tina",
       "Zaharia, Daniel"
@@ -31718,7 +31618,7 @@
     "heat": "Heat 753 [Ballroom B]",
     "event": "L-YTH Argent / Silver LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:32 Sunday",
+    "time": "15:35 Sunday",
     "competitors": [
       "Daniault, Alexis",
       "Lachance, Delphine"
@@ -31728,7 +31628,7 @@
     "heat": "Heat 754 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:34 Sunday",
+    "time": "15:37 Sunday",
     "competitors": [
       "Verba, Iuliia",
       "Wang, Lu"
@@ -31738,7 +31638,7 @@
     "heat": "Heat 754 [Ballroom A]",
     "event": "A-JR Or / Gold LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:34 Sunday",
+    "time": "15:37 Sunday",
     "competitors": [
       "Balan, Eva",
       "Feshchenko, Mariia",
@@ -31753,7 +31653,7 @@
     "heat": "Heat 754 [Ballroom B]",
     "event": "L-JR Bronze / Bronze LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:34 Sunday",
+    "time": "15:37 Sunday",
     "competitors": [
       "Lama, Sean",
       "Zhou, Vivien"
@@ -31763,7 +31663,7 @@
     "heat": "Heat 754 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:34 Sunday",
+    "time": "15:37 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Busoi, Patrick",
@@ -31779,7 +31679,7 @@
     "heat": "Heat 755 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Verba, Iuliia",
       "Wang, Lu"
@@ -31789,7 +31689,7 @@
     "heat": "Heat 755 [Ballroom A]",
     "event": "A-JV Or / Gold LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
@@ -31804,7 +31704,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "G-36+ Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -31814,7 +31714,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "L-19+ Or / Gold LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Ma, Hylann",
       "Naidoo, Shaylen"
@@ -31824,7 +31724,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "L-36+ Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Marcotte, M\u00e9lissa"
@@ -31834,7 +31734,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -31844,7 +31744,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "L-U21* Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Tkachenko, Yelizaveta",
       "Zhelasko, Danny"
@@ -31854,7 +31754,7 @@
     "heat": "Heat 755 [Ballroom B]",
     "event": "L-YTH Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:35 Sunday",
+    "time": "15:38 Sunday",
     "competitors": [
       "Daniault, Alexis",
       "Lachance, Delphine"
@@ -31864,7 +31764,7 @@
     "heat": "Heat 756 [Ballroom A]",
     "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:44 Sunday Later rounds: 7@16:11 Sunday",
+    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Bourdon, Charlize",
@@ -31886,7 +31786,7 @@
     "heat": "Heat 756 [Ballroom B]",
     "event": "G-JV Bronze / Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:44 Sunday Later rounds: 7@16:11 Sunday",
+    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -31896,7 +31796,7 @@
     "heat": "Heat 756 [Ballroom B]",
     "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:44 Sunday Later rounds: 7@16:11 Sunday",
+    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Baranova, Veronica",
@@ -31928,7 +31828,7 @@
     "heat": "Heat 757 [Ballroom A]",
     "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:46 Sunday Later rounds: 7@16:13 Sunday",
+    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Bourdon, Charlize",
@@ -31952,7 +31852,7 @@
     "heat": "Heat 757 [Ballroom B]",
     "event": "G-JV Bronze / Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:46 Sunday Later rounds: 7@16:13 Sunday",
+    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -31962,7 +31862,7 @@
     "heat": "Heat 757 [Ballroom B]",
     "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:46 Sunday Later rounds: 7@16:13 Sunday",
+    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Bielichenko, Vasyl",
@@ -31992,7 +31892,7 @@
     "heat": "Heat 758 [Ballroom A]",
     "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
+    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Bourdon, Charlize",
@@ -32014,7 +31914,7 @@
     "heat": "Heat 758 [Ballroom B]",
     "event": "G-JV Bronze / Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
+    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -32024,7 +31924,7 @@
     "heat": "Heat 758 [Ballroom B]",
     "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
+    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Baranova, Veronica",
@@ -32058,7 +31958,7 @@
     "heat": "Heat 759 [Ballroom A]",
     "event": "A-JR Bronze / Bronze LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
+    "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Cavaliere, Raffaela",
@@ -32078,7 +31978,7 @@
     "heat": "Heat 759 [Ballroom B]",
     "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
+    "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -32088,7 +31988,7 @@
     "heat": "Heat 759 [Ballroom B]",
     "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
+    "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Baranova, Veronica",
@@ -32114,7 +32014,7 @@
     "heat": "Heat 759 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:49 Sunday",
+    "time": "15:52 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -32124,7 +32024,7 @@
     "heat": "Heat 760 [Ballroom A]",
     "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
+    "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
     "competitors": [
       "Ben-Jemaa, Maya",
       "Burganov, Veronica",
@@ -32149,7 +32049,7 @@
     "heat": "Heat 760 [Ballroom B]",
     "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
+    "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary"
@@ -32159,7 +32059,7 @@
     "heat": "Heat 760 [Ballroom B]",
     "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
+    "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Bielichenko, Vasyl",
@@ -32185,7 +32085,7 @@
     "heat": "Heat 761 [Ballroom B]",
     "event": "A-JR Or / Gold LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
+    "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
     "competitors": [
       "Balan, Eva",
       "Broudno, Thais",
@@ -32203,7 +32103,7 @@
     "heat": "Heat 761 [Ballroom A]",
     "event": "A-JV Argent / Silver LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
+    "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Arkin, Diyanat",
@@ -32227,7 +32127,7 @@
     "heat": "Heat 762 [Ballroom B]",
     "event": "A-JR Or / Gold LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:53 Sunday",
+    "time": "15:56 Sunday",
     "competitors": [
       "Balan, Eva",
       "Feshchenko, Mariia",
@@ -32242,7 +32142,7 @@
     "heat": "Heat 762 [Ballroom A]",
     "event": "A-JV Argent / Silver LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
+    "time": "15:56 Sunday Later rounds: 7@16:23 Sunday",
     "competitors": [
       "Arkin, Diyanat",
       "Bronshtein, Evelyn",
@@ -32262,7 +32162,7 @@
     "heat": "Heat 762 [Ballroom B]",
     "event": "A-YTH Ouvert / Open LATIN SOLO Samba",
     "session": "Dimanche / Sunday",
-    "time": "15:53 Sunday",
+    "time": "15:56 Sunday",
     "competitors": [
       "Xu, Yimeng",
       "Zhang, Muqi"
@@ -32272,7 +32172,7 @@
     "heat": "Heat 762 [Ballroom B]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
     "session": "Dimanche / Sunday",
-    "time": "16:20 Sunday",
+    "time": "16:23 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Amiri, Mila",
@@ -32298,7 +32198,7 @@
     "heat": "Heat 763 [Ballroom B]",
     "event": "A-JR Or / Gold LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
+    "time": "15:58 Sunday Later rounds: 7@16:25 Sunday",
     "competitors": [
       "Balan, Eva",
       "Broudno, Thais",
@@ -32316,7 +32216,7 @@
     "heat": "Heat 763 [Ballroom A]",
     "event": "A-JV Argent / Silver LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:55 Sunday Later rounds: 7@16:22 Sunday",
+    "time": "15:58 Sunday Later rounds: 7@16:25 Sunday",
     "competitors": [
       "Allaire, Lea",
       "Arkin, Diyanat",
@@ -32338,7 +32238,7 @@
     "heat": "Heat 764 [Ballroom A]",
     "event": "A-JR Argent / Silver LATIN SOLO Chacha",
     "session": "Dimanche / Sunday",
-    "time": "15:56 Sunday Later rounds: 7@16:23 Sunday",
+    "time": "15:59 Sunday Later rounds: 7@16:26 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Cavaliere, Raffaela",
@@ -32360,7 +32260,7 @@
     "heat": "Heat 764 [Ballroom B]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
     "session": "Dimanche / Sunday",
-    "time": "15:56 Sunday Later rounds: 7@16:23 Sunday",
+    "time": "15:59 Sunday Later rounds: 7@16:26 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Amiri, Mila",
@@ -32390,7 +32290,7 @@
     "heat": "Heat 765 [Ballroom A]",
     "event": "A-19+ Or / Gold LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:58 Sunday",
+    "time": "16:01 Sunday",
     "competitors": [
       "He, Xintian"
     ]
@@ -32399,7 +32299,7 @@
     "heat": "Heat 765 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:58 Sunday",
+    "time": "16:01 Sunday",
     "competitors": [
       "Kwok, Mavis"
     ]
@@ -32408,7 +32308,7 @@
     "heat": "Heat 765 [Ballroom A]",
     "event": "A-YTH Ouvert / Open LATIN SOLO Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:58 Sunday",
+    "time": "16:01 Sunday",
     "competitors": [
       "Zhang, Muqi"
     ]
@@ -32417,7 +32317,7 @@
     "heat": "Heat 765 [Ballroom B]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "15:58 Sunday",
+    "time": "16:01 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Amiri, Mila",
@@ -32443,7 +32343,7 @@
     "heat": "Heat 766 [Ballroom A]",
     "event": "A-JV Or / Gold LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Chen, Mia Baiqiao",
       "Goldshmidt, Michayla",
@@ -32456,7 +32356,7 @@
     "heat": "Heat 766 [Ballroom A]",
     "event": "A-YTH Bronze / Bronze LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Chaves, Arielle",
       "Klopotovska, Yaroslava"
@@ -32466,7 +32366,7 @@
     "heat": "Heat 766 [Ballroom A]",
     "event": "A-YTH Or / Gold LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Kwok, Mavis"
     ]
@@ -32475,7 +32375,7 @@
     "heat": "Heat 766 [Ballroom A]",
     "event": "A-YTH Ouvert / Open LATIN SOLO Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Zhang, Muqi"
     ]
@@ -32484,7 +32384,7 @@
     "heat": "Heat 766 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Ivanov, Pavel",
@@ -32500,7 +32400,7 @@
     "heat": "Heat 766 [Ballroom B]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
     "session": "Dimanche / Sunday",
-    "time": "15:59 Sunday",
+    "time": "16:02 Sunday",
     "competitors": [
       "Chan, Athyn",
       "Doneva, Boyana",
@@ -32516,7 +32416,7 @@
     "heat": "Heat 767 [Ballroom A]",
     "event": "A-19+ Ouvert / Open LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:01 Sunday",
+    "time": "16:04 Sunday",
     "competitors": [
       "Dong, Cathy",
       "Lu, Andrea",
@@ -32527,7 +32427,7 @@
     "heat": "Heat 767 [Ballroom A]",
     "event": "A-JR Argent / Silver LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:01 Sunday",
+    "time": "16:04 Sunday",
     "competitors": [
       "Brodziak, Halle",
       "Fogl, Anne",
@@ -32544,7 +32444,7 @@
     "heat": "Heat 767 [Ballroom B]",
     "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:01 Sunday",
+    "time": "16:04 Sunday",
     "competitors": [
       "Bourov, Stephanie",
       "Bronshtein, Elly",
@@ -32568,7 +32468,7 @@
     "heat": "Heat 767 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:01 Sunday",
+    "time": "16:04 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -32578,7 +32478,7 @@
     "heat": "Heat 768 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:02 Sunday",
+    "time": "16:05 Sunday",
     "competitors": [
       "Bushchyk, Alessiah",
       "Cui, Jiaqi (Ami)",
@@ -32595,7 +32495,7 @@
     "heat": "Heat 768 [Ballroom B]",
     "event": "L-JR Bronze / Bronze LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:02 Sunday",
+    "time": "16:05 Sunday",
     "competitors": [
       "Lama, Sean",
       "Zhou, Vivien"
@@ -32605,7 +32505,7 @@
     "heat": "Heat 768 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:02 Sunday",
+    "time": "16:05 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Ivanov, Pavel",
@@ -32621,7 +32521,7 @@
     "heat": "Heat 769",
     "event": "G-JR Or / Gold LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:25 Sunday",
+    "time": "16:28 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -32631,7 +32531,7 @@
     "heat": "Heat 769",
     "event": "L-19+ Or / Gold LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:25 Sunday",
+    "time": "16:28 Sunday",
     "competitors": [
       "Blouin, Marie-Janne",
       "Laroche, Justin",
@@ -32643,7 +32543,7 @@
     "heat": "Heat 769",
     "event": "L-JR Or / Gold LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:25 Sunday",
+    "time": "16:28 Sunday",
     "competitors": [
       "Broudno, Thais",
       "Ivanov, Pavel",
@@ -32657,7 +32557,7 @@
     "heat": "Heat 769",
     "event": "L-U21 Ouvert / Open LATIN MIXED Rumba",
     "session": "Dimanche / Sunday",
-    "time": "16:25 Sunday",
+    "time": "16:28 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Bielichenko, Vasyl",
@@ -32671,7 +32571,7 @@
     "heat": "Heat 770",
     "event": "L-JR Argent / Silver LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:26 Sunday",
+    "time": "16:29 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Filatov, Arsenii",
@@ -32689,7 +32589,7 @@
     "heat": "Heat 770",
     "event": "L-YTH Ouvert / Open LATIN MIXED Jive",
     "session": "Dimanche / Sunday",
-    "time": "16:26 Sunday",
+    "time": "16:29 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Bielichenko, Vasyl",
@@ -32707,7 +32607,7 @@
     "heat": "Heat 771",
     "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "16:28 Sunday Later rounds: 7@17:40 Sunday 7@18:11 Sunday 7@18:29 Sunday",
+    "time": "16:31 Sunday Later rounds: 7@17:43 Sunday 7@18:14 Sunday 7@18:32 Sunday",
     "competitors": [
       "Al Said, Olivia",
       "Aptekar, Eliana Ann-Marie",
@@ -32772,7 +32672,7 @@
     "heat": "Heat 771 [Ballroom B]",
     "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:11 Sunday",
+    "time": "18:14 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Blouin, Marie-Janne",
@@ -32794,7 +32694,7 @@
     "heat": "Heat 771 [Ballroom B]",
     "event": "L-YTH* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:11 Sunday",
+    "time": "18:14 Sunday",
     "competitors": [
       "Zhang, Helen",
       "Zhelasko, Danny"
@@ -32804,7 +32704,7 @@
     "heat": "Heat 772",
     "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "16:46 Sunday Later rounds: 7@17:49 Sunday 7@18:16 Sunday 7@18:34 Sunday",
+    "time": "16:49 Sunday Later rounds: 7@17:52 Sunday 7@18:19 Sunday 7@18:37 Sunday",
     "competitors": [
       "Abdullayeva, Safiya",
       "Aptekar, Eliana Ann-Marie",
@@ -32853,7 +32753,7 @@
     "heat": "Heat 772 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:16 Sunday",
+    "time": "18:19 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Chen, Kaixin",
@@ -32873,7 +32773,7 @@
     "heat": "Heat 773",
     "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:04 Sunday Later rounds: 7@17:58 Sunday 7@18:25 Sunday",
+    "time": "17:07 Sunday Later rounds: 7@18:01 Sunday 7@18:28 Sunday",
     "competitors": [
       "Kischitzky, Gaya",
       "Movshovich Fil, Zachary",
@@ -32885,7 +32785,7 @@
     "heat": "Heat 773",
     "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:04 Sunday Later rounds: 7@17:58 Sunday 7@18:25 Sunday",
+    "time": "17:07 Sunday Later rounds: 7@18:01 Sunday 7@18:28 Sunday",
     "competitors": [
       "Amiri, Alia",
       "Amiri, Mila",
@@ -32937,7 +32837,7 @@
     "heat": "Heat 774 [Ballroom A]",
     "event": "A-15- D\u00e9butant / Beginner LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:13 Sunday",
+    "time": "17:16 Sunday",
     "competitors": [
       "Saleh, Emma"
     ]
@@ -32946,7 +32846,7 @@
     "heat": "Heat 774 [Ballroom A]",
     "event": "A-16+ Bronze / Bronze LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:13 Sunday",
+    "time": "17:16 Sunday",
     "competitors": [
       "Chaves, Arielle",
       "Klopotovska, Yaroslava",
@@ -32957,7 +32857,7 @@
     "heat": "Heat 774 [Ballroom B]",
     "event": "G-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:13 Sunday Later rounds: 7@18:29 Sunday",
+    "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -32967,12 +32867,11 @@
     "heat": "Heat 774 [Ballroom B]",
     "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:13 Sunday Later rounds: 7@18:29 Sunday",
+    "time": "17:16 Sunday Later rounds: 7@18:32 Sunday",
     "competitors": [
       "Bermingham, Aidan",
       "Chladek, Emmy",
       "Ciobanu, Daniel",
-      "Dombrovski, Alise",
       "Dubuc-Ventura, Alexane",
       "Filatov, Arsenii",
       "Fogl, Anne",
@@ -32987,7 +32886,6 @@
       "Lennox, Sebastian",
       "Li, Hailey",
       "Lin, Vanessa",
-      "Munteanu, Luiza",
       "Petrov, Nathaniel",
       "Regillo, Milania",
       "Rolik, Alexa",
@@ -33001,11 +32899,11 @@
   },
   {
     "heat": "Heat 774 [Ballroom B]",
-    "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+    "event": "L-U21 Ouvert / Open LATIN MIXED Multi 3-D (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:13 Sunday",
+    "time": "17:16 Sunday",
     "competitors": [
-      "Ling Guzman, Julia",
+      "Tsoladikis, Isabella",
       "Zhelasko, Danny"
     ]
   },
@@ -33013,7 +32911,7 @@
     "heat": "Heat 775 [Ballroom A]",
     "event": "A-16+ Argent / Silver LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:17 Sunday",
+    "time": "17:20 Sunday",
     "competitors": [
       "Chaves, Arielle",
       "Klopotovska, Yaroslava",
@@ -33024,7 +32922,7 @@
     "heat": "Heat 775 [Ballroom A]",
     "event": "A-16+ Or / Gold LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:17 Sunday",
+    "time": "17:20 Sunday",
     "competitors": [
       "Hudon, Coralie",
       "Kwok, Mavis",
@@ -33035,7 +32933,7 @@
     "heat": "Heat 775 [Ballroom A]",
     "event": "A-36+ Ouvert / Open LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:17 Sunday",
+    "time": "17:20 Sunday",
     "competitors": [
       "Kwok, Alex",
       "Verba, Iuliia",
@@ -33046,7 +32944,7 @@
     "heat": "Heat 775 [Ballroom A]",
     "event": "A-JR Argent / Silver LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:17 Sunday",
+    "time": "17:20 Sunday",
     "competitors": [
       "Pozdirca, Kyra"
     ]
@@ -33055,7 +32953,7 @@
     "heat": "Heat 775 [Ballroom B]",
     "event": "L-JV Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:17 Sunday",
+    "time": "17:20 Sunday",
     "competitors": [
       "Gagliardi, Blanche",
       "Iakovenko, Maya",
@@ -33071,7 +32969,7 @@
     "heat": "Heat 776",
     "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:22 Sunday Later rounds: 7@18:02 Sunday 7@18:20 Sunday",
+    "time": "17:25 Sunday Later rounds: 7@18:05 Sunday 7@18:23 Sunday",
     "competitors": [
       "Balan, Eva",
       "Belmonte, Olivia",
@@ -33107,7 +33005,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "G-50+ Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:02 Sunday",
+    "time": "18:05 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -33117,7 +33015,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "G-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:20 Sunday Later rounds: 7@18:34 Sunday",
+    "time": "18:23 Sunday Later rounds: 7@18:37 Sunday",
     "competitors": [
       "Chladek, Emmy",
       "Kremer, Tyler"
@@ -33127,7 +33025,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "L-16+ D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:02 Sunday",
+    "time": "18:05 Sunday",
     "competitors": [
       "Ciobanu, Daniel",
       "Dubuc-Ventura, Alexane",
@@ -33139,7 +33037,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "L-19+ Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:02 Sunday",
+    "time": "18:05 Sunday",
     "competitors": [
       "Bohuslavska, Maryna",
       "Lama, Sean",
@@ -33153,7 +33051,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "L-50+ Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:02 Sunday",
+    "time": "18:05 Sunday",
     "competitors": [
       "Wang-Mitchell, Fei",
       "Zhelasko, Danny"
@@ -33163,7 +33061,7 @@
     "heat": "Heat 776 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:20 Sunday Later rounds: 7@18:34 Sunday",
+    "time": "18:23 Sunday Later rounds: 7@18:37 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Bai, Sonia",
@@ -33179,9 +33077,9 @@
       "Lachance, Delphine",
       "Lama, Sean",
       "Li, Yuxin",
+      "Ling Guzman, Julia",
       "Machulka, Nikita",
       "Smedley, Sabrina",
-      "Tsoladikis, Isabella",
       "Zhelasko, Danny"
     ]
   },
@@ -33189,7 +33087,7 @@
     "heat": "Heat 777",
     "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:31 Sunday Later rounds: 7@18:07 Sunday 7@18:25 Sunday",
+    "time": "17:34 Sunday Later rounds: 7@18:10 Sunday 7@18:28 Sunday",
     "competitors": [
       "Balan, Vivienne",
       "Barsky, Eitan",
@@ -33219,7 +33117,7 @@
     "heat": "Heat 777 [Ballroom B]",
     "event": "G-36+ Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:07 Sunday",
+    "time": "18:10 Sunday",
     "competitors": [
       "Edwards, Ian",
       "Harrison, Kaida"
@@ -33229,7 +33127,7 @@
     "heat": "Heat 777 [Ballroom B]",
     "event": "G-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:07 Sunday",
+    "time": "18:10 Sunday",
     "competitors": [
       "Chladek, Emmy",
       "Kremer, Tyler"
@@ -33239,7 +33137,7 @@
     "heat": "Heat 777 [Ballroom B]",
     "event": "L-36+ Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:07 Sunday",
+    "time": "18:10 Sunday",
     "competitors": [
       "Chen, Isabella",
       "Lennox, Sebastian"
@@ -33249,7 +33147,7 @@
     "heat": "Heat 777 [Ballroom B]",
     "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:07 Sunday",
+    "time": "18:10 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -33259,7 +33157,7 @@
     "heat": "Heat 777 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "18:07 Sunday",
+    "time": "18:10 Sunday",
     "competitors": [
       "Bai, Sonia",
       "Bielichenko, Vasyl",
@@ -33277,7 +33175,7 @@
     "heat": "Heat 778 [Ballroom A]",
     "event": "A-16+ Ouvert / Open LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:58 Sunday",
+    "time": "18:01 Sunday",
     "competitors": [
       "Dong, Cathy",
       "Ha, Kelly",
@@ -33294,7 +33192,7 @@
     "heat": "Heat 778 [Ballroom A]",
     "event": "A-JR Or / Gold LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:58 Sunday",
+    "time": "18:01 Sunday",
     "competitors": [
       "Pozdirca, Kyra"
     ]
@@ -33303,7 +33201,7 @@
     "heat": "Heat 778 [Ballroom A]",
     "event": "A-JR Ouvert / Open LATIN SOLO (C/R/S)",
     "session": "Dimanche / Sunday",
-    "time": "17:58 Sunday",
+    "time": "18:01 Sunday",
     "competitors": [
       "Chen, Kaixin"
     ]
@@ -33312,7 +33210,7 @@
     "heat": "Heat 779",
     "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:08 Sunday Later rounds: 7@20:07 Sunday 7@20:43 Sunday 7@21:05 Sunday",
+    "time": "19:11 Sunday Later rounds: 7@20:10 Sunday 7@20:46 Sunday 7@21:08 Sunday",
     "competitors": [
       "Abdullayeva, Safiya",
       "Aptekar, Eliana Ann-Marie",
@@ -33360,7 +33258,7 @@
     "heat": "Heat 779 [Ballroom B]",
     "event": "L-16+ Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:43 Sunday",
+    "time": "20:46 Sunday",
     "competitors": [
       "Babira, Sandu",
       "Cazacu, Tina",
@@ -33378,7 +33276,7 @@
     "heat": "Heat 779 [Ballroom B]",
     "event": "L-16+ D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:43 Sunday",
+    "time": "20:46 Sunday",
     "competitors": [
       "Ciobanu, Daniel",
       "Klopotovska, Yaroslava"
@@ -33388,7 +33286,7 @@
     "heat": "Heat 779 [Ballroom B]",
     "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "21:05 Sunday",
+    "time": "21:08 Sunday",
     "competitors": [
       "Lama, Sean",
       "Saleh, Milia"
@@ -33398,9 +33296,9 @@
     "heat": "Heat 779 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:43 Sunday",
+    "time": "20:46 Sunday",
     "competitors": [
-      "Tsoladikis, Isabella",
+      "Ling Guzman, Julia",
       "Zhelasko, Danny"
     ]
   },
@@ -33408,12 +33306,12 @@
     "heat": "Heat 779 [Ballroom B]",
     "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "21:05 Sunday",
+    "time": "21:08 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Borovinskaya, Mariya",
       "Raskin, Nicole",
-      "Tkachenko, Yelizaveta",
+      "Tsoladikis, Isabella",
       "Zaharia, Daniel",
       "Zhelasko, Danny"
     ]
@@ -33422,7 +33320,7 @@
     "heat": "Heat 780 [Ballroom A]",
     "event": "A-YTH Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:38 Sunday",
+    "time": "19:41 Sunday",
     "competitors": [
       "Dolgovsky, Kamilla",
       "Hudon, Coralie",
@@ -33437,7 +33335,7 @@
     "heat": "Heat 780 [Ballroom B]",
     "event": "L-JR Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:38 Sunday",
+    "time": "19:41 Sunday",
     "competitors": [
       "Chen, Kaixin",
       "Ciobanu, Daniel",
@@ -33457,7 +33355,7 @@
     "heat": "Heat 781",
     "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:46 Sunday Later rounds: 7@20:29 Sunday",
+    "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
     "competitors": [
       "Doneva, Boyana",
       "Kischitzky, Gaya",
@@ -33471,7 +33369,7 @@
     "heat": "Heat 781",
     "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:46 Sunday Later rounds: 7@20:29 Sunday",
+    "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
     "competitors": [
       "Azbel, Adam",
       "Baranova, Veronica",
@@ -33503,7 +33401,7 @@
     "heat": "Heat 782",
     "event": "G-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
+    "time": "19:52 Sunday Later rounds: 7@20:35 Sunday",
     "competitors": [
       "Kolesnik, Gregory",
       "Stefanov, Catherine"
@@ -33513,12 +33411,11 @@
     "heat": "Heat 782",
     "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
+    "time": "19:52 Sunday Later rounds: 7@20:35 Sunday",
     "competitors": [
       "Bermingham, Aidan",
       "Chladek, Emmy",
       "Ciobanu, Daniel",
-      "Dombrovski, Alise",
       "Filatov, Arsenii",
       "Fogl, Anne",
       "Ilyushenov, Andrey",
@@ -33530,7 +33427,6 @@
       "Leclair, Sofia",
       "Li, Hailey",
       "Lin, Vanessa",
-      "Munteanu, Luiza",
       "Perchenok, Valeria",
       "Petrov, Nathaniel",
       "Regillo, Milania",
@@ -33547,7 +33443,7 @@
     "heat": "Heat 783",
     "event": "A-JR Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "19:52 Sunday Later rounds: 7@20:35 Sunday 7@20:58 Sunday",
+    "time": "19:55 Sunday Later rounds: 7@20:38 Sunday 7@21:01 Sunday",
     "competitors": [
       "Balan, Vivienne",
       "Barsky, Eitan",
@@ -33588,7 +33484,7 @@
     "heat": "Heat 783 [Ballroom B]",
     "event": "L-YTH Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:35 Sunday Later rounds: 7@20:58 Sunday",
+    "time": "20:38 Sunday Later rounds: 7@21:01 Sunday",
     "competitors": [
       "Anastasova, Sofiia",
       "Babira, Sandu",
@@ -33612,7 +33508,7 @@
     "heat": "Heat 784 [Ballroom A]",
     "event": "A-U21 Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:22 Sunday",
+    "time": "20:25 Sunday",
     "competitors": [
       "Dolgovsky, Kamilla",
       "Li, Yuxin",
@@ -33624,7 +33520,7 @@
     "heat": "Heat 784 [Ballroom B]",
     "event": "L-JV Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:22 Sunday",
+    "time": "20:25 Sunday",
     "competitors": [
       "Aptekar, Eliana Ann-Marie",
       "Ciobanu, Gabriel",
@@ -33646,7 +33542,7 @@
     "heat": "Heat 785 [Ballroom A]",
     "event": "A-16+ Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:50 Sunday",
+    "time": "20:53 Sunday",
     "competitors": [
       "Dolgovsky, Kamilla",
       "Dong, Cathy",
@@ -33663,7 +33559,7 @@
     "heat": "Heat 785 [Ballroom B]",
     "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
     "session": "Dimanche / Sunday",
-    "time": "20:50 Sunday",
+    "time": "20:53 Sunday",
     "competitors": [
       "Bielichenko, Vasyl",
       "Bohuslavska, Maryna",
@@ -33673,9 +33569,9 @@
       "Hiukwan Lee, Eugene",
       "Lama, Sean",
       "Lennox, Sebastian",
-      "Ling Guzman, Julia",
       "Petrov, Nathaniel",
       "Ramanauskaite-S., Dovil\u00e9",
+      "Tkachenko, Yelizaveta",
       "Vrakina, Karina",
       "Zaharia, Daniel",
       "Zhelasko, Danny"

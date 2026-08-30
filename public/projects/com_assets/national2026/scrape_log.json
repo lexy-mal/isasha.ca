@@ -13181,5 +13181,824 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-30T10:00:04.652286+00:00",
+    "participants": {
+      "oldCount": 961,
+      "newCount": 954,
+      "added": [],
+      "removed": [
+        {
+          "name": "Beattie, Kay",
+          "entries": [
+            {
+              "heat": "Heat 495",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Foxtrot",
+              "partner": "Tudorovsky, Veycheslav"
+            },
+            {
+              "heat": "Heat 494",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Tango",
+              "partner": "Tudorovsky, Veycheslav"
+            },
+            {
+              "heat": "Heat 493",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+              "partner": "Tudorovsky, Veycheslav"
+            }
+          ]
+        },
+        {
+          "name": "Fortier, Diane",
+          "entries": [
+            {
+              "heat": "Heat 649",
+              "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Losier, Marc-Andr\u00e9"
+            },
+            {
+              "heat": "Heat 650",
+              "event": "AC-AD4 Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Losier, Marc-Andr\u00e9"
+            }
+          ]
+        },
+        {
+          "name": "Kyrylenko, Kateryna",
+          "entries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Voloshko, Andrii"
+            }
+          ]
+        },
+        {
+          "name": "Loewe, Thomas Jay",
+          "entries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Nirvana, Nirvana"
+            }
+          ]
+        },
+        {
+          "name": "Losier, Marc-Andr\u00e9",
+          "entries": [
+            {
+              "heat": "Heat 649",
+              "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Fortier, Diane"
+            },
+            {
+              "heat": "Heat 650",
+              "event": "AC-AD4 Argent/Silver AMATEUR LATIN (C/R/S)",
+              "partner": "Fortier, Diane"
+            }
+          ]
+        },
+        {
+          "name": "Nirvana, Nirvana",
+          "entries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Loewe, Thomas Jay"
+            }
+          ]
+        },
+        {
+          "name": "Voloshko, Andrii",
+          "entries": [
+            {
+              "heat": "Heat 654",
+              "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+              "partner": "Kyrylenko, Kateryna"
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Benson, Marty",
+          "oldEntryCount": 119,
+          "newEntryCount": 118,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 619",
+              "event": "G-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Safonova, Alina"
+            }
+          ]
+        },
+        {
+          "name": "Bourdon, Charlize",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Daniault, Alexis"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Dombrovski, Alise"
+            }
+          ]
+        },
+        {
+          "name": "Cucos, Arina",
+          "oldEntryCount": 9,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Fylymonchyk, Yaroslav"
+            }
+          ]
+        },
+        {
+          "name": "Daniault, Alexis",
+          "oldEntryCount": 14,
+          "newEntryCount": 17,
+          "addedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 741 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "Heat 747 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "Heat 746 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Samba",
+              "partner": "Lachance, Delphine"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
+              "partner": "Lachance, Delphine"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Samba",
+              "partner": "Lachance, Delphine"
+            }
+          ]
+        },
+        {
+          "name": "Davidov, Elizabeth",
+          "oldEntryCount": 3,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 664",
+              "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Tsydinskyi, Mykyta"
+            }
+          ]
+        },
+        {
+          "name": "Dombrovski, Alise",
+          "oldEntryCount": 17,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 782",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+              "partner": "Munteanu, Luiza"
+            },
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Munteanu, Luiza"
+            },
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Bourdon, Charlize"
+            },
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
+              "partner": "Munteanu, Luiza"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Munteanu, Luiza"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Rumba",
+              "partner": "Munteanu, Luiza"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Samba",
+              "partner": "Munteanu, Luiza"
+            }
+          ]
+        },
+        {
+          "name": "Fylymonchyk, Yaroslav",
+          "oldEntryCount": 9,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Cucos, Arina"
+            }
+          ]
+        },
+        {
+          "name": "Gontcharov, Ivan",
+          "oldEntryCount": 11,
+          "newEntryCount": 10,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Selivanov, Julianna"
+            }
+          ]
+        },
+        {
+          "name": "Gurkov, Dmytro",
+          "oldEntryCount": 48,
+          "newEntryCount": 46,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 476",
+              "event": "L-B Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Pavlichenko, Mila"
+            },
+            {
+              "heat": "Heat 542",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Pavlichenko, Mila"
+            }
+          ]
+        },
+        {
+          "name": "Kwietniewska, Laura",
+          "oldEntryCount": 5,
+          "newEntryCount": 4,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Platkov, Oleksandr"
+            }
+          ]
+        },
+        {
+          "name": "Lachance, Delphine",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 741 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 747 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 746 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Samba",
+              "partner": "Daniault, Alexis"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-U21 Argent / Silver LATIN MIXED Samba",
+              "partner": "Daniault, Alexis"
+            }
+          ]
+        },
+        {
+          "name": "Ling Guzman, Julia",
+          "oldEntryCount": 23,
+          "newEntryCount": 23,
+          "addedEntries": [
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "Heat 776 [Ballroom B]",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 785 [Ballroom B]",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Munteanu, Luiza",
+          "oldEntryCount": 13,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 782",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 734 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Paso Doble",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 736 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Rumba",
+              "partner": "Dombrovski, Alise"
+            },
+            {
+              "heat": "Heat 735 [Ballroom B]",
+              "event": "L-JV Or / Gold LATIN MIXED Samba",
+              "partner": "Dombrovski, Alise"
+            }
+          ]
+        },
+        {
+          "name": "Pavlichenko, Mila",
+          "oldEntryCount": 9,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 476",
+              "event": "L-B Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Gurkov, Dmytro"
+            },
+            {
+              "heat": "Heat 542",
+              "event": "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+              "partner": "Gurkov, Dmytro"
+            }
+          ]
+        },
+        {
+          "name": "Platkov, Oleksandr",
+          "oldEntryCount": 5,
+          "newEntryCount": 4,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 675 [Ballroom B]",
+              "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Kwietniewska, Laura"
+            }
+          ]
+        },
+        {
+          "name": "Safonova, Alina",
+          "oldEntryCount": 119,
+          "newEntryCount": 118,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 619",
+              "event": "G-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+              "partner": "Benson, Marty"
+            }
+          ]
+        },
+        {
+          "name": "Selivanov, Julianna",
+          "oldEntryCount": 15,
+          "newEntryCount": 14,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 676",
+              "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+              "partner": "Gontcharov, Ivan"
+            }
+          ]
+        },
+        {
+          "name": "Tkachenko, Yelizaveta",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 785 [Ballroom B]",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Tsoladikis, Isabella",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Multi 3-D (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny"
+            },
+            {
+              "heat": "Heat 776 [Ballroom B]",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Zhelasko, Danny"
+            }
+          ]
+        },
+        {
+          "name": "Tsydinskyi, Mykyta",
+          "oldEntryCount": 3,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 664",
+              "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Davidov, Elizabeth"
+            }
+          ]
+        },
+        {
+          "name": "Tudorovsky, Veycheslav",
+          "oldEntryCount": 282,
+          "newEntryCount": 279,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 495",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Foxtrot",
+              "partner": "Beattie, Kay"
+            },
+            {
+              "heat": "Heat 494",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Tango",
+              "partner": "Beattie, Kay"
+            },
+            {
+              "heat": "Heat 493",
+              "event": "L-H Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+              "partner": "Beattie, Kay"
+            }
+          ]
+        },
+        {
+          "name": "Zhelasko, Danny",
+          "oldEntryCount": 46,
+          "newEntryCount": 46,
+          "addedEntries": [
+            {
+              "heat": "Heat 785 [Ballroom B]",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED Multi 3-D (C/R/S)",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "Heat 776 [Ballroom B]",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Ling Guzman, Julia"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 785 [Ballroom B]",
+              "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+              "partner": "Tsoladikis, Isabella"
+            },
+            {
+              "heat": "Heat 779 [Ballroom B]",
+              "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+              "partner": "Tkachenko, Yelizaveta"
+            },
+            {
+              "heat": "Heat 774 [Ballroom B]",
+              "event": "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Ling Guzman, Julia"
+            },
+            {
+              "heat": "Heat 776 [Ballroom B]",
+              "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Tsoladikis, Isabella"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2691,
+      "newCount": 2683,
+      "oldUniqueCount": 2689,
+      "newUniqueCount": 2681,
+      "added": [
+        "L-U21 Ouvert / Open LATIN MIXED Multi 3-D (C/R/S)"
+      ],
+      "removed": [
+        "AC-AD4 Argent/Silver AMATEUR LATIN (C/R/S)",
+        "G-C Argent 1 Ouvert / Open Silver 1 SMOOTH Foxtrot",
+        "L-B Or Ouvert / Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+        "L-B Or Ouvert Avanc\u00e9 / Advanced Open Gold SMOOTH Valse Viennoise/Viennese Waltz",
+        "L-H Or Ouvert / Open Gold SMOOTH Foxtrot",
+        "L-H Or Ouvert / Open Gold SMOOTH Tango",
+        "L-H Or Ouvert / Open Gold SMOOTH Valse/Waltz",
+        "L-JV Or / Gold LATIN MIXED Paso Doble",
+        "L-U21* Ouvert / Open LATIN MIXED 3-Dance (C/R/S)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "AC-15- Pr\u00e9-Champ/Pre-Champ AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Cucos, Arina",
+            "Fylymonchyk, Yaroslav",
+            "Kwietniewska, Laura",
+            "Platkov, Oleksandr"
+          ]
+        },
+        {
+          "event": "AC-AD3 Argent/Silver AMATEUR LATIN (C/R/S)",
+          "added": [],
+          "removed": [
+            "Fortier, Diane",
+            "Losier, Marc-Andr\u00e9"
+          ]
+        },
+        {
+          "event": "AC-JV Or/Gold AMATEUR BALLROOM (F/VW)",
+          "added": [],
+          "removed": [
+            "Gontcharov, Ivan",
+            "Selivanov, Julianna"
+          ]
+        },
+        {
+          "event": "AC-U21 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [],
+          "removed": [
+            "Davidov, Elizabeth",
+            "Tsydinskyi, Mykyta"
+          ]
+        },
+        {
+          "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Munteanu, Luiza"
+          ]
+        },
+        {
+          "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 3-Dance (C/R/S)",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Munteanu, Luiza"
+          ]
+        },
+        {
+          "event": "L-16+ Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Tkachenko, Yelizaveta"
+          ],
+          "removed": [
+            "Ling Guzman, Julia"
+          ]
+        },
+        {
+          "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JR Bronze / Bronze LATIN MIXED Rumba",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JR Bronze / Bronze LATIN MIXED Samba",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JV Or / Gold LATIN MIXED Cha Cha",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Munteanu, Luiza"
+          ]
+        },
+        {
+          "event": "L-JV Or / Gold LATIN MIXED Rumba",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Munteanu, Luiza"
+          ]
+        },
+        {
+          "event": "L-JV Or / Gold LATIN MIXED Samba",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Munteanu, Luiza"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED 5-Dance (C/S/R/P/J)",
+          "added": [
+            "Ling Guzman, Julia"
+          ],
+          "removed": [
+            "Tsoladikis, Isabella"
+          ]
+        },
+        {
+          "event": "L-U21 Ouvert / Open LATIN MIXED NATIONAL (C/S/R/P/J)",
+          "added": [
+            "Tsoladikis, Isabella"
+          ],
+          "removed": [
+            "Tkachenko, Yelizaveta"
+          ]
+        },
+        {
+          "event": "L-YTH Ouvert / Open LATIN MIXED 3-Dance (C/R/S)",
+          "added": [
+            "Ling Guzman, Julia"
+          ],
+          "removed": [
+            "Tsoladikis, Isabella"
+          ]
+        },
+        {
+          "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Kyrylenko, Kateryna",
+            "Loewe, Thomas Jay",
+            "Nirvana, Nirvana",
+            "Voloshko, Andrii"
+          ]
+        }
+      ]
+    }
   }
 ]
