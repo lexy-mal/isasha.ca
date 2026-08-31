@@ -2635,6 +2635,13 @@
                 setInterval(updateDetailCountdown, 1000);
                 // Call immediately on first load
                 updateDetailCountdown();
+
+                // Deep-link support: ?search=Name jumps straight to that
+                // competitor (used by results.html's leaderboard links).
+                const deepLinkSearch = new URLSearchParams(window.location.search).get('search');
+                if (deepLinkSearch) {
+                    searchAndSelect(deepLinkSearch, 'deep_link');
+                }
             } catch (error) {
                 console.error('Data loading error:', error);
                 const errorMsg = error.message || 'Unknown error';
@@ -4126,7 +4133,12 @@
                 const res = await fetch('com_assets/version.json');
                 if (!res.ok) throw new Error(String(res.status));
                 const v = await res.json();
-                el.textContent = `v${v.build}${v.commit && v.commit !== 'local' ? ' · ' + v.commit : ''}`;
+                let stamp = '';
+                if (v.updatedAt) {
+                    const d = new Date(v.updatedAt);
+                    if (!isNaN(d)) stamp = ' · ' + d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+                }
+                el.textContent = `v${v.build}${v.commit && v.commit !== 'local' ? ' · ' + v.commit : ''}${stamp}`;
             } catch (e) {
                 el.textContent = 'v?';
             }

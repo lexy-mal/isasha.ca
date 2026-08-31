@@ -232,6 +232,9 @@
             color: var(--accent);
         }
         .name-link:hover { text-decoration: underline; }
+        .leaderboard-table tr.lb-highlight td {
+            background: var(--accent-dim);
+        }
 
         .empty-state {
             text-align: center;
@@ -270,7 +273,14 @@
         </div>
 
         <div id="tab-leaderboard" class="tab-content active">
-            <div class="loading" id="leaderboardLoading">Loading results…</div>
+            <div class="search-box" id="lbSearchBox" style="display:none;">
+                <input type="text" id="lbSearch" placeholder="Search competitor…" autocomplete="off"
+                    oninput="onLbSearch(this.value)" onfocus="onLbSearch(this.value)">
+                <div class="search-dropdown" id="lbDropdown"></div>
+            </div>
+            <div id="leaderboardContent">
+                <div class="loading" id="leaderboardLoading">Loading results…</div>
+            </div>
         </div>
 
         <div id="tab-headtohead" class="tab-content">
@@ -313,7 +323,10 @@
             document.getElementById('h2hSearch').value = '';
             document.getElementById('h2hDropdown').classList.remove('open');
             renderChips();
-            document.getElementById('tab-leaderboard').innerHTML = '<div class="loading" id="leaderboardLoading">Loading results…</div>';
+            document.getElementById('lbSearchBox').style.display = 'none';
+            document.getElementById('lbSearch').value = '';
+            document.getElementById('lbDropdown').classList.remove('open');
+            document.getElementById('leaderboardContent').innerHTML = '<div class="loading" id="leaderboardLoading">Loading results…</div>';
             document.getElementById('h2hTable').innerHTML = '<div class="empty-state">Add two or more competitors above to compare.</div>';
 
             try {
@@ -336,13 +349,14 @@
 
                 if (sortedNames.length === 0) {
                     const msg = `<div class="empty-state">No results available yet for ${compName}.</div>`;
-                    document.getElementById('tab-leaderboard').innerHTML = msg;
+                    document.getElementById('leaderboardContent').innerHTML = msg;
                     return;
                 }
 
+                document.getElementById('lbSearchBox').style.display = '';
                 buildLeaderboard();
             } catch (e) {
-                document.getElementById('tab-leaderboard').innerHTML =
+                document.getElementById('leaderboardContent').innerHTML =
                     `<div class="empty-state">Error loading results: ${e.message}</div>`;
             }
         }
@@ -418,7 +432,7 @@
                 <tbody>
             `;
             rows.forEach((r, i) => {
-                html += `<tr>
+                html += `<tr data-name="${r.name.replace(/"/g, '&quot;')}">
                     <td class="rank-col">${i+1}</td>
                     <td><span class="name-link" onclick="goToDancePage('${r.name}')">${formatName(r.name)}</span></td>
                     <td style="text-align:center;color:var(--gold);font-weight:600;">${r.gold || '–'}</td>
@@ -430,7 +444,35 @@
             });
             html += `</tbody></table>`;
 
-            document.getElementById('tab-leaderboard').innerHTML = html;
+            document.getElementById('leaderboardContent').innerHTML = html;
+            onLbSearch(document.getElementById('lbSearch').value);
+        }
+
+        // Typing highlights + scrolls to matches in place (rank/context stays
+        // visible); picking a dropdown result jumps straight to that
+        // competitor's page, like the head-to-head search box does.
+        function onLbSearch(query) {
+            const q = query.trim().toLowerCase();
+            const rowsEls = document.querySelectorAll('#leaderboardContent tr[data-name]');
+            let firstMatch = null;
+            rowsEls.forEach(tr => {
+                const name = tr.getAttribute('data-name');
+                const isMatch = !!q && (name.toLowerCase().includes(q) || formatName(name).toLowerCase().includes(q));
+                tr.classList.toggle('lb-highlight', isMatch);
+                if (isMatch && !firstMatch) firstMatch = tr;
+            });
+            if (firstMatch) firstMatch.scrollIntoView({ block: 'center', behavior: 'smooth' });
+
+            const dd = document.getElementById('lbDropdown');
+            if (!q) { dd.classList.remove('open'); return; }
+            const matches = sortedNames
+                .filter(n => n.toLowerCase().includes(q) || formatName(n).toLowerCase().includes(q))
+                .slice(0, 20);
+            if (!matches.length) { dd.classList.remove('open'); return; }
+            dd.innerHTML = matches.map(n =>
+                `<div class="search-result-item" onclick="goToDancePage('${n}')">${formatName(n)}</div>`
+            ).join('');
+            dd.classList.add('open');
         }
 
         function sortLeaderboard(rows, col, asc) {
@@ -567,6 +609,7 @@
         document.addEventListener('click', e => {
             if (!e.target.closest('.search-box')) {
                 document.getElementById('h2hDropdown').classList.remove('open');
+                document.getElementById('lbDropdown').classList.remove('open');
             }
         });
 
