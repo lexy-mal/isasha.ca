@@ -1,6 +1,18 @@
 #!/usr/bin/env python3
 """
-Flexible Competition Results Scraper
+Flexible Competition Results Scraper  ***SUPERSEDED — see scrape_results_dat.py***
+
+DO NOT USE THIS TO SCRAPE RESULTS. It is retained because scrape_results_dat.py
+reuses its index/judge/save helpers, and for reference.
+
+Why: CompMngr renders a single-dance heat heading and a dance sub-heading with the
+same <strong><em> markup, so this parser cannot tell them apart and silently folds
+single-dance heats into the previous heat as if they were dances. That dropped ~80%
+of heats (National 2026: 473 of 2,683; Imperial Cup: 494 of 1,278) with no error.
+It also needs one CGI request per competitor (~956) instead of 2.
+
+See SCORESHEET_PARSING.md for the full write-up.
+
 Fetches scoresheet data from configurable competition URLs.
 
 Usage:
