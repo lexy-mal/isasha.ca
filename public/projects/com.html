@@ -29,6 +29,9 @@
             --text-secondary: #a0a0a0;
             --accent: #00d9ff;
             --accent-dim: #0099cc;
+            --gold: #ffd700;
+            --silver: #c0c0c0;
+            --bronze: #cd7f32;
         }
 
         html {
@@ -251,6 +254,11 @@
             text-transform: uppercase;
             letter-spacing: 0.1em;
             color: var(--text-secondary);
+        }
+
+        .stats-grid-results {
+            grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+            margin-top: 16px;
         }
 
         .events-list {
@@ -1825,6 +1833,26 @@
             return entry ? entry.placement : null;
         }
 
+        // Gold/silver/bronze/finals/semis counts for a person, or null when
+        // no results exist for them yet (competition not scraped, or no
+        // person_results.json at all) so the detail page renders unaffected.
+        function getPersonResultStats(name) {
+            const entries = personResultsData[name] || [];
+            if (!entries.length) return null;
+
+            let gold = 0, silver = 0, bronze = 0, finals = 0, semis = 0;
+            for (const e of entries) {
+                const p = parseInt(e.placement);
+                if (p === 1) gold++;
+                else if (p === 2) silver++;
+                else if (p === 3) bronze++;
+
+                if (!isNaN(p) || e.reachedRound === 'Final') finals++;
+                else if (e.reachedRound === 'Semi-final') semis++;
+            }
+            return { gold, silver, bronze, finals, semis };
+        }
+
         // Format placement as medal emoji + ordinal
         function formatPlacement(placement) {
             if (!placement) return '';
@@ -2788,6 +2816,7 @@
             });
 
             const nextHeat = getNextHeatForPerson(data);
+            const resultStats = getPersonResultStats(name);
 
             let html = `
                 <div id="desktopCountdown" class="participant-countdown-bar"></div>
@@ -2811,6 +2840,29 @@
                             <div class="stat-label">Competitors</div>
                         </div>
                     </div>
+                    ${resultStats ? `
+                    <div class="stats-grid stats-grid-results">
+                        <div class="stat-box">
+                            <div class="stat-value" style="color:var(--gold);">${resultStats.gold || '–'}</div>
+                            <div class="stat-label">🥇 Gold</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" style="color:var(--silver);">${resultStats.silver || '–'}</div>
+                            <div class="stat-label">🥈 Silver</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value" style="color:var(--bronze);">${resultStats.bronze || '–'}</div>
+                            <div class="stat-label">🥉 Bronze</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${resultStats.finals || '–'}</div>
+                            <div class="stat-label">Finals</div>
+                        </div>
+                        <div class="stat-box">
+                            <div class="stat-value">${resultStats.semis || '–'}</div>
+                            <div class="stat-label">Semis</div>
+                        </div>
+                    </div>` : ''}
                 </div>
             `;
 
