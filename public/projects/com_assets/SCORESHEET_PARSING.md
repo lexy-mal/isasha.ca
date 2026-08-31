@@ -4,7 +4,7 @@ Hard-won notes about how CompMngr publishes results, and the traps that cost us 
 silently-wrong dataset. Read this before touching `scrape_results_dat.py` or writing
 a scraper for a new competition.
 
-Written 2026-08-30 after National 2026.
+Written 2026-08-30 after National 2026. Traps 3–4 added 2026-08-31.
 
 ---
 
@@ -173,6 +173,100 @@ divergence, not a bug — don't "fix" it with fuzzy matching.
 
 ---
 
+## Trap 3 — the schedule qualifies heats with a room, the scoresheets don't
+
+Found 2026-08-31, after National 2026 shipped.
+
+When two ballrooms run at once, `participants.json` and `heat_events.json` write the
+room into the heat string:
+
+```
+participants.json / heat_events.json    "Heat 669 [Ballroom B]"
+results.json / person_results.json      "Heat 669"
+```
+
+The scoresheets have no notion of a room, so they never carry the suffix. Any exact
+string join between the two families therefore fails for every heat that ran in a
+named room, and — because the render path treats "no matching row" the same as "no
+result published" — it fails **silently, as a missing badge**.
+
+Scale on National 2026: 2,361 of 12,113 scheduled entries carry a room suffix,
+hiding **1,732 placements**, and leaving **159 competitors showing no results at all**
+despite having them in `person_results.json`. Imperial Cup only had 50 such entries
+(46 placements), which is why it looked fine and the bug survived a full release.
+
+**The suffix is real data — don't strip it at the source.** The same heat number
+appears with different rooms as genuinely different entries (`Heat 667 [Ballroom A]`
+and `Heat 667 [Ballroom B]` are separate rows in `heat_events.json`), and the schedule
+join in the UI relies on it. Normalize at the *lookup boundary* instead:
+
+```js
+// com.html
+function normalizeHeat(heat) {
+    return (heat || '').replace(/\s*\[[^\]]*\]\s*$/, '').trim();
+}
+```
+
+Applied in `findPersonResult`, `buildHeatRanking`, and `buildJudgeBreakdown` — every
+place a schedule-side heat is used to look into `results.json` or
+`person_results.json`. `heat_events.json` lookups stay exact, because both sides carry
+the suffix there.
+
+This is safe only because `(heat-without-room, event)` is still unique: checked on
+both competitions, zero collisions. Re-check that if a new competition is added.
+
+---
+
+## Trap 4 — an entry can have per-dance marks but no overall placement
+
+209 National and 103 Imperial Cup `person_results` entries have a populated
+`dancePlacements` with an empty `placement` and no `reachedRound`. These are mostly
+open pro-am multi-dance heats where the scoresheet ranks each dance but publishes no
+combined result.
+
+They are not missing data, so they must not render blank.
+
+Note the dance keys are not always clean: entries parsed from events whose name ends in
+a dance list (`... LATIN Challenge Cup (C/J)`) can pick up a `(` key. `formatDanceMarks`
+drops non-letter keys.
+
+---
+
+## The badge fallback ladder
+
+`buildPlacementBadge()` owns this for all five badge sites — don't reimplement the
+ternary inline again. Most specific first:
+
+| Source | Shown as | Style |
+|---|---|---|
+| `placement` | `🥈 2nd` | filled pill, medal-coloured for 1–3, accent otherwise |
+| else `reachedRound` | `Semi-finalist` | solid muted pill |
+| else `dancePlacements` | `C 5 · R 4` | solid muted pill |
+| else heat ran, person absent | `Not on scoresheet` | dashed ghost pill |
+| else heat ran, no scoresheet | `No results posted` | dashed ghost pill |
+| else heat has not been danced | *(nothing)* | — |
+
+The last two exist because a blank badge is ambiguous — it reads as "no result" when
+the real answer is either "the competition never posted one" or "it posted one and
+this dancer isn't on it" (a scratch, or a formation/team entry the scoresheet lists as
+a single unit rather than per dancer). The tooltip carries the detail, including how
+many entries the heat actually ranked.
+
+**The `isEventCompleted(eventTime)` guard is load-bearing.** Without it, every
+not-yet-danced heat would claim its results were missing during a live competition.
+Every call site must keep passing the event time. A heat with no known time renders
+nothing rather than guessing.
+
+After this ladder, National 2026 and Imperial Cup 2026 both render a badge for
+**every** scheduled entry — zero blanks. Distribution:
+
+| | Placed | Round | Dance marks | Not on scoresheet | No results posted |
+|---|---|---|---|---|---|
+| National 2026 | 9,808 | 1,096 | 198 | 515 | 496 |
+| Imperial Cup 2026 | 2,918 | 28 | 101 | 117 | 80 |
+
+---
+
 ## How to sanity-check a results scrape
 
 Run these before committing. All numbers below are National 2026's.
@@ -188,5 +282,14 @@ Run these before committing. All numbers below are National 2026's.
    should be a handful (13), not hundreds. 508 means name resolution collapsed to raw
    `Lead/Follow` strings.
 5. **Judges** — `judges.json` count should match the roster on the `.htm` (34).
+6. **Room-suffix join** — no heat key in `results.json` or `person_results.json` may
+   contain a `[`. If one does, the scraper has started copying the schedule's room
+   suffix and the two families have diverged in a new way.
+7. **Results join** — share of `participants.json` entries that match a
+   `person_results` row on the room-normalized `heat|event`. Expect ~96% (National:
+   11,617 of 12,113; Imperial Cup 97.5%). A drop toward ~78% means Trap 3 regressed.
+
+Checks 6 and 7 are automated in `validate_competition_data.py`
+(`validate_results_join`), which skips them when the results files aren't scraped yet.
 
 A run that reports no errors proves nothing; both traps were silent.
