@@ -1852,14 +1852,17 @@
             return entry ? entry.placement : null;
         }
 
-        // Gold/silver/bronze/finals/semis counts for a person, or null when
-        // no results exist for them yet (competition not scraped, or no
+        // Gold/silver/bronze/finals/semis/recalls counts for a person, or null
+        // when no results exist for them yet (competition not scraped, or no
         // person_results.json at all) so the detail page renders unaffected.
+        // "Recalls" = total number of times they were advanced to the next
+        // round (rounds.length - 1 per event, summed) -- not the number of
+        // events with a recall, but every individual advancement.
         function getPersonResultStats(name) {
             const entries = personResultsData[name] || [];
             if (!entries.length) return null;
 
-            let gold = 0, silver = 0, bronze = 0, finals = 0, semis = 0;
+            let gold = 0, silver = 0, bronze = 0, finals = 0, semis = 0, recalls = 0;
             for (const e of entries) {
                 const p = parseInt(e.placement);
                 if (p === 1) gold++;
@@ -1868,8 +1871,10 @@
 
                 if (!isNaN(p) || e.reachedRound === 'Final') finals++;
                 else if (e.reachedRound === 'Semi-final') semis++;
+
+                if (e.rounds && e.rounds.length > 1) recalls += e.rounds.length - 1;
             }
-            return { gold, silver, bronze, finals, semis };
+            return { gold, silver, bronze, finals, semis, recalls };
         }
 
         // Same categorization as getPersonResultStats, but for one heat|event —
@@ -1879,6 +1884,7 @@
         function getResultCategories(personName, heatNum, eventName) {
             const placement = parseInt(getPersonPlacement(personName, heatNum, eventName));
             const reachedRound = getPersonReachedRound(personName, heatNum, eventName);
+            const rounds = getPersonRoundProgression(personName, heatNum, eventName);
 
             const cats = [];
             if (placement === 1) cats.push('gold');
@@ -1887,6 +1893,8 @@
 
             if (!isNaN(placement) || reachedRound === 'Final') cats.push('final');
             else if (reachedRound === 'Semi-final') cats.push('semi');
+
+            if (rounds && rounds.length > 1) cats.push('recall');
 
             return cats;
         }
@@ -2920,6 +2928,10 @@
                             <div class="stat-value">${resultStats.semis || '–'}</div>
                             <div class="stat-label">Semis</div>
                         </div>
+                        <div class="stat-box" onclick="toggleResultFilter(this, 'recall')">
+                            <div class="stat-value">${resultStats.recalls || '–'}</div>
+                            <div class="stat-label">Recalls</div>
+                        </div>
                     </div>
                     <div class="result-filter-status"></div>` : ''}
                 </div>
@@ -3406,7 +3418,7 @@
             }
         }
 
-        const RESULT_FILTER_LABELS = { gold: '🥇 Gold', silver: '🥈 Silver', bronze: '🥉 Bronze', final: 'Finals', semi: 'Semis' };
+        const RESULT_FILTER_LABELS = { gold: '🥇 Gold', silver: '🥈 Silver', bronze: '🥉 Bronze', final: 'Finals', semi: 'Semis', recall: 'Recalls' };
 
         // Tap a gold/silver/bronze/finals/semis stat box to show only matching
         // events below; tap the same box again to clear the filter.
