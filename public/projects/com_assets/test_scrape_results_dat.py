@@ -157,6 +157,24 @@ class TestRounds(unittest.TestCase):
         self.assertEqual(entry["placement"], "")
         self.assertEqual(entry["reachedRound"], "Semi-final")
 
+    def test_eliminated_competitor_rounds_progression(self):
+        people = build_person_results(build(), NUMBER_MAP, PERSONS)
+        entry = [e for e in people["Ng, Kim"] if e["heat"] == "Heat 20"][0]
+        self.assertEqual(entry["rounds"], ["Semi-final"])
+
+    def test_finalist_rounds_progression_includes_every_round_danced(self):
+        # Celino/Choque danced the semi (recalled) then won the final.
+        people = build_person_results(build(), NUMBER_MAP, PERSONS)
+        entry = [e for e in people["Celino, Valerie"] if e["heat"] == "Heat 20"][0]
+        self.assertEqual(entry["rounds"], ["Semi-final", "Final"])
+
+    def test_single_round_heat_has_no_rounds_field(self):
+        # Heat 1 never recalled anyone -- nothing to show, so the field is omitted
+        # entirely rather than shipping a noisy single-element list everywhere.
+        people = build_person_results(build(), NUMBER_MAP, PERSONS)
+        entry = [e for e in people["Tierney, Ann"] if e["heat"] == "Heat 1"][0]
+        self.assertNotIn("rounds", entry)
+
 
 class TestJudgeColumns(unittest.TestCase):
     def test_skating_columns_are_not_judges(self):

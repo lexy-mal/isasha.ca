@@ -55,6 +55,21 @@ def _surname(name):
     return name.split(',')[0].strip().lower()
 
 
+def round_progression(heat, pid):
+    """Chronological (earliest -> latest) list of round labels a person actually
+    danced in this heat, e.g. ['Quarter-final', 'Semi-final', 'Final']. Empty for
+    single-round heats, where there is no recall history to show.
+
+    heat['rounds'] is decisive-round-first (Final, then Semi-final, then
+    Quarter-final -- see merge_records), so reverse it to get dance order.
+    """
+    rounds = heat.get('rounds') or []
+    if len(rounds) < 2:
+        return []
+    chronological = list(reversed(rounds))
+    return [rnd['round'] or 'Final' for rnd in chronological if pid in rnd['personIds']]
+
+
 def build_person_results(results, number_map, persons):
     """Invert results.json to person_results.json.
 
@@ -64,6 +79,7 @@ def build_person_results(results, number_map, persons):
     string instead of a real name; the id list closes that gap.
     """
     by_id = {p['id']: _clean(p['fullName']) for p in persons}
+    id_by_name = {name: pid for pid, name in by_id.items()}
     person_results = defaultdict(list)
     placed = set()
 
@@ -108,7 +124,12 @@ def build_person_results(results, number_map, persons):
                 resolved = [row['names']]
 
             for name in resolved:
-                person_results[name].append(entry)
+                person_entry = dict(entry)
+                pid = id_by_name.get(name)
+                prog = round_progression(heat, pid) if pid else []
+                if prog:
+                    person_entry['rounds'] = prog
+                person_results[name].append(person_entry)
                 placed.add((name, heat['heat'], heat['event']))
 
     # Competitors knocked out in an earlier round never appear in a final summary, so
@@ -123,9 +144,9 @@ def build_person_results(results, number_map, persons):
             rank = ROUND_RANK.get(rnd['round'], 9)
             for pid in rnd['personIds']:
                 name = by_id.get(pid)
-                if name and rank < furthest.get(name, (99, ''))[0]:
-                    furthest[name] = (rank, rnd['round'] or 'Final')
-        for name, (_, round_name) in furthest.items():
+                if name and rank < furthest.get(name, (99, '', ''))[0]:
+                    furthest[name] = (rank, rnd['round'] or 'Final', pid)
+        for name, (_, round_name, pid) in furthest.items():
             if (name, heat['heat'], heat['event']) in placed:
                 continue
             person_results[name].append({
@@ -133,6 +154,7 @@ def build_person_results(results, number_map, persons):
                 'event': heat['event'],
                 'placement': '',
                 'reachedRound': round_name,
+                'rounds': round_progression(heat, pid),
                 'number': '',
                 'names': name,
                 'dancePlacements': {},

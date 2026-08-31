@@ -1910,6 +1910,26 @@
             return entry.reachedRound || null;
         }
 
+        // Chronological (earliest -> latest) round labels a person actually danced
+        // in this heat, e.g. ['Quarter-final', 'Semi-final', 'Final'] — empty/null
+        // for single-round heats, where there's no recall history to show.
+        function getPersonRoundProgression(personName, heatNum, eventName) {
+            const entry = findPersonResult(personName, heatNum, eventName);
+            return (entry && entry.rounds && entry.rounds.length) ? entry.rounds : null;
+        }
+
+        const ROUND_ABBR = { 'First Round': 'R1', 'Quarter-final': 'QF', 'Semi-final': 'SF', 'Final': 'F' };
+
+        // "QF → SF → F" for a finalist, "QF → SF (eliminated)" for someone cut
+        // before the final — the round they were cut at is the last one listed.
+        function formatRoundProgression(rounds) {
+            if (!rounds || !rounds.length) return '';
+            const trail = rounds.map(r => ROUND_ABBR[r] || r).join(' → ');
+            const last = rounds[rounds.length - 1];
+            const suffix = last === 'Final' ? '' : ' (eliminated)';
+            return `${trail}${suffix}`;
+        }
+
         // Some heats award no overall placement but the scoresheet still ranks each
         // dance individually. Surface those marks so the entry isn't rendered blank.
         function getPersonDanceMarks(personName, heatNum, eventName) {
@@ -3217,6 +3237,7 @@
 
                 html += `<div class="event-item collapsed${completedClass}${upcomingClass}" id="${eventId}" data-heat="${heatAttr}" data-event="${eventAttr}" data-competitors="${opponentNamesAttr}" data-event-time="${info.time.replace(/"/g, '&quot;')}" data-result="${resultAttr}" onclick="toggleEvent(this)">`;
                 const placementBadge = buildPlacementBadge(name, info.heat, info.event, 'inline', info.time);
+                const roundsDisplay = formatRoundProgression(getPersonRoundProgression(name, info.heat, info.event));
                 html += `
                     <div class="event-title">
                         <span class="event-title-meta">
@@ -3265,6 +3286,11 @@
                         <div class="meta-label">Competitors</div>
                         <div class="meta-value">${competitors.length} total</div>
                     </div>
+                    ${roundsDisplay ? `
+                    <div class="meta-field">
+                        <div class="meta-label">Rounds</div>
+                        <div class="meta-value">${roundsDisplay}</div>
+                    </div>` : ''}
                 `;
                 html += buildHeatRanking(info.heat, info.event);
                 html += buildJudgeBreakdown(info.heat, info.event, name);

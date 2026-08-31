@@ -5197,7 +5197,10 @@
         "R": "1",
         "P": "1",
         "J": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 68",
@@ -6656,7 +6659,10 @@
         "R": "2",
         "P": "2",
         "J": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 67",
@@ -6684,7 +6690,10 @@
         "R": "1",
         "P": "1",
         "J": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 77",
@@ -7420,7 +7429,10 @@
         "R": "1",
         "P": "1",
         "J": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 70",
@@ -8029,6 +8041,9 @@
       "event": "L-E Pro-Am Open Scholarship",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Studenny, Kamil",
       "dancePlacements": {}
@@ -8294,6 +8309,9 @@
       "event": "L-E Pro-Am Open Scholarship",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Miller, Linda",
       "dancePlacements": {}
@@ -8644,7 +8662,10 @@
         "R": "1",
         "P": "1",
         "J": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 68",
@@ -9129,6 +9150,9 @@
       "event": "L-F Imperial Cup Pro-Am Championships",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Sabir, Mohtar",
       "dancePlacements": {}
@@ -9252,6 +9276,9 @@
       "event": "L-F Imperial Cup Pro-Am Championships",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Yeung, Marian",
       "dancePlacements": {}
@@ -9728,7 +9755,10 @@
         "R": "2",
         "P": "2",
         "J": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 174",
@@ -17120,6 +17150,9 @@
       "event": "L-12+ Pre-Competitive Single Assisted Novice 1 LATIN (C/R/S)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Smithson, Jake",
       "dancePlacements": {}
@@ -17727,6 +17760,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Nor-Arevian, Arsene",
       "dancePlacements": {}
@@ -18475,7 +18511,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -18485,7 +18524,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -18495,7 +18537,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -18505,7 +18550,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -18515,7 +18563,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -18525,7 +18576,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 303",
@@ -20142,7 +20196,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 287",
@@ -20152,7 +20209,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -20162,7 +20222,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -20172,7 +20235,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -20182,7 +20248,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -20192,7 +20261,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -20202,7 +20274,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20212,7 +20287,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20222,7 +20300,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20232,7 +20313,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20242,7 +20326,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20252,7 +20339,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 296",
@@ -20262,7 +20352,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 296",
@@ -20272,7 +20365,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 296",
@@ -20282,7 +20378,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 301",
@@ -20292,7 +20391,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 301",
@@ -20302,7 +20404,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 301",
@@ -20312,7 +20417,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 301",
@@ -20322,7 +20430,10 @@
       "names": "Sychov/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 313",
@@ -20426,7 +20537,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20436,7 +20550,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20446,7 +20563,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20456,7 +20576,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20466,7 +20589,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 296",
@@ -20640,7 +20766,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20650,7 +20779,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20660,7 +20792,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20670,7 +20805,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -20680,7 +20818,10 @@
       "names": "Sharipov/Fedortsov",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 296",
@@ -20854,6 +20995,9 @@
       "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 BALLROOM (W/T/Q)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Sciberras, Emilia",
       "dancePlacements": {}
@@ -20863,6 +21007,9 @@
       "event": "A-12+ Pre-Competitive Solo Indv. Novice 1 LATIN (C/R/S)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Sciberras, Emilia",
       "dancePlacements": {}
@@ -20960,7 +21107,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 290",
@@ -20970,7 +21120,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 290",
@@ -20980,7 +21133,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 289",
@@ -21030,7 +21186,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21040,7 +21199,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21050,7 +21212,10 @@
       "names": "Brooks/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 302",
@@ -21310,7 +21475,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -21320,7 +21488,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -21330,7 +21501,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -21340,7 +21514,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 291",
@@ -21350,7 +21527,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -21360,7 +21540,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -21370,7 +21553,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -21380,7 +21566,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -21390,7 +21579,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21400,7 +21592,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21410,7 +21605,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21420,7 +21618,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21430,7 +21631,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21440,7 +21644,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 300",
@@ -21450,7 +21657,10 @@
       "names": "Koszti/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 301",
@@ -21660,6 +21870,9 @@
       "event": "A-7-11 Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Airapetian, Eva",
       "dancePlacements": {}
@@ -21669,6 +21882,9 @@
       "event": "A-7-11 Pre-Competitive Solo Indv. N-4 (W/T/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Airapetian, Eva",
       "dancePlacements": {}
@@ -21743,7 +21959,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21753,7 +21972,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21763,7 +21985,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 302",
@@ -21920,7 +22145,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21930,7 +22158,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 298",
@@ -21940,7 +22171,10 @@
       "names": "Mass/Shvaitser",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 302",
@@ -22178,6 +22412,9 @@
       "event": "A-12+ Pre-Competitive Solo Indv. N-3 LA (C/R/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Kahraman, Mia",
       "dancePlacements": {}
@@ -22242,7 +22479,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22252,7 +22492,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22262,7 +22505,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22272,7 +22518,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22282,7 +22531,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 306",
@@ -22399,7 +22651,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22409,7 +22664,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22419,7 +22677,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22429,7 +22690,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
@@ -22439,7 +22703,10 @@
       "names": "Pelleriti/Bronshtein",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 306",
@@ -23063,7 +23330,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -23073,7 +23343,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -23083,7 +23356,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -23093,7 +23369,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -23103,7 +23382,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -23113,7 +23395,10 @@
       "names": "Veshchikova/Chan",
       "dancePlacements": {
         "(": "1"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 297",
@@ -23401,7 +23686,10 @@
       "names": "Sheng/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 302",
@@ -23411,7 +23699,10 @@
       "names": "Sheng/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 302",
@@ -23421,7 +23712,10 @@
       "names": "Sheng/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 314",
@@ -23549,6 +23843,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-6A (W/T/Q/S/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Muzychka, Jessica",
       "dancePlacements": {}
@@ -23558,6 +23855,9 @@
       "event": "A-7-11 Pre-Competitive Solo Indv. N-6A (W/T/Q/S/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Muzychka, Jessica",
       "dancePlacements": {}
@@ -23937,6 +24237,9 @@
       "event": "L-12+ Pre-Competitive Single Assisted Novice 1 LATIN (C/R/S)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Jagielnik, Malwina",
       "dancePlacements": {}
@@ -24197,6 +24500,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Reabaia, Daniela",
       "dancePlacements": {}
@@ -24211,7 +24517,10 @@
       "names": "Vilgan/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -24221,7 +24530,10 @@
       "names": "Vilgan/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 294",
@@ -24231,7 +24543,10 @@
       "names": "Vilgan/",
       "dancePlacements": {
         "(": "2"
-      }
+      },
+      "rounds": [
+        "Final"
+      ]
     },
     {
       "heat": "Heat 314",
@@ -24268,6 +24583,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-1 Cha Cha (C)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Vilgan, Alessandra",
       "dancePlacements": {}
@@ -24383,6 +24701,9 @@
       "event": "AC-7-11 Pre-Competitive Couple N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Prosveer, Leon",
       "dancePlacements": {}
@@ -24576,13 +24897,20 @@
       "dancePlacements": {
         "C": "2",
         "J": "3"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     },
     {
       "heat": "Heat 293",
       "event": "AC-7-11 Pre-Competitive Couple N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Malashenko, Alexandra",
       "dancePlacements": {}
@@ -24816,6 +25144,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Petrov, Nathaniel",
       "dancePlacements": {}
@@ -24890,6 +25221,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Lysenko, Mariia",
       "dancePlacements": {}
@@ -25556,6 +25890,9 @@
       "event": "L-7-11 Pre-Competitive Single Assisted N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Platkov, Oleksandr",
       "dancePlacements": {}
@@ -25608,6 +25945,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-1 Cha Cha (C)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Rudenko, Elizabeth",
       "dancePlacements": {}
@@ -25617,6 +25957,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-2 LA (C/S/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Rudenko, Elizabeth",
       "dancePlacements": {}
@@ -25650,6 +25993,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-1 Waltz (W)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -25659,6 +26005,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-1 Cha Cha (C)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -25668,6 +26017,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-5A (W/Q/S/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -25677,6 +26029,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-5B (W/Q/R/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -25686,6 +26041,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-3 (W/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -25695,6 +26053,9 @@
       "event": "A-6U Pre-Competitive Solo Indv. N-4 (W/Q/C/J)",
       "placement": "",
       "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
       "number": "",
       "names": "Mirchevsky, Nika",
       "dancePlacements": {}
@@ -27704,7 +28065,11 @@
       "dancePlacements": {
         "C": "1",
         "J": "1"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Pidvirnyi, Zakhar": [
@@ -32638,7 +33003,11 @@
       "dancePlacements": {
         "C": "7",
         "J": "7"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Aptekar, Eliana": [
@@ -33792,7 +34161,11 @@
       "dancePlacements": {
         "C": "5",
         "J": "5"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Tarsky, Sarah": [
@@ -34210,6 +34583,9 @@
       "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
       "number": "",
       "names": "Abdullayeva, Safiya",
       "dancePlacements": {}
@@ -35666,7 +36042,11 @@
       "dancePlacements": {
         "C": "4",
         "J": "4"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Broudno, Thais": [
@@ -36050,7 +36430,11 @@
       "dancePlacements": {
         "C": "3",
         "J": "2"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Faynblynm, Naomi": [
@@ -36290,6 +36674,9 @@
       "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
       "number": "",
       "names": "Movshovich Fil, Isabella",
       "dancePlacements": {}
@@ -36454,7 +36841,11 @@
       "dancePlacements": {
         "C": "6",
         "J": "6"
-      }
+      },
+      "rounds": [
+        "Semi-final",
+        "Final"
+      ]
     }
   ],
   "Yang, Amirah": [
@@ -36566,6 +36957,9 @@
       "event": "A-11U Solo Indv. Open DISNEY Challenge LATIN (C/J)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
       "number": "",
       "names": "Yang, Amirah",
       "dancePlacements": {}
