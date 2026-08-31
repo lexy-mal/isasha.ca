@@ -662,14 +662,6 @@
         "awards": "11:56 Sunday"
       },
       {
-        "heat": "Heat 700 [Ballroom B]",
-        "event": "A-JV Argent / Silver BALLROOM SOLO Waltz",
-        "time": "09:57 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null,
-        "awards": "11:56 Sunday"
-      },
-      {
         "heat": "Heat 701 [Ballroom B]",
         "event": "A-JV Argent / Silver BALLROOM SOLO Tango",
         "time": "09:59 Sunday",
@@ -4317,14 +4309,6 @@
   },
   "Balan, Ella": {
     "entries": [
-      {
-        "heat": "Heat 697 [Ballroom B]",
-        "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
-        "time": "09:53 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null,
-        "awards": "11:56 Sunday"
-      },
       {
         "heat": "Heat 700 [Ballroom B]",
         "event": "A-JV Argent / Silver BALLROOM SOLO Waltz",
@@ -8894,14 +8878,6 @@
         "awards": "18:41 Sunday"
       },
       {
-        "heat": "Heat 750 [Ballroom B]",
-        "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
-        "time": "15:44 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Frick, Sacha",
-        "awards": "18:41 Sunday"
-      },
-      {
         "heat": "Heat 737 [Ballroom B]",
         "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
         "time": "16:13 Sunday",
@@ -12850,14 +12826,6 @@
         "awards": "09:16 Sunday"
       },
       {
-        "heat": "Heat 671 [Ballroom B]",
-        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Morin-Diotte, Logan",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 728 [Ballroom B]",
         "event": "AC-JR D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
         "time": "12:50 Sunday",
@@ -14703,14 +14671,6 @@
         "time": "10:41 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Yan, Ria",
-        "awards": "11:56 Sunday"
-      },
-      {
-        "heat": "Heat 715 [Ballroom B]",
-        "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
-        "time": "10:54 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Tsysar, Sofia",
         "awards": "11:56 Sunday"
       },
       {
@@ -18818,6 +18778,30 @@
         "awards": "18:41 Sunday"
       },
       {
+        "heat": "Heat 756 [Ballroom B]",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+        "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Talbot, Lou",
+        "awards": "18:41 Sunday"
+      },
+      {
+        "heat": "Heat 757 [Ballroom B]",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+        "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Talbot, Lou",
+        "awards": "18:41 Sunday"
+      },
+      {
+        "heat": "Heat 758 [Ballroom B]",
+        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+        "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Talbot, Lou",
+        "awards": "18:41 Sunday"
+      },
+      {
         "heat": "Heat 734 [Ballroom B]",
         "event": "L-JR Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "16:07 Sunday",
@@ -18847,6 +18831,14 @@
         "time": "16:11 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Lachance, Delphine",
+        "awards": "18:41 Sunday"
+      },
+      {
+        "heat": "Heat 773",
+        "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+        "time": "17:07 Sunday Later rounds: 7@18:01 Sunday 7@18:28 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Talbot, Lou",
         "awards": "18:41 Sunday"
       },
       {
@@ -20834,68 +20826,12 @@
   "Dombrovski, Alise": {
     "entries": [
       {
-        "heat": "Heat 756 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-        "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 757 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-        "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 758 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
-        "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 759 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
-        "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 760 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
-        "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
         "heat": "Heat 737 [Ballroom B]",
         "event": "L-JV Or / Gold LATIN MIXED Jive",
         "time": "16:13 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Munteanu, Luiza",
         "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 773",
-        "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-        "time": "17:07 Sunday Later rounds: 7@18:01 Sunday 7@18:28 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 781",
-        "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
-        "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Talbot, Lou",
-        "awards": "21:16 Sunday"
       }
     ]
   },
@@ -20926,6 +20862,22 @@
         "awards": "18:41 Sunday"
       },
       {
+        "heat": "Heat 759 [Ballroom B]",
+        "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
+        "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Labelle-Parenteau, William",
+        "awards": "18:41 Sunday"
+      },
+      {
+        "heat": "Heat 760 [Ballroom B]",
+        "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
+        "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Labelle-Parenteau, William",
+        "awards": "18:41 Sunday"
+      },
+      {
         "heat": "Heat 766 [Ballroom B]",
         "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
         "time": "16:02 Sunday",
@@ -20948,14 +20900,6 @@
         "session": "Dimanche / Sunday",
         "partner": "Langlois, Anabelle",
         "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 781",
-        "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
-        "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Labelle-Parenteau, William",
-        "awards": "21:16 Sunday"
       }
     ]
   },
@@ -25873,14 +25817,6 @@
         "heat": "Heat 736 [Ballroom B]",
         "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
         "time": "15:43 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Blanchet, L\u00e9a",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 750 [Ballroom B]",
-        "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
-        "time": "15:44 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Blanchet, L\u00e9a",
         "awards": "18:41 Sunday"
@@ -37554,14 +37490,6 @@
         "awards": "22:10 Friday"
       },
       {
-        "heat": "Heat 674 [Ballroom B]",
-        "event": "AC-JR2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "08:39 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Tretiak, Viacheslav",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 732 [Ballroom B]",
         "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "14:08 Sunday",
@@ -40982,12 +40910,20 @@
         "awards": "18:41 Sunday"
       },
       {
-        "heat": "Heat 781",
-        "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
-        "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
+        "heat": "Heat 759 [Ballroom B]",
+        "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
+        "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
         "session": "Dimanche / Sunday",
         "partner": "Doneva, Boyana",
-        "awards": "21:16 Sunday"
+        "awards": "18:41 Sunday"
+      },
+      {
+        "heat": "Heat 760 [Ballroom B]",
+        "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
+        "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
+        "session": "Dimanche / Sunday",
+        "partner": "Doneva, Boyana",
+        "awards": "18:41 Sunday"
       }
     ]
   },
@@ -53830,14 +53766,6 @@
         "awards": "09:16 Sunday"
       },
       {
-        "heat": "Heat 671 [Ballroom A]",
-        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Pavlenko, Arya",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 675 [Ballroom A]",
         "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "08:29 Sunday",
@@ -58026,14 +57954,6 @@
         "awards": "09:16 Sunday"
       },
       {
-        "heat": "Heat 671 [Ballroom B]",
-        "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "B\u00e9rub\u00e9, Tatiana",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 728 [Ballroom B]",
         "event": "AC-JR D\u00e9butant/Beginner AMATEUR LATIN (C/R)",
         "time": "12:50 Sunday",
@@ -58977,14 +58897,6 @@
   },
   "Murzin, Nicole": {
     "entries": [
-      {
-        "heat": "Heat 668",
-        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
-        "time": "07:43 Sunday Later rounds: 7@08:14 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Popov, Daniel",
-        "awards": "09:16 Sunday"
-      },
       {
         "heat": "Heat 673 [Ballroom A]",
         "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
@@ -64174,14 +64086,6 @@
         "awards": "09:16 Sunday"
       },
       {
-        "heat": "Heat 671 [Ballroom A]",
-        "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
-        "time": "08:01 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Malashenko, Andr\u00e9",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 675 [Ballroom A]",
         "event": "AC-JV1 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
         "time": "08:29 Sunday",
@@ -69049,14 +68953,6 @@
   },
   "Popov, Daniel": {
     "entries": [
-      {
-        "heat": "Heat 668",
-        "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
-        "time": "07:43 Sunday Later rounds: 7@08:14 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Murzin, Nicole",
-        "awards": "09:16 Sunday"
-      },
       {
         "heat": "Heat 673 [Ballroom A]",
         "event": "AC-JV Or/Gold AMATEUR BALLROOM (W/T/Q)",
@@ -76165,14 +76061,6 @@
         "heat": "Heat 688",
         "event": "A-JV Bronze / Bronze BALLROOM SOLO Viennese Waltz",
         "time": "09:39 Sunday Later rounds: 7@10:20 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null,
-        "awards": "11:56 Sunday"
-      },
-      {
-        "heat": "Heat 689",
-        "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
-        "time": "09:41 Sunday Later rounds: 7@10:21 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null,
         "awards": "11:56 Sunday"
@@ -86218,7 +86106,7 @@
         "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
         "time": "15:47 Sunday Later rounds: 7@16:14 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
+        "partner": "Daniault, Alexis",
         "awards": "18:41 Sunday"
       },
       {
@@ -86226,7 +86114,7 @@
         "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
         "time": "15:49 Sunday Later rounds: 7@16:16 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
+        "partner": "Daniault, Alexis",
         "awards": "18:41 Sunday"
       },
       {
@@ -86234,23 +86122,7 @@
         "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
         "time": "15:50 Sunday Later rounds: 7@16:17 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 759 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
-        "time": "15:52 Sunday Later rounds: 7@16:19 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
-        "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 760 [Ballroom B]",
-        "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
-        "time": "15:53 Sunday Later rounds: 7@16:20 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
+        "partner": "Daniault, Alexis",
         "awards": "18:41 Sunday"
       },
       {
@@ -86266,16 +86138,8 @@
         "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
         "time": "17:07 Sunday Later rounds: 7@18:01 Sunday 7@18:28 Sunday",
         "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
+        "partner": "Daniault, Alexis",
         "awards": "18:41 Sunday"
-      },
-      {
-        "heat": "Heat 781",
-        "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
-        "time": "19:49 Sunday Later rounds: 7@20:32 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Dombrovski, Alise",
-        "awards": "21:16 Sunday"
       }
     ]
   },
@@ -89174,14 +89038,6 @@
         "awards": "22:10 Friday"
       },
       {
-        "heat": "Heat 674 [Ballroom B]",
-        "event": "AC-JR2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-        "time": "08:39 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Kischitzky, Gaya",
-        "awards": "09:16 Sunday"
-      },
-      {
         "heat": "Heat 732 [Ballroom B]",
         "event": "AC-JR2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
         "time": "14:08 Sunday",
@@ -89884,14 +89740,6 @@
         "session": "Dimanche / Sunday",
         "partner": "Chan, Athyn",
         "awards": "11:56 Sunday"
-      },
-      {
-        "heat": "Heat 715 [Ballroom B]",
-        "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
-        "time": "10:54 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": "Chan, Athyn",
-        "awards": "11:56 Sunday"
       }
     ]
   },
@@ -89917,14 +89765,6 @@
         "heat": "Heat 698 [Ballroom B]",
         "event": "A-JR Or / Gold BALLROOM SOLO Foxtrot",
         "time": "09:54 Sunday",
-        "session": "Dimanche / Sunday",
-        "partner": null,
-        "awards": "11:56 Sunday"
-      },
-      {
-        "heat": "Heat 699 [Ballroom B]",
-        "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
-        "time": "09:56 Sunday",
         "session": "Dimanche / Sunday",
         "partner": null,
         "awards": "11:56 Sunday"

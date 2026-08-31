@@ -167999,5 +167999,615 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-08-31T10:00:07.157749+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Allaire, Lea",
+          "oldEntryCount": 8,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 700 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Waltz",
+              "partner": null,
+              "awards": "11:56 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Balan, Ella",
+          "oldEntryCount": 15,
+          "newEntryCount": 14,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 697 [Ballroom B]",
+              "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
+              "partner": null,
+              "awards": "11:56 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Blanchet, L\u00e9a",
+          "oldEntryCount": 6,
+          "newEntryCount": 5,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
+              "partner": "Frick, Sacha",
+              "awards": "18:41 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "B\u00e9rub\u00e9, Tatiana",
+          "oldEntryCount": 3,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Morin-Diotte, Logan",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Chan, Athyn",
+          "oldEntryCount": 41,
+          "newEntryCount": 40,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 715 [Ballroom B]",
+              "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Tsysar, Sofia",
+              "awards": "11:56 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Daniault, Alexis",
+          "oldEntryCount": 17,
+          "newEntryCount": 21,
+          "addedEntries": [
+            {
+              "heat": "Heat 773",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 756 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 758 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 757 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Dombrovski, Alise",
+          "oldEntryCount": 8,
+          "newEntryCount": 1,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 781",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+              "partner": "Talbot, Lou",
+              "awards": "21:16 Sunday"
+            },
+            {
+              "heat": "Heat 773",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 756 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 760 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 759 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 758 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 757 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Talbot, Lou",
+              "awards": "18:41 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Doneva, Boyana",
+          "oldEntryCount": 7,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "Heat 760 [Ballroom B]",
+              "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "Labelle-Parenteau, William",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 759 [Ballroom B]",
+              "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
+              "partner": "Labelle-Parenteau, William",
+              "awards": "18:41 Sunday"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 781",
+              "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+              "partner": "Labelle-Parenteau, William",
+              "awards": "21:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Frick, Sacha",
+          "oldEntryCount": 6,
+          "newEntryCount": 5,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 750 [Ballroom B]",
+              "event": "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble",
+              "partner": "Blanchet, L\u00e9a",
+              "awards": "18:41 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Kischitzky, Gaya",
+          "oldEntryCount": 15,
+          "newEntryCount": 14,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 674 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Tretiak, Viacheslav",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Labelle-Parenteau, William",
+          "oldEntryCount": 8,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "Heat 760 [Ballroom B]",
+              "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "Doneva, Boyana",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 759 [Ballroom B]",
+              "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
+              "partner": "Doneva, Boyana",
+              "awards": "18:41 Sunday"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 781",
+              "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+              "partner": "Doneva, Boyana",
+              "awards": "21:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Malashenko, Andr\u00e9",
+          "oldEntryCount": 5,
+          "newEntryCount": 4,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 671 [Ballroom A]",
+              "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Pavlenko, Arya",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Morin-Diotte, Logan",
+          "oldEntryCount": 3,
+          "newEntryCount": 2,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 671 [Ballroom B]",
+              "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "B\u00e9rub\u00e9, Tatiana",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Murzin, Nicole",
+          "oldEntryCount": 8,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 668",
+              "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Popov, Daniel",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Pavlenko, Arya",
+          "oldEntryCount": 12,
+          "newEntryCount": 11,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 671 [Ballroom A]",
+              "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Malashenko, Andr\u00e9",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Popov, Daniel",
+          "oldEntryCount": 8,
+          "newEntryCount": 7,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 668",
+              "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+              "partner": "Murzin, Nicole",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Sanchez, Karol",
+          "oldEntryCount": 18,
+          "newEntryCount": 17,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 689",
+              "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
+              "partner": null,
+              "awards": "11:56 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Talbot, Lou",
+          "oldEntryCount": 13,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "Heat 773",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Daniault, Alexis",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 756 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Daniault, Alexis",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 758 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Daniault, Alexis",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 757 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Daniault, Alexis",
+              "awards": "18:41 Sunday"
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 781",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+              "partner": "Dombrovski, Alise",
+              "awards": "21:16 Sunday"
+            },
+            {
+              "heat": "Heat 773",
+              "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 756 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 760 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 759 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 758 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            },
+            {
+              "heat": "Heat 757 [Ballroom B]",
+              "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+              "partner": "Dombrovski, Alise",
+              "awards": "18:41 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Tretiak, Viacheslav",
+          "oldEntryCount": 10,
+          "newEntryCount": 9,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 674 [Ballroom B]",
+              "event": "AC-JR2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+              "partner": "Kischitzky, Gaya",
+              "awards": "09:16 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Tsysar, Sofia",
+          "oldEntryCount": 9,
+          "newEntryCount": 8,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 715 [Ballroom B]",
+              "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+              "partner": "Chan, Athyn",
+              "awards": "11:56 Sunday"
+            }
+          ]
+        },
+        {
+          "name": "Tsytsarin, Camilla",
+          "oldEntryCount": 21,
+          "newEntryCount": 20,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 699 [Ballroom B]",
+              "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
+              "partner": null,
+              "awards": "11:56 Sunday"
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 2683,
+      "newCount": 2682,
+      "oldUniqueCount": 2681,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [
+        "L-JR Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Paso Doble"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-JR Or / Gold BALLROOM SOLO Quickstep",
+          "added": [],
+          "removed": [
+            "Tsytsarin, Camilla"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver BALLROOM SOLO Viennese Waltz",
+          "added": [],
+          "removed": [
+            "Balan, Ella"
+          ]
+        },
+        {
+          "event": "A-JV Argent / Silver BALLROOM SOLO Waltz",
+          "added": [],
+          "removed": [
+            "Allaire, Lea"
+          ]
+        },
+        {
+          "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
+          "added": [],
+          "removed": [
+            "Sanchez, Karol"
+          ]
+        },
+        {
+          "event": "AC-15- Argent & Or/Silver & Gold AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Murzin, Nicole",
+            "Popov, Daniel"
+          ]
+        },
+        {
+          "event": "AC-JR Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "B\u00e9rub\u00e9, Tatiana",
+            "Morin-Diotte, Logan"
+          ]
+        },
+        {
+          "event": "AC-JR2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+          "added": [],
+          "removed": [
+            "Kischitzky, Gaya",
+            "Tretiak, Viacheslav"
+          ]
+        },
+        {
+          "event": "AC-JV Pr\u00e9-Bronze/Pre-Bronze AMATEUR BALLROOM (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Malashenko, Andr\u00e9",
+            "Pavlenko, Arya"
+          ]
+        },
+        {
+          "event": "G-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+          "added": [],
+          "removed": [
+            "Doneva, Boyana",
+            "Labelle-Parenteau, William"
+          ]
+        },
+        {
+          "event": "G-JV Bronze / Bronze LATIN MIXED Jive",
+          "added": [
+            "Doneva, Boyana",
+            "Labelle-Parenteau, William"
+          ],
+          "removed": []
+        },
+        {
+          "event": "G-JV Bronze / Bronze LATIN MIXED Paso Doble",
+          "added": [
+            "Doneva, Boyana",
+            "Labelle-Parenteau, William"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Talbot, Lou"
+          ]
+        },
+        {
+          "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JR Ouvert / Open BALLROOM MIXED 3-Dance (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Chan, Athyn",
+            "Tsysar, Sofia"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Talbot, Lou"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
+          "added": [],
+          "removed": [
+            "Dombrovski, Alise",
+            "Talbot, Lou"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        },
+        {
+          "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+          "added": [
+            "Daniault, Alexis"
+          ],
+          "removed": [
+            "Dombrovski, Alise"
+          ]
+        }
+      ]
+    }
   }
 ]
