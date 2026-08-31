@@ -759,20 +759,16 @@ class TestValidateAll:
         # Should show warnings in output
         assert "Participant 'alice' has no entries" in captured.out or "WARNINGS" in captured.out
 
-    def test_validate_all_return_value_is_always_none_KNOWN_BUG(self, validator_with_mock):
+    def test_validate_all_propagates_exit_code(self, validator_with_mock):
         """
-        KNOWN BUG: validate_all() does not return report_results()'s return value.
+        validate_all() must return report_results()'s value so main() can
+        sys.exit() on it.
 
-        Currently, validate_all() calls self.report_results() as a bare statement
-        instead of 'return self.report_results()', so it always implicitly returns None.
-        This means exit_code = validator.validate_all() will always be None even when
-        errors were found, which causes main() to sys.exit(None) → exit 0 regardless
-        of validation result.
-
-        This test documents this bug. If someone fixes it (returns the value),
-        the test will fail — that's expected and fine, the test should then be
-        updated. This documents it so a "fix" doesn't slip in as an unintended
-        side effect.
+        This was previously a documented bug: validate_all() called
+        report_results() as a bare statement, so it always returned None and
+        main() did sys.exit(None) -> exit 0 regardless of the result. Fixed
+        2026-08-31 alongside the results-join checks, which are pointless if the
+        validator can never fail the process.
         """
         validator = validator_with_mock(
             participants={},
@@ -781,17 +777,19 @@ class TestValidateAll:
         # Force an error to exist
         validator.errors.append("Intentional test error")
 
-        # validate_all() should return None (the bug)
         result = validator.validate_all()
 
-        assert result is None, (
-            "validate_all() returned a non-None value. "
-            "This is a fix to the known bug where validate_all() didn't return "
-            "report_results(). If this is intentional, the test should be updated."
+        assert result == 1, (
+            "validate_all() must return 1 when errors were found, so that "
+            "main() exits non-zero."
         )
-
-        # But internally, the error should exist
         assert len(validator.errors) > 0
+
+    def test_validate_all_returns_zero_when_clean(self, validator_with_mock):
+        """A validator with no errors must return 0 so main() exits successfully."""
+        validator = validator_with_mock(participants={}, heat_events=[])
+
+        assert validator.validate_all() == 0
 
 
 # ============================================================================

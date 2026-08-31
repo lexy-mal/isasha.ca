@@ -70,6 +70,21 @@ class DataValidator:
             print(f"Error loading data: {e}")
             sys.exit(1)
 
+        # Results are scraped separately and may legitimately not exist yet.
+        self.results = self._load_optional('results.json')
+        self.person_results = self._load_optional('person_results.json')
+
+    def _load_optional(self, filename):
+        path = self.output_dir / filename
+        if not path.exists():
+            return None
+        try:
+            with open(path) as f:
+                return json.load(f)
+        except Exception as e:
+            self.errors.append(f"{filename} exists but could not be parsed: {e}")
+            return None
+
     def validate_all(self):
         """Run all validations"""
         print(f"Validating {self.comp_id}...\n")
@@ -81,8 +96,9 @@ class DataValidator:
         self.validate_data_integrity()
         self.validate_age_categories()
         self.validate_couple_pairing_integrity()
+        self.validate_results_join()
 
-        self.report_results()
+        return self.report_results()
 
     def validate_data_structure(self):
         """Check basic data structure"""
@@ -258,6 +274,71 @@ class DataValidator:
                 f"Partner name '{name}' never appears as a participant anywhere "
                 f"in participants.json — likely a scraping/name-formatting mismatch"
             )
+
+    def validate_results_join(self):
+        """Results must join the schedule on heat|event.
+
+        The schedule qualifies heats with the room they ran in ("Heat 669
+        [Ballroom B]"); the scoresheets never do. com.html normalizes that away at
+        lookup time, so the invariant to protect here is that the scoresheet side
+        stays clean and that the normalized join actually lands. See Trap 3 in
+        SCORESHEET_PARSING.md.
+        """
+        if self.results is None and self.person_results is None:
+            return
+
+        room_suffix = re.compile(r'\s*\[[^\]]*\]\s*$')
+        norm = lambda h: room_suffix.sub('', h or '').strip()
+
+        # 1. The scoresheet side must not carry a room suffix.
+        if self.results:
+            bad = [k for k in self.results if '[' in k.split('|')[0]]
+            if bad:
+                self.errors.append(
+                    f"results.json has {len(bad)} heat keys with a room suffix "
+                    f"(e.g. {bad[0]!r}); scoresheets must key on the bare heat"
+                )
+        if self.person_results:
+            bad = sorted({e['heat'] for rows in self.person_results.values()
+                          for e in rows if '[' in e.get('heat', '')})
+            if bad:
+                self.errors.append(
+                    f"person_results.json has {len(bad)} heats with a room suffix "
+                    f"(e.g. {bad[0]!r}); scoresheets must key on the bare heat"
+                )
+
+        # 2. Stripping the room must not merge two distinct schedule rows.
+        seen = {}
+        for he in self.heat_events:
+            key = (norm(he.get('heat')), he.get('event'))
+            if key in seen:
+                self.errors.append(
+                    f"Room-stripped heat collides: {key[0]!r} + {key[1]!r} appears "
+                    f"as both {seen[key]!r} and {he.get('heat')!r}; normalizing the "
+                    f"room away would make the results join ambiguous"
+                )
+            seen[key] = he.get('heat')
+
+        # 3. Badge coverage — the symptom Trap 3 produced. Low coverage means the
+        #    join is silently missing rows rather than the data being absent.
+        if self.person_results:
+            index = {(norm(e.get('heat')), e.get('event'))
+                     for rows in self.person_results.values() for e in rows}
+            total = matched = 0
+            for data in self.participants.values():
+                for entry in data.get('entries', []):
+                    total += 1
+                    if (norm(entry.get('heat')), entry.get('event')) in index:
+                        matched += 1
+            if total:
+                pct = 100.0 * matched / total
+                print(f"  Results join: {matched}/{total} scheduled entries "
+                      f"matched a scoresheet row ({pct:.1f}%)")
+                if pct < 80:
+                    self.warnings.append(
+                        f"Only {pct:.1f}% of scheduled entries join a scoresheet row "
+                        f"(expected ~92%); check the heat|event join"
+                    )
 
     def report_results(self):
         """Print validation report"""
