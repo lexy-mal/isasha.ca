@@ -53,6 +53,15 @@ def classify_event_code(event_name):
     return ('unrecognized', code)
 
 
+# Mirrors ROUND_RE in scrape_results_dat.py — a round marker left on an event name
+# stops it joining heat_events.json / participants.json.
+ROUND_TAIL_RE = re.compile(
+    r'\s*-\s*(Quarter-?final|Semi-?final|Final|Round\s+\d+'
+    r'|(?:First|Second|Third|Fourth)\s+Round)\s*$',
+    re.IGNORECASE,
+)
+
+
 class DataValidator:
     def __init__(self, comp_id):
         self.comp_id = comp_id
@@ -319,26 +328,65 @@ class DataValidator:
                 )
             seen[key] = he.get('heat')
 
-        # 3. Badge coverage — the symptom Trap 3 produced. Low coverage means the
-        #    join is silently missing rows rather than the data being absent.
-        if self.person_results:
-            index = {(norm(e.get('heat')), e.get('event'))
-                     for rows in self.person_results.values() for e in rows}
-            total = matched = 0
-            for data in self.participants.values():
-                for entry in data.get('entries', []):
-                    total += 1
-                    if (norm(entry.get('heat')), entry.get('event')) in index:
-                        matched += 1
-            if total:
-                pct = 100.0 * matched / total
-                print(f"  Results join: {matched}/{total} scheduled entries "
-                      f"matched a scoresheet row ({pct:.1f}%)")
-                if pct < 80:
-                    self.warnings.append(
-                        f"Only {pct:.1f}% of scheduled entries join a scoresheet row "
-                        f"(expected ~92%); check the heat|event join"
-                    )
+        # 3. Unstripped round markers. These keep an event from ever joining the
+        #    schedule (Trap 5). The scraper strips them; stale data may predate that.
+        if self.results:
+            stale = sorted({k.split('|', 1)[1] for k in self.results
+                            if ROUND_TAIL_RE.search(k.split('|', 1)[1])})
+            if stale:
+                self.warnings.append(
+                    f"{len(stale)} results.json event(s) still end in a round marker "
+                    f"(e.g. {stale[0]!r}); re-scrape to pick up the stripping fix"
+                )
+
+        # 4. Join coverage, and the precondition the UI's name-mismatch fallback
+        #    relies on. com.html recovers a scheduled entry with no exact row by
+        #    matching within that person's own rows for the heat — but only when the
+        #    match is forced. If a competition ever produces an ambiguous case the
+        #    fallback refuses it and the entry silently loses its result, so warn.
+        if not self.person_results:
+            return
+
+        total = exact = recovered = ambiguous = 0
+        for person, data in self.participants.items():
+            rows = self.person_results.get(person, [])
+            row_keys = {(norm(r.get('heat')), r.get('event')) for r in rows}
+            sched_keys = {(norm(e.get('heat')), e.get('event'))
+                          for e in data.get('entries', [])}
+
+            unmatched_by_heat = {}
+            for entry in data.get('entries', []):
+                total += 1
+                key = (norm(entry.get('heat')), entry.get('event'))
+                if key in row_keys:
+                    exact += 1
+                else:
+                    unmatched_by_heat.setdefault(key[0], []).append(entry)
+
+            for heat, entries in unmatched_by_heat.items():
+                unclaimed = [r for r in rows
+                             if norm(r.get('heat')) == heat
+                             and (heat, r.get('event')) not in sched_keys]
+                if len(entries) == 1 and len(unclaimed) == 1:
+                    recovered += 1
+                elif unclaimed:
+                    ambiguous += len(entries)
+
+        if total:
+            pct = 100.0 * (exact + recovered) / total
+            print(f"  Results join: {exact} exact + {recovered} recovered by name-mismatch "
+                  f"fallback = {exact + recovered}/{total} ({pct:.1f}%)")
+            if pct < 80:
+                self.warnings.append(
+                    f"Only {pct:.1f}% of scheduled entries resolve to a scoresheet row "
+                    f"(expected ~96%); check the heat|event join"
+                )
+        if ambiguous:
+            self.errors.append(
+                f"{ambiguous} scheduled entr(ies) have a candidate scoresheet row for "
+                f"their heat but the match is ambiguous, so com.html will refuse it and "
+                f"show no result. Reconcile the event names — see Trap 5."
+            )
 
     def report_results(self):
         """Print validation report"""

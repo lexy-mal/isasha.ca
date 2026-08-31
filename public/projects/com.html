@@ -1770,11 +1770,53 @@
             return (heat || '').replace(/\s*\[[^\]]*\]\s*$/, '').trim();
         }
 
-        // Find a person's result row for a heat+event, tolerating the room suffix.
+        // findPersonResult is called up to three times per badge, and its fallback
+        // path scans a person's whole schedule. Memoize; cleared when data reloads.
+        let personResultCache = new Map();
+
+        // Find a person's result row for a heat+event.
+        //
+        // The exact join is (room-normalized heat, event). When that misses, the two
+        // sources disagree on the event's *name* for an event they both list under
+        // the same heat — seen three ways in real data:
+        //
+        //   schedule  "G-JV Débutant / Beginner BALLROOM MIXED Valse / Waltz"
+        //   scoresheet "L-JV Débutant / Beginner BALLROOM MIXED Valse / Waltz"
+        //   scoresheet "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round"
+        //   scoresheet "L-E Pro-Am Open Scholarship"  (schedule spells it out in full)
+        //
+        // G- and L- are genuinely distinct divisions that coexist in 332 National
+        // heats, so swapping the prefix is NOT safe. Instead fall back within the
+        // person's own rows for that heat, and only when the match is forced: exactly
+        // one of their scheduled entries in that heat lacks a row, and exactly one of
+        // their rows in that heat is unclaimed by another scheduled entry. Anything
+        // less certain returns null rather than guessing. Verified to be unambiguous
+        // for every entry in both competitions.
         function findPersonResult(personName, heatNum, eventName) {
-            const results = personResultsData[personName] || [];
             const heatKey = normalizeHeat(heatNum);
-            return results.find(r => normalizeHeat(r.heat) === heatKey && r.event === eventName) || null;
+            const cacheKey = personName + '\u0000' + heatKey + '\u0000' + eventName;
+            if (personResultCache.has(cacheKey)) return personResultCache.get(cacheKey);
+
+            const results = personResultsData[personName] || [];
+            let match = results.find(r => normalizeHeat(r.heat) === heatKey && r.event === eventName) || null;
+
+            if (!match) {
+                const entries = (participantsData[personName] || {}).entries || [];
+                const rowKeys = new Set(results.map(r => normalizeHeat(r.heat) + '|' + r.event));
+                const schedKeys = new Set(entries.map(e => normalizeHeat(e.heat) + '|' + e.event));
+
+                const unmatchedHere = entries.filter(e =>
+                    normalizeHeat(e.heat) === heatKey && !rowKeys.has(normalizeHeat(e.heat) + '|' + e.event));
+                const unclaimedHere = results.filter(r =>
+                    normalizeHeat(r.heat) === heatKey && !schedKeys.has(heatKey + '|' + r.event));
+
+                if (unmatchedHere.length === 1 && unclaimedHere.length === 1) {
+                    match = unclaimedHere[0];
+                }
+            }
+
+            personResultCache.set(cacheKey, match);
+            return match;
         }
 
         // Get placement string for a person in a specific heat+event
@@ -2569,6 +2611,7 @@
 
                 resultsData = await readJson(resultsRes, {});
                 personResultsData = await readJson(personResultsRes, {});
+                personResultCache = new Map();
                 judgesData = await readJson(judgesRes, {});
 
                 console.log('Data loaded successfully:', {

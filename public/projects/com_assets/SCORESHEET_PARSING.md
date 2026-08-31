@@ -4,7 +4,7 @@ Hard-won notes about how CompMngr publishes results, and the traps that cost us 
 silently-wrong dataset. Read this before touching `scrape_results_dat.py` or writing
 a scraper for a new competition.
 
-Written 2026-08-30 after National 2026. Traps 3–4 added 2026-08-31.
+Written 2026-08-30 after National 2026. Traps 3–5 added 2026-08-31.
 
 ---
 
@@ -232,6 +232,52 @@ drops non-letter keys.
 
 ---
 
+## Trap 5 — the schedule and the scoresheets name the same event differently
+
+Found 2026-08-31, from a competitor showing gold on the results page and "no results"
+on his own page.
+
+Even after the heat is normalized (Trap 3), the two sources sometimes disagree on the
+**event name** for an event they both file under the same heat:
+
+| | Schedule (`participants.json`) | Scoresheet (`results.json`) |
+|---|---|---|
+| division prefix | `G-JV Débutant / Beginner BALLROOM MIXED Valse / Waltz` | `L-JV Débutant / Beginner …` |
+| unstripped round | `A-JV Bronze / Bronze LATIN SOLO Rumba` | `… Rumba - First Round` |
+| abbreviated name | `L-E Pro-Am Open LATIN Scholarship (C/S/R/P/J)` | `L-E Pro-Am Open Scholarship` |
+
+Scale: 529 National and 66 Imperial Cup scheduled entries — 424 of the National ones
+were real placements, including a first place.
+
+**Do not fix this by swapping the `G-`/`L-` prefix.** They are genuinely distinct
+divisions that coexist in **332 National heats**; swapping would cross-credit dancers
+between them. Nor by fuzzy-matching event names — see the warning above about genuine
+source divergence.
+
+The reliable key is the **person**. `build_person_results` already resolved each
+scoresheet row to real people by id and surname, so a person's own result rows are
+correctly attributed no matter what the sheet called the event. `findPersonResult` in
+`com.html` therefore falls back *within one person's rows for that heat*, and only
+when the match is forced:
+
+- exactly one of their scheduled entries in that heat has no exact row, **and**
+- exactly one of their rows in that heat is unclaimed by another scheduled entry.
+
+Anything less certain returns null rather than guessing. That precondition holds for
+every entry in both competitions — zero ambiguous cases — and
+`validate_competition_data.py` raises an **error** if a future competition breaks it,
+because the fallback would then silently refuse and the entry would lose its result.
+
+Audited: all 595 fallback matches have the person's surname in the matched row.
+
+The `First Round` case was also a real scraper gap — `ROUND_RE` handled `Round 1` but
+not `First Round`, leaving 7 National events unjoinable. Fixed at source, so it stops
+recurring; the committed JSON keeps the marker until the next scrape, which is why the
+validator warns rather than errors on it. Note `G-D Bronze Western Heat` is a genuine
+event name, not a round marker — the regex must not eat it, and there is a test.
+
+---
+
 ## The badge fallback ladder
 
 `buildPlacementBadge()` owns this for all five badge sites — don't reimplement the
@@ -262,8 +308,8 @@ After this ladder, National 2026 and Imperial Cup 2026 both render a badge for
 
 | | Placed | Round | Dance marks | Not on scoresheet | No results posted |
 |---|---|---|---|---|---|
-| National 2026 | 9,808 | 1,096 | 198 | 515 | 496 |
-| Imperial Cup 2026 | 2,918 | 28 | 101 | 117 | 80 |
+| National 2026 | 10,232 | 1,190 | 209 | 430 | 52 |
+| Imperial Cup 2026 | 2,978 | 32 | 103 | 117 | 14 |
 
 ---
 
@@ -285,11 +331,18 @@ Run these before committing. All numbers below are National 2026's.
 6. **Room-suffix join** — no heat key in `results.json` or `person_results.json` may
    contain a `[`. If one does, the scraper has started copying the schedule's room
    suffix and the two families have diverged in a new way.
-7. **Results join** — share of `participants.json` entries that match a
-   `person_results` row on the room-normalized `heat|event`. Expect ~96% (National:
-   11,617 of 12,113; Imperial Cup 97.5%). A drop toward ~78% means Trap 3 regressed.
+7. **Results join** — share of `participants.json` entries resolving to a
+   `person_results` row, exact plus Trap 5 fallback. Expect ~96% (National: 11,102
+   exact + 529 recovered; Imperial Cup 3,047 + 66). A drop toward ~78% means Trap 3
+   regressed; a jump in *recovered* means event naming drifted further apart.
+8. **No ambiguous fallbacks** — every entry the fallback fires on must have exactly one
+   candidate. Any ambiguity is an error: com.html refuses to guess, so those entries
+   silently lose their result.
+9. **No unstripped round markers** — no `results.json` event may end in
+   `- Semi-final` / `- First Round` etc. Warns rather than errors, since existing data
+   keeps the marker until re-scraped.
 
-Checks 6 and 7 are automated in `validate_competition_data.py`
-(`validate_results_join`), which skips them when the results files aren't scraped yet.
+Checks 6–9 are automated in `validate_competition_data.py` (`validate_results_join`),
+which skips them when the results files aren't scraped yet.
 
 A run that reports no errors proves nothing; both traps were silent.

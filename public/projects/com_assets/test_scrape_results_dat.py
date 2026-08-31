@@ -123,6 +123,19 @@ class TestRounds(unittest.TestCase):
         self.assertEqual(event, 'Open Silver LATIN (C/R/S)')
         self.assertEqual(rnd, 'Final')
 
+    def test_named_first_round_is_stripped(self):
+        # National 2026 spells the opening round "First Round"; leaving it on the
+        # event name kept 7 events from ever joining the schedule.
+        event, rnd = parse_round('A-JV Bronze / Bronze LATIN SOLO Rumba - First Round')
+        self.assertEqual(event, 'A-JV Bronze / Bronze LATIN SOLO Rumba')
+        self.assertEqual(rnd, 'First Round')
+
+    def test_event_ending_in_heat_is_not_mistaken_for_a_round(self):
+        # "Bronze Western Heat" is a real event name, not a round marker.
+        event, rnd = parse_round('G-D Bronze Western Heat')
+        self.assertEqual(event, 'G-D Bronze Western Heat')
+        self.assertEqual(rnd, '')
+
     def test_rounds_collapse_to_one_key(self):
         results = build()
         keys = [k for k in results if k.startswith("Heat 20|")]

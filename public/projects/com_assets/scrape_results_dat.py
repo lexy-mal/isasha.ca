@@ -26,17 +26,20 @@ from scrape_results_flexible import (
     fetch, parse_index, parse_judges, save_json,
 )
 
-# Round markers appear as " - Semi-final" and occasionally bare " Final".
+# Round markers appear as " - Semi-final", occasionally bare " Final", and as
+# " - First Round" (7 National 2026 events, which went unstripped and so failed to
+# join the schedule until this was added).
 # They are stripped from `event` so results join to heat_events.json / participants.json,
 # and preserved separately in `round`.
 ROUND_RE = re.compile(
-    r'\s*(?:-\s*)?(Quarter-?final|Semi-?final|Final|Round\s+\d+)\s*$',
+    r'\s*(?:-\s*)?(Quarter-?final|Semi-?final|Final|Round\s+\d+'
+    r'|(?:First|Second|Third|Fourth)\s+Round)\s*$',
     re.IGNORECASE,
 )
 
 # Decisive round first: a heat's FINAL round is the record with no marker at all
 # (verified against Heat 467/665, which carry Quarter-final + Semi-final + unmarked).
-ROUND_RANK = {'': 0, 'Final': 1, 'Semi-final': 2, 'Quarter-final': 3}
+ROUND_RANK = {'': 0, 'Final': 1, 'Semi-final': 2, 'Quarter-final': 3, 'First Round': 4}
 
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
