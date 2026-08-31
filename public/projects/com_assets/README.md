@@ -52,3 +52,10 @@ Current dataset:
 - 1,260 heat events
 
 Last updated: 2026-06-19
+
+## Results scraping
+
+`scrape_results_dat.py` is the supported results scraper. Before changing it — or
+writing one for a new competition — read
+[SCORESHEET_PARSING.md](SCORESHEET_PARSING.md): it documents the CompMngr `.dat`
+format and two failure modes that produced clean-looking but ~80%-incomplete data.

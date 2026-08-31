@@ -44,8 +44,9 @@ fi
 # TODO: derive STOP_DATE from competitions.json (national2026 endDate + 1 day)
 # instead of hardcoding — so extending the competition calendar can't leave cron
 # on a stale expiry again. Fallback below keeps today's behavior if unset.
-# Hardcoded fallback: day after Nationals (endDate 2026-08-30).
-STOP_DATE="2026-08-31"
+# Hardcoded fallback: a grace week past Nationals (endDate 2026-08-30) so late
+# scoresheet corrections still get picked up after the event ends.
+STOP_DATE="2026-09-06"
 
 # Serialize cron + systemd (or overlapping manual runs) so two scrapes can't race on git.
 exec 9>"$LOCK_FILE"
@@ -85,18 +86,40 @@ if ! python3 scrape_data_flexible.py national2026 >> "$LOG_FILE" 2>&1; then
     exit 1
 fi
 
+# Scoresheets are published progressively during the comp and corrected afterwards.
+# A results failure is NOT fatal: the entry-list scrape above already succeeded and
+# is worth committing on its own, so just log and carry on.
+#
+# Uses the .dat parser, not scrape_results_flexible.py: the CGI/HTML path cannot tell
+# a single-dance heat heading from a dance sub-heading (both are <strong><em>), so it
+# silently dropped ~80% of heats. It also needed ~956 requests per run instead of 2.
+if ! python3 scrape_results_dat.py national2026 >> "$LOG_FILE" 2>&1; then
+    log "Results scrape FAILED (see log above) — continuing with entry data only."
+fi
+
 cd "$REPO_DIR"
 
 # scrape_log.json gets a new entry appended on every run, even a no-op one, so it must
 # NOT be part of the "did anything change" check — only the data files themselves decide
 # that. scrape_log.json still rides along in the commit once a real change triggers one.
-if git diff --quiet -- "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json"; then
+# Results files only exist once a results scrape has succeeded at least once, and a
+# bare `git add` of a missing path aborts the WHOLE invocation (staging nothing), so
+# filter to what's actually on disk before touching git.
+DATA_FILES=()
+for f in participants.json heat_events.json results.json person_results.json judges.json; do
+    [[ -f "$DATA_DIR/$f" ]] && DATA_FILES+=("$DATA_DIR/$f")
+done
+
+# Use `git status --porcelain`, NOT `git diff`: the first run that produces a results
+# file leaves it UNTRACKED, and `git diff` ignores untracked paths — it would report
+# "no changes" and the new results would never get committed.
+if [[ -z "$(git status --porcelain -- "${DATA_FILES[@]}")" ]]; then
     log "No changes since last scrape — skipping commit/push (scrape_log.json left uncommitted until next real change)."
     exit 0
 fi
 
 node scripts/stamp-version.js >> "$LOG_FILE" 2>&1
-git add "$DATA_DIR/participants.json" "$DATA_DIR/heat_events.json" "$DATA_DIR/scrape_log.json" public/projects/com_assets/version.json
+git add "${DATA_FILES[@]}" "$DATA_DIR/scrape_log.json" public/projects/com_assets/version.json
 if ! git commit -m "chore: daily scrape update ($(date +%F))
 
 Automated daily scrape via cron. See scrape-log.html for the diff." >> "$LOG_FILE" 2>&1; then

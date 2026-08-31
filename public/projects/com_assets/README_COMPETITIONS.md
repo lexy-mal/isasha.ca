@@ -50,7 +50,7 @@ This system now supports managing data for multiple dance competitions. You can 
 
 5. **Scrape results** (if available):
    ```bash
-   python3 scrape_results_flexible.py mycompetition2026
+   python3 scrape_results_dat.py mycompetition2026
    ```
 
 ## File Structure
@@ -166,18 +166,46 @@ python3 scrape_data_flexible.py
 
 ## Scraping Results
 
-### Using the Flexible Scraper
+### Using the .dat Scraper (current)
 
 ```bash
 cd com_assets
-python3 scrape_results_flexible.py national2026
+python3 scrape_results_dat.py national2026
 ```
+
+CompMngr publishes every scoresheet in one pipe-delimited `.dat` file next to the
+ScoresheetsByPerson page. This scraper parses that file, so it needs **2 requests**
+instead of one CGI POST per competitor.
 
 ### Requirements
 
-- Results index page must have a `<select name="PERSON_LIST">` dropdown
-- Must use comp-mngr.com's CGI handler at `/cgi-bin/ScoresheetHandler.pl`
-- Results scoresheets must follow the standard format
+- `resultsDatUrl` set for the competition in `competitions.json`
+- `resultsIndexUrl` set too — the index page supplies competitor names and the judge
+  roster, which the `.dat` does not contain
+
+See **[SCORESHEET_PARSING.md](SCORESHEET_PARSING.md)** for the `.dat` format, the two
+parsing traps that previously produced silently-wrong data, and the sanity checks to
+run before committing a results scrape.
+
+### Why not the HTML/CGI scraper
+
+`scrape_results_flexible.py` drives `/cgi-bin/ScoresheetHandler.pl` once per person and
+parses the returned HTML. It has a structural flaw: CompMngr renders a **single-dance
+heat heading** and a **dance sub-heading** identically (`<strong><em>…</em></strong>`),
+so the parser cannot tell them apart and silently treats single-dance heats as dances of
+the previous heat. That dropped roughly 80% of heats — National 2026 yielded 473 of
+2,683, and Imperial Cup 494 of 1,278 with *zero* single-dance heats. The `.dat` marks
+multi-dance events with a leading `=`, so no such guess is needed.
+
+It is kept for reference; `scrape_results_dat.py` reuses its index, judge, and save
+helpers.
+
+### Round progression
+
+A heat that runs quarter/semi/final appears as several `.dat` records. The decisive
+round (the unmarked one) supplies the heat's marks; earlier rounds are kept as a
+lightweight `rounds` roster so competitors eliminated before the final can still be
+shown as "Semi-finalist" / "Quarter-finalist" rather than a blank.
 
 ## Legacy Scripts
 
@@ -185,6 +213,8 @@ Old scripts are still available for reference:
 
 - `scrape_data.py` - Original Imperial Cup scraper (hardcoded)
 - `scrape_results.py` - Original results scraper (hardcoded)
+- `scrape_results_flexible.py` - CGI/HTML results scraper; superseded by
+  `scrape_results_dat.py` (see above), but still provides shared helpers
 
 These are kept for backward compatibility but **should not be used** for new competitions. Use the flexible versions instead.
 
