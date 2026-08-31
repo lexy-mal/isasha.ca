@@ -5295,6 +5295,15 @@
       "number": "",
       "names": "Lisovolenko, Stanislav",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Lisovolenko, Stanislav",
+      "dancePlacements": {}
     }
   ],
   "Nicholls, Catherine": [
@@ -62044,6 +62053,15 @@
       "number": "",
       "names": "Lvov, Denis",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Lvov, Denis",
+      "dancePlacements": {}
     }
   ],
   "Dmytriieva, Sofia": [
@@ -62080,6 +62098,15 @@
       "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Dmytriieva, Sofia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Dmytriieva, Sofia",
       "dancePlacements": {}
@@ -62194,6 +62221,15 @@
       "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Khorosheva, Tetiana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Khorosheva, Tetiana",
       "dancePlacements": {}
@@ -63826,6 +63862,15 @@
       "number": "",
       "names": "Kudriashov, Mikhail",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Kudriashov, Mikhail",
+      "dancePlacements": {}
     }
   ],
   "Jeffs, Laura": [
@@ -63842,6 +63887,15 @@
         "P": "6",
         "J": "6"
       }
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Jeffs, Laura",
+      "dancePlacements": {}
     }
   ],
   "Reininger, Pegi": [
@@ -91071,9 +91125,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Fonya, Karolina",
       "dancePlacements": {}
@@ -91176,9 +91230,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Yen, Ethan",
       "dancePlacements": {}
@@ -91267,6 +91321,15 @@
       "event": "A-JR Argent / Silver LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Marcinkoski, Solomiya",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Marcinkoski, Solomiya",
       "dancePlacements": {}
@@ -92216,6 +92279,166 @@
         "R": "2",
         "P": "2",
         "J": "2"
+      }
+    }
+  ],
+  "Chernositov, Alexander": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "5",
+      "number": "175",
+      "names": "Chernositov/Grishanina",
+      "dancePlacements": {
+        "C": "5",
+        "S": "5",
+        "R": "5",
+        "P": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Grishanina, Arina": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "5",
+      "number": "175",
+      "names": "Chernositov/Grishanina",
+      "dancePlacements": {
+        "C": "5",
+        "S": "5",
+        "R": "5",
+        "P": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Sinardi, Salvatore": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "4",
+      "number": "257",
+      "names": "Sinardi/Condrashova",
+      "dancePlacements": {
+        "C": "4",
+        "S": "4",
+        "R": "3",
+        "P": "4",
+        "J": "3"
+      }
+    }
+  ],
+  "Condrashova, Alexandra": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "4",
+      "number": "257",
+      "names": "Sinardi/Condrashova",
+      "dancePlacements": {
+        "C": "4",
+        "S": "4",
+        "R": "3",
+        "P": "4",
+        "J": "3"
+      }
+    }
+  ],
+  "Zuychaynyy, Pavel": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Zuychaynyy/Teleshova",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Teleshova, Polina": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Zuychaynyy/Teleshova",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Prasnikar, Klemen": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "3",
+      "number": "443",
+      "names": "Prasnikar/Averkieva",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "4",
+        "P": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Averkieva, Alexandra": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "3",
+      "number": "443",
+      "names": "Prasnikar/Averkieva",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "4",
+        "P": "3",
+        "J": "4"
+      }
+    }
+  ],
+  "Frecautanu, Dorin": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "1",
+      "number": "604",
+      "names": "Frecautanu/Sergeeva",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Sergeeva, Marina": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "1",
+      "number": "604",
+      "names": "Frecautanu/Sergeeva",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
       }
     }
   ],
@@ -93703,166 +93926,6 @@
       }
     }
   ],
-  "Chernositov, Alexander": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "5",
-      "number": "175",
-      "names": "Chernositov/Grishanina",
-      "dancePlacements": {
-        "C": "5",
-        "S": "5",
-        "R": "5",
-        "P": "5",
-        "J": "5"
-      }
-    }
-  ],
-  "Grishanina, Arina": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "5",
-      "number": "175",
-      "names": "Chernositov/Grishanina",
-      "dancePlacements": {
-        "C": "5",
-        "S": "5",
-        "R": "5",
-        "P": "5",
-        "J": "5"
-      }
-    }
-  ],
-  "Sinardi, Salvatore": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "4",
-      "number": "257",
-      "names": "Sinardi/Condrashova",
-      "dancePlacements": {
-        "C": "4",
-        "S": "4",
-        "R": "3",
-        "P": "4",
-        "J": "3"
-      }
-    }
-  ],
-  "Condrashova, Alexandra": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "4",
-      "number": "257",
-      "names": "Sinardi/Condrashova",
-      "dancePlacements": {
-        "C": "4",
-        "S": "4",
-        "R": "3",
-        "P": "4",
-        "J": "3"
-      }
-    }
-  ],
-  "Zuychaynyy, Pavel": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "2",
-      "number": "315",
-      "names": "Zuychaynyy/Teleshova",
-      "dancePlacements": {
-        "C": "2",
-        "S": "2",
-        "R": "2",
-        "P": "2",
-        "J": "2"
-      }
-    }
-  ],
-  "Teleshova, Polina": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "2",
-      "number": "315",
-      "names": "Zuychaynyy/Teleshova",
-      "dancePlacements": {
-        "C": "2",
-        "S": "2",
-        "R": "2",
-        "P": "2",
-        "J": "2"
-      }
-    }
-  ],
-  "Prasnikar, Klemen": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "3",
-      "number": "443",
-      "names": "Prasnikar/Averkieva",
-      "dancePlacements": {
-        "C": "3",
-        "S": "3",
-        "R": "4",
-        "P": "3",
-        "J": "4"
-      }
-    }
-  ],
-  "Averkieva, Alexandra": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "3",
-      "number": "443",
-      "names": "Prasnikar/Averkieva",
-      "dancePlacements": {
-        "C": "3",
-        "S": "3",
-        "R": "4",
-        "P": "3",
-        "J": "4"
-      }
-    }
-  ],
-  "Frecautanu, Dorin": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "1",
-      "number": "604",
-      "names": "Frecautanu/Sergeeva",
-      "dancePlacements": {
-        "C": "1",
-        "S": "1",
-        "R": "1",
-        "P": "1",
-        "J": "1"
-      }
-    }
-  ],
-  "Sergeeva, Marina": [
-    {
-      "heat": "Heat 654",
-      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
-      "placement": "1",
-      "number": "604",
-      "names": "Frecautanu/Sergeeva",
-      "dancePlacements": {
-        "C": "1",
-        "S": "1",
-        "R": "1",
-        "P": "1",
-        "J": "1"
-      }
-    }
-  ],
   "Parker, Ezra": [
     {
       "heat": "Heat 665",
@@ -94423,9 +94486,27 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Malashenko, Alexandra",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Malashenko, Alexandra",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Malashenko, Alexandra",
       "dancePlacements": {}
@@ -99664,18 +99745,18 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Quarter-final",
       "number": "",
       "names": "Pavlenko, Arya",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
       "placement": "",
-      "reachedRound": "Quarter-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Pavlenko, Arya",
       "dancePlacements": {}
@@ -100233,9 +100314,27 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Bronshtein, Evelyn",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Bronshtein, Evelyn",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Bronshtein, Evelyn",
       "dancePlacements": {}
@@ -100407,26 +100506,6 @@
       }
     },
     {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "1",
-      "number": "577",
-      "names": "Wong/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "577",
-      "names": "Wong/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 666",
       "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
       "placement": "",
@@ -100481,19 +100560,28 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
-      "reachedRound": "Quarter-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Wong, Victoria",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Wong, Victoria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
       "number": "",
       "names": "Wong, Victoria",
       "dancePlacements": {}
@@ -100932,16 +101020,6 @@
       }
     },
     {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "459",
-      "names": "Richer/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 666",
       "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
       "placement": "",
@@ -100973,6 +101051,15 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Richer, Ruslan",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Richer, Ruslan",
       "dancePlacements": {}
@@ -101538,6 +101625,15 @@
       "number": "",
       "names": "Selivanov, Julianna",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Selivanov, Julianna",
+      "dancePlacements": {}
     }
   ],
   "Brovchin, Arsenii": [
@@ -102034,26 +102130,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "243",
-      "names": "Gong/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "1",
-      "number": "243",
-      "names": "Gong/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
       "heat": "Heat 687",
       "event": "A-JV Bronze / Bronze BALLROOM SOLO Tango",
       "placement": "",
@@ -102081,8 +102157,35 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gong, Crystal",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 735",
       "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Gong, Crystal",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gong, Crystal",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
@@ -102099,28 +102202,19 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Gong, Crystal",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Gong, Crystal",
-      "dancePlacements": {}
-    },
-    {
       "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Gong, Crystal",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Gong, Crystal",
       "dancePlacements": {}
@@ -102158,16 +102252,6 @@
       }
     },
     {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "3",
-      "number": "334",
-      "names": "Lavrusevich/",
-      "dancePlacements": {
-        "D": "3"
-      }
-    },
-    {
       "heat": "Heat 737",
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "2",
@@ -102175,6 +102259,16 @@
       "names": "Lavrusevich/",
       "dancePlacements": {
         "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "3",
+      "number": "334",
+      "names": "Lavrusevich/",
+      "dancePlacements": {
+        "D": "3"
       }
     },
     {
@@ -102218,15 +102312,6 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
       "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lavrusevich, Milena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Lavrusevich, Milena",
       "dancePlacements": {}
@@ -102282,16 +102367,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "409",
-      "names": "Newman/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
       "heat": "Heat 687",
       "event": "A-JV Bronze / Bronze BALLROOM SOLO Tango",
       "placement": "",
@@ -102305,6 +102380,15 @@
       "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Newman, Nicole",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Newman, Nicole",
       "dancePlacements": {}
@@ -102338,9 +102422,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Newman, Nicole",
       "dancePlacements": {}
@@ -102355,26 +102439,6 @@
       "names": "Reshetar/",
       "dancePlacements": {
         "W": "4"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "454",
-      "names": "Reshetar/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "454",
-      "names": "Reshetar/",
-      "dancePlacements": {
-        "R": "2"
       }
     },
     {
@@ -102409,6 +102473,24 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Reshetar, Ameliia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Reshetar, Ameliia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Reshetar, Ameliia",
       "dancePlacements": {}
@@ -102536,15 +102618,6 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Selivanov, Elizabeth",
-      "dancePlacements": {}
-    },
-    {
       "heat": "Heat 779",
       "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
       "placement": "",
@@ -102606,16 +102679,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "561",
-      "names": "Veshchikova/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 736",
       "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "2",
@@ -102666,6 +102729,15 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Veshchikova, Evelin",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 735",
       "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
       "placement": "",
@@ -102679,15 +102751,6 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
       "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Veshchikova, Evelin",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Veshchikova, Evelin",
       "dancePlacements": {}
@@ -102742,9 +102805,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Belmonte, Alesia",
       "dancePlacements": {}
@@ -102778,16 +102841,6 @@
       "names": "McNairnay/",
       "dancePlacements": {
         "Q": "5"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "391",
-      "names": "McNairnay/",
-      "dancePlacements": {
-        "R": "2"
       }
     },
     {
@@ -102827,6 +102880,15 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "McNairnay, Alina",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 736",
       "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
@@ -102840,15 +102902,6 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
       "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "McNairnay, Alina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "McNairnay, Alina",
       "dancePlacements": {}
@@ -102945,36 +102998,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "363",
-      "names": "Long/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "1",
-      "number": "363",
-      "names": "Long/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "363",
-      "names": "Long/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 760",
       "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
       "placement": "5",
@@ -103033,10 +103056,37 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Long, Alexandra",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Long, Alexandra",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 736",
       "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Long, Alexandra",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Long, Alexandra",
       "dancePlacements": {}
@@ -103092,16 +103142,6 @@
       }
     },
     {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "1",
-      "number": "562",
-      "names": "Veshchikova/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
       "heat": "Heat 686",
       "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
       "placement": "",
@@ -103147,10 +103187,10 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
-      "reachedRound": "Semi-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Veshchikova, Nikol",
       "dancePlacements": {}
@@ -103165,10 +103205,10 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Semi-final",
       "number": "",
       "names": "Veshchikova, Nikol",
       "dancePlacements": {}
@@ -103252,16 +103292,6 @@
       "names": "Do/",
       "dancePlacements": {
         "F": "6"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "202",
-      "names": "Do/",
-      "dancePlacements": {
-        "R": "2"
       }
     },
     {
@@ -103370,10 +103400,10 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
       "placement": "",
-      "reachedRound": "Semi-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Do, Chloe",
       "dancePlacements": {}
@@ -103383,6 +103413,15 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Do, Chloe",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Semi-final",
       "number": "",
       "names": "Do, Chloe",
       "dancePlacements": {}
@@ -104865,16 +104904,6 @@
       }
     },
     {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "351",
-      "names": "Li/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 764",
       "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
       "placement": "5",
@@ -104948,6 +104977,15 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Li, Olivia",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 736",
       "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
@@ -104970,15 +105008,6 @@
       "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Li, Olivia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Li, Olivia",
       "dancePlacements": {}
@@ -105370,6 +105399,15 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Fogl, Anne",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 782",
       "event": "L-15- Argent + Or / Silver + Gold LATIN MIXED 2-Dance (P/J)",
       "placement": "",
@@ -105564,15 +105602,6 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Pelletier, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
@@ -105665,9 +105694,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "St-Jacques, Delphine",
       "dancePlacements": {}
@@ -105761,15 +105790,6 @@
       "event": "A-15- Argent / Silver BALLROOM SOLO (W/T/Q)",
       "placement": "",
       "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Stechlinski, Lexie",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Stechlinski, Lexie",
       "dancePlacements": {}
@@ -106764,26 +106784,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "476",
-      "names": "Sanchez/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "476",
-      "names": "Sanchez/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 737",
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "7",
@@ -106875,6 +106875,24 @@
       "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Sanchez, Karol",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Sanchez, Karol",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Sanchez, Karol",
       "dancePlacements": {}
@@ -108148,15 +108166,6 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Ben-Jemaa, Maya",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
@@ -108257,6 +108266,15 @@
       "event": "A-JR Argent / Silver LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Cavaliere, Raffaela",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Cavaliere, Raffaela",
       "dancePlacements": {}
@@ -109280,15 +109298,6 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Pinhasov, Lital",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
@@ -109356,9 +109365,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Yen, Elsa",
       "dancePlacements": {}
@@ -109413,9 +109422,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Pan, Serena",
       "dancePlacements": {}
@@ -109534,15 +109543,6 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "",
       "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Balan, Ella",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Balan, Ella",
       "dancePlacements": {}
@@ -110073,15 +110073,6 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Burganov, Veronica",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
@@ -110270,36 +110261,6 @@
       }
     },
     {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "521",
-      "names": "Stroganova/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "521",
-      "names": "Stroganova/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "1",
-      "number": "521",
-      "names": "Stroganova/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
       "heat": "Heat 686",
       "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
       "placement": "",
@@ -110354,6 +110315,42 @@
       "dancePlacements": {}
     },
     {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Stroganova, Estella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Stroganova, Estella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Stroganova, Estella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Stroganova, Estella",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 750",
       "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "",
@@ -110364,9 +110361,18 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Stroganova, Estella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Stroganova, Estella",
       "dancePlacements": {}
@@ -110425,6 +110431,15 @@
       "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Belmonte, Olivia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Belmonte, Olivia",
       "dancePlacements": {}
@@ -110741,6 +110756,15 @@
       "event": "A-15- Ouvert / Open LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Zalessky, Veronica",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Zalessky, Veronica",
       "dancePlacements": {}
@@ -111279,18 +111303,27 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Semi-final",
       "number": "",
       "names": "Aptekar, Eliana Ann-Marie",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Semi-final",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Aptekar, Eliana Ann-Marie",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Aptekar, Eliana Ann-Marie",
       "dancePlacements": {}
@@ -111431,16 +111464,6 @@
       }
     },
     {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "611",
-      "names": "Zhou/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
       "heat": "Heat 750",
       "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "1",
@@ -111486,10 +111509,10 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Zhou, Vilma",
       "dancePlacements": {}
@@ -111722,6 +111745,15 @@
       "event": "A-JV Argent / Silver LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Arkin, Diyanat",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Arkin, Diyanat",
       "dancePlacements": {}
@@ -112203,6 +112235,15 @@
       "event": "AC-JV2 AMATEUR LATIN \"NATIONAL CHAMP\" (C/S/R/P/J)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lee, Amber",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Lee, Amber",
       "dancePlacements": {}
@@ -112925,9 +112966,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Regillo, Aviana",
       "dancePlacements": {}
@@ -113322,438 +113363,131 @@
       "dancePlacements": {}
     }
   ],
-  "Dong, Charlene": [
+  "Lu, Yiting": [
     {
       "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "208",
-      "names": "Dong/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "208",
-      "names": "Dong/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "208",
-      "names": "Dong/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Dong, Charlene",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Dong, Charlene",
-      "dancePlacements": {}
-    }
-  ],
-  "Gosselin, Laura": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "247",
-      "names": "Gosselin/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "247",
-      "names": "Gosselin/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Gosselin, Laura",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Gosselin, Laura",
-      "dancePlacements": {}
-    }
-  ],
-  "Khrebtov, Mykyta": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "293",
-      "names": "Khrebtov/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Khrebtov, Mykyta",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Khrebtov, Mykyta",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Khrebtov, Mykyta",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Khrebtov, Mykyta",
-      "dancePlacements": {}
-    }
-  ],
-  "Maximov, Daria": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "389",
-      "names": "Maximov/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "389",
-      "names": "Maximov/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Maximov, Daria",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Maximov, Daria",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Maximov, Daria",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Maximov, Daria",
-      "dancePlacements": {}
-    }
-  ],
-  "Miadzeika, Valeryia": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "394",
-      "names": "Miadzeika/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "394",
-      "names": "Miadzeika/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "1",
-      "number": "394",
-      "names": "Miadzeika/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
       "placement": "6",
-      "number": "394",
-      "names": "Miadzeika/",
+      "number": "370",
+      "names": "Lu/",
       "dancePlacements": {
+        "C": "6"
+      }
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "4",
+      "number": "370",
+      "names": "Lu/",
+      "dancePlacements": {
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 740",
+      "event": "A-JV Argent / Silver LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 761",
+      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 762",
+      "event": "A-JV Argent / Silver LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 763",
+      "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lu, Yiting",
+      "dancePlacements": {}
+    }
+  ],
+  "Sochnacki, Liana": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "2",
+      "number": "507",
+      "names": "Sochnacki/",
+      "dancePlacements": {
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "4",
+      "number": "507",
+      "names": "Sochnacki/",
+      "dancePlacements": {
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "5",
+      "number": "507",
+      "names": "Sochnacki/",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
         "S": "6"
       }
     },
     {
-      "heat": "Heat 686",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 687",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Tango",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 689",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 713",
-      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Miadzeika, Valeryia",
-      "dancePlacements": {}
-    }
-  ],
-  "Podoprigora, Caia": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "437",
-      "names": "Podoprigora/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "437",
-      "names": "Podoprigora/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 688",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Viennese Waltz",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Podoprigora, Caia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 713",
-      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Podoprigora, Caia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Podoprigora, Caia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Podoprigora, Caia",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Podoprigora, Caia",
-      "dancePlacements": {}
-    }
-  ],
-  "Richer, Roxana": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "458",
-      "names": "Richer/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "8",
-      "number": "458",
-      "names": "Richer/",
-      "dancePlacements": {
-        "J": "8"
-      }
-    },
-    {
-      "heat": "Heat 666",
-      "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Richer, Roxana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 686",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Richer, Roxana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 689",
-      "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Richer, Roxana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 722",
-      "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Richer, Roxana",
-      "dancePlacements": {}
-    },
-    {
       "heat": "Heat 735",
       "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Richer, Roxana",
+      "names": "Sochnacki, Liana",
       "dancePlacements": {}
     },
     {
@@ -113762,228 +113496,7 @@
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Richer, Roxana",
-      "dancePlacements": {}
-    }
-  ],
-  "Saleh, Chloe": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "472",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "472",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "472",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "1",
-      "number": "472",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 764",
-      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "C": "1"
-      }
-    },
-    {
-      "heat": "Heat 765",
-      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 767",
-      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "J": "1"
-      }
-    },
-    {
-      "heat": "Heat 762",
-      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "S": "1"
-      }
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Saleh, Chloe",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Saleh, Chloe",
-      "dancePlacements": {}
-    }
-  ],
-  "Saleh, Milia": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "474",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 743",
-      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Cha Cha",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "C": "1"
-      }
-    },
-    {
-      "heat": "Heat 744",
-      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Samba",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "S": "1"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "5",
-      "number": "474",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "R": "5"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "3",
-      "number": "474",
-      "names": "Saleh/",
-      "dancePlacements": {
-        "J": "3"
-      }
-    },
-    {
-      "heat": "Heat 739",
-      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "D": "1"
-      }
-    },
-    {
-      "heat": "Heat 753",
-      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 755",
-      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Jive",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "J": "1"
-      }
-    },
-    {
-      "heat": "Heat 777",
-      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "(": "1"
-      }
-    },
-    {
-      "heat": "Heat 777",
-      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "(": "1"
-      }
-    },
-    {
-      "heat": "Heat 777",
-      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "1",
-      "number": "328",
-      "names": "Saleh/Lama",
-      "dancePlacements": {
-        "(": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Saleh, Milia",
+      "names": "Sochnacki, Liana",
       "dancePlacements": {}
     },
     {
@@ -113992,334 +113505,20 @@
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Saleh, Milia",
+      "names": "Sochnacki, Liana",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Saleh, Milia",
-      "dancePlacements": {}
-    }
-  ],
-  "Shen, Arianna": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "1",
-      "number": "495",
-      "names": "Shen/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "1",
-      "number": "495",
-      "names": "Shen/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "495",
-      "names": "Shen/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Shen, Arianna",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Shen, Arianna",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Shen, Arianna",
-      "dancePlacements": {}
-    }
-  ],
-  "Talbot, Florence": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha - First Round",
-      "placement": "2",
-      "number": "528",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "528",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "528",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "528",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 760",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
-      "placement": "1",
-      "number": "177",
-      "names": "Talbot/Chladek",
-      "dancePlacements": {
-        "J": "1"
-      }
-    },
-    {
-      "heat": "Heat 759",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
-      "placement": "2",
-      "number": "177",
-      "names": "Talbot/Chladek",
-      "dancePlacements": {
-        "D": "2"
-      }
-    },
-    {
-      "heat": "Heat 781",
-      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
-      "placement": "6",
-      "number": "177",
-      "names": "Talbot/Chladek",
-      "dancePlacements": {
-        "P": "6",
-        "J": "5"
-      }
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 756",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 757B",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 758",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 773",
-      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Florence",
-      "dancePlacements": {}
-    }
-  ],
-  "Talbot, Lou": [
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "529",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "529",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "529",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 756",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
-      "placement": "7",
-      "number": "193",
-      "names": "Talbot/Daniault",
-      "dancePlacements": {
-        "C": "7"
-      }
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "2",
-      "number": "529",
-      "names": "Talbot/",
-      "dancePlacements": {
-        "C": "2",
-        "R": "2",
-        "S": "3"
-      }
-    },
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Talbot, Lou",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Talbot, Lou",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 757B",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Lou",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 758",
-      "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Lou",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 773",
-      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Lou",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Talbot, Lou",
+      "names": "Sochnacki, Liana",
       "dancePlacements": {}
     }
   ],
   "Wei, Lily": [
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba - First Round",
-      "placement": "2",
-      "number": "572",
-      "names": "Wei/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "572",
-      "names": "Wei/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
     {
       "heat": "Heat 734",
       "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
@@ -114341,6 +113540,24 @@
       }
     },
     {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Wei, Lily",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Wei, Lily",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 750",
       "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "",
@@ -114351,9 +113568,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Wei, Lily",
       "dancePlacements": {}
@@ -114368,42 +113585,80 @@
       "dancePlacements": {}
     }
   ],
-  "Al Said, Olivia": [
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "104",
-      "names": "Al Said/",
-      "dancePlacements": {
-        "R": "2"
-      }
-    },
+  "Xiong, Leah": [
     {
       "heat": "Heat 734",
       "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Al Said, Olivia",
-      "dancePlacements": {}
+      "placement": "3",
+      "number": "583",
+      "names": "Xiong/",
+      "dancePlacements": {
+        "C": "3"
+      }
     },
     {
       "heat": "Heat 735",
       "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "2",
+      "number": "583",
+      "names": "Xiong/",
+      "dancePlacements": {
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 740",
+      "event": "A-JV Argent / Silver LATIN SOLO Jive",
+      "placement": "9",
+      "number": "583",
+      "names": "Xiong/",
+      "dancePlacements": {
+        "J": "9"
+      }
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
-      "reachedRound": "Quarter-final",
+      "reachedRound": "Semi-final",
       "number": "",
-      "names": "Al Said, Olivia",
+      "names": "Xiong, Leah",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Al Said, Olivia",
+      "names": "Xiong, Leah",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 761",
+      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Xiong, Leah",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 762",
+      "event": "A-JV Argent / Silver LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Xiong, Leah",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 763",
+      "event": "A-JV Argent / Silver LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Xiong, Leah",
       "dancePlacements": {}
     },
     {
@@ -114412,21 +113667,11 @@
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Al Said, Olivia",
+      "names": "Xiong, Leah",
       "dancePlacements": {}
     }
   ],
   "Zhang, Cecilia": [
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "1",
-      "number": "607",
-      "names": "Zhang/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
     {
       "heat": "Heat 734",
       "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
@@ -114520,10 +113765,10 @@
       }
     },
     {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
       "placement": "",
-      "reachedRound": "Quarter-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Zhang, Cecilia",
       "dancePlacements": {}
@@ -114538,10 +113783,10 @@
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Quarter-final",
       "number": "",
       "names": "Zhang, Cecilia",
       "dancePlacements": {}
@@ -114556,26 +113801,79 @@
       "dancePlacements": {}
     }
   ],
-  "Zilevica, Ulyana": [
+  "Miadzeika, Valeryia": [
     {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba - First Round",
-      "placement": "2",
-      "number": "621",
-      "names": "Zilevica/",
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "6",
+      "number": "394",
+      "names": "Miadzeika/",
       "dancePlacements": {
-        "R": "2"
+        "S": "6"
       }
     },
     {
+      "heat": "Heat 686",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 687",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Tango",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 689",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 713",
+      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
       "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "1",
-      "number": "621",
-      "names": "Zilevica/",
-      "dancePlacements": {
-        "R": "1"
-      }
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
     },
     {
       "heat": "Heat 750",
@@ -114583,51 +113881,205 @@
       "placement": "",
       "reachedRound": "Semi-final",
       "number": "",
-      "names": "Zilevica, Ulyana",
+      "names": "Miadzeika, Valeryia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Miadzeika, Valeryia",
       "dancePlacements": {}
     }
   ],
-  "Matovsky, Liliana": [
+  "Chen, Lina": [
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "5",
+      "number": "633",
+      "names": "Chen/",
+      "dancePlacements": {
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "3",
+      "number": "633",
+      "names": "Chen/",
+      "dancePlacements": {
+        "R": "3"
+      }
+    },
     {
       "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "2",
-      "number": "386",
-      "names": "Matovsky/",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "6",
+      "number": "633",
+      "names": "Chen/",
       "dancePlacements": {
-        "R": "2"
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 713",
+      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Chen, Lina",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 718",
+      "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Chen, Lina",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Chen, Lina",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Chen, Lina",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Chen, Lina",
+      "dancePlacements": {}
+    }
+  ],
+  "Saleh, Milia": [
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "5",
+      "number": "474",
+      "names": "Saleh/",
+      "dancePlacements": {
+        "R": "5"
+      }
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "3",
+      "number": "474",
+      "names": "Saleh/",
+      "dancePlacements": {
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 743",
+      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Cha Cha",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 744",
+      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Samba",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 739",
+      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Paso Doble",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 753",
+      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Rumba",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "R": "1"
+      }
+    },
+    {
+      "heat": "Heat 755",
+      "event": "L-JV* D\u00e9butant / Beginner LATIN MIXED Jive",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 777",
+      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 777",
+      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 777",
+      "event": "L-JV* D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "(": "1"
       }
     },
     {
       "heat": "Heat 734",
       "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
       "placement": "",
-      "reachedRound": "Semi-final",
+      "reachedRound": "First Round",
       "number": "",
-      "names": "Matovsky, Liliana",
+      "names": "Saleh, Milia",
       "dancePlacements": {}
-    }
-  ],
-  "Movshovich Fil, Isabella": [
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive - First Round",
-      "placement": "1",
-      "number": "403",
-      "names": "Movshovich Fil/",
-      "dancePlacements": {
-        "R": "1"
-      }
-    },
-    {
-      "heat": "Heat 739",
-      "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
-      "placement": "7",
-      "number": "403",
-      "names": "Movshovich Fil/",
-      "dancePlacements": {
-        "D": "7"
-      }
     },
     {
       "heat": "Heat 735",
@@ -114635,7 +114087,7 @@
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Movshovich Fil, Isabella",
+      "names": "Saleh, Milia",
       "dancePlacements": {}
     },
     {
@@ -114644,43 +114096,91 @@
       "placement": "",
       "reachedRound": "Quarter-final",
       "number": "",
-      "names": "Movshovich Fil, Isabella",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 761",
-      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Movshovich Fil, Isabella",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 773",
-      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Movshovich Fil, Isabella",
+      "names": "Saleh, Milia",
       "dancePlacements": {}
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
-      "names": "Movshovich Fil, Isabella",
+      "names": "Saleh, Milia",
+      "dancePlacements": {}
+    }
+  ],
+  "Richer, Roxana": [
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "8",
+      "number": "458",
+      "names": "Richer/",
+      "dancePlacements": {
+        "J": "8"
+      }
+    },
+    {
+      "heat": "Heat 666",
+      "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR BALLROOM (W/T/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Richer, Roxana",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 781",
-      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+      "heat": "Heat 686",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Waltz",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Semi-final",
       "number": "",
-      "names": "Movshovich Fil, Isabella",
+      "names": "Richer, Roxana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 689",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Quickstep",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Richer, Roxana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 722",
+      "event": "AC-15- Pr\u00e9-Br. & Bronze/Pre-Br. & Bronze AMATEUR LATIN (C/R/S)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Richer, Roxana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Richer, Roxana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Richer, Roxana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Richer, Roxana",
       "dancePlacements": {}
     }
   ],
@@ -114728,6 +114228,15 @@
       "event": "A-JR Argent / Silver LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Khoury, Maria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Khoury, Maria",
       "dancePlacements": {}
@@ -115112,6 +114621,15 @@
         "P": "1",
         "J": "3"
       }
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Iakovenko, Maya",
+      "dancePlacements": {}
     }
   ],
   "Liu, Clare": [
@@ -115170,6 +114688,15 @@
       "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Liu, Clare",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Liu, Clare",
       "dancePlacements": {}
@@ -115390,6 +114917,15 @@
       "number": "",
       "names": "Shen, Vienna",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Shen, Vienna",
+      "dancePlacements": {}
     }
   ],
   "Xu, Jiali": [
@@ -115475,6 +115011,15 @@
       "event": "A-15- Or / Gold LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Xu, Jiali",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Xu, Jiali",
       "dancePlacements": {}
@@ -115577,6 +115122,99 @@
       "number": "",
       "names": "Huang, Charlotte",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Huang, Charlotte",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Huang, Charlotte",
+      "dancePlacements": {}
+    }
+  ],
+  "Movshovich Fil, Isabella": [
+    {
+      "heat": "Heat 739",
+      "event": "A-JV Argent / Silver LATIN SOLO Paso Doble",
+      "placement": "7",
+      "number": "403",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "D": "7"
+      }
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 761",
+      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 773",
+      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 781",
+      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Movshovich Fil, Isabella",
+      "dancePlacements": {}
     }
   ],
   "Perchenok, Valeria": [
@@ -115589,6 +115227,15 @@
       "dancePlacements": {
         "D": "6"
       }
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Perchenok, Valeria",
+      "dancePlacements": {}
     },
     {
       "heat": "Heat 782",
@@ -115720,6 +115367,15 @@
       "number": "",
       "names": "Savignac, Gabriella",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Savignac, Gabriella",
+      "dancePlacements": {}
     }
   ],
   "Fu, Kaitlin": [
@@ -115767,6 +115423,15 @@
       "event": "A-JR Argent / Silver LATIN SOLO Chacha",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Fu, Kaitlin",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Fu, Kaitlin",
       "dancePlacements": {}
@@ -115871,6 +115536,15 @@
       "number": "",
       "names": "Hartwell, Estela",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Hartwell, Estela",
+      "dancePlacements": {}
     }
   ],
   "Youssef, Zeina": [
@@ -115921,6 +115595,15 @@
       "number": "",
       "names": "Youssef, Zeina",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Youssef, Zeina",
+      "dancePlacements": {}
     }
   ],
   "Semerdji, Juliana": [
@@ -115960,101 +115643,6 @@
       "reachedRound": "Semi-final",
       "number": "",
       "names": "Semerdji, Juliana",
-      "dancePlacements": {}
-    }
-  ],
-  "Xiong, Leah": [
-    {
-      "heat": "Heat 740",
-      "event": "A-JV Argent / Silver LATIN SOLO Jive",
-      "placement": "9",
-      "number": "583",
-      "names": "Xiong/",
-      "dancePlacements": {
-        "J": "9"
-      }
-    },
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "3",
-      "number": "583",
-      "names": "Xiong/",
-      "dancePlacements": {
-        "C": "3"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "2",
-      "number": "583",
-      "names": "Xiong/",
-      "dancePlacements": {
-        "S": "2"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 761",
-      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 762",
-      "event": "A-JV Argent / Silver LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 763",
-      "event": "A-JV Argent / Silver LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Xiong, Leah",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Xiong, Leah",
       "dancePlacements": {}
     }
   ],
@@ -116873,6 +116461,15 @@
       "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Qi, Qiutong",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Qi, Qiutong",
       "dancePlacements": {}
@@ -118392,15 +117989,6 @@
       "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
       "placement": "",
       "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Zhang, Amelie",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Zhang, Amelie",
       "dancePlacements": {}
@@ -120038,265 +119626,6 @@
       "dancePlacements": {}
     }
   ],
-  "Lu, Yiting": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "6",
-      "number": "370",
-      "names": "Lu/",
-      "dancePlacements": {
-        "C": "6"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "4",
-      "number": "370",
-      "names": "Lu/",
-      "dancePlacements": {
-        "S": "4"
-      }
-    },
-    {
-      "heat": "Heat 740",
-      "event": "A-JV Argent / Silver LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 761",
-      "event": "A-JV Argent / Silver LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 762",
-      "event": "A-JV Argent / Silver LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 763",
-      "event": "A-JV Argent / Silver LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lu, Yiting",
-      "dancePlacements": {}
-    }
-  ],
-  "Sochnacki, Liana": [
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "2",
-      "number": "507",
-      "names": "Sochnacki/",
-      "dancePlacements": {
-        "C": "2"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "4",
-      "number": "507",
-      "names": "Sochnacki/",
-      "dancePlacements": {
-        "J": "4"
-      }
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "5",
-      "number": "507",
-      "names": "Sochnacki/",
-      "dancePlacements": {
-        "C": "5",
-        "R": "5",
-        "S": "6"
-      }
-    },
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Sochnacki, Liana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Sochnacki, Liana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 750",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Sochnacki, Liana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Sochnacki, Liana",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 779",
-      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Sochnacki, Liana",
-      "dancePlacements": {}
-    }
-  ],
-  "Chen, Lina": [
-    {
-      "heat": "Heat 735",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
-      "placement": "5",
-      "number": "633",
-      "names": "Chen/",
-      "dancePlacements": {
-        "S": "5"
-      }
-    },
-    {
-      "heat": "Heat 736",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "3",
-      "number": "633",
-      "names": "Chen/",
-      "dancePlacements": {
-        "R": "3"
-      }
-    },
-    {
-      "heat": "Heat 737",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
-      "placement": "6",
-      "number": "633",
-      "names": "Chen/",
-      "dancePlacements": {
-        "J": "6"
-      }
-    },
-    {
-      "heat": "Heat 713",
-      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 718",
-      "event": "A-JV Ouvert / Open BALLROOM SOLO NATIONAL (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 734",
-      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 779",
-      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Chen, Lina",
-      "dancePlacements": {}
-    }
-  ],
   "Khoury, Rebecca": [
     {
       "heat": "Heat 750",
@@ -120340,15 +119669,6 @@
       "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
       "placement": "",
       "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Khoury, Rebecca",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
       "number": "",
       "names": "Khoury, Rebecca",
       "dancePlacements": {}
@@ -120561,18 +119881,18 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Semi-final",
       "number": "",
       "names": "Zhou, Vivien",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Semi-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Zhou, Vivien",
       "dancePlacements": {}
@@ -121057,18 +120377,18 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "Quarter-final",
       "number": "",
       "names": "Goncharuk, Evelina",
       "dancePlacements": {}
     },
     {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Quarter-final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Goncharuk, Evelina",
       "dancePlacements": {}
@@ -121127,11 +120447,143 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Yang, Emma",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 772",
+      "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Yang, Emma",
+      "dancePlacements": {}
+    }
+  ],
+  "Talbot, Florence": [
+    {
+      "heat": "Heat 760",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Jive",
+      "placement": "1",
+      "number": "177",
+      "names": "Talbot/Chladek",
+      "dancePlacements": {
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 759",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Paso Doble",
+      "placement": "2",
+      "number": "177",
+      "names": "Talbot/Chladek",
+      "dancePlacements": {
+        "D": "2"
+      }
+    },
+    {
+      "heat": "Heat 781",
+      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 2-Dance (P/J)",
+      "placement": "6",
+      "number": "177",
+      "names": "Talbot/Chladek",
+      "dancePlacements": {
+        "P": "6",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 756",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 757B",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
       "placement": "",
       "reachedRound": "Final",
       "number": "",
-      "names": "Yang, Emma",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 758",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 773",
+      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Talbot, Florence",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Florence",
       "dancePlacements": {}
     }
   ],
@@ -121307,9 +120759,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Li, Nina",
       "dancePlacements": {}
@@ -121321,6 +120773,102 @@
       "reachedRound": "Semi-final",
       "number": "",
       "names": "Li, Nina",
+      "dancePlacements": {}
+    }
+  ],
+  "Talbot, Lou": [
+    {
+      "heat": "Heat 756",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Cha Cha",
+      "placement": "7",
+      "number": "193",
+      "names": "Talbot/Daniault",
+      "dancePlacements": {
+        "C": "7"
+      }
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "2",
+      "number": "529",
+      "names": "Talbot/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 757B",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Samba",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 758",
+      "event": "L-JV Bronze / Bronze LATIN MIXED Rumba",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Talbot, Lou",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 773",
+      "event": "L-15- D\u00e9b. \u00e0 Bronze / Beg. to Bronze LATIN MIXED 3-Dance (C/R/S)",
+      "placement": "",
+      "reachedRound": "Final",
+      "number": "",
+      "names": "Talbot, Lou",
       "dancePlacements": {}
     }
   ],
@@ -121373,9 +120921,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Zhang, Caroline",
       "dancePlacements": {}
@@ -121606,6 +121154,93 @@
       "reachedRound": "Semi-final",
       "number": "",
       "names": "Velev, Adriana",
+      "dancePlacements": {}
+    }
+  ],
+  "Saleh, Chloe": [
+    {
+      "heat": "Heat 764",
+      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Cha Cha",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 765",
+      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Rumba",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "R": "1"
+      }
+    },
+    {
+      "heat": "Heat 767",
+      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Jive",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 762",
+      "event": "L-JV Pr\u00e9-Bronze / Pre-Bronze LATIN MIXED Samba",
+      "placement": "1",
+      "number": "328",
+      "names": "Saleh/Lama",
+      "dancePlacements": {
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Saleh, Chloe",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Saleh, Chloe",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Saleh, Chloe",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Saleh, Chloe",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Saleh, Chloe",
       "dancePlacements": {}
     }
   ],
@@ -122196,15 +121831,6 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
-      "placement": "",
-      "reachedRound": "Final",
-      "number": "",
-      "names": "Bourdon, Charlize",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
       "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
@@ -122529,9 +122155,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Sun, Mona",
       "dancePlacements": {}
@@ -123189,6 +122815,15 @@
       "number": "",
       "names": "Ohta, Yoshiyuki",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Ohta, Yoshiyuki",
+      "dancePlacements": {}
     }
   ],
   "Miyazaki, Maria": [
@@ -123197,6 +122832,15 @@
       "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Miyazaki, Maria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Miyazaki, Maria",
       "dancePlacements": {}
@@ -123233,6 +122877,15 @@
       "number": "",
       "names": "Mader, Roland",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Mader, Roland",
+      "dancePlacements": {}
     }
   ],
   "Triebe-Mader, Franziska": [
@@ -123241,6 +122894,15 @@
       "event": "WDC WORLD PROFESSIONAL BALLROOM (W/T/VW/F/Q)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Triebe-Mader, Franziska",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Triebe-Mader, Franziska",
       "dancePlacements": {}
@@ -123305,206 +122967,6 @@
       "reachedRound": "Final",
       "number": "",
       "names": "L",
-      "dancePlacements": {}
-    }
-  ],
-  "Bowdridge, Stephen": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Bowdridge, Stephen",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Bowdridge, Stephen",
-      "dancePlacements": {}
-    }
-  ],
-  "Bowdridge, Gilda": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Bowdridge, Gilda",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Bowdridge, Gilda",
-      "dancePlacements": {}
-    }
-  ],
-  "Joung, Min": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Joung, Min",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Joung, Min",
-      "dancePlacements": {}
-    }
-  ],
-  "Li, Kareena": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Li, Kareena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Quarter-final",
-      "number": "",
-      "names": "Li, Kareena",
-      "dancePlacements": {}
-    }
-  ],
-  "Webber, Thomas": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Webber, Thomas",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Webber, Thomas",
-      "dancePlacements": {}
-    }
-  ],
-  "Duruisseau, Diane": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Duruisseau, Diane",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Duruisseau, Diane",
-      "dancePlacements": {}
-    }
-  ],
-  "Wood, Wayne": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Wood, Wayne",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 662",
-      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Wood, Wayne",
-      "dancePlacements": {}
-    }
-  ],
-  "Pearson, Shirley": [
-    {
-      "heat": "Heat 658",
-      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Pearson, Shirley",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 662",
-      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Pearson, Shirley",
-      "dancePlacements": {}
-    }
-  ],
-  "Lacasse, Luc": [
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lacasse, Luc",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 662",
-      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lacasse, Luc",
-      "dancePlacements": {}
-    }
-  ],
-  "Lo, Karen": [
-    {
-      "heat": "Heat 661",
-      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lo, Karen",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 662",
-      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "number": "",
-      "names": "Lo, Karen",
       "dancePlacements": {}
     }
   ],
@@ -123849,6 +123311,338 @@
       "dancePlacements": {}
     }
   ],
+  "Wu, James": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Wu, James",
+      "dancePlacements": {}
+    }
+  ],
+  "Chen, Chloe": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Chen, Chloe",
+      "dancePlacements": {}
+    }
+  ],
+  "Almberg, Per": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Almberg, Per",
+      "dancePlacements": {}
+    }
+  ],
+  "Bengtsberg, Emese": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Bengtsberg, Emese",
+      "dancePlacements": {}
+    }
+  ],
+  "Kovalenko, Dmytro": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Kovalenko, Dmytro",
+      "dancePlacements": {}
+    }
+  ],
+  "Kovalenko, Nina": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Kovalenko, Nina",
+      "dancePlacements": {}
+    }
+  ],
+  "Volbel, Simon": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Volbel, Simon",
+      "dancePlacements": {}
+    }
+  ],
+  "Schulle, Maria": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Schulle, Maria",
+      "dancePlacements": {}
+    }
+  ],
+  "Takeuchi, Hiromu": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Takeuchi, Hiromu",
+      "dancePlacements": {}
+    }
+  ],
+  "Nakajima, Yuuki": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Nakajima, Yuuki",
+      "dancePlacements": {}
+    }
+  ],
+  "Wu, Jerome": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Wu, Jerome",
+      "dancePlacements": {}
+    }
+  ],
+  "Huang, Elena": [
+    {
+      "heat": "Heat 654",
+      "event": "WDC WORLD PROFESSIONAL LATIN (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Huang, Elena",
+      "dancePlacements": {}
+    }
+  ],
+  "Bowdridge, Stephen": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Bowdridge, Stephen",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Bowdridge, Stephen",
+      "dancePlacements": {}
+    }
+  ],
+  "Bowdridge, Gilda": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Bowdridge, Gilda",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Bowdridge, Gilda",
+      "dancePlacements": {}
+    }
+  ],
+  "Joung, Min": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Joung, Min",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Joung, Min",
+      "dancePlacements": {}
+    }
+  ],
+  "Li, Kareena": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Li, Kareena",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Li, Kareena",
+      "dancePlacements": {}
+    }
+  ],
+  "Webber, Thomas": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Webber, Thomas",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Webber, Thomas",
+      "dancePlacements": {}
+    }
+  ],
+  "Duruisseau, Diane": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Duruisseau, Diane",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Duruisseau, Diane",
+      "dancePlacements": {}
+    }
+  ],
+  "Wood, Wayne": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Wood, Wayne",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 662",
+      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Wood, Wayne",
+      "dancePlacements": {}
+    }
+  ],
+  "Pearson, Shirley": [
+    {
+      "heat": "Heat 658",
+      "event": "AC-AD3 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Pearson, Shirley",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 662",
+      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Pearson, Shirley",
+      "dancePlacements": {}
+    }
+  ],
+  "Lacasse, Luc": [
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lacasse, Luc",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 662",
+      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lacasse, Luc",
+      "dancePlacements": {}
+    }
+  ],
+  "Lo, Karen": [
+    {
+      "heat": "Heat 661",
+      "event": "AC-AD4 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lo, Karen",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 662",
+      "event": "AC-AD2 AMATEUR BALLROOM \"NATIONAL CHAMP\" (W/T/VW/F/Q)",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Lo, Karen",
+      "dancePlacements": {}
+    }
+  ],
   "Wills-Campbell, Nemiah": [
     {
       "heat": "Heat 664",
@@ -124005,6 +123799,80 @@
       "dancePlacements": {}
     }
   ],
+  "Podoprigora, Caia": [
+    {
+      "heat": "Heat 688",
+      "event": "A-JV Bronze / Bronze BALLROOM SOLO Viennese Waltz",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 713",
+      "event": "A-15- Bronze / Bronze BALLROOM SOLO (W/T/Q)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Podoprigora, Caia",
+      "dancePlacements": {}
+    }
+  ],
   "Abdullayeva, Safiya": [
     {
       "heat": "Heat 713",
@@ -124038,6 +123906,15 @@
       "event": "A-15- Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "",
       "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Abdullayeva, Safiya",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Abdullayeva, Safiya",
       "dancePlacements": {}
@@ -124092,6 +123969,64 @@
       "dancePlacements": {}
     }
   ],
+  "Al Said, Olivia": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Al Said, Olivia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Al Said, Olivia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Al Said, Olivia",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Al Said, Olivia",
+      "dancePlacements": {}
+    }
+  ],
+  "Matovsky, Liliana": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Matovsky, Liliana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Matovsky, Liliana",
+      "dancePlacements": {}
+    }
+  ],
   "Semerdji, Evelina": [
     {
       "heat": "Heat 734",
@@ -124118,6 +124053,315 @@
       "reachedRound": "Quarter-final",
       "number": "",
       "names": "Semerdji, Evelina",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Semerdji, Evelina",
+      "dancePlacements": {}
+    }
+  ],
+  "Dong, Charlene": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Dong, Charlene",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Dong, Charlene",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Dong, Charlene",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Dong, Charlene",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Dong, Charlene",
+      "dancePlacements": {}
+    }
+  ],
+  "Gosselin, Laura": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gosselin, Laura",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gosselin, Laura",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Gosselin, Laura",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gosselin, Laura",
+      "dancePlacements": {}
+    }
+  ],
+  "Khrebtov, Mykyta": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Khrebtov, Mykyta",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Khrebtov, Mykyta",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Khrebtov, Mykyta",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Khrebtov, Mykyta",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Khrebtov, Mykyta",
+      "dancePlacements": {}
+    }
+  ],
+  "Maximov, Daria": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Maximov, Daria",
+      "dancePlacements": {}
+    }
+  ],
+  "Shen, Arianna": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Quarter-final",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Shen, Arianna",
+      "dancePlacements": {}
+    }
+  ],
+  "Zilevica, Ulyana": [
+    {
+      "heat": "Heat 734",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Zilevica, Ulyana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 735",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Zilevica, Ulyana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 736",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Zilevica, Ulyana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 737",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Zilevica, Ulyana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 750",
+      "event": "A-JV Bronze / Bronze LATIN SOLO Paso Doble",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "number": "",
+      "names": "Zilevica, Ulyana",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Zilevica, Ulyana",
       "dancePlacements": {}
     }
   ],
@@ -124254,9 +124498,9 @@
     },
     {
       "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S) - First Round",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
       "placement": "",
-      "reachedRound": "Final",
+      "reachedRound": "First Round",
       "number": "",
       "names": "Shen, Olivia",
       "dancePlacements": {}
@@ -124311,6 +124555,15 @@
       "number": "",
       "names": "Gao, Ruiwan",
       "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Gao, Ruiwan",
+      "dancePlacements": {}
     }
   ],
   "Chen, Lavin": [
@@ -124341,6 +124594,17 @@
       "reachedRound": "Final",
       "number": "",
       "names": "Ling Guzman, Julia",
+      "dancePlacements": {}
+    }
+  ],
+  "Matovsky, Veronica": [
+    {
+      "heat": "Heat 779",
+      "event": "A-JV Ouvert / Open LATIN SOLO NATIONAL (C/S/R/P/J)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "number": "",
+      "names": "Matovsky, Veronica",
       "dancePlacements": {}
     }
   ],
