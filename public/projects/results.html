@@ -369,9 +369,14 @@
             return 'dnc';
         }
 
-        function placementDisplay(p) {
+        function placementDisplay(p, reachedRound) {
             const n = parseInt(p);
-            if (!p || isNaN(n)) return '–';
+            if (!p || isNaN(n)) {
+                // No placement: they were knocked out before the final, so show how
+                // far they got rather than a bare dash.
+                const abbr = { 'Final': 'F', 'Semi-final': 'SF', 'Quarter-final': 'QF' };
+                return reachedRound ? (abbr[reachedRound] || reachedRound) : '–';
+            }
             const medal = n === 1 ? '🥇' : n === 2 ? '🥈' : n === 3 ? '🥉' : null;
             const sfx = n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th';
             return medal ? `${medal} ${n}${sfx}` : `${n}${sfx}`;
@@ -381,6 +386,8 @@
         function buildLeaderboard() {
             const rows = [];
             for (const [name, entries] of Object.entries(personResultsData)) {
+                // entries now include events a competitor danced but was eliminated in
+                // (placement ''), so count placed events separately from events entered.
                 let gold = 0, silver = 0, bronze = 0, top5 = 0, total = entries.length;
                 for (const e of entries) {
                     const p = parseInt(e.placement);
@@ -546,7 +553,7 @@
                         const entry = lookup[heat]?.[n];
                         if (!entry) return `<td class="placement-cell dnc">–</td>`;
                         const cls = placementClass(entry.placement);
-                        return `<td class="placement-cell ${cls}">${placementDisplay(entry.placement)}</td>`;
+                        return `<td class="placement-cell ${cls}">${placementDisplay(entry.placement, entry.reachedRound)}</td>`;
                     }).join('')}
                 </tr>`;
             });

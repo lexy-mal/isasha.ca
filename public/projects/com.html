@@ -1779,6 +1779,27 @@
             return medal ? `${medal} ${n}${suffix}` : `${n}${suffix}`;
         }
 
+        // Round a person reached when they have no final placement — e.g. they danced
+        // the semi-final but didn't advance, so no scoresheet ever lists a placement
+        // for them. Returns null when they placed (the medal badge wins).
+        function getPersonReachedRound(personName, heatNum, eventName) {
+            const results = personResultsData[personName] || [];
+            const entry = results.find(r => r.heat === heatNum && r.event === eventName);
+            if (!entry || entry.placement) return null;
+            return entry.reachedRound || null;
+        }
+
+        // Format a reached-but-not-placed round as a short label
+        function formatReachedRound(round) {
+            if (!round) return '';
+            const map = {
+                'Final': 'Finalist',
+                'Semi-final': 'Semi-finalist',
+                'Quarter-final': 'Quarter-finalist'
+            };
+            return map[round] || round;
+        }
+
         // Build full heat ranking HTML from results.json
         function buildHeatRanking(heatNum, eventName) {
             const heat = resultsData[heatNum + '|' + eventName];
@@ -2754,9 +2775,12 @@
                                 ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                 : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                             const partnerPlace = getPersonPlacement(partner, evt.heat, evt.event);
+                            const partnerPlaceRound = partnerPlace ? null : getPersonReachedRound(partner, evt.heat, evt.event);
                             const partnerBadge = partnerPlace
                                 ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(partnerPlace)}</span>`
-                                : '';
+                                : partnerPlaceRound
+                                    ? `<span style="margin-left:auto;font-weight:600;color:var(--text-secondary);font-size:0.85em;opacity:0.85;">${formatReachedRound(partnerPlaceRound)}</span>`
+                                    : '';
                             html += `
                                 <div style="margin-left: 0; margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 3px solid var(--accent); border-radius: 2px; font-size: 0.85em;">
                                     <div style="color: var(--text-primary); font-weight: 500; display:flex; align-items:center;">${evt.event}${partnerBadge}</div>
@@ -2822,8 +2846,11 @@
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                                 const couplePlace = getPersonPlacement(competitor, evt.heat, evt.event);
+                                const couplePlaceRound = couplePlace ? null : getPersonReachedRound(competitor, evt.heat, evt.event);
                                 const coupleBadge = couplePlace
                                     ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(couplePlace)}</span>`
+                                    : couplePlaceRound
+                                    ? `<span style="margin-left:auto;font-weight:600;color:var(--text-secondary);font-size:0.85em;opacity:0.85;">${formatReachedRound(couplePlaceRound)}</span>`
                                     : '';
                                 html += `
                                     <div style="margin-bottom: 6px; padding: 8px; background: var(--bg-primary); border-left: 2px solid var(--text-secondary); border-radius: 2px; font-size: 0.85em;">
@@ -2860,8 +2887,11 @@
                                     ? `👩‍💃 ${coupleCount} couple${coupleCount !== 1 ? 's' : ''}`
                                     : `👥 ${evt.competitors} participant${evt.competitors !== 1 ? 's' : ''}`;
                                 const soloPlace = getPersonPlacement(competitor, evt.heat, evt.event);
+                                const soloPlaceRound = soloPlace ? null : getPersonReachedRound(competitor, evt.heat, evt.event);
                                 const soloBadge = soloPlace
                                     ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;">${formatPlacement(soloPlace)}</span>`
+                                    : soloPlaceRound
+                                    ? `<span style="margin-left:auto;font-weight:600;color:var(--text-secondary);font-size:0.85em;opacity:0.85;">${formatReachedRound(soloPlaceRound)}</span>`
                                     : '';
                                 html += `
                                     <div style="margin-left: 12px; margin-bottom: 8px; padding: 10px; background: var(--bg-primary); border-left: 2px solid var(--accent); border-radius: 3px; font-size: 0.9em;">
@@ -2955,8 +2985,11 @@
 
                 html += `<div class="event-item collapsed${completedClass}${upcomingClass}" id="${eventId}" data-heat="${heatAttr}" data-event="${eventAttr}" data-competitors="${opponentNamesAttr}" data-event-time="${info.time.replace(/"/g, '&quot;')}" onclick="toggleEvent(this)">`;
                 const myPlacement = getPersonPlacement(name, info.heat, info.event);
+                const myReachedRound = myPlacement ? null : getPersonReachedRound(name, info.heat, info.event);
                 const placementBadge = myPlacement
                     ? `<span style="margin-left:8px;font-size:0.82em;font-weight:600;opacity:0.95;">${formatPlacement(myPlacement)}</span>`
+                    : myReachedRound
+                    ? `<span style="margin-left:8px;font-size:0.78em;font-weight:600;color:var(--text-secondary);opacity:0.85;">${formatReachedRound(myReachedRound)}</span>`
                     : '';
                 html += `
                     <div class="event-title">
@@ -3757,8 +3790,11 @@
                 const searchKey = unit.members.join(' ').toLowerCase().replace(/"/g, '&quot;');
                 const isCouple = unit.members.length > 1;
                 const placement = getPersonPlacement(unit.members[0], eventInfo.heat, eventInfo.event);
+                const reachedRound = placement ? null : getPersonReachedRound(unit.members[0], eventInfo.heat, eventInfo.event);
                 const placementBadge = placement
                     ? `<span style="margin-left:auto;font-weight:600;color:var(--accent);font-size:0.9em;white-space:nowrap;">${formatPlacement(placement)}</span>`
+                    : reachedRound
+                    ? `<span style="margin-left:auto;font-weight:600;color:var(--text-secondary);font-size:0.85em;opacity:0.85;white-space:nowrap;">${formatReachedRound(reachedRound)}</span>`
                     : '';
 
                 html += `
