@@ -168609,5 +168609,43 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-09-01T10:00:04.648626+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-02T10:00:04.233689+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
   }
 ]

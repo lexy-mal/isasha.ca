@@ -5976,6 +5976,16 @@
       }
     },
     {
+      "heat": "Heat 546",
+      "event": "L-A Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
+      "placement": "1",
+      "number": "520",
+      "names": "Nicholls/Storozhuk",
+      "dancePlacements": {
+        "F": "1"
+      }
+    },
+    {
       "heat": "Heat 555",
       "event": "L-A Argent 1 Ouvert / Open Silver 1 SMOOTH Valse/Waltz",
       "placement": "1",
@@ -7556,6 +7566,16 @@
       "names": "Nicholls/Storozhuk",
       "dancePlacements": {
         "T": "1"
+      }
+    },
+    {
+      "heat": "Heat 546",
+      "event": "L-A Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
+      "placement": "1",
+      "number": "520",
+      "names": "Nicholls/Storozhuk",
+      "dancePlacements": {
+        "F": "1"
       }
     },
     {
@@ -14807,6 +14827,16 @@
       }
     },
     {
+      "heat": "Heat 280",
+      "event": "L-F Bronze Ferm\u00e9 / Closed Bronze CLUB Samba",
+      "placement": "1",
+      "number": "163",
+      "names": "Kemball/Cascaval",
+      "dancePlacements": {
+        "S": "1"
+      }
+    },
+    {
       "heat": "Heat 266",
       "event": "L-F Bronze Ouvert / Open Bronze CLUB Hustle",
       "placement": "2",
@@ -15650,6 +15680,16 @@
       "names": "Kemball/Cascaval",
       "dancePlacements": {
         "M": "1"
+      }
+    },
+    {
+      "heat": "Heat 280",
+      "event": "L-F Bronze Ferm\u00e9 / Closed Bronze CLUB Samba",
+      "placement": "1",
+      "number": "163",
+      "names": "Kemball/Cascaval",
+      "dancePlacements": {
+        "S": "1"
       }
     },
     {
@@ -52575,6 +52615,16 @@
       }
     },
     {
+      "heat": "Heat 147",
+      "event": "G-JB Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+      "placement": "1",
+      "number": "546",
+      "names": "Tselikovskii/Verovka",
+      "dancePlacements": {
+        "Q": "1"
+      }
+    },
+    {
       "heat": "Heat 168",
       "event": "G-JB Bronze Ouvert / Open Bronze BALLROOM Valse/Waltz",
       "placement": "1",
@@ -52664,6 +52714,16 @@
       "names": "Tselikovskii/Verovka",
       "dancePlacements": {
         "W": "1"
+      }
+    },
+    {
+      "heat": "Heat 147",
+      "event": "G-JB Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
+      "placement": "1",
+      "number": "546",
+      "names": "Tselikovskii/Verovka",
+      "dancePlacements": {
+        "Q": "1"
       }
     },
     {
@@ -54195,6 +54255,16 @@
       }
     },
     {
+      "heat": "Heat 749",
+      "event": "A-19+ Argent / Silver LATIN SOLO Jive",
+      "placement": "1",
+      "number": "397",
+      "names": "Mills/",
+      "dancePlacements": {
+        "J": "1"
+      }
+    },
+    {
       "heat": "Heat 775",
       "event": "A-16+ Argent / Silver LATIN SOLO (C/R/S)",
       "placement": "3",
@@ -54899,18 +54969,6 @@
         "T": "1",
         "V": "1",
         "F": "2",
-        "Q": "1"
-      }
-    }
-  ],
-  "546-ArthurMurrayOttawa": [
-    {
-      "heat": "Heat 147",
-      "event": "G-JB Argent 1 Ferm\u00e9 / Closed Silver 1 BALLROOM Quickstep",
-      "placement": "1",
-      "number": "",
-      "names": "546-ArthurMurrayOttawa",
-      "dancePlacements": {
         "Q": "1"
       }
     }
@@ -58992,6 +59050,16 @@
       }
     },
     {
+      "heat": "Heat 195",
+      "event": "L-C Or Ferm\u00e9 / Closed Gold BALLROOM Valse/Waltz",
+      "placement": "1",
+      "number": "456",
+      "names": "Jensen/Richardson",
+      "dancePlacements": {
+        "V": "1"
+      }
+    },
+    {
       "heat": "Heat 204",
       "event": "L-C Argent Ouvert / Open Silver PRO-AM BALLROOM  3-Danses / 3-Dance (W/T/F)",
       "placement": "2",
@@ -59381,6 +59449,16 @@
       "names": "Jensen/Richardson",
       "dancePlacements": {
         "T": "1"
+      }
+    },
+    {
+      "heat": "Heat 195",
+      "event": "L-C Or Ferm\u00e9 / Closed Gold BALLROOM Valse/Waltz",
+      "placement": "1",
+      "number": "456",
+      "names": "Jensen/Richardson",
+      "dancePlacements": {
+        "V": "1"
       }
     },
     {
@@ -60705,18 +60783,6 @@
         "W": "3",
         "T": "3",
         "F": "3.5"
-      }
-    }
-  ],
-  "456-HouseofEdgett": [
-    {
-      "heat": "Heat 195",
-      "event": "L-C Or Ferm\u00e9 / Closed Gold BALLROOM Valse/Waltz",
-      "placement": "1",
-      "number": "",
-      "names": "456-HouseofEdgett",
-      "dancePlacements": {
-        "V": "1"
       }
     }
   ],
@@ -62437,18 +62503,6 @@
         "C": "7",
         "R": "7",
         "S": "7"
-      }
-    }
-  ],
-  "163-ArthurMurrayWinnipeg": [
-    {
-      "heat": "Heat 280",
-      "event": "L-F Bronze Ferm\u00e9 / Closed Bronze CLUB Samba",
-      "placement": "1",
-      "number": "",
-      "names": "163-ArthurMurrayWinnipeg",
-      "dancePlacements": {
-        "S": "1"
       }
     }
   ],
@@ -91930,18 +91984,6 @@
       "dancePlacements": {}
     }
   ],
-  "520-ArthurMurrayToronto": [
-    {
-      "heat": "Heat 546",
-      "event": "L-A Argent Ferm\u00e9 / Closed Silver SMOOTH Foxtrot",
-      "placement": "1",
-      "number": "",
-      "names": "520-ArthurMurrayToronto",
-      "dancePlacements": {
-        "F": "1"
-      }
-    }
-  ],
   "Garnhum, Nikki": [
     {
       "heat": "Heat 547",
@@ -113674,6 +113716,16 @@
       }
     },
     {
+      "heat": "Heat 699",
+      "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
+      "placement": "1",
+      "number": "134",
+      "names": "Ben-Jemaa/",
+      "dancePlacements": {
+        "Q": "1"
+      }
+    },
+    {
       "heat": "Heat 700",
       "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
       "placement": "1",
@@ -113806,6 +113858,16 @@
       "names": "Cavaliere/",
       "dancePlacements": {
         "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 699",
+      "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
+      "placement": "2",
+      "number": "164",
+      "names": "Cavaliere/",
+      "dancePlacements": {
+        "Q": "2"
       }
     },
     {
@@ -114337,40 +114399,87 @@
       "dancePlacements": {}
     }
   ],
-  "134-DZBallroom": [
-    {
-      "heat": "Heat 699",
-      "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
-      "placement": "1",
-      "number": "",
-      "names": "134-DZBallroom",
-      "dancePlacements": {
-        "Q": "1"
-      }
-    }
-  ],
-  "164-EliteDanceStudio": [
-    {
-      "heat": "Heat 699",
-      "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
-      "placement": "2",
-      "number": "",
-      "names": "164-EliteDanceStudio",
-      "dancePlacements": {
-        "Q": "2"
-      }
-    }
-  ],
-  "634-DanceDNA": [
+  "Pan, Serena": [
     {
       "heat": "Heat 699",
       "event": "A-JR Bronze / Bronze BALLROOM SOLO Quickstep",
       "placement": "3",
-      "number": "",
-      "names": "634-DanceDNA",
+      "number": "634",
+      "names": "Pan/",
       "dancePlacements": {
         "Q": "3"
       }
+    },
+    {
+      "heat": "Heat 700",
+      "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
+      "placement": "4",
+      "number": "634",
+      "names": "Pan/",
+      "dancePlacements": {
+        "W": "4"
+      }
+    },
+    {
+      "heat": "Heat 760",
+      "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
+      "number": "",
+      "names": "Pan, Serena",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 756",
+      "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
+      "number": "",
+      "names": "Pan, Serena",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 757",
+      "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
+      "number": "",
+      "names": "Pan, Serena",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 758",
+      "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
+      "placement": "",
+      "reachedRound": "Semi-final",
+      "rounds": [
+        "Semi-final"
+      ],
+      "number": "",
+      "names": "Pan, Serena",
+      "dancePlacements": {}
+    },
+    {
+      "heat": "Heat 771",
+      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
+      "placement": "",
+      "reachedRound": "First Round",
+      "rounds": [
+        "First Round",
+        "First Round"
+      ],
+      "number": "",
+      "names": "Pan, Serena",
+      "dancePlacements": {}
     }
   ],
   "Berlinska, Olympia": [
@@ -115094,79 +115203,6 @@
       ],
       "number": "",
       "names": "Yen, Elsa",
-      "dancePlacements": {}
-    }
-  ],
-  "Pan, Serena": [
-    {
-      "heat": "Heat 700",
-      "event": "A-JR Bronze / Bronze BALLROOM SOLO Waltz",
-      "placement": "4",
-      "number": "634",
-      "names": "Pan/",
-      "dancePlacements": {
-        "W": "4"
-      }
-    },
-    {
-      "heat": "Heat 760",
-      "event": "A-JR Bronze / Bronze LATIN SOLO Jive",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "rounds": [
-        "Semi-final"
-      ],
-      "number": "",
-      "names": "Pan, Serena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 756",
-      "event": "A-JR Bronze / Bronze LATIN SOLO Chacha",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "rounds": [
-        "Semi-final"
-      ],
-      "number": "",
-      "names": "Pan, Serena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 757",
-      "event": "A-JR Bronze / Bronze LATIN SOLO Samba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "rounds": [
-        "Semi-final"
-      ],
-      "number": "",
-      "names": "Pan, Serena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 758",
-      "event": "A-JR Bronze / Bronze LATIN SOLO Rumba",
-      "placement": "",
-      "reachedRound": "Semi-final",
-      "rounds": [
-        "Semi-final"
-      ],
-      "number": "",
-      "names": "Pan, Serena",
-      "dancePlacements": {}
-    },
-    {
-      "heat": "Heat 771",
-      "event": "A-15- Bronze / Bronze LATIN SOLO (C/R/S)",
-      "placement": "",
-      "reachedRound": "First Round",
-      "rounds": [
-        "First Round",
-        "First Round"
-      ],
-      "number": "",
-      "names": "Pan, Serena",
       "dancePlacements": {}
     }
   ],
@@ -126895,18 +126931,6 @@
       "names": "Klopotovska/Ciobanu",
       "dancePlacements": {
         "P": "1",
-        "J": "1"
-      }
-    }
-  ],
-  "397-EliteDanceStudio": [
-    {
-      "heat": "Heat 749",
-      "event": "A-19+ Argent / Silver LATIN SOLO Jive",
-      "placement": "1",
-      "number": "",
-      "names": "397-EliteDanceStudio",
-      "dancePlacements": {
         "J": "1"
       }
     }
