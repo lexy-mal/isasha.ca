@@ -28,10 +28,14 @@ from config import get_output_dir
 # categories() below exists specifically to catch the two drifting apart
 # (a code the UI can't classify shows up as a validation error here).
 AGE_CATEGORY_CODES = {
-    'JV1', 'JV2', 'JV', 'JR1', 'JR2', 'JR', '15', 'YTH', 'Y', '16',
-    'U21', 'YO', '19', 'AD', 'AD1', 'AD2', 'AD3', 'AD4', 'AD5', '36', '50',
+    'JV1', 'JV2', 'JV', 'JR1', 'JR2', 'JR', '6U', '7U', '7', '9U', '11U', 'U12',
+    '15', '15U', 'YTH', 'Y', '12', '16', 'U21', 'YO', '19', 'AD', 'AD1', 'AD2',
+    'AD3', 'AD4', 'AD5', '30', '36', '40', '50',
 }
-SKILL_LEVEL_CODES = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU'}
+SKILL_LEVEL_CODES = {
+    'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD',
+    'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'JN', 'JN1', 'JN2', 'S1', 'S2', 'S3',
+}
 
 CODE_RE = re.compile(r'^[A-Z]+-([A-Za-z0-9]*)')
 

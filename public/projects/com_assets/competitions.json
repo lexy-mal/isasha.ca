@@ -15,6 +15,20 @@
       "archived": false
     },
     {
+      "id": "canamgala2026",
+      "name": "CAN-AM DanceSport Gala 2026",
+      "description": "CAN-AM DanceSport Gala Competition 2026",
+      "entryListUrl": "https://www.comp-mngr.com/canamgala2026/canamgala2026_HeatLists.htm",
+      "heatListUrl": "https://www.comp-mngr.com/canamgala2026/canamgala2026_HeatLists.htm",
+      "resultsIndexUrl": "https://www.comp-mngr.com/canamgala2026/canamgala2026_ScoresheetsByPerson.htm",
+      "resultsDataFile": "<root>/canamgala2026/canamgala2026_scoresheetsbyperson.dat",
+      "resultsDatUrl": "https://www.comp-mngr.com/canamgala2026/canamgala2026_scoresheetsbyperson.dat",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-11",
+      "hasResults": false,
+      "archived": false
+    },
+    {
       "id": "impercup2026",
       "name": "Imperial Cup 2026",
       "description": "Imperial Cup Dancesport Championships 2026",

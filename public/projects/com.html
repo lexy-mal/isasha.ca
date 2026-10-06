@@ -1376,9 +1376,11 @@
             '6U':  { label: '6 & Under', minAge: 0, maxAge: 6 },
             '7U':  { label: '7 & Under', minAge: 0, maxAge: 7 },
             '7':   { label: 'Ages 7–11', minAge: 7, maxAge: 11 },
+            '9U':  { label: '9 & Under', minAge: 0, maxAge: 9 },
             '11U': { label: '11 & Under', minAge: 0, maxAge: 11 },
             U12:   { label: 'Under 12', minAge: 0, maxAge: 12 },
             '15': { label: '15 & Under', minAge: 0, maxAge: 15 },
+            '15U': { label: '15 & Under', minAge: 0, maxAge: 15 },
             YTH: { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
             Y:   { label: 'Youth — Ages 16–18', minAge: 16, maxAge: 18 },
             '12': { label: '12 & Over', minAge: 12 },
@@ -1403,7 +1405,13 @@
         // every letter co-occurs with every proficiency (Bronze, Silver, Gold alike), so
         // they encode neither age nor skill. PD ("AC-PD Amateur Pre-Bronze ...") sits in
         // the same slot with no published meaning. See AGE_CATEGORIES.md.
-        const SKILL_LEVEL_CODES = new Set(['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD']);
+        // A1/A2/B1/B2/C1/C2/JN/JN1/JN2/S1/S2/S3 (canamgala2026) same story: each
+        // co-occurs with Bronze, Silver, AND Gold under the identical code, so they're
+        // CAN-AM's own block/section codes, not a skill ladder — excluded the same way.
+        const SKILL_LEVEL_CODES = new Set([
+            'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD',
+            'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'JN', 'JN1', 'JN2', 'S1', 'S2', 'S3'
+        ]);
 
         function getEventAgeCategory(eventName) {
             const match = eventName.match(/^[A-Z]+-([A-Za-z0-9]*)/);

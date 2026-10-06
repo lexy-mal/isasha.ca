@@ -58,6 +58,8 @@ under, `A-16+` = 16 and over).
 | `36` | `A-36+` | 36 & Over | 36+ |
 | `40` | `AC-40+` | 40 & Over | 40+ |
 | `50` | `A-50+` | 50 & Over | 50+ |
+| `9U` | `A-9U` | 9 & Under | 0–9 |
+| `15U` | `AC-15U` | 15 & Under | 0–15 |
 
 **Important:** the numeric codes and the named brackets (`JV1`...`AD5`) are two
 *different, parallel* systems used for different event families — they don't nest
@@ -87,6 +89,15 @@ but are excluded from the age filter/sort (`SKILL_LEVEL_CODES` in `com.html`).
 
 `PD` (e.g. `AC-PD Amateur Pre-Bronze LATIN Jive`) has no published meaning either
 — possibly Para Dance. Excluded rather than guessed.
+
+> **canamgala2026 adds a second family in this same slot:** `A1`, `A2`, `B1`,
+> `B2`, `C1`, `C2`, `JN`, `JN1`, `JN2`, `S1`, `S2`, `S3`. Cross-tabulated against
+> the proficiency words in the event text exactly like the `A`–`H` check above —
+> same result: every one of these co-occurs with Bronze, Silver, **and** Gold
+> under the identical code (e.g. `B1` events include both "Closed Full Bronze"
+> and "Closed Interm. Silver" text). They are CAN-AM Gala's own block/section
+> codes, not a skill ladder, so they're excluded the same way `A`–`H` are.
+> Real meaning unconfirmed — don't reuse this set as a skill filter.
 
 ## Events with no code at all
 
