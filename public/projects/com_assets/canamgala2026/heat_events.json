@@ -144,6 +144,17 @@
   },
   {
     "heat": "Heat 4",
+    "event": "G-B2 Open Bronze CLUB Salsa",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:04AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 4",
     "event": "L-A1 Closed Newcomer CLUB Salsa",
     "session": "Session 1 - Friday Daytime",
     "time": "09:04AM Friday",
@@ -228,6 +239,28 @@
     "competitors": [
       "Cascaval, Vlad",
       "Kemball, Edith"
+    ]
+  },
+  {
+    "heat": "Heat 7",
+    "event": "G-B1 Open Bronze CLUB Hustle",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:08AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 7",
+    "event": "G-C1 Closed Pre Silver CLUB Hustle",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:08AM Friday",
+    "awards": null,
+    "competitors": [
+      "Horwood, John",
+      "Pastukh, Kateryna"
     ]
   },
   {
@@ -485,6 +518,17 @@
   },
   {
     "heat": "Heat 16",
+    "event": "G-B2 Open Bronze CLUB Bachata",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:20AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 16",
     "event": "L-B1 Closed Newcomer CLUB Bachata",
     "session": "Session 1 - Friday Daytime",
     "time": "09:20AM Friday",
@@ -639,6 +683,17 @@
   },
   {
     "heat": "Heat 22",
+    "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:29AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 22",
     "event": "L-B1 Closed Interm. Bronze Proficiency CLUB West Coast Swing",
     "session": "Session 1 - Friday Daytime",
     "time": "09:29AM Friday",
@@ -668,6 +723,17 @@
     "competitors": [
       "Cascaval, Vlad",
       "Kemball, Edith"
+    ]
+  },
+  {
+    "heat": "Heat 24",
+    "event": "G-B2 Open Bronze CLUB Hustle",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:31AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
     ]
   },
   {
@@ -1045,6 +1111,17 @@
   },
   {
     "heat": "Heat 42",
+    "event": "G-A2 Open Bronze CLUB Hustle",
+    "session": "Session 1 - Friday Daytime",
+    "time": "09:56AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 42",
     "event": "G-C2 Closed Pre Silver Proficiency CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "09:56AM Friday",
@@ -1344,6 +1421,17 @@
   },
   {
     "heat": "Heat 54",
+    "event": "G-B2 Open Bronze CLUB West Coast Swing",
+    "session": "Session 1 - Friday Daytime",
+    "time": "10:13AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 54",
     "event": "L-B1 Closed Full Bronze Proficiency CLUB West Coast Swing",
     "session": "Session 1 - Friday Daytime",
     "time": "10:13AM Friday",
@@ -1449,6 +1537,19 @@
   },
   {
     "heat": "Heat 60",
+    "event": "G-B2 Open Pre Silver CLUB Hustle",
+    "session": "Session 1 - Friday Daytime",
+    "time": "10:21AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Horwood, John",
+      "Pastukh, Kateryna",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 60",
     "event": "G-C1 Closed Full Bronze Proficiency CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "10:21AM Friday",
@@ -1456,17 +1557,6 @@
     "competitors": [
       "Daepp, Raymond",
       "Jacques-Tran, Jocelyn"
-    ]
-  },
-  {
-    "heat": "Heat 60",
-    "event": "G-C1 Closed Pre Silver CLUB Hustle",
-    "session": "Session 1 - Friday Daytime",
-    "time": "10:21AM Friday",
-    "awards": null,
-    "competitors": [
-      "Horwood, John",
-      "Pastukh, Kateryna"
     ]
   },
   {
@@ -1794,22 +1884,9 @@
   },
   {
     "heat": "Heat 74",
-    "event": "L-B1 Closed Full Bronze CLUB Bachata",
-    "session": "Session 1 - Friday Daytime",
-    "time": "10:40AM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Gordon, Tyler",
-      "Horton, Sara",
-      "St. James, Kimberly"
-    ]
-  },
-  {
-    "heat": "Heat 75",
     "event": "G-B2 Closed Interm. Silver CLUB West Coast Swing",
     "session": "Session 1 - Friday Daytime",
-    "time": "10:42AM Friday",
+    "time": "10:40AM Friday",
     "awards": null,
     "competitors": [
       "Benson, Marty",
@@ -1817,10 +1894,10 @@
     ]
   },
   {
-    "heat": "Heat 75",
+    "heat": "Heat 74",
     "event": "L-B1 Closed Pre Bronze Proficiency CLUB West Coast Swing",
     "session": "Session 1 - Friday Daytime",
-    "time": "10:42AM Friday",
+    "time": "10:40AM Friday",
     "awards": null,
     "competitors": [
       "Branham, James",
@@ -1828,10 +1905,10 @@
     ]
   },
   {
-    "heat": "Heat 76",
+    "heat": "Heat 75",
     "event": "G-B2 Closed Interm. Silver CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
-    "time": "10:43AM Friday",
+    "time": "10:42AM Friday",
     "awards": null,
     "competitors": [
       "Benson, Marty",
@@ -1841,10 +1918,10 @@
     ]
   },
   {
-    "heat": "Heat 76",
+    "heat": "Heat 75",
     "event": "G-C2 Closed Interm. Silver Proficiency CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
-    "time": "10:43AM Friday",
+    "time": "10:42AM Friday",
     "awards": null,
     "competitors": [
       "Daepp, Raymond",
@@ -1852,8 +1929,43 @@
     ]
   },
   {
+    "heat": "Heat 76A",
+    "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
+    "session": "Session 1 - Friday Daytime",
+    "time": "10:45AM Friday",
+    "awards": null,
+    "competitors": [
+      "Benson, Marty",
+      "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 76",
+    "event": "L-B1 Closed Full Bronze CLUB Bachata",
+    "session": "Session 1 - Friday Daytime",
+    "time": "10:43AM Friday",
+    "awards": null,
+    "competitors": [
+      "Branham, James",
+      "Gordon, Tyler",
+      "Horton, Sara",
+      "St. James, Kimberly"
+    ]
+  },
+  {
+    "heat": "Heat 76A",
+    "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
+    "session": "Session 1 - Friday Daytime",
+    "time": "10:45AM Friday",
+    "awards": null,
+    "competitors": [
+      "Branham, James",
+      "Horton, Sara"
+    ]
+  },
+  {
     "heat": "Heat 77",
-    "event": "G-B1 Open Bronze CLUB Hustle",
+    "event": "G-B1 Open Pre Silver CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "10:45AM Friday",
     "awards": null,
@@ -2007,17 +2119,6 @@
   },
   {
     "heat": "Heat 81",
-    "event": "G-B2 Open Bronze CLUB Bachata",
-    "session": "Session 1 - Friday Daytime",
-    "time": "10:50AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 81",
     "event": "L-B1 Open Pre Bronze CLUB Bachata",
     "session": "Session 1 - Friday Daytime",
     "time": "10:50AM Friday",
@@ -2069,17 +2170,6 @@
     "competitors": [
       "Ellis, Patricia",
       "Levit, Sharon"
-    ]
-  },
-  {
-    "heat": "Heat 84",
-    "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
-    "session": "Session 1 - Friday Daytime",
-    "time": "10:54AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
     ]
   },
   {
@@ -2264,17 +2354,6 @@
   },
   {
     "heat": "Heat 91",
-    "event": "G-B2 Open Bronze CLUB Hustle",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:04AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 91",
     "event": "G-B2 Open Silver CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "11:04AM Friday",
@@ -2352,17 +2431,6 @@
   },
   {
     "heat": "Heat 93",
-    "event": "G-A2 Open Bronze CLUB Hustle",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:07AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 93",
     "event": "G-C1 Open Silver CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "11:07AM Friday",
@@ -2392,17 +2460,6 @@
     "competitors": [
       "Cascaval, Vlad",
       "Kemball, Edith"
-    ]
-  },
-  {
-    "heat": "Heat 94",
-    "event": "G-B2 Open Bronze CLUB West Coast Swing",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:08AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
     ]
   },
   {
@@ -2684,19 +2741,6 @@
   },
   {
     "heat": "Heat 103",
-    "event": "G-B2 Open Pre Silver CLUB Hustle",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:21AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Horwood, John",
-      "Pastukh, Kateryna",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 103",
     "event": "L-B1 Open Bronze Proficiency CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "11:21AM Friday",
@@ -2730,17 +2774,6 @@
   },
   {
     "heat": "Heat 105",
-    "event": "G-B1 Open Pre Silver CLUB Hustle",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:23AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 105",
     "event": "G-C1 Open Pre Silver CLUB Hustle",
     "session": "Session 1 - Friday Daytime",
     "time": "11:23AM Friday",
@@ -2770,17 +2803,6 @@
     "competitors": [
       "Artemenko, Kamila",
       "Dewar, Jason"
-    ]
-  },
-  {
-    "heat": "Heat 106",
-    "event": "G-B2 Open Bronze CLUB Salsa",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:25AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
     ]
   },
   {
@@ -2872,32 +2894,10 @@
     ]
   },
   {
-    "heat": "Heat 109",
-    "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:35AM Friday",
-    "awards": null,
-    "competitors": [
-      "Benson, Marty",
-      "Safonova, Alina"
-    ]
-  },
-  {
-    "heat": "Heat 109",
-    "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
-    "session": "Session 1 - Friday Daytime",
-    "time": "11:35AM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
-    ]
-  },
-  {
     "heat": "Heat 110",
     "event": "L-C Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
     "session": "Session 1 - Friday Daytime",
-    "time": "11:38AM Friday",
+    "time": "11:35AM Friday",
     "awards": null,
     "competitors": [
       "Branham, James",
@@ -2910,7 +2910,7 @@
     "heat": "Heat 111",
     "event": "L-S1 Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
     "session": "Session 1 - Friday Daytime",
-    "time": "11:43AM Friday",
+    "time": "11:40AM Friday",
     "awards": null,
     "competitors": [
       "Goldberger, Andrea",
@@ -3306,7 +3306,7 @@
     "time": "12:16PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -3396,7 +3396,7 @@
     "time": "12:17PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -3486,7 +3486,7 @@
     "time": "12:18PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -3611,7 +3611,7 @@
     "competitors": [
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet"
     ]
   },
@@ -3681,7 +3681,7 @@
     "competitors": [
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet"
     ]
   },
@@ -3751,7 +3751,7 @@
     "competitors": [
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet"
     ]
   },
@@ -4128,7 +4128,7 @@
     "competitors": [
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet"
     ]
   },
@@ -4197,7 +4197,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -4278,7 +4278,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -4359,7 +4359,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -4466,7 +4466,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -4536,7 +4536,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -4606,7 +4606,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -4711,7 +4711,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -4772,7 +4772,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -4833,7 +4833,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -5182,7 +5182,7 @@
     "time": "12:54PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -5225,7 +5225,7 @@
     "time": "12:56PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -5268,7 +5268,7 @@
     "time": "12:57PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -5343,7 +5343,7 @@
       "Hill, Gladys",
       "Lisovolenko, Stanislav",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -5395,7 +5395,7 @@
       "Hill, Gladys",
       "Lisovolenko, Stanislav",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -5447,7 +5447,7 @@
       "Hill, Gladys",
       "Lisovolenko, Stanislav",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -5495,7 +5495,7 @@
       "Hill, Gladys",
       "Lisovolenko, Stanislav",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -5571,7 +5571,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -5632,7 +5632,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -5682,7 +5682,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -5714,7 +5714,7 @@
     "time": "01:10PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -5818,7 +5818,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -5899,7 +5899,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -5980,7 +5980,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -6037,7 +6037,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -6132,7 +6132,7 @@
     "time": "01:21PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -6193,7 +6193,7 @@
       "Hill, Gladys",
       "Horwood, Rebecca",
       "Kolesnikov, Valentin",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -6219,7 +6219,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -6449,7 +6449,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -6683,7 +6683,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -6707,7 +6707,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -6768,7 +6768,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -6829,7 +6829,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -6905,7 +6905,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -6982,7 +6982,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -7046,7 +7046,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -7110,7 +7110,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -7242,7 +7242,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7302,7 +7302,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7362,7 +7362,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7395,7 +7395,7 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zatylny, Wendy"
     ]
@@ -7490,7 +7490,7 @@
       "Lisovolenko, Stanislav",
       "Panko, Devon",
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -7551,7 +7551,7 @@
       "Lisovolenko, Stanislav",
       "Panko, Devon",
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -7612,7 +7612,7 @@
       "Lisovolenko, Stanislav",
       "Panko, Devon",
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -7744,7 +7744,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7814,7 +7814,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7826,17 +7826,6 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
-    ]
-  },
-  {
-    "heat": "Heat 190",
-    "event": "L-C2 Open Pre Silver SMOOTH Tango",
-    "session": "Session 1 - Friday Daytime",
-    "time": "02:26PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ellis, Patricia",
-      "Levit, Sharon"
     ]
   },
   {
@@ -7884,7 +7873,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -7896,17 +7885,6 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
-    ]
-  },
-  {
-    "heat": "Heat 191",
-    "event": "L-C2 Open Pre Silver SMOOTH Foxtrot",
-    "session": "Session 1 - Friday Daytime",
-    "time": "02:27PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ellis, Patricia",
-      "Levit, Sharon"
     ]
   },
   {
@@ -8024,6 +8002,17 @@
     ]
   },
   {
+    "heat": "Heat 194",
+    "event": "L-C2 Open Pre Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:31PM Friday",
+    "awards": null,
+    "competitors": [
+      "Ellis, Patricia",
+      "Levit, Sharon"
+    ]
+  },
+  {
     "heat": "Heat 195",
     "event": "G-C1 Open Silver SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
@@ -8125,7 +8114,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -8155,7 +8144,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
     ]
@@ -8185,9 +8174,20 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
+    ]
+  },
+  {
+    "heat": "Heat 199",
+    "event": "L-C2 Open Pre Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:38PM Friday",
+    "awards": null,
+    "competitors": [
+      "Ellis, Patricia",
+      "Levit, Sharon"
     ]
   },
   {
@@ -8208,7 +8208,7 @@
     "time": "02:39PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zat, Simone",
       "Zatylny, Wendy"
@@ -8256,7 +8256,7 @@
     "time": "02:41PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zat, Simone",
       "Zatylny, Wendy"
@@ -8304,7 +8304,7 @@
     "time": "02:42PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zat, Simone",
       "Zatylny, Wendy"
@@ -8391,7 +8391,7 @@
       "Gurkov, Dmytro",
       "Liang, Lisa",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zaharchuk, Janet",
       "Zat, Simone"
@@ -8441,7 +8441,7 @@
       "Gurkov, Dmytro",
       "Liang, Lisa",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zaharchuk, Janet",
       "Zat, Simone"
@@ -8480,7 +8480,7 @@
       "Gurkov, Dmytro",
       "Liang, Lisa",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zaharchuk, Janet",
       "Zat, Simone"
@@ -8531,7 +8531,7 @@
       "Gurkov, Dmytro",
       "Liang, Lisa",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet",
       "Zat, Simone"
     ]
@@ -8581,7 +8581,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -8618,7 +8618,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -8655,7 +8655,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -8859,7 +8859,7 @@
       "Johnson, Louis",
       "Panko, Devon",
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Richter, Catherine",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
@@ -8911,7 +8911,7 @@
       "Lisovolenko, Stanislav",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Streutker, Cathy",
       "Vignoul, Louise",
       "Zat, Simone"
@@ -8972,7 +8972,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -8986,7 +8986,7 @@
       "Daich, Idan",
       "Liang, Lisa",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zat, Simone"
     ]
   },
@@ -10061,7 +10061,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -10089,7 +10089,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -10126,7 +10126,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -10150,7 +10150,7 @@
       "Bartha, Anita",
       "Gurkov, Dmytro",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zaharchuk, Janet",
       "Zat, Simone"
     ]
@@ -10219,7 +10219,7 @@
     "time": "08:16PM Friday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -10236,7 +10236,7 @@
       "Liang, Lisa",
       "Muir, Corky",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zaharchuk, Janet",
       "Zat, Simone"
@@ -10263,7 +10263,7 @@
       "Gordon, Tyler",
       "Hill, Gladys",
       "Lin, Clara",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -10843,7 +10843,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -10923,7 +10923,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -11003,7 +11003,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -11240,7 +11240,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -11312,7 +11312,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -11373,7 +11373,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -11440,7 +11440,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -11785,7 +11785,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -12221,7 +12221,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -12282,7 +12282,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -12343,7 +12343,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -12672,7 +12672,7 @@
     "time": "09:49AM Saturday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -12742,7 +12742,7 @@
     "time": "09:51AM Saturday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -12812,7 +12812,7 @@
     "time": "09:52AM Saturday",
     "awards": null,
     "competitors": [
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -12909,7 +12909,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -12998,7 +12998,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13059,7 +13059,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13120,7 +13120,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13264,7 +13264,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13314,7 +13314,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13364,7 +13364,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -13375,7 +13375,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -14137,7 +14137,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -14159,7 +14159,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -14232,7 +14232,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -14305,7 +14305,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -14378,7 +14378,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -14583,7 +14583,7 @@
       "Gallea, Sheila",
       "Hill, Gladys",
       "Lourenco, Carlos",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -14629,7 +14629,7 @@
       "Gallea, Sheila",
       "Hill, Gladys",
       "Lourenco, Carlos",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -14675,7 +14675,7 @@
       "Gallea, Sheila",
       "Hill, Gladys",
       "Lourenco, Carlos",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -14757,7 +14757,7 @@
       "Johnson, Louis",
       "Ocheret, Artem",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
@@ -14798,7 +14798,7 @@
       "Johnson, Louis",
       "Ocheret, Artem",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
@@ -14839,7 +14839,7 @@
       "Johnson, Louis",
       "Ocheret, Artem",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
@@ -14900,7 +14900,7 @@
       "Johnson, Louis",
       "Ocheret, Artem",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
@@ -14972,7 +14972,7 @@
       "Johnson, Louis",
       "Ocheret, Artem",
       "Pomerance, Sheryl",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zaharchuk, Janet"
@@ -15208,7 +15208,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -15258,7 +15258,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
@@ -15889,7 +15889,7 @@
     "competitors": [
       "Ducharme, Luanne",
       "Panko, Devon",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -15948,7 +15948,7 @@
     "competitors": [
       "Ducharme, Luanne",
       "Panko, Devon",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -16007,7 +16007,7 @@
     "competitors": [
       "Ducharme, Luanne",
       "Panko, Devon",
-      "Radar, Chris",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
       "Zatylny, Wendy"
@@ -16218,7 +16218,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -16268,7 +16268,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -16318,7 +16318,7 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -16473,7 +16473,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Vignoul, Louise",
       "Zat, Simone",
@@ -16523,7 +16523,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Vignoul, Louise",
       "Zat, Simone",
@@ -16573,7 +16573,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Vignoul, Louise",
       "Zat, Simone",
@@ -16868,7 +16868,7 @@
       "Ducharme, Luanne",
       "Horton, Sara",
       "Panko, Devon",
-      "Radar, Chris",
+      "Rader, Chris",
       "Zatylny, Wendy"
     ]
   },
@@ -16927,7 +16927,7 @@
       "Hill, Gladys",
       "Horwood, Rebecca",
       "Kolesnikov, Valentin",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -17056,7 +17056,7 @@
     "awards": null,
     "competitors": [
       "Hill, Gladys",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -17376,7 +17376,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17400,7 +17400,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17437,7 +17437,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17586,7 +17586,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17610,7 +17610,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17656,7 +17656,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17885,7 +17885,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17909,7 +17909,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17932,7 +17932,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -17955,7 +17955,7 @@
     "competitors": [
       "Chai, Nadia",
       "Muir, Corky",
-      "Radar, Chris",
+      "Rader, Chris",
       "Studenny, Daniel"
     ]
   },
@@ -17978,7 +17978,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18127,7 +18127,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18139,17 +18139,6 @@
     "competitors": [
       "Holtham, Helen",
       "Panko, Devon"
-    ]
-  },
-  {
-    "heat": "Heat 481",
-    "event": "L-S3 Closed Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "03:13PM Saturday",
-    "awards": null,
-    "competitors": [
-      "Ellis, Patricia",
-      "Levit, Sharon"
     ]
   },
   {
@@ -18390,11 +18379,11 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18416,11 +18405,11 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18455,11 +18444,11 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18483,11 +18472,11 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18513,7 +18502,7 @@
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18539,7 +18528,7 @@
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18563,7 +18552,7 @@
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18633,7 +18622,7 @@
       "Ducharme, Luanne",
       "Muir, Corky",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18657,7 +18646,7 @@
       "Ducharme, Luanne",
       "Muir, Corky",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18668,7 +18657,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Plourde, Marie-Andree"
     ]
@@ -18694,7 +18683,7 @@
       "Ducharme, Luanne",
       "Muir, Corky",
       "Panko, Devon",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18729,7 +18718,7 @@
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18751,7 +18740,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor"
+      "Fylymonchyk, Igor"
     ]
   },
   {
@@ -18773,7 +18762,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor"
+      "Fylymonchyk, Igor"
     ]
   },
   {
@@ -18817,7 +18806,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor"
+      "Fylymonchyk, Igor"
     ]
   },
   {
@@ -18839,7 +18828,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Messier, Jean-Francois",
       "Plourde, Marie-Andree"
     ]
@@ -18942,7 +18931,7 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor"
+      "Fylymonchyk, Igor"
     ]
   },
   {
@@ -18977,7 +18966,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -18991,6 +18980,17 @@
       "Panko, Devon",
       "Shum, Josephine",
       "Studenny, Daniel"
+    ]
+  },
+  {
+    "heat": "Heat 520",
+    "event": "L-S3 Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "04:33PM Saturday",
+    "awards": null,
+    "competitors": [
+      "Ellis, Patricia",
+      "Levit, Sharon"
     ]
   },
   {
@@ -19036,7 +19036,7 @@
     "awards": null,
     "competitors": [
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -19130,7 +19130,7 @@
       "Gurkov, Dmytro",
       "Hill, Gladys",
       "Horwood, Rebecca",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -19141,7 +19141,7 @@
     "awards": null,
     "competitors": [
       "Perras, Isabelle",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -19259,7 +19259,7 @@
     "awards": null,
     "competitors": [
       "Labelle, Sophie",
-      "Radar, Chris",
+      "Rader, Chris",
       "Rogotskyy, Konstantin",
       "Zatylny, Wendy"
     ]
@@ -19273,7 +19273,7 @@
     "competitors": [
       "Hill, Gladys",
       "Ocheret, Artem",
-      "Radar, Chris",
+      "Rader, Chris",
       "Vignoul, Louise",
       "Zaharchuk, Janet",
       "Zat, Simone"
@@ -19328,9 +19328,9 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Muir, Corky",
-      "Radar, Chris"
+      "Rader, Chris"
     ]
   },
   {
@@ -19358,17 +19358,6 @@
     ]
   },
   {
-    "heat": "Heat 534",
-    "event": "AC-YTH NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-    "session": "Session 4 - Saturday Evening",
-    "time": "10:06PM Saturday",
-    "awards": null,
-    "competitors": [
-      "Davidov, Elizabeth",
-      "Tsydinskyi, Mykyta"
-    ]
-  },
-  {
     "heat": "Heat 535",
     "event": "L-C NORTH AMERICAN OPEN Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
     "session": "Session 4 - Saturday Evening",
@@ -19376,12 +19365,12 @@
     "awards": null,
     "competitors": [
       "Anderson, Silvie",
-      "Fylymonchuk, Igor",
+      "Fylymonchyk, Igor",
       "Johnson, Louis",
       "Messier, Jean-Francois",
       "Muir, Corky",
       "Plourde, Marie-Andree",
-      "Radar, Chris",
+      "Rader, Chris",
       "Richter, Catherine"
     ]
   },
@@ -19477,6 +19466,28 @@
     "competitors": [
       "Mykytyn, Solomiia",
       "Prosveer, Leon"
+    ]
+  },
+  {
+    "heat": "Heat 540",
+    "event": "L-A Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "10:30AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Lysenko, Mariia",
+      "Petrov, Nathaniel"
+    ]
+  },
+  {
+    "heat": "Heat 540",
+    "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "10:30AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Motyl, Paul",
+      "Selivanov, Elizabeth"
     ]
   },
   {
@@ -19604,6 +19615,17 @@
     "competitors": [
       "Mykytyn, Solomiia",
       "Prosveer, Leon"
+    ]
+  },
+  {
+    "heat": "Heat 545",
+    "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "10:42AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Motyl, Paul",
+      "Selivanov, Elizabeth"
     ]
   },
   {
@@ -19751,6 +19773,8 @@
     "time": "10:57AM Sunday",
     "awards": null,
     "competitors": [
+      "Gruszko, Valerie",
+      "Orlov, Nikita",
       "Pinchak, Gleb",
       "Tsytsarin, Camilla"
     ]
@@ -19774,7 +19798,9 @@
     "awards": null,
     "competitors": [
       "Geler, Eliana",
-      "Ilyushenov, Andrey"
+      "Ilyushenov, Andrey",
+      "Lysenko, Mariia",
+      "Petrov, Nathaniel"
     ]
   },
   {
@@ -19784,6 +19810,8 @@
     "time": "11:02AM Sunday",
     "awards": null,
     "competitors": [
+      "Gruszko, Valerie",
+      "Orlov, Nikita",
       "Pinchak, Gleb",
       "Tsytsarin, Camilla"
     ]
@@ -19812,6 +19840,16 @@
   },
   {
     "heat": "Heat 554",
+    "event": "A-A Solo Indv. Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:05AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Selivanov, Elizabeth"
+    ]
+  },
+  {
+    "heat": "Heat 554",
     "event": "A-A Solo Indv. Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
     "session": "Session 5 - Sunday Daytime",
     "time": "11:05AM Sunday",
@@ -19828,7 +19866,29 @@
     "awards": null,
     "competitors": [
       "Barsky, Eitan",
-      "Fylymonchuk, Yaroslav"
+      "Fylymonchyk, Yaroslav",
+      "Sazanova, Nataliia"
+    ]
+  },
+  {
+    "heat": "Heat 554",
+    "event": "L-D Open Mixed-Am BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:05AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Bohuslavska, Maryna",
+      "Petrov, Nathaniel"
+    ]
+  },
+  {
+    "heat": "Heat 555",
+    "event": "A-A Solo Indv. Bronze BALLROOM 2-Dance Block 2 (F/VW)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:10AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Selivanov, Elizabeth"
     ]
   },
   {
@@ -19839,7 +19899,8 @@
     "awards": null,
     "competitors": [
       "Barsky, Eitan",
-      "Fylymonchuk, Yaroslav"
+      "Fylymonchyk, Yaroslav",
+      "Sazanova, Nataliia"
     ]
   },
   {
@@ -19872,7 +19933,8 @@
     "awards": null,
     "competitors": [
       "Barsky, Eitan",
-      "Fylymonchuk, Yaroslav"
+      "Fylymonchyk, Yaroslav",
+      "Movsessian, Nyree"
     ]
   },
   {
@@ -19895,6 +19957,17 @@
     "competitors": [
       "Motyl, Paul",
       "Mykytyn, Solomiia"
+    ]
+  },
+  {
+    "heat": "Heat 557",
+    "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:18AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Gruszko, Valerie",
+      "Orlov, Nikita"
     ]
   },
   {
@@ -19928,6 +20001,17 @@
     "competitors": [
       "Mostovoy, Sofia",
       "Rolik, Max"
+    ]
+  },
+  {
+    "heat": "Heat 557",
+    "event": "L-D Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:18AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Bohuslavska, Maryna",
+      "Petrov, Nathaniel"
     ]
   },
   {
@@ -20066,6 +20150,7 @@
     "time": "11:56AM Sunday",
     "awards": null,
     "competitors": [
+      "Iakovenko, Maya",
       "Severina-Clearwater, Valentina"
     ]
   },
@@ -20140,6 +20225,7 @@
     "time": "11:59AM Sunday",
     "awards": null,
     "competitors": [
+      "Iakovenko, Maya",
       "Severina-Clearwater, Valentina"
     ]
   },
@@ -20286,6 +20372,7 @@
       "Lin, Isabella",
       "Movshovich Fil, Isabella",
       "Pavlenko, Arya",
+      "Selivanov, Elizabeth",
       "Yang, Nora",
       "Zilevica, Ulyana"
     ]
@@ -20340,6 +20427,26 @@
   },
   {
     "heat": "Heat 568",
+    "event": "A-B1 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "12:08PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Sazanova, Nataliia"
+    ]
+  },
+  {
+    "heat": "Heat 568",
+    "event": "A-B2 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "12:08PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movsessian, Nyree"
+    ]
+  },
+  {
+    "heat": "Heat 568",
     "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "12:08PM Sunday",
@@ -20356,6 +20463,7 @@
     "awards": null,
     "competitors": [
       "Pavlenko, Arya",
+      "Selivanov, Elizabeth",
       "Zilevica, Ulyana"
     ]
   },
@@ -20417,6 +20525,26 @@
       "Chen, Lavin",
       "Plekh, Angelina",
       "Yang-Muhlbacher, Andrew"
+    ]
+  },
+  {
+    "heat": "Heat 570",
+    "event": "A-B1 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "12:16PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Sazanova, Nataliia"
+    ]
+  },
+  {
+    "heat": "Heat 570",
+    "event": "A-B2 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "12:16PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movsessian, Nyree"
     ]
   },
   {
@@ -20540,6 +20668,17 @@
   },
   {
     "heat": "Heat 574",
+    "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Cha Cha (C)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:00PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movshovich Fil, Zachary",
+      "Obouhov, Mia"
+    ]
+  },
+  {
+    "heat": "Heat 574",
     "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:00PM Sunday",
@@ -20548,8 +20687,6 @@
       "Alcalde, Adrian",
       "Geler, Eliana",
       "Ilyushenov, Andrey",
-      "Movshovich Fil, Zachary",
-      "Obouhov, Mia",
       "Tsytsarin, Camilla"
     ]
   },
@@ -20599,6 +20736,17 @@
   },
   {
     "heat": "Heat 576",
+    "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Rumba (R)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:03PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movshovich Fil, Zachary",
+      "Obouhov, Mia"
+    ]
+  },
+  {
+    "heat": "Heat 576",
     "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:03PM Sunday",
@@ -20607,8 +20755,6 @@
       "Alcalde, Adrian",
       "Geler, Eliana",
       "Ilyushenov, Andrey",
-      "Movshovich Fil, Zachary",
-      "Obouhov, Mia",
       "Tsytsarin, Camilla"
     ]
   },
@@ -20636,6 +20782,17 @@
   },
   {
     "heat": "Heat 577",
+    "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Jive (J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:05PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movshovich Fil, Zachary",
+      "Obouhov, Mia"
+    ]
+  },
+  {
+    "heat": "Heat 577",
     "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:05PM Sunday",
@@ -20644,8 +20801,6 @@
       "Alcalde, Adrian",
       "Geler, Eliana",
       "Ilyushenov, Andrey",
-      "Movshovich Fil, Zachary",
-      "Obouhov, Mia",
       "Tsytsarin, Camilla"
     ]
   },
@@ -20948,6 +21103,17 @@
   },
   {
     "heat": "Heat 588",
+    "event": "L-A Mixed-Am Pre-Bronze 1 LATIN 3-Dance Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:26PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Movshovich Fil, Zachary",
+      "Obouhov, Mia"
+    ]
+  },
+  {
+    "heat": "Heat 588",
     "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:26PM Sunday",
@@ -20956,9 +21122,9 @@
       "Alcalde, Adrian",
       "Geler, Eliana",
       "Ilyushenov, Andrey",
-      "Movshovich Fil, Zachary",
-      "Obouhov, Mia",
+      "Lysenko, Mariia",
       "Pan, Nicolas",
+      "Petrov, Nathaniel",
       "Tsytsarin, Camilla",
       "Yang, Nora"
     ]
@@ -21074,6 +21240,17 @@
   },
   {
     "heat": "Heat 592",
+    "event": "AC-JN2 Amateur Open LATIN Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:44PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
+    ]
+  },
+  {
+    "heat": "Heat 592",
     "event": "AC-JN2 Amateur Silver LATIN Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:44PM Sunday",
@@ -21094,6 +21271,17 @@
       "Guenis, Tamir",
       "Yang-Muhlbacher, Andrew",
       "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "Heat 593",
+    "event": "AC-JN2 Amateur Open LATIN Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:49PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
     ]
   },
   {
@@ -21233,6 +21421,17 @@
   },
   {
     "heat": "Heat 597",
+    "event": "L-A Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:03PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Lysenko, Mariia",
+      "Petrov, Nathaniel"
+    ]
+  },
+  {
+    "heat": "Heat 597",
     "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "02:03PM Sunday",
@@ -21240,8 +21439,10 @@
     "competitors": [
       "Ivanov, Pavel",
       "Ligachyova, Isabella",
+      "Motyl, Paul",
       "Movshovich Fil, Isabella",
       "Pan, Nicolas",
+      "Selivanov, Elizabeth",
       "Tretiak, Viacheslav",
       "Yang, Nora"
     ]
@@ -21270,24 +21471,15 @@
   },
   {
     "heat": "Heat 598",
-    "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
-    "session": "Session 5 - Sunday Daytime",
-    "time": "02:08PM Sunday",
-    "awards": null,
-    "competitors": [
-      "Motyl, Paul",
-      "Mykytyn, Solomiia"
-    ]
-  },
-  {
-    "heat": "Heat 598",
     "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "02:08PM Sunday",
     "awards": null,
     "competitors": [
       "Blackburn, Ryan",
-      "Crowe, Callista"
+      "Crowe, Callista",
+      "Gruszko, Valerie",
+      "Orlov, Nikita"
     ]
   },
   {
@@ -21299,6 +21491,17 @@
     "competitors": [
       "Pinchak, Gleb",
       "Tsytsarin, Camilla"
+    ]
+  },
+  {
+    "heat": "Heat 598",
+    "event": "AC-JN1 Amateur Open LATIN Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:08PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
     ]
   },
   {
@@ -21325,24 +21528,26 @@
   },
   {
     "heat": "Heat 599",
-    "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
-    "session": "Session 5 - Sunday Daytime",
-    "time": "02:13PM Sunday",
-    "awards": null,
-    "competitors": [
-      "Motyl, Paul",
-      "Mykytyn, Solomiia"
-    ]
-  },
-  {
-    "heat": "Heat 599",
     "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 2 (P/J)",
     "session": "Session 5 - Sunday Daytime",
     "time": "02:13PM Sunday",
     "awards": null,
     "competitors": [
       "Blackburn, Ryan",
-      "Crowe, Callista"
+      "Crowe, Callista",
+      "Gruszko, Valerie",
+      "Orlov, Nikita"
+    ]
+  },
+  {
+    "heat": "Heat 599",
+    "event": "AC-JN1 Amateur Open LATIN Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:13PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
     ]
   },
   {
@@ -21354,6 +21559,17 @@
     "competitors": [
       "Anastasova, Sofiia",
       "Reznik, Jonathan"
+    ]
+  },
+  {
+    "heat": "Heat 600",
+    "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:16PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Motyl, Paul",
+      "Mykytyn, Solomiia"
     ]
   },
   {
@@ -21431,6 +21647,17 @@
     "competitors": [
       "Movshovich Fil, Zachary",
       "Teplitskiy, Sophie"
+    ]
+  },
+  {
+    "heat": "Heat 602",
+    "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:25PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Motyl, Paul",
+      "Mykytyn, Solomiia"
     ]
   },
   {
@@ -21515,6 +21742,39 @@
       "Tsolakidis, Isabella",
       "Zhelasko, Danny",
       "Zhu, Ethan"
+    ]
+  },
+  {
+    "heat": "Heat 605",
+    "event": "AC-15U Amateur Open LATIN Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:40PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
+    ]
+  },
+  {
+    "heat": "Heat 605",
+    "event": "AC-15U Amateur Open LATIN Block 2 (P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:40PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Hartung, Lea",
+      "Nor-Arevian, Arsene"
+    ]
+  },
+  {
+    "heat": "Heat 605",
+    "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:40PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Gruszko, Valerie",
+      "Orlov, Nikita"
     ]
   },
   {

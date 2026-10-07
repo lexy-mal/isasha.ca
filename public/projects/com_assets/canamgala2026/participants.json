@@ -522,7 +522,7 @@
         "event": "L-B1 Open Silver BALLROOM Waltz",
         "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -530,7 +530,7 @@
         "event": "L-B1 Open Silver BALLROOM Tango",
         "time": "03:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -538,7 +538,7 @@
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
         "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -546,7 +546,7 @@
         "event": "L-B1 Open Gold BALLROOM Waltz",
         "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -554,7 +554,7 @@
         "event": "L-B1 Open Gold BALLROOM Viennese Waltz",
         "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -562,7 +562,7 @@
         "event": "L-B1 Open Gold Advanced BALLROOM Waltz",
         "time": "04:14PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -570,7 +570,7 @@
         "event": "L-B1 Open Gold Advanced BALLROOM Tango",
         "time": "04:16PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -578,7 +578,7 @@
         "event": "L-B1 Open Gold Advanced BALLROOM Foxtrot",
         "time": "04:18PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -586,7 +586,7 @@
         "event": "L-B1 Open Gold BALLROOM Quickstep",
         "time": "04:20PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -594,7 +594,7 @@
         "event": "L-B1 Open Gold Advanced BALLROOM Quickstep",
         "time": "04:27PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -602,7 +602,7 @@
         "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
         "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       },
       {
@@ -610,7 +610,7 @@
         "event": "L-C NORTH AMERICAN OPEN Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
         "time": "10:15PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Fylymonchuk, Igor",
+        "partner": "Fylymonchyk, Igor",
         "awards": null
       }
     ]
@@ -2434,6 +2434,22 @@
         "awards": null
       },
       {
+        "heat": "Heat 4",
+        "event": "G-B2 Open Bronze CLUB Salsa",
+        "time": "09:04AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 7",
+        "event": "G-B1 Open Bronze CLUB Hustle",
+        "time": "09:08AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
         "heat": "Heat 9",
         "event": "G-B2 Closed Pre Silver CLUB Bachata",
         "time": "09:11AM Friday",
@@ -2445,6 +2461,30 @@
         "heat": "Heat 12",
         "event": "G-B2 Closed Interm. Silver CLUB Bachata",
         "time": "09:15AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 16",
+        "event": "G-B2 Open Bronze CLUB Bachata",
+        "time": "09:20AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 22",
+        "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
+        "time": "09:29AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 24",
+        "event": "G-B2 Open Bronze CLUB Hustle",
+        "time": "09:31AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Safonova, Alina",
         "awards": null
@@ -2466,6 +2506,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 42",
+        "event": "G-A2 Open Bronze CLUB Hustle",
+        "time": "09:56AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
         "heat": "Heat 44",
         "event": "G-B2 Closed Interm. Silver CLUB Salsa",
         "time": "09:59AM Friday",
@@ -2482,9 +2530,25 @@
         "awards": null
       },
       {
+        "heat": "Heat 54",
+        "event": "G-B2 Open Bronze CLUB West Coast Swing",
+        "time": "10:13AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
         "heat": "Heat 57",
         "event": "G-B2 Closed Pre Silver CLUB West Coast Swing",
         "time": "10:17AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 60",
+        "event": "G-B2 Open Pre Silver CLUB Hustle",
+        "time": "10:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Safonova, Alina",
         "awards": null
@@ -2506,97 +2570,33 @@
         "awards": null
       },
       {
-        "heat": "Heat 75",
+        "heat": "Heat 74",
         "event": "G-B2 Closed Interm. Silver CLUB West Coast Swing",
+        "time": "10:40AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Safonova, Alina",
+        "awards": null
+      },
+      {
+        "heat": "Heat 75",
+        "event": "G-B2 Closed Interm. Silver CLUB Hustle",
         "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Safonova, Alina",
         "awards": null
       },
       {
-        "heat": "Heat 76",
-        "event": "G-B2 Closed Interm. Silver CLUB Hustle",
-        "time": "10:43AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 77",
-        "event": "G-B1 Open Bronze CLUB Hustle",
+        "heat": "Heat 76A",
+        "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
         "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Safonova, Alina",
         "awards": null
       },
       {
-        "heat": "Heat 81",
-        "event": "G-B2 Open Bronze CLUB Bachata",
-        "time": "10:50AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 84",
-        "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
-        "time": "10:54AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 91",
-        "event": "G-B2 Open Bronze CLUB Hustle",
-        "time": "11:04AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 93",
-        "event": "G-A2 Open Bronze CLUB Hustle",
-        "time": "11:07AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 94",
-        "event": "G-B2 Open Bronze CLUB West Coast Swing",
-        "time": "11:08AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 103",
-        "event": "G-B2 Open Pre Silver CLUB Hustle",
-        "time": "11:21AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 105",
+        "heat": "Heat 77",
         "event": "G-B1 Open Pre Silver CLUB Hustle",
-        "time": "11:23AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 106",
-        "event": "G-B2 Open Bronze CLUB Salsa",
-        "time": "11:25AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Safonova, Alina",
-        "awards": null
-      },
-      {
-        "heat": "Heat 109",
-        "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
-        "time": "11:35AM Friday",
+        "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Safonova, Alina",
         "awards": null
@@ -3639,6 +3639,26 @@
       }
     ]
   },
+  "Bohuslavska, Maryna": {
+    "entries": [
+      {
+        "heat": "Heat 554",
+        "event": "L-D Open Mixed-Am BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "11:05AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557",
+        "event": "L-D Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+        "time": "11:18AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      }
+    ]
+  },
   "Borres, Cyril": {
     "entries": [
       {
@@ -3927,16 +3947,24 @@
       },
       {
         "heat": "Heat 74",
-        "event": "L-B1 Closed Full Bronze CLUB Bachata",
+        "event": "L-B1 Closed Pre Bronze Proficiency CLUB West Coast Swing",
         "time": "10:40AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horton, Sara",
         "awards": null
       },
       {
-        "heat": "Heat 75",
-        "event": "L-B1 Closed Pre Bronze Proficiency CLUB West Coast Swing",
-        "time": "10:42AM Friday",
+        "heat": "Heat 76",
+        "event": "L-B1 Closed Full Bronze CLUB Bachata",
+        "time": "10:43AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Horton, Sara",
+        "awards": null
+      },
+      {
+        "heat": "Heat 76A",
+        "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
+        "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -4142,17 +4170,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 109",
-        "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
-        "time": "11:35AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
         "heat": "Heat 110",
         "event": "L-C Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:38AM Friday",
+        "time": "11:35AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -7430,9 +7450,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 76",
+        "heat": "Heat 75",
         "event": "G-C2 Closed Interm. Silver Proficiency CLUB Hustle",
-        "time": "10:43AM Friday",
+        "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Jacques-Tran, Jocelyn",
         "awards": null
@@ -8498,14 +8518,6 @@
         "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
         "time": "10:13PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Tsydinskyi, Mykyta",
-        "awards": null
-      },
-      {
-        "heat": "Heat 534",
-        "event": "AC-YTH NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
-        "session": "Session 4 - Saturday Evening",
         "partner": "Tsydinskyi, Mykyta",
         "awards": null
       }
@@ -10846,17 +10858,17 @@
         "awards": null
       },
       {
-        "heat": "Heat 190",
+        "heat": "Heat 194",
         "event": "L-C2 Open Pre Silver SMOOTH Tango",
-        "time": "02:26PM Friday",
+        "time": "02:31PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
       },
       {
-        "heat": "Heat 191",
+        "heat": "Heat 199",
         "event": "L-C2 Open Pre Silver SMOOTH Foxtrot",
-        "time": "02:27PM Friday",
+        "time": "02:38PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
@@ -10905,14 +10917,6 @@
         "heat": "Heat 428",
         "event": "L-C2 Open Silver Country & Western West Coast Swing",
         "time": "01:43PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Levit, Sharon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 481",
-        "event": "L-S3 Closed Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
-        "time": "03:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
@@ -10988,6 +10992,14 @@
         "session": "Session 3 - Saturday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
+      },
+      {
+        "heat": "Heat 520",
+        "event": "L-S3 Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
+        "time": "04:33PM Saturday",
+        "session": "Session 3 - Saturday Daytime",
+        "partner": "Levit, Sharon",
+        "awards": null
       }
     ]
   },
@@ -11039,7 +11051,7 @@
       }
     ]
   },
-  "Fylymonchuk, Igor": {
+  "Fylymonchyk, Igor": {
     "entries": [
       {
         "heat": "Heat 493",
@@ -11139,7 +11151,7 @@
       }
     ]
   },
-  "Fylymonchuk, Yaroslav": {
+  "Fylymonchyk, Yaroslav": {
     "entries": [
       {
         "heat": "Heat 554",
@@ -11612,7 +11624,7 @@
       {
         "heat": "Heat 111",
         "event": "L-S1 Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:43AM Friday",
+        "time": "11:40AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Gordon, Tyler",
         "awards": null
@@ -12478,9 +12490,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 74",
+        "heat": "Heat 76",
         "event": "L-B1 Closed Full Bronze CLUB Bachata",
-        "time": "10:40AM Friday",
+        "time": "10:43AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "St. James, Kimberly",
         "awards": null
@@ -12640,7 +12652,7 @@
       {
         "heat": "Heat 110",
         "event": "L-C Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:38AM Friday",
+        "time": "11:35AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "St. James, Kimberly",
         "awards": null
@@ -12648,7 +12660,7 @@
       {
         "heat": "Heat 111",
         "event": "L-S1 Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:43AM Friday",
+        "time": "11:40AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Goldberger, Andrea",
         "awards": null
@@ -13583,6 +13595,58 @@
       }
     ]
   },
+  "Gruszko, Valerie": {
+    "entries": [
+      {
+        "heat": "Heat 552",
+        "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+        "time": "10:57AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 553",
+        "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+        "time": "11:02AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557",
+        "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:18AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 599",
+        "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 2 (P/J)",
+        "time": "02:13PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Orlov, Nikita",
+        "awards": null
+      }
+    ]
+  },
   "Guenis, Tamir": {
     "entries": [
       {
@@ -14275,6 +14339,58 @@
       }
     ]
   },
+  "Hartung, Lea": {
+    "entries": [
+      {
+        "heat": "Heat 592",
+        "event": "AC-JN2 Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "01:44PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      },
+      {
+        "heat": "Heat 593",
+        "event": "AC-JN2 Amateur Open LATIN Block 2 (P/J)",
+        "time": "01:49PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-JN1 Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      },
+      {
+        "heat": "Heat 599",
+        "event": "AC-JN1 Amateur Open LATIN Block 2 (P/J)",
+        "time": "02:13PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-15U Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-15U Amateur Open LATIN Block 2 (P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Nor-Arevian, Arsene",
+        "awards": null
+      }
+    ]
+  },
   "Hill, Gladys": {
     "entries": [
       {
@@ -14282,7 +14398,7 @@
         "event": "L-C1 Closed Full Silver SMOOTH Waltz",
         "time": "12:38PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14290,7 +14406,7 @@
         "event": "L-C1 Closed Full Silver SMOOTH Tango",
         "time": "12:39PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14298,7 +14414,7 @@
         "event": "L-C1 Closed Full Silver SMOOTH Foxtrot",
         "time": "12:41PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14306,7 +14422,7 @@
         "event": "L-B2 Closed Pre Silver SMOOTH Waltz",
         "time": "01:00PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14314,7 +14430,7 @@
         "event": "L-B2 Closed Pre Silver SMOOTH Tango",
         "time": "01:01PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14322,7 +14438,7 @@
         "event": "L-B2 Closed Pre Silver SMOOTH Foxtrot",
         "time": "01:03PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14330,7 +14446,7 @@
         "event": "L-B2 Closed Pre Silver SMOOTH Viennese Waltz",
         "time": "01:04PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14338,7 +14454,7 @@
         "event": "L-C1 Closed Pre Gold SMOOTH Waltz",
         "time": "01:11PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14346,7 +14462,7 @@
         "event": "L-C1 Closed Pre Gold SMOOTH Tango",
         "time": "01:12PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14354,7 +14470,7 @@
         "event": "L-C1 Closed Pre Gold SMOOTH Foxtrot",
         "time": "01:14PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14362,7 +14478,7 @@
         "event": "L-C1 Closed Full Silver SMOOTH Viennese Waltz",
         "time": "01:15PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14370,7 +14486,7 @@
         "event": "L-S2 Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "01:26PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14378,7 +14494,7 @@
         "event": "L-C1 Open Silver SMOOTH Viennese Waltz",
         "time": "01:54PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14386,7 +14502,7 @@
         "event": "L-C1 Open Pre Silver SMOOTH Viennese Waltz",
         "time": "01:59PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14394,7 +14510,7 @@
         "event": "L-C1 Open Silver SMOOTH Waltz",
         "time": "02:12PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14402,7 +14518,7 @@
         "event": "L-C1 Open Silver SMOOTH Tango",
         "time": "02:13PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14410,7 +14526,7 @@
         "event": "L-C1 Open Silver SMOOTH Foxtrot",
         "time": "02:14PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14418,7 +14534,7 @@
         "event": "L-C1 Open Pre Silver SMOOTH Waltz",
         "time": "02:24PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14426,7 +14542,7 @@
         "event": "L-C1 Open Pre Silver SMOOTH Tango",
         "time": "02:26PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14434,7 +14550,7 @@
         "event": "L-C1 Open Pre Silver SMOOTH Foxtrot",
         "time": "02:27PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14442,7 +14558,7 @@
         "event": "L-C1 Open Gold SMOOTH Waltz",
         "time": "02:50PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14450,7 +14566,7 @@
         "event": "L-C1 Open Gold SMOOTH Tango",
         "time": "02:52PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14458,7 +14574,7 @@
         "event": "L-C1 Open Gold SMOOTH Foxtrot",
         "time": "02:53PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14466,7 +14582,7 @@
         "event": "L-S2 Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "03:15PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14474,7 +14590,7 @@
         "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
         "time": "07:36PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14482,7 +14598,7 @@
         "event": "L-S2 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
         "time": "07:49PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14490,7 +14606,7 @@
         "event": "L-- Pro/Am Show Dance Championship",
         "time": "09:03PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14498,7 +14614,7 @@
         "event": "L-C1 Closed Full Silver RHYTHM Bolero",
         "time": "09:19AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14506,7 +14622,7 @@
         "event": "L-C1 Closed Full Silver RHYTHM Mambo",
         "time": "09:27AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14514,7 +14630,7 @@
         "event": "L-C1 Closed Full Silver RHYTHM Cha Cha",
         "time": "09:37AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14522,7 +14638,7 @@
         "event": "L-C1 Closed Full Silver RHYTHM Rumba",
         "time": "09:38AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14530,7 +14646,7 @@
         "event": "L-C1 Closed Full Silver RHYTHM East Coast Swing",
         "time": "09:40AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14538,7 +14654,7 @@
         "event": "L-C1 Closed Pre Gold RHYTHM Cha Cha",
         "time": "09:56AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14546,7 +14662,7 @@
         "event": "L-C1 Closed Pre Gold RHYTHM Rumba",
         "time": "09:58AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14554,7 +14670,7 @@
         "event": "L-C1 Closed Pre Gold RHYTHM East Coast Swing",
         "time": "09:59AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14562,7 +14678,7 @@
         "event": "L-C1 Closed Interm. Silver RHYTHM Cha Cha",
         "time": "10:03AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14570,7 +14686,7 @@
         "event": "L-C1 Closed Interm. Silver RHYTHM Rumba",
         "time": "10:05AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14578,7 +14694,7 @@
         "event": "L-C1 Closed Interm. Silver RHYTHM East Coast Swing",
         "time": "10:06AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14586,7 +14702,7 @@
         "event": "L-S2 Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "10:41AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14594,7 +14710,7 @@
         "event": "L-C1 Open Gold RHYTHM Cha Cha",
         "time": "11:13AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14602,7 +14718,7 @@
         "event": "L-C1 Open Gold RHYTHM Rumba",
         "time": "11:15AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14610,7 +14726,7 @@
         "event": "L-C1 Open Gold RHYTHM East Coast Swing",
         "time": "11:16AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14618,7 +14734,7 @@
         "event": "L-B2 Open Silver RHYTHM Cha Cha",
         "time": "11:20AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14626,7 +14742,7 @@
         "event": "L-B2 Open Silver RHYTHM Rumba",
         "time": "11:22AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14634,7 +14750,7 @@
         "event": "L-B2 Open Silver RHYTHM East Coast Swing",
         "time": "11:23AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14642,7 +14758,7 @@
         "event": "L-B2 Open Silver RHYTHM Bolero",
         "time": "11:25AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14650,7 +14766,7 @@
         "event": "L-B2 Open Silver RHYTHM Mambo",
         "time": "11:26AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14658,7 +14774,7 @@
         "event": "L-C1 Open Pre Silver RHYTHM Cha Cha",
         "time": "11:59AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14666,7 +14782,7 @@
         "event": "L-C1 Open Pre Silver RHYTHM Rumba",
         "time": "12:01PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14674,7 +14790,7 @@
         "event": "L-C1 Open Pre Silver RHYTHM East Coast Swing",
         "time": "12:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14682,7 +14798,7 @@
         "event": "L-S2 Open Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "12:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14690,7 +14806,7 @@
         "event": "L-C1 Full Silver New York New York",
         "time": "01:12PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14698,7 +14814,7 @@
         "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
         "time": "08:23PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -14706,7 +14822,7 @@
         "event": "L-S1 North American Pro-Am GRAND SLAM Open RHYTHM Scholarship (C/R/SW/B/M)",
         "time": "09:05PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       }
     ]
@@ -16251,16 +16367,24 @@
       },
       {
         "heat": "Heat 74",
-        "event": "L-B1 Closed Full Bronze CLUB Bachata",
+        "event": "L-B1 Closed Pre Bronze Proficiency CLUB West Coast Swing",
         "time": "10:40AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Branham, James",
         "awards": null
       },
       {
-        "heat": "Heat 75",
-        "event": "L-B1 Closed Pre Bronze Proficiency CLUB West Coast Swing",
-        "time": "10:42AM Friday",
+        "heat": "Heat 76",
+        "event": "L-B1 Closed Full Bronze CLUB Bachata",
+        "time": "10:43AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Branham, James",
+        "awards": null
+      },
+      {
+        "heat": "Heat 76A",
+        "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
+        "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -16466,17 +16590,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 109",
-        "event": "L-C Pro-Am Night Club 2-Dance Championship (HU/WC)",
-        "time": "11:35AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
         "heat": "Heat 110",
         "event": "L-C Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:38AM Friday",
+        "time": "11:35AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -17374,6 +17490,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 7",
+        "event": "G-C1 Closed Pre Silver CLUB Hustle",
+        "time": "09:08AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Pastukh, Kateryna",
+        "awards": null
+      },
+      {
         "heat": "Heat 17",
         "event": "G-C1 Closed Pre Silver Night Club 2-Step",
         "time": "09:22AM Friday",
@@ -17423,7 +17547,7 @@
       },
       {
         "heat": "Heat 60",
-        "event": "G-C1 Closed Pre Silver CLUB Hustle",
+        "event": "G-B2 Open Pre Silver CLUB Hustle",
         "time": "10:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Pastukh, Kateryna",
@@ -17438,9 +17562,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 76",
+        "heat": "Heat 75",
         "event": "G-B2 Closed Interm. Silver CLUB Hustle",
-        "time": "10:43AM Friday",
+        "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Pastukh, Kateryna",
         "awards": null
@@ -17497,14 +17621,6 @@
         "heat": "Heat 102",
         "event": "G-C1 Open Pre Silver Night Club 2-Step",
         "time": "11:19AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Pastukh, Kateryna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 103",
-        "event": "G-B2 Open Pre Silver CLUB Hustle",
-        "time": "11:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Pastukh, Kateryna",
         "awards": null
@@ -19586,6 +19702,22 @@
         "awards": null
       },
       {
+        "heat": "Heat 562",
+        "event": "A-A Open Solo Indv. LATIN Cha Cha (C)",
+        "time": "11:56AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 564",
+        "event": "A-A Open Solo Indv. LATIN Rumba (R)",
+        "time": "11:59AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
         "heat": "Heat 567",
         "event": "A-A Solo Indv. Gold LATIN 3-Dance Block 1 (C/R/S)",
         "time": "12:03PM Sunday",
@@ -20166,9 +20298,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 76",
+        "heat": "Heat 75",
         "event": "G-C2 Closed Interm. Silver Proficiency CLUB Hustle",
-        "time": "10:43AM Friday",
+        "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Daepp, Raymond",
         "awards": null
@@ -23374,17 +23506,17 @@
         "awards": null
       },
       {
-        "heat": "Heat 190",
+        "heat": "Heat 194",
         "event": "L-C2 Open Pre Silver SMOOTH Tango",
-        "time": "02:26PM Friday",
+        "time": "02:31PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
       },
       {
-        "heat": "Heat 191",
+        "heat": "Heat 199",
         "event": "L-C2 Open Pre Silver SMOOTH Foxtrot",
-        "time": "02:27PM Friday",
+        "time": "02:38PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
@@ -23433,14 +23565,6 @@
         "heat": "Heat 428",
         "event": "L-C2 Open Silver Country & Western West Coast Swing",
         "time": "01:43PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Ellis, Patricia",
-        "awards": null
-      },
-      {
-        "heat": "Heat 481",
-        "event": "L-S3 Closed Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
-        "time": "03:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
@@ -23513,6 +23637,14 @@
         "heat": "Heat 511",
         "event": "L-C2 Open Bronze BALLROOM Viennese Waltz",
         "time": "04:17PM Saturday",
+        "session": "Session 3 - Saturday Daytime",
+        "partner": "Ellis, Patricia",
+        "awards": null
+      },
+      {
+        "heat": "Heat 520",
+        "event": "L-S3 Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
+        "time": "04:33PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
@@ -24523,6 +24655,42 @@
       }
     ]
   },
+  "Lysenko, Mariia": {
+    "entries": [
+      {
+        "heat": "Heat 540",
+        "event": "L-A Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:30AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      },
+      {
+        "heat": "Heat 552",
+        "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:57AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      },
+      {
+        "heat": "Heat 588",
+        "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "01:26PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      },
+      {
+        "heat": "Heat 597",
+        "event": "L-A Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "02:03PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
+        "awards": null
+      }
+    ]
+  },
   "Maille, Suzie": {
     "entries": [
       {
@@ -24834,6 +25002,22 @@
   "Motyl, Paul": {
     "entries": [
       {
+        "heat": "Heat 540",
+        "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:30AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Elizabeth",
+        "awards": null
+      },
+      {
+        "heat": "Heat 545",
+        "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+        "time": "10:42AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Elizabeth",
+        "awards": null
+      },
+      {
         "heat": "Heat 557",
         "event": "AC-15U Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
         "time": "11:18AM Sunday",
@@ -24850,17 +25034,25 @@
         "awards": null
       },
       {
-        "heat": "Heat 598",
+        "heat": "Heat 597",
+        "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "02:03PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Elizabeth",
+        "awards": null
+      },
+      {
+        "heat": "Heat 600",
         "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
-        "time": "02:08PM Sunday",
+        "time": "02:16PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mykytyn, Solomiia",
         "awards": null
       },
       {
-        "heat": "Heat 599",
+        "heat": "Heat 602",
         "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
-        "time": "02:13PM Sunday",
+        "time": "02:25PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mykytyn, Solomiia",
         "awards": null
@@ -24871,6 +25063,34 @@
         "time": "02:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mykytyn, Solomiia",
+        "awards": null
+      }
+    ]
+  },
+  "Movsessian, Nyree": {
+    "entries": [
+      {
+        "heat": "Heat 557",
+        "event": "A-B Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+        "time": "11:18AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 568",
+        "event": "A-B2 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "12:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 570",
+        "event": "A-B2 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+        "time": "12:16PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
         "awards": null
       }
     ]
@@ -24947,7 +25167,7 @@
     "entries": [
       {
         "heat": "Heat 574",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Cha Cha (C)",
         "time": "01:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Obouhov, Mia",
@@ -24955,7 +25175,7 @@
       },
       {
         "heat": "Heat 576",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Rumba (R)",
         "time": "01:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Obouhov, Mia",
@@ -24963,7 +25183,7 @@
       },
       {
         "heat": "Heat 577",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Jive (J)",
         "time": "01:05PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Obouhov, Mia",
@@ -24987,7 +25207,7 @@
       },
       {
         "heat": "Heat 588",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN 3-Dance Block 1 (C/R/S)",
         "time": "01:26PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Obouhov, Mia",
@@ -25042,7 +25262,7 @@
         "event": "L-B2 Closed Full Silver SMOOTH Waltz",
         "time": "12:21PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25050,7 +25270,7 @@
         "event": "L-B2 Closed Full Silver SMOOTH Tango",
         "time": "12:23PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25058,7 +25278,7 @@
         "event": "L-B2 Closed Full Silver SMOOTH Foxtrot",
         "time": "12:24PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25066,7 +25286,7 @@
         "event": "L-B2 Closed Full Silver SMOOTH Viennese Waltz",
         "time": "12:31PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25074,7 +25294,7 @@
         "event": "L-B2 Closed Interm. Silver SMOOTH Waltz",
         "time": "12:43PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25082,7 +25302,7 @@
         "event": "L-B2 Closed Interm. Silver SMOOTH Tango",
         "time": "12:45PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25090,7 +25310,7 @@
         "event": "L-B2 Closed Interm. Silver SMOOTH Foxtrot",
         "time": "12:46PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25098,7 +25318,7 @@
         "event": "L-B2 Closed Pre Gold SMOOTH Waltz",
         "time": "01:05PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25106,7 +25326,7 @@
         "event": "L-B2 Closed Pre Gold SMOOTH Tango",
         "time": "01:07PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25114,7 +25334,7 @@
         "event": "L-B2 Closed Pre Gold SMOOTH Foxtrot",
         "time": "01:08PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25122,7 +25342,7 @@
         "event": "L-S1 Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "01:30PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25130,7 +25350,7 @@
         "event": "L-B2 Open Silver SMOOTH Viennese Waltz",
         "time": "02:05PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25138,7 +25358,7 @@
         "event": "L-B2 Open Pre Silver SMOOTH Waltz",
         "time": "02:06PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25146,7 +25366,7 @@
         "event": "L-B2 Open Pre Silver SMOOTH Tango",
         "time": "02:08PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25154,7 +25374,7 @@
         "event": "L-B2 Open Pre Silver SMOOTH Foxtrot",
         "time": "02:09PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25162,7 +25382,7 @@
         "event": "L-B2 Open Silver SMOOTH Waltz",
         "time": "02:35PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25170,7 +25390,7 @@
         "event": "L-B2 Open Silver SMOOTH Tango",
         "time": "02:37PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25178,7 +25398,7 @@
         "event": "L-B2 Open Silver SMOOTH Foxtrot",
         "time": "02:38PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25186,7 +25406,7 @@
         "event": "L-B2 Open Gold SMOOTH Waltz",
         "time": "02:45PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25194,7 +25414,7 @@
         "event": "L-B2 Open Gold SMOOTH Tango",
         "time": "02:46PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25202,7 +25422,7 @@
         "event": "L-B2 Open Gold SMOOTH Foxtrot",
         "time": "02:48PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25210,7 +25430,7 @@
         "event": "L-B2 Open Gold SMOOTH Viennese Waltz",
         "time": "02:49PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25218,7 +25438,7 @@
         "event": "L-S1 Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "03:10PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25226,7 +25446,7 @@
         "event": "L-S1 Open Gold Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "03:19PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25234,7 +25454,7 @@
         "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
         "time": "07:55PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25242,7 +25462,7 @@
         "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
         "time": "08:22PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25250,7 +25470,7 @@
         "event": "L-B1 Closed Pre Silver BALLROOM Waltz",
         "time": "02:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25258,7 +25478,7 @@
         "event": "L-B1 Closed Pre Silver BALLROOM Tango",
         "time": "02:01PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25266,7 +25486,7 @@
         "event": "L-B1 Closed Pre Silver BALLROOM Foxtrot",
         "time": "02:04PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25274,7 +25494,7 @@
         "event": "L-B1 Closed Full Silver BALLROOM Waltz",
         "time": "02:21PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25282,7 +25502,7 @@
         "event": "L-B1 Closed Full Silver BALLROOM Tango",
         "time": "02:22PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25290,7 +25510,7 @@
         "event": "L-B1 Closed Full Silver BALLROOM Foxtrot",
         "time": "02:25PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25298,7 +25518,7 @@
         "event": "L-B1 Closed Interm. Silver BALLROOM Waltz",
         "time": "02:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25306,7 +25526,7 @@
         "event": "L-B1 Closed Interm. Silver BALLROOM Tango",
         "time": "02:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25314,7 +25534,7 @@
         "event": "L-B1 Closed Full Silver BALLROOM Viennese Waltz",
         "time": "02:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25322,7 +25542,7 @@
         "event": "L-B1 Closed Interm. Silver BALLROOM Foxtrot",
         "time": "02:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25330,7 +25550,7 @@
         "event": "L-B1 Closed Full Silver BALLROOM Quickstep",
         "time": "02:54PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25338,7 +25558,7 @@
         "event": "L-S1 Closed Silver Pro-Am International BALLROOM 3-Dance (W/T/F)",
         "time": "03:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25346,7 +25566,7 @@
         "event": "L-B1 Open Silver BALLROOM Waltz",
         "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25354,7 +25574,7 @@
         "event": "L-B1 Open Silver BALLROOM Tango",
         "time": "03:50PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25362,7 +25582,7 @@
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
         "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25370,7 +25590,7 @@
         "event": "L-B1 Open Gold BALLROOM Waltz",
         "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25378,7 +25598,7 @@
         "event": "L-B1 Open Gold BALLROOM Tango",
         "time": "03:57PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25386,7 +25606,7 @@
         "event": "L-B1 Open Silver BALLROOM Viennese Waltz",
         "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25394,7 +25614,7 @@
         "event": "L-B1 Open Gold BALLROOM Foxtrot",
         "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25402,7 +25622,7 @@
         "event": "L-B1 Open Pre Silver BALLROOM Waltz",
         "time": "04:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25410,7 +25630,7 @@
         "event": "L-B1 Open Pre Silver BALLROOM Tango",
         "time": "04:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25418,7 +25638,7 @@
         "event": "L-B1 Open Pre Silver BALLROOM Foxtrot",
         "time": "04:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25426,7 +25646,7 @@
         "event": "L-B1 Open Silver BALLROOM Quickstep",
         "time": "04:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25434,7 +25654,7 @@
         "event": "L-S1 Open Silver Pro-Am International BALLROOM 3-Dance (W/T/F)",
         "time": "04:33PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25442,7 +25662,7 @@
         "event": "L-S1 Open Gold Pro-Am International BALLROOM 3-Dance (W/T/F)",
         "time": "04:42PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25450,7 +25670,7 @@
         "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
         "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -25458,7 +25678,7 @@
         "event": "L-C NORTH AMERICAN OPEN Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
         "time": "10:15PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       }
     ]
@@ -25514,17 +25734,17 @@
         "awards": null
       },
       {
-        "heat": "Heat 598",
+        "heat": "Heat 600",
         "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
-        "time": "02:08PM Sunday",
+        "time": "02:16PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Motyl, Paul",
         "awards": null
       },
       {
-        "heat": "Heat 599",
+        "heat": "Heat 602",
         "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
-        "time": "02:13PM Sunday",
+        "time": "02:25PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Motyl, Paul",
         "awards": null
@@ -26123,11 +26343,63 @@
       }
     ]
   },
+  "Nor-Arevian, Arsene": {
+    "entries": [
+      {
+        "heat": "Heat 592",
+        "event": "AC-JN2 Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "01:44PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      },
+      {
+        "heat": "Heat 593",
+        "event": "AC-JN2 Amateur Open LATIN Block 2 (P/J)",
+        "time": "01:49PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-JN1 Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      },
+      {
+        "heat": "Heat 599",
+        "event": "AC-JN1 Amateur Open LATIN Block 2 (P/J)",
+        "time": "02:13PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-15U Amateur Open LATIN Block 1 (C/R/S)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-15U Amateur Open LATIN Block 2 (P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Hartung, Lea",
+        "awards": null
+      }
+    ]
+  },
   "Obouhov, Mia": {
     "entries": [
       {
         "heat": "Heat 574",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Cha Cha (C)",
         "time": "01:00PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Movshovich Fil, Zachary",
@@ -26135,7 +26407,7 @@
       },
       {
         "heat": "Heat 576",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Rumba (R)",
         "time": "01:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Movshovich Fil, Zachary",
@@ -26143,7 +26415,7 @@
       },
       {
         "heat": "Heat 577",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Jive (J)",
         "time": "01:05PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Movshovich Fil, Zachary",
@@ -26151,7 +26423,7 @@
       },
       {
         "heat": "Heat 588",
-        "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "event": "L-A Mixed-Am Pre-Bronze 1 LATIN 3-Dance Block 1 (C/R/S)",
         "time": "01:26PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Movshovich Fil, Zachary",
@@ -26895,6 +27167,58 @@
         "time": "03:15PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Barclay, John",
+        "awards": null
+      }
+    ]
+  },
+  "Orlov, Nikita": {
+    "entries": [
+      {
+        "heat": "Heat 552",
+        "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+        "time": "10:57AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 553",
+        "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+        "time": "11:02AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557",
+        "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:18AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 599",
+        "event": "AC-15U Amateur Silver GRAND SLAM LATIN Block 2 (P/J)",
+        "time": "02:13PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gruszko, Valerie",
         "awards": null
       }
     ]
@@ -29362,6 +29686,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 7",
+        "event": "G-C1 Closed Pre Silver CLUB Hustle",
+        "time": "09:08AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Horwood, John",
+        "awards": null
+      },
+      {
         "heat": "Heat 17",
         "event": "G-C1 Closed Pre Silver Night Club 2-Step",
         "time": "09:22AM Friday",
@@ -29411,7 +29743,7 @@
       },
       {
         "heat": "Heat 60",
-        "event": "G-C1 Closed Pre Silver CLUB Hustle",
+        "event": "G-B2 Open Pre Silver CLUB Hustle",
         "time": "10:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horwood, John",
@@ -29426,9 +29758,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 76",
+        "heat": "Heat 75",
         "event": "G-B2 Closed Interm. Silver CLUB Hustle",
-        "time": "10:43AM Friday",
+        "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horwood, John",
         "awards": null
@@ -29485,14 +29817,6 @@
         "heat": "Heat 102",
         "event": "G-C1 Open Pre Silver Night Club 2-Step",
         "time": "11:19AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horwood, John",
-        "awards": null
-      },
-      {
-        "heat": "Heat 103",
-        "event": "G-B2 Open Pre Silver CLUB Hustle",
-        "time": "11:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Horwood, John",
         "awards": null
@@ -30255,6 +30579,58 @@
       }
     ]
   },
+  "Petrov, Nathaniel": {
+    "entries": [
+      {
+        "heat": "Heat 540",
+        "event": "L-A Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:30AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Lysenko, Mariia",
+        "awards": null
+      },
+      {
+        "heat": "Heat 552",
+        "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:57AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Lysenko, Mariia",
+        "awards": null
+      },
+      {
+        "heat": "Heat 554",
+        "event": "L-D Open Mixed-Am BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "11:05AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Bohuslavska, Maryna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557",
+        "event": "L-D Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+        "time": "11:18AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Bohuslavska, Maryna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 588",
+        "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "01:26PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Lysenko, Mariia",
+        "awards": null
+      },
+      {
+        "heat": "Heat 597",
+        "event": "L-A Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "02:03PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Lysenko, Mariia",
+        "awards": null
+      }
+    ]
+  },
   "Pinchak, Gleb": {
     "entries": [
       {
@@ -30767,7 +31143,7 @@
       }
     ]
   },
-  "Radar, Chris": {
+  "Rader, Chris": {
     "entries": [
       {
         "heat": "Heat 116",
@@ -32726,6 +33102,22 @@
         "awards": null
       },
       {
+        "heat": "Heat 4",
+        "event": "G-B2 Open Bronze CLUB Salsa",
+        "time": "09:04AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 7",
+        "event": "G-B1 Open Bronze CLUB Hustle",
+        "time": "09:08AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
         "heat": "Heat 9",
         "event": "G-B2 Closed Pre Silver CLUB Bachata",
         "time": "09:11AM Friday",
@@ -32737,6 +33129,30 @@
         "heat": "Heat 12",
         "event": "G-B2 Closed Interm. Silver CLUB Bachata",
         "time": "09:15AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 16",
+        "event": "G-B2 Open Bronze CLUB Bachata",
+        "time": "09:20AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 22",
+        "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
+        "time": "09:29AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 24",
+        "event": "G-B2 Open Bronze CLUB Hustle",
+        "time": "09:31AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Benson, Marty",
         "awards": null
@@ -32758,6 +33174,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 42",
+        "event": "G-A2 Open Bronze CLUB Hustle",
+        "time": "09:56AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
         "heat": "Heat 44",
         "event": "G-B2 Closed Interm. Silver CLUB Salsa",
         "time": "09:59AM Friday",
@@ -32774,9 +33198,25 @@
         "awards": null
       },
       {
+        "heat": "Heat 54",
+        "event": "G-B2 Open Bronze CLUB West Coast Swing",
+        "time": "10:13AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
         "heat": "Heat 57",
         "event": "G-B2 Closed Pre Silver CLUB West Coast Swing",
         "time": "10:17AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 60",
+        "event": "G-B2 Open Pre Silver CLUB Hustle",
+        "time": "10:21AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Benson, Marty",
         "awards": null
@@ -32798,97 +33238,33 @@
         "awards": null
       },
       {
-        "heat": "Heat 75",
+        "heat": "Heat 74",
         "event": "G-B2 Closed Interm. Silver CLUB West Coast Swing",
+        "time": "10:40AM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Benson, Marty",
+        "awards": null
+      },
+      {
+        "heat": "Heat 75",
+        "event": "G-B2 Closed Interm. Silver CLUB Hustle",
         "time": "10:42AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Benson, Marty",
         "awards": null
       },
       {
-        "heat": "Heat 76",
-        "event": "G-B2 Closed Interm. Silver CLUB Hustle",
-        "time": "10:43AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 77",
-        "event": "G-B1 Open Bronze CLUB Hustle",
+        "heat": "Heat 76A",
+        "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
         "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Benson, Marty",
         "awards": null
       },
       {
-        "heat": "Heat 81",
-        "event": "G-B2 Open Bronze CLUB Bachata",
-        "time": "10:50AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 84",
-        "event": "G-B2 Open Pre Silver CLUB West Coast Swing",
-        "time": "10:54AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 91",
-        "event": "G-B2 Open Bronze CLUB Hustle",
-        "time": "11:04AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 93",
-        "event": "G-A2 Open Bronze CLUB Hustle",
-        "time": "11:07AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 94",
-        "event": "G-B2 Open Bronze CLUB West Coast Swing",
-        "time": "11:08AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 103",
-        "event": "G-B2 Open Pre Silver CLUB Hustle",
-        "time": "11:21AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 105",
+        "heat": "Heat 77",
         "event": "G-B1 Open Pre Silver CLUB Hustle",
-        "time": "11:23AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 106",
-        "event": "G-B2 Open Bronze CLUB Salsa",
-        "time": "11:25AM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Benson, Marty",
-        "awards": null
-      },
-      {
-        "heat": "Heat 109",
-        "event": "G-S1 Pro-Am Night Club 2-Dance Championship (HU/WC)",
-        "time": "11:35AM Friday",
+        "time": "10:45AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Benson, Marty",
         "awards": null
@@ -33983,6 +34359,102 @@
       }
     ]
   },
+  "Sazanova, Nataliia": {
+    "entries": [
+      {
+        "heat": "Heat 554",
+        "event": "A-B Open Solo Indv. BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "11:05AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 555",
+        "event": "A-B Open Solo Indv. BALLROOM 2-Dance Block 2 (F/VW)",
+        "time": "11:10AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 568",
+        "event": "A-B1 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "12:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 570",
+        "event": "A-B1 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+        "time": "12:16PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      }
+    ]
+  },
+  "Selivanov, Elizabeth": {
+    "entries": [
+      {
+        "heat": "Heat 540",
+        "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "10:30AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Motyl, Paul",
+        "awards": null
+      },
+      {
+        "heat": "Heat 545",
+        "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+        "time": "10:42AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Motyl, Paul",
+        "awards": null
+      },
+      {
+        "heat": "Heat 554",
+        "event": "A-A Solo Indv. Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "time": "11:05AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 555",
+        "event": "A-A Solo Indv. Bronze BALLROOM 2-Dance Block 2 (F/VW)",
+        "time": "11:10AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 567",
+        "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "12:03PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 569",
+        "event": "A-A Solo Indv. Bronze LATIN 2-Dance Block 2 (P/J)",
+        "time": "12:13PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 597",
+        "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+        "time": "02:03PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Motyl, Paul",
+        "awards": null
+      }
+    ]
+  },
   "Severina-Clearwater, Valentina": {
     "entries": [
       {
@@ -34642,9 +35114,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 74",
+        "heat": "Heat 76",
         "event": "L-B1 Closed Full Bronze CLUB Bachata",
-        "time": "10:40AM Friday",
+        "time": "10:43AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Gordon, Tyler",
         "awards": null
@@ -34652,7 +35124,7 @@
       {
         "heat": "Heat 110",
         "event": "L-C Pro-Am Caribbean 3-Dance Championship (SAL/ME/BAC)",
-        "time": "11:38AM Friday",
+        "time": "11:35AM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Gordon, Tyler",
         "awards": null
@@ -36478,14 +36950,6 @@
         "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
         "time": "10:13PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Davidov, Elizabeth",
-        "awards": null
-      },
-      {
-        "heat": "Heat 534",
-        "event": "AC-YTH NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
-        "session": "Session 4 - Saturday Evening",
         "partner": "Davidov, Elizabeth",
         "awards": null
       }
@@ -39267,14 +39731,6 @@
       },
       {
         "heat": "Heat 366",
-        "event": "AC-B2 Open Bronze RHYTHM Rumba",
-        "time": "11:29AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Brotto, Richard/Zorina, Ali",
-        "awards": null
-      },
-      {
-        "heat": "Heat 366",
         "event": "L-B2 Open Gold RHYTHM Rumba",
         "time": "11:29AM Saturday",
         "session": "Session 3 - Saturday Daytime",
@@ -39282,9 +39738,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 367",
-        "event": "AC-B2 Open Bronze RHYTHM East Coast Swing",
-        "time": "11:30AM Saturday",
+        "heat": "Heat 366",
+        "event": "AC-B2 Open Bronze RHYTHM Rumba",
+        "time": "11:29AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Brotto, Richard/Zorina, Ali",
         "awards": null
@@ -39295,6 +39751,14 @@
         "time": "11:30AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Bartha, Anita",
+        "awards": null
+      },
+      {
+        "heat": "Heat 367",
+        "event": "AC-B2 Open Bronze RHYTHM East Coast Swing",
+        "time": "11:30AM Saturday",
+        "session": "Session 3 - Saturday Daytime",
+        "partner": "Brotto, Richard/Zorina, Ali",
         "awards": null
       },
       {
@@ -39546,7 +40010,7 @@
         "event": "L-B1 Closed Full Silver SMOOTH Waltz",
         "time": "12:16PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39554,7 +40018,7 @@
         "event": "L-B1 Closed Full Silver SMOOTH Tango",
         "time": "12:17PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39562,7 +40026,7 @@
         "event": "L-B1 Closed Full Silver SMOOTH Foxtrot",
         "time": "12:18PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39570,7 +40034,7 @@
         "event": "L-B1 Closed Interm. Silver SMOOTH Waltz",
         "time": "12:32PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39578,7 +40042,7 @@
         "event": "L-B1 Closed Interm. Silver SMOOTH Tango",
         "time": "12:34PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39586,7 +40050,7 @@
         "event": "L-B1 Closed Interm. Silver SMOOTH Foxtrot",
         "time": "12:35PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39594,7 +40058,7 @@
         "event": "L-B1 Closed Pre Gold SMOOTH Waltz",
         "time": "12:54PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39602,7 +40066,7 @@
         "event": "L-B1 Closed Pre Gold SMOOTH Tango",
         "time": "12:56PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39610,7 +40074,7 @@
         "event": "L-B1 Closed Pre Gold SMOOTH Foxtrot",
         "time": "12:57PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39618,7 +40082,7 @@
         "event": "L-B1 Closed Full Silver SMOOTH Viennese Waltz",
         "time": "01:10PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39626,7 +40090,7 @@
         "event": "L-C Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "01:21PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39634,7 +40098,7 @@
         "event": "L-B1 Open Silver SMOOTH Waltz",
         "time": "02:01PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39642,7 +40106,7 @@
         "event": "L-B1 Open Silver SMOOTH Tango",
         "time": "02:02PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39650,7 +40114,7 @@
         "event": "L-B1 Open Silver SMOOTH Foxtrot",
         "time": "02:03PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39658,7 +40122,7 @@
         "event": "L-B1 Open Silver SMOOTH Viennese Waltz",
         "time": "02:16PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39666,7 +40130,7 @@
         "event": "L-B1 Open Pre Silver SMOOTH Waltz",
         "time": "02:19PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39674,7 +40138,7 @@
         "event": "L-B1 Open Pre Silver SMOOTH Tango",
         "time": "02:20PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39682,7 +40146,7 @@
         "event": "L-B1 Open Pre Silver SMOOTH Foxtrot",
         "time": "02:21PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39690,7 +40154,7 @@
         "event": "L-B1 Open Gold SMOOTH Waltz",
         "time": "02:39PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39698,7 +40162,7 @@
         "event": "L-B1 Open Gold SMOOTH Tango",
         "time": "02:41PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39706,7 +40170,7 @@
         "event": "L-B1 Open Gold SMOOTH Foxtrot",
         "time": "02:42PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39714,7 +40178,7 @@
         "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
         "time": "03:01PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39722,7 +40186,7 @@
         "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
         "time": "07:30PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39730,7 +40194,7 @@
         "event": "L-C North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
         "time": "08:16PM Friday",
         "session": "Session 2 - Friday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39738,7 +40202,7 @@
         "event": "L-B1 Closed Full Silver RHYTHM Cha Cha",
         "time": "09:06AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39746,7 +40210,7 @@
         "event": "L-B1 Closed Full Silver RHYTHM Rumba",
         "time": "09:08AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39754,7 +40218,7 @@
         "event": "L-B1 Closed Full Silver RHYTHM East Coast Swing",
         "time": "09:09AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39762,7 +40226,7 @@
         "event": "L-B1 Closed Interm. Silver RHYTHM Cha Cha",
         "time": "09:15AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39770,7 +40234,7 @@
         "event": "L-B1 Closed Interm. Silver RHYTHM Rumba",
         "time": "09:16AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39778,7 +40242,7 @@
         "event": "L-B1 Closed Interm. Silver RHYTHM East Coast Swing",
         "time": "09:17AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39786,7 +40250,7 @@
         "event": "L-B1 Closed Pre Gold RHYTHM Cha Cha",
         "time": "09:49AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39794,7 +40258,7 @@
         "event": "L-B1 Closed Pre Gold RHYTHM Rumba",
         "time": "09:51AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39802,7 +40266,7 @@
         "event": "L-B1 Closed Pre Gold RHYTHM East Coast Swing",
         "time": "09:52AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39810,7 +40274,7 @@
         "event": "L-B1 Closed Full Silver RHYTHM Mambo",
         "time": "09:55AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39818,7 +40282,7 @@
         "event": "L-B1 Closed Full Silver RHYTHM Bolero",
         "time": "10:07AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39826,7 +40290,7 @@
         "event": "L-C Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "10:46AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39834,7 +40298,7 @@
         "event": "L-B1 Open Silver RHYTHM Cha Cha",
         "time": "11:05AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39842,7 +40306,7 @@
         "event": "L-B1 Open Silver RHYTHM Rumba",
         "time": "11:07AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39850,7 +40314,7 @@
         "event": "L-B1 Open Silver RHYTHM East Coast Swing",
         "time": "11:08AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39858,7 +40322,7 @@
         "event": "L-B1 Open Silver RHYTHM Bolero",
         "time": "11:31AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39866,7 +40330,7 @@
         "event": "L-B1 Open Silver RHYTHM Mambo",
         "time": "11:33AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39874,7 +40338,7 @@
         "event": "L-B1 Open Pre Silver RHYTHM Cha Cha",
         "time": "11:51AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39882,7 +40346,7 @@
         "event": "L-B1 Open Pre Silver RHYTHM Rumba",
         "time": "11:52AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39890,7 +40354,7 @@
         "event": "L-B1 Open Pre Silver RHYTHM East Coast Swing",
         "time": "11:54AM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39898,7 +40362,7 @@
         "event": "L-B1 Open Gold RHYTHM Cha Cha",
         "time": "12:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39906,7 +40370,7 @@
         "event": "L-B1 Open Gold RHYTHM Rumba",
         "time": "12:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39914,7 +40378,7 @@
         "event": "L-B1 Open Gold RHYTHM East Coast Swing",
         "time": "12:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39922,7 +40386,7 @@
         "event": "L-C Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "12:19PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39930,7 +40394,7 @@
         "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
         "time": "08:31PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       },
       {
@@ -39938,7 +40402,7 @@
         "event": "L-C North American Pro-Am GRAND SLAM Open RHYTHM Scholarship (C/R/SW/B/M)",
         "time": "08:57PM Saturday",
         "session": "Session 4 - Saturday Evening",
-        "partner": "Radar, Chris",
+        "partner": "Rader, Chris",
         "awards": null
       }
     ]
