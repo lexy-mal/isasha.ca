@@ -39989,5 +39989,1037 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-07T10:00:47.832795+00:00",
+    "participants": {
+      "oldCount": 211,
+      "newCount": 211,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1864,
+      "newCount": 1864,
+      "oldUniqueCount": 1835,
+      "newUniqueCount": 1835,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-08T10:00:03.330185+00:00",
+    "participants": {
+      "oldCount": 211,
+      "newCount": 220,
+      "added": [
+        {
+          "name": "Borodaenko, Nicole",
+          "entries": [
+            {
+              "heat": "Heat 523",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 523A",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 521",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 519A",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Bronshtein, Evelyn",
+          "entries": [
+            {
+              "heat": "Heat 557",
+              "event": "A-A Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 572",
+              "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 555",
+              "event": "A-A Solo Indv. Silver BALLROOM 2-Dance Block 2 (F/VW)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 554",
+              "event": "A-A Solo Indv. Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 569",
+              "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 571",
+              "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Komelkov, Vladyslav",
+          "entries": [
+            {
+              "heat": "Heat 536",
+              "event": "NORTH AMERICAN OPEN Professional BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Sevastianova, Alexandra",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Mykhailutsa, Nikol",
+          "entries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            },
+            {
+              "heat": "Heat 605",
+              "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            },
+            {
+              "heat": "Heat 540",
+              "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            },
+            {
+              "heat": "Heat 553",
+              "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            },
+            {
+              "heat": "Heat 598",
+              "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            },
+            {
+              "heat": "Heat 602",
+              "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Orlov, Maxim",
+          "entries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            },
+            {
+              "heat": "Heat 605",
+              "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            },
+            {
+              "heat": "Heat 540",
+              "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            },
+            {
+              "heat": "Heat 553",
+              "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            },
+            {
+              "heat": "Heat 598",
+              "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            },
+            {
+              "heat": "Heat 602",
+              "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Romanchuk, Vladyslav",
+          "entries": [
+            {
+              "heat": "Heat 523",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 523A",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 521",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 519A",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Sevastianova, Alexandra",
+          "entries": [
+            {
+              "heat": "Heat 536",
+              "event": "NORTH AMERICAN OPEN Professional BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Komelkov, Vladyslav",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Voronov, Valentin",
+          "entries": [
+            {
+              "heat": "Heat 227",
+              "event": "L-JV1 Open Pre Silver LATIN Cha Cha",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 232",
+              "event": "L-JV1 Open Pre Silver LATIN Jive",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 231",
+              "event": "L-JV1 Open Pre Silver LATIN Paso Doble",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 229",
+              "event": "L-JV1 Open Pre Silver LATIN Rumba",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 228",
+              "event": "L-JV1 Open Pre Silver LATIN Samba",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "L-JV1 Open Silver LATIN Cha Cha",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-JV1 Open Silver LATIN Jive",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 243",
+              "event": "L-JV1 Open Silver LATIN Paso Doble",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "L-JV1 Open Silver LATIN Rumba",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "L-JV1 Open Silver LATIN Samba",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 253",
+              "event": "L-JV1 Open Silver Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Zhang, Yuelyn",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Zhang, Yuelyn",
+          "entries": [
+            {
+              "heat": "Heat 227",
+              "event": "L-JV1 Open Pre Silver LATIN Cha Cha",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 232",
+              "event": "L-JV1 Open Pre Silver LATIN Jive",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 231",
+              "event": "L-JV1 Open Pre Silver LATIN Paso Doble",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 229",
+              "event": "L-JV1 Open Pre Silver LATIN Rumba",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 228",
+              "event": "L-JV1 Open Pre Silver LATIN Samba",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "L-JV1 Open Silver LATIN Cha Cha",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-JV1 Open Silver LATIN Jive",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 243",
+              "event": "L-JV1 Open Silver LATIN Paso Doble",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "L-JV1 Open Silver LATIN Rumba",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "L-JV1 Open Silver LATIN Samba",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 253",
+              "event": "L-JV1 Open Silver Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Voronov, Valentin",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Bakhchevan, Mykyta",
+          "oldEntryCount": 33,
+          "newEntryCount": 34,
+          "addedEntries": [
+            {
+              "heat": "Heat 260",
+              "event": "L-A North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "D'Alessandro, Kassia",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "D'Alessandro, Kassia",
+          "oldEntryCount": 32,
+          "newEntryCount": 33,
+          "addedEntries": [
+            {
+              "heat": "Heat 260",
+              "event": "L-A North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "Bakhchevan, Mykyta",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Hill, Gladys",
+          "oldEntryCount": 54,
+          "newEntryCount": 54,
+          "addedEntries": [
+            {
+              "heat": "Heat 118",
+              "event": "L-C1 Closed Pre Silver SMOOTH Foxtrot",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-C1 Closed Pre Silver SMOOTH Tango",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-C1 Closed Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-C1 Closed Pre Silver SMOOTH Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 134",
+              "event": "L-C1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 133",
+              "event": "L-C1 Closed Full Silver SMOOTH Tango",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 159",
+              "event": "L-C1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 132",
+              "event": "L-C1 Closed Full Silver SMOOTH Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ivanov, Pavel",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Ligachyova, Angelica",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Ligachyova, Angelica",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kischitzky, Gaya",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "G-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Movshovich Fil, Zachary",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "G-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Movshovich Fil, Zachary",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ligachyova, Angelica",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Ivanov, Pavel",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Ivanov, Pavel",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Movshovich Fil, Zachary",
+          "oldEntryCount": 11,
+          "newEntryCount": 11,
+          "addedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "G-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Kischitzky, Gaya",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 591",
+              "event": "G-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Kischitzky, Gaya",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Rader, Chris",
+          "oldEntryCount": 157,
+          "newEntryCount": 157,
+          "addedEntries": [
+            {
+              "heat": "Heat 134",
+              "event": "L-B1 Closed Pre Silver SMOOTH Foxtrot",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 133",
+              "event": "L-B1 Closed Pre Silver SMOOTH Tango",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 159",
+              "event": "L-B1 Closed Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 132",
+              "event": "L-B1 Closed Pre Silver SMOOTH Waltz",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 314",
+              "event": "L-B2 Closed Pre Silver RHYTHM Cha Cha",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 316",
+              "event": "L-B2 Closed Pre Silver RHYTHM East Coast Swing",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "L-B2 Closed Pre Silver RHYTHM Rumba",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 118",
+              "event": "L-C1 Closed Pre Silver SMOOTH Foxtrot",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-C1 Closed Pre Silver SMOOTH Tango",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-C1 Closed Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-C1 Closed Pre Silver SMOOTH Waltz",
+              "partner": "Hill, Gladys",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 118",
+              "event": "L-B1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-B1 Closed Full Silver SMOOTH Tango",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-B1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-B1 Closed Full Silver SMOOTH Waltz",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 314",
+              "event": "L-B1 Closed Pre Gold RHYTHM Cha Cha",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 316",
+              "event": "L-B1 Closed Pre Gold RHYTHM East Coast Swing",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "L-B1 Closed Pre Gold RHYTHM Rumba",
+              "partner": "Zatylny, Wendy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 134",
+              "event": "L-C1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 133",
+              "event": "L-C1 Closed Full Silver SMOOTH Tango",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 159",
+              "event": "L-C1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Hill, Gladys",
+              "awards": null
+            },
+            {
+              "heat": "Heat 132",
+              "event": "L-C1 Closed Full Silver SMOOTH Waltz",
+              "partner": "Hill, Gladys",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Tsolakidis, Isabella",
+          "oldEntryCount": 3,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 568",
+              "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Zatylny, Wendy",
+          "oldEntryCount": 50,
+          "newEntryCount": 50,
+          "addedEntries": [
+            {
+              "heat": "Heat 134",
+              "event": "L-B1 Closed Pre Silver SMOOTH Foxtrot",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 133",
+              "event": "L-B1 Closed Pre Silver SMOOTH Tango",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 159",
+              "event": "L-B1 Closed Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 132",
+              "event": "L-B1 Closed Pre Silver SMOOTH Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 314",
+              "event": "L-B2 Closed Pre Silver RHYTHM Cha Cha",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 316",
+              "event": "L-B2 Closed Pre Silver RHYTHM East Coast Swing",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "L-B2 Closed Pre Silver RHYTHM Rumba",
+              "partner": "Rader, Chris",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 118",
+              "event": "L-B1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-B1 Closed Full Silver SMOOTH Tango",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "L-B1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-B1 Closed Full Silver SMOOTH Waltz",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 314",
+              "event": "L-B1 Closed Pre Gold RHYTHM Cha Cha",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 316",
+              "event": "L-B1 Closed Pre Gold RHYTHM East Coast Swing",
+              "partner": "Rader, Chris",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "L-B1 Closed Pre Gold RHYTHM Rumba",
+              "partner": "Rader, Chris",
+              "awards": null
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1864,
+      "newCount": 1871,
+      "oldUniqueCount": 1835,
+      "newUniqueCount": 1842,
+      "added": [
+        "A-A Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+        "A-A Solo Indv. Silver BALLROOM 2-Dance Block 2 (F/VW)",
+        "A-A Solo Indv. Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+        "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+        "G-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+        "L-A North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+        "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+        "L-JV1 Open Pre Silver LATIN Cha Cha",
+        "L-JV1 Open Pre Silver LATIN Jive",
+        "L-JV1 Open Pre Silver LATIN Paso Doble",
+        "L-JV1 Open Pre Silver LATIN Rumba",
+        "L-JV1 Open Pre Silver LATIN Samba",
+        "L-JV1 Open Silver LATIN Cha Cha",
+        "L-JV1 Open Silver LATIN Jive",
+        "L-JV1 Open Silver LATIN Paso Doble",
+        "L-JV1 Open Silver LATIN Rumba",
+        "L-JV1 Open Silver LATIN Samba",
+        "L-JV1 Open Silver Pro-Am International LATIN 3-Dance (C/R/S)"
+      ],
+      "removed": [
+        "G-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+        "L-B1 Closed Full Silver SMOOTH Foxtrot",
+        "L-B1 Closed Full Silver SMOOTH Tango",
+        "L-B1 Closed Full Silver SMOOTH Viennese Waltz",
+        "L-B1 Closed Full Silver SMOOTH Waltz",
+        "L-B1 Closed Pre Gold RHYTHM Cha Cha",
+        "L-B1 Closed Pre Gold RHYTHM East Coast Swing",
+        "L-B1 Closed Pre Gold RHYTHM Rumba",
+        "L-C1 Closed Full Silver SMOOTH Foxtrot",
+        "L-C1 Closed Full Silver SMOOTH Tango",
+        "L-C1 Closed Full Silver SMOOTH Viennese Waltz",
+        "L-C1 Closed Full Silver SMOOTH Waltz"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+          "added": [
+            "Bronshtein, Evelyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+          "added": [
+            "Bronshtein, Evelyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+          "added": [
+            "Bronshtein, Evelyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+          "added": [
+            "Tsolakidis, Isabella"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+          "added": [
+            "Borodaenko, Nicole",
+            "Romanchuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+          "added": [
+            "Borodaenko, Nicole",
+            "Romanchuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+          "added": [
+            "Mykhailutsa, Nikol",
+            "Orlov, Maxim"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+          "added": [],
+          "removed": [
+            "Ivanov, Pavel",
+            "Ligachyova, Angelica"
+          ]
+        },
+        {
+          "event": "L-B1 Closed Pre Silver SMOOTH Foxtrot",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B1 Closed Pre Silver SMOOTH Tango",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B1 Closed Pre Silver SMOOTH Viennese Waltz",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B1 Closed Pre Silver SMOOTH Waltz",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B2 Closed Pre Silver RHYTHM Cha Cha",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B2 Closed Pre Silver RHYTHM East Coast Swing",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B2 Closed Pre Silver RHYTHM Rumba",
+          "added": [
+            "Rader, Chris",
+            "Zatylny, Wendy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C1 Closed Pre Silver SMOOTH Foxtrot",
+          "added": [
+            "Hill, Gladys",
+            "Rader, Chris"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C1 Closed Pre Silver SMOOTH Tango",
+          "added": [
+            "Hill, Gladys",
+            "Rader, Chris"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C1 Closed Pre Silver SMOOTH Viennese Waltz",
+          "added": [
+            "Hill, Gladys",
+            "Rader, Chris"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C1 Closed Pre Silver SMOOTH Waltz",
+          "added": [
+            "Hill, Gladys",
+            "Rader, Chris"
+          ],
+          "removed": []
+        },
+        {
+          "event": "NORTH AMERICAN OPEN Professional BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Komelkov, Vladyslav",
+            "Sevastianova, Alexandra"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]

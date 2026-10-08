@@ -3301,17 +3301,6 @@
   },
   {
     "heat": "Heat 116",
-    "event": "L-B1 Closed Full Silver SMOOTH Waltz",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:16PM Friday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 116",
     "event": "L-B1 Closed Interm. Silver Proficiency SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "12:16PM Friday",
@@ -3341,8 +3330,10 @@
     "time": "12:16PM Friday",
     "awards": null,
     "competitors": [
+      "Hill, Gladys",
       "Holtham, Helen",
-      "Panko, Devon"
+      "Panko, Devon",
+      "Rader, Chris"
     ]
   },
   {
@@ -3391,17 +3382,6 @@
   },
   {
     "heat": "Heat 117",
-    "event": "L-B1 Closed Full Silver SMOOTH Tango",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:17PM Friday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 117",
     "event": "L-B1 Closed Interm. Silver Proficiency SMOOTH Tango",
     "session": "Session 1 - Friday Daytime",
     "time": "12:17PM Friday",
@@ -3431,8 +3411,10 @@
     "time": "12:17PM Friday",
     "awards": null,
     "competitors": [
+      "Hill, Gladys",
       "Holtham, Helen",
-      "Panko, Devon"
+      "Panko, Devon",
+      "Rader, Chris"
     ]
   },
   {
@@ -3481,17 +3463,6 @@
   },
   {
     "heat": "Heat 118",
-    "event": "L-B1 Closed Full Silver SMOOTH Foxtrot",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:18PM Friday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 118",
     "event": "L-B1 Closed Interm. Silver Proficiency SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "12:18PM Friday",
@@ -3521,8 +3492,10 @@
     "time": "12:18PM Friday",
     "awards": null,
     "competitors": [
+      "Hill, Gladys",
       "Holtham, Helen",
-      "Panko, Devon"
+      "Panko, Devon",
+      "Rader, Chris"
     ]
   },
   {
@@ -4455,18 +4428,9 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Streutker, Cathy"
-    ]
-  },
-  {
-    "heat": "Heat 132",
-    "event": "L-C1 Closed Full Silver SMOOTH Waltz",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:38PM Friday",
-    "awards": null,
-    "competitors": [
-      "Hill, Gladys",
-      "Rader, Chris"
+      "Rader, Chris",
+      "Streutker, Cathy",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -4525,18 +4489,9 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Streutker, Cathy"
-    ]
-  },
-  {
-    "heat": "Heat 133",
-    "event": "L-C1 Closed Full Silver SMOOTH Tango",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:39PM Friday",
-    "awards": null,
-    "competitors": [
-      "Hill, Gladys",
-      "Rader, Chris"
+      "Rader, Chris",
+      "Streutker, Cathy",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -4595,18 +4550,9 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Streutker, Cathy"
-    ]
-  },
-  {
-    "heat": "Heat 134",
-    "event": "L-C1 Closed Full Silver SMOOTH Foxtrot",
-    "session": "Session 1 - Friday Daytime",
-    "time": "12:41PM Friday",
-    "awards": null,
-    "competitors": [
-      "Hill, Gladys",
-      "Rader, Chris"
+      "Rader, Chris",
+      "Streutker, Cathy",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -5709,17 +5655,6 @@
   },
   {
     "heat": "Heat 155",
-    "event": "L-B1 Closed Full Silver SMOOTH Viennese Waltz",
-    "session": "Session 1 - Friday Daytime",
-    "time": "01:10PM Friday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 155",
     "event": "L-B1 Closed Interm. Silver SMOOTH Viennese Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "01:10PM Friday",
@@ -5736,8 +5671,10 @@
     "time": "01:10PM Friday",
     "awards": null,
     "competitors": [
+      "Hill, Gladys",
       "Holtham, Helen",
-      "Panko, Devon"
+      "Panko, Devon",
+      "Rader, Chris"
     ]
   },
   {
@@ -6013,7 +5950,9 @@
     "awards": null,
     "competitors": [
       "Lisovolenko, Stanislav",
-      "Streutker, Cathy"
+      "Rader, Chris",
+      "Streutker, Cathy",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -6027,17 +5966,6 @@
       "Holtham, Helen",
       "Kemball, Edith",
       "Panko, Devon"
-    ]
-  },
-  {
-    "heat": "Heat 159",
-    "event": "L-C1 Closed Full Silver SMOOTH Viennese Waltz",
-    "session": "Session 1 - Friday Daytime",
-    "time": "01:15PM Friday",
-    "awards": null,
-    "competitors": [
-      "Hill, Gladys",
-      "Rader, Chris"
     ]
   },
   {
@@ -9168,6 +9096,17 @@
   },
   {
     "heat": "Heat 227",
+    "event": "L-JV1 Open Pre Silver LATIN Cha Cha",
+    "session": "Session 1 - Friday Daytime",
+    "time": "03:58PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 227",
     "event": "L-YTH Open Gold Advanced LATIN Cha Cha",
     "session": "Session 1 - Friday Daytime",
     "time": "03:58PM Friday",
@@ -9201,6 +9140,17 @@
   },
   {
     "heat": "Heat 228",
+    "event": "L-JV1 Open Pre Silver LATIN Samba",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:00PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 228",
     "event": "L-YTH Open Gold Advanced LATIN Samba",
     "session": "Session 1 - Friday Daytime",
     "time": "04:00PM Friday",
@@ -9219,6 +9169,17 @@
     "competitors": [
       "Bartha, Anita",
       "Zat, Simone"
+    ]
+  },
+  {
+    "heat": "Heat 229",
+    "event": "L-JV1 Open Pre Silver LATIN Rumba",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:01PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
     ]
   },
   {
@@ -9256,6 +9217,17 @@
   },
   {
     "heat": "Heat 231",
+    "event": "L-JV1 Open Pre Silver LATIN Paso Doble",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:04PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 231",
     "event": "L-YTH Open Gold Advanced LATIN Paso Doble",
     "session": "Session 1 - Friday Daytime",
     "time": "04:04PM Friday",
@@ -9274,6 +9246,17 @@
     "competitors": [
       "Branham, James",
       "Horton, Sara"
+    ]
+  },
+  {
+    "heat": "Heat 232",
+    "event": "L-JV1 Open Pre Silver LATIN Jive",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:05PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
     ]
   },
   {
@@ -9464,6 +9447,17 @@
   },
   {
     "heat": "Heat 239",
+    "event": "L-JV1 Open Silver LATIN Cha Cha",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:15PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 239",
     "event": "L-YTH Open Gold LATIN Cha Cha",
     "session": "Session 1 - Friday Daytime",
     "time": "04:15PM Friday",
@@ -9497,6 +9491,17 @@
   },
   {
     "heat": "Heat 240",
+    "event": "L-JV1 Open Silver LATIN Samba",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:16PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 240",
     "event": "L-YTH Open Gold LATIN Samba",
     "session": "Session 1 - Friday Daytime",
     "time": "04:16PM Friday",
@@ -9526,6 +9531,17 @@
     "competitors": [
       "Kochergin, Stanislav",
       "Newman Sher, Michelle"
+    ]
+  },
+  {
+    "heat": "Heat 241",
+    "event": "L-JV1 Open Silver LATIN Rumba",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:18PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
     ]
   },
   {
@@ -9574,6 +9590,17 @@
   },
   {
     "heat": "Heat 243",
+    "event": "L-JV1 Open Silver LATIN Paso Doble",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:20PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 243",
     "event": "L-YTH Open Gold LATIN Paso Doble",
     "session": "Session 1 - Friday Daytime",
     "time": "04:20PM Friday",
@@ -9603,6 +9630,17 @@
     "competitors": [
       "Kochergin, Stanislav",
       "Newman Sher, Michelle"
+    ]
+  },
+  {
+    "heat": "Heat 244",
+    "event": "L-JV1 Open Silver LATIN Jive",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:22PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
     ]
   },
   {
@@ -9961,6 +9999,17 @@
   },
   {
     "heat": "Heat 253",
+    "event": "L-JV1 Open Silver Pro-Am International LATIN 3-Dance (C/R/S)",
+    "session": "Session 1 - Friday Daytime",
+    "time": "04:44PM Friday",
+    "awards": null,
+    "competitors": [
+      "Voronov, Valentin",
+      "Zhang, Yuelyn"
+    ]
+  },
+  {
+    "heat": "Heat 253",
     "event": "L-S1 Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
     "session": "Session 1 - Friday Daytime",
     "time": "04:44PM Friday",
@@ -10138,6 +10187,17 @@
     "competitors": [
       "Delaney, Paul",
       "Kolarova, Milena"
+    ]
+  },
+  {
+    "heat": "Heat 260",
+    "event": "L-A North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+    "session": "Session 2 - Friday Evening",
+    "time": "07:55PM Friday",
+    "awards": null,
+    "competitors": [
+      "Bakhchevan, Mykyta",
+      "D'Alessandro, Kassia"
     ]
   },
   {
@@ -12667,26 +12727,17 @@
   },
   {
     "heat": "Heat 314",
-    "event": "L-B1 Closed Pre Gold RHYTHM Cha Cha",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "09:49AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 314",
     "event": "L-B2 Closed Pre Silver RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:49AM Saturday",
     "awards": null,
     "competitors": [
       "Gurkov, Dmytro",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
-      "Zaharchuk, Janet"
+      "Zaharchuk, Janet",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -12737,26 +12788,17 @@
   },
   {
     "heat": "Heat 315",
-    "event": "L-B1 Closed Pre Gold RHYTHM Rumba",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "09:51AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 315",
     "event": "L-B2 Closed Pre Silver RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:51AM Saturday",
     "awards": null,
     "competitors": [
       "Gurkov, Dmytro",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
-      "Zaharchuk, Janet"
+      "Zaharchuk, Janet",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -12807,26 +12849,17 @@
   },
   {
     "heat": "Heat 316",
-    "event": "L-B1 Closed Pre Gold RHYTHM East Coast Swing",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "09:52AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Rader, Chris",
-      "Zatylny, Wendy"
-    ]
-  },
-  {
-    "heat": "Heat 316",
     "event": "L-B2 Closed Pre Silver RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:52AM Saturday",
     "awards": null,
     "competitors": [
       "Gurkov, Dmytro",
+      "Rader, Chris",
       "Storozhuk, Vladyslav",
       "Streutker, Cathy",
-      "Zaharchuk, Janet"
+      "Zaharchuk, Janet",
+      "Zatylny, Wendy"
     ]
   },
   {
@@ -18948,6 +18981,17 @@
     ]
   },
   {
+    "heat": "Heat 519A",
+    "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "04:33PM Saturday",
+    "awards": null,
+    "competitors": [
+      "Borodaenko, Nicole",
+      "Romanchuk, Vladyslav"
+    ]
+  },
+  {
     "heat": "Heat 519",
     "event": "AC-AD2 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
     "session": "Session 3 - Saturday Daytime",
@@ -18962,7 +19006,7 @@
     "heat": "Heat 520",
     "event": "L-S1 Open Silver Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:33PM Saturday",
+    "time": "04:36PM Saturday",
     "awards": null,
     "competitors": [
       "Muir, Corky",
@@ -18973,7 +19017,7 @@
     "heat": "Heat 520",
     "event": "L-S2 Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:33PM Saturday",
+    "time": "04:36PM Saturday",
     "awards": null,
     "competitors": [
       "Holtham, Helen",
@@ -18986,7 +19030,7 @@
     "heat": "Heat 520",
     "event": "L-S3 Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:33PM Saturday",
+    "time": "04:36PM Saturday",
     "awards": null,
     "competitors": [
       "Ellis, Patricia",
@@ -18997,7 +19041,7 @@
     "heat": "Heat 521",
     "event": "AC-AD Amateur Bronze BALLROOM Block 1 (W/T/Q)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:37PM Saturday",
+    "time": "04:40PM Saturday",
     "awards": null,
     "competitors": [
       "Sampalli, Srini",
@@ -19008,18 +19052,20 @@
     "heat": "Heat 521",
     "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:37PM Saturday",
+    "time": "04:40PM Saturday",
     "awards": null,
     "competitors": [
+      "Borodaenko, Nicole",
       "Campeau, Mathias",
-      "Nault, Elsie-Rose"
+      "Nault, Elsie-Rose",
+      "Romanchuk, Vladyslav"
     ]
   },
   {
     "heat": "Heat 522",
     "event": "L-C Open Bronze Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:42PM Saturday",
+    "time": "04:45PM Saturday",
     "awards": null,
     "competitors": [
       "Ducharme, Luanne",
@@ -19032,7 +19078,7 @@
     "heat": "Heat 522",
     "event": "L-S1 Open Gold Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:42PM Saturday",
+    "time": "04:45PM Saturday",
     "awards": null,
     "competitors": [
       "Muir, Corky",
@@ -19043,7 +19089,7 @@
     "heat": "Heat 522",
     "event": "L-S2 Open Silver Pro-Am International BALLROOM 3-Dance (W/T/F)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:42PM Saturday",
+    "time": "04:45PM Saturday",
     "awards": null,
     "competitors": [
       "Shum, Josephine",
@@ -19054,18 +19100,31 @@
     "heat": "Heat 523",
     "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:47PM Saturday",
+    "time": "04:50PM Saturday",
     "awards": null,
     "competitors": [
+      "Borodaenko, Nicole",
       "Campeau, Mathias",
-      "Nault, Elsie-Rose"
+      "Nault, Elsie-Rose",
+      "Romanchuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 523A",
+    "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "04:55PM Saturday",
+    "awards": null,
+    "competitors": [
+      "Borodaenko, Nicole",
+      "Romanchuk, Vladyslav"
     ]
   },
   {
     "heat": "Heat 523",
     "event": "AC-AD1 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
     "session": "Session 3 - Saturday Daytime",
-    "time": "04:47PM Saturday",
+    "time": "04:50PM Saturday",
     "awards": null,
     "competitors": [
       "Sampalli, Srini",
@@ -19383,8 +19442,10 @@
     "competitors": [
       "Druzhynin, Nikita",
       "Khorosheva, Tetiana",
+      "Komelkov, Vladyslav",
       "Lisovolenko, Stanislav",
       "Primeau, Virginie",
+      "Sevastianova, Alexandra",
       "Xie, Josie",
       "Zhang, Alec"
     ]
@@ -19454,6 +19515,8 @@
     "awards": null,
     "competitors": [
       "Mostovoy, Sofia",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Rolik, Max"
     ]
   },
@@ -19824,6 +19887,8 @@
     "awards": null,
     "competitors": [
       "Mostovoy, Sofia",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Rolik, Max"
     ]
   },
@@ -19856,6 +19921,16 @@
     "awards": null,
     "competitors": [
       "Pavlenko, Arya"
+    ]
+  },
+  {
+    "heat": "Heat 554",
+    "event": "A-A Solo Indv. Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:05AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Bronshtein, Evelyn"
     ]
   },
   {
@@ -19893,6 +19968,16 @@
   },
   {
     "heat": "Heat 555",
+    "event": "A-A Solo Indv. Silver BALLROOM 2-Dance Block 2 (F/VW)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:10AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Bronshtein, Evelyn"
+    ]
+  },
+  {
+    "heat": "Heat 555",
     "event": "A-B Open Solo Indv. BALLROOM 2-Dance Block 2 (F/VW)",
     "session": "Session 5 - Sunday Daytime",
     "time": "11:10AM Sunday",
@@ -19923,6 +20008,16 @@
     "competitors": [
       "Ilyushenov, Andrey",
       "Nechadim, Adelina"
+    ]
+  },
+  {
+    "heat": "Heat 557",
+    "event": "A-A Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:18AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Bronshtein, Evelyn"
     ]
   },
   {
@@ -20000,6 +20095,8 @@
     "awards": null,
     "competitors": [
       "Mostovoy, Sofia",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Rolik, Max"
     ]
   },
@@ -20452,6 +20549,7 @@
     "time": "12:08PM Sunday",
     "awards": null,
     "competitors": [
+      "Tsolakidis, Isabella",
       "Zhang, Muqi"
     ]
   },
@@ -20486,6 +20584,7 @@
     "time": "12:13PM Sunday",
     "awards": null,
     "competitors": [
+      "Bronshtein, Evelyn",
       "Dayter Hasanov, Solomon",
       "Movshovich Fil, Isabella",
       "Sterekhova, Alexandra"
@@ -20578,6 +20677,7 @@
     "time": "12:19PM Sunday",
     "awards": null,
     "competitors": [
+      "Bronshtein, Evelyn",
       "Dayter Hasanov, Solomon",
       "Movshovich Fil, Isabella",
       "Sterekhova, Alexandra"
@@ -20590,6 +20690,7 @@
     "time": "12:24PM Sunday",
     "awards": null,
     "competitors": [
+      "Bronshtein, Evelyn",
       "Goldshmidt, Michayla",
       "Iakovenko, Maya",
       "Pan, Olivia",
@@ -21212,7 +21313,7 @@
   },
   {
     "heat": "Heat 591",
-    "event": "G-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+    "event": "G-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
     "session": "Session 5 - Sunday Daytime",
     "time": "01:39PM Sunday",
     "awards": null,
@@ -21229,13 +21330,22 @@
     "awards": null,
     "competitors": [
       "Baranova, Veronica",
-      "Ivanov, Pavel",
-      "Ligachyova, Angelica",
       "Maltsman, Libby",
       "Movshovich Fil, Isabella",
       "Teplitskiy, Sophie",
       "Tretiak, Viacheslav",
       "Zhelasko, Danny"
+    ]
+  },
+  {
+    "heat": "Heat 591",
+    "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "01:39PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Ivanov, Pavel",
+      "Ligachyova, Angelica"
     ]
   },
   {
@@ -21512,6 +21622,8 @@
     "awards": null,
     "competitors": [
       "Mostovoy, Sofia",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Rolik, Max"
     ]
   },
@@ -21680,6 +21792,8 @@
     "competitors": [
       "Mostovoy, Sofia",
       "Movshovich Fil, Zachary",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Rolik, Max",
       "Teplitskiy, Sophie"
     ]
@@ -21807,6 +21921,8 @@
     "awards": null,
     "competitors": [
       "Mostovoy, Sofia",
+      "Mykhailutsa, Nikol",
+      "Orlov, Maxim",
       "Pan, Olivia",
       "Rolik, Max",
       "Xiao, Ivan"
