@@ -41021,5 +41021,1733 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-08T10:00:17.332884+00:00",
+    "participants": {
+      "oldCount": 220,
+      "newCount": 220,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1871,
+      "newCount": 1871,
+      "oldUniqueCount": 1842,
+      "newUniqueCount": 1842,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-09T10:00:03.451557+00:00",
+    "participants": {
+      "oldCount": 220,
+      "newCount": 221,
+      "added": [
+        {
+          "name": "McCloskey, Fiona",
+          "entries": [
+            {
+              "heat": "Heat 333",
+              "event": "L-A1 Closed Full Silver RHYTHM Bolero",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 330",
+              "event": "L-A1 Closed Full Silver RHYTHM Cha Cha",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 332",
+              "event": "L-A1 Closed Full Silver RHYTHM East Coast Swing",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 334",
+              "event": "L-A1 Closed Full Silver RHYTHM Mambo",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 331",
+              "event": "L-A1 Closed Full Silver RHYTHM Rumba",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 146",
+              "event": "L-A1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 145",
+              "event": "L-A1 Closed Full Silver SMOOTH Tango",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 147",
+              "event": "L-A1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 144",
+              "event": "L-A1 Closed Full Silver SMOOTH Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 308",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Bolero",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 305",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Cha Cha",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 307",
+              "event": "L-A1 Closed Interm. Silver RHYTHM East Coast Swing",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 309",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Mambo",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 306",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Rumba",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 118",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Foxtrot",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Tango",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 119",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Viennese Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 401A",
+              "event": "L-A1 Open Gold RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 394",
+              "event": "L-A1 Open Gold RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 396",
+              "event": "L-A1 Open Gold RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 401B",
+              "event": "L-A1 Open Gold RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 395",
+              "event": "L-A1 Open Gold RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 202",
+              "event": "L-A1 Open Gold SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 201",
+              "event": "L-A1 Open Gold SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-A1 Open Gold SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 200",
+              "event": "L-A1 Open Gold SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 358",
+              "event": "L-A1 Open Pre Silver RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 355",
+              "event": "L-A1 Open Pre Silver RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 357",
+              "event": "L-A1 Open Pre Silver RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 359",
+              "event": "L-A1 Open Pre Silver RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 356",
+              "event": "L-A1 Open Pre Silver RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 166",
+              "event": "L-A1 Open Pre Silver SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 165",
+              "event": "L-A1 Open Pre Silver SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 167",
+              "event": "L-A1 Open Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 164",
+              "event": "L-A1 Open Pre Silver SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 397",
+              "event": "L-A1 Open Silver RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 388",
+              "event": "L-A1 Open Silver RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-A1 Open Silver RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 398",
+              "event": "L-A1 Open Silver RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 389",
+              "event": "L-A1 Open Silver RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 182",
+              "event": "L-A1 Open Silver SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 181",
+              "event": "L-A1 Open Silver SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 183",
+              "event": "L-A1 Open Silver SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 180",
+              "event": "L-A1 Open Silver SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 343",
+              "event": "L-A2 Closed Full Silver RHYTHM Bolero",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-A2 Closed Full Silver RHYTHM Cha Cha",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "L-A2 Closed Full Silver RHYTHM East Coast Swing",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "L-A2 Closed Full Silver RHYTHM Mambo",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-A2 Closed Full Silver RHYTHM Rumba",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 158",
+              "event": "L-A2 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 157",
+              "event": "L-A2 Closed Full Silver SMOOTH Tango",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 143",
+              "event": "L-A2 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 156",
+              "event": "L-A2 Closed Full Silver SMOOTH Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 322",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Bolero",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 319",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Cha Cha",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 321",
+              "event": "L-A2 Closed Interm. Silver RHYTHM East Coast Swing",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 323",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Mambo",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 320",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Rumba",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 126",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Foxtrot",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Tango",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 127",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Viennese Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 124",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Waltz",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-A2 Open Gold RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 365",
+              "event": "L-A2 Open Gold RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 367",
+              "event": "L-A2 Open Gold RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-A2 Open Gold RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 366",
+              "event": "L-A2 Open Gold RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 214",
+              "event": "L-A2 Open Gold SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 213",
+              "event": "L-A2 Open Gold SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 215",
+              "event": "L-A2 Open Gold SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 212",
+              "event": "L-A2 Open Gold SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 374",
+              "event": "L-A2 Open Pre Silver RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 371",
+              "event": "L-A2 Open Pre Silver RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 373",
+              "event": "L-A2 Open Pre Silver RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 375",
+              "event": "L-A2 Open Pre Silver RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 372",
+              "event": "L-A2 Open Pre Silver RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 174",
+              "event": "L-A2 Open Pre Silver SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 173",
+              "event": "L-A2 Open Pre Silver SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 175",
+              "event": "L-A2 Open Pre Silver SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "L-A2 Open Pre Silver SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 380",
+              "event": "L-A2 Open Silver RHYTHM Bolero",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 399",
+              "event": "L-A2 Open Silver RHYTHM Cha Cha",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 401",
+              "event": "L-A2 Open Silver RHYTHM East Coast Swing",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-A2 Open Silver RHYTHM Mambo",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 400",
+              "event": "L-A2 Open Silver RHYTHM Rumba",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 191",
+              "event": "L-A2 Open Silver SMOOTH Foxtrot",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 190",
+              "event": "L-A2 Open Silver SMOOTH Tango",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 192",
+              "event": "L-A2 Open Silver SMOOTH Viennese Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 189",
+              "event": "L-A2 Open Silver SMOOTH Waltz",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-B Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 162",
+              "event": "L-B Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "Lisovolenko, Stanislav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 526",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 528",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am RHYTHM Scholarship (C/R/SW/B/M)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 264",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 529",
+              "event": "L-B North American Pro-Am GRAND SLAM Open RHYTHM Scholarship (C/R/SW/B/M)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 260",
+              "event": "L-B North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-B Open Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 217",
+              "event": "L-B Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 524",
+              "event": "L-B World Pro-Am DSS Open RHYTHM Championships (C/R/SW/B/M)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 258",
+              "event": "L-B World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+              "partner": "Storozhuk, Vladyslav",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Tarsky, Sarah",
+          "entries": [
+            {
+              "heat": "Heat 545",
+              "event": "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            },
+            {
+              "heat": "Heat 596",
+              "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            },
+            {
+              "heat": "Heat 552",
+              "event": "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            },
+            {
+              "heat": "Heat 591",
+              "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            },
+            {
+              "heat": "Heat 572",
+              "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            },
+            {
+              "heat": "Heat 557",
+              "event": "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+              "partner": "Nor-Arevian, Arsene",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Ding, Edwin",
+          "entries": [
+            {
+              "heat": "Heat 276",
+              "event": "G-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "G-YTH Open Gold Advanced LATIN Cha Cha",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 236",
+              "event": "G-YTH Open Gold Advanced LATIN Jive",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "G-YTH Open Gold Advanced LATIN Paso Doble",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "G-YTH Open Gold Advanced LATIN Rumba",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "G-YTH Open Gold Advanced LATIN Samba",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 245",
+              "event": "G-YTH Open Gold LATIN Cha Cha",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "G-YTH Open Gold LATIN Jive",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 237",
+              "event": "G-YTH Open Gold LATIN Paso Doble",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 247",
+              "event": "G-YTH Open Gold LATIN Rumba",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 246",
+              "event": "G-YTH Open Gold LATIN Samba",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "G-YTH World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Sinyauskaya, Anastasia",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Lisovolenko, Stanislav",
+          "oldEntryCount": 36,
+          "newEntryCount": 74,
+          "addedEntries": [
+            {
+              "heat": "Heat 333",
+              "event": "L-A1 Closed Full Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 330",
+              "event": "L-A1 Closed Full Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 332",
+              "event": "L-A1 Closed Full Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 334",
+              "event": "L-A1 Closed Full Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 331",
+              "event": "L-A1 Closed Full Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 146",
+              "event": "L-A1 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 145",
+              "event": "L-A1 Closed Full Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 147",
+              "event": "L-A1 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 144",
+              "event": "L-A1 Closed Full Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 308",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 305",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 307",
+              "event": "L-A1 Closed Interm. Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 309",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 306",
+              "event": "L-A1 Closed Interm. Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 118",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 117",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 119",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-A1 Closed Interm. Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 343",
+              "event": "L-A2 Closed Full Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 340",
+              "event": "L-A2 Closed Full Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "L-A2 Closed Full Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "L-A2 Closed Full Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 341",
+              "event": "L-A2 Closed Full Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 158",
+              "event": "L-A2 Closed Full Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 157",
+              "event": "L-A2 Closed Full Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 143",
+              "event": "L-A2 Closed Full Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 156",
+              "event": "L-A2 Closed Full Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 322",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 319",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 321",
+              "event": "L-A2 Closed Interm. Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 323",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 320",
+              "event": "L-A2 Closed Interm. Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 126",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 127",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 124",
+              "event": "L-A2 Closed Interm. Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 347",
+              "event": "L-B Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 162",
+              "event": "L-B Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Nor-Arevian, Arsene",
+          "oldEntryCount": 6,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "Heat 545",
+              "event": "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            },
+            {
+              "heat": "Heat 596",
+              "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            },
+            {
+              "heat": "Heat 552",
+              "event": "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            },
+            {
+              "heat": "Heat 591",
+              "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            },
+            {
+              "heat": "Heat 572",
+              "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            },
+            {
+              "heat": "Heat 557",
+              "event": "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+              "partner": "Tarsky, Sarah",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Sinyauskaya, Anastasia",
+          "oldEntryCount": 13,
+          "newEntryCount": 1,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 276",
+              "event": "G-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "G-YTH Open Gold Advanced LATIN Cha Cha",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 236",
+              "event": "G-YTH Open Gold Advanced LATIN Jive",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "G-YTH Open Gold Advanced LATIN Paso Doble",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "G-YTH Open Gold Advanced LATIN Rumba",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "G-YTH Open Gold Advanced LATIN Samba",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 245",
+              "event": "G-YTH Open Gold LATIN Cha Cha",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "G-YTH Open Gold LATIN Jive",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 237",
+              "event": "G-YTH Open Gold LATIN Paso Doble",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 247",
+              "event": "G-YTH Open Gold LATIN Rumba",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 246",
+              "event": "G-YTH Open Gold LATIN Samba",
+              "partner": "Ding, Edwin",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "G-YTH World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Ding, Edwin",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Storozhuk, Vladyslav",
+          "oldEntryCount": 42,
+          "newEntryCount": 106,
+          "addedEntries": [
+            {
+              "heat": "Heat 401A",
+              "event": "L-A1 Open Gold RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 394",
+              "event": "L-A1 Open Gold RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 396",
+              "event": "L-A1 Open Gold RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 401B",
+              "event": "L-A1 Open Gold RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 395",
+              "event": "L-A1 Open Gold RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 202",
+              "event": "L-A1 Open Gold SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 201",
+              "event": "L-A1 Open Gold SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 203",
+              "event": "L-A1 Open Gold SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 200",
+              "event": "L-A1 Open Gold SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 358",
+              "event": "L-A1 Open Pre Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 355",
+              "event": "L-A1 Open Pre Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 357",
+              "event": "L-A1 Open Pre Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 359",
+              "event": "L-A1 Open Pre Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 356",
+              "event": "L-A1 Open Pre Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 166",
+              "event": "L-A1 Open Pre Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 165",
+              "event": "L-A1 Open Pre Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 167",
+              "event": "L-A1 Open Pre Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 164",
+              "event": "L-A1 Open Pre Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 397",
+              "event": "L-A1 Open Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 388",
+              "event": "L-A1 Open Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 390",
+              "event": "L-A1 Open Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 398",
+              "event": "L-A1 Open Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 389",
+              "event": "L-A1 Open Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 182",
+              "event": "L-A1 Open Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 181",
+              "event": "L-A1 Open Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 183",
+              "event": "L-A1 Open Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 180",
+              "event": "L-A1 Open Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 391",
+              "event": "L-A2 Open Gold RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 365",
+              "event": "L-A2 Open Gold RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 367",
+              "event": "L-A2 Open Gold RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 392",
+              "event": "L-A2 Open Gold RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 366",
+              "event": "L-A2 Open Gold RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 214",
+              "event": "L-A2 Open Gold SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 213",
+              "event": "L-A2 Open Gold SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 215",
+              "event": "L-A2 Open Gold SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 212",
+              "event": "L-A2 Open Gold SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 374",
+              "event": "L-A2 Open Pre Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 371",
+              "event": "L-A2 Open Pre Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 373",
+              "event": "L-A2 Open Pre Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 375",
+              "event": "L-A2 Open Pre Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 372",
+              "event": "L-A2 Open Pre Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 174",
+              "event": "L-A2 Open Pre Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 173",
+              "event": "L-A2 Open Pre Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 175",
+              "event": "L-A2 Open Pre Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "L-A2 Open Pre Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 380",
+              "event": "L-A2 Open Silver RHYTHM Bolero",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 399",
+              "event": "L-A2 Open Silver RHYTHM Cha Cha",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 401",
+              "event": "L-A2 Open Silver RHYTHM East Coast Swing",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-A2 Open Silver RHYTHM Mambo",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 400",
+              "event": "L-A2 Open Silver RHYTHM Rumba",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 191",
+              "event": "L-A2 Open Silver SMOOTH Foxtrot",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 190",
+              "event": "L-A2 Open Silver SMOOTH Tango",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 192",
+              "event": "L-A2 Open Silver SMOOTH Viennese Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 189",
+              "event": "L-A2 Open Silver SMOOTH Waltz",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 526",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 528",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am RHYTHM Scholarship (C/R/SW/B/M)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 264",
+              "event": "L-B NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 529",
+              "event": "L-B North American Pro-Am GRAND SLAM Open RHYTHM Scholarship (C/R/SW/B/M)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 260",
+              "event": "L-B North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 404",
+              "event": "L-B Open Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 217",
+              "event": "L-B Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 524",
+              "event": "L-B World Pro-Am DSS Open RHYTHM Championships (C/R/SW/B/M)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            },
+            {
+              "heat": "Heat 258",
+              "event": "L-B World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+              "partner": "McCloskey, Fiona",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1871,
+      "newCount": 1956,
+      "oldUniqueCount": 1842,
+      "newUniqueCount": 1927,
+      "added": [
+        "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+        "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+        "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+        "L-A1 Closed Full Silver RHYTHM Bolero",
+        "L-A1 Closed Full Silver RHYTHM Cha Cha",
+        "L-A1 Closed Full Silver RHYTHM East Coast Swing",
+        "L-A1 Closed Full Silver RHYTHM Mambo",
+        "L-A1 Closed Full Silver RHYTHM Rumba",
+        "L-A1 Closed Full Silver SMOOTH Foxtrot",
+        "L-A1 Closed Full Silver SMOOTH Tango",
+        "L-A1 Closed Full Silver SMOOTH Viennese Waltz",
+        "L-A1 Closed Full Silver SMOOTH Waltz",
+        "L-A1 Closed Interm. Silver RHYTHM Bolero",
+        "L-A1 Closed Interm. Silver RHYTHM Cha Cha",
+        "L-A1 Closed Interm. Silver RHYTHM East Coast Swing",
+        "L-A1 Closed Interm. Silver RHYTHM Mambo",
+        "L-A1 Closed Interm. Silver RHYTHM Rumba",
+        "L-A1 Closed Interm. Silver SMOOTH Foxtrot",
+        "L-A1 Closed Interm. Silver SMOOTH Tango",
+        "L-A1 Closed Interm. Silver SMOOTH Viennese Waltz",
+        "L-A1 Closed Interm. Silver SMOOTH Waltz",
+        "L-A1 Open Gold RHYTHM Bolero",
+        "L-A1 Open Gold RHYTHM Cha Cha",
+        "L-A1 Open Gold RHYTHM East Coast Swing",
+        "L-A1 Open Gold RHYTHM Mambo",
+        "L-A1 Open Gold RHYTHM Rumba",
+        "L-A1 Open Gold SMOOTH Foxtrot",
+        "L-A1 Open Gold SMOOTH Tango",
+        "L-A1 Open Gold SMOOTH Viennese Waltz",
+        "L-A1 Open Gold SMOOTH Waltz",
+        "L-A1 Open Pre Silver RHYTHM Bolero",
+        "L-A1 Open Pre Silver RHYTHM Cha Cha",
+        "L-A1 Open Pre Silver RHYTHM East Coast Swing",
+        "L-A1 Open Pre Silver RHYTHM Mambo",
+        "L-A1 Open Pre Silver RHYTHM Rumba",
+        "L-A1 Open Pre Silver SMOOTH Foxtrot",
+        "L-A1 Open Pre Silver SMOOTH Tango",
+        "L-A1 Open Pre Silver SMOOTH Viennese Waltz",
+        "L-A1 Open Pre Silver SMOOTH Waltz",
+        "L-A1 Open Silver RHYTHM Bolero",
+        "L-A1 Open Silver RHYTHM Cha Cha",
+        "L-A1 Open Silver RHYTHM East Coast Swing",
+        "L-A1 Open Silver RHYTHM Mambo",
+        "L-A1 Open Silver RHYTHM Rumba",
+        "L-A1 Open Silver SMOOTH Foxtrot",
+        "L-A1 Open Silver SMOOTH Tango",
+        "L-A1 Open Silver SMOOTH Viennese Waltz",
+        "L-A1 Open Silver SMOOTH Waltz",
+        "L-A2 Closed Full Silver RHYTHM Bolero",
+        "L-A2 Closed Full Silver RHYTHM Cha Cha",
+        "L-A2 Closed Full Silver RHYTHM East Coast Swing",
+        "L-A2 Closed Full Silver RHYTHM Mambo",
+        "L-A2 Closed Full Silver RHYTHM Rumba",
+        "L-A2 Closed Full Silver SMOOTH Foxtrot",
+        "L-A2 Closed Full Silver SMOOTH Tango",
+        "L-A2 Closed Full Silver SMOOTH Viennese Waltz",
+        "L-A2 Closed Full Silver SMOOTH Waltz",
+        "L-A2 Closed Interm. Silver RHYTHM Bolero",
+        "L-A2 Closed Interm. Silver RHYTHM Cha Cha",
+        "L-A2 Closed Interm. Silver RHYTHM East Coast Swing",
+        "L-A2 Closed Interm. Silver RHYTHM Mambo",
+        "L-A2 Closed Interm. Silver RHYTHM Rumba",
+        "L-A2 Closed Interm. Silver SMOOTH Foxtrot",
+        "L-A2 Closed Interm. Silver SMOOTH Tango",
+        "L-A2 Closed Interm. Silver SMOOTH Viennese Waltz",
+        "L-A2 Closed Interm. Silver SMOOTH Waltz",
+        "L-A2 Open Gold SMOOTH Foxtrot",
+        "L-A2 Open Gold SMOOTH Tango",
+        "L-A2 Open Gold SMOOTH Viennese Waltz",
+        "L-A2 Open Gold SMOOTH Waltz",
+        "L-A2 Open Pre Silver RHYTHM Bolero",
+        "L-A2 Open Pre Silver RHYTHM Cha Cha",
+        "L-A2 Open Pre Silver RHYTHM East Coast Swing",
+        "L-A2 Open Pre Silver RHYTHM Mambo",
+        "L-A2 Open Pre Silver RHYTHM Rumba",
+        "L-A2 Open Pre Silver SMOOTH Foxtrot",
+        "L-A2 Open Pre Silver SMOOTH Tango",
+        "L-A2 Open Pre Silver SMOOTH Viennese Waltz",
+        "L-A2 Open Pre Silver SMOOTH Waltz",
+        "L-A2 Open Silver RHYTHM Bolero",
+        "L-A2 Open Silver RHYTHM Cha Cha",
+        "L-A2 Open Silver RHYTHM East Coast Swing",
+        "L-A2 Open Silver RHYTHM Mambo",
+        "L-A2 Open Silver RHYTHM Rumba",
+        "L-A2 Open Silver SMOOTH Foxtrot",
+        "L-A2 Open Silver SMOOTH Tango",
+        "L-A2 Open Silver SMOOTH Viennese Waltz",
+        "L-A2 Open Silver SMOOTH Waltz",
+        "L-B Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "L-B Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+        "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
+        "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+        "L-B NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+        "L-B North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+        "L-B Open Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "L-B Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+        "L-B World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)"
+      ],
+      "removed": [
+        "G-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "G-YTH Open Gold Advanced LATIN Cha Cha",
+        "G-YTH Open Gold Advanced LATIN Jive",
+        "G-YTH Open Gold Advanced LATIN Paso Doble",
+        "G-YTH Open Gold Advanced LATIN Rumba",
+        "G-YTH Open Gold Advanced LATIN Samba",
+        "G-YTH Open Gold LATIN Cha Cha",
+        "G-YTH Open Gold LATIN Jive",
+        "G-YTH Open Gold LATIN Paso Doble",
+        "G-YTH Open Gold LATIN Rumba",
+        "G-YTH Open Gold LATIN Samba",
+        "G-YTH World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+          "added": [
+            "Nor-Arevian, Arsene",
+            "Tarsky, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+          "added": [
+            "Nor-Arevian, Arsene",
+            "Tarsky, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+          "added": [
+            "Nor-Arevian, Arsene",
+            "Tarsky, Sarah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A2 Open Gold RHYTHM Bolero",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A2 Open Gold RHYTHM Cha Cha",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A2 Open Gold RHYTHM East Coast Swing",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A2 Open Gold RHYTHM Mambo",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-A2 Open Gold RHYTHM Rumba",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B NORTH AMERICAN OPEN Pro-Am RHYTHM Scholarship (C/R/SW/B/M)",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B North American Pro-Am GRAND SLAM Open RHYTHM Scholarship (C/R/SW/B/M)",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-B World Pro-Am DSS Open RHYTHM Championships (C/R/SW/B/M)",
+          "added": [
+            "McCloskey, Fiona",
+            "Storozhuk, Vladyslav"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]

@@ -3290,6 +3290,17 @@
   },
   {
     "heat": "Heat 116",
+    "event": "L-A1 Closed Interm. Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:16PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 116",
     "event": "L-A2 Closed Newcomer SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "12:16PM Friday",
@@ -3367,6 +3378,17 @@
     "competitors": [
       "Bakhchevan, Mykyta",
       "D'Alessandro, Kassia"
+    ]
+  },
+  {
+    "heat": "Heat 117",
+    "event": "L-A1 Closed Interm. Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:17PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -3452,6 +3474,17 @@
   },
   {
     "heat": "Heat 118",
+    "event": "L-A1 Closed Interm. Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:18PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 118",
     "event": "L-A2 Closed Newcomer SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "12:18PM Friday",
@@ -3496,6 +3529,17 @@
       "Holtham, Helen",
       "Panko, Devon",
       "Rader, Chris"
+    ]
+  },
+  {
+    "heat": "Heat 119",
+    "event": "L-A1 Closed Interm. Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:20PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -3845,6 +3889,17 @@
   },
   {
     "heat": "Heat 124",
+    "event": "L-A2 Closed Interm. Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:27PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 124",
     "event": "L-B1 Closed Pre Bronze Proficiency SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "12:27PM Friday",
@@ -3923,6 +3978,17 @@
       "D'Alessandro, Kassia",
       "Gordon, Tyler",
       "Lin, Clara"
+    ]
+  },
+  {
+    "heat": "Heat 125",
+    "event": "L-A2 Closed Interm. Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:28PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -4020,6 +4086,17 @@
   },
   {
     "heat": "Heat 126",
+    "event": "L-A2 Closed Interm. Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:30PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 126",
     "event": "L-B1 Closed Pre Bronze Proficiency SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "12:30PM Friday",
@@ -4077,6 +4154,17 @@
       "D'Alessandro, Kassia",
       "Gordon, Tyler",
       "Lin, Clara"
+    ]
+  },
+  {
+    "heat": "Heat 127",
+    "event": "L-A2 Closed Interm. Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:31PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -5054,6 +5142,17 @@
   },
   {
     "heat": "Heat 143",
+    "event": "L-A2 Closed Full Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:53PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 143",
     "event": "L-B1 Closed Full Silver Proficiency SMOOTH Viennese Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "12:53PM Friday",
@@ -5087,6 +5186,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Jacques-Tran, Jocelyn"
+    ]
+  },
+  {
+    "heat": "Heat 144",
+    "event": "L-A1 Closed Full Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:54PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -5134,6 +5244,17 @@
   },
   {
     "heat": "Heat 145",
+    "event": "L-A1 Closed Full Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:56PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 145",
     "event": "L-B1 Closed Full Silver Proficiency SMOOTH Tango",
     "session": "Session 1 - Friday Daytime",
     "time": "12:56PM Friday",
@@ -5173,6 +5294,17 @@
     "competitors": [
       "Rader, Chris",
       "Zatylny, Wendy"
+    ]
+  },
+  {
+    "heat": "Heat 146",
+    "event": "L-A1 Closed Full Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:57PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -5227,6 +5359,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Jacques-Tran, Jocelyn"
+    ]
+  },
+  {
+    "heat": "Heat 147",
+    "event": "L-A1 Closed Full Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "12:59PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -5701,6 +5844,17 @@
   },
   {
     "heat": "Heat 156",
+    "event": "L-A2 Closed Full Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:11PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 156",
     "event": "L-B1 Closed Full Bronze Proficiency SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "01:11PM Friday",
@@ -5782,6 +5936,17 @@
   },
   {
     "heat": "Heat 157",
+    "event": "L-A2 Closed Full Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:12PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 157",
     "event": "L-B1 Closed Full Bronze Proficiency SMOOTH Tango",
     "session": "Session 1 - Friday Daytime",
     "time": "01:12PM Friday",
@@ -5859,6 +6024,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Jacques-Tran, Jocelyn"
+    ]
+  },
+  {
+    "heat": "Heat 158",
+    "event": "L-A2 Closed Full Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:14PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -6089,6 +6265,17 @@
   },
   {
     "heat": "Heat 162",
+    "event": "L-B Closed Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:26PM Friday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 162",
     "event": "L-S1 Closed Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
     "session": "Session 1 - Friday Daytime",
     "time": "01:26PM Friday",
@@ -6191,6 +6378,17 @@
   },
   {
     "heat": "Heat 164",
+    "event": "L-A1 Open Pre Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:50PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 164",
     "event": "L-B1 Open Pre Bronze SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "01:50PM Friday",
@@ -6250,6 +6448,17 @@
       "D'Alessandro, Kassia",
       "Gordon, Tyler",
       "Lin, Clara"
+    ]
+  },
+  {
+    "heat": "Heat 165",
+    "event": "L-A1 Open Pre Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:51PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -6317,6 +6526,17 @@
   },
   {
     "heat": "Heat 166",
+    "event": "L-A1 Open Pre Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:52PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 166",
     "event": "L-B1 Open Pre Bronze SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "01:52PM Friday",
@@ -6350,6 +6570,17 @@
     "competitors": [
       "Bakhchevan, Mykyta",
       "D'Alessandro, Kassia"
+    ]
+  },
+  {
+    "heat": "Heat 167",
+    "event": "L-A1 Open Pre Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "01:54PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -6616,6 +6847,17 @@
   },
   {
     "heat": "Heat 172",
+    "event": "L-A2 Open Pre Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:01PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 172",
     "event": "L-B1 Open Silver Proficiency SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "02:01PM Friday",
@@ -6677,6 +6919,17 @@
   },
   {
     "heat": "Heat 173",
+    "event": "L-A2 Open Pre Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:02PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 173",
     "event": "L-B1 Open Silver Proficiency SMOOTH Tango",
     "session": "Session 1 - Friday Daytime",
     "time": "02:02PM Friday",
@@ -6734,6 +6987,17 @@
     "competitors": [
       "Gordon, Tyler",
       "Lin, Clara"
+    ]
+  },
+  {
+    "heat": "Heat 174",
+    "event": "L-A2 Open Pre Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:03PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -6817,6 +7081,17 @@
     "competitors": [
       "Bakhchevan, Mykyta",
       "D'Alessandro, Kassia"
+    ]
+  },
+  {
+    "heat": "Heat 175",
+    "event": "L-A2 Open Pre Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:05PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -7138,6 +7413,17 @@
   },
   {
     "heat": "Heat 180",
+    "event": "L-A1 Open Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:12PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 180",
     "event": "L-B2 Open Bronze SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "02:12PM Friday",
@@ -7194,6 +7480,17 @@
     "competitors": [
       "Bailey, Celeste",
       "Horwood, John"
+    ]
+  },
+  {
+    "heat": "Heat 181",
+    "event": "L-A1 Open Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:13PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -7258,6 +7555,17 @@
   },
   {
     "heat": "Heat 182",
+    "event": "L-A1 Open Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:14PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 182",
     "event": "L-B2 Open Bronze SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "02:14PM Friday",
@@ -7313,6 +7621,17 @@
     "competitors": [
       "Benson, Marty",
       "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 183",
+    "event": "L-A1 Open Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:16PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -7640,6 +7959,17 @@
   },
   {
     "heat": "Heat 189",
+    "event": "L-A2 Open Silver SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:24PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 189",
     "event": "L-B1 Open Intermediate Gold  SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "02:24PM Friday",
@@ -7710,6 +8040,17 @@
   },
   {
     "heat": "Heat 190",
+    "event": "L-A2 Open Silver SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:26PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 190",
     "event": "L-B1 Open Intermediate Gold  SMOOTH Tango",
     "session": "Session 1 - Friday Daytime",
     "time": "02:26PM Friday",
@@ -7769,6 +8110,17 @@
   },
   {
     "heat": "Heat 191",
+    "event": "L-A2 Open Silver SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:27PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 191",
     "event": "L-B1 Open Intermediate Gold  SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "02:27PM Friday",
@@ -7813,6 +8165,17 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
+    ]
+  },
+  {
+    "heat": "Heat 192",
+    "event": "L-A2 Open Silver SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:28PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -8131,6 +8494,17 @@
   },
   {
     "heat": "Heat 200",
+    "event": "L-A1 Open Gold SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:39PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 200",
     "event": "L-B1 Open Gold SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "02:39PM Friday",
@@ -8175,6 +8549,17 @@
     "competitors": [
       "Delaney, Paul",
       "Kolarova, Milena"
+    ]
+  },
+  {
+    "heat": "Heat 201",
+    "event": "L-A1 Open Gold SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:41PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -8227,6 +8612,17 @@
   },
   {
     "heat": "Heat 202",
+    "event": "L-A1 Open Gold SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:42PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 202",
     "event": "L-B1 Open Gold SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "02:42PM Friday",
@@ -8260,6 +8656,17 @@
     "competitors": [
       "Gurkov, Dmytro",
       "Horwood, Rebecca"
+    ]
+  },
+  {
+    "heat": "Heat 203",
+    "event": "L-A1 Open Gold SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:43PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -8658,6 +9065,17 @@
   },
   {
     "heat": "Heat 212",
+    "event": "L-A2 Open Gold SMOOTH Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:56PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 212",
     "event": "L-B1 Open Gold Proficiency SMOOTH Waltz",
     "session": "Session 1 - Friday Daytime",
     "time": "02:56PM Friday",
@@ -8689,6 +9107,17 @@
     "competitors": [
       "Delaney, Paul",
       "Kolarova, Milena"
+    ]
+  },
+  {
+    "heat": "Heat 213",
+    "event": "L-A2 Open Gold SMOOTH Tango",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:57PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -8728,6 +9157,17 @@
   },
   {
     "heat": "Heat 214",
+    "event": "L-A2 Open Gold SMOOTH Foxtrot",
+    "session": "Session 1 - Friday Daytime",
+    "time": "02:59PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 214",
     "event": "L-B1 Open Gold Proficiency SMOOTH Foxtrot",
     "session": "Session 1 - Friday Daytime",
     "time": "02:59PM Friday",
@@ -8748,6 +9188,17 @@
     "competitors": [
       "Delaney, Paul",
       "Kolarova, Milena"
+    ]
+  },
+  {
+    "heat": "Heat 215",
+    "event": "L-A2 Open Gold SMOOTH Viennese Waltz",
+    "session": "Session 1 - Friday Daytime",
+    "time": "03:00PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -8802,6 +9253,17 @@
     "competitors": [
       "Bakhchevan, Mykyta",
       "D'Alessandro, Kassia"
+    ]
+  },
+  {
+    "heat": "Heat 217",
+    "event": "L-B Open Silver Pro-Am American SMOOTH 3-Dance (W/T/F)",
+    "session": "Session 1 - Friday Daytime",
+    "time": "03:06PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -9344,17 +9806,6 @@
   },
   {
     "heat": "Heat 236",
-    "event": "G-YTH Open Gold Advanced LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:11PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 236",
     "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
     "session": "Session 1 - Friday Daytime",
     "time": "04:11PM Friday",
@@ -9362,17 +9813,6 @@
     "competitors": [
       "Branham, James",
       "Horton, Sara"
-    ]
-  },
-  {
-    "heat": "Heat 237",
-    "event": "G-YTH Open Gold LATIN Paso Doble",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:12PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -9425,17 +9865,6 @@
   },
   {
     "heat": "Heat 239",
-    "event": "G-YTH Open Gold Advanced LATIN Cha Cha",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:15PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 239",
     "event": "L-B1 Open Gold Advanced LATIN Cha Cha",
     "session": "Session 1 - Friday Daytime",
     "time": "04:15PM Friday",
@@ -9469,17 +9898,6 @@
   },
   {
     "heat": "Heat 240",
-    "event": "G-YTH Open Gold Advanced LATIN Samba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:16PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 240",
     "event": "L-B1 Open Gold Advanced LATIN Samba",
     "session": "Session 1 - Friday Daytime",
     "time": "04:16PM Friday",
@@ -9509,17 +9927,6 @@
     "competitors": [
       "Daich, Idan",
       "Guzman, Julia"
-    ]
-  },
-  {
-    "heat": "Heat 241",
-    "event": "G-YTH Open Gold Advanced LATIN Rumba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:18PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -9656,17 +10063,6 @@
   },
   {
     "heat": "Heat 245",
-    "event": "G-YTH Open Gold LATIN Cha Cha",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:23PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 245",
     "event": "L-A Open Gold LATIN Cha Cha",
     "session": "Session 1 - Friday Daytime",
     "time": "04:23PM Friday",
@@ -9700,17 +10096,6 @@
   },
   {
     "heat": "Heat 246",
-    "event": "G-YTH Open Gold LATIN Samba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:25PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 246",
     "event": "L-A Open Gold LATIN Samba",
     "session": "Session 1 - Friday Daytime",
     "time": "04:25PM Friday",
@@ -9729,17 +10114,6 @@
     "competitors": [
       "Bartha, Anita",
       "Zat, Simone"
-    ]
-  },
-  {
-    "heat": "Heat 247",
-    "event": "G-YTH Open Gold LATIN Rumba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:26PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -9788,17 +10162,6 @@
   },
   {
     "heat": "Heat 249",
-    "event": "G-YTH Open Gold Advanced LATIN Paso Doble",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:29PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
-    ]
-  },
-  {
-    "heat": "Heat 249",
     "event": "L-A Open Gold LATIN Paso Doble",
     "session": "Session 1 - Friday Daytime",
     "time": "04:29PM Friday",
@@ -9817,17 +10180,6 @@
     "competitors": [
       "Bartha, Anita",
       "Zat, Simone"
-    ]
-  },
-  {
-    "heat": "Heat 250",
-    "event": "G-YTH Open Gold LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:30PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -10104,6 +10456,17 @@
   },
   {
     "heat": "Heat 256",
+    "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+    "session": "Session 2 - Friday Evening",
+    "time": "07:30PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 256",
     "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
     "session": "Session 2 - Friday Evening",
     "time": "07:30PM Friday",
@@ -10154,6 +10517,17 @@
   },
   {
     "heat": "Heat 258",
+    "event": "L-B World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+    "session": "Session 2 - Friday Evening",
+    "time": "07:42PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 258",
     "event": "L-S1 World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
     "session": "Session 2 - Friday Evening",
     "time": "07:42PM Friday",
@@ -10198,6 +10572,17 @@
     "competitors": [
       "Bakhchevan, Mykyta",
       "D'Alessandro, Kassia"
+    ]
+  },
+  {
+    "heat": "Heat 260",
+    "event": "L-B North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+    "session": "Session 2 - Friday Evening",
+    "time": "07:55PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -10285,6 +10670,17 @@
   },
   {
     "heat": "Heat 264",
+    "event": "L-B NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+    "session": "Session 2 - Friday Evening",
+    "time": "08:22PM Friday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 264",
     "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
     "session": "Session 2 - Friday Evening",
     "time": "08:22PM Friday",
@@ -10335,17 +10731,6 @@
     "competitors": [
       "Kirillov, Eduard",
       "Youssouf, Aesha"
-    ]
-  },
-  {
-    "heat": "Heat 268",
-    "event": "G-YTH World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
-    "session": "Session 2 - Friday Evening",
-    "time": "09:19PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -10481,17 +10866,6 @@
       "Nault, Elsie-Rose",
       "Tsydinskyi, Mykyta",
       "Youssouf, Aesha"
-    ]
-  },
-  {
-    "heat": "Heat 276",
-    "event": "G-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
-    "session": "Session 2 - Friday Evening",
-    "time": "10:23PM Friday",
-    "awards": null,
-    "competitors": [
-      "Ding, Edwin",
-      "Sinyauskaya, Anastasia"
     ]
   },
   {
@@ -12258,6 +12632,17 @@
   },
   {
     "heat": "Heat 305",
+    "event": "L-A1 Closed Interm. Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:37AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 305",
     "event": "L-B1 Closed Interm. Bronze RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:37AM Saturday",
@@ -12315,6 +12700,17 @@
     "competitors": [
       "Gordon, Tyler",
       "Sze, Phoebe"
+    ]
+  },
+  {
+    "heat": "Heat 306",
+    "event": "L-A1 Closed Interm. Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:38AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -12380,6 +12776,17 @@
   },
   {
     "heat": "Heat 307",
+    "event": "L-A1 Closed Interm. Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:40AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 307",
     "event": "L-B1 Closed Interm. Bronze RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:40AM Saturday",
@@ -12419,6 +12826,17 @@
   },
   {
     "heat": "Heat 308",
+    "event": "L-A1 Closed Interm. Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:41AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 308",
     "event": "L-B1 Closed Full Silver Proficiency RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:41AM Saturday",
@@ -12452,6 +12870,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Driscoll, Breanna"
+    ]
+  },
+  {
+    "heat": "Heat 309",
+    "event": "L-A1 Closed Interm. Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:42AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13008,6 +13437,17 @@
   },
   {
     "heat": "Heat 319",
+    "event": "L-A2 Closed Interm. Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:56AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 319",
     "event": "L-B1 Closed Full Bronze RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:56AM Saturday",
@@ -13065,6 +13505,17 @@
     "competitors": [
       "Artemenko, Kamila",
       "Cook, Jennifer"
+    ]
+  },
+  {
+    "heat": "Heat 320",
+    "event": "L-A2 Closed Interm. Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:58AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13130,6 +13581,17 @@
   },
   {
     "heat": "Heat 321",
+    "event": "L-A2 Closed Interm. Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "09:59AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 321",
     "event": "L-B1 Closed Full Bronze RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
     "time": "09:59AM Saturday",
@@ -13180,6 +13642,17 @@
   },
   {
     "heat": "Heat 322",
+    "event": "L-A2 Closed Interm. Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:00AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 322",
     "event": "L-B1 Closed Full Bronze RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:00AM Saturday",
@@ -13213,6 +13686,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Driscoll, Breanna"
+    ]
+  },
+  {
+    "heat": "Heat 323",
+    "event": "L-A2 Closed Interm. Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:02AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13524,6 +14008,17 @@
   },
   {
     "heat": "Heat 330",
+    "event": "L-A1 Closed Full Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:11AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 330",
     "event": "L-B1 Closed Pre Bronze Proficiency RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:11AM Saturday",
@@ -13581,6 +14076,17 @@
       "Horwood, John",
       "Pastukh, Kateryna",
       "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 331",
+    "event": "L-A1 Closed Full Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:13AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13646,6 +14152,17 @@
   },
   {
     "heat": "Heat 332",
+    "event": "L-A1 Closed Full Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:14AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 332",
     "event": "L-B1 Closed Pre Bronze Proficiency RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:14AM Saturday",
@@ -13705,6 +14222,17 @@
   },
   {
     "heat": "Heat 333",
+    "event": "L-A1 Closed Full Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:16AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 333",
     "event": "L-B1 Closed Full Bronze Proficiency RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:16AM Saturday",
@@ -13745,6 +14273,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Driscoll, Breanna"
+    ]
+  },
+  {
+    "heat": "Heat 334",
+    "event": "L-A1 Closed Full Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:17AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13931,6 +14470,17 @@
   },
   {
     "heat": "Heat 340",
+    "event": "L-A2 Closed Full Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:25AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 340",
     "event": "L-B1 Closed Full Silver Proficiency RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:25AM Saturday",
@@ -13944,6 +14494,17 @@
   },
   {
     "heat": "Heat 341",
+    "event": "L-A2 Closed Full Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:27AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
+    ]
+  },
+  {
+    "heat": "Heat 341",
     "event": "L-B1 Closed Full Silver Proficiency RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:27AM Saturday",
@@ -13953,6 +14514,17 @@
       "Kolesnikov, Valentin",
       "Ocheret, Artem",
       "Zaharchuk, Janet"
+    ]
+  },
+  {
+    "heat": "Heat 342",
+    "event": "L-A2 Closed Full Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:28AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -13977,6 +14549,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Driscoll, Breanna"
+    ]
+  },
+  {
+    "heat": "Heat 343",
+    "event": "L-A2 Closed Full Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:29AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -14021,6 +14604,17 @@
     "competitors": [
       "Daepp, Raymond",
       "Driscoll, Breanna"
+    ]
+  },
+  {
+    "heat": "Heat 344",
+    "event": "L-A2 Closed Full Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:31AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -14158,6 +14752,17 @@
     "competitors": [
       "Horwood, John",
       "Pastukh, Kateryna"
+    ]
+  },
+  {
+    "heat": "Heat 347",
+    "event": "L-B Closed Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "10:41AM Saturday",
+    "awards": null,
+    "competitors": [
+      "Lisovolenko, Stanislav",
+      "McCloskey, Fiona"
     ]
   },
   {
@@ -14575,6 +15180,17 @@
   },
   {
     "heat": "Heat 355",
+    "event": "L-A1 Open Pre Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:13AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 355",
     "event": "L-B1 Open Bronze Proficiency RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:13AM Saturday",
@@ -14617,6 +15233,17 @@
       "Hill, Gladys",
       "Lourenco, Carlos",
       "Rader, Chris"
+    ]
+  },
+  {
+    "heat": "Heat 356",
+    "event": "L-A1 Open Pre Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:15AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -14667,6 +15294,17 @@
   },
   {
     "heat": "Heat 357",
+    "event": "L-A1 Open Pre Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:16AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 357",
     "event": "L-B1 Open Bronze Proficiency RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:16AM Saturday",
@@ -14713,6 +15351,17 @@
   },
   {
     "heat": "Heat 358",
+    "event": "L-A1 Open Pre Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:18AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 358",
     "event": "L-B1 Open Pre Bronze Proficiency RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:18AM Saturday",
@@ -14731,6 +15380,17 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
+    ]
+  },
+  {
+    "heat": "Heat 359",
+    "event": "L-A1 Open Pre Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:19AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -15042,6 +15702,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -15100,6 +15762,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -15171,6 +15835,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -15357,6 +16023,17 @@
   },
   {
     "heat": "Heat 371",
+    "event": "L-A2 Open Pre Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:36AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 371",
     "event": "L-B1 Open Silver Proficiency RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:36AM Saturday",
@@ -15405,6 +16082,17 @@
   },
   {
     "heat": "Heat 372",
+    "event": "L-A2 Open Pre Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:37AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 372",
     "event": "L-B1 Open Silver Proficiency RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:37AM Saturday",
@@ -15436,6 +16124,17 @@
     "competitors": [
       "Holtham, Helen",
       "Panko, Devon"
+    ]
+  },
+  {
+    "heat": "Heat 373",
+    "event": "L-A2 Open Pre Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:38AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -15497,6 +16196,17 @@
   },
   {
     "heat": "Heat 374",
+    "event": "L-A2 Open Pre Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:40AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 374",
     "event": "L-B1 Open Intermediate Gold  RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:40AM Saturday",
@@ -15548,6 +16258,17 @@
     "competitors": [
       "Horwood, John",
       "Pastukh, Kateryna"
+    ]
+  },
+  {
+    "heat": "Heat 375",
+    "event": "L-A2 Open Pre Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:41AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -15801,6 +16522,17 @@
   },
   {
     "heat": "Heat 380",
+    "event": "L-A2 Open Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:48AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 380",
     "event": "L-B1 Open Gold Advanced RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:48AM Saturday",
@@ -15843,6 +16575,17 @@
     "competitors": [
       "Gallea, Sheila",
       "Lourenco, Carlos"
+    ]
+  },
+  {
+    "heat": "Heat 381",
+    "event": "L-A2 Open Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:49AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16219,6 +16962,17 @@
   },
   {
     "heat": "Heat 388",
+    "event": "L-A1 Open Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "11:59AM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 388",
     "event": "L-B2 Open Intermediate Gold  RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "11:59AM Saturday",
@@ -16269,6 +17023,17 @@
   },
   {
     "heat": "Heat 389",
+    "event": "L-A1 Open Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:01PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 389",
     "event": "L-B2 Open Intermediate Gold  RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:01PM Saturday",
@@ -16315,6 +17080,17 @@
       "Horwood, John",
       "Pastukh, Kateryna",
       "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 390",
+    "event": "L-A1 Open Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:02PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16375,6 +17151,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -16436,6 +17214,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -16500,6 +17280,17 @@
   },
   {
     "heat": "Heat 394",
+    "event": "L-A1 Open Gold RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:07PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 394",
     "event": "L-B1 Open Gold RHYTHM Cha Cha",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:07PM Saturday",
@@ -16550,6 +17341,17 @@
   },
   {
     "heat": "Heat 395",
+    "event": "L-A1 Open Gold RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:09PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 395",
     "event": "L-B1 Open Gold RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:09PM Saturday",
@@ -16596,6 +17398,17 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
+    ]
+  },
+  {
+    "heat": "Heat 396",
+    "event": "L-A1 Open Gold RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:10PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16661,6 +17474,17 @@
   },
   {
     "heat": "Heat 397",
+    "event": "L-A1 Open Silver RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:12PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 397",
     "event": "L-B1 Open Silver Proficiency RHYTHM Bolero",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:12PM Saturday",
@@ -16690,6 +17514,17 @@
     "competitors": [
       "Benson, Marty",
       "Safonova, Alina"
+    ]
+  },
+  {
+    "heat": "Heat 398",
+    "event": "L-A1 Open Silver RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:13PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16734,6 +17569,17 @@
     "competitors": [
       "Loesch, Jennifer",
       "Wlodarski, Tomasz"
+    ]
+  },
+  {
+    "heat": "Heat 399",
+    "event": "L-A2 Open Silver RHYTHM Cha Cha",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:14PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16793,6 +17639,17 @@
   },
   {
     "heat": "Heat 400",
+    "event": "L-A2 Open Silver RHYTHM Rumba",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:16PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 400",
     "event": "L-B1 Open Gold Advanced RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:16PM Saturday",
@@ -16836,6 +17693,28 @@
     ]
   },
   {
+    "heat": "Heat 401A",
+    "event": "L-A1 Open Gold RHYTHM Bolero",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:19PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
+    "heat": "Heat 401B",
+    "event": "L-A1 Open Gold RHYTHM Mambo",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:19PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
+    ]
+  },
+  {
     "heat": "Heat 401",
     "event": "L-A2 Open Gold Advanced RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
@@ -16844,6 +17723,17 @@
     "competitors": [
       "Loesch, Jennifer",
       "Wlodarski, Tomasz"
+    ]
+  },
+  {
+    "heat": "Heat 401",
+    "event": "L-A2 Open Silver RHYTHM East Coast Swing",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:17PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -16972,6 +17862,17 @@
     "competitors": [
       "Loesch, Jennifer",
       "Wlodarski, Tomasz"
+    ]
+  },
+  {
+    "heat": "Heat 404",
+    "event": "L-B Open Silver Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+    "session": "Session 3 - Saturday Daytime",
+    "time": "12:28PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -19139,6 +20040,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -19190,6 +20093,17 @@
       "Hill, Gladys",
       "Horwood, Rebecca",
       "Rader, Chris"
+    ]
+  },
+  {
+    "heat": "Heat 526",
+    "event": "L-B NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - RHYTHM (C/R/SW/B/M)",
+    "session": "Session 4 - Saturday Evening",
+    "time": "08:31PM Saturday",
+    "awards": null,
+    "competitors": [
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav"
     ]
   },
   {
@@ -19259,6 +20173,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -19307,6 +20223,8 @@
     "awards": null,
     "competitors": [
       "Loesch, Jennifer",
+      "McCloskey, Fiona",
+      "Storozhuk, Vladyslav",
       "Wlodarski, Tomasz"
     ]
   },
@@ -19714,6 +20632,17 @@
     ]
   },
   {
+    "heat": "Heat 545",
+    "event": "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "10:42AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah"
+    ]
+  },
+  {
     "heat": "Heat 546",
     "event": "L-A Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)",
     "session": "Session 5 - Sunday Daytime",
@@ -19864,6 +20793,17 @@
       "Ilyushenov, Andrey",
       "Lysenko, Mariia",
       "Petrov, Nathaniel"
+    ]
+  },
+  {
+    "heat": "Heat 552",
+    "event": "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "10:57AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah"
     ]
   },
   {
@@ -20098,6 +21038,17 @@
       "Mykhailutsa, Nikol",
       "Orlov, Maxim",
       "Rolik, Max"
+    ]
+  },
+  {
+    "heat": "Heat 557",
+    "event": "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:18AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah"
     ]
   },
   {
@@ -20706,6 +21657,8 @@
     "awards": null,
     "competitors": [
       "Maltsman, Libby",
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah",
       "Zhelasko, Danny"
     ]
   },
@@ -21332,6 +22285,8 @@
       "Baranova, Veronica",
       "Maltsman, Libby",
       "Movshovich Fil, Isabella",
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah",
       "Teplitskiy, Sophie",
       "Tretiak, Viacheslav",
       "Zhelasko, Danny"
@@ -21513,6 +22468,8 @@
       "Ivanov, Pavel",
       "Ligachyova, Angelica",
       "Maltsman, Libby",
+      "Nor-Arevian, Arsene",
+      "Tarsky, Sarah",
       "Zhelasko, Danny"
     ]
   },
