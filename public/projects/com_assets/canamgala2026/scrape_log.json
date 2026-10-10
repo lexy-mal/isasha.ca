@@ -45666,5 +45666,615 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-10T10:00:03.498828+00:00",
+    "participants": {
+      "oldCount": 221,
+      "newCount": 222,
+      "added": [
+        {
+          "name": "Mylnarczyk, Weronika",
+          "entries": [
+            {
+              "heat": "Heat 539",
+              "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Thibert, Chantal",
+          "entries": [
+            {
+              "heat": "Heat 221",
+              "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-B1 Closed Pre Bronze LATIN Rumba",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "L-B1 Closed Pre Bronze LATIN Samba",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Thibert, Chantel",
+          "entries": [
+            {
+              "heat": "Heat 221",
+              "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-B1 Closed Pre Bronze LATIN Rumba",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "L-B1 Closed Pre Bronze LATIN Samba",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Messier, Jean-Francois",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Branham, James",
+          "oldEntryCount": 174,
+          "newEntryCount": 168,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 248",
+              "event": "L-B1 Closed Full Bronze Proficiency LATIN Jive",
+              "partner": "Horton, Sara",
+              "awards": null
+            },
+            {
+              "heat": "Heat 242",
+              "event": "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
+              "partner": "Horton, Sara",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-B1 Closed Interm. Bronze RHYTHM Bolero",
+              "partner": "Horton, Sara",
+              "awards": null
+            },
+            {
+              "heat": "Heat 236",
+              "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
+              "partner": "Horton, Sara",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-B1 Open Bronze Proficiency LATIN Jive",
+              "partner": "Horton, Sara",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "L-B1 Open Pre Bronze LATIN Jive",
+              "partner": "Horton, Sara",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Cooperman, Tony",
+          "oldEntryCount": 8,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "Heat 539",
+              "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+              "partner": "Mylnarczyk, Weronika",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Daich, Idan",
+          "oldEntryCount": 48,
+          "newEntryCount": 40,
+          "addedEntries": [
+            {
+              "heat": "Heat 274",
+              "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Smithson, Tanja",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Smithson, Tanja",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 274",
+              "event": "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Smithson, Tanja",
+              "awards": null
+            },
+            {
+              "heat": "Heat 253",
+              "event": "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Smithson, Tanja",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 276",
+              "event": "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "L-YTH Open Gold LATIN Cha Cha",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-YTH Open Gold LATIN Jive",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 243",
+              "event": "L-YTH Open Gold LATIN Paso Doble",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "L-YTH Open Gold LATIN Rumba",
+              "partner": "Guzman, Julia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "L-YTH Open Gold LATIN Samba",
+              "partner": "Guzman, Julia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ducharme, Luanne",
+          "oldEntryCount": 94,
+          "newEntryCount": 95,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "Panko, Devon",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Guzman, Julia",
+          "oldEntryCount": 13,
+          "newEntryCount": 5,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 253",
+              "event": "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 276",
+              "event": "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 239",
+              "event": "L-YTH Open Gold LATIN Cha Cha",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-YTH Open Gold LATIN Jive",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 243",
+              "event": "L-YTH Open Gold LATIN Paso Doble",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 241",
+              "event": "L-YTH Open Gold LATIN Rumba",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 240",
+              "event": "L-YTH Open Gold LATIN Samba",
+              "partner": "Daich, Idan",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Horton, Sara",
+          "oldEntryCount": 173,
+          "newEntryCount": 167,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 248",
+              "event": "L-B1 Closed Full Bronze Proficiency LATIN Jive",
+              "partner": "Branham, James",
+              "awards": null
+            },
+            {
+              "heat": "Heat 242",
+              "event": "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
+              "partner": "Branham, James",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-B1 Closed Interm. Bronze RHYTHM Bolero",
+              "partner": "Branham, James",
+              "awards": null
+            },
+            {
+              "heat": "Heat 236",
+              "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
+              "partner": "Branham, James",
+              "awards": null
+            },
+            {
+              "heat": "Heat 244",
+              "event": "L-B1 Open Bronze Proficiency LATIN Jive",
+              "partner": "Branham, James",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "L-B1 Open Pre Bronze LATIN Jive",
+              "partner": "Branham, James",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kovalenko, Karolina",
+          "oldEntryCount": 8,
+          "newEntryCount": 8,
+          "addedEntries": [
+            {
+              "heat": "Heat 605",
+              "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 573",
+              "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Messier, Jean-Francois",
+          "oldEntryCount": 19,
+          "newEntryCount": 19,
+          "addedEntries": [
+            {
+              "heat": "Heat 221",
+              "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
+              "partner": "Thibert, Chantal",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-B1 Closed Pre Bronze LATIN Rumba",
+              "partner": "Thibert, Chantal",
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "L-B1 Closed Pre Bronze LATIN Samba",
+              "partner": "Thibert, Chantal",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Thibert, Chantal",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 221",
+              "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
+              "partner": "Thibert, Chantel",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-B1 Closed Pre Bronze LATIN Rumba",
+              "partner": "Thibert, Chantel",
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "L-B1 Closed Pre Bronze LATIN Samba",
+              "partner": "Thibert, Chantel",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
+              "partner": "Thibert, Chantel",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Panko, Devon",
+          "oldEntryCount": 248,
+          "newEntryCount": 249,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
+              "partner": "Ducharme, Luanne",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Rakityanska, Arina",
+          "oldEntryCount": 1,
+          "newEntryCount": 1,
+          "addedEntries": [
+            {
+              "heat": "Heat 573",
+              "event": "A-B Open Solo Indv. 1 LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 573",
+              "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Smithson, Tanja",
+          "oldEntryCount": 14,
+          "newEntryCount": 14,
+          "addedEntries": [
+            {
+              "heat": "Heat 274",
+              "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 274",
+              "event": "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 268",
+              "event": "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+              "partner": "Daich, Idan",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Zhelasko, Danny",
+          "oldEntryCount": 15,
+          "newEntryCount": 15,
+          "addedEntries": [
+            {
+              "heat": "Heat 605",
+              "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Kovalenko, Karolina",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 573",
+              "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+              "partner": "Kovalenko, Karolina",
+              "awards": null
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1855,
+      "newCount": 1843,
+      "oldUniqueCount": 1826,
+      "newUniqueCount": 1814,
+      "added": [
+        "A-B Open Solo Indv. 1 LATIN 5-Dance Championships (C/S/R/P/J)",
+        "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)"
+      ],
+      "removed": [
+        "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
+        "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+        "L-B1 Closed Full Bronze Proficiency LATIN Jive",
+        "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
+        "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
+        "L-B1 Open Bronze Proficiency LATIN Jive",
+        "L-B1 Open Pre Bronze LATIN Jive",
+        "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+        "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "L-YTH Open Gold LATIN Cha Cha",
+        "L-YTH Open Gold LATIN Jive",
+        "L-YTH Open Gold LATIN Paso Doble",
+        "L-YTH Open Gold LATIN Rumba",
+        "L-YTH Open Gold LATIN Samba"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Rakityanska, Arina"
+          ]
+        },
+        {
+          "event": "L-B1 Closed Interm. Bronze RHYTHM Bolero",
+          "added": [],
+          "removed": [
+            "Branham, James",
+            "Horton, Sara"
+          ]
+        },
+        {
+          "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
+          "added": [
+            "Thibert, Chantal"
+          ],
+          "removed": [
+            "Thibert, Chantel"
+          ]
+        },
+        {
+          "event": "L-B1 Closed Pre Bronze LATIN Rumba",
+          "added": [
+            "Thibert, Chantal"
+          ],
+          "removed": [
+            "Thibert, Chantel"
+          ]
+        },
+        {
+          "event": "L-B1 Closed Pre Bronze LATIN Samba",
+          "added": [
+            "Thibert, Chantal"
+          ],
+          "removed": [
+            "Thibert, Chantel"
+          ]
+        },
+        {
+          "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
+          "added": [
+            "Thibert, Chantal"
+          ],
+          "removed": [
+            "Thibert, Chantel"
+          ]
+        },
+        {
+          "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
+          "added": [
+            "Ducharme, Luanne",
+            "Panko, Devon"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+          "added": [
+            "Kovalenko, Karolina"
+          ],
+          "removed": [
+            "Geler, Abigail",
+            "Tsolakidis, Isabella",
+            "Zhu, Ethan"
+          ]
+        },
+        {
+          "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+          "added": [
+            "Cooperman, Tony",
+            "Mylnarczyk, Weronika"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]

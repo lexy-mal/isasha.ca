@@ -2665,6 +2665,40 @@
         "T": "2",
         "F": "2"
       }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "L-- Pro/Am Show Dance Championship",
+      "placement": "2",
+      "number": "107",
+      "names": "Lin/Gordon",
+      "dancePlacements": {
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "2",
+      "number": "107",
+      "names": "Gordon/Artemenko",
+      "dancePlacements": {
+        "D": "2"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "5",
+      "number": "107",
+      "names": "Gordon/Artemenko",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "S": "5",
+        "B": "5",
+        "M": "5"
+      }
     }
   ],
   "Nghiem-Phu, Camille": [
@@ -6607,6 +6641,20 @@
         "T": "1",
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "1",
+      "number": "122",
+      "names": "Tran/Jacques-Tran",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1",
+        "B": "3",
+        "M": "2"
+      }
     }
   ],
   "Branham, James": [
@@ -9699,6 +9747,30 @@
       "dancePlacements": {
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "2",
+      "number": "107",
+      "names": "Gordon/Artemenko",
+      "dancePlacements": {
+        "D": "2"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "5",
+      "number": "107",
+      "names": "Gordon/Artemenko",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "S": "5",
+        "B": "5",
+        "M": "5"
+      }
     }
   ],
   "Alvarez, Zaleena": [
@@ -10632,6 +10704,16 @@
         "W": "2",
         "T": "2",
         "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "L-- Pro/Am Show Dance Championship",
+      "placement": "2",
+      "number": "107",
+      "names": "Lin/Gordon",
+      "dancePlacements": {
+        "C": "2"
       }
     }
   ],
@@ -13953,6 +14035,45 @@
       }
     },
     {
+      "heat": "Heat 257",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 259",
+      "event": "L-S2 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
       "heat": "Heat 116",
       "event": "L-B1 Closed Interm. Silver Proficiency SMOOTH Waltz",
       "placement": "",
@@ -15283,6 +15404,94 @@
         "T": "1",
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "",
+      "number": "127",
+      "names": "Zatylny/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "F": "1",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 259",
+      "event": "L-S2 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "4",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "F": "4",
+        "V": "4"
+      }
+    },
+    {
+      "heat": "Heat 263",
+      "event": "L-C North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Zatylny/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "4",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "F": "4",
+        "V": "4"
+      }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "L-- Pro/Am Show Dance Championship",
+      "placement": "1",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "C": "1"
+      }
     }
   ],
   "Hill, Gladys": [
@@ -15528,6 +15737,42 @@
         "W": "1",
         "T": "1",
         "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 259",
+      "event": "L-S2 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 266",
+      "event": "L-- Pro/Am Show Dance Championship",
+      "placement": "1",
+      "number": "127",
+      "names": "Hill/Rader",
+      "dancePlacements": {
+        "C": "1"
       }
     }
   ],
@@ -16493,6 +16738,45 @@
       "dancePlacements": {
         "W": "1"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "F": "3",
+        "V": "3"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
     }
   ],
   "Bakhchevan, Mykyta": [
@@ -16799,6 +17083,45 @@
         "T": "1",
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "L-A World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+      "placement": "1",
+      "number": "129",
+      "names": "D'Alessandro/Bakhchevan",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-A North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "129",
+      "names": "D'Alessandro/Bakhchevan",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "L-A NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "129",
+      "names": "D'Alessandro/Bakhchevan",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
     }
   ],
   "Muir, Corky": [
@@ -17046,6 +17369,32 @@
         "W": "3",
         "T": "4",
         "F": "4"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "4",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "F": "4",
+        "V": "4"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "4",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "W": "4",
+        "T": "4",
+        "F": "4",
+        "V": "4"
       }
     }
   ],
@@ -17965,6 +18314,32 @@
         "T": "1",
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "",
+      "number": "127",
+      "names": "Zatylny/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "F": "1",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 263",
+      "event": "L-C North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "127",
+      "names": "Zatylny/Rader",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
     }
   ],
   "Johnson, Louis": [
@@ -18123,6 +18498,58 @@
         "T": "2",
         "F": "2"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "2",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "L-S1 World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+      "placement": "2",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "106",
+      "names": "Richter/Johnson",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "5",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "5",
+        "T": "5",
+        "F": "5",
+        "V": "5"
+      }
     }
   ],
   "Richter, Catherine": [
@@ -18188,6 +18615,19 @@
         "W": "3",
         "T": "3",
         "F": "3"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "106",
+      "names": "Richter/Johnson",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
       }
     }
   ],
@@ -18699,6 +19139,87 @@
         "R": "1",
         "S": "1"
       }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "L-S1 World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+      "placement": "1",
+      "number": "124",
+      "names": "Vignoul/Zat",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "124",
+      "names": "Vignoul/Zat",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "L-S1 World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 274",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
     }
   ],
   "Rogotskyy, Konstantin": [
@@ -18833,6 +19354,19 @@
         "T": "2",
         "F": "2"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "",
+      "number": "111",
+      "names": "Perras/Rogotskyy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "F": "2",
+        "V": "1"
+      }
     }
   ],
   "Perras, Isabelle": [
@@ -18966,6 +19500,19 @@
         "W": "2",
         "T": "2",
         "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-C NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "",
+      "number": "111",
+      "names": "Perras/Rogotskyy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "F": "2",
+        "V": "1"
       }
     }
   ],
@@ -19209,6 +19756,84 @@
       "dancePlacements": {
         "W": "1"
       }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 257",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 259",
+      "event": "L-S2 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "3",
+        "T": "2",
+        "F": "3",
+        "V": "3"
+      }
+    },
+    {
+      "heat": "Heat 262",
+      "event": "L-S2 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Horwood/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "117",
+      "names": "Zaharchuk/Gurkov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
     }
   ],
   "Vignoul, Louise": [
@@ -19383,6 +20008,32 @@
         "T": "1",
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "L-S1 World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+      "placement": "1",
+      "number": "124",
+      "names": "Vignoul/Zat",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "124",
+      "names": "Vignoul/Zat",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
     }
   ],
   "Pomerance, Sheryl": [
@@ -19476,6 +20127,45 @@
         "W": "4",
         "T": "2",
         "F": "2"
+      }
+    },
+    {
+      "heat": "Heat 256",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am 9-Dance Championship - SMOOTH (W/T/F/VW)",
+      "placement": "2",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 258",
+      "event": "L-S1 World Pro-Am DSS Open SMOOTH Championships (W/T/F/VW)",
+      "placement": "2",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "5",
+      "number": "106",
+      "names": "Pomerance/Johnson",
+      "dancePlacements": {
+        "W": "5",
+        "T": "5",
+        "F": "5",
+        "V": "5"
       }
     }
   ],
@@ -19835,6 +20525,61 @@
         "R": "2",
         "S": "2"
       }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "101",
+      "names": "Liang/Daich",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "F": "3",
+        "V": "3"
+      }
+    },
+    {
+      "heat": "Heat 268",
+      "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Smithson/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-A NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Zannella/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 274",
+      "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Smithson/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
     }
   ],
   "Liang, Lisa": [
@@ -19969,6 +20714,19 @@
         "T": "2",
         "F": "2"
       }
+    },
+    {
+      "heat": "Heat 264",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "3",
+      "number": "101",
+      "names": "Liang/Daich",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "F": "3",
+        "V": "3"
+      }
     }
   ],
   "Delaney, Paul": [
@@ -20091,6 +20849,32 @@
       "dancePlacements": {
         "F": "1"
       }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "349",
+      "names": "Delaney/Kolarova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 263",
+      "event": "L-C North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "349",
+      "names": "Delaney/Kolarova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
     }
   ],
   "Kolarova, Milena": [
@@ -20212,6 +20996,32 @@
       "names": "Delaney/Kolarova",
       "dancePlacements": {
         "F": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "349",
+      "names": "Delaney/Kolarova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 263",
+      "event": "L-C North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "1",
+      "number": "349",
+      "names": "Delaney/Kolarova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "F": "1",
+        "V": "1"
       }
     }
   ],
@@ -20418,6 +21228,61 @@
         "C": "1",
         "R": "1",
         "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 260",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open SMOOTH Scholarship (W/T/F/VW)",
+      "placement": "2",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "W": "2",
+        "T": "3",
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-S1 NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 272",
+      "event": "L-S1 World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 274",
+      "event": "L-S1 North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "124",
+      "names": "Bartha/Zat",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
       }
     }
   ],
@@ -20688,6 +21553,34 @@
         "C": "2",
         "R": "2",
         "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 268",
+      "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Smithson/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 274",
+      "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Smithson/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
       }
     }
   ],
@@ -21511,6 +22404,20 @@
       "dancePlacements": {
         "J": "1"
       }
+    },
+    {
+      "heat": "Heat 270",
+      "event": "L-A NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
+      "placement": "1",
+      "number": "101",
+      "names": "Zannella/Daich",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
     }
   ],
   "Valdes, Matias": [
@@ -21587,6 +22494,20 @@
         "R": "1",
         "S": "1"
       }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "320",
+      "names": "Campeau/Nault",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "3"
+      }
     }
   ],
   "Nault, Elsie-Rose": [
@@ -21612,6 +22533,20 @@
         "C": "1",
         "R": "1",
         "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "320",
+      "names": "Campeau/Nault",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "3"
       }
     }
   ],
@@ -21732,6 +22667,482 @@
         "R": "1",
         "P": "1",
         "J": "1"
+      }
+    }
+  ],
+  "Gandhi, Sudhir": [
+    {
+      "heat": "Heat 261",
+      "event": "NORTH AMERICAN OPEN Professional Showdance Championship",
+      "placement": "2",
+      "number": "109",
+      "names": "Gandhi/Kozyriatskaia",
+      "dancePlacements": {
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "3",
+      "number": "109",
+      "names": "Gandhi/Kozyriatskaia",
+      "dancePlacements": {
+        "D": "3"
+      }
+    }
+  ],
+  "Kozyriatskaia, Tatiana": [
+    {
+      "heat": "Heat 261",
+      "event": "NORTH AMERICAN OPEN Professional Showdance Championship",
+      "placement": "2",
+      "number": "109",
+      "names": "Gandhi/Kozyriatskaia",
+      "dancePlacements": {
+        "C": "2"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "3",
+      "number": "109",
+      "names": "Gandhi/Kozyriatskaia",
+      "dancePlacements": {
+        "D": "3"
+      }
+    }
+  ],
+  "Holly, Reitano": [
+    {
+      "heat": "Heat 261",
+      "event": "NORTH AMERICAN OPEN Professional Showdance Championship",
+      "placement": "1",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "1",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "M": "1",
+        "D": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3",
+        "B": "2",
+        "M": "1"
+      }
+    }
+  ],
+  "Kitamuru, Emily": [
+    {
+      "heat": "Heat 261",
+      "event": "NORTH AMERICAN OPEN Professional Showdance Championship",
+      "placement": "1",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "1",
+      "number": "125",
+      "names": "Flores/Kitamuru",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "1",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "M": "1",
+        "D": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "",
+      "number": "126",
+      "names": "Holly/Kitamuru",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "3",
+        "B": "2",
+        "M": "1"
+      }
+    }
+  ],
+  "Blackburn, Ryan": [
+    {
+      "heat": "Heat 265",
+      "event": "AC-JR1 Amateur Show Dance Championship",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1"
+      }
+    }
+  ],
+  "Crowe, Callista": [
+    {
+      "heat": "Heat 265",
+      "event": "AC-JR1 Amateur Show Dance Championship",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1"
+      }
+    }
+  ],
+  "Kirillov, Eduard": [
+    {
+      "heat": "Heat 267",
+      "event": "AC-AD NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Youssouf, Aesha": [
+    {
+      "heat": "Heat 267",
+      "event": "AC-AD NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 271",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "301",
+      "names": "Kirillov/Youssouf",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    }
+  ],
+  "Flores, Jose": [
+    {
+      "heat": "Heat 269",
+      "event": "NORTH AMERICAN OPEN Professional TANGO CLUB Championship (ARG TANGO/ MILONGA/VALS)",
+      "placement": "1",
+      "number": "125",
+      "names": "Flores/Kitamuru",
+      "dancePlacements": {
+        "D": "1"
+      }
+    },
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "2",
+      "number": "125",
+      "names": "Flores/Grundy",
+      "dancePlacements": {
+        "M": "2",
+        "D": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Tsydinskyi, Mykyta": [
+    {
+      "heat": "Heat 271",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "327",
+      "names": "Tsydinskyi/Davidov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "327",
+      "names": "Tsydinskyi/Davidov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Davidov, Elizabeth": [
+    {
+      "heat": "Heat 271",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "327",
+      "names": "Tsydinskyi/Davidov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 275",
+      "event": "AC-16+ NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "327",
+      "names": "Tsydinskyi/Davidov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Borres, Cyril": [
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "3",
+      "number": "123",
+      "names": "Borres/Saini",
+      "dancePlacements": {
+        "M": "3",
+        "D": "3",
+        "S": "3"
+      }
+    }
+  ],
+  "Saini, Lavanya": [
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "3",
+      "number": "123",
+      "names": "Borres/Saini",
+      "dancePlacements": {
+        "M": "3",
+        "D": "3",
+        "S": "3"
+      }
+    }
+  ],
+  "Grundy, Madison": [
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "2",
+      "number": "125",
+      "names": "Flores/Grundy",
+      "dancePlacements": {
+        "M": "2",
+        "D": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Alam, Abdullah": [
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "4",
+      "number": "131",
+      "names": "Alam/Tibando",
+      "dancePlacements": {
+        "M": "4",
+        "D": "4",
+        "S": "4"
+      }
+    }
+  ],
+  "Tibando, Victoria": [
+    {
+      "heat": "Heat 273",
+      "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
+      "placement": "4",
+      "number": "131",
+      "names": "Alam/Tibando",
+      "dancePlacements": {
+        "M": "4",
+        "D": "4",
+        "S": "4"
+      }
+    }
+  ],
+  "Safonov, Vadim": [
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "4",
+      "number": "105",
+      "names": "Safonov/Verovka",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "4",
+        "B": "4",
+        "M": "4"
+      }
+    }
+  ],
+  "Verovka, Iuliia": [
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "4",
+      "number": "105",
+      "names": "Safonov/Verovka",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "4",
+        "B": "4",
+        "M": "4"
+      }
+    }
+  ],
+  "Kravchenko, Oleksandr": [
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "",
+      "number": "114",
+      "names": "Kravchenko/Gooley",
+      "dancePlacements": {
+        "C": "3",
+        "R": "2",
+        "S": "2",
+        "B": "1",
+        "M": "3"
+      }
+    }
+  ],
+  "Gooley, Haylin": [
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "",
+      "number": "114",
+      "names": "Kravchenko/Gooley",
+      "dancePlacements": {
+        "C": "3",
+        "R": "2",
+        "S": "2",
+        "B": "1",
+        "M": "3"
+      }
+    }
+  ],
+  "Tran, Hai": [
+    {
+      "heat": "Heat 277",
+      "event": "NORTH AMERICAN OPEN Professional RHYTHM Championship (C/R/SW/B/M)",
+      "placement": "1",
+      "number": "122",
+      "names": "Tran/Jacques-Tran",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1",
+        "B": "3",
+        "M": "2"
       }
     }
   ]

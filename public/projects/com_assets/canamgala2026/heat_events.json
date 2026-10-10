@@ -8706,8 +8706,10 @@
     "awards": null,
     "competitors": [
       "Branham, James",
+      "Ducharme, Luanne",
       "Horton, Sara",
       "Johnson, Louis",
+      "Panko, Devon",
       "Perras, Isabelle",
       "Rader, Chris",
       "Richter, Catherine",
@@ -8872,7 +8874,7 @@
     "awards": null,
     "competitors": [
       "Messier, Jean-Francois",
-      "Thibert, Chantel"
+      "Thibert, Chantal"
     ]
   },
   {
@@ -8905,7 +8907,7 @@
     "awards": null,
     "competitors": [
       "Messier, Jean-Francois",
-      "Thibert, Chantel"
+      "Thibert, Chantal"
     ]
   },
   {
@@ -8938,7 +8940,7 @@
     "awards": null,
     "competitors": [
       "Messier, Jean-Francois",
-      "Thibert, Chantel"
+      "Thibert, Chantal"
     ]
   },
   {
@@ -9267,17 +9269,6 @@
     ]
   },
   {
-    "heat": "Heat 236",
-    "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:11PM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
-    ]
-  },
-  {
     "heat": "Heat 237",
     "event": "L-B1 Open Gold LATIN Paso Doble",
     "session": "Session 1 - Friday Daytime",
@@ -9348,17 +9339,6 @@
     ]
   },
   {
-    "heat": "Heat 239",
-    "event": "L-YTH Open Gold LATIN Cha Cha",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:15PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
-    ]
-  },
-  {
     "heat": "Heat 240",
     "event": "L-B1 Open Gold Advanced LATIN Samba",
     "session": "Session 1 - Friday Daytime",
@@ -9381,17 +9361,6 @@
     ]
   },
   {
-    "heat": "Heat 240",
-    "event": "L-YTH Open Gold LATIN Samba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:17PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
-    ]
-  },
-  {
     "heat": "Heat 241",
     "event": "L-B1 Open Gold Advanced LATIN Rumba",
     "session": "Session 1 - Friday Daytime",
@@ -9411,28 +9380,6 @@
     "competitors": [
       "Voronov, Valentin",
       "Zhang, Yuelyn"
-    ]
-  },
-  {
-    "heat": "Heat 241",
-    "event": "L-YTH Open Gold LATIN Rumba",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:18PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
-    ]
-  },
-  {
-    "heat": "Heat 242",
-    "event": "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:20PM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
     ]
   },
   {
@@ -9469,28 +9416,6 @@
     ]
   },
   {
-    "heat": "Heat 243",
-    "event": "L-YTH Open Gold LATIN Paso Doble",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:21PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
-    ]
-  },
-  {
-    "heat": "Heat 244",
-    "event": "L-B1 Open Bronze Proficiency LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:22PM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
-    ]
-  },
-  {
     "heat": "Heat 244",
     "event": "L-B1 Open Gold Advanced LATIN Jive",
     "session": "Session 1 - Friday Daytime",
@@ -9510,17 +9435,6 @@
     "competitors": [
       "Voronov, Valentin",
       "Zhang, Yuelyn"
-    ]
-  },
-  {
-    "heat": "Heat 244",
-    "event": "L-YTH Open Gold LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:22PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
     ]
   },
   {
@@ -9602,17 +9516,6 @@
   },
   {
     "heat": "Heat 248",
-    "event": "L-B1 Closed Full Bronze Proficiency LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:28PM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
-    ]
-  },
-  {
-    "heat": "Heat 248",
     "event": "L-B1 Open Silver Proficiency LATIN Jive",
     "session": "Session 1 - Friday Daytime",
     "time": "04:28PM Friday",
@@ -9653,17 +9556,6 @@
     "competitors": [
       "Daich, Idan",
       "Zannella, Sofia"
-    ]
-  },
-  {
-    "heat": "Heat 250",
-    "event": "L-B1 Open Pre Bronze LATIN Jive",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:31PM Friday",
-    "awards": null,
-    "competitors": [
-      "Branham, James",
-      "Horton, Sara"
     ]
   },
   {
@@ -9742,7 +9634,7 @@
       "Chichugin, Slavik",
       "Messier, Jean-Francois",
       "Saito, Noriko",
-      "Thibert, Chantel"
+      "Thibert, Chantal"
     ]
   },
   {
@@ -9754,17 +9646,6 @@
     "competitors": [
       "Daich, Idan",
       "Smithson, Tanja"
-    ]
-  },
-  {
-    "heat": "Heat 253",
-    "event": "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
-    "session": "Session 1 - Friday Daytime",
-    "time": "04:44PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
     ]
   },
   {
@@ -10118,7 +9999,7 @@
   },
   {
     "heat": "Heat 268",
-    "event": "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+    "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
     "session": "Session 2 - Friday Evening",
     "time": "09:19PM Friday",
     "awards": null,
@@ -10189,17 +10070,6 @@
     ]
   },
   {
-    "heat": "Heat 272",
-    "event": "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
-    "session": "Session 2 - Friday Evening",
-    "time": "09:51PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
-    ]
-  },
-  {
     "heat": "Heat 273",
     "event": "NORTH AMERICAN OPEN Professional LATIN CLUB Championship (MER/BAC/SAL)",
     "session": "Session 2 - Friday Evening",
@@ -10218,7 +10088,7 @@
   },
   {
     "heat": "Heat 274",
-    "event": "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+    "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
     "session": "Session 2 - Friday Evening",
     "time": "10:05PM Friday",
     "awards": null,
@@ -10251,17 +10121,6 @@
       "Nault, Elsie-Rose",
       "Tsydinskyi, Mykyta",
       "Youssouf, Aesha"
-    ]
-  },
-  {
-    "heat": "Heat 276",
-    "event": "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
-    "session": "Session 2 - Friday Evening",
-    "time": "10:23PM Friday",
-    "awards": null,
-    "competitors": [
-      "Daich, Idan",
-      "Guzman, Julia"
     ]
   },
   {
@@ -10891,9 +10750,7 @@
     "time": "09:11AM Saturday",
     "awards": null,
     "competitors": [
-      "Branham, James",
       "Ducharme, Luanne",
-      "Horton, Sara",
       "Panko, Devon"
     ]
   },
@@ -19256,6 +19113,7 @@
     "time": "11:29PM Saturday",
     "awards": null,
     "competitors": [
+      "Cooperman, Tony",
       "Daich, Idan",
       "Jeffs, Laura",
       "Khorosheva, Tetiana",
@@ -19263,6 +19121,7 @@
       "Kovalenko, Nina",
       "Kudriashov, Mikhail",
       "Lisovolenko, Stanislav",
+      "Mylnarczyk, Weronika",
       "Sinyauskaya, Anastasia"
     ]
   },
@@ -20531,6 +20390,16 @@
   },
   {
     "heat": "Heat 573",
+    "event": "A-B Open Solo Indv. 1 LATIN 5-Dance Championships (C/S/R/P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "12:32PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Rakityanska, Arina"
+    ]
+  },
+  {
+    "heat": "Heat 573",
     "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
     "session": "Session 5 - Sunday Daytime",
     "time": "12:32PM Sunday",
@@ -20540,7 +20409,6 @@
       "Bushchyk, Alessiah",
       "Chen, Lavin",
       "Plekh, Angelina",
-      "Rakityanska, Arina",
       "Yang-Muhlbacher, Andrew"
     ]
   },
@@ -20552,17 +20420,6 @@
     "awards": null,
     "competitors": [
       "Zhang, Muqi"
-    ]
-  },
-  {
-    "heat": "Heat 573",
-    "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
-    "session": "Session 5 - Sunday Daytime",
-    "time": "12:32PM Sunday",
-    "awards": null,
-    "competitors": [
-      "Kovalenko, Karolina",
-      "Zhelasko, Danny"
     ]
   },
   {
@@ -21708,6 +21565,17 @@
       "Guenis, Tamir",
       "Yang-Muhlbacher, Andrew",
       "Zhang, Muqi"
+    ]
+  },
+  {
+    "heat": "Heat 605",
+    "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "02:40PM Sunday",
+    "awards": null,
+    "competitors": [
+      "Kovalenko, Karolina",
+      "Zhelasko, Danny"
     ]
   }
 ]

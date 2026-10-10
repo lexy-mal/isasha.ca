@@ -4582,14 +4582,6 @@
         "awards": null
       },
       {
-        "heat": "Heat 236",
-        "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
-        "time": "04:11PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
         "heat": "Heat 238",
         "event": "L-B1 Open Bronze LATIN Jive",
         "time": "04:14PM Friday",
@@ -4598,49 +4590,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 242",
-        "event": "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
-        "time": "04:20PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
-        "heat": "Heat 244",
-        "event": "L-B1 Open Bronze Proficiency LATIN Jive",
-        "time": "04:22PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
-        "heat": "Heat 248",
-        "event": "L-B1 Closed Full Bronze Proficiency LATIN Jive",
-        "time": "04:28PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
-        "heat": "Heat 250",
-        "event": "L-B1 Open Pre Bronze LATIN Jive",
-        "time": "04:31PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
         "heat": "Heat 281",
         "event": "L-B1 Closed Interm. Bronze Proficiency RHYTHM Bolero",
         "time": "09:04AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
-        "heat": "Heat 286",
-        "event": "L-B1 Closed Interm. Bronze RHYTHM Bolero",
-        "time": "09:11AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -6908,6 +6860,14 @@
         "session": "Session 1 - Friday Daytime",
         "partner": "Shenfield, Tali",
         "awards": null
+      },
+      {
+        "heat": "Heat 539",
+        "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+        "time": "11:29PM Saturday",
+        "session": "Session 4 - Saturday Evening",
+        "partner": "Mylnarczyk, Weronika",
+        "awards": null
       }
     ]
   },
@@ -8438,46 +8398,6 @@
         "awards": null
       },
       {
-        "heat": "Heat 239",
-        "event": "L-YTH Open Gold LATIN Cha Cha",
-        "time": "04:15PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
-        "heat": "Heat 240",
-        "event": "L-YTH Open Gold LATIN Samba",
-        "time": "04:17PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
-        "heat": "Heat 241",
-        "event": "L-YTH Open Gold LATIN Rumba",
-        "time": "04:18PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
-        "heat": "Heat 243",
-        "event": "L-YTH Open Gold LATIN Paso Doble",
-        "time": "04:21PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
-        "heat": "Heat 244",
-        "event": "L-YTH Open Gold LATIN Jive",
-        "time": "04:22PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
         "heat": "Heat 245",
         "event": "L-A Open Gold LATIN Cha Cha",
         "time": "04:24PM Friday",
@@ -8526,14 +8446,6 @@
         "awards": null
       },
       {
-        "heat": "Heat 253",
-        "event": "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
-        "time": "04:44PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
         "heat": "Heat 255",
         "event": "L-C Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
         "time": "04:57PM Friday",
@@ -8551,7 +8463,7 @@
       },
       {
         "heat": "Heat 268",
-        "event": "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+        "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
         "time": "09:19PM Friday",
         "session": "Session 2 - Friday Evening",
         "partner": "Smithson, Tanja",
@@ -8566,27 +8478,11 @@
         "awards": null
       },
       {
-        "heat": "Heat 272",
-        "event": "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
-        "time": "09:51PM Friday",
-        "session": "Session 2 - Friday Evening",
-        "partner": "Guzman, Julia",
-        "awards": null
-      },
-      {
         "heat": "Heat 274",
-        "event": "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
         "time": "10:05PM Friday",
         "session": "Session 2 - Friday Evening",
         "partner": "Smithson, Tanja",
-        "awards": null
-      },
-      {
-        "heat": "Heat 276",
-        "event": "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
-        "time": "10:23PM Friday",
-        "session": "Session 2 - Friday Evening",
-        "partner": "Guzman, Julia",
         "awards": null
       },
       {
@@ -9697,6 +9593,14 @@
   },
   "Ducharme, Luanne": {
     "entries": [
+      {
+        "heat": "Heat 216",
+        "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
+        "time": "03:02PM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Panko, Devon",
+        "awards": null
+      },
       {
         "heat": "Heat 281",
         "event": "L-B1 Closed Interm. Bronze Proficiency RHYTHM Bolero",
@@ -13968,70 +13872,6 @@
         "session": "Session 1 - Friday Daytime",
         "partner": "Daich, Idan",
         "awards": null
-      },
-      {
-        "heat": "Heat 239",
-        "event": "L-YTH Open Gold LATIN Cha Cha",
-        "time": "04:15PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 240",
-        "event": "L-YTH Open Gold LATIN Samba",
-        "time": "04:17PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 241",
-        "event": "L-YTH Open Gold LATIN Rumba",
-        "time": "04:18PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 243",
-        "event": "L-YTH Open Gold LATIN Paso Doble",
-        "time": "04:21PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 244",
-        "event": "L-YTH Open Gold LATIN Jive",
-        "time": "04:22PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 253",
-        "event": "L-A Open Gold Pro-Am International LATIN 3-Dance (C/R/S)",
-        "time": "04:44PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 272",
-        "event": "L-YTH NORTH AMERICAN OPEN Pro-Am LATIN Scholarship (C/S/R/PD/J)",
-        "time": "09:51PM Friday",
-        "session": "Session 2 - Friday Evening",
-        "partner": "Daich, Idan",
-        "awards": null
-      },
-      {
-        "heat": "Heat 276",
-        "event": "L-YTH North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
-        "time": "10:23PM Friday",
-        "session": "Session 2 - Friday Evening",
-        "partner": "Daich, Idan",
-        "awards": null
       }
     ]
   },
@@ -16662,14 +16502,6 @@
         "awards": null
       },
       {
-        "heat": "Heat 236",
-        "event": "L-B1 Closed Pre Bronze Proficiency LATIN Jive",
-        "time": "04:11PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
         "heat": "Heat 238",
         "event": "L-B1 Open Bronze LATIN Jive",
         "time": "04:14PM Friday",
@@ -16678,49 +16510,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 242",
-        "event": "L-B1 Closed Interm. Bronze Proficiency LATIN Jive",
-        "time": "04:20PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
-        "heat": "Heat 244",
-        "event": "L-B1 Open Bronze Proficiency LATIN Jive",
-        "time": "04:22PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
-        "heat": "Heat 248",
-        "event": "L-B1 Closed Full Bronze Proficiency LATIN Jive",
-        "time": "04:28PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
-        "heat": "Heat 250",
-        "event": "L-B1 Open Pre Bronze LATIN Jive",
-        "time": "04:31PM Friday",
-        "session": "Session 1 - Friday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
         "heat": "Heat 281",
         "event": "L-B1 Closed Interm. Bronze Proficiency RHYTHM Bolero",
         "time": "09:04AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Branham, James",
-        "awards": null
-      },
-      {
-        "heat": "Heat 286",
-        "event": "L-B1 Closed Interm. Bronze RHYTHM Bolero",
-        "time": "09:11AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -22802,14 +22594,6 @@
   "Kovalenko, Karolina": {
     "entries": [
       {
-        "heat": "Heat 573",
-        "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
-        "time": "12:32PM Sunday",
-        "session": "Session 5 - Sunday Daytime",
-        "partner": "Zhelasko, Danny",
-        "awards": null
-      },
-      {
         "heat": "Heat 575",
         "event": "L-C Open Mixed-Am LATIN Samba (S)",
         "time": "01:02PM Sunday",
@@ -22861,6 +22645,14 @@
         "heat": "Heat 602",
         "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
         "time": "02:25PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Zhelasko, Danny",
         "awards": null
@@ -24514,7 +24306,7 @@
         "event": "L-B1 Closed Pre Bronze LATIN Cha Cha",
         "time": "03:50PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Thibert, Chantel",
+        "partner": "Thibert, Chantal",
         "awards": null
       },
       {
@@ -24522,7 +24314,7 @@
         "event": "L-B1 Closed Pre Bronze LATIN Samba",
         "time": "03:52PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Thibert, Chantel",
+        "partner": "Thibert, Chantal",
         "awards": null
       },
       {
@@ -24530,7 +24322,7 @@
         "event": "L-B1 Closed Pre Bronze LATIN Rumba",
         "time": "03:53PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Thibert, Chantel",
+        "partner": "Thibert, Chantal",
         "awards": null
       },
       {
@@ -24562,7 +24354,7 @@
         "event": "L-C Closed Bronze Pro-Am International LATIN 3-Dance (C/R/S)",
         "time": "04:40PM Friday",
         "session": "Session 1 - Friday Daytime",
-        "partner": "Thibert, Chantel",
+        "partner": "Thibert, Chantal",
         "awards": null
       },
       {
@@ -25575,6 +25367,18 @@
         "time": "02:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Motyl, Paul",
+        "awards": null
+      }
+    ]
+  },
+  "Mylnarczyk, Weronika": {
+    "entries": [
+      {
+        "heat": "Heat 539",
+        "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+        "time": "11:29PM Saturday",
+        "session": "Session 4 - Saturday Evening",
+        "partner": "Cooperman, Tony",
         "awards": null
       }
     ]
@@ -27675,6 +27479,14 @@
         "time": "02:54PM Friday",
         "session": "Session 1 - Friday Daytime",
         "partner": "Holtham, Helen",
+        "awards": null
+      },
+      {
+        "heat": "Heat 216",
+        "event": "L-C Open Bronze Pro-Am American SMOOTH 3-Dance (W/T/F)",
+        "time": "03:02PM Friday",
+        "session": "Session 1 - Friday Daytime",
+        "partner": "Ducharme, Luanne",
         "awards": null
       },
       {
@@ -32023,7 +31835,7 @@
     "entries": [
       {
         "heat": "Heat 573",
-        "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+        "event": "A-B Open Solo Indv. 1 LATIN 5-Dance Championships (C/S/R/P/J)",
         "time": "12:32PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": null,
@@ -34483,7 +34295,7 @@
       },
       {
         "heat": "Heat 268",
-        "event": "L-A World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
+        "event": "L-C World Pro-Am DSS Open LATIN Championships (C/S/R/P/J)",
         "time": "09:19PM Friday",
         "session": "Session 2 - Friday Evening",
         "partner": "Daich, Idan",
@@ -34491,7 +34303,7 @@
       },
       {
         "heat": "Heat 274",
-        "event": "L-A North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
+        "event": "L-C North American Pro-Am GRAND SLAM Open LATIN Scholarship (C/S/R/PD/J)",
         "time": "10:05PM Friday",
         "session": "Session 2 - Friday Evening",
         "partner": "Daich, Idan",
@@ -36395,7 +36207,7 @@
       }
     ]
   },
-  "Thibert, Chantel": {
+  "Thibert, Chantal": {
     "entries": [
       {
         "heat": "Heat 221",
@@ -40342,14 +40154,6 @@
         "awards": null
       },
       {
-        "heat": "Heat 573",
-        "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
-        "time": "12:32PM Sunday",
-        "session": "Session 5 - Sunday Daytime",
-        "partner": "Kovalenko, Karolina",
-        "awards": null
-      },
-      {
         "heat": "Heat 575",
         "event": "L-C Open Mixed-Am LATIN Samba (S)",
         "time": "01:02PM Sunday",
@@ -40443,6 +40247,14 @@
         "time": "02:32PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Kovalenko, Karolina",
         "awards": null
       }
     ]
