@@ -26,6 +26,8 @@ export HEAT_LISTS_URL
 # session has been unlocked at least once since boot (which unlocks the keyring).
 export SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
 
+GIT_REMOTE_URL="https://github.com/lexy-mal/isasha.ca.git"
+
 log() { echo "[$(date -Iseconds)] $*" >> "$LOG_FILE"; }
 
 # Pull BEFORE any STOP_DATE / scrape logic, then re-exec so we run the on-disk script
@@ -34,7 +36,9 @@ log() { echo "[$(date -Iseconds)] $*" >> "$LOG_FILE"; }
 # the old Aug 24 expiry fired and skipped the scrape.
 if [[ "${1:-}" != "--already-synced" ]]; then
     cd "$REPO_DIR"
-    if git pull --ff-only origin main >> "$LOG_FILE" 2>&1; then
+    # HTTPS, not the SSH origin URL: the GitHub SSH key isn't registered, so SSH auth fails.
+    # HTTPS uses the gh CLI login (credential helper).
+    if git pull --ff-only "$GIT_REMOTE_URL" main >> "$LOG_FILE" 2>&1; then
         log "Synced with origin/main before scrape."
     else
         log "git pull --ff-only failed — continuing with local tree (may be ahead or diverged)."
@@ -129,8 +133,8 @@ Automated daily scrape via cron. See scrape-log.html for the diff." >> "$LOG_FIL
     exit 1
 fi
 
-if ! git push git@github.com:lexy-mal/isasha.ca.git main >> "$LOG_FILE" 2>&1; then
-    log "git push FAILED (commit succeeded locally, not yet on origin/main — likely an SSH auth issue, check SSH_AUTH_SOCK/keyring). Will retry next run."
+if ! git push "$GIT_REMOTE_URL" main >> "$LOG_FILE" 2>&1; then
+    log "git push FAILED (commit succeeded locally, not yet on origin/main — check gh auth status / network). Will retry next run."
     exit 1
 fi
 
