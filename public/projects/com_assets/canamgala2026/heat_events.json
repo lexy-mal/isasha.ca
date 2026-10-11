@@ -13720,7 +13720,7 @@
   },
   {
     "heat": "Heat 346",
-    "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+    "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
     "session": "Session 3 - Saturday Daytime",
     "time": "10:37AM Saturday",
     "awards": null,
@@ -15009,17 +15009,6 @@
     ]
   },
   {
-    "heat": "Heat 371",
-    "event": "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "11:36AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Holtham, Helen",
-      "Panko, Devon"
-    ]
-  },
-  {
     "heat": "Heat 372",
     "event": "L-B1 Open Silver Proficiency RHYTHM Rumba",
     "session": "Session 3 - Saturday Daytime",
@@ -15044,17 +15033,6 @@
     ]
   },
   {
-    "heat": "Heat 372",
-    "event": "L-C1 Open Pre Silver Proficiency RHYTHM Rumba",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "11:37AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Holtham, Helen",
-      "Panko, Devon"
-    ]
-  },
-  {
     "heat": "Heat 373",
     "event": "L-B1 Open Silver Proficiency RHYTHM East Coast Swing",
     "session": "Session 3 - Saturday Daytime",
@@ -15076,17 +15054,6 @@
       "Cascaval, Vlad",
       "Goldberger, Andrea",
       "Gordon, Tyler"
-    ]
-  },
-  {
-    "heat": "Heat 373",
-    "event": "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "11:38AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Holtham, Helen",
-      "Panko, Devon"
     ]
   },
   {
@@ -15134,17 +15101,6 @@
     ]
   },
   {
-    "heat": "Heat 374",
-    "event": "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "11:40AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Holtham, Helen",
-      "Panko, Devon"
-    ]
-  },
-  {
     "heat": "Heat 375",
     "event": "G-A2 Open Pre Silver RHYTHM Mambo",
     "session": "Session 3 - Saturday Daytime",
@@ -15186,17 +15142,6 @@
     "competitors": [
       "Horwood, Rebecca",
       "Kolesnikov, Valentin"
-    ]
-  },
-  {
-    "heat": "Heat 375",
-    "event": "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
-    "session": "Session 3 - Saturday Daytime",
-    "time": "11:41AM Saturday",
-    "awards": null,
-    "competitors": [
-      "Holtham, Helen",
-      "Panko, Devon"
     ]
   },
   {
@@ -15266,9 +15211,7 @@
     "awards": null,
     "competitors": [
       "Cascaval, Vlad",
-      "Holtham, Helen",
-      "Kemball, Edith",
-      "Panko, Devon"
+      "Kemball, Edith"
     ]
   },
   {
@@ -15338,9 +15281,7 @@
     "awards": null,
     "competitors": [
       "Cascaval, Vlad",
-      "Holtham, Helen",
-      "Kemball, Edith",
-      "Panko, Devon"
+      "Kemball, Edith"
     ]
   },
   {
@@ -15410,9 +15351,7 @@
     "awards": null,
     "competitors": [
       "Cascaval, Vlad",
-      "Holtham, Helen",
-      "Kemball, Edith",
-      "Panko, Devon"
+      "Kemball, Edith"
     ]
   },
   {
@@ -15434,9 +15373,7 @@
     "awards": null,
     "competitors": [
       "Cascaval, Vlad",
-      "Holtham, Helen",
-      "Kemball, Edith",
-      "Panko, Devon"
+      "Kemball, Edith"
     ]
   },
   {
@@ -15480,9 +15417,7 @@
     "awards": null,
     "competitors": [
       "Cascaval, Vlad",
-      "Holtham, Helen",
-      "Kemball, Edith",
-      "Panko, Devon"
+      "Kemball, Edith"
     ]
   },
   {
@@ -16523,7 +16458,7 @@
   },
   {
     "heat": "Heat 403",
-    "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+    "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
     "session": "Session 3 - Saturday Daytime",
     "time": "12:23PM Saturday",
     "awards": null,
@@ -16712,7 +16647,7 @@
     "heat": "Heat 410",
     "event": "G-C1 Full Bronze Argentine Tango",
     "session": "Session 3 - Saturday Daytime",
-    "time": "01:16PM Saturday",
+    "time": "01:12PM Saturday",
     "awards": null,
     "competitors": [
       "Artemenko, Kamila",
@@ -19642,6 +19577,17 @@
   },
   {
     "heat": "Heat 556",
+    "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:13AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Gontcharov, Ivan",
+      "Selivanov, Julianna"
+    ]
+  },
+  {
+    "heat": "Heat 556",
     "event": "L-A1 Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
     "session": "Session 5 - Sunday Daytime",
     "time": "11:13AM Sunday",
@@ -19697,13 +19643,15 @@
     ]
   },
   {
-    "heat": "Heat 557",
+    "heat": "Heat 557A",
     "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
     "session": "Session 5 - Sunday Daytime",
-    "time": "11:18AM Sunday",
+    "time": "11:26AM Sunday",
     "awards": null,
     "competitors": [
       "Gruszko, Valerie",
+      "Kwietniewski, Filip",
+      "Ocheretko, Oleksandra",
       "Orlov, Nikita"
     ]
   },
@@ -19719,10 +19667,10 @@
     ]
   },
   {
-    "heat": "Heat 557",
+    "heat": "Heat 557A",
     "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
     "session": "Session 5 - Sunday Daytime",
-    "time": "11:18AM Sunday",
+    "time": "11:26AM Sunday",
     "awards": null,
     "competitors": [
       "Pavlenko, Maya",
@@ -19730,16 +19678,29 @@
     ]
   },
   {
-    "heat": "Heat 557",
+    "heat": "Heat 557A",
     "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
     "session": "Session 5 - Sunday Daytime",
-    "time": "11:18AM Sunday",
+    "time": "11:26AM Sunday",
     "awards": null,
     "competitors": [
+      "Gontcharov, Ivan",
       "Mostovoy, Sofia",
       "Mykhailutsa, Nikol",
       "Orlov, Maxim",
-      "Rolik, Max"
+      "Rolik, Max",
+      "Selivanov, Julianna"
+    ]
+  },
+  {
+    "heat": "Heat 557A",
+    "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+    "session": "Session 5 - Sunday Daytime",
+    "time": "11:26AM Sunday",
+    "awards": null,
+    "competitors": [
+      "Petrov, Nathaniel",
+      "Petrova, Katrina"
     ]
   },
   {
@@ -21236,10 +21197,12 @@
     "time": "02:08PM Sunday",
     "awards": null,
     "competitors": [
+      "Gontcharov, Ivan",
       "Mostovoy, Sofia",
       "Mykhailutsa, Nikol",
       "Orlov, Maxim",
-      "Rolik, Max"
+      "Rolik, Max",
+      "Selivanov, Julianna"
     ]
   },
   {
@@ -21447,14 +21410,18 @@
       "Anastasova, Sofiia",
       "Blackburn, Ryan",
       "Crowe, Callista",
+      "Gontcharov, Ivan",
+      "Kwietniewski, Filip",
       "Mostovoy, Sofia",
       "Motyl, Paul",
       "Mykytyn, Solomiia",
+      "Ocheretko, Oleksandra",
       "Pavlenko, Maya",
       "Pinchak, Gleb",
       "Reznik, Jonathan",
       "Rolik, Max",
       "Rozdorozhnyi, Mark",
+      "Selivanov, Julianna",
       "Tsytsarin, Camilla"
     ]
   },
@@ -21514,6 +21481,8 @@
     "awards": null,
     "competitors": [
       "Gruszko, Valerie",
+      "Kwietniewski, Filip",
+      "Ocheretko, Oleksandra",
       "Orlov, Nikita"
     ]
   },

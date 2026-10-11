@@ -46276,5 +46276,666 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-11T10:00:03.135939+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 227,
+      "added": [
+        {
+          "name": "Gontcharov, Ivan",
+          "entries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Selivanov, Julianna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 556",
+              "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+              "partner": "Selivanov, Julianna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 598",
+              "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+              "partner": "Selivanov, Julianna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 603",
+              "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+              "partner": "Selivanov, Julianna",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kwietniewski, Filip",
+          "entries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Ocheretko, Oleksandra",
+              "awards": null
+            },
+            {
+              "heat": "Heat 605",
+              "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+              "partner": "Ocheretko, Oleksandra",
+              "awards": null
+            },
+            {
+              "heat": "Heat 603",
+              "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+              "partner": "Ocheretko, Oleksandra",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ocheretko, Oleksandra",
+          "entries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Kwietniewski, Filip",
+              "awards": null
+            },
+            {
+              "heat": "Heat 605",
+              "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+              "partner": "Kwietniewski, Filip",
+              "awards": null
+            },
+            {
+              "heat": "Heat 603",
+              "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+              "partner": "Kwietniewski, Filip",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Petrova, Katrina",
+          "entries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Petrov, Nathaniel",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Selivanov, Julianna",
+          "entries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Gontcharov, Ivan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 556",
+              "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+              "partner": "Gontcharov, Ivan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 598",
+              "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+              "partner": "Gontcharov, Ivan",
+              "awards": null
+            },
+            {
+              "heat": "Heat 603",
+              "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+              "partner": "Gontcharov, Ivan",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "removed": [],
+      "changed": [
+        {
+          "name": "Brotto, Richard",
+          "oldEntryCount": 28,
+          "newEntryCount": 28,
+          "addedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Zorina, Ali",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Zorina, Ali",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Zorina, Ali",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Zorina, Ali",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Gruszko, Valerie",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Orlov, Nikita",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Orlov, Nikita",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Holtham, Helen",
+          "oldEntryCount": 154,
+          "newEntryCount": 144,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 380",
+              "event": "L-C1 Open Bronze RHYTHM Bolero",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-C1 Open Bronze RHYTHM Cha Cha",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-C1 Open Bronze RHYTHM East Coast Swing",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-C1 Open Bronze RHYTHM Mambo",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-C1 Open Bronze RHYTHM Rumba",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 374",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 371",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 373",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 375",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
+              "partner": "Panko, Devon",
+              "awards": null
+            },
+            {
+              "heat": "Heat 372",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Rumba",
+              "partner": "Panko, Devon",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Mostovoy, Sofia",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Rolik, Max",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Rolik, Max",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Mykhailutsa, Nikol",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Orlov, Maxim",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Orlov, Maxim",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Mykhailutsa, Nikol",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Orlov, Nikita",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Gruszko, Valerie",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Gruszko, Valerie",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Panko, Devon",
+          "oldEntryCount": 249,
+          "newEntryCount": 239,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 380",
+              "event": "L-C1 Open Bronze RHYTHM Bolero",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-C1 Open Bronze RHYTHM Cha Cha",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-C1 Open Bronze RHYTHM East Coast Swing",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 381",
+              "event": "L-C1 Open Bronze RHYTHM Mambo",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-C1 Open Bronze RHYTHM Rumba",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 374",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 371",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 373",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 375",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
+              "partner": "Holtham, Helen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 372",
+              "event": "L-C1 Open Pre Silver Proficiency RHYTHM Rumba",
+              "partner": "Holtham, Helen",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Pavlenko, Maya",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Rozdorozhnyi, Mark",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Rozdorozhnyi, Mark",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Petrov, Nathaniel",
+          "oldEntryCount": 6,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Petrova, Katrina",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Rolik, Max",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Mostovoy, Sofia",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Mostovoy, Sofia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Rozdorozhnyi, Mark",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 557A",
+              "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Pavlenko, Maya",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 557",
+              "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Pavlenko, Maya",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Zat, Simone",
+          "oldEntryCount": 132,
+          "newEntryCount": 132,
+          "addedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard/Zorina, Ali",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard/Zorina, Ali",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard/Zorina, Ali",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard/Zorina, Ali",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Zorina, Ali",
+          "oldEntryCount": 54,
+          "newEntryCount": 54,
+          "addedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 346",
+              "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard",
+              "awards": null
+            },
+            {
+              "heat": "Heat 403",
+              "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Brotto, Richard",
+              "awards": null
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1843,
+      "newCount": 1840,
+      "oldUniqueCount": 1814,
+      "newUniqueCount": 1810,
+      "added": [
+        "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+        "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)"
+      ],
+      "removed": [
+        "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
+        "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
+        "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
+        "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
+        "L-C1 Open Pre Silver Proficiency RHYTHM Rumba"
+      ],
+      "rosterChanged": [
+        {
+          "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Kwietniewski, Filip",
+            "Ocheretko, Oleksandra"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+          "added": [
+            "Kwietniewski, Filip",
+            "Ocheretko, Oleksandra"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Gontcharov, Ivan",
+            "Selivanov, Julianna"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+          "added": [
+            "Gontcharov, Ivan",
+            "Selivanov, Julianna"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Petrov, Nathaniel",
+            "Petrova, Katrina"
+          ],
+          "removed": [
+            "Davidov, Elizabeth",
+            "Kirillov, Eduard",
+            "Tsydinskyi, Mykyta",
+            "Youssouf, Aesha"
+          ]
+        },
+        {
+          "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+          "added": [
+            "Gontcharov, Ivan",
+            "Kwietniewski, Filip",
+            "Ocheretko, Oleksandra",
+            "Selivanov, Julianna"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C1 Open Bronze RHYTHM Bolero",
+          "added": [],
+          "removed": [
+            "Holtham, Helen",
+            "Panko, Devon"
+          ]
+        },
+        {
+          "event": "L-C1 Open Bronze RHYTHM Cha Cha",
+          "added": [],
+          "removed": [
+            "Holtham, Helen",
+            "Panko, Devon"
+          ]
+        },
+        {
+          "event": "L-C1 Open Bronze RHYTHM East Coast Swing",
+          "added": [],
+          "removed": [
+            "Holtham, Helen",
+            "Panko, Devon"
+          ]
+        },
+        {
+          "event": "L-C1 Open Bronze RHYTHM Mambo",
+          "added": [],
+          "removed": [
+            "Holtham, Helen",
+            "Panko, Devon"
+          ]
+        },
+        {
+          "event": "L-C1 Open Bronze RHYTHM Rumba",
+          "added": [],
+          "removed": [
+            "Holtham, Helen",
+            "Panko, Devon"
+          ]
+        }
+      ]
+    }
   }
 ]

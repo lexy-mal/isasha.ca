@@ -1212,7 +1212,7 @@
       {
         "heat": "Heat 410",
         "event": "G-C1 Full Bronze Argentine Tango",
-        "time": "01:16PM Saturday",
+        "time": "01:12PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Namazi, Mehdi",
         "awards": null
@@ -5271,7 +5271,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "10:37AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Zorina, Ali",
@@ -5327,7 +5327,7 @@
       },
       {
         "heat": "Heat 403",
-        "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "12:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Zorina, Ali",
@@ -11567,6 +11567,42 @@
       }
     ]
   },
+  "Gontcharov, Ivan": {
+    "entries": [
+      {
+        "heat": "Heat 556",
+        "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+        "time": "11:13AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Julianna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557A",
+        "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Julianna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Julianna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 603",
+        "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+        "time": "02:29PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Selivanov, Julianna",
+        "awards": null
+      }
+    ]
+  },
   "Gooley, Haylin": {
     "entries": [
       {
@@ -13230,9 +13266,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Orlov, Nikita",
         "awards": null
@@ -15141,86 +15177,6 @@
         "heat": "Heat 369",
         "event": "L-C1 Open Pre Bronze RHYTHM Mambo",
         "time": "11:33AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 371",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
-        "time": "11:36AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 372",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Rumba",
-        "time": "11:37AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 373",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
-        "time": "11:38AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 374",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
-        "time": "11:40AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 375",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
-        "time": "11:41AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 377",
-        "event": "L-C1 Open Bronze RHYTHM Cha Cha",
-        "time": "11:44AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 378",
-        "event": "L-C1 Open Bronze RHYTHM Rumba",
-        "time": "11:45AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 379",
-        "event": "L-C1 Open Bronze RHYTHM East Coast Swing",
-        "time": "11:47AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 380",
-        "event": "L-C1 Open Bronze RHYTHM Bolero",
-        "time": "11:48AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Panko, Devon",
-        "awards": null
-      },
-      {
-        "heat": "Heat 381",
-        "event": "L-C1 Open Bronze RHYTHM Mambo",
-        "time": "11:49AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -22735,6 +22691,34 @@
       }
     ]
   },
+  "Kwietniewski, Filip": {
+    "entries": [
+      {
+        "heat": "Heat 557A",
+        "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Ocheretko, Oleksandra",
+        "awards": null
+      },
+      {
+        "heat": "Heat 603",
+        "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+        "time": "02:29PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Ocheretko, Oleksandra",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Ocheretko, Oleksandra",
+        "awards": null
+      }
+    ]
+  },
   "Labelle, Sophie": {
     "entries": [
       {
@@ -24518,9 +24502,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Rolik, Max",
         "awards": null
@@ -25262,9 +25246,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Orlov, Maxim",
         "awards": null
@@ -25408,7 +25392,7 @@
       {
         "heat": "Heat 410",
         "event": "G-C1 Full Bronze Argentine Tango",
-        "time": "01:16PM Saturday",
+        "time": "01:12PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Artemenko, Kamila",
         "awards": null
@@ -26675,6 +26659,34 @@
       }
     ]
   },
+  "Ocheretko, Oleksandra": {
+    "entries": [
+      {
+        "heat": "Heat 557A",
+        "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Kwietniewski, Filip",
+        "awards": null
+      },
+      {
+        "heat": "Heat 603",
+        "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+        "time": "02:29PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Kwietniewski, Filip",
+        "awards": null
+      },
+      {
+        "heat": "Heat 605",
+        "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+        "time": "02:40PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Kwietniewski, Filip",
+        "awards": null
+      }
+    ]
+  },
   "Oliynyk, Sofiya": {
     "entries": [
       {
@@ -26862,9 +26874,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mykhailutsa, Nikol",
         "awards": null
@@ -26914,9 +26926,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Gruszko, Valerie",
         "awards": null
@@ -28149,86 +28161,6 @@
         "heat": "Heat 369",
         "event": "L-C1 Open Pre Bronze RHYTHM Mambo",
         "time": "11:33AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 371",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Cha Cha",
-        "time": "11:36AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 372",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Rumba",
-        "time": "11:37AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 373",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM East Coast Swing",
-        "time": "11:38AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 374",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Bolero",
-        "time": "11:40AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 375",
-        "event": "L-C1 Open Pre Silver Proficiency RHYTHM Mambo",
-        "time": "11:41AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 377",
-        "event": "L-C1 Open Bronze RHYTHM Cha Cha",
-        "time": "11:44AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 378",
-        "event": "L-C1 Open Bronze RHYTHM Rumba",
-        "time": "11:45AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 379",
-        "event": "L-C1 Open Bronze RHYTHM East Coast Swing",
-        "time": "11:47AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 380",
-        "event": "L-C1 Open Bronze RHYTHM Bolero",
-        "time": "11:48AM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Holtham, Helen",
-        "awards": null
-      },
-      {
-        "heat": "Heat 381",
-        "event": "L-C1 Open Bronze RHYTHM Mambo",
-        "time": "11:49AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -29730,9 +29662,9 @@
   "Pavlenko, Maya": {
     "entries": [
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Rozdorozhnyi, Mark",
         "awards": null
@@ -30042,6 +29974,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 557A",
+        "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrova, Katrina",
+        "awards": null
+      },
+      {
         "heat": "Heat 588",
         "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
         "time": "01:26PM Sunday",
@@ -30055,6 +29995,18 @@
         "time": "02:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Lysenko, Mariia",
+        "awards": null
+      }
+    ]
+  },
+  "Petrova, Katrina": {
+    "entries": [
+      {
+        "heat": "Heat 557A",
+        "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Petrov, Nathaniel",
         "awards": null
       }
     ]
@@ -32438,9 +32390,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mostovoy, Sofia",
         "awards": null
@@ -32518,9 +32470,9 @@
   "Rozdorozhnyi, Mark": {
     "entries": [
       {
-        "heat": "Heat 557",
+        "heat": "Heat 557A",
         "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "11:18AM Sunday",
+        "time": "11:26AM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Pavlenko, Maya",
         "awards": null
@@ -33915,6 +33867,42 @@
         "time": "02:03PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Motyl, Paul",
+        "awards": null
+      }
+    ]
+  },
+  "Selivanov, Julianna": {
+    "entries": [
+      {
+        "heat": "Heat 556",
+        "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+        "time": "11:13AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gontcharov, Ivan",
+        "awards": null
+      },
+      {
+        "heat": "Heat 557A",
+        "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "11:26AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gontcharov, Ivan",
+        "awards": null
+      },
+      {
+        "heat": "Heat 598",
+        "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+        "time": "02:08PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gontcharov, Ivan",
+        "awards": null
+      },
+      {
+        "heat": "Heat 603",
+        "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+        "time": "02:29PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Gontcharov, Ivan",
         "awards": null
       }
     ]
@@ -39191,7 +39179,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "10:37AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Brotto, Richard/Zorina, Ali",
@@ -39487,7 +39475,7 @@
       },
       {
         "heat": "Heat 403",
-        "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "12:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Brotto, Richard/Zorina, Ali",
@@ -40759,7 +40747,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "AC-S1 Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Closed Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "10:37AM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Brotto, Richard",
@@ -40815,7 +40803,7 @@
       },
       {
         "heat": "Heat 403",
-        "event": "AC-S1 Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
+        "event": "AC-S1 Am-Am Open Bronze Pro-Am American RHYTHM 3-Dance (C/R/SW)",
         "time": "12:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Brotto, Richard",
