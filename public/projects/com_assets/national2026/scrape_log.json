@@ -168647,5 +168647,157 @@
       "removed": [],
       "rosterChanged": []
     }
+  },
+  {
+    "timestamp": "2026-09-02T10:00:20.977090+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-03T10:00:03.914563+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-03T10:00:22.703888+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-04T10:00:05.083311+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-04T10:00:25.410947+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-05T10:00:02.897865+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-06T10:00:04.326036+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-09-06T10:00:24.059693+00:00",
+    "participants": {
+      "oldCount": 954,
+      "newCount": 954,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 2682,
+      "newCount": 2682,
+      "oldUniqueCount": 2680,
+      "newUniqueCount": 2680,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
   }
 ]

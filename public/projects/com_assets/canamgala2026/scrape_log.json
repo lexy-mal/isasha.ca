@@ -46937,5 +46937,332 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-11T10:00:47.432368+00:00",
+    "participants": {
+      "oldCount": 227,
+      "newCount": 227,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1840,
+      "newCount": 1840,
+      "oldUniqueCount": 1810,
+      "newUniqueCount": 1810,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-11T12:44:24.528091+00:00",
+    "participants": {
+      "oldCount": 227,
+      "newCount": 222,
+      "added": [],
+      "removed": [
+        {
+          "name": "Borodaenko, Nicole",
+          "entries": [
+            {
+              "heat": "Heat 523",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 523A",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 521",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            },
+            {
+              "heat": "Heat 519A",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+              "partner": "Romanchuk, Vladyslav",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kovalenko, Mitt",
+          "entries": [
+            {
+              "heat": "Heat 539",
+              "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+              "partner": "Kovalenko, Nina",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kovalenko, Nina",
+          "entries": [
+            {
+              "heat": "Heat 539",
+              "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+              "partner": "Kovalenko, Mitt",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Linder, Justis",
+          "entries": [
+            {
+              "heat": "Heat 538",
+              "event": "NORTH AMERICAN OPEN Professional SMOOTH Championship (W/T/FT/VW)",
+              "partner": "Branham, James",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Romanchuk, Vladyslav",
+          "entries": [
+            {
+              "heat": "Heat 523",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 523A",
+              "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 521",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            },
+            {
+              "heat": "Heat 519A",
+              "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+              "partner": "Borodaenko, Nicole",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Anderson, Silvie",
+          "oldEntryCount": 12,
+          "newEntryCount": 10,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 518",
+              "event": "L-B1 Open Gold Advanced BALLROOM Quickstep",
+              "partner": "Fylymonchyk, Igor",
+              "awards": null
+            },
+            {
+              "heat": "Heat 533",
+              "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "Fylymonchyk, Igor",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Branham, James",
+          "oldEntryCount": 168,
+          "newEntryCount": 167,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 538",
+              "event": "NORTH AMERICAN OPEN Professional SMOOTH Championship (W/T/FT/VW)",
+              "partner": "Linder, Justis",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Fylymonchyk, Igor",
+          "oldEntryCount": 12,
+          "newEntryCount": 10,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 518",
+              "event": "L-B1 Open Gold Advanced BALLROOM Quickstep",
+              "partner": "Anderson, Silvie",
+              "awards": null
+            },
+            {
+              "heat": "Heat 533",
+              "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "Anderson, Silvie",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Muir, Corky",
+          "oldEntryCount": 53,
+          "newEntryCount": 52,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 533",
+              "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "Rader, Chris",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Rader, Chris",
+          "oldEntryCount": 157,
+          "newEntryCount": 156,
+          "addedEntries": [],
+          "removedEntries": [
+            {
+              "heat": "Heat 533",
+              "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "Muir, Corky",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Tsolakidis, Isabella",
+          "oldEntryCount": 4,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "Heat 558",
+              "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 561",
+              "event": "L-C Open Mixed-Am LATIN Jive (J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 565",
+              "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 560",
+              "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 559",
+              "event": "L-C Open Mixed-Am LATIN Samba (S)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Zhelasko, Danny",
+          "oldEntryCount": 15,
+          "newEntryCount": 20,
+          "addedEntries": [
+            {
+              "heat": "Heat 558",
+              "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Tsolakidis, Isabella",
+              "awards": null
+            },
+            {
+              "heat": "Heat 561",
+              "event": "L-C Open Mixed-Am LATIN Jive (J)",
+              "partner": "Tsolakidis, Isabella",
+              "awards": null
+            },
+            {
+              "heat": "Heat 565",
+              "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Tsolakidis, Isabella",
+              "awards": null
+            },
+            {
+              "heat": "Heat 560",
+              "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Tsolakidis, Isabella",
+              "awards": null
+            },
+            {
+              "heat": "Heat 559",
+              "event": "L-C Open Mixed-Am LATIN Samba (S)",
+              "partner": "Tsolakidis, Isabella",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1840,
+      "newCount": 1841,
+      "oldUniqueCount": 1810,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [
+        "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+        "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
+        "L-B1 Open Gold Advanced BALLROOM Quickstep",
+        "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)"
+      ],
+      "rosterChanged": [
+        {
+          "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Borodaenko, Nicole",
+            "Romanchuk, Vladyslav"
+          ]
+        },
+        {
+          "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Borodaenko, Nicole",
+            "Romanchuk, Vladyslav"
+          ]
+        },
+        {
+          "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
+          "added": [],
+          "removed": [
+            "Kovalenko, Mitt",
+            "Kovalenko, Nina"
+          ]
+        },
+        {
+          "event": "NORTH AMERICAN OPEN Professional SMOOTH Championship (W/T/FT/VW)",
+          "added": [],
+          "removed": [
+            "Branham, James",
+            "Linder, Justis"
+          ]
+        }
+      ]
+    }
   }
 ]

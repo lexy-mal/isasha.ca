@@ -520,7 +520,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -528,7 +528,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -536,7 +536,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -544,7 +544,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -552,7 +552,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Gold BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -560,7 +560,7 @@
       {
         "heat": "Heat 509",
         "event": "L-B1 Open Gold Advanced BALLROOM Waltz",
-        "time": "04:14PM Saturday",
+        "time": "04:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -568,7 +568,7 @@
       {
         "heat": "Heat 510",
         "event": "L-B1 Open Gold Advanced BALLROOM Tango",
-        "time": "04:16PM Saturday",
+        "time": "04:06PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -576,7 +576,7 @@
       {
         "heat": "Heat 512",
         "event": "L-B1 Open Gold Advanced BALLROOM Foxtrot",
-        "time": "04:18PM Saturday",
+        "time": "04:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Fylymonchyk, Igor",
         "awards": null
@@ -584,24 +584,8 @@
       {
         "heat": "Heat 513",
         "event": "L-B1 Open Gold BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchyk, Igor",
-        "awards": null
-      },
-      {
-        "heat": "Heat 518",
-        "event": "L-B1 Open Gold Advanced BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Fylymonchyk, Igor",
-        "awards": null
-      },
-      {
-        "heat": "Heat 533",
-        "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
-        "time": "09:58PM Saturday",
-        "session": "Session 4 - Saturday Evening",
         "partner": "Fylymonchyk, Igor",
         "awards": null
       },
@@ -3659,42 +3643,6 @@
       }
     ]
   },
-  "Borodaenko, Nicole": {
-    "entries": [
-      {
-        "heat": "Heat 519A",
-        "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
-        "time": "04:33PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Romanchuk, Vladyslav",
-        "awards": null
-      },
-      {
-        "heat": "Heat 521",
-        "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
-        "time": "04:40PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Romanchuk, Vladyslav",
-        "awards": null
-      },
-      {
-        "heat": "Heat 523",
-        "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
-        "time": "04:50PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Romanchuk, Vladyslav",
-        "awards": null
-      },
-      {
-        "heat": "Heat 523A",
-        "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
-        "time": "04:55PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Romanchuk, Vladyslav",
-        "awards": null
-      }
-    ]
-  },
   "Borres, Cyril": {
     "entries": [
       {
@@ -5008,7 +4956,7 @@
       {
         "heat": "Heat 495",
         "event": "L-B1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:51PM Saturday",
+        "time": "03:47PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -5016,7 +4964,7 @@
       {
         "heat": "Heat 497",
         "event": "L-B1 Open Bronze BALLROOM Quickstep",
-        "time": "03:54PM Saturday",
+        "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -5024,7 +4972,7 @@
       {
         "heat": "Heat 502",
         "event": "L-B1 Open Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -5032,7 +4980,7 @@
       {
         "heat": "Heat 516",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:24PM Saturday",
+        "time": "04:14PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
         "awards": null
@@ -5040,17 +4988,9 @@
       {
         "heat": "Heat 518",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
+        "time": "04:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Horton, Sara",
-        "awards": null
-      },
-      {
-        "heat": "Heat 538",
-        "event": "NORTH AMERICAN OPEN Professional SMOOTH Championship (W/T/FT/VW)",
-        "time": "11:16PM Saturday",
-        "session": "Session 4 - Saturday Evening",
-        "partner": "Linder, Justis",
         "awards": null
       }
     ]
@@ -6548,7 +6488,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD2 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Labrosse, Jean-Yves",
         "awards": null
@@ -10228,7 +10168,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Bronze BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10236,7 +10176,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Bronze BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10244,7 +10184,7 @@
       {
         "heat": "Heat 495",
         "event": "L-B1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:51PM Saturday",
+        "time": "03:47PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10252,7 +10192,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Bronze BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10260,7 +10200,7 @@
       {
         "heat": "Heat 497",
         "event": "L-B1 Open Bronze BALLROOM Quickstep",
-        "time": "03:54PM Saturday",
+        "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10268,7 +10208,7 @@
       {
         "heat": "Heat 504",
         "event": "L-B1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10276,7 +10216,7 @@
       {
         "heat": "Heat 505",
         "event": "L-B1 Open Pre Silver BALLROOM Tango",
-        "time": "04:09PM Saturday",
+        "time": "03:59PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10284,7 +10224,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Pre Silver BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10292,7 +10232,7 @@
       {
         "heat": "Heat 507",
         "event": "L-B1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10300,7 +10240,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10308,7 +10248,7 @@
       {
         "heat": "Heat 514",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Waltz",
-        "time": "04:21PM Saturday",
+        "time": "04:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10316,7 +10256,7 @@
       {
         "heat": "Heat 515",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Tango",
-        "time": "04:22PM Saturday",
+        "time": "04:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10324,7 +10264,7 @@
       {
         "heat": "Heat 516",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:24PM Saturday",
+        "time": "04:14PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10332,7 +10272,7 @@
       {
         "heat": "Heat 517",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Foxtrot",
-        "time": "04:25PM Saturday",
+        "time": "04:16PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10340,7 +10280,7 @@
       {
         "heat": "Heat 518",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
+        "time": "04:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -10576,7 +10516,7 @@
       {
         "heat": "Heat 502",
         "event": "L-C2 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
@@ -10584,7 +10524,7 @@
       {
         "heat": "Heat 511",
         "event": "L-C2 Open Bronze BALLROOM Viennese Waltz",
-        "time": "04:17PM Saturday",
+        "time": "04:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Levit, Sharon",
         "awards": null
@@ -10660,7 +10600,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10668,7 +10608,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10676,7 +10616,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10684,7 +10624,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10692,7 +10632,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Gold BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10700,7 +10640,7 @@
       {
         "heat": "Heat 509",
         "event": "L-B1 Open Gold Advanced BALLROOM Waltz",
-        "time": "04:14PM Saturday",
+        "time": "04:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10708,7 +10648,7 @@
       {
         "heat": "Heat 510",
         "event": "L-B1 Open Gold Advanced BALLROOM Tango",
-        "time": "04:16PM Saturday",
+        "time": "04:06PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10716,7 +10656,7 @@
       {
         "heat": "Heat 512",
         "event": "L-B1 Open Gold Advanced BALLROOM Foxtrot",
-        "time": "04:18PM Saturday",
+        "time": "04:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Anderson, Silvie",
         "awards": null
@@ -10724,24 +10664,8 @@
       {
         "heat": "Heat 513",
         "event": "L-B1 Open Gold BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Anderson, Silvie",
-        "awards": null
-      },
-      {
-        "heat": "Heat 518",
-        "event": "L-B1 Open Gold Advanced BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Anderson, Silvie",
-        "awards": null
-      },
-      {
-        "heat": "Heat 533",
-        "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
-        "time": "09:58PM Saturday",
-        "session": "Session 4 - Saturday Evening",
         "partner": "Anderson, Silvie",
         "awards": null
       },
@@ -15496,7 +15420,7 @@
       {
         "heat": "Heat 498",
         "event": "L-C1 Open Bronze BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15504,7 +15428,7 @@
       {
         "heat": "Heat 499",
         "event": "L-C1 Open Bronze BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15512,7 +15436,7 @@
       {
         "heat": "Heat 500",
         "event": "L-C1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15520,7 +15444,7 @@
       {
         "heat": "Heat 501",
         "event": "L-C1 Open Bronze BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15528,7 +15452,7 @@
       {
         "heat": "Heat 502",
         "event": "L-C1 Open Bronze BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15536,7 +15460,7 @@
       {
         "heat": "Heat 509",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Waltz",
-        "time": "04:14PM Saturday",
+        "time": "04:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15544,7 +15468,7 @@
       {
         "heat": "Heat 510",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Tango",
-        "time": "04:16PM Saturday",
+        "time": "04:06PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15552,7 +15476,7 @@
       {
         "heat": "Heat 511",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:17PM Saturday",
+        "time": "04:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15560,7 +15484,7 @@
       {
         "heat": "Heat 512",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Foxtrot",
-        "time": "04:18PM Saturday",
+        "time": "04:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -15568,7 +15492,7 @@
       {
         "heat": "Heat 513",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Panko, Devon",
         "awards": null
@@ -16884,7 +16808,7 @@
       {
         "heat": "Heat 495",
         "event": "L-B1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:51PM Saturday",
+        "time": "03:47PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -16892,7 +16816,7 @@
       {
         "heat": "Heat 497",
         "event": "L-B1 Open Bronze BALLROOM Quickstep",
-        "time": "03:54PM Saturday",
+        "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -16900,7 +16824,7 @@
       {
         "heat": "Heat 502",
         "event": "L-B1 Open Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -16908,7 +16832,7 @@
       {
         "heat": "Heat 516",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:24PM Saturday",
+        "time": "04:14PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -16916,7 +16840,7 @@
       {
         "heat": "Heat 518",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
+        "time": "04:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Branham, James",
         "awards": null
@@ -22615,30 +22539,6 @@
       }
     ]
   },
-  "Kovalenko, Mitt": {
-    "entries": [
-      {
-        "heat": "Heat 539",
-        "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
-        "time": "11:29PM Saturday",
-        "session": "Session 4 - Saturday Evening",
-        "partner": "Kovalenko, Nina",
-        "awards": null
-      }
-    ]
-  },
-  "Kovalenko, Nina": {
-    "entries": [
-      {
-        "heat": "Heat 539",
-        "event": "NORTH AMERICAN OPEN Professional LATIN Championship (C/S/R/PD/J)",
-        "time": "11:29PM Saturday",
-        "session": "Session 4 - Saturday Evening",
-        "partner": "Kovalenko, Mitt",
-        "awards": null
-      }
-    ]
-  },
   "Kozyriatskaia, Tatiana": {
     "entries": [
       {
@@ -22880,7 +22780,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD2 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Charron, Brigitte",
         "awards": null
@@ -23120,7 +23020,7 @@
       {
         "heat": "Heat 502",
         "event": "L-C2 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
@@ -23128,7 +23028,7 @@
       {
         "heat": "Heat 511",
         "event": "L-C2 Open Bronze BALLROOM Viennese Waltz",
-        "time": "04:17PM Saturday",
+        "time": "04:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ellis, Patricia",
         "awards": null
@@ -23615,18 +23515,6 @@
         "time": "02:29PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Xiao, Ivan",
-        "awards": null
-      }
-    ]
-  },
-  "Linder, Justis": {
-    "entries": [
-      {
-        "heat": "Heat 538",
-        "event": "NORTH AMERICAN OPEN Professional SMOOTH Championship (W/T/FT/VW)",
-        "time": "11:16PM Saturday",
-        "session": "Session 4 - Saturday Evening",
-        "partner": "Branham, James",
         "awards": null
       }
     ]
@@ -24196,7 +24084,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD4 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Richer, Luc",
         "awards": null
@@ -24352,7 +24240,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24360,7 +24248,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24368,7 +24256,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24376,7 +24264,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24384,7 +24272,7 @@
       {
         "heat": "Heat 499",
         "event": "L-B1 Open Gold BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24392,7 +24280,7 @@
       {
         "heat": "Heat 500",
         "event": "L-B1 Open Silver BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24400,7 +24288,7 @@
       {
         "heat": "Heat 501",
         "event": "L-B1 Open Gold BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24408,7 +24296,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Gold BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24416,7 +24304,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -24424,7 +24312,7 @@
       {
         "heat": "Heat 513",
         "event": "L-B1 Open Gold BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -25108,7 +24996,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25116,7 +25004,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25124,7 +25012,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25132,7 +25020,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25140,7 +25028,7 @@
       {
         "heat": "Heat 499",
         "event": "L-B1 Open Gold BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25148,7 +25036,7 @@
       {
         "heat": "Heat 500",
         "event": "L-B1 Open Silver BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25156,7 +25044,7 @@
       {
         "heat": "Heat 501",
         "event": "L-B1 Open Gold BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25164,7 +25052,7 @@
       {
         "heat": "Heat 504",
         "event": "L-B1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25172,7 +25060,7 @@
       {
         "heat": "Heat 505",
         "event": "L-B1 Open Pre Silver BALLROOM Tango",
-        "time": "04:09PM Saturday",
+        "time": "03:59PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25180,7 +25068,7 @@
       {
         "heat": "Heat 507",
         "event": "L-B1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25188,7 +25076,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Rader, Chris",
         "awards": null
@@ -25206,14 +25094,6 @@
         "event": "L-S1 Open Gold Pro-Am International BALLROOM 3-Dance (W/T/F)",
         "time": "04:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
-        "partner": "Rader, Chris",
-        "awards": null
-      },
-      {
-        "heat": "Heat 533",
-        "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
-        "time": "09:58PM Saturday",
-        "session": "Session 4 - Saturday Evening",
         "partner": "Rader, Chris",
         "awards": null
       },
@@ -25380,7 +25260,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD4 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Plourde, Marie-Andree",
         "awards": null
@@ -28800,7 +28680,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Bronze BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28808,7 +28688,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Bronze BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28816,7 +28696,7 @@
       {
         "heat": "Heat 495",
         "event": "L-B1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:51PM Saturday",
+        "time": "03:47PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28824,7 +28704,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Bronze BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28832,7 +28712,7 @@
       {
         "heat": "Heat 497",
         "event": "L-B1 Open Bronze BALLROOM Quickstep",
-        "time": "03:54PM Saturday",
+        "time": "03:49PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28840,7 +28720,7 @@
       {
         "heat": "Heat 498",
         "event": "L-C1 Open Bronze BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28848,7 +28728,7 @@
       {
         "heat": "Heat 499",
         "event": "L-C1 Open Bronze BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28856,7 +28736,7 @@
       {
         "heat": "Heat 500",
         "event": "L-C1 Open Bronze BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28864,7 +28744,7 @@
       {
         "heat": "Heat 501",
         "event": "L-C1 Open Bronze BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28872,7 +28752,7 @@
       {
         "heat": "Heat 502",
         "event": "L-C1 Open Bronze BALLROOM Quickstep",
-        "time": "04:01PM Saturday",
+        "time": "03:56PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28880,7 +28760,7 @@
       {
         "heat": "Heat 504",
         "event": "L-B1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28888,7 +28768,7 @@
       {
         "heat": "Heat 505",
         "event": "L-B1 Open Pre Silver BALLROOM Tango",
-        "time": "04:09PM Saturday",
+        "time": "03:59PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28896,7 +28776,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Pre Silver BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28904,7 +28784,7 @@
       {
         "heat": "Heat 507",
         "event": "L-B1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28912,7 +28792,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28920,7 +28800,7 @@
       {
         "heat": "Heat 509",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Waltz",
-        "time": "04:14PM Saturday",
+        "time": "04:05PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28928,7 +28808,7 @@
       {
         "heat": "Heat 510",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Tango",
-        "time": "04:16PM Saturday",
+        "time": "04:06PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28936,7 +28816,7 @@
       {
         "heat": "Heat 511",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:17PM Saturday",
+        "time": "04:07PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28944,7 +28824,7 @@
       {
         "heat": "Heat 512",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Foxtrot",
-        "time": "04:18PM Saturday",
+        "time": "04:09PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28952,7 +28832,7 @@
       {
         "heat": "Heat 513",
         "event": "L-C1 Open Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Holtham, Helen",
         "awards": null
@@ -28960,7 +28840,7 @@
       {
         "heat": "Heat 514",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Waltz",
-        "time": "04:21PM Saturday",
+        "time": "04:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28968,7 +28848,7 @@
       {
         "heat": "Heat 515",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Tango",
-        "time": "04:22PM Saturday",
+        "time": "04:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28976,7 +28856,7 @@
       {
         "heat": "Heat 516",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Viennese Waltz",
-        "time": "04:24PM Saturday",
+        "time": "04:14PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28984,7 +28864,7 @@
       {
         "heat": "Heat 517",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Foxtrot",
-        "time": "04:25PM Saturday",
+        "time": "04:16PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -28992,7 +28872,7 @@
       {
         "heat": "Heat 518",
         "event": "L-B1 Open Pre Bronze Proficiency BALLROOM Quickstep",
-        "time": "04:27PM Saturday",
+        "time": "04:17PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Ducharme, Luanne",
         "awards": null
@@ -30160,7 +30040,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30168,7 +30048,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30176,7 +30056,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30184,7 +30064,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30192,7 +30072,7 @@
       {
         "heat": "Heat 499",
         "event": "L-B1 Open Gold BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30200,7 +30080,7 @@
       {
         "heat": "Heat 500",
         "event": "L-B1 Open Silver BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30208,7 +30088,7 @@
       {
         "heat": "Heat 501",
         "event": "L-B1 Open Gold BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30216,7 +30096,7 @@
       {
         "heat": "Heat 506",
         "event": "L-B1 Open Gold BALLROOM Viennese Waltz",
-        "time": "04:10PM Saturday",
+        "time": "04:00PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30224,7 +30104,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30232,7 +30112,7 @@
       {
         "heat": "Heat 513",
         "event": "L-B1 Open Gold BALLROOM Quickstep",
-        "time": "04:20PM Saturday",
+        "time": "04:10PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Messier, Jean-Francois",
         "awards": null
@@ -30248,7 +30128,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD4 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Nadeau, Mario",
         "awards": null
@@ -31632,7 +31512,7 @@
       {
         "heat": "Heat 493",
         "event": "L-B1 Open Silver BALLROOM Waltz",
-        "time": "03:49PM Saturday",
+        "time": "03:44PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31640,7 +31520,7 @@
       {
         "heat": "Heat 494",
         "event": "L-B1 Open Silver BALLROOM Tango",
-        "time": "03:50PM Saturday",
+        "time": "03:45PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31648,7 +31528,7 @@
       {
         "heat": "Heat 496",
         "event": "L-B1 Open Silver BALLROOM Foxtrot",
-        "time": "03:53PM Saturday",
+        "time": "03:48PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31656,7 +31536,7 @@
       {
         "heat": "Heat 498",
         "event": "L-B1 Open Gold BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31664,7 +31544,7 @@
       {
         "heat": "Heat 499",
         "event": "L-B1 Open Gold BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31672,7 +31552,7 @@
       {
         "heat": "Heat 500",
         "event": "L-B1 Open Silver BALLROOM Viennese Waltz",
-        "time": "03:58PM Saturday",
+        "time": "03:53PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31680,7 +31560,7 @@
       {
         "heat": "Heat 501",
         "event": "L-B1 Open Gold BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31688,7 +31568,7 @@
       {
         "heat": "Heat 504",
         "event": "L-B1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31696,7 +31576,7 @@
       {
         "heat": "Heat 505",
         "event": "L-B1 Open Pre Silver BALLROOM Tango",
-        "time": "04:09PM Saturday",
+        "time": "03:59PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31704,7 +31584,7 @@
       {
         "heat": "Heat 507",
         "event": "L-B1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31712,7 +31592,7 @@
       {
         "heat": "Heat 508",
         "event": "L-B1 Open Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Muir, Corky",
         "awards": null
@@ -31763,14 +31643,6 @@
         "time": "09:05PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Hill, Gladys",
-        "awards": null
-      },
-      {
-        "heat": "Heat 533",
-        "event": "L-C North American Pro-Am GRAND SLAM  Open BALLROOM Scholarship (W/T/VW/F/Q)",
-        "time": "09:58PM Saturday",
-        "session": "Session 4 - Saturday Evening",
-        "partner": "Muir, Corky",
         "awards": null
       },
       {
@@ -31844,7 +31716,7 @@
       {
         "heat": "Heat 534",
         "event": "AC-AD4 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "10:06PM Saturday",
+        "time": "09:58PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Maille, Suzie",
         "awards": null
@@ -32427,42 +32299,6 @@
         "time": "02:40PM Sunday",
         "session": "Session 5 - Sunday Daytime",
         "partner": "Mostovoy, Sofia",
-        "awards": null
-      }
-    ]
-  },
-  "Romanchuk, Vladyslav": {
-    "entries": [
-      {
-        "heat": "Heat 519A",
-        "event": "AC-AD Amateur Pre-Champ BALLROOM Block 2 (F/VW)",
-        "time": "04:33PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Borodaenko, Nicole",
-        "awards": null
-      },
-      {
-        "heat": "Heat 521",
-        "event": "AC-AD Amateur Pre-Champ BALLROOM Block 1 (W/T/Q)",
-        "time": "04:40PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Borodaenko, Nicole",
-        "awards": null
-      },
-      {
-        "heat": "Heat 523",
-        "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
-        "time": "04:50PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Borodaenko, Nicole",
-        "awards": null
-      },
-      {
-        "heat": "Heat 523A",
-        "event": "AC-16+ Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
-        "time": "04:55PM Saturday",
-        "session": "Session 3 - Saturday Daytime",
-        "partner": "Borodaenko, Nicole",
         "awards": null
       }
     ]
@@ -33692,7 +33528,7 @@
       {
         "heat": "Heat 492",
         "event": "AC-AD3 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
-        "time": "03:44PM Saturday",
+        "time": "04:18PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Sampalli, Tara",
         "awards": null
@@ -33700,7 +33536,7 @@
       {
         "heat": "Heat 503",
         "event": "AC-16+ Amateur Bronze BALLROOM Block 1 (W/T/Q)",
-        "time": "04:02PM Saturday",
+        "time": "04:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Sampalli, Tara",
         "awards": null
@@ -33736,7 +33572,7 @@
       {
         "heat": "Heat 492",
         "event": "AC-AD3 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
-        "time": "03:44PM Saturday",
+        "time": "04:18PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Sampalli, Srini",
         "awards": null
@@ -33744,7 +33580,7 @@
       {
         "heat": "Heat 503",
         "event": "AC-16+ Amateur Bronze BALLROOM Block 1 (W/T/Q)",
-        "time": "04:02PM Saturday",
+        "time": "04:23PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Sampalli, Srini",
         "awards": null
@@ -34084,7 +33920,7 @@
       {
         "heat": "Heat 498",
         "event": "L-C1 Open Bronze BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34092,7 +33928,7 @@
       {
         "heat": "Heat 499",
         "event": "L-C1 Open Bronze BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34100,7 +33936,7 @@
       {
         "heat": "Heat 501",
         "event": "L-C1 Open Bronze BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34108,7 +33944,7 @@
       {
         "heat": "Heat 504",
         "event": "L-C1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34116,7 +33952,7 @@
       {
         "heat": "Heat 507",
         "event": "L-C1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34124,7 +33960,7 @@
       {
         "heat": "Heat 508",
         "event": "L-C1 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34132,7 +33968,7 @@
       {
         "heat": "Heat 514",
         "event": "L-C1 Open Silver BALLROOM Waltz",
-        "time": "04:21PM Saturday",
+        "time": "04:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34140,7 +33976,7 @@
       {
         "heat": "Heat 515",
         "event": "L-C1 Open Silver BALLROOM Tango",
-        "time": "04:22PM Saturday",
+        "time": "04:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -34148,7 +33984,7 @@
       {
         "heat": "Heat 517",
         "event": "L-C1 Open Silver BALLROOM Foxtrot",
-        "time": "04:25PM Saturday",
+        "time": "04:16PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Studenny, Daniel",
         "awards": null
@@ -35748,7 +35584,7 @@
       {
         "heat": "Heat 498",
         "event": "L-C1 Open Bronze BALLROOM Waltz",
-        "time": "03:56PM Saturday",
+        "time": "03:51PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35756,7 +35592,7 @@
       {
         "heat": "Heat 499",
         "event": "L-C1 Open Bronze BALLROOM Tango",
-        "time": "03:57PM Saturday",
+        "time": "03:52PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35764,7 +35600,7 @@
       {
         "heat": "Heat 501",
         "event": "L-C1 Open Bronze BALLROOM Foxtrot",
-        "time": "04:00PM Saturday",
+        "time": "03:55PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35772,7 +35608,7 @@
       {
         "heat": "Heat 504",
         "event": "L-C1 Open Pre Silver BALLROOM Waltz",
-        "time": "04:07PM Saturday",
+        "time": "03:58PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35780,7 +35616,7 @@
       {
         "heat": "Heat 507",
         "event": "L-C1 Open Pre Silver BALLROOM Foxtrot",
-        "time": "04:11PM Saturday",
+        "time": "04:02PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35788,7 +35624,7 @@
       {
         "heat": "Heat 508",
         "event": "L-C1 Open Pre Silver BALLROOM Quickstep",
-        "time": "04:13PM Saturday",
+        "time": "04:03PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35796,7 +35632,7 @@
       {
         "heat": "Heat 514",
         "event": "L-C1 Open Silver BALLROOM Waltz",
-        "time": "04:21PM Saturday",
+        "time": "04:11PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35804,7 +35640,7 @@
       {
         "heat": "Heat 515",
         "event": "L-C1 Open Silver BALLROOM Tango",
-        "time": "04:22PM Saturday",
+        "time": "04:13PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -35812,7 +35648,7 @@
       {
         "heat": "Heat 517",
         "event": "L-C1 Open Silver BALLROOM Foxtrot",
-        "time": "04:25PM Saturday",
+        "time": "04:16PM Saturday",
         "session": "Session 3 - Saturday Daytime",
         "partner": "Shum, Josephine",
         "awards": null
@@ -36329,6 +36165,46 @@
   },
   "Tsolakidis, Isabella": {
     "entries": [
+      {
+        "heat": "Heat 558",
+        "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+        "time": "11:50AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
+      {
+        "heat": "Heat 559",
+        "event": "L-C Open Mixed-Am LATIN Samba (S)",
+        "time": "11:51AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
+      {
+        "heat": "Heat 560",
+        "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+        "time": "11:53AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
+      {
+        "heat": "Heat 561",
+        "event": "L-C Open Mixed-Am LATIN Jive (J)",
+        "time": "11:54AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
+      {
+        "heat": "Heat 565",
+        "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+        "time": "12:00PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Zhelasko, Danny",
+        "awards": null
+      },
       {
         "heat": "Heat 568",
         "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
@@ -40131,6 +40007,46 @@
         "time": "11:00PM Saturday",
         "session": "Session 4 - Saturday Evening",
         "partner": "Akhromenko, Ellie",
+        "awards": null
+      },
+      {
+        "heat": "Heat 558",
+        "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+        "time": "11:50AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 559",
+        "event": "L-C Open Mixed-Am LATIN Samba (S)",
+        "time": "11:51AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 560",
+        "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+        "time": "11:53AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 561",
+        "event": "L-C Open Mixed-Am LATIN Jive (J)",
+        "time": "11:54AM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 565",
+        "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+        "time": "12:00PM Sunday",
+        "session": "Session 5 - Sunday Daytime",
+        "partner": "Tsolakidis, Isabella",
         "awards": null
       },
       {
