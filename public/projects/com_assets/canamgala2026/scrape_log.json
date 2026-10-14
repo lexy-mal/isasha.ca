@@ -47264,5 +47264,100 @@
         }
       ]
     }
+  },
+  {
+    "timestamp": "2026-10-12T10:00:03.680025+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 222,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1841,
+      "newCount": 1841,
+      "oldUniqueCount": 1806,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-12T10:00:16.278270+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 222,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1841,
+      "newCount": 1841,
+      "oldUniqueCount": 1806,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-13T10:00:02.858300+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 222,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1841,
+      "newCount": 1841,
+      "oldUniqueCount": 1806,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-13T10:00:43.665954+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 222,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1841,
+      "newCount": 1841,
+      "oldUniqueCount": 1806,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-10-14T10:00:02.578189+00:00",
+    "participants": {
+      "oldCount": 222,
+      "newCount": 222,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1841,
+      "newCount": 1841,
+      "oldUniqueCount": 1806,
+      "newUniqueCount": 1806,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
   }
 ]

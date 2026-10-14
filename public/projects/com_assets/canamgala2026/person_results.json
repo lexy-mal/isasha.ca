@@ -12568,6 +12568,16 @@
       }
     },
     {
+      "heat": "Heat 432",
+      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
+      "placement": "2",
+      "number": "130",
+      "names": "Horton/Branham",
+      "dancePlacements": {
+        "W": "2"
+      }
+    },
+    {
       "heat": "Heat 434",
       "event": "L-B1 Closed Pre Bronze BALLROOM Quickstep",
       "placement": "2",
@@ -14271,6 +14281,16 @@
         "C": "3",
         "R": "4",
         "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 432",
+      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
+      "placement": "2",
+      "number": "130",
+      "names": "Horton/Branham",
+      "dancePlacements": {
+        "W": "2"
       }
     },
     {
@@ -19461,6 +19481,16 @@
       "names": "Ducharme/Panko",
       "dancePlacements": {
         "T": "1"
+      }
+    },
+    {
+      "heat": "Heat 432",
+      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
+      "placement": "1",
+      "number": "104",
+      "names": "Ducharme/Panko",
+      "dancePlacements": {
+        "W": "1"
       }
     },
     {
@@ -26464,6 +26494,16 @@
       }
     },
     {
+      "heat": "Heat 121",
+      "event": "L-B2 Closed Full Silver SMOOTH Tango",
+      "placement": "1",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "T": "1"
+      }
+    },
+    {
       "heat": "Heat 122",
       "event": "L-B2 Closed Full Silver SMOOTH Foxtrot",
       "placement": "1",
@@ -28665,6 +28705,16 @@
       }
     },
     {
+      "heat": "Heat 121",
+      "event": "L-B2 Closed Full Silver SMOOTH Tango",
+      "placement": "2",
+      "number": "116",
+      "names": "Zaharchuk/Ocheret",
+      "dancePlacements": {
+        "T": "2"
+      }
+    },
+    {
       "heat": "Heat 122",
       "event": "L-B2 Closed Full Silver SMOOTH Foxtrot",
       "placement": "2",
@@ -29452,6 +29502,16 @@
       "names": "Zaharchuk/Ocheret",
       "dancePlacements": {
         "W": "2"
+      }
+    },
+    {
+      "heat": "Heat 121",
+      "event": "L-B2 Closed Full Silver SMOOTH Tango",
+      "placement": "2",
+      "number": "116",
+      "names": "Zaharchuk/Ocheret",
+      "dancePlacements": {
+        "T": "2"
       }
     },
     {
@@ -30889,6 +30949,16 @@
       }
     },
     {
+      "heat": "Heat 121",
+      "event": "L-B2 Closed Full Silver SMOOTH Tango",
+      "placement": "1",
+      "number": "127",
+      "names": "Muir/Rader",
+      "dancePlacements": {
+        "T": "1"
+      }
+    },
+    {
       "heat": "Heat 122",
       "event": "L-B2 Closed Full Silver SMOOTH Foxtrot",
       "placement": "1",
@@ -31408,30 +31478,6 @@
         "V": "3",
         "F": "3",
         "Q": "3"
-      }
-    }
-  ],
-  "116-FredAstaireCanada-Mississauga": [
-    {
-      "heat": "Heat 121",
-      "event": "L-B2 Closed Full Silver SMOOTH Tango",
-      "placement": "2",
-      "number": "",
-      "names": "116-FredAstaireCanada-Mississauga",
-      "dancePlacements": {
-        "T": "2"
-      }
-    }
-  ],
-  "127-DANCEWITHTLC": [
-    {
-      "heat": "Heat 121",
-      "event": "L-B2 Closed Full Silver SMOOTH Tango",
-      "placement": "1",
-      "number": "",
-      "names": "127-DANCEWITHTLC",
-      "dancePlacements": {
-        "T": "1"
       }
     }
   ],
@@ -38844,6 +38890,16 @@
       }
     },
     {
+      "heat": "Heat 432",
+      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
+      "placement": "1",
+      "number": "104",
+      "names": "Ducharme/Panko",
+      "dancePlacements": {
+        "W": "1"
+      }
+    },
+    {
       "heat": "Heat 433",
       "event": "L-B1 Closed Pre Bronze BALLROOM Foxtrot",
       "placement": "1",
@@ -40989,6 +41045,86 @@
       "dancePlacements": {
         "C": "1"
       }
+    },
+    {
+      "heat": "Heat 586",
+      "event": "AC-JN1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "AC-JN1 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JN1 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JN2 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-JN1 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "7",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JN2 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
     }
   ],
   "Crowe, Callista": [
@@ -41000,6 +41136,86 @@
       "names": "Blackburn/Crowe",
       "dancePlacements": {
         "C": "1"
+      }
+    },
+    {
+      "heat": "Heat 586",
+      "event": "AC-JN1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "AC-JN1 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JN1 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JN2 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-JN1 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "7",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "C": "7",
+        "J": "7"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JN2 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "324",
+      "names": "Blackburn/Crowe",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
       }
     }
   ],
@@ -43661,30 +43877,6 @@
       }
     }
   ],
-  "104-FredAstaireCanada-Mississauga": [
-    {
-      "heat": "Heat 432",
-      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
-      "placement": "1",
-      "number": "",
-      "names": "104-FredAstaireCanada-Mississauga",
-      "dancePlacements": {
-        "W": "1"
-      }
-    }
-  ],
-  "130-AMDSDayton": [
-    {
-      "heat": "Heat 432",
-      "event": "L-B1 Closed Pre Bronze BALLROOM Viennese Waltz",
-      "placement": "2",
-      "number": "",
-      "names": "130-AMDSDayton",
-      "dancePlacements": {
-        "W": "2"
-      }
-    }
-  ],
   "Studenny, Daniel": [
     {
       "heat": "Heat 430",
@@ -44605,6 +44797,61 @@
         "P": "1",
         "J": "1"
       }
+    },
+    {
+      "heat": "Heat 581",
+      "event": "L-A Mixed-Am Silver LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "313",
+      "names": "Movshovich Fil/Tretiak",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 585",
+      "event": "L-A Mixed-Am Silver LATIN Jive (J)",
+      "placement": "1",
+      "number": "313",
+      "names": "Movshovich Fil/Tretiak",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "313",
+      "names": "Movshovich Fil/Tretiak",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "313",
+      "names": "Movshovich Fil/Tretiak",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "313",
+      "names": "Movshovich Fil/Tretiak",
+      "dancePlacements": {
+        "C": "1",
+        "R": "3",
+        "S": "1"
+      }
     }
   ],
   "Kischitzky, Gaya": [
@@ -44635,6 +44882,61 @@
         "P": "1",
         "J": "1"
       }
+    },
+    {
+      "heat": "Heat 581",
+      "event": "L-A Mixed-Am Silver LATIN Paso Doble (P)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 585",
+      "event": "L-A Mixed-Am Silver LATIN Jive (J)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "2"
+      }
     }
   ],
   "Xiao, Ivan": [
@@ -44651,6 +44953,103 @@
         "P": "1",
         "J": "1"
       }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-A Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "336",
+      "names": "Xiao/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "2",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-A Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "336",
+      "names": "Xiao/",
+      "dancePlacements": {
+        "P": "3",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "4",
+      "number": "336",
+      "names": "Xiao/",
+      "dancePlacements": {
+        "C": "4",
+        "S": "3",
+        "R": "4",
+        "P": "3",
+        "J": "5.5"
+      }
+    },
+    {
+      "heat": "Heat 586",
+      "event": "AC-JV1 Amateur Pre-Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "336",
+      "names": "Xiao/Yang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "336",
+      "names": "Xiao/Lin",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JV1 Amateur Beginners LATIN (C/R)",
+      "placement": "1",
+      "number": "336",
+      "names": "Xiao/Yang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Kids Club Open (CC/J) 9 and under",
+      "placement": "2",
+      "number": "336",
+      "names": "Xiao/Lin",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "336",
+      "names": "Xiao/Pan",
+      "dancePlacements": {
+        "C": "2",
+        "S": "3",
+        "R": "2",
+        "P": "3",
+        "J": "1"
+      }
     }
   ],
   "Pan, Olivia": [
@@ -44665,6 +45064,80 @@
         "S": "1",
         "R": "1",
         "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Gold LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "339",
+      "names": "Pan/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "339",
+      "names": "Pan/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-A Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "339",
+      "names": "Pan/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-A Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "339",
+      "names": "Pan/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "339",
+      "names": "Pan/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "3",
+      "number": "336",
+      "names": "Xiao/Pan",
+      "dancePlacements": {
+        "C": "2",
+        "S": "3",
+        "R": "2",
+        "P": "3",
         "J": "1"
       }
     }
@@ -44847,6 +45320,80 @@
         "P": "6",
         "J": "6"
       }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "L-B Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-B Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "L-B Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 604",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "2"
+      }
     }
   ],
   "Oliynyk, Sofiya": [
@@ -45019,6 +45566,74 @@
         "P": "2",
         "J": "2"
       }
+    },
+    {
+      "heat": "Heat 582",
+      "event": "L-A Mixed-Am Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-A Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "398",
+      "names": "Iakovenko/Ivanov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "P": "2.5",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "L-A Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "398",
+      "names": "Iakovenko/Ivanov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
     }
   ],
   "Baranova, Veronica": [
@@ -45035,6 +45650,39 @@
         "P": "2",
         "J": "2"
       }
+    },
+    {
+      "heat": "Heat 578",
+      "event": "L-A Mixed-Am Silver LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
     }
   ],
   "Zhelasko, Danny": [
@@ -45050,6 +45698,217 @@
         "R": "3",
         "P": "3",
         "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 558",
+      "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "L-C Open Mixed-Am LATIN Samba (S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "L-C Open Mixed-Am LATIN Jive (J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "2",
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 575",
+      "event": "L-C Open Mixed-Am LATIN Samba (S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 578",
+      "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 580",
+      "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 581",
+      "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 582",
+      "event": "L-C Open Mixed-Am LATIN Jive (J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 604",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
       }
     }
   ],
@@ -45270,6 +46129,5331 @@
         "S": "2",
         "R": "2",
         "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Xu, Abel": [
+    {
+      "heat": "Heat 547",
+      "event": "AC-JV2 Bronze Pre-Competitive Cha Cha / Jive (C/J)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/Xu",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 547",
+      "event": "AC-JV2 Bronze Pre-Competitive Cha Cha / Jive (C/J)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/Xu",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 541",
+      "event": "AC-JV2 Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/Xu",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 541",
+      "event": "AC-JV2 Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/Xu",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV2 Solo Indv. Pre-Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV2 Solo Indv. Pre-Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "",
+      "number": "337",
+      "names": "Xu/",
+      "dancePlacements": {
+        "C": "4",
+        "R": "3",
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 586",
+      "event": "AC-JV2 Amateur Pre-Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "337",
+      "names": "Xu/Xu",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Pan, Sophia": [
+    {
+      "heat": "Heat 541",
+      "event": "A-PD Solo Indv. Basic Pre-Competitive Cha Cha (C)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 541",
+      "event": "A-PD Solo Indv. Basic Pre-Competitive Rumba (R)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 542",
+      "event": "A-PD Solo Indv. Basic Pre-Competitive Jive (J)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 547",
+      "event": "A-PD Solo Indv. Debutant Pre-Competitive Cha Cha / Jive (C/J)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 547",
+      "event": "A-PD Solo Indv. Debutant Pre-Competitive Cha Cha / Jive (C/J)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-PD Solo Indv. Debutant Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-PD Solo Indv. Debutant Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "338",
+      "names": "Pan/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    }
+  ],
+  "Yang, Qian Yu": [
+    {
+      "heat": "Heat 547",
+      "event": "A-9U Pre-Bronze/Bronze Pre-Competitive Rising Star Solo Indv. Challenge (C/J)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV1 Solo Indv. Pre-Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      },
+      "rounds": [
+        "Final"
+      ]
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV1 Solo Indv. Pre-Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      },
+      "rounds": [
+        "Final"
+      ]
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Newcomer LATIN Samba (S)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "A-A Solo Indv. Newcomer LATIN Jive (J)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 558",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN Rumba (R)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Beginner LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "340",
+      "names": "Yang/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "5",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 586",
+      "event": "AC-JV1 Amateur Pre-Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "336",
+      "names": "Xiao/Yang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JV1 Amateur Beginners LATIN (C/R)",
+      "placement": "1",
+      "number": "336",
+      "names": "Xiao/Yang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1"
+      }
+    }
+  ],
+  "Yu, Teresa": [
+    {
+      "heat": "Heat 541",
+      "event": "A-JV1 Solo Indv. Basic Pre-Competitive Cha Cha (C)",
+      "placement": "1",
+      "number": "341",
+      "names": "Yu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 541",
+      "event": "A-JV1 Solo Indv. Basic Pre-Competitive Rumba (R)",
+      "placement": "1",
+      "number": "341",
+      "names": "Yu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV1 Solo Indv. Debutant Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "341",
+      "names": "Yu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV1 Solo Indv. Debutant Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "1",
+      "number": "341",
+      "names": "Yu/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    }
+  ],
+  "Ilyushenov, Andrey": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 548",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 543",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 544",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Vienesse Waltz (VW)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Foxtrot (F)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 546",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 549",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 550",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 556",
+      "event": "L-A1 Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "3",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 575",
+      "event": "L-A1 Mixed-Am Newcomer LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 582",
+      "event": "L-A1 Mixed-Am Newcomer LATIN Jive (J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 578",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 579",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 580",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 585",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 583",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 584",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "L-A1 Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "4",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "P": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A1 Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Nechadim, Adelina": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 540",
+      "event": "L-A1 Mixed-Am Newcomer BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 548",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 549",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 550",
+      "event": "L-A1 Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 556",
+      "event": "L-A1 Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 575",
+      "event": "L-A1 Mixed-Am Newcomer LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 582",
+      "event": "L-A1 Mixed-Am Newcomer LATIN Jive (J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 578",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 579",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 580",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 585",
+      "event": "L-A1 Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "L-A1 Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A1 Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Nechadim/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Geler, Eliana": [
+    {
+      "heat": "Heat 543",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Waltz (W)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 544",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Tango (T)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Vienesse Waltz (VW)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Foxtrot (F)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 546",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM Quickstep (Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "3",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 583",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Samba (S)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 584",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "4",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "P": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "347",
+      "names": "Geler/Ilyushenov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    }
+  ],
+  "Motyl, Paul": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "4",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Selivanov, Elizabeth": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 554",
+      "event": "A-A Solo Indv. Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "371",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 555",
+      "event": "A-A Solo Indv. Bronze BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "371",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "371",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Bronze LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "371",
+      "names": "Selivanov/",
+      "dancePlacements": {
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "365",
+      "names": "Selivanov/Motyl",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "4"
+      }
+    }
+  ],
+  "Prosveer, Leon": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "2",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "5",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "P": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "5",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "C": "5",
+        "R": "6",
+        "S": "5"
+      }
+    }
+  ],
+  "Mykytyn, Solomiia": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Bronze & Less BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "2",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "5",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "P": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "5",
+      "number": "366",
+      "names": "Prosveer/Mykytyn",
+      "dancePlacements": {
+        "C": "5",
+        "R": "6",
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "4",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "C": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-15U Amateur Pre-Champ  GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "365",
+      "names": "Motyl/Mykytyn",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Rolik, Max": [
+    {
+      "heat": "Heat 540",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+      "placement": "",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "F": "1",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "6",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "1",
+        "P": "2",
+        "J": "2.5"
+      }
+    }
+  ],
+  "Mostovoy, Sofia": [
+    {
+      "heat": "Heat 540",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+      "placement": "",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "F": "1",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "6",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "6",
+        "J": "6"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "367",
+      "names": "Rolik/Mostovoy",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "1",
+        "P": "2",
+        "J": "2.5"
+      }
+    }
+  ],
+  "Orlov, Maxim": [
+    {
+      "heat": "Heat 540",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+      "placement": "",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "F": "2",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "C": "3",
+        "S": "1",
+        "R": "3",
+        "P": "1",
+        "J": "2.5"
+      }
+    }
+  ],
+  "Mykhailutsa, Nikol": [
+    {
+      "heat": "Heat 540",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JV2 Amateur Silver BALLROOM Block 2 (F/VW)",
+      "placement": "",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "F": "2",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "374",
+      "names": "Orlov/Mykhailutsa",
+      "dancePlacements": {
+        "C": "3",
+        "S": "1",
+        "R": "3",
+        "P": "1",
+        "J": "2.5"
+      }
+    }
+  ],
+  "Petrov, Nathaniel": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 554",
+      "event": "L-D Open Mixed-Am BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Bohuslavska/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "L-D Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Bohuslavska/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Petrov/Petrova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Lysenko, Mariia": [
+    {
+      "heat": "Heat 540",
+      "event": "L-A Mixed-Am Beginner BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Beginner LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "370",
+      "names": "Lysenko/Petrov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Nor-Arevian, Arsene": [
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "1",
+        "P": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 592",
+      "event": "AC-JN2 Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-JN2 Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "P": "2.5",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JN1 Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-JN1 Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-15U Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-15U Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Tarsky, Sarah": [
+    {
+      "heat": "Heat 545",
+      "event": "L-A Mixed-Am Silver & Gold BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 552",
+      "event": "L-A Mixed-Am Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "L-A Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "1",
+        "P": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "372",
+      "names": "Tarsky/Nor-Arevian",
+      "dancePlacements": {
+        "P": "2.5",
+        "J": "3"
+      }
+    }
+  ],
+  "Pinchak, Gleb": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 556",
+      "event": "AC-JN1 Amateur Gold GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-JN1 Amateur Gold GRAND SLAM BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 595",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JN1 Amateur Gold LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-JN1 Amateur Gold LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "5",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Tsytsarin, Camilla": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 556",
+      "event": "AC-JN1 Amateur Gold GRAND SLAM BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "AC-JN1 Amateur Gold GRAND SLAM BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "318",
+      "names": "Alcalde/Tsytsarin",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "1",
+      "number": "318",
+      "names": "Alcalde/Tsytsarin",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "318",
+      "names": "Alcalde/Tsytsarin",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 595",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R)",
+      "placement": "1",
+      "number": "318",
+      "names": "Alcalde/Tsytsarin",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JN1 Amateur Gold LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-JN1 Amateur Gold LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "5",
+      "number": "311",
+      "names": "Pinchak/Tsytsarin",
+      "dancePlacements": {
+        "C": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Orlov, Nikita": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-15U Amateur LATIN Multi-Dance Events (Beginners - Pre-Champ)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Gruszko, Valerie": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 553",
+      "event": "AC-JN1 Amateur Gold BALLROOM Block 2 (F/VW)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 2 (P/J)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-15U Amateur LATIN Multi-Dance Events (Beginners - Pre-Champ)",
+      "placement": "1",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "373",
+      "names": "Orlov/Gruszko",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Messier, Philippe": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JV1 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Kids Club Open (CC/J) 9 and under",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Beaudry, Annabelle": [
+    {
+      "heat": "Heat 552",
+      "event": "AC-JV1 Amateur Bronze BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 587",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Kids Club Open (CC/J) 9 and under",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JV1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "329",
+      "names": "Messier/Beaudry",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Fylymonchyk, Yaroslav": [
+    {
+      "heat": "Heat 554",
+      "event": "A-B Open Solo Indv. BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "328",
+      "names": "Fylymonchyk/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 555",
+      "event": "A-B Open Solo Indv. BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "2",
+      "number": "328",
+      "names": "Fylymonchyk/",
+      "dancePlacements": {
+        "F": "2",
+        "V": "2"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "A-B Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "3",
+      "number": "328",
+      "names": "Fylymonchyk/",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "V": "3",
+        "F": "3",
+        "Q": "3"
+      }
+    }
+  ],
+  "Barsky, Eitan": [
+    {
+      "heat": "Heat 554",
+      "event": "A-B Open Solo Indv. BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 555",
+      "event": "A-B Open Solo Indv. BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "A-B Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-B Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "331",
+      "names": "Barsky/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Sazanova, Nataliia": [
+    {
+      "heat": "Heat 554",
+      "event": "A-B Open Solo Indv. BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "3",
+      "number": "369",
+      "names": "Sazanova/",
+      "dancePlacements": {
+        "W": "3",
+        "T": "3",
+        "Q": "3"
+      }
+    },
+    {
+      "heat": "Heat 555",
+      "event": "A-B Open Solo Indv. BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "3",
+      "number": "369",
+      "names": "Sazanova/",
+      "dancePlacements": {
+        "F": "3",
+        "V": "3"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-B1 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "369",
+      "names": "Sazanova/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B1 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "369",
+      "names": "Sazanova/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Pavlenko, Arya": [
+    {
+      "heat": "Heat 554",
+      "event": "A-A Solo Indv. Pre-Bronze BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "364",
+      "names": "Pavlenko/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "364",
+      "names": "Pavlenko/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Bronze LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "364",
+      "names": "Pavlenko/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "2"
+      }
+    }
+  ],
+  "Bohuslavska, Maryna": [
+    {
+      "heat": "Heat 554",
+      "event": "L-D Open Mixed-Am BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Bohuslavska/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "L-D Open Mixed-Am BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Bohuslavska/Petrov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Malashenko, Alexandra": [
+    {
+      "heat": "Heat 554",
+      "event": "A-A Solo Indv. Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "A-A Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "4",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "P": "4",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-A Solo Indv. Gold BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "7",
+      "number": "378",
+      "names": "Malashenko/",
+      "dancePlacements": {
+        "C": "6",
+        "S": "7",
+        "R": "7",
+        "P": "7",
+        "J": "7"
+      }
+    }
+  ],
+  "Bronshtein, Evelyn": [
+    {
+      "heat": "Heat 554",
+      "event": "A-A Solo Indv. Silver BALLROOM 3-Dance Block 1 (W/T/Q)",
+      "placement": "2",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "W": "1",
+        "T": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 555",
+      "event": "A-A Solo Indv. Silver BALLROOM 2-Dance Block 2 (F/VW)",
+      "placement": "1",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "F": "1",
+        "V": "1"
+      }
+    },
+    {
+      "heat": "Heat 557",
+      "event": "A-A Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "3",
+      "number": "384",
+      "names": "Bronshtein/",
+      "dancePlacements": {
+        "C": "3",
+        "S": "2",
+        "R": "3",
+        "P": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Gontcharov, Ivan": [
+    {
+      "heat": "Heat 556",
+      "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "8",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "C": "8",
+        "J": "8"
+      }
+    }
+  ],
+  "Selivanov, Julianna": [
+    {
+      "heat": "Heat 556",
+      "event": "AC-JV2 Amateur Gold BALLROOM Block 1 (W/T/Q)",
+      "placement": "1",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JV2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JV2 Amateur Silver LATIN Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "8",
+      "number": "379",
+      "names": "Gontcharov/Selivanov",
+      "dancePlacements": {
+        "C": "8",
+        "J": "8"
+      }
+    }
+  ],
+  "Movsessian, Nyree": [
+    {
+      "heat": "Heat 557",
+      "event": "A-B Open Solo Indv. BALLROOM 5-Dance Championships (W/T/VW/F/Q)",
+      "placement": "2",
+      "number": "368",
+      "names": "Movsessian/",
+      "dancePlacements": {
+        "W": "2",
+        "T": "2",
+        "V": "2",
+        "F": "2",
+        "Q": "2"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-B2 Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "368",
+      "names": "Movsessian/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B2 Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "368",
+      "names": "Movsessian/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Rozdorozhnyi, Mark": [
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Pavlenko, Maya": [
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN2 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN2 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "362",
+      "names": "Rozdorozhnyi/Pavlenko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Kwietniewski, Filip": [
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "2",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Ocheretko, Oleksandra": [
+    {
+      "heat": "Heat 557A",
+      "event": "AC-JN1 Amateur Fordney Foundation BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "2",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-JN1 Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "380",
+      "names": "Kwietniewski/Ocheretko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Petrova, Katrina": [
+    {
+      "heat": "Heat 557A",
+      "event": "AC-U21 NORTH AMERICAN Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+      "placement": "1",
+      "number": "370",
+      "names": "Petrov/Petrova",
+      "dancePlacements": {
+        "W": "1",
+        "T": "1",
+        "V": "1",
+        "F": "1",
+        "Q": "1"
+      }
+    }
+  ],
+  "Iakovenko, Maya": [
+    {
+      "heat": "Heat 558",
+      "event": "A-A Solo Indv. Gold LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Gold LATIN Samba (S)",
+      "placement": "1",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 562",
+      "event": "A-A Open Solo Indv. LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 564",
+      "event": "A-A Open Solo Indv. LATIN Rumba (R)",
+      "placement": "2",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Gold LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "2.5"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "5",
+      "number": "309",
+      "names": "Iakovenko/",
+      "dancePlacements": {
+        "C": "5",
+        "S": "4",
+        "R": "5",
+        "P": "5",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-A Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "398",
+      "names": "Iakovenko/Ivanov",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "L-A Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "398",
+      "names": "Iakovenko/Ivanov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Goldshmidt, Michayla": [
+    {
+      "heat": "Heat 558",
+      "event": "A-A Solo Indv. Gold LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Gold LATIN Samba (S)",
+      "placement": "2",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "A-A Solo Indv. Gold LATIN Rumba (R)",
+      "placement": "1",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-A Solo Indv. Gold LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "A-A Solo Indv. Gold LATIN Jive (J)",
+      "placement": "1",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Gold LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2.5"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "6",
+      "number": "358",
+      "names": "Goldshmidt/",
+      "dancePlacements": {
+        "C": "7",
+        "S": "6",
+        "R": "6",
+        "P": "6",
+        "J": "5.5"
+      }
+    }
+  ],
+  "Plekh, Angelina": [
+    {
+      "heat": "Heat 562",
+      "event": "A-B Open Solo Indv. LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 563",
+      "event": "A-B Open Solo Indv. LATIN Samba (S)",
+      "placement": "2",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 564",
+      "event": "A-B Open Solo Indv. LATIN Rumba (R)",
+      "placement": "2",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-B Open Solo Indv. LATIN Paso Doble (P)",
+      "placement": "2",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 566",
+      "event": "A-B Open Solo Indv. LATIN Jive (J)",
+      "placement": "2",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-B Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "5",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "5",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "P": "5",
+        "J": "5"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "5",
+      "number": "325",
+      "names": "Plekh/",
+      "dancePlacements": {
+        "C": "5",
+        "S": "5",
+        "R": "5",
+        "P": "5",
+        "J": "5"
+      }
+    }
+  ],
+  "Yang-Muhlbacher, Andrew": [
+    {
+      "heat": "Heat 562",
+      "event": "A-B Open Solo Indv. LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 563",
+      "event": "A-B Open Solo Indv. LATIN Samba (S)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 564",
+      "event": "A-B Open Solo Indv. LATIN Rumba (R)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-B Open Solo Indv. LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 566",
+      "event": "A-B Open Solo Indv. LATIN Jive (J)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-B Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "3",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "P": "3",
+        "J": "4"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "4",
+      "number": "356",
+      "names": "Yang-Muhlbacher/",
+      "dancePlacements": {
+        "C": "4",
+        "S": "4",
+        "R": "4",
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 592",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-YTH Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Lin, Isabella": [
+    {
+      "heat": "Heat 558",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 566",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 562",
+      "event": "A-A Solo Indv. Bronze LATIN Cha Cha (C)",
+      "placement": "2",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Bronze LATIN Samba (S)",
+      "placement": "2",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "A-A Solo Indv. Bronze LATIN Rumba (R)",
+      "placement": "2",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "A-A Solo Indv. Bronze LATIN Jive (J)",
+      "placement": "2",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "5",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "C": "5",
+        "R": "6",
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "",
+      "number": "342",
+      "names": "Lin/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 589",
+      "event": "AC-JV1 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "336",
+      "names": "Xiao/Lin",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Kids Club Open (CC/J) 9 and under",
+      "placement": "2",
+      "number": "336",
+      "names": "Xiao/Lin",
+      "dancePlacements": {
+        "C": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Yang, Nora": [
+    {
+      "heat": "Heat 562",
+      "event": "A-A Solo Indv. Bronze LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Bronze LATIN Samba (S)",
+      "placement": "1",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "A-A Solo Indv. Bronze LATIN Rumba (R)",
+      "placement": "1",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "A-A Solo Indv. Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "4",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "",
+      "number": "343",
+      "names": "Yang/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "335",
+      "names": "Yang/Pan",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "6",
+      "number": "335",
+      "names": "Yang/Pan",
+      "dancePlacements": {
+        "C": "6",
+        "R": "5",
+        "S": "6"
+      }
+    }
+  ],
+  "Zilevica, Ulyana": [
+    {
+      "heat": "Heat 562",
+      "event": "A-A Solo Indv. Bronze LATIN Cha Cha (C)",
+      "placement": "3",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "A-A Solo Indv. Bronze LATIN Samba (S)",
+      "placement": "3",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "A-A Solo Indv. Bronze LATIN Rumba (R)",
+      "placement": "3",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "A-A Solo Indv. Bronze LATIN Jive (J)",
+      "placement": "3",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-A Solo Indv. Bronze LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "6",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "C": "6",
+        "R": "5",
+        "S": "6"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Bronze LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "359",
+      "names": "Zilevica/",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Dayter Hasanov, Solomon": [
+    {
+      "heat": "Heat 558",
+      "event": "A-A Solo Indv. Silver LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "350",
+      "names": "Dayter Hasanov/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-A Solo Indv. Silver LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "350",
+      "names": "Dayter Hasanov/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "350",
+      "names": "Dayter Hasanov/",
+      "dancePlacements": {
+        "C": "4",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "350",
+      "names": "Dayter Hasanov/",
+      "dancePlacements": {
+        "P": "3.5",
+        "J": "3"
+      }
+    }
+  ],
+  "Zhang, Muqi": [
+    {
+      "heat": "Heat 562",
+      "event": "A-C Open Solo Indv. LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 563",
+      "event": "A-C Open Solo Indv. LATIN Samba (S)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 564",
+      "event": "A-C Open Solo Indv. LATIN Rumba (R)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-C Open Solo Indv. LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 566",
+      "event": "A-C Open Solo Indv. LATIN Jive (J)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-C Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-C Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "357",
+      "names": "Zhang/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 592",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "C": "1",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-YTH Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "1",
+      "number": "356",
+      "names": "Yang-Muhlbacher/Zhang",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Severina-Clearwater, Valentina": [
+    {
+      "heat": "Heat 562",
+      "event": "A-A Open Solo Indv. LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 563",
+      "event": "A-A Open Solo Indv. LATIN Samba (S)",
+      "placement": "1",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 564",
+      "event": "A-A Open Solo Indv. LATIN Rumba (R)",
+      "placement": "1",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "A-A Open Solo Indv. LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 566",
+      "event": "A-A Open Solo Indv. LATIN Jive (J)",
+      "placement": "1",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-A Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "3",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-A Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "P": "2",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 572",
+      "event": "A-A Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "360",
+      "names": "Severina-Clearwater/",
+      "dancePlacements": {
+        "C": "2",
+        "S": "5",
+        "R": "2",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Tsolakidis, Isabella": [
+    {
+      "heat": "Heat 558",
+      "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 559",
+      "event": "L-C Open Mixed-Am LATIN Samba (S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 560",
+      "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 565",
+      "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 561",
+      "event": "L-C Open Mixed-Am LATIN Jive (J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 568",
+      "event": "A-C Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "377",
+      "names": "Tsolakidis/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 604",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Tsolakidis/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "1"
+      }
+    }
+  ],
+  "Movshovich Fil, Isabella": [
+    {
+      "heat": "Heat 567",
+      "event": "A-A Solo Indv. Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "3",
+      "number": "316",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "C": "4",
+        "R": "3",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "316",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "C": "3",
+        "R": "4",
+        "S": "4"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "316",
+      "names": "Movshovich Fil/",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Sterekhova, Alexandra": [
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "5",
+      "number": "307",
+      "names": "Sterekhova/",
+      "dancePlacements": {
+        "C": "5",
+        "R": "5",
+        "S": "5"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-A Solo Indv. Silver LATIN 2-Dance Block 2 (P/J)",
+      "placement": "4",
+      "number": "307",
+      "names": "Sterekhova/",
+      "dancePlacements": {
+        "P": "3.5",
+        "J": "4"
+      }
+    }
+  ],
+  "Bushchyk, Alessiah": [
+    {
+      "heat": "Heat 568",
+      "event": "A-B Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "348",
+      "names": "Bushchyk/",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "348",
+      "names": "Bushchyk/",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "348",
+      "names": "Bushchyk/",
+      "dancePlacements": {
+        "C": "2",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Chen, Lavin": [
+    {
+      "heat": "Heat 568",
+      "event": "A-B Open Solo Indv. LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "361",
+      "names": "Chen/",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 570",
+      "event": "A-B Open Solo Indv. LATIN 2-Dance Block 2 (P/J)",
+      "placement": "",
+      "number": "361",
+      "names": "Chen/",
+      "dancePlacements": {
+        "P": "4",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "3",
+      "number": "361",
+      "names": "Chen/",
+      "dancePlacements": {
+        "C": "3",
+        "S": "3",
+        "R": "3",
+        "P": "4",
+        "J": "4"
+      }
+    }
+  ],
+  "Pan, Nicolas": [
+    {
+      "heat": "Heat 567",
+      "event": "A-B Solo Indv. Gold LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "335",
+      "names": "Pan/",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 569",
+      "event": "A-B Solo Indv. Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "335",
+      "names": "Pan/",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "335",
+      "names": "Yang/Pan",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "6",
+      "number": "335",
+      "names": "Yang/Pan",
+      "dancePlacements": {
+        "C": "6",
+        "R": "5",
+        "S": "6"
+      }
+    }
+  ],
+  "Xu, Alice": [
+    {
+      "heat": "Heat 571",
+      "event": "A-A Solo Indv. Pre-Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "",
+      "number": "344",
+      "names": "Xu/",
+      "dancePlacements": {
+        "C": "5",
+        "R": "4",
+        "S": "3"
+      }
+    },
+    {
+      "heat": "Heat 551",
+      "event": "A-JV1 Solo Indv. Pre-Bronze Pre-Competitive  Cha Cha / Rumba (C/R)",
+      "placement": "",
+      "reachedRound": "Final",
+      "rounds": [
+        "Final"
+      ],
+      "number": "",
+      "names": "Xu, Alice",
+      "dancePlacements": {}
+    }
+  ],
+  "Maltsman, Libby": [
+    {
+      "heat": "Heat 572",
+      "event": "L-A Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "2",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "2",
+        "P": "2",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Maltsman/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Geler, Abigail": [
+    {
+      "heat": "Heat 572",
+      "event": "L-B Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 590",
+      "event": "L-B Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "L-B Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "P": "2",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 604",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "399",
+      "names": "Geler/Zhu",
+      "dancePlacements": {
+        "C": "2",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "2"
+      }
+    }
+  ],
+  "Rakityanska, Arina": [
+    {
+      "heat": "Heat 573",
+      "event": "A-B Open Solo Indv. 1 LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "363",
+      "names": "Rakityanska/",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Alcalde, Roman": [
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "3",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "3",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "2",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R)",
+      "placement": "2",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2"
+      }
+    }
+  ],
+  "Anastasova, Sofiia": [
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Cha Cha (C)",
+      "placement": "3",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Rumba (R)",
+      "placement": "3",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "3"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN Jive (J)",
+      "placement": "2",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 595",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze LATIN 3-Dance Block 1 (C/R)",
+      "placement": "2",
+      "number": "319",
+      "names": "Alcalde/Anastasova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JN2 Amateur Gold LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-JN2 Amateur Gold LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "3",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Kovalenko, Karolina": [
+    {
+      "heat": "Heat 575",
+      "event": "L-C Open Mixed-Am LATIN Samba (S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 578",
+      "event": "L-C Open Mixed-Am LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 580",
+      "event": "L-C Open Mixed-Am LATIN Rumba (R)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 581",
+      "event": "L-C Open Mixed-Am LATIN Paso Doble (P)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 582",
+      "event": "L-C Open Mixed-Am LATIN Jive (J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-C Open Mixed-Am  LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "L-C Open Mixed-Am  LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "L-C Open Mixed-Am  LATIN 5-Dance Championships (C/S/R/P/J)",
+      "placement": "1",
+      "number": "315",
+      "names": "Kovalenko/Zhelasko",
+      "dancePlacements": {
+        "C": "1",
+        "S": "1",
+        "R": "1",
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Movshovich Fil, Zachary": [
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Rumba (R)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Jive (J)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 581",
+      "event": "L-A Mixed-Am Silver LATIN Paso Doble (P)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 585",
+      "event": "L-A Mixed-Am Silver LATIN Jive (J)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "(": "2"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "3",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "314",
+      "names": "Movshovich Fil/Kischitzky",
+      "dancePlacements": {
+        "C": "3",
+        "R": "1",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JV2 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "314",
+      "names": "Movshovich Fil/Teplitskiy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "3",
+      "number": "314",
+      "names": "Movshovich Fil/Teplitskiy",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Obouhov, Mia": [
+    {
+      "heat": "Heat 574",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 576",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Rumba (R)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 577",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN Jive (J)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 588",
+      "event": "L-A Mixed-Am Pre-Bronze 1 LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "314",
+      "names": "Obouhov/Movshovich Fil",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    }
+  ],
+  "Teplitskiy, Sophie": [
+    {
+      "heat": "Heat 578",
+      "event": "L-A Mixed-Am Silver LATIN Cha Cha (C)",
+      "placement": "1",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 591",
+      "event": "L-A Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "2",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "C": "2",
+        "R": "2",
+        "S": "2"
+      }
+    },
+    {
+      "heat": "Heat 594",
+      "event": "L-A Mixed-Am Bronze & Less LATIN 2-Dance Block 2 (P/J)",
+      "placement": "1",
+      "number": "310",
+      "names": "Teplitskiy/Baranova",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JV2 Amateur Bronze LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "314",
+      "names": "Movshovich Fil/Teplitskiy",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-JV2 Amateur Silver LATIN Block 2 (P/J)",
+      "placement": "3",
+      "number": "314",
+      "names": "Movshovich Fil/Teplitskiy",
+      "dancePlacements": {
+        "P": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Ligachyova, Isabella": [
+    {
+      "heat": "Heat 582",
+      "event": "L-A Mixed-Am Bronze LATIN Jive (J)",
+      "placement": "1",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "(": "1"
+      }
+    },
+    {
+      "heat": "Heat 597",
+      "event": "L-A Mixed-Am Bronze LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "4",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "C": "4",
+        "R": "4",
+        "S": "3"
+      }
+    }
+  ],
+  "Guenis, Tamir": [
+    {
+      "heat": "Heat 592",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-AD Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "AC-16+ Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-16+ Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-YTH Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Askinadze, Victoria": [
+    {
+      "heat": "Heat 592",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "2",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-YTH Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "2"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "AC-AD Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 600",
+      "event": "AC-16+ Amateur Pre-Champ LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 602",
+      "event": "AC-16+ Amateur Pre-Champ LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-YTH Amateur Fordney Foundation LATIN Championship (C/S/R/P/J)",
+      "placement": "2",
+      "number": "334",
+      "names": "Guenis/Askinadze",
+      "dancePlacements": {
+        "C": "1",
+        "S": "2",
+        "R": "2",
+        "P": "2",
+        "J": "2"
+      }
+    }
+  ],
+  "Reznik, Jonathan": [
+    {
+      "heat": "Heat 595",
+      "event": "AC-15U Amateur Gold GRAND SLAM LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 601",
+      "event": "AC-JN2 Amateur Gold LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-JN2 Amateur Gold LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 603",
+      "event": "AC-Y Jetsetter Open (CC/J) 10-15",
+      "placement": "3",
+      "number": "312",
+      "names": "Reznik/Anastasova",
+      "dancePlacements": {
+        "C": "3",
+        "J": "3"
+      }
+    }
+  ],
+  "Hartung, Lea": [
+    {
+      "heat": "Heat 592",
+      "event": "AC-JN2 Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 593",
+      "event": "AC-JN2 Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 598",
+      "event": "AC-JN1 Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 599",
+      "event": "AC-JN1 Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-15U Amateur Open LATIN Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 605",
+      "event": "AC-15U Amateur Open LATIN Block 2 (P/J)",
+      "placement": "1",
+      "number": "372",
+      "names": "Nor-Arevian/Hartung",
+      "dancePlacements": {
+        "P": "1",
+        "J": "1"
+      }
+    }
+  ],
+  "Ligachyova, Angelica": [
+    {
+      "heat": "Heat 591",
+      "event": "L-B Mixed-Am Silver LATIN 3-Dance Block 1 (C/R/S)",
+      "placement": "1",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "C": "1",
+        "R": "1",
+        "S": "1"
+      }
+    },
+    {
+      "heat": "Heat 596",
+      "event": "L-A Mixed-Am Silver & Gold LATIN 2-Dance Block 2 (P/J)",
+      "placement": "2",
+      "number": "398",
+      "names": "Ligachyova/Ivanov",
+      "dancePlacements": {
+        "P": "2.5",
         "J": "2"
       }
     }
