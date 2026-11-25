@@ -1,6 +1,20 @@
 {
   "competitions": [
     {
+      "id": "tordance2026",
+      "name": "Toronto DanceSport 2026",
+      "description": "Toronto DanceSport Competition 2026",
+      "entryListUrl": "https://www.comp-mngr.com/tordance2026/TorDance2026_HeatLists.htm",
+      "heatListUrl": "https://www.comp-mngr.com/tordance2026/TorDance2026_HeatLists.htm",
+      "resultsIndexUrl": "https://www.comp-mngr.com/tordance2026/TorDance2026_ScoresheetsByPerson.htm",
+      "resultsDataFile": "<root>/tordance2026/tordance2026_scoresheetsbyperson.dat",
+      "resultsDatUrl": "https://www.comp-mngr.com/tordance2026/tordance2026_scoresheetsbyperson.dat",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-29",
+      "hasResults": false,
+      "archived": false
+    },
+    {
       "id": "national2026",
       "name": "National 2026",
       "description": "National Dance Championship 2026",

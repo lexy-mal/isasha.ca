@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Daily job: scrape CAN-AM DanceSport Gala 2026 entries, diff against the last commit,
+# Daily job: scrape Toronto DanceSport 2026 entries, diff against the last commit,
 # and push to main only if something actually changed (so Cloudflare Pages only
 # redeploys on real data changes). Self-expires after STOP_DATE by disabling its
 # systemd timer (and removing any leftover crontab line).
@@ -7,17 +7,17 @@
 # Scheduled by: systemd --user timer isasha-daily-scrape.timer (OnCalendar 06:00).
 # Also historically installed via crontab (2026-08-17); that path is broken on this
 # host because /usr/bin/crontab lost its setgid bit — prefer the systemd timer.
-# Switched from national2026 to canamgala2026 on 2026-10-06 (Nationals already ran;
-# CAN-AM Gala is Oct 9-11, 2026). Expires: 2026-10-18 (a week after Gala ends).
+# Switched from national2026 to canamgala2026 on 2026-10-06, then to tordance2026 on
+# 2026-11-25 (Toronto DanceSport is Nov 28-29, 2026). Expires: 2026-12-06 (a week after).
 
 set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "$0")/../../.." && pwd)"
 SCRAPER_DIR="$(cd "$(dirname "$0")" && pwd)"
 LOG_FILE="$SCRAPER_DIR/daily_scrape.log"
-DATA_DIR="$SCRAPER_DIR/canamgala2026"
+DATA_DIR="$SCRAPER_DIR/tordance2026"
 LOCK_FILE="$SCRAPER_DIR/daily_scrape.lock"
-HEAT_LISTS_URL="https://www.comp-mngr.com/canamgala2026/canamgala2026_HeatLists.htm"
+HEAT_LISTS_URL="https://www.comp-mngr.com/tordance2026/TorDance2026_HeatLists.htm"
 export HEAT_LISTS_URL
 
 # cron/systemd timers run with a bare environment, so the GNOME keyring SSH agent
@@ -46,12 +46,12 @@ if [[ "${1:-}" != "--already-synced" ]]; then
     exec "$0" --already-synced
 fi
 
-# TODO: derive STOP_DATE from competitions.json (canamgala2026 endDate + 1 day)
+# TODO: derive STOP_DATE from competitions.json (tordance2026 endDate + 1 day)
 # instead of hardcoding — so extending the competition calendar can't leave cron
 # on a stale expiry again. Fallback below keeps today's behavior if unset.
-# Hardcoded fallback: a grace week past the Gala (endDate 2026-10-11) so late
+# Hardcoded fallback: a grace week past the comp (endDate 2026-11-29) so late
 # scoresheet corrections still get picked up after the event ends.
-STOP_DATE="2026-10-18"
+STOP_DATE="2026-12-06"
 
 # Serialize cron + systemd (or overlapping manual runs) so two scrapes can't race on git.
 exec 9>"$LOCK_FILE"
@@ -86,7 +86,7 @@ fi
 log "Starting daily scrape."
 cd "$SCRAPER_DIR"
 
-if ! python3 scrape_data_flexible.py canamgala2026 >> "$LOG_FILE" 2>&1; then
+if ! python3 scrape_data_flexible.py tordance2026 >> "$LOG_FILE" 2>&1; then
     log "Scrape FAILED (see log above). Not committing/pushing."
     exit 1
 fi
@@ -94,12 +94,12 @@ fi
 # Scoresheets are published progressively during the comp and corrected afterwards.
 # A results failure is NOT fatal: the entry-list scrape above already succeeded and
 # is worth committing on its own, so just log and carry on. Expected to fail/no-op
-# until the Gala actually starts (Oct 9, 2026) and the .dat file exists.
+# until the comp actually starts (Nov 28, 2026) and the .dat file exists.
 #
 # Uses the .dat parser, not scrape_results_flexible.py: the CGI/HTML path cannot tell
 # a single-dance heat heading from a dance sub-heading (both are <strong><em>), so it
 # silently dropped ~80% of heats. It also needed ~956 requests per run instead of 2.
-if ! python3 scrape_results_dat.py canamgala2026 >> "$LOG_FILE" 2>&1; then
+if ! python3 scrape_results_dat.py tordance2026 >> "$LOG_FILE" 2>&1; then
     log "Results scrape FAILED (see log above) — continuing with entry data only."
 fi
 

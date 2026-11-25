@@ -1408,9 +1408,12 @@
         // A1/A2/B1/B2/C1/C2/JN/JN1/JN2/S1/S2/S3 (canamgala2026) same story: each
         // co-occurs with Bronze, Silver, AND Gold under the identical code, so they're
         // CAN-AM's own block/section codes, not a skill ladder — excluded the same way.
+        // D2/G2 (tordance2026): D2 spans Newcomer→Gold, G2 Newcomer→Silver — same
+        // section-code signature as plain D/G, so excluded too.
         const SKILL_LEVEL_CODES = new Set([
             'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD',
-            'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'JN', 'JN1', 'JN2', 'S1', 'S2', 'S3'
+            'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'JN', 'JN1', 'JN2', 'S1', 'S2', 'S3',
+            'D2', 'G2'
         ]);
 
         function getEventAgeCategory(eventName) {

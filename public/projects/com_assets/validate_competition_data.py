@@ -35,6 +35,7 @@ AGE_CATEGORY_CODES = {
 SKILL_LEVEL_CODES = {
     'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'JB', 'JU', 'PD',
     'A1', 'A2', 'B1', 'B2', 'C1', 'C2', 'JN', 'JN1', 'JN2', 'S1', 'S2', 'S3',
+    'D2', 'G2',  # tordance2026 section codes, see AGE_CATEGORIES.md
 }
 
 CODE_RE = re.compile(r'^[A-Z]+-([A-Za-z0-9]*)')

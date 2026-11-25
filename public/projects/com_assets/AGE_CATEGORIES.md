@@ -99,6 +99,12 @@ but are excluded from the age filter/sort (`SKILL_LEVEL_CODES` in `com.html`).
 > codes, not a skill ladder, so they're excluded the same way `A`–`H` are.
 > Real meaning unconfirmed — don't reuse this set as a skill filter.
 
+> **tordance2026 adds `D2` and `G2`.** Same cross-tab: `D2` (81 events) appears
+> with Newcomer, Bronze, Silver, and Gold; `G2` (32 events) with Newcomer,
+> Bronze, and Silver (e.g. `L-G2 Open Full Bronze …` alongside Silver events).
+> No `D1`/`G1` exists in that comp. Same signature as plain `D`/`G`, so they are
+> section codes and excluded the same way. Meaning unconfirmed.
+
 ## Events with no code at all
 
 Professional/Open events (`PRO BALLROOM`, `WDC WORLD PROFESSIONAL LATIN`, …) and
