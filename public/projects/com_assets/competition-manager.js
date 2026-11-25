@@ -8,6 +8,7 @@ class CompetitionManager {
     this.competitions = [];
     this.activeCompetition = null;
     this.storageKey = 'danceActiveCompetition';
+    this.defaultSeenKey = 'danceDefaultCompetitionSeen';
   }
 
   async load() {
@@ -16,16 +17,28 @@ class CompetitionManager {
       const data = await res.json();
       this.competitions = data.competitions || [];
 
-      // Restore or set active competition
-      const saved = localStorage.getItem(this.storageKey);
-      const active = saved ?
-        this.competitions.find(c => c.id === saved) :
-        this.competitions.find(c => !c.archived);
+      // Default = competitions.json "defaultCompetition", else first non-archived.
+      const defaultComp =
+        this.competitions.find(c => c.id === data.defaultCompetition) ||
+        this.competitions.find(c => !c.archived) ||
+        this.competitions[0];
 
-      this.activeCompetition = active || this.competitions[0];
+      // A saved pick only sticks while the default it was made under is unchanged:
+      // when defaultCompetition moves to a new comp, every returning visitor is
+      // switched to it once; after that, manual switches persist as before.
+      const saved = localStorage.getItem(this.storageKey);
+      const seenDefault = localStorage.getItem(this.defaultSeenKey);
+      const savedComp = seenDefault === defaultComp?.id
+        ? this.competitions.find(c => c.id === saved)
+        : null;
+
+      this.activeCompetition = savedComp || defaultComp;
 
       if (this.activeCompetition) {
         localStorage.setItem(this.storageKey, this.activeCompetition.id);
+      }
+      if (defaultComp) {
+        localStorage.setItem(this.defaultSeenKey, defaultComp.id);
       }
 
       return this.competitions;
