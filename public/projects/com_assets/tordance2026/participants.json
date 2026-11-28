@@ -4,13 +4,13 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Condescu, Anthony",
         "awards": null
       },
       {
-        "heat": "Heat 183",
+        "heat": "Heat 182",
         "event": "AC- SOLO 2",
         "time": "10:10PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
@@ -23,7 +23,7 @@
     "entries": [
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -31,7 +31,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -128,7 +128,7 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Zhelasko, Danny",
         "awards": null
@@ -707,6 +707,42 @@
       }
     ]
   },
+  "Baranycz, Roman": {
+    "entries": [
+      {
+        "heat": "Heat 310",
+        "event": "AC-YTH Amateur Pre-Champ BALLROOM  (W/T/Q)",
+        "time": "02:05PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Panina, Dariya",
+        "awards": null
+      },
+      {
+        "heat": "Heat 311",
+        "event": "AC-YTH Amateur Pre-Champ BALLROOM  (F/VW)",
+        "time": "02:10PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Panina, Dariya",
+        "awards": null
+      },
+      {
+        "heat": "Heat 315",
+        "event": "AC-16+ Toronto Dancesport Open BALLROOM Challenge Cup (W/Q)",
+        "time": "02:29PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Panina, Dariya",
+        "awards": null
+      },
+      {
+        "heat": "Heat 318",
+        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+        "time": "02:42PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Panina, Dariya",
+        "awards": null
+      }
+    ]
+  },
   "Barshai, Eliana": {
     "entries": [
       {
@@ -847,7 +883,7 @@
     "entries": [
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -855,7 +891,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -884,7 +920,7 @@
       {
         "heat": "Heat 239",
         "event": "L-JV2 Pre-Comp. Assisted Beginner BALLROOM /LATIN (W/C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Dobrianska, Zlata",
         "awards": null
@@ -946,9 +982,9 @@
   "Bourov, Stephanie": {
     "entries": [
       {
-        "heat": "Heat 174",
+        "heat": "Heat 174A",
         "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "07:30PM Saturday",
+        "time": "07:59PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Gulyaev, Andrey",
         "awards": null
@@ -1363,12 +1399,40 @@
       }
     ]
   },
+  "Bushchyk, Alessiah": {
+    "entries": [
+      {
+        "heat": "Heat 384",
+        "event": "A-JR1 Solo Individual Pre-Champ LATIN  (C/R/S)",
+        "time": "06:48PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 386",
+        "event": "A-JR1 Open Solo Individual LATIN Championship (C/S/R/P/J)",
+        "time": "06:58PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 393",
+        "event": "A-12+ Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+        "time": "07:35PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      }
+    ]
+  },
   "Bykov, Emilia": {
     "entries": [
       {
-        "heat": "Heat 240",
-        "event": "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/S)",
-        "time": "11:05AM Sunday",
+        "heat": "Heat 365",
+        "event": "A-JV1 Solo Individual Pre-Bronze LATIN Cha Cha (C)",
+        "time": "06:12PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -1401,6 +1465,14 @@
         "heat": "Heat 377",
         "event": "A-JV1 Solo Individual Pre-Bronze LATIN Rumba (R)",
         "time": "06:28PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 379",
+        "event": "A-JV1 Solo Individual Beginner LATIN Jive (J)",
+        "time": "06:31PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -2920,17 +2992,237 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Abbas, Alia",
         "awards": null
       },
       {
-        "heat": "Heat 183",
+        "heat": "Heat 182",
         "event": "AC- SOLO 2",
         "time": "10:10PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Abbas, Alia",
+        "awards": null
+      }
+    ]
+  },
+  "Cooperman, Tony": {
+    "entries": [
+      {
+        "heat": "Heat 178A",
+        "event": "OPEN Professional SHOWDANCE Championships",
+        "time": "09:19PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Mlynarczyk, Weronika",
+        "awards": null
+      },
+      {
+        "heat": "Heat 180",
+        "event": "OPEN Professional LATIN Championships (C/S/R/P/J)",
+        "time": "09:50PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Mlynarczyk, Weronika",
+        "awards": null
+      },
+      {
+        "heat": "Heat 187",
+        "event": "L-D Open Full Gold BALLROOM Viennese Waltz",
+        "time": "08:32AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 193",
+        "event": "L-C Open Full Gold BALLROOM Waltz",
+        "time": "08:41AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 194",
+        "event": "L-C Open Full Gold BALLROOM Tango",
+        "time": "08:42AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 195",
+        "event": "L-C Open Full Gold BALLROOM Foxtrot",
+        "time": "08:43AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 196",
+        "event": "L-C Open Full Gold BALLROOM Quickstep",
+        "time": "08:45AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 201",
+        "event": "L-D Open Full Silver BALLROOM Tango",
+        "time": "08:52AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 202",
+        "event": "L-D Open Full Silver BALLROOM Viennese Waltz",
+        "time": "08:53AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 204",
+        "event": "L-D Open Full Silver BALLROOM Quickstep",
+        "time": "08:56AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 205",
+        "event": "L-D Open Full Silver BALLROOM Waltz",
+        "time": "08:57AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 207",
+        "event": "L-D Open Full Silver BALLROOM Foxtrot",
+        "time": "09:00AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 216",
+        "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+        "time": "09:29AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 217",
+        "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+        "time": "09:34AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 219",
+        "event": "L-C Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "09:42AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 221",
+        "event": "L-D2 Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "09:53AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 223",
+        "event": "L-D Open Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
+        "time": "10:04AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 244",
+        "event": "L-C Closed Silver 1 LATIN Cha Cha",
+        "time": "11:25AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 245",
+        "event": "L-C Closed Silver 1 LATIN Samba",
+        "time": "11:26AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 254",
+        "event": "L-D Open Full Bronze LATIN Cha Cha",
+        "time": "11:38AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 255",
+        "event": "L-D Open Full Bronze LATIN Samba",
+        "time": "11:40AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 256",
+        "event": "L-D Open Full Bronze LATIN Rumba",
+        "time": "11:41AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 280",
+        "event": "L-C Closed Silver 1 LATIN Rumba",
+        "time": "12:14PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 297",
+        "event": "L-D Closed Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:38PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 299",
+        "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:47PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 300",
+        "event": "L-C Open Bronze Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:52PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 305",
+        "event": "L-C Closed Silver Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "01:23PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "McIntyre, Lauralyn",
         "awards": null
       }
     ]
@@ -2971,7 +3263,7 @@
       },
       {
         "heat": "Heat 357",
-        "event": "AC-11U Amateur Silver/Gold LATIN Challenge (C/R/S)",
+        "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/S)",
         "time": "05:34PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Sydorchuk, Liubomyr",
@@ -3303,7 +3595,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3311,7 +3603,7 @@
       },
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3319,7 +3611,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3327,7 +3619,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3335,7 +3627,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3343,7 +3635,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3355,7 +3647,7 @@
     "entries": [
       {
         "heat": "Heat 208",
-        "event": "SOLO - \"Melania\" - 10 + Lyrics",
+        "event": "SOLO - \"Eva\" - 10+ Contemporary",
         "time": "09:01AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3363,7 +3655,7 @@
       },
       {
         "heat": "Heat 209",
-        "event": "SOLO - \"Alena\" - 12+ Contemporary",
+        "event": "GROUP - \"Litachok\" - 10+ Modern - 9 participants",
         "time": "09:04AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3371,7 +3663,7 @@
       },
       {
         "heat": "Heat 210",
-        "event": "SOLO - \"Eva\" - 10+ Contemporary",
+        "event": "SOLO - \"Melania\" - 10 + Lyrics",
         "time": "09:07AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3379,7 +3671,7 @@
       },
       {
         "heat": "Heat 212",
-        "event": "DUET - \"Friendship\" - 7+ Lyrics",
+        "event": "\"The Clock\" - 7+ Modern - 8 participants",
         "time": "09:15AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3387,23 +3679,23 @@
       },
       {
         "heat": "Heat 214",
-        "event": "SOLO - \"Zlata\" - 10+ Street Jazz",
+        "event": "\"Snow\" - 5+ modern - 6 participants",
         "time": "09:23AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
       },
       {
-        "heat": "Heat 216",
-        "event": "\"Night Stars\" - 10+ Contemporary (12 participants)",
-        "time": "09:31AM Sunday",
+        "heat": "Heat 215",
+        "event": "\"Night Stars\" - 10+ Contemporary - 14 participants",
+        "time": "09:26AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
       },
       {
         "heat": "Heat 218",
-        "event": "\"Snow\" - 5+ modern (6 participants)",
+        "event": "DUET - \"Friendship\" - 7+ Lyrics",
         "time": "09:39AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3411,7 +3703,7 @@
       },
       {
         "heat": "Heat 220",
-        "event": "\"Contemporary\" - 10+ Contemporary (12 participants)",
+        "event": "\"Contemporary\" - 10+ Contemporary - 12 participants",
         "time": "09:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3419,7 +3711,7 @@
       },
       {
         "heat": "Heat 222",
-        "event": "\"The Clock\" - 7+ Modern (9 participants)",
+        "event": "SOLO - \"Zlata\" - 10+ Street Jazz",
         "time": "10:01AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3427,7 +3719,7 @@
       },
       {
         "heat": "Heat 224",
-        "event": "\"Litachok\" - 10+ Modern (9 participants)",
+        "event": "SOLO - \"Alena\" - 12+ Contemporary",
         "time": "10:20AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3435,7 +3727,7 @@
       },
       {
         "heat": "Heat 229",
-        "event": "\"Lviv\" - 12+ Lyrics (11 participants)",
+        "event": "\"Space Girls\" - 10+ Modern - 7 participants",
         "time": "10:33AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3443,7 +3735,7 @@
       },
       {
         "heat": "Heat 233",
-        "event": "\"Space Girls\" - 10+ Modern (7 participants)",
+        "event": "SOLO - \"EMI\" - 10+ Jazz",
         "time": "10:45AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3451,8 +3743,24 @@
       },
       {
         "heat": "Heat 238",
-        "event": "\"Room Service\" - 10+ lyrics (7 participants)",
-        "time": "10:59AM Sunday",
+        "event": "\"Lviv\" - 12+ Lyrics - 11 participants",
+        "time": "10:56AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 239A",
+        "event": "\"Room Service\" - 10+ lyrics - 7 participants",
+        "time": "11:02AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 243A",
+        "event": "\"Cheeky Girls\" - 10+ Jazz - 9 Participants",
+        "time": "11:17AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -3519,7 +3827,7 @@
     "entries": [
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -3527,7 +3835,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -4235,7 +4543,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -4243,7 +4551,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -4251,7 +4559,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -4259,7 +4567,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -4500,7 +4808,7 @@
       {
         "heat": "Heat 239",
         "event": "L-JV2 Pre-Comp. Assisted Beginner BALLROOM /LATIN (W/C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Borisova, Kira",
         "awards": null
@@ -4916,7 +5224,7 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Santua, Samuel",
         "awards": null
@@ -4926,9 +5234,9 @@
   "Filatov, Arseniy": {
     "entries": [
       {
-        "heat": "Heat 174",
+        "heat": "Heat 174A",
         "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "07:30PM Saturday",
+        "time": "07:59PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Turcotte-Miao, Audrey",
         "awards": null
@@ -5383,6 +5691,122 @@
       }
     ]
   },
+  "Gilbert, Zela": {
+    "entries": [
+      {
+        "heat": "Heat 73",
+        "event": "L-F Open Full Bronze RHYTHM Cha Cha",
+        "time": "12:21PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 75",
+        "event": "L-F Open Full Bronze RHYTHM Swing",
+        "time": "12:24PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 80",
+        "event": "L-F Open Full Bronze RHYTHM Rumba",
+        "time": "12:32PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 91",
+        "event": "L-F Open Bronze 1 RHYTHM Cha Cha",
+        "time": "12:48PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 92",
+        "event": "L-F Open Bronze 1 RHYTHM Rumba",
+        "time": "12:50PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 108",
+        "event": "L-F Open Bronze 2 RHYTHM Cha Cha",
+        "time": "01:14PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 110",
+        "event": "L-F Open Bronze 1 RHYTHM Swing",
+        "time": "01:17PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 112",
+        "event": "L-F Open Full Bronze RHYTHM Mambo",
+        "time": "01:20PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 115",
+        "event": "L-F Open Bronze 2 RHYTHM Swing",
+        "time": "01:24PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 116",
+        "event": "L-F Open Bronze 1 RHYTHM Mambo",
+        "time": "01:26PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 118",
+        "event": "L-F Open Bronze 2 RHYTHM Rumba",
+        "time": "01:29PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 123A",
+        "event": "L-F Open Bronze 2 RHYTHM Mambo",
+        "time": "01:38PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 125",
+        "event": "L-F Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "time": "01:44PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      },
+      {
+        "heat": "Heat 127",
+        "event": "L-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "time": "01:54PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gorbunov, Slava",
+        "awards": null
+      }
+    ]
+  },
   "Goldshmidt, Michayla": {
     "entries": [
       {
@@ -5586,11 +6010,35 @@
         "awards": null
       },
       {
+        "heat": "Heat 73",
+        "event": "L-F Open Full Bronze RHYTHM Cha Cha",
+        "time": "12:21PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 75",
+        "event": "L-F Open Full Bronze RHYTHM Swing",
+        "time": "12:24PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
         "heat": "Heat 79",
         "event": "L-C Open Full Silver RHYTHM Cha Cha",
         "time": "12:30PM Saturday",
         "session": "Session 1 - Saturday Daytime",
         "partner": "Phillips, Shauna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 80",
+        "event": "L-F Open Full Bronze RHYTHM Rumba",
+        "time": "12:32PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
         "awards": null
       },
       {
@@ -5639,6 +6087,22 @@
         "time": "12:47PM Saturday",
         "session": "Session 1 - Saturday Daytime",
         "partner": "Welka, Magdalena",
+        "awards": null
+      },
+      {
+        "heat": "Heat 91",
+        "event": "L-F Open Bronze 1 RHYTHM Cha Cha",
+        "time": "12:48PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 92",
+        "event": "L-F Open Bronze 1 RHYTHM Rumba",
+        "time": "12:50PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
         "awards": null
       },
       {
@@ -5746,6 +6210,62 @@
         "awards": null
       },
       {
+        "heat": "Heat 108",
+        "event": "L-F Open Bronze 2 RHYTHM Cha Cha",
+        "time": "01:14PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 110",
+        "event": "L-F Open Bronze 1 RHYTHM Swing",
+        "time": "01:17PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 112",
+        "event": "L-F Open Full Bronze RHYTHM Mambo",
+        "time": "01:20PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 115",
+        "event": "L-F Open Bronze 2 RHYTHM Swing",
+        "time": "01:24PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 116",
+        "event": "L-F Open Bronze 1 RHYTHM Mambo",
+        "time": "01:26PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 118",
+        "event": "L-F Open Bronze 2 RHYTHM Rumba",
+        "time": "01:29PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
+        "heat": "Heat 123A",
+        "event": "L-F Open Bronze 2 RHYTHM Mambo",
+        "time": "01:38PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
         "heat": "Heat 124",
         "event": "L-D Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
         "time": "01:40PM Saturday",
@@ -5754,11 +6274,27 @@
         "awards": null
       },
       {
+        "heat": "Heat 125",
+        "event": "L-F Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "time": "01:44PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
+        "awards": null
+      },
+      {
         "heat": "Heat 126",
         "event": "L-C Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
         "time": "01:49PM Saturday",
         "session": "Session 1 - Saturday Daytime",
         "partner": "Welka, Magdalena",
+        "awards": null
+      },
+      {
+        "heat": "Heat 127",
+        "event": "L-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "time": "01:54PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Gilbert, Zela",
         "awards": null
       },
       {
@@ -6026,9 +6562,9 @@
   "Gulyaev, Andrey": {
     "entries": [
       {
-        "heat": "Heat 174",
+        "heat": "Heat 174A",
         "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "07:30PM Saturday",
+        "time": "07:59PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Bourov, Stephanie",
         "awards": null
@@ -7098,9 +7634,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
@@ -7122,49 +7658,49 @@
         "awards": null
       },
       {
-        "heat": "Heat 273",
-        "event": "L-B Open Full Gold LATIN Jive",
-        "time": "12:05PM Sunday",
+        "heat": "Heat 270",
+        "event": "L-C Open Full Gold LATIN Samba",
+        "time": "12:00PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 282",
-        "event": "L-B Open Full Gold LATIN Cha Cha",
-        "time": "12:17PM Sunday",
+        "heat": "Heat 272",
+        "event": "L-C Open Full Gold LATIN Paso Doble",
+        "time": "12:03PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 283",
-        "event": "L-B Open Full Gold LATIN Samba",
-        "time": "12:18PM Sunday",
+        "heat": "Heat 275",
+        "event": "L-C Open Full Gold LATIN Cha Cha",
+        "time": "12:07PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 284",
-        "event": "L-B Open Full Gold LATIN Rumba",
-        "time": "12:20PM Sunday",
+        "heat": "Heat 277",
+        "event": "L-C Open Full Gold LATIN Rumba",
+        "time": "12:10PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 290",
-        "event": "L-B Open Full Gold LATIN Paso Doble",
-        "time": "12:28PM Sunday",
+        "heat": "Heat 286",
+        "event": "L-C Open Full Gold LATIN Jive",
+        "time": "12:23PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 299",
-        "event": "L-B Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
-        "time": "12:47PM Sunday",
+        "heat": "Heat 298",
+        "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:43PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
@@ -7204,13 +7740,13 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Lama, Sean",
         "awards": null
       },
       {
-        "heat": "Heat 182",
+        "heat": "Heat 183",
         "event": "AC- SOLO 3",
         "time": "10:14PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
@@ -7351,26 +7887,6 @@
       }
     ]
   },
-  "Kealey, Lili": {
-    "entries": [
-      {
-        "heat": "Heat 169",
-        "event": "AC-AD Amateur Pre-Champ LATIN  (C/R/S)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Miller, David",
-        "awards": null
-      },
-      {
-        "heat": "Heat 172",
-        "event": "AC-AD Open Amateur LATIN  (C/R/S)",
-        "time": "04:39PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Miller, David",
-        "awards": null
-      }
-    ]
-  },
   "Khorosheva, Tetiana": {
     "entries": [
       {
@@ -7402,6 +7918,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 174A",
+        "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "07:59PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Youssouf, Aesha",
+        "awards": null
+      },
+      {
         "heat": "Heat 178",
         "event": "AC-U21 Open Amateur LATIN Championship (C/S/R/P/J)",
         "time": "09:10PM Saturday",
@@ -7410,18 +7934,10 @@
         "awards": null
       },
       {
-        "heat": "Heat 318",
-        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
-        "time": "02:42PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Youssouf, Aesha",
-        "awards": null
-      },
-      {
-        "heat": "Heat 359",
-        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ LATIN Challenge (C/S/R/P/J)",
-        "time": "05:42PM Sunday",
-        "session": "Session 3 - Sunday",
+        "heat": "Heat 179",
+        "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+        "time": "09:23PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Youssouf, Aesha",
         "awards": null
       }
@@ -7774,9 +8290,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Si, Sylvia",
         "awards": null
@@ -7812,7 +8328,7 @@
       {
         "heat": "Heat 235",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Rumba (R)",
-        "time": "10:51AM Sunday",
+        "time": "10:48AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Vilensky, Elizabeth",
         "awards": null
@@ -7820,7 +8336,7 @@
       {
         "heat": "Heat 239",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Cha Cha (C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Vilensky, Elizabeth",
         "awards": null
@@ -7934,14 +8450,6 @@
   "Kouklinski, Audrey": {
     "entries": [
       {
-        "heat": "Heat 241",
-        "event": "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/J)",
-        "time": "11:08AM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": null,
-        "awards": null
-      },
-      {
         "heat": "Heat 330",
         "event": "A-JV1 Solo Individual Pre-Bronze BALLROOM  (W/T)",
         "time": "03:23PM Sunday",
@@ -7961,6 +8469,14 @@
         "heat": "Heat 368",
         "event": "A-JV1 Solo Individual Pre-Bronze LATIN Paso Doble (P)",
         "time": "06:16PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 369",
+        "event": "A-JV1 Solo Individual Pre-Bronze LATIN Jive (J)",
+        "time": "06:17PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -8004,7 +8520,7 @@
       {
         "heat": "Heat 239",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Cha Cha (C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Mukha, Mariia",
         "awards": null
@@ -8290,25 +8806,25 @@
   "Kuznetsova, Margarita": {
     "entries": [
       {
-        "heat": "Heat 329",
-        "event": "A-PD Solo Individual Bronze BALLROOM  (W/T/Q)",
-        "time": "03:19PM Sunday",
+        "heat": "Heat 308",
+        "event": "A-PD Solo Individual Pre-Bronze 1 BALLROOM  (W/T)",
+        "time": "01:55PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
       },
       {
-        "heat": "Heat 330",
-        "event": "A-PD Solo Individual Pre-Bronze BALLROOM  (W/T)",
-        "time": "03:23PM Sunday",
+        "heat": "Heat 309",
+        "event": "A-PD Solo Individual Bronze 1 BALLROOM  (W/T/Q)",
+        "time": "02:00PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
       },
       {
-        "heat": "Heat 335",
-        "event": "A-11U Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
-        "time": "03:42PM Sunday",
+        "heat": "Heat 317",
+        "event": "A-11U Solo Indv. Pre-Bronze/Bronze 1 BALLROOM Challenge (W/T/Q)",
+        "time": "02:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -8548,13 +9064,13 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Jin, Jewel",
         "awards": null
       },
       {
-        "heat": "Heat 182",
+        "heat": "Heat 183",
         "event": "AC- SOLO 3",
         "time": "10:14PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
@@ -8838,9 +9354,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ma, Amelia",
         "awards": null
@@ -9792,7 +10308,7 @@
       {
         "heat": "Heat 236",
         "event": "A-JV1 Pre-Comp. Solo Individual Beginner BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
+        "time": "10:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -9800,7 +10316,7 @@
       {
         "heat": "Heat 237",
         "event": "A-JV1 Pre-Comp. Solo Individual Pre-Bronze BALLROOM (W/Q)",
-        "time": "10:56AM Sunday",
+        "time": "10:53AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -10034,9 +10550,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Lebedev, Ivan",
         "awards": null
@@ -11071,7 +11587,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -11079,7 +11595,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -11087,7 +11603,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -11095,7 +11611,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -11103,22 +11619,226 @@
       }
     ]
   },
-  "Miller, David": {
+  "McIntyre, Lauralyn": {
     "entries": [
       {
-        "heat": "Heat 169",
-        "event": "AC-AD Amateur Pre-Champ LATIN  (C/R/S)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Kealey, Lili",
+        "heat": "Heat 187",
+        "event": "L-D Open Full Gold BALLROOM Viennese Waltz",
+        "time": "08:32AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
         "awards": null
       },
       {
-        "heat": "Heat 172",
-        "event": "AC-AD Open Amateur LATIN  (C/R/S)",
-        "time": "04:39PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Kealey, Lili",
+        "heat": "Heat 193",
+        "event": "L-C Open Full Gold BALLROOM Waltz",
+        "time": "08:41AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 194",
+        "event": "L-C Open Full Gold BALLROOM Tango",
+        "time": "08:42AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 195",
+        "event": "L-C Open Full Gold BALLROOM Foxtrot",
+        "time": "08:43AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 196",
+        "event": "L-C Open Full Gold BALLROOM Quickstep",
+        "time": "08:45AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 201",
+        "event": "L-D Open Full Silver BALLROOM Tango",
+        "time": "08:52AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 202",
+        "event": "L-D Open Full Silver BALLROOM Viennese Waltz",
+        "time": "08:53AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 204",
+        "event": "L-D Open Full Silver BALLROOM Quickstep",
+        "time": "08:56AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 205",
+        "event": "L-D Open Full Silver BALLROOM Waltz",
+        "time": "08:57AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 207",
+        "event": "L-D Open Full Silver BALLROOM Foxtrot",
+        "time": "09:00AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 216",
+        "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+        "time": "09:29AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 217",
+        "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+        "time": "09:34AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 219",
+        "event": "L-C Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "09:42AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 221",
+        "event": "L-D2 Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "09:53AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 223",
+        "event": "L-D Open Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
+        "time": "10:04AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 244",
+        "event": "L-C Closed Silver 1 LATIN Cha Cha",
+        "time": "11:25AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 245",
+        "event": "L-C Closed Silver 1 LATIN Samba",
+        "time": "11:26AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 254",
+        "event": "L-D Open Full Bronze LATIN Cha Cha",
+        "time": "11:38AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 255",
+        "event": "L-D Open Full Bronze LATIN Samba",
+        "time": "11:40AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 256",
+        "event": "L-D Open Full Bronze LATIN Rumba",
+        "time": "11:41AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 280",
+        "event": "L-C Closed Silver 1 LATIN Rumba",
+        "time": "12:14PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 297",
+        "event": "L-D Closed Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:38PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 299",
+        "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:47PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 300",
+        "event": "L-C Open Bronze Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:52PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 305",
+        "event": "L-C Closed Silver Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "01:23PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      }
+    ]
+  },
+  "Mlynarczyk, Weronika": {
+    "entries": [
+      {
+        "heat": "Heat 178A",
+        "event": "OPEN Professional SHOWDANCE Championships",
+        "time": "09:19PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Cooperman, Tony",
+        "awards": null
+      },
+      {
+        "heat": "Heat 180",
+        "event": "OPEN Professional LATIN Championships (C/S/R/P/J)",
+        "time": "09:50PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Cooperman, Tony",
         "awards": null
       }
     ]
@@ -11594,6 +12314,14 @@
   "Movshovich Fil, Zachary": {
     "entries": [
       {
+        "heat": "Heat 343",
+        "event": "L-JV1 Mixed-Am Bronze LATIN  (C/R/J)",
+        "time": "04:32PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Obouhov, Mia",
+        "awards": null
+      },
+      {
         "heat": "Heat 363",
         "event": "G-JV2 Mixed-Am  Silver LATIN Paso Doble (P)",
         "time": "06:09PM Sunday",
@@ -11607,6 +12335,22 @@
         "time": "06:10PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Kischitzky, Gaya",
+        "awards": null
+      },
+      {
+        "heat": "Heat 370",
+        "event": "L-JV1 Mixed-Am Bronze LATIN Cha Cha (C)",
+        "time": "06:19PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Obouhov, Mia",
+        "awards": null
+      },
+      {
+        "heat": "Heat 372",
+        "event": "L-JV1 Mixed-Am Bronze 1 LATIN Rumba (R)",
+        "time": "06:21PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Obouhov, Mia",
         "awards": null
       },
       {
@@ -11632,7 +12376,7 @@
       {
         "heat": "Heat 239",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Cha Cha (C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Kovalenko, Daria",
         "awards": null
@@ -11836,7 +12580,7 @@
       {
         "heat": "Heat 234",
         "event": "L-PD Pre-Comp. Assisted Bronze LATIN (P/J)",
-        "time": "10:48AM Sunday",
+        "time": "10:45AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Nor-Arevian, Arsene",
         "awards": null
@@ -11844,7 +12588,7 @@
       {
         "heat": "Heat 236",
         "event": "A-PD Pre-Comp. Solo Individual Bronze BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
+        "time": "10:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -11852,7 +12596,7 @@
       {
         "heat": "Heat 237",
         "event": "A-PD Pre-Comp. Solo Individual Bronze BALLROOM (W/Q)",
-        "time": "10:56AM Sunday",
+        "time": "10:53AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -12219,7 +12963,7 @@
     "entries": [
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -12227,7 +12971,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13100,7 +13844,7 @@
       {
         "heat": "Heat 234",
         "event": "L-PD Pre-Comp. Assisted Bronze LATIN (P/J)",
-        "time": "10:48AM Sunday",
+        "time": "10:45AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Muzychka, Jessica",
         "awards": null
@@ -13315,6 +14059,34 @@
         "time": "05:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Do, Chloe",
+        "awards": null
+      }
+    ]
+  },
+  "Obouhov, Mia": {
+    "entries": [
+      {
+        "heat": "Heat 343",
+        "event": "L-JV1 Mixed-Am Bronze LATIN  (C/R/J)",
+        "time": "04:32PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Movshovich Fil, Zachary",
+        "awards": null
+      },
+      {
+        "heat": "Heat 370",
+        "event": "L-JV1 Mixed-Am Bronze LATIN Cha Cha (C)",
+        "time": "06:19PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Movshovich Fil, Zachary",
+        "awards": null
+      },
+      {
+        "heat": "Heat 372",
+        "event": "L-JV1 Mixed-Am Bronze 1 LATIN Rumba (R)",
+        "time": "06:21PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Movshovich Fil, Zachary",
         "awards": null
       }
     ]
@@ -13779,7 +14551,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13787,7 +14559,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13795,7 +14567,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13803,7 +14575,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13815,7 +14587,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13823,7 +14595,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13831,7 +14603,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13839,7 +14611,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13851,7 +14623,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13859,7 +14631,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13867,7 +14639,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -13875,10 +14647,46 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
+        "awards": null
+      }
+    ]
+  },
+  "Panina, Dariya": {
+    "entries": [
+      {
+        "heat": "Heat 310",
+        "event": "AC-YTH Amateur Pre-Champ BALLROOM  (W/T/Q)",
+        "time": "02:05PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Baranycz, Roman",
+        "awards": null
+      },
+      {
+        "heat": "Heat 311",
+        "event": "AC-YTH Amateur Pre-Champ BALLROOM  (F/VW)",
+        "time": "02:10PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Baranycz, Roman",
+        "awards": null
+      },
+      {
+        "heat": "Heat 315",
+        "event": "AC-16+ Toronto Dancesport Open BALLROOM Challenge Cup (W/Q)",
+        "time": "02:29PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Baranycz, Roman",
+        "awards": null
+      },
+      {
+        "heat": "Heat 318",
+        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+        "time": "02:42PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Baranycz, Roman",
         "awards": null
       }
     ]
@@ -13989,6 +14797,22 @@
   },
   "Pavlenko, Maya": {
     "entries": [
+      {
+        "heat": "Heat 174",
+        "event": "AC-YTH Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "07:30PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Rozdorozhnyi, Mark",
+        "awards": null
+      },
+      {
+        "heat": "Heat 178",
+        "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+        "time": "09:10PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Rozdorozhnyi, Mark",
+        "awards": null
+      },
       {
         "heat": "Heat 314",
         "event": "AC-JR2 Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
@@ -15222,50 +16046,50 @@
   "Prokopchuk, Zhanna": {
     "entries": [
       {
-        "heat": "Heat 169",
+        "heat": "Heat 375",
         "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:26PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       },
       {
-        "heat": "Heat 169",
+        "heat": "Heat 376",
         "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:27PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       },
       {
-        "heat": "Heat 169",
+        "heat": "Heat 377",
         "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:28PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       },
       {
-        "heat": "Heat 169",
+        "heat": "Heat 378",
         "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:30PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       },
       {
-        "heat": "Heat 169",
+        "heat": "Heat 379",
         "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:31PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       },
       {
-        "heat": "Heat 172",
+        "heat": "Heat 386",
         "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
-        "time": "04:39PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
+        "time": "06:58PM Sunday",
+        "session": "Session 3 - Sunday",
         "partner": "Zhelasko, Danny",
         "awards": null
       }
@@ -15274,8 +16098,16 @@
   "Rakityanska, Arina": {
     "entries": [
       {
+        "heat": "Heat 375",
+        "event": "A-JR2 Open Solo Individual LATIN Cha Cha (C)",
+        "time": "06:26PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
         "heat": "Heat 377",
-        "event": "A-YTH Open Solo Individual LATIN Rumba (R)",
+        "event": "A-JR2 Open Solo Individual LATIN Rumba (R)",
         "time": "06:28PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -15562,89 +16394,89 @@
   "Ramsum, Carolyn": {
     "entries": [
       {
+        "heat": "Heat 248",
+        "event": "L-D Open Full Gold LATIN Cha Cha",
+        "time": "11:30AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Shelkovyy, Yuriy",
+        "awards": null
+      },
+      {
         "heat": "Heat 249",
-        "event": "L-C Open Full Silver LATIN Samba",
+        "event": "L-D Open Full Silver LATIN Samba",
         "time": "11:31AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
+        "heat": "Heat 250",
+        "event": "L-D Open Full Gold LATIN Rumba",
+        "time": "11:33AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Shelkovyy, Yuriy",
+        "awards": null
+      },
+      {
         "heat": "Heat 252",
-        "event": "L-C Open Full Silver LATIN Jive",
+        "event": "L-D Open Full Silver LATIN Jive",
         "time": "11:36AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 256",
-        "event": "L-C Open Full Silver LATIN Rumba",
-        "time": "11:41AM Sunday",
+        "heat": "Heat 260",
+        "event": "L-D Open Full Gold LATIN Paso Doble",
+        "time": "11:47AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 269",
-        "event": "L-C Open Full Silver LATIN Cha Cha",
-        "time": "11:59AM Sunday",
+        "heat": "Heat 261",
+        "event": "L-D Open Full Gold LATIN Jive",
+        "time": "11:48AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 270",
-        "event": "L-C Open Full Gold LATIN Samba",
-        "time": "12:00PM Sunday",
+        "heat": "Heat 267",
+        "event": "L-D Open Full Gold LATIN Samba",
+        "time": "11:56AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 272",
-        "event": "L-C Open Full Gold LATIN Paso Doble",
-        "time": "12:03PM Sunday",
+        "heat": "Heat 282",
+        "event": "L-D Open Full Silver LATIN Cha Cha",
+        "time": "12:17PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 275",
-        "event": "L-C Open Full Gold LATIN Cha Cha",
-        "time": "12:07PM Sunday",
+        "heat": "Heat 284",
+        "event": "L-D Open Full Silver LATIN Rumba",
+        "time": "12:20PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 277",
-        "event": "L-C Open Full Gold LATIN Rumba",
-        "time": "12:10PM Sunday",
+        "heat": "Heat 290",
+        "event": "L-D Open Full Silver LATIN Paso Doble",
+        "time": "12:28PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
       },
       {
-        "heat": "Heat 285",
-        "event": "L-C Open Full Silver LATIN Paso Doble",
-        "time": "12:21PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Shelkovyy, Yuriy",
-        "awards": null
-      },
-      {
-        "heat": "Heat 286",
-        "event": "L-C Open Full Gold LATIN Jive",
-        "time": "12:23PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Shelkovyy, Yuriy",
-        "awards": null
-      },
-      {
-        "heat": "Heat 302",
-        "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
-        "time": "01:05PM Sunday",
+        "heat": "Heat 299",
+        "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:47PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Shelkovyy, Yuriy",
         "awards": null
@@ -15772,7 +16604,7 @@
       {
         "heat": "Heat 234",
         "event": "AC-JV1 Pre-Comp. Couple Bronze LATIN (P/J)",
-        "time": "10:48AM Sunday",
+        "time": "10:45AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Sanchez, Karol",
         "awards": null
@@ -15780,7 +16612,7 @@
       {
         "heat": "Heat 236",
         "event": "A-JV1 Pre-Comp. Solo Individual Bronze BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
+        "time": "10:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -15788,7 +16620,7 @@
       {
         "heat": "Heat 237",
         "event": "A-JV1 Pre-Comp. Solo Individual Bronze BALLROOM (W/Q)",
-        "time": "10:56AM Sunday",
+        "time": "10:53AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -16195,7 +17027,7 @@
     "entries": [
       {
         "heat": "Heat 344",
-        "event": "Salsa",
+        "event": "Bachata",
         "time": "04:37PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -16203,7 +17035,7 @@
       },
       {
         "heat": "Heat 349",
-        "event": "Bachata",
+        "event": "Salsa",
         "time": "04:56PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -16870,6 +17702,22 @@
   "Rozdorozhnyi, Mark": {
     "entries": [
       {
+        "heat": "Heat 174",
+        "event": "AC-YTH Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "07:30PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Pavlenko, Maya",
+        "awards": null
+      },
+      {
+        "heat": "Heat 178",
+        "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+        "time": "09:10PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Pavlenko, Maya",
+        "awards": null
+      },
+      {
         "heat": "Heat 225",
         "event": "L-PD Pre-Comp. Assisted Beginner BALLROOM (W/T)",
         "time": "10:23AM Sunday",
@@ -16888,7 +17736,7 @@
       {
         "heat": "Heat 236",
         "event": "L-PD Pre-Comp. Assisted Pre-Bronze BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
+        "time": "10:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Tse, Aria",
         "awards": null
@@ -17182,22 +18030,6 @@
   "Ryzhak, Varvara": {
     "entries": [
       {
-        "heat": "Heat 236",
-        "event": "A-JR1 Pre-Comp. Solo Individual Pre-Bronze BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": null,
-        "awards": null
-      },
-      {
-        "heat": "Heat 323",
-        "event": "A-JR1 Solo Individual Beginner BALLROOM Quickstep (Q)",
-        "time": "03:10PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": null,
-        "awards": null
-      },
-      {
         "heat": "Heat 330",
         "event": "A-JR1 Solo Individual Pre-Bronze BALLROOM  (W/T)",
         "time": "03:23PM Sunday",
@@ -17206,9 +18038,17 @@
         "awards": null
       },
       {
-        "heat": "Heat 335",
-        "event": "A-11U Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
-        "time": "03:42PM Sunday",
+        "heat": "Heat 332",
+        "event": "A-JR1 Solo Individual Bronze BALLROOM  (W/T/Q)",
+        "time": "03:30PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
+      },
+      {
+        "heat": "Heat 339",
+        "event": "A-12+ Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+        "time": "04:03PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -17231,8 +18071,8 @@
       },
       {
         "heat": "Heat 387",
-        "event": "A-11U Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
-        "time": "07:06PM Sunday Later rounds: 3@07:38PM Sunday",
+        "event": "A-12+ Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
+        "time": "07:06PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -17384,7 +18224,7 @@
       {
         "heat": "Heat 234",
         "event": "AC-JV1 Pre-Comp. Couple Bronze LATIN (P/J)",
-        "time": "10:48AM Sunday",
+        "time": "10:45AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Rascanu, Sebi",
         "awards": null
@@ -17444,7 +18284,7 @@
       {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Feyzulaev, Camilla",
         "awards": null
@@ -17455,7 +18295,7 @@
     "entries": [
       {
         "heat": "Heat 333",
-        "event": "A-JR1 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
+        "event": "A-JR2 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
         "time": "03:34PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -17471,7 +18311,7 @@
       },
       {
         "heat": "Heat 384",
-        "event": "A-JR1 Solo Individual Pre-Champ LATIN  (C/R/S)",
+        "event": "A-JR2 Solo Individual Pre-Champ LATIN  (C/R/S)",
         "time": "06:48PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -17893,6 +18733,38 @@
         "heat": "Heat 128",
         "event": "G-D Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
         "time": "01:59PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Stacey, Kelly",
+        "awards": null
+      },
+      {
+        "heat": "Heat 143",
+        "event": "G-D Open Full Bronze CLUB West Coast Swing",
+        "time": "03:33PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Stacey, Kelly",
+        "awards": null
+      },
+      {
+        "heat": "Heat 155",
+        "event": "G-E Open Full Bronze CLUB West Coast Swing",
+        "time": "03:51PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Stacey, Kelly",
+        "awards": null
+      },
+      {
+        "heat": "Heat 163",
+        "event": "G-D Open Full Silver CLUB West Coast Swing",
+        "time": "04:03PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Stacey, Kelly",
+        "awards": null
+      },
+      {
+        "heat": "Heat 167",
+        "event": "G-E Open Full Silver CLUB West Coast Swing",
+        "time": "04:12PM Saturday",
         "session": "Session 1 - Saturday Daytime",
         "partner": "Stacey, Kelly",
         "awards": null
@@ -18800,6 +19672,14 @@
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
+      },
+      {
+        "heat": "Heat 392",
+        "event": "A-11U Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+        "time": "07:32PM Sunday Later rounds: 3@07:43PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": null,
+        "awards": null
       }
     ]
   },
@@ -19042,9 +19922,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Jackson, Jenn",
         "awards": null
@@ -19066,33 +19946,57 @@
         "awards": null
       },
       {
+        "heat": "Heat 248",
+        "event": "L-D Open Full Gold LATIN Cha Cha",
+        "time": "11:30AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Ramsum, Carolyn",
+        "awards": null
+      },
+      {
         "heat": "Heat 249",
-        "event": "L-C Open Full Silver LATIN Samba",
+        "event": "L-D Open Full Silver LATIN Samba",
         "time": "11:31AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
+        "heat": "Heat 250",
+        "event": "L-D Open Full Gold LATIN Rumba",
+        "time": "11:33AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Ramsum, Carolyn",
+        "awards": null
+      },
+      {
         "heat": "Heat 252",
-        "event": "L-C Open Full Silver LATIN Jive",
+        "event": "L-D Open Full Silver LATIN Jive",
         "time": "11:36AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
-        "heat": "Heat 256",
-        "event": "L-C Open Full Silver LATIN Rumba",
-        "time": "11:41AM Sunday",
+        "heat": "Heat 260",
+        "event": "L-D Open Full Gold LATIN Paso Doble",
+        "time": "11:47AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
-        "heat": "Heat 269",
-        "event": "L-C Open Full Silver LATIN Cha Cha",
-        "time": "11:59AM Sunday",
+        "heat": "Heat 261",
+        "event": "L-D Open Full Gold LATIN Jive",
+        "time": "11:48AM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Ramsum, Carolyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 267",
+        "event": "L-D Open Full Gold LATIN Samba",
+        "time": "11:56AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ramsum, Carolyn",
         "awards": null
@@ -19102,21 +20006,13 @@
         "event": "L-C Open Full Gold LATIN Samba",
         "time": "12:00PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
+        "partner": "Jackson, Jenn",
         "awards": null
       },
       {
         "heat": "Heat 272",
         "event": "L-C Open Full Gold LATIN Paso Doble",
         "time": "12:03PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
-        "awards": null
-      },
-      {
-        "heat": "Heat 273",
-        "event": "L-B Open Full Gold LATIN Jive",
-        "time": "12:05PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Jackson, Jenn",
         "awards": null
@@ -19126,7 +20022,7 @@
         "event": "L-C Open Full Gold LATIN Cha Cha",
         "time": "12:07PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
+        "partner": "Jackson, Jenn",
         "awards": null
       },
       {
@@ -19134,37 +20030,21 @@
         "event": "L-C Open Full Gold LATIN Rumba",
         "time": "12:10PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
+        "partner": "Jackson, Jenn",
         "awards": null
       },
       {
         "heat": "Heat 282",
-        "event": "L-B Open Full Gold LATIN Cha Cha",
+        "event": "L-D Open Full Silver LATIN Cha Cha",
         "time": "12:17PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Jackson, Jenn",
-        "awards": null
-      },
-      {
-        "heat": "Heat 283",
-        "event": "L-B Open Full Gold LATIN Samba",
-        "time": "12:18PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Jackson, Jenn",
+        "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
         "heat": "Heat 284",
-        "event": "L-B Open Full Gold LATIN Rumba",
+        "event": "L-D Open Full Silver LATIN Rumba",
         "time": "12:20PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Jackson, Jenn",
-        "awards": null
-      },
-      {
-        "heat": "Heat 285",
-        "event": "L-C Open Full Silver LATIN Paso Doble",
-        "time": "12:21PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Ramsum, Carolyn",
         "awards": null
@@ -19174,23 +20054,31 @@
         "event": "L-C Open Full Gold LATIN Jive",
         "time": "12:23PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
+        "partner": "Jackson, Jenn",
         "awards": null
       },
       {
         "heat": "Heat 290",
-        "event": "L-B Open Full Gold LATIN Paso Doble",
+        "event": "L-D Open Full Silver LATIN Paso Doble",
         "time": "12:28PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Ramsum, Carolyn",
+        "awards": null
+      },
+      {
+        "heat": "Heat 298",
+        "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "time": "12:43PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Jackson, Jenn",
         "awards": null
       },
       {
         "heat": "Heat 299",
-        "event": "L-B Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
         "time": "12:47PM Sunday",
         "session": "Session 3 - Sunday",
-        "partner": "Jackson, Jenn",
+        "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
@@ -19199,14 +20087,6 @@
         "time": "12:57PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Jackson, Jenn",
-        "awards": null
-      },
-      {
-        "heat": "Heat 302",
-        "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
-        "time": "01:05PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Ramsum, Carolyn",
         "awards": null
       },
       {
@@ -19314,9 +20194,9 @@
         "awards": null
       },
       {
-        "heat": "Heat 215",
+        "heat": "Heat 216",
         "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
-        "time": "09:26AM Sunday",
+        "time": "09:29AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Komelkov, Vladyslav",
         "awards": null
@@ -20088,6 +20968,38 @@
         "session": "Session 1 - Saturday Daytime",
         "partner": "Schleese, Jochen",
         "awards": null
+      },
+      {
+        "heat": "Heat 143",
+        "event": "G-D Open Full Bronze CLUB West Coast Swing",
+        "time": "03:33PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Schleese, Jochen",
+        "awards": null
+      },
+      {
+        "heat": "Heat 155",
+        "event": "G-E Open Full Bronze CLUB West Coast Swing",
+        "time": "03:51PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Schleese, Jochen",
+        "awards": null
+      },
+      {
+        "heat": "Heat 163",
+        "event": "G-D Open Full Silver CLUB West Coast Swing",
+        "time": "04:03PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Schleese, Jochen",
+        "awards": null
+      },
+      {
+        "heat": "Heat 167",
+        "event": "G-E Open Full Silver CLUB West Coast Swing",
+        "time": "04:12PM Saturday",
+        "session": "Session 1 - Saturday Daytime",
+        "partner": "Schleese, Jochen",
+        "awards": null
       }
     ]
   },
@@ -20247,7 +21159,7 @@
       },
       {
         "heat": "Heat 357",
-        "event": "AC-11U Amateur Silver/Gold LATIN Challenge (C/R/S)",
+        "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/S)",
         "time": "05:34PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Czarnecka, Emilia",
@@ -21776,7 +22688,7 @@
       {
         "heat": "Heat 236",
         "event": "L-PD Pre-Comp. Assisted Pre-Bronze BALLROOM (W/T)",
-        "time": "10:53AM Sunday",
+        "time": "10:50AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Rozdorozhnyi, Mark",
         "awards": null
@@ -21970,9 +22882,9 @@
   "Turcotte-Miao, Audrey": {
     "entries": [
       {
-        "heat": "Heat 174",
+        "heat": "Heat 174A",
         "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
-        "time": "07:30PM Saturday",
+        "time": "07:59PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Filatov, Arseniy",
         "awards": null
@@ -23228,7 +24140,7 @@
       {
         "heat": "Heat 239",
         "event": "A-PD Pre-Comp. Solo Individual Basic LATIN Cha Cha (C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
         "awards": null
@@ -23440,7 +24352,7 @@
       {
         "heat": "Heat 235",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Rumba (R)",
-        "time": "10:51AM Sunday",
+        "time": "10:48AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Korzon, Romeo",
         "awards": null
@@ -23448,7 +24360,7 @@
       {
         "heat": "Heat 239",
         "event": "L-PD Pre-Comp. Assisted Basic LATIN Cha Cha (C)",
-        "time": "11:02AM Sunday",
+        "time": "10:59AM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Korzon, Romeo",
         "awards": null
@@ -24459,7 +25371,7 @@
     "entries": [
       {
         "heat": "Heat 342",
-        "event": "Jazz Jive Fusion",
+        "event": "Salsa",
         "time": "04:29PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -24467,7 +25379,7 @@
       },
       {
         "heat": "Heat 346",
-        "event": "Madonna Medley",
+        "event": "Latin Fusion",
         "time": "04:45PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -24475,7 +25387,7 @@
       },
       {
         "heat": "Heat 353",
-        "event": "Latin Fusion",
+        "event": "Madonna Medley",
         "time": "05:15PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -24483,7 +25395,7 @@
       },
       {
         "heat": "Heat 358",
-        "event": "Bachata",
+        "event": "Jazz Jive Fusion",
         "time": "05:39PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": null,
@@ -24810,6 +25722,14 @@
         "awards": null
       },
       {
+        "heat": "Heat 174A",
+        "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+        "time": "07:59PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
+        "partner": "Kirillov, Eduard",
+        "awards": null
+      },
+      {
         "heat": "Heat 178",
         "event": "AC-U21 Open Amateur LATIN Championship (C/S/R/P/J)",
         "time": "09:10PM Saturday",
@@ -24818,18 +25738,10 @@
         "awards": null
       },
       {
-        "heat": "Heat 318",
-        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
-        "time": "02:42PM Sunday",
-        "session": "Session 3 - Sunday",
-        "partner": "Kirillov, Eduard",
-        "awards": null
-      },
-      {
-        "heat": "Heat 359",
-        "event": "AC-16+ Amateur 16+ Pre-Champ/Champ LATIN Challenge (C/S/R/P/J)",
-        "time": "05:42PM Sunday",
-        "session": "Session 3 - Sunday",
+        "heat": "Heat 179",
+        "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+        "time": "09:23PM Saturday",
+        "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Kirillov, Eduard",
         "awards": null
       }
@@ -25090,57 +26002,9 @@
   "Zhelasko, Danny": {
     "entries": [
       {
-        "heat": "Heat 169",
-        "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 169",
-        "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 169",
-        "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 169",
-        "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 169",
-        "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
-        "time": "04:22PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
-        "heat": "Heat 172",
-        "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
-        "time": "04:39PM Saturday",
-        "session": "Session 1 - Saturday Daytime",
-        "partner": "Prokopchuk, Zhanna",
-        "awards": null
-      },
-      {
         "heat": "Heat 179",
         "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
-        "time": "09:19PM Saturday",
+        "time": "09:23PM Saturday",
         "session": "Session 2 - Saturday Evening - HOLLYWOOD - Night at the Oscars",
         "partner": "Akhromenko, Ellie",
         "awards": null
@@ -25242,11 +26106,59 @@
         "awards": null
       },
       {
+        "heat": "Heat 375",
+        "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
+        "time": "06:26PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 376",
+        "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
+        "time": "06:27PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 377",
+        "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
+        "time": "06:28PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 378",
+        "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
+        "time": "06:30PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
+        "awards": null
+      },
+      {
+        "heat": "Heat 379",
+        "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
+        "time": "06:31PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
+        "awards": null
+      },
+      {
         "heat": "Heat 385",
         "event": "L-YTH Mixed-Am Pre-Champ LATIN  (C/R/S)",
         "time": "06:53PM Sunday",
         "session": "Session 3 - Sunday",
         "partner": "Tsolakidis, Isabella",
+        "awards": null
+      },
+      {
+        "heat": "Heat 386",
+        "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
+        "time": "06:58PM Sunday",
+        "session": "Session 3 - Sunday",
+        "partner": "Prokopchuk, Zhanna",
         "awards": null
       },
       {

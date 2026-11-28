@@ -20780,5 +20780,3378 @@
       "removed": [],
       "rosterChanged": []
     }
+  },
+  {
+    "timestamp": "2026-11-26T11:00:02.429700+00:00",
+    "participants": {
+      "oldCount": 248,
+      "newCount": 248,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1258,
+      "newCount": 1258,
+      "oldUniqueCount": 1256,
+      "newUniqueCount": 1256,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-11-26T11:00:29.528638+00:00",
+    "participants": {
+      "oldCount": 248,
+      "newCount": 248,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "events": {
+      "oldCount": 1258,
+      "newCount": 1258,
+      "oldUniqueCount": 1256,
+      "newUniqueCount": 1256,
+      "added": [],
+      "removed": [],
+      "rosterChanged": []
+    }
+  },
+  {
+    "timestamp": "2026-11-28T11:00:03.387826+00:00",
+    "participants": {
+      "oldCount": 248,
+      "newCount": 254,
+      "added": [
+        {
+          "name": "Baranycz, Roman",
+          "entries": [
+            {
+              "heat": "Heat 318",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+              "partner": "Panina, Dariya",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "AC-16+ Toronto Dancesport Open BALLROOM Challenge Cup (W/Q)",
+              "partner": "Panina, Dariya",
+              "awards": null
+            },
+            {
+              "heat": "Heat 311",
+              "event": "AC-YTH Amateur Pre-Champ BALLROOM  (F/VW)",
+              "partner": "Panina, Dariya",
+              "awards": null
+            },
+            {
+              "heat": "Heat 310",
+              "event": "AC-YTH Amateur Pre-Champ BALLROOM  (W/T/Q)",
+              "partner": "Panina, Dariya",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Bushchyk, Alessiah",
+          "entries": [
+            {
+              "heat": "Heat 393",
+              "event": "A-12+ Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 386",
+              "event": "A-JR1 Open Solo Individual LATIN Championship (C/S/R/P/J)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 384",
+              "event": "A-JR1 Solo Individual Pre-Champ LATIN  (C/R/S)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Cooperman, Tony",
+          "entries": [
+            {
+              "heat": "Heat 244",
+              "event": "L-C Closed Silver 1 LATIN Cha Cha",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 280",
+              "event": "L-C Closed Silver 1 LATIN Rumba",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 245",
+              "event": "L-C Closed Silver 1 LATIN Samba",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 305",
+              "event": "L-C Closed Silver Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 300",
+              "event": "L-C Open Bronze Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 195",
+              "event": "L-C Open Full Gold BALLROOM Foxtrot",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 196",
+              "event": "L-C Open Full Gold BALLROOM Quickstep",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 194",
+              "event": "L-C Open Full Gold BALLROOM Tango",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 193",
+              "event": "L-C Open Full Gold BALLROOM Waltz",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 219",
+              "event": "L-C Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 297",
+              "event": "L-D Closed Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 254",
+              "event": "L-D Open Full Bronze LATIN Cha Cha",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-D Open Full Bronze LATIN Rumba",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 255",
+              "event": "L-D Open Full Bronze LATIN Samba",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 187",
+              "event": "L-D Open Full Gold BALLROOM Viennese Waltz",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 207",
+              "event": "L-D Open Full Silver BALLROOM Foxtrot",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 204",
+              "event": "L-D Open Full Silver BALLROOM Quickstep",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 201",
+              "event": "L-D Open Full Silver BALLROOM Tango",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 202",
+              "event": "L-D Open Full Silver BALLROOM Viennese Waltz",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 205",
+              "event": "L-D Open Full Silver BALLROOM Waltz",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-D Open Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 217",
+              "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 221",
+              "event": "L-D2 Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "McIntyre, Lauralyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 180",
+              "event": "OPEN Professional LATIN Championships (C/S/R/P/J)",
+              "partner": "Mlynarczyk, Weronika",
+              "awards": null
+            },
+            {
+              "heat": "Heat 178A",
+              "event": "OPEN Professional SHOWDANCE Championships",
+              "partner": "Mlynarczyk, Weronika",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Gilbert, Zela",
+          "entries": [
+            {
+              "heat": "Heat 91",
+              "event": "L-F Open Bronze 1 RHYTHM Cha Cha",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-F Open Bronze 1 RHYTHM Mambo",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 92",
+              "event": "L-F Open Bronze 1 RHYTHM Rumba",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 110",
+              "event": "L-F Open Bronze 1 RHYTHM Swing",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 108",
+              "event": "L-F Open Bronze 2 RHYTHM Cha Cha",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 123A",
+              "event": "L-F Open Bronze 2 RHYTHM Mambo",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 118",
+              "event": "L-F Open Bronze 2 RHYTHM Rumba",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 115",
+              "event": "L-F Open Bronze 2 RHYTHM Swing",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 127",
+              "event": "L-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 73",
+              "event": "L-F Open Full Bronze RHYTHM Cha Cha",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 112",
+              "event": "L-F Open Full Bronze RHYTHM Mambo",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 80",
+              "event": "L-F Open Full Bronze RHYTHM Rumba",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 75",
+              "event": "L-F Open Full Bronze RHYTHM Swing",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-F Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Gorbunov, Slava",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "McIntyre, Lauralyn",
+          "entries": [
+            {
+              "heat": "Heat 244",
+              "event": "L-C Closed Silver 1 LATIN Cha Cha",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 280",
+              "event": "L-C Closed Silver 1 LATIN Rumba",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 245",
+              "event": "L-C Closed Silver 1 LATIN Samba",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 305",
+              "event": "L-C Closed Silver Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 300",
+              "event": "L-C Open Bronze Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 195",
+              "event": "L-C Open Full Gold BALLROOM Foxtrot",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 196",
+              "event": "L-C Open Full Gold BALLROOM Quickstep",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 194",
+              "event": "L-C Open Full Gold BALLROOM Tango",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 193",
+              "event": "L-C Open Full Gold BALLROOM Waltz",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 219",
+              "event": "L-C Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 297",
+              "event": "L-D Closed Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 254",
+              "event": "L-D Open Full Bronze LATIN Cha Cha",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-D Open Full Bronze LATIN Rumba",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 255",
+              "event": "L-D Open Full Bronze LATIN Samba",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 187",
+              "event": "L-D Open Full Gold BALLROOM Viennese Waltz",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 207",
+              "event": "L-D Open Full Silver BALLROOM Foxtrot",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 204",
+              "event": "L-D Open Full Silver BALLROOM Quickstep",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 201",
+              "event": "L-D Open Full Silver BALLROOM Tango",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 202",
+              "event": "L-D Open Full Silver BALLROOM Viennese Waltz",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 205",
+              "event": "L-D Open Full Silver BALLROOM Waltz",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 223",
+              "event": "L-D Open Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 217",
+              "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 221",
+              "event": "L-D2 Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Mlynarczyk, Weronika",
+          "entries": [
+            {
+              "heat": "Heat 180",
+              "event": "OPEN Professional LATIN Championships (C/S/R/P/J)",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            },
+            {
+              "heat": "Heat 178A",
+              "event": "OPEN Professional SHOWDANCE Championships",
+              "partner": "Cooperman, Tony",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Obouhov, Mia",
+          "entries": [
+            {
+              "heat": "Heat 372",
+              "event": "L-JV1 Mixed-Am Bronze 1 LATIN Rumba (R)",
+              "partner": "Movshovich Fil, Zachary",
+              "awards": null
+            },
+            {
+              "heat": "Heat 343",
+              "event": "L-JV1 Mixed-Am Bronze LATIN  (C/R/J)",
+              "partner": "Movshovich Fil, Zachary",
+              "awards": null
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-JV1 Mixed-Am Bronze LATIN Cha Cha (C)",
+              "partner": "Movshovich Fil, Zachary",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Panina, Dariya",
+          "entries": [
+            {
+              "heat": "Heat 318",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+              "partner": "Baranycz, Roman",
+              "awards": null
+            },
+            {
+              "heat": "Heat 315",
+              "event": "AC-16+ Toronto Dancesport Open BALLROOM Challenge Cup (W/Q)",
+              "partner": "Baranycz, Roman",
+              "awards": null
+            },
+            {
+              "heat": "Heat 311",
+              "event": "AC-YTH Amateur Pre-Champ BALLROOM  (F/VW)",
+              "partner": "Baranycz, Roman",
+              "awards": null
+            },
+            {
+              "heat": "Heat 310",
+              "event": "AC-YTH Amateur Pre-Champ BALLROOM  (W/T/Q)",
+              "partner": "Baranycz, Roman",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "removed": [
+        {
+          "name": "Kealey, Lili",
+          "entries": [
+            {
+              "heat": "Heat 169",
+              "event": "AC-AD Amateur Pre-Champ LATIN  (C/R/S)",
+              "partner": "Miller, David",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "AC-AD Open Amateur LATIN  (C/R/S)",
+              "partner": "Miller, David",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Miller, David",
+          "entries": [
+            {
+              "heat": "Heat 169",
+              "event": "AC-AD Amateur Pre-Champ LATIN  (C/R/S)",
+              "partner": "Kealey, Lili",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "AC-AD Open Amateur LATIN  (C/R/S)",
+              "partner": "Kealey, Lili",
+              "awards": null
+            }
+          ]
+        }
+      ],
+      "changed": [
+        {
+          "name": "Abbas, Alia",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 182",
+              "event": "AC- SOLO 2",
+              "partner": "Condescu, Anthony",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 183",
+              "event": "AC- SOLO 2",
+              "partner": "Condescu, Anthony",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Aghbari, Maya",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Bilotta, Amalia Angelina",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Bourov, Stephanie",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Gulyaev, Andrey",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Gulyaev, Andrey",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Bykov, Emilia",
+          "oldEntryCount": 8,
+          "newEntryCount": 9,
+          "addedEntries": [
+            {
+              "heat": "Heat 379",
+              "event": "A-JV1 Solo Individual Beginner LATIN Jive (J)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 365",
+              "event": "A-JV1 Solo Individual Pre-Bronze LATIN Cha Cha (C)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 240",
+              "event": "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/S)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Condescu, Anthony",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 182",
+              "event": "AC- SOLO 2",
+              "partner": "Abbas, Alia",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 183",
+              "event": "AC- SOLO 2",
+              "partner": "Abbas, Alia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Czarnecka, Emilia",
+          "oldEntryCount": 5,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "Heat 357",
+              "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/S)",
+              "partner": "Sydorchuk, Liubomyr",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 357",
+              "event": "AC-11U Amateur Silver/Gold LATIN Challenge (C/R/S)",
+              "partner": "Sydorchuk, Liubomyr",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Dance Fire Studio",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Dance by Khruzina, (DBK)",
+          "oldEntryCount": 14,
+          "newEntryCount": 16,
+          "addedEntries": [
+            {
+              "heat": "Heat 243A",
+              "event": "\"Cheeky Girls\" - 10+ Jazz - 9 Participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 220",
+              "event": "\"Contemporary\" - 10+ Contemporary - 12 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 238",
+              "event": "\"Lviv\" - 12+ Lyrics - 11 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 215",
+              "event": "\"Night Stars\" - 10+ Contemporary - 14 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 239A",
+              "event": "\"Room Service\" - 10+ lyrics - 7 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 214",
+              "event": "\"Snow\" - 5+ modern - 6 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 229",
+              "event": "\"Space Girls\" - 10+ Modern - 7 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 212",
+              "event": "\"The Clock\" - 7+ Modern - 8 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 218",
+              "event": "DUET - \"Friendship\" - 7+ Lyrics",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 209",
+              "event": "GROUP - \"Litachok\" - 10+ Modern - 9 participants",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 224",
+              "event": "SOLO - \"Alena\" - 12+ Contemporary",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 233",
+              "event": "SOLO - \"EMI\" - 10+ Jazz",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 208",
+              "event": "SOLO - \"Eva\" - 10+ Contemporary",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 210",
+              "event": "SOLO - \"Melania\" - 10 + Lyrics",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "SOLO - \"Zlata\" - 10+ Street Jazz",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 220",
+              "event": "\"Contemporary\" - 10+ Contemporary (12 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 224",
+              "event": "\"Litachok\" - 10+ Modern (9 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 229",
+              "event": "\"Lviv\" - 12+ Lyrics (11 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 216",
+              "event": "\"Night Stars\" - 10+ Contemporary (12 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 238",
+              "event": "\"Room Service\" - 10+ lyrics (7 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 218",
+              "event": "\"Snow\" - 5+ modern (6 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 233",
+              "event": "\"Space Girls\" - 10+ Modern (7 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 222",
+              "event": "\"The Clock\" - 7+ Modern (9 participants)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 212",
+              "event": "DUET - \"Friendship\" - 7+ Lyrics",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 209",
+              "event": "SOLO - \"Alena\" - 12+ Contemporary",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 210",
+              "event": "SOLO - \"Eva\" - 10+ Contemporary",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 208",
+              "event": "SOLO - \"Melania\" - 10 + Lyrics",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 214",
+              "event": "SOLO - \"Zlata\" - 10+ Street Jazz",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "De Fritas, Milena",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Dinova, Christina",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Filatov, Arseniy",
+          "oldEntryCount": 23,
+          "newEntryCount": 23,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Turcotte-Miao, Audrey",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Turcotte-Miao, Audrey",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Gorbunov, Slava",
+          "oldEntryCount": 38,
+          "newEntryCount": 52,
+          "addedEntries": [
+            {
+              "heat": "Heat 91",
+              "event": "L-F Open Bronze 1 RHYTHM Cha Cha",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 116",
+              "event": "L-F Open Bronze 1 RHYTHM Mambo",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 92",
+              "event": "L-F Open Bronze 1 RHYTHM Rumba",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 110",
+              "event": "L-F Open Bronze 1 RHYTHM Swing",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 108",
+              "event": "L-F Open Bronze 2 RHYTHM Cha Cha",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 123A",
+              "event": "L-F Open Bronze 2 RHYTHM Mambo",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 118",
+              "event": "L-F Open Bronze 2 RHYTHM Rumba",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 115",
+              "event": "L-F Open Bronze 2 RHYTHM Swing",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 127",
+              "event": "L-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 73",
+              "event": "L-F Open Full Bronze RHYTHM Cha Cha",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 112",
+              "event": "L-F Open Full Bronze RHYTHM Mambo",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 80",
+              "event": "L-F Open Full Bronze RHYTHM Rumba",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 75",
+              "event": "L-F Open Full Bronze RHYTHM Swing",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            },
+            {
+              "heat": "Heat 125",
+              "event": "L-F Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
+              "partner": "Gilbert, Zela",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Gulyaev, Andrey",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Bourov, Stephanie",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Bourov, Stephanie",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Jackson, Jenn",
+          "oldEntryCount": 16,
+          "newEntryCount": 16,
+          "addedEntries": [
+            {
+              "heat": "Heat 275",
+              "event": "L-C Open Full Gold LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-C Open Full Gold LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-C Open Full Gold LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 277",
+              "event": "L-C Open Full Gold LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 270",
+              "event": "L-C Open Full Gold LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 298",
+              "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 282",
+              "event": "L-B Open Full Gold LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 273",
+              "event": "L-B Open Full Gold LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 290",
+              "event": "L-B Open Full Gold LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 284",
+              "event": "L-B Open Full Gold LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 283",
+              "event": "L-B Open Full Gold LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-B Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 215",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Jin, Jewel",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 183",
+              "event": "AC- SOLO 3",
+              "partner": "Lama, Sean",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 182",
+              "event": "AC- SOLO 3",
+              "partner": "Lama, Sean",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kirillov, Eduard",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Youssouf, Aesha",
+              "awards": null
+            },
+            {
+              "heat": "Heat 179",
+              "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+              "partner": "Youssouf, Aesha",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 318",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+              "partner": "Youssouf, Aesha",
+              "awards": null
+            },
+            {
+              "heat": "Heat 359",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ LATIN Challenge (C/S/R/P/J)",
+              "partner": "Youssouf, Aesha",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Komelkov, Vladyslav",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Si, Sylvia",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 215",
+              "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Si, Sylvia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kouklinski, Audrey",
+          "oldEntryCount": 7,
+          "newEntryCount": 7,
+          "addedEntries": [
+            {
+              "heat": "Heat 369",
+              "event": "A-JV1 Solo Individual Pre-Bronze LATIN Jive (J)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 241",
+              "event": "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/J)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Kuznetsova, Margarita",
+          "oldEntryCount": 3,
+          "newEntryCount": 3,
+          "addedEntries": [
+            {
+              "heat": "Heat 317",
+              "event": "A-11U Solo Indv. Pre-Bronze/Bronze 1 BALLROOM Challenge (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 309",
+              "event": "A-PD Solo Individual Bronze 1 BALLROOM  (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 308",
+              "event": "A-PD Solo Individual Pre-Bronze 1 BALLROOM  (W/T)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 335",
+              "event": "A-11U Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 329",
+              "event": "A-PD Solo Individual Bronze BALLROOM  (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 330",
+              "event": "A-PD Solo Individual Pre-Bronze BALLROOM  (W/T)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Lama, Sean",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 183",
+              "event": "AC- SOLO 3",
+              "partner": "Jin, Jewel",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 182",
+              "event": "AC- SOLO 3",
+              "partner": "Jin, Jewel",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Lebedev, Ivan",
+          "oldEntryCount": 30,
+          "newEntryCount": 30,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Ma, Amelia",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 215",
+              "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Ma, Amelia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ma, Amelia",
+          "oldEntryCount": 33,
+          "newEntryCount": 33,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Lebedev, Ivan",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 215",
+              "event": "L-F Closed Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Lebedev, Ivan",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Masliy, Alice",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Movshovich Fil, Zachary",
+          "oldEntryCount": 3,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 372",
+              "event": "L-JV1 Mixed-Am Bronze 1 LATIN Rumba (R)",
+              "partner": "Obouhov, Mia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 343",
+              "event": "L-JV1 Mixed-Am Bronze LATIN  (C/R/J)",
+              "partner": "Obouhov, Mia",
+              "awards": null
+            },
+            {
+              "heat": "Heat 370",
+              "event": "L-JV1 Mixed-Am Bronze LATIN Cha Cha (C)",
+              "partner": "Obouhov, Mia",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Ngan, Kaitlyn",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ozdoyeva, Alima",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ozdoyeva, Ryana",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ozdoyeva, Yeva",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Pavlenko, Maya",
+          "oldEntryCount": 2,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-YTH Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Rozdorozhnyi, Mark",
+              "awards": null
+            },
+            {
+              "heat": "Heat 178",
+              "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+              "partner": "Rozdorozhnyi, Mark",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Prokopchuk, Zhanna",
+          "oldEntryCount": 6,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 375",
+              "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 386",
+              "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 376",
+              "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
+              "partner": "Zhelasko, Danny",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Rakityanska, Arina",
+          "oldEntryCount": 3,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 375",
+              "event": "A-JR2 Open Solo Individual LATIN Cha Cha (C)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 377",
+              "event": "A-JR2 Open Solo Individual LATIN Rumba (R)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 377",
+              "event": "A-YTH Open Solo Individual LATIN Rumba (R)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ramsum, Carolyn",
+          "oldEntryCount": 12,
+          "newEntryCount": 12,
+          "addedEntries": [
+            {
+              "heat": "Heat 248",
+              "event": "L-D Open Full Gold LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 261",
+              "event": "L-D Open Full Gold LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 260",
+              "event": "L-D Open Full Gold LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "L-D Open Full Gold LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 267",
+              "event": "L-D Open Full Gold LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 282",
+              "event": "L-D Open Full Silver LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-D Open Full Silver LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 290",
+              "event": "L-D Open Full Silver LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 284",
+              "event": "L-D Open Full Silver LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "L-D Open Full Silver LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 275",
+              "event": "L-C Open Full Gold LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-C Open Full Gold LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-C Open Full Gold LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 277",
+              "event": "L-C Open Full Gold LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 270",
+              "event": "L-C Open Full Gold LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 269",
+              "event": "L-C Open Full Silver LATIN Cha Cha",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Open Full Silver LATIN Jive",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 285",
+              "event": "L-C Open Full Silver LATIN Paso Doble",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-C Open Full Silver LATIN Rumba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "L-C Open Full Silver LATIN Samba",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            },
+            {
+              "heat": "Heat 302",
+              "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Shelkovyy, Yuriy",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Reznik, Raven Gelula",
+          "oldEntryCount": 2,
+          "newEntryCount": 2,
+          "addedEntries": [
+            {
+              "heat": "Heat 344",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 349",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 349",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 344",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Rozdorozhnyi, Mark",
+          "oldEntryCount": 13,
+          "newEntryCount": 15,
+          "addedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-YTH Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Pavlenko, Maya",
+              "awards": null
+            },
+            {
+              "heat": "Heat 178",
+              "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+              "partner": "Pavlenko, Maya",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Ryzhak, Varvara",
+          "oldEntryCount": 7,
+          "newEntryCount": 6,
+          "addedEntries": [
+            {
+              "heat": "Heat 339",
+              "event": "A-12+ Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 387",
+              "event": "A-12+ Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 332",
+              "event": "A-JR1 Solo Individual Bronze BALLROOM  (W/T/Q)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 335",
+              "event": "A-11U Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 387",
+              "event": "A-11U Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 236",
+              "event": "A-JR1 Pre-Comp. Solo Individual Pre-Bronze BALLROOM (W/T)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 323",
+              "event": "A-JR1 Solo Individual Beginner BALLROOM Quickstep (Q)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Sazonova, Nataliia",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 333",
+              "event": "A-JR2 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 384",
+              "event": "A-JR2 Solo Individual Pre-Champ LATIN  (C/R/S)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 333",
+              "event": "A-JR1 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 384",
+              "event": "A-JR1 Solo Individual Pre-Champ LATIN  (C/R/S)",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Schleese, Jochen",
+          "oldEntryCount": 51,
+          "newEntryCount": 55,
+          "addedEntries": [
+            {
+              "heat": "Heat 143",
+              "event": "G-D Open Full Bronze CLUB West Coast Swing",
+              "partner": "Stacey, Kelly",
+              "awards": null
+            },
+            {
+              "heat": "Heat 163",
+              "event": "G-D Open Full Silver CLUB West Coast Swing",
+              "partner": "Stacey, Kelly",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "G-E Open Full Bronze CLUB West Coast Swing",
+              "partner": "Stacey, Kelly",
+              "awards": null
+            },
+            {
+              "heat": "Heat 167",
+              "event": "G-E Open Full Silver CLUB West Coast Swing",
+              "partner": "Stacey, Kelly",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Selivanov, Julianna",
+          "oldEntryCount": 9,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "Heat 392",
+              "event": "A-11U Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Shelkovyy, Yuriy",
+          "oldEntryCount": 28,
+          "newEntryCount": 28,
+          "addedEntries": [
+            {
+              "heat": "Heat 275",
+              "event": "L-C Open Full Gold LATIN Cha Cha",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-C Open Full Gold LATIN Jive",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-C Open Full Gold LATIN Paso Doble",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 277",
+              "event": "L-C Open Full Gold LATIN Rumba",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 270",
+              "event": "L-C Open Full Gold LATIN Samba",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 298",
+              "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 248",
+              "event": "L-D Open Full Gold LATIN Cha Cha",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 261",
+              "event": "L-D Open Full Gold LATIN Jive",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 260",
+              "event": "L-D Open Full Gold LATIN Paso Doble",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 250",
+              "event": "L-D Open Full Gold LATIN Rumba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 267",
+              "event": "L-D Open Full Gold LATIN Samba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 282",
+              "event": "L-D Open Full Silver LATIN Cha Cha",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-D Open Full Silver LATIN Jive",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 290",
+              "event": "L-D Open Full Silver LATIN Paso Doble",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 284",
+              "event": "L-D Open Full Silver LATIN Rumba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "L-D Open Full Silver LATIN Samba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 282",
+              "event": "L-B Open Full Gold LATIN Cha Cha",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 273",
+              "event": "L-B Open Full Gold LATIN Jive",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 290",
+              "event": "L-B Open Full Gold LATIN Paso Doble",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 284",
+              "event": "L-B Open Full Gold LATIN Rumba",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 283",
+              "event": "L-B Open Full Gold LATIN Samba",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 299",
+              "event": "L-B Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 275",
+              "event": "L-C Open Full Gold LATIN Cha Cha",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 286",
+              "event": "L-C Open Full Gold LATIN Jive",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 272",
+              "event": "L-C Open Full Gold LATIN Paso Doble",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 277",
+              "event": "L-C Open Full Gold LATIN Rumba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 270",
+              "event": "L-C Open Full Gold LATIN Samba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 269",
+              "event": "L-C Open Full Silver LATIN Cha Cha",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 252",
+              "event": "L-C Open Full Silver LATIN Jive",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 285",
+              "event": "L-C Open Full Silver LATIN Paso Doble",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 256",
+              "event": "L-C Open Full Silver LATIN Rumba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 249",
+              "event": "L-C Open Full Silver LATIN Samba",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 215",
+              "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Jackson, Jenn",
+              "awards": null
+            },
+            {
+              "heat": "Heat 302",
+              "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+              "partner": "Ramsum, Carolyn",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Si, Sylvia",
+          "oldEntryCount": 10,
+          "newEntryCount": 10,
+          "addedEntries": [
+            {
+              "heat": "Heat 216",
+              "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 215",
+              "event": "L-C Open Bronze Pro-Am BALLROOM 3-Dance (W/T/F)",
+              "partner": "Komelkov, Vladyslav",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Stacey, Kelly",
+          "oldEntryCount": 31,
+          "newEntryCount": 35,
+          "addedEntries": [
+            {
+              "heat": "Heat 143",
+              "event": "G-D Open Full Bronze CLUB West Coast Swing",
+              "partner": "Schleese, Jochen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 163",
+              "event": "G-D Open Full Silver CLUB West Coast Swing",
+              "partner": "Schleese, Jochen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 155",
+              "event": "G-E Open Full Bronze CLUB West Coast Swing",
+              "partner": "Schleese, Jochen",
+              "awards": null
+            },
+            {
+              "heat": "Heat 167",
+              "event": "G-E Open Full Silver CLUB West Coast Swing",
+              "partner": "Schleese, Jochen",
+              "awards": null
+            }
+          ],
+          "removedEntries": []
+        },
+        {
+          "name": "Sydorchuk, Liubomyr",
+          "oldEntryCount": 5,
+          "newEntryCount": 5,
+          "addedEntries": [
+            {
+              "heat": "Heat 357",
+              "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/S)",
+              "partner": "Czarnecka, Emilia",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 357",
+              "event": "AC-11U Amateur Silver/Gold LATIN Challenge (C/R/S)",
+              "partner": "Czarnecka, Emilia",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Turcotte-Miao, Audrey",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Filatov, Arseniy",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 174",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Filatov, Arseniy",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Ye, Isabel",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Salsa",
+              "partner": null,
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 358",
+              "event": "Bachata",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 342",
+              "event": "Jazz Jive Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 353",
+              "event": "Latin Fusion",
+              "partner": null,
+              "awards": null
+            },
+            {
+              "heat": "Heat 346",
+              "event": "Madonna Medley",
+              "partner": null,
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Youssouf, Aesha",
+          "oldEntryCount": 4,
+          "newEntryCount": 4,
+          "addedEntries": [
+            {
+              "heat": "Heat 174A",
+              "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+              "partner": "Kirillov, Eduard",
+              "awards": null
+            },
+            {
+              "heat": "Heat 179",
+              "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+              "partner": "Kirillov, Eduard",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 318",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+              "partner": "Kirillov, Eduard",
+              "awards": null
+            },
+            {
+              "heat": "Heat 359",
+              "event": "AC-16+ Amateur 16+ Pre-Champ/Champ LATIN Challenge (C/S/R/P/J)",
+              "partner": "Kirillov, Eduard",
+              "awards": null
+            }
+          ]
+        },
+        {
+          "name": "Zhelasko, Danny",
+          "oldEntryCount": 21,
+          "newEntryCount": 21,
+          "addedEntries": [
+            {
+              "heat": "Heat 375",
+              "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 386",
+              "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 379",
+              "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 378",
+              "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 377",
+              "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 376",
+              "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            }
+          ],
+          "removedEntries": [
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Cha Cha (C)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 172",
+              "event": "L-AD1 Open Mixed-Am LATIN Championship (C/S/R/P/J)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Jive (J)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Paso Doble (P)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Rumba (R)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            },
+            {
+              "heat": "Heat 169",
+              "event": "L-AD1 Open Mixed-Am LATIN Samba (S)",
+              "partner": "Prokopchuk, Zhanna",
+              "awards": null
+            }
+          ]
+        }
+      ]
+    },
+    "events": {
+      "oldCount": 1258,
+      "newCount": 1279,
+      "oldUniqueCount": 1256,
+      "newUniqueCount": 1277,
+      "added": [
+        "\"Cheeky Girls\" - 10+ Jazz - 9 Participants",
+        "\"Contemporary\" - 10+ Contemporary - 12 participants",
+        "\"Lviv\" - 12+ Lyrics - 11 participants",
+        "\"Night Stars\" - 10+ Contemporary - 14 participants",
+        "\"Room Service\" - 10+ lyrics - 7 participants",
+        "\"Snow\" - 5+ modern - 6 participants",
+        "\"Space Girls\" - 10+ Modern - 7 participants",
+        "\"The Clock\" - 7+ Modern - 8 participants",
+        "A-11U Solo Indv. Pre-Bronze/Bronze 1 BALLROOM Challenge (W/T/Q)",
+        "A-12+ Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+        "A-12+ Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
+        "A-JR1 Solo Individual Bronze BALLROOM  (W/T/Q)",
+        "A-JV1 Solo Individual Beginner LATIN Jive (J)",
+        "A-JV1 Solo Individual Pre-Bronze LATIN Cha Cha (C)",
+        "A-PD Solo Individual Bronze 1 BALLROOM  (W/T/Q)",
+        "A-PD Solo Individual Pre-Bronze 1 BALLROOM  (W/T)",
+        "AC-16+ Toronto Dancesport Open BALLROOM Challenge Cup (W/Q)",
+        "G-D Open Full Bronze CLUB West Coast Swing",
+        "G-D Open Full Silver CLUB West Coast Swing",
+        "G-E Open Full Bronze CLUB West Coast Swing",
+        "G-E Open Full Silver CLUB West Coast Swing",
+        "GROUP - \"Litachok\" - 10+ Modern - 9 participants",
+        "L-D Closed Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "L-D Open Full Gold BALLROOM Viennese Waltz",
+        "L-D Open Full Silver LATIN Cha Cha",
+        "L-D Open Full Silver LATIN Jive",
+        "L-D Open Full Silver LATIN Paso Doble",
+        "L-D Open Full Silver LATIN Rumba",
+        "L-D Open Full Silver LATIN Samba",
+        "L-D2 Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+        "L-F Open Bronze 1 RHYTHM Cha Cha",
+        "L-F Open Bronze 1 RHYTHM Mambo",
+        "L-F Open Bronze 1 RHYTHM Rumba",
+        "L-F Open Bronze 1 RHYTHM Swing",
+        "L-F Open Bronze 2 RHYTHM Cha Cha",
+        "L-F Open Bronze 2 RHYTHM Mambo",
+        "L-F Open Bronze 2 RHYTHM Rumba",
+        "L-F Open Bronze 2 RHYTHM Swing",
+        "L-F Open Bronze Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "L-F Open Full Bronze RHYTHM Cha Cha",
+        "L-F Open Full Bronze RHYTHM Mambo",
+        "L-F Open Full Bronze RHYTHM Rumba",
+        "L-F Open Full Bronze RHYTHM Swing",
+        "L-F Open Newcomer Pro-Am RHYTHM 3-Dance (C/R/SW)",
+        "L-JV1 Mixed-Am Bronze 1 LATIN Rumba (R)",
+        "L-JV1 Mixed-Am Bronze LATIN  (C/R/J)",
+        "OPEN Professional SHOWDANCE Championships",
+        "SOLO - \"EMI\" - 10+ Jazz"
+      ],
+      "removed": [
+        "\"Contemporary\" - 10+ Contemporary (12 participants)",
+        "\"Litachok\" - 10+ Modern (9 participants)",
+        "\"Lviv\" - 12+ Lyrics (11 participants)",
+        "\"Night Stars\" - 10+ Contemporary (12 participants)",
+        "\"Room Service\" - 10+ lyrics (7 participants)",
+        "\"Snow\" - 5+ modern (6 participants)",
+        "\"Space Girls\" - 10+ Modern (7 participants)",
+        "\"The Clock\" - 7+ Modern (9 participants)",
+        "A-JR1 Pre-Comp. Solo Individual Pre-Bronze BALLROOM (W/T)",
+        "A-JR1 Solo Individual Beginner BALLROOM Quickstep (Q)",
+        "A-JR1 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
+        "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/J)",
+        "A-JV1 Pre-Comp. Solo Individual Pre-Bronze LATIN (C/S)",
+        "A-PD Solo Individual Pre-Bronze BALLROOM  (W/T)",
+        "AC-AD Amateur Pre-Champ LATIN  (C/R/S)",
+        "AC-AD Open Amateur LATIN  (C/R/S)",
+        "L-B Open Full Gold LATIN Cha Cha",
+        "L-B Open Full Gold LATIN Jive",
+        "L-B Open Full Gold LATIN Paso Doble",
+        "L-B Open Full Gold LATIN Rumba",
+        "L-B Open Full Gold LATIN Samba",
+        "L-B Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+        "L-C Open Full Silver LATIN Cha Cha",
+        "L-C Open Full Silver LATIN Jive",
+        "L-C Open Full Silver LATIN Paso Doble",
+        "L-C Open Full Silver LATIN Rumba",
+        "L-C Open Full Silver LATIN Samba"
+      ],
+      "rosterChanged": [
+        {
+          "event": "A-11U Solo Indv. Pre-Bronze/Bronze BALLROOM Challenge (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Kuznetsova, Margarita",
+            "Ryzhak, Varvara"
+          ]
+        },
+        {
+          "event": "A-11U Solo Indv. Pre-Bronze/Bronze LATIN Challenge (C/R/S)",
+          "added": [],
+          "removed": [
+            "Ryzhak, Varvara"
+          ]
+        },
+        {
+          "event": "A-11U Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+          "added": [
+            "Selivanov, Julianna"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-12+ Toronto Dancesport Open Solo Indv. LATIN Challenge Cup (C/J)",
+          "added": [
+            "Bushchyk, Alessiah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR1 Open Solo Individual LATIN Championship (C/S/R/P/J)",
+          "added": [
+            "Bushchyk, Alessiah"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR1 Solo Individual Pre-Champ LATIN  (C/R/S)",
+          "added": [
+            "Bushchyk, Alessiah"
+          ],
+          "removed": [
+            "Sazonova, Nataliia"
+          ]
+        },
+        {
+          "event": "A-JR2 Open Solo Individual LATIN Cha Cha (C)",
+          "added": [
+            "Rakityanska, Arina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR2 Open Solo Individual LATIN Rumba (R)",
+          "added": [
+            "Rakityanska, Arina"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR2 Solo Individual Pre-Champ BALLROOM  (W/T/Q)",
+          "added": [
+            "Sazonova, Nataliia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JR2 Solo Individual Pre-Champ LATIN  (C/R/S)",
+          "added": [
+            "Sazonova, Nataliia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-JV1 Solo Individual Pre-Bronze LATIN Jive (J)",
+          "added": [
+            "Kouklinski, Audrey"
+          ],
+          "removed": []
+        },
+        {
+          "event": "A-PD Solo Individual Bronze BALLROOM  (W/T/Q)",
+          "added": [],
+          "removed": [
+            "Kuznetsova, Margarita"
+          ]
+        },
+        {
+          "event": "A-YTH Open Solo Individual LATIN Rumba (R)",
+          "added": [],
+          "removed": [
+            "Rakityanska, Arina"
+          ]
+        },
+        {
+          "event": "AC-11U Amateur Silver/Gold LATIN Challenge (C/R/S)",
+          "added": [],
+          "removed": [
+            "Czarnecka, Emilia",
+            "Sydorchuk, Liubomyr"
+          ]
+        },
+        {
+          "event": "AC-12+ Amateur Silver/Gold LATIN Challenge (C/R/S)",
+          "added": [
+            "Czarnecka, Emilia",
+            "Sydorchuk, Liubomyr"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-16+ Amateur 16+ Pre-Champ/Champ BALLROOM Challenge (W/T/VW/F/Q)",
+          "added": [
+            "Baranycz, Roman",
+            "Panina, Dariya"
+          ],
+          "removed": [
+            "Kirillov, Eduard",
+            "Youssouf, Aesha"
+          ]
+        },
+        {
+          "event": "AC-16+ Amateur 16+ Pre-Champ/Champ LATIN Challenge (C/S/R/P/J)",
+          "added": [],
+          "removed": [
+            "Kirillov, Eduard",
+            "Youssouf, Aesha"
+          ]
+        },
+        {
+          "event": "AC-AD Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Kirillov, Eduard",
+            "Youssouf, Aesha"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-AD Open Amateur LATIN Championship (C/S/R/P/J)",
+          "added": [
+            "Kirillov, Eduard",
+            "Youssouf, Aesha"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-YTH Amateur Pre-Champ BALLROOM  (F/VW)",
+          "added": [
+            "Baranycz, Roman",
+            "Panina, Dariya"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-YTH Amateur Pre-Champ BALLROOM  (W/T/Q)",
+          "added": [
+            "Baranycz, Roman",
+            "Panina, Dariya"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-YTH Open Amateur BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Pavlenko, Maya",
+            "Rozdorozhnyi, Mark"
+          ],
+          "removed": []
+        },
+        {
+          "event": "AC-YTH Open Amateur LATIN Championship (C/S/R/P/J)",
+          "added": [
+            "Pavlenko, Maya",
+            "Rozdorozhnyi, Mark"
+          ],
+          "removed": []
+        },
+        {
+          "event": "Bachata",
+          "added": [
+            "Aghbari, Maya",
+            "Bilotta, Amalia Angelina",
+            "De Fritas, Milena",
+            "Ngan, Kaitlyn",
+            "Reznik, Raven Gelula"
+          ],
+          "removed": [
+            "Dinova, Christina",
+            "Masliy, Alice",
+            "Ozdoyeva, Alima",
+            "Ozdoyeva, Ryana",
+            "Ozdoyeva, Yeva",
+            "Ye, Isabel"
+          ]
+        },
+        {
+          "event": "L-C Closed Silver 1 LATIN Cha Cha",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Closed Silver 1 LATIN Rumba",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Closed Silver 1 LATIN Samba",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Closed Silver Pro-Am LATIN 3-Dance (C/R/S)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Bronze Pro-Am LATIN 3-Dance (C/R/S)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Full Gold BALLROOM Foxtrot",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Full Gold BALLROOM Quickstep",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Full Gold BALLROOM Tango",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Full Gold BALLROOM Waltz",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Full Gold LATIN Cha Cha",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Full Gold LATIN Jive",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Full Gold LATIN Paso Doble",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Full Gold LATIN Rumba",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Full Gold LATIN Samba",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Gold Pro-Am BALLROOM 3-Dance (W/T/F)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-C Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+          "added": [
+            "Jackson, Jenn"
+          ],
+          "removed": [
+            "Ramsum, Carolyn"
+          ]
+        },
+        {
+          "event": "L-C Open Pro-Am BALLROOM Championship (W/T/VW/F/Q)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Bronze LATIN Cha Cha",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Bronze LATIN Rumba",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Bronze LATIN Samba",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Gold LATIN Cha Cha",
+          "added": [
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Gold LATIN Jive",
+          "added": [
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Gold LATIN Paso Doble",
+          "added": [
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Gold LATIN Rumba",
+          "added": [
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Gold LATIN Samba",
+          "added": [
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Silver BALLROOM Foxtrot",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Silver BALLROOM Quickstep",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Silver BALLROOM Tango",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Silver BALLROOM Viennese Waltz",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Full Silver BALLROOM Waltz",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Gold Pro-Am LATIN 3-Dance (C/R/S)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn",
+            "Ramsum, Carolyn",
+            "Shelkovyy, Yuriy"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Pro-Am BALLROOM Scholarship (W/T/VW/F/Q)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-D Open Silver Pro-Am BALLROOM 3-Dance (W/T/F)",
+          "added": [
+            "Cooperman, Tony",
+            "McIntyre, Lauralyn"
+          ],
+          "removed": []
+        },
+        {
+          "event": "L-JV1 Mixed-Am Bronze LATIN Cha Cha (C)",
+          "added": [
+            "Movshovich Fil, Zachary",
+            "Obouhov, Mia"
+          ],
+          "removed": []
+        },
+        {
+          "event": "OPEN Professional LATIN Championships (C/S/R/P/J)",
+          "added": [
+            "Cooperman, Tony",
+            "Mlynarczyk, Weronika"
+          ],
+          "removed": []
+        }
+      ]
+    }
   }
 ]
